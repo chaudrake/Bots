@@ -3,3 +3,4 @@ requests
 schedule
 dotenv
 tracery
+colorama
