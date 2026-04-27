@@ -16,8 +16,8 @@ from datetime import datetime
 from dotenv import load_dotenv  # Ajout de cette importation
 
 """MISE A JOUR DU REPERTOIRE DE TRAVAIL POUR QUE CRON JOB MARCHE"""
-os.chdir('/home/pyth1on/capitales')
-version = "v4.7.8"
+#os.chdir('/home/pyth1on/capitales')
+#version = "v4.7.8"
 
 print(Fore.GREEN + f"####---> Capitales {version}" + Style.RESET_ALL)
 
@@ -39,7 +39,7 @@ def replit_check(using_replit):
 def init_twitter_client():
     """Initialising Twitter API Client"""
     # Chargement des variables d'environnement depuis .env
-    load_dotenv('/home/pyth1on/.env')
+    #load_dotenv('/home/pyth1on/.env')
 
     # Getting Twitter API Keys from environment variables
     consumer_key = os.getenv("CONSUMER_KEY")
