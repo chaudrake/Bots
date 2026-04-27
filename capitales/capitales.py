@@ -44,11 +44,14 @@ def post_to_twitter(api_v2, quote):
 
 
 def tracery_magic():
-    if not os.path.exists("bot.json"):
-        print(Back.RED + Fore.BLACK + "####---> Fichier bot.json manquant!" + Style.RESET_ALL)
+    # Cherche bot.json dans le dossier capitales/
+    bot_json_path = os.path.join(os.path.dirname(__file__), "bot.json")
+    
+    if not os.path.exists(bot_json_path):
+        print(Back.RED + Fore.BLACK + f"####---> Fichier bot.json manquant à {bot_json_path}!" + Style.RESET_ALL)
         sys.exit()
 
-    with open("bot.json", 'r', encoding="utf-8") as f:
+    with open(bot_json_path, 'r', encoding="utf-8") as f:
         bot_data = json.load(f)
 
     grammar = tracery.Grammar(bot_data)
