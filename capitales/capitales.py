@@ -53,6 +53,8 @@ def tracery_magic():
 
     with open(bot_json_path, 'r', encoding="utf-8") as f:
         bot_data = json.load(f)
+    
+    # ... reste du code inchangé
 
     grammar = tracery.Grammar(bot_data)
     grammar.add_modifiers(base_english)
