@@ -1,0 +1,28 @@
+name: Test Bot Capitales
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v3
+
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installer dépendances
+        run: pip install tweepy
+
+      - name: Lancer bot Capitales
+        env:
+          CONSUMER_KEY: ${{ secrets.CAPITALES_CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CAPITALES_CONSUMER_SECRET }}
+          ACCESS_KEY: ${{ secrets.CAPITALES_ACCESS_KEY }}
+          ACCESS_SECRET: ${{ secrets.CAPITALES_ACCESS_SECRET }}
+        run: python Bots/capitales/capitales.py
