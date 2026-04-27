@@ -42,10 +42,12 @@ def init_twitter_client():
     load_dotenv('/home/pyth1on/.env')
 
     # Getting Twitter API Keys from environment variables
-    consumer_key = os.getenv('CAPITALES_consumer_key')
-    consumer_secret = os.getenv('CAPITALES_consumer_secret')
-    access_token = os.getenv('CAPITALES_access_token')
-    access_token_secret = os.getenv('CAPITALES_access_token_secret')
+    consumer_key = os.getenv("CONSUMER_KEY")
+    consumer_secret = os.getenv("CONSUMER_SECRET")
+    access_key = os.getenv("ACCESS_KEY")
+    access_secret = os.getenv("ACCESS_SECRET")
+
+print("Bot lancé")
 
     if not all([consumer_key, consumer_secret, access_token, access_token_secret]):
         print(Back.RED + Fore.BLACK +
