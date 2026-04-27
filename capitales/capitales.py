@@ -12,14 +12,13 @@ from colorama import Fore, Back, Style
 from tracery.modifiers import base_english
 from datetime import datetime
 
-# Version du bot
 version = "v4.7.8"
 
 print(Fore.GREEN + f"####---> Capitales {version}" + Style.RESET_ALL)
 
+
 def init_twitter_client():
     """Initialising Twitter API Client"""
-    # Récupération des clés API depuis les variables d'environnement GitHub Secrets
     consumer_key = os.getenv("CAPITALES_CONSUMER_KEY")
     consumer_secret = os.getenv("CAPITALES_CONSUMER_SECRET")
     access_token = os.getenv("CAPITALES_ACCESS_TOKEN")
@@ -48,15 +47,15 @@ def init_twitter_client():
     )
     return api_v1, api_v2
 
+
 def get_imgs(api_v1, imgs):
     """Downloads images from url list and returns image filepaths"""
-    # Créer le dossier temp-imgs s'il n'existe pas
     os.makedirs("temp-imgs", exist_ok=True)
-    
+
     media_ids = []
     for img in imgs:
         try:
-            filepath = f"temp-imgs/{img.rsplit('/',1)[1]}"
+            filepath = f"temp-imgs/{img.rsplit('/', 1)[1]}"
             request = requests.get(url=img, stream=True, timeout=60)
             with open(filepath, 'wb') as image:
                 for chunk in request:
@@ -65,8 +64,7 @@ def get_imgs(api_v1, imgs):
             media_ids.append(media.media_id)
         except Exception as error:
             log_string = f"{error} for image {img}"
-            add_to_log(log_string)
-            # Utiliser une image de backup si disponible
+            print(Fore.YELLOW + f'####---> {log_string}' + Style.RESET_ALL)
             backup_file = "temp-imgs/unavailable.jpg"
             if os.path.isfile(backup_file):
                 media = api_v1.media_upload(backup_file)
@@ -76,12 +74,14 @@ def get_imgs(api_v1, imgs):
                 os.remove(filepath)
     return media_ids
 
+
 def post_to_twitter(api_v2, quote, include_datetime, media_ids=None):
     """Handles posting to twitter (with or without media)"""
     if include_datetime:
-        quote = (f"[{str(datetime.now()).rsplit(':',1)[0]}]\n\n") + quote
-    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote[:280])  # Twitter limite à 280 chars
+        quote = (f"[{str(datetime.now()).rsplit(':', 1)[0]}]\n\n") + quote
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote[:280])
     print(Fore.GREEN + f'\n####---> Posted: ID={tweet[0]["id"]}' + Style.RESET_ALL)
+
 
 def manage_index():
     """Gère le fichier index des capitales déjà tweetées"""
@@ -99,14 +99,14 @@ def manage_index():
 
     return index_data
 
+
 def tracery_magic():
     """Génère une citation avec gestion des capitales déjà utilisées"""
-    # Charger les données
     if not os.path.exists("bot.json"):
         print(Back.RED + Fore.BLACK +
               "####---> Fichier bot.json manquant!" + Style.RESET_ALL)
         sys.exit()
-    
+
     with open("bot.json", 'r', encoding="utf-8") as f:
         bot_data = json.load(f)
 
@@ -151,6 +151,7 @@ def tracery_magic():
 
     return parsed_quote, imgs
 
+
 def init_logger():
     """Initializes the logger"""
     logger = logging.getLogger("Twitter-Bot")
@@ -160,29 +161,23 @@ def init_logger():
     logger.addHandler(log_file)
     return logger
 
-def add_to_log(log_string):
-    """Adds a new entry to the logfile"""
-    print(Fore.YELLOW + f'####---> {log_string}' + Style.RESET_ALL)
-    logger.exception(log_string)
 
 def main():
     """The main function for the bot."""
     global logger
-    
-    # Initialisation
     logger = init_logger()
     api_v1, api_v2 = init_twitter_client()
-    
-    # Pour GitHub Actions, on tweete directement
+
     quote, imgs = tracery_magic()
-    
+
     if not imgs:
         post_to_twitter(api_v2, quote, True)
     else:
         media_ids = get_imgs(api_v1, imgs)
         post_to_twitter(api_v2, quote, True, media_ids)
-    
+
     print(Fore.GREEN + "####---> Bot terminé avec succès!" + Style.RESET_ALL)
+
 
 if __name__ == "__main__":
     main()
