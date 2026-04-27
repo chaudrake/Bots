@@ -1,0 +1,1568 @@
+
+2025-08-23 17:14:31,451 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:15:01,656 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:59:26,174 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:59:56,414 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 18:59:26,128 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 18:59:56,260 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 19:59:27,103 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 19:59:57,232 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 20:59:27,079 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 20:59:57,196 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 21:59:27,244 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 21:59:57,362 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 22:59:29,476 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 22:59:59,581 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 23:59:34,204 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 00:00:04,359 An error has occured Capitales: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 00:59:30,219 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 01:00:00,331 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 01:59:30,532 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 02:00:00,638 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 02:59:29,227 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 02:59:59,331 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 03:59:24,869 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 03:59:54,969 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 04:59:30,068 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 05:00:00,159 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 05:59:43,966 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 06:00:14,151 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 06:59:32,138 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 07:00:02,243 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 07:59:30,660 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 08:00:00,772 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 08:59:38,832 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 09:00:08,979 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 09:59:28,335 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 09:59:58,438 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 10:59:26,928 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 10:59:57,029 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 11:59:29,708 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 11:59:59,808 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 12:59:30,558 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 13:00:00,651 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 13:59:27,681 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 13:59:57,783 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 14:59:28,387 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 14:59:58,504 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 15:59:30,113 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 16:00:00,272 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 16:59:29,853 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 16:59:59,958 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 17:59:27,996 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 17:59:58,120 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 18:59:24,996 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 18:59:55,099 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 19:59:28,912 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 19:59:59,020 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 20:59:28,692 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 20:59:58,817 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 21:59:29,799 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 21:59:59,930 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 22:59:35,617 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 23:00:05,747 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-24 23:59:35,140 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 00:00:05,339 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 00:59:28,548 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 00:59:58,687 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 01:59:30,952 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 02:00:01,079 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 02:59:28,580 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 02:59:58,676 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 03:59:22,941 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 03:59:53,030 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 04:59:24,450 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 04:59:54,552 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 05:59:34,354 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 06:00:04,467 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 06:59:28,826 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 06:59:58,979 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 07:59:31,577 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 08:00:01,695 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 08:59:33,692 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 09:00:03,840 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 09:59:27,023 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 09:59:57,205 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 10:59:24,838 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 10:59:54,937 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 11:59:29,985 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 12:00:00,117 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 12:59:26,919 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 12:59:57,027 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 13:59:28,432 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 13:59:58,560 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 14:59:26,544 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 14:59:56,675 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 15:59:34,052 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 16:00:04,224 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 16:33:32,899 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
+
+2025-08-25 16:34:02,997 An error has occured Capitales: 429 Too Many Requests
+Too Many Requests
+Traceback (most recent call last):
+  File "/home/pyth1on/capitales/capitales.py", line 252, in main
+    post_to_twitter(api_v2, quote, include_datetime)
+  File "/home/pyth1on/capitales/capitales.py", line 94, in post_to_twitter
+    tweet = api_v2.create_tweet(media_ids=media_ids, text=quote)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 835, in create_tweet
+    return self._make_request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/client.py", line 115, in request
+    raise TooManyRequests(response)
+tweepy.errors.TooManyRequests: 429 Too Many Requests
+Too Many Requests
