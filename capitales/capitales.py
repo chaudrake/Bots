@@ -10,7 +10,7 @@ from tracery.modifiers import base_english
 from datetime import datetime
 
 version = "v4.7.8"
-
+script_dir = os.path.normpath(os.path.dirname(os.path.abspath(__file__)))
 print(Fore.GREEN + f"####---> Capitales {version}" + Style.RESET_ALL)
 
 
