@@ -45,6 +45,10 @@ def post_to_twitter(api_v2, quote):
 
 def tracery_magic():
     # Cherche bot.json dans le dossier capitales/
+    # Cherche bot.json dans le répertoire courant d'abord, puis dans le répertoire du script
+if os.path.exists("bot.json"):
+    bot_json_path = "bot.json"
+else:
     script_dir = os.path.dirname(os.path.abspath(__file__))
     bot_json_path = os.path.join(script_dir, "bot.json")
     
