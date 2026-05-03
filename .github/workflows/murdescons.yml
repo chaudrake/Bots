@@ -21,21 +21,21 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd murdescons
+          cd Murdescons
           pip install tweepy
 
       - name: Debug files
         run: |
-          echo "=== murdescons directory content ==="
-          ls -la murdescons/
+          echo "=== Murdescons directory content ==="
+          ls -la Murdescons/
           echo "=== Check liste.txt (first 10 lines) ==="
-          head -10 murdescons/liste.txt
+          head -10 Murdescons/liste.txt
           echo "=== Check tweeted.txt ==="
-          cat murdescons/tweeted.txt 2>/dev/null || echo "tweeted.txt n'existe pas encore"
+          cat Murdescons/tweeted.txt 2>/dev/null || echo "tweeted.txt n'existe pas encore"
 
       - name: Run bot
         run: |
-          cd murdescons
+          cd Murdescons
           python murdescons.py
         env:
           MURDESCONS_CONSUMER_KEY: ${{ secrets.MURDESCONS_CONSUMER_KEY }}
