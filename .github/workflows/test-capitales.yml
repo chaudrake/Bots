@@ -2,8 +2,8 @@ name: Capitales Bot
 
 on:
   workflow_dispatch:   # permet de lancer à la main
-#  schedule:
-#    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
+  schedule:
+    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
 
 jobs:
   run-bot:
