@@ -44,22 +44,21 @@ def post_to_twitter(api_v2, quote):
 
 
 def tracery_magic():
-    # Cherche bot.json dans le dossier capitales/
     # Cherche bot.json dans le répertoire courant d'abord, puis dans le répertoire du script
-if os.path.exists("bot.json"):
-    bot_json_path = "bot.json"
-else:
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    bot_json_path = os.path.join(script_dir, "bot.json")
-    
-    print(Fore.YELLOW + f"####---> Chemin du script: {script_dir}" + Style.RESET_ALL)
-    print(Fore.YELLOW + f"####---> Recherche bot.json dans: {bot_json_path}" + Style.RESET_ALL)
-    
-    if not os.path.exists(bot_json_path):
-        print(Back.RED + Fore.BLACK + f"####---> Fichier bot.json manquant!" + Style.RESET_ALL)
-        print(Fore.YELLOW + "Contenu du dossier script:" + Style.RESET_ALL)
-        os.system(f"ls -la {script_dir}")
-        sys.exit()
+    if os.path.exists("bot.json"):
+        bot_json_path = "bot.json"
+    else:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        bot_json_path = os.path.join(script_dir, "bot.json")
+        
+        print(Fore.YELLOW + f"####---> Chemin du script: {script_dir}" + Style.RESET_ALL)
+        print(Fore.YELLOW + f"####---> Recherche bot.json dans: {bot_json_path}" + Style.RESET_ALL)
+        
+        if not os.path.exists(bot_json_path):
+            print(Back.RED + Fore.BLACK + f"####---> Fichier bot.json manquant!" + Style.RESET_ALL)
+            print(Fore.YELLOW + "Contenu du dossier script:" + Style.RESET_ALL)
+            os.system(f"ls -la {script_dir}")
+            sys.exit()
 
     with open(bot_json_path, 'r', encoding="utf-8") as f:
         bot_data = json.load(f)
@@ -72,7 +71,7 @@ else:
     parsed_quote = re.sub(r'\{img\s[^}]*\}', '', quote)
     imgs = re.findall(r'\bhttps?://[^}\s]+', ' '.join(raw_img_links))
 
-    return parsed_quote, imgs
+    return parsed_quote, imgs  # ← Correction : retourne parsed_quote au lieu de quote
 
 
 def main():
