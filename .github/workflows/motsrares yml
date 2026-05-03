@@ -1,1 +1,43 @@
+name: Mots Rares Bot
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd motsrares
+          pip install tweepy
+
+      - name: Debug files
+        run: |
+          echo "=== motsrares directory content ==="
+          ls -la motsrares/
+          echo "=== Check motsrares.txt (first 5 lines) ==="
+          head -10 motsrares/motsrares.txt
+          echo "=== Check indexmotsrares.txt ==="
+          cat motsrares/indexmotsrares.txt 2>/dev/null || echo "indexmotsrares.txt n'existe pas encore"
+
+      - name: Run bot
+        run: |
+          cd motsrares
+          python motsrares.py
+        env:
+          MOTSRARES_CONSUMER_KEY: ${{ secrets.MOTSRARES_CONSUMER_KEY }}
+          MOTSRARES_CONSUMER_SECRET: ${{ secrets.MOTSRARES_CONSUMER_SECRET }}
+          MOTSRARES_ACCESS_KEY: ${{ secrets.MOTSRARES_ACCESS_KEY }}
+          MOTSRARES_ACCESS_TOKEN_SECRET: ${{ secrets.MOTSRARES_ACCESS_SECRET }}
