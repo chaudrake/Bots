@@ -3,7 +3,7 @@ name: Mots Rares Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
+    - cron: "0 9 * * *"
 
 jobs:
   run-bot:
@@ -27,10 +27,8 @@ jobs:
         run: |
           echo "=== motsrares directory content ==="
           ls -la motsrares/
-          echo "=== Check motsrares.txt (first 5 lines) ==="
-          head -10 motsrares/motsrares.txt
-          echo "=== Check indexmotsrares.txt ==="
-          cat motsrares/indexmotsrares.txt 2>/dev/null || echo "indexmotsrares.txt n'existe pas encore"
+          echo "=== Check motsrares.txt ==="
+          head -5 motsrares/motsrares.txt
 
       - name: Run bot
         run: |
@@ -40,4 +38,4 @@ jobs:
           MOTSRARES_CONSUMER_KEY: ${{ secrets.MOTSRARES_CONSUMER_KEY }}
           MOTSRARES_CONSUMER_SECRET: ${{ secrets.MOTSRARES_CONSUMER_SECRET }}
           MOTSRARES_ACCESS_KEY: ${{ secrets.MOTSRARES_ACCESS_KEY }}
-          MOTSRARES_ACCESS_TOKEN_SECRET: ${{ secrets.MOTSRARES_ACCESS_SECRET }}
+          MOTSRARES_ACCESS_SECRET: ${{ secrets.MOTSRARES_ACCESS_SECRET }}
