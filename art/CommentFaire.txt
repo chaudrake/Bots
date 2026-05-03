@@ -1,0 +1,10 @@
+Chercher l'image de l'oeuvre dans Google Images : https://images.google.com/
+quand la liste s'affiche, clic sur "Outils"
+taille : clic sur "Moyenne"
+Copier le lien dans le fichier "testoeuvres.txt"
+lancer "PourTesterLesnouvellesImages.py" pour voir si le tweet part bien avec l'image (compte Test)
+
+La plupart des erreurs sont dues aux liens vers les images : donc changer de lien si problème.
+
+Melange.py permet de mélanger toutes les lignes d'un fichier.
+Ca m'a servi pour ne pas qu'il y ait 3 Van Gogh d'affilée ou pour varier les peintures et les sculptures

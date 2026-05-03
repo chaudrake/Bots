@@ -1,5 +1,3 @@
-# Tweete une oeuvre par jour
-# Si une image bloque, ça tweete la suivante
 import os
 import tweepy
 import requests
@@ -86,40 +84,39 @@ warnings.filterwarnings("ignore", category=Image.DecompressionBombWarning)
 # Vérifier que l'index est valide
 if index < len(oeuvres):
     description, image_path = oeuvres[index]
-    temp_image_path = None
-    success = False
 
-    try:
-        # Vérifier si l'image est une URL ou un chemin local
-        if image_path.startswith("http"):
-            headers = {
-                "User-Agent": "YourCustomUserAgent/1.0 (your email or contact info)"
-            }
-            try:
-                response = requests.get(image_path, headers=headers)
-                response.raise_for_status()
+    # Vérifier si l'image est une URL ou un chemin local
+    if image_path.startswith("http"):
+        headers = {
+            "User-Agent": "YourCustomUserAgent/1.0 (your email or contact info)"
+        }
+        try:
+            response = requests.get(image_path, headers=headers)
+            response.raise_for_status()
 
-                image_content = resize_image_if_needed(response.content)
+            image_content = resize_image_if_needed(response.content)
 
-                if image_content is None:
-                    print(f"Erreur : L'image à l'URL {image_path} ne peut pas être traitée car elle dépasse la limite de taille.")
-                else:
-                    img = Image.open(BytesIO(image_content))
-                    temp_image_path = 'temp' + os.path.splitext(image_path)[-1]
-                    img.save(temp_image_path)
-                    image_path = temp_image_path
-                    success = True
-            except requests.exceptions.RequestException as e:
-                print(f"Erreur lors de la récupération de l'image depuis l'URL : {e}")
-            except Exception as e:
-                print(f"Erreur lors du traitement de l'image : {e}")
-        else:
-            if os.path.exists(image_path):
-                success = True
+            if image_content is None:
+                print(f"Erreur : L'image à l'URL {image_path} ne peut pas être traitée car elle dépasse la limite de taille.")
+                image_path = None
             else:
-                print(f"Image non trouvée: {image_path}")
+                img = Image.open(BytesIO(image_content))
+                temp_image_path = 'temp' + os.path.splitext(image_path)[-1]
+                img.save(temp_image_path)
+                image_path = temp_image_path
+        except requests.exceptions.RequestException as e:
+            print(f"Erreur lors de la récupération de l'image depuis l'URL : {e}")
+            image_path = None
+        except Exception as e:
+            print(f"Erreur : {e}")
+            image_path = None
+    else:
+        if not os.path.exists(image_path):
+            print(f"Image non trouvée: {image_path}")
+            image_path = None
 
-        if success:
+    if image_path:
+        try:
             # Téléchargement de l'image sur Twitter
             media = api.media_upload(image_path)
 
@@ -128,41 +125,25 @@ if index < len(oeuvres):
 
             print(f"Tweet envoyé pour l'œuvre : {description}")
 
-        # Mettre à jour l'index dans tous les cas (même en cas d'erreur)
-        index = index + 1
-        if index >= len(oeuvres):
-            index = 0
-        write_index(index_file_path, index)
+            # Mettre à jour l'index
+            index = index + 1
+            if index >= len(oeuvres):
+                index = 0
+            write_index(index_file_path, index)
 
-        # Supprimer le fichier temporaire si utilisé
-        if temp_image_path and os.path.exists(temp_image_path):
-            os.remove(temp_image_path)
-
-    except UnidentifiedImageError as e:
-        print(f"Erreur lors de la lecture de l'image : {e}")
-        # Mettre à jour l'index même en cas d'erreur
-        index = index + 1
-        if index >= len(oeuvres):
-            index = 0
-        write_index(index_file_path, index)
-    except tweepy.TweepyException as e:
-        if '403' in str(e):
-            print("Erreur 403 : Vous n'avez pas les permissions nécessaires pour effectuer cette action.")
-            print("Vérifiez les permissions de votre application dans le Twitter Developer Portal.")
-        else:
-            print(f'Erreur lors de la publication du tweet: {e}')
-        # Mettre à jour l'index même en cas d'erreur
-        index = index + 1
-        if index >= len(oeuvres):
-            index = 0
-        write_index(index_file_path, index)
-    except Exception as e:
-        print(f'Erreur inattendue: {e}')
-        # Mettre à jour l'index même en cas d'erreur
-        index = index + 1
-        if index >= len(oeuvres):
-            index = 0
-        write_index(index_file_path, index)
+            # Supprimer le fichier temporaire si utilisé
+            if image_path.startswith('temp'):
+                os.remove(image_path)
+        except UnidentifiedImageError as e:
+            print(f"Erreur lors de la lecture de l'image : {e}")
+        except tweepy.TweepyException as e:
+            if '403' in str(e):
+                print("Erreur 403 : Vous n'avez pas les permissions nécessaires pour effectuer cette action.")
+                print("Vérifiez les permissions de votre application dans le Twitter Developer Portal.")
+            else:
+                print(f'Erreur lors de la publication du tweet: {e}')
+        except Exception as e:
+            print(f'Erreur inattendue: {e}')
 else:
     # Réinitialiser l'index si nécessaire
     index = 0
