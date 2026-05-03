@@ -1,0 +1,1901 @@
+
+2024-01-12 08:26:44,953 [Errno 2] No such file or directory: 'temp-imgs/ad.png' for image https://flagcdn.com/w640/ad.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/main.py", line 88, in get_imgs
+    with open(filepath, 'wb') as image:
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/ad.png'
+
+2024-01-12 08:26:44,953 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/main.py", line 88, in get_imgs
+    with open(filepath, 'wb') as image:
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/ad.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/main.py", line 221, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/main.py", line 97, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/usr/local/lib/python3.10/site-packages/tweepy/api.py", line 3547, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-01-20 21:39:52,294 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 93, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-01-20 21:39:52,300 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 93, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 223, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 99, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-01-24 08:54:05,421 [Errno 122] Disk quota exceeded for image https://flagcdn.com/w640/sa.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 90, in get_imgs
+    with open(filepath, 'wb') as image:
+OSError: [Errno 122] Disk quota exceeded
+
+2024-01-24 08:54:05,424 An error has occured: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 90, in get_imgs
+    with open(filepath, 'wb') as 
+2024-02-15 16:46:35,166 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-02-15 16:46:35,208 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-02-24 19:47:14,951 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-02-24 19:47:14,958 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-03-20 01:49:23,608 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-03-20 01:49:23,703 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-03-24 13:49:43,916 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-03-24 13:49:43,923 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-04-10 13:51:01,159 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-04-10 13:51:01,165 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-04-14 22:51:19,223 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-04-14 22:51:19,233 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-18 07:59:21,401 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-07-18 07:59:21,405 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-07-27 20:00:43,937 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-07-27 20:00:43,948 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-09-01 05:03:42,306 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-09-01 05:03:42,312 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-09-08 20:04:22,199 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-09-08 20:04:22,207 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2024-09-10 17:04:31,829 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2024-09-10 17:04:31,836 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-03-10 14:10:43,431 Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60) for image https://flagcdn.com/w640/km.png
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 234, in request
+    raise TweepyException(f'Failed to send request: {e}').with_traceback(sys.exc_info()[2])
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+tweepy.errors.TweepyException: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+2025-03-10 14:10:43,451 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 234, in request
+    raise TweepyException(f'Failed to send request: {e}').with_traceback(sys.exc_info()[2])
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+tweepy.errors.TweepyException: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-03-10 14:12:16,785 Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60) for image https://flagcdn.com/w640/jp.png
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 234, in request
+    raise TweepyException(f'Failed to send request: {e}').with_traceback(sys.exc_info()[2])
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+tweepy.errors.TweepyException: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+2025-03-10 14:12:16,793 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 234, in request
+    raise TweepyException(f'Failed to send request: {e}').with_traceback(sys.exc_info()[2])
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 228, in request
+    resp = self.session.request(
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+tweepy.errors.TweepyException: Failed to send request: HTTPSConnectionPool(host='upload.twitter.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-07-03 19:46:48,889 400 Bad Request
+media type unrecognized. for image https://flagcdn.com/w640/tp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+2025-07-03 19:46:48,903 An error has occured Drapeux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 73, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 267, in request
+    raise BadRequest(resp)
+tweepy.errors.BadRequest: 400 Bad Request
+media type unrecognized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 200, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 79, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 17:14:31,455 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/ao.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:14:31,472 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 17:15:01,926 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/jo.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:15:01,929 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 17:59:29,294 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/bb.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:59:29,300 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 17:59:59,501 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/cy.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 17:59:59,506 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 18:59:29,268 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/lb.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 18:59:29,281 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 18:59:59,588 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/pk.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 18:59:59,594 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 19:59:30,168 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/jp.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 19:59:30,176 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 20:00:00,468 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/lr.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 20:00:00,473 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 20:59:33,617 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/kr.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 20:59:33,623 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 21:00:04,032 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/mk.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 21:00:04,046 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 21:59:30,285 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/nl.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 21:59:30,296 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 22:00:00,531 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/hr.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 22:00:00,544 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 22:59:32,490 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/ca.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 22:59:32,507 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 23:00:02,861 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/ec.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 23:00:02,866 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-23 23:59:36,642 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/mt.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-23 23:59:36,658 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 00:00:07,115 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/sr.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 00:00:07,126 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 00:59:33,369 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/es.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 00:59:33,377 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 01:00:03,811 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/pg.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 01:00:03,816 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 01:59:33,461 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/uz.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 01:59:33,475 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 02:00:03,789 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/sd.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 02:00:03,802 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 02:59:32,384 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/bj.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 02:59:32,390 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+
+2025-08-24 03:00:02,700 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account. for image https://flagcdn.com/w640/va.png
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+2025-08-24 03:00:02,703 An error has occured Drapeaux: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 77, in get_imgs
+    media = api_v1.media_upload(filepath)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3403, in media_upload
+    return self.simple_upload(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3447, in simple_upload
+    return self.request(
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+326 - To protect our users from spam and other malicious activity, this account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 267, in main
+    media_ids = get_imgs(api_v1, imgs)
+  File "/home/pyth1on/drapeaux/drapeaux.py", line 83, in get_imgs
+    media = api_v1.media_upload(backup_file)
+  File "/home/pyth1on/.local/lib/python3.10/site-packages/tweepy/api.py", line 3390, in media_upload
+    file_type = imghdr.what(filename, h=h)
+  File "/usr/local/lib/python3.10/imghdr.py", line 16, in what
+    f = open(file, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'temp-imgs/unavailable.jpg'
