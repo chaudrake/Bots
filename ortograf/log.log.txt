@@ -1,0 +1,101 @@
+2026-03-28 08:59:10,809 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-03-29 08:59:10,889 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-03-30 08:59:10,973 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-03-31 08:59:10,051 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-03-31 08:59:10,052 - INFO - Pause pendant 4646 secondes
+2026-03-31 10:16:36,223 - INFO - Contenu du tweet: Parmi ne prend jamais de S.
+2026-03-31 10:16:36,497 - INFO - Tweet publié: Response(data={'id': '2038923407656448334', 'text': 'Parmi ne prend jamais de S.', 'edit_history_tweet_ids': ['2038923407656448334']}, includes={}, errors=[], meta={})
+2026-03-31 10:16:36,505 - INFO - Tweet No 175 successfully posted
+2026-03-31 10:16:36,505 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-01 08:59:12,513 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-01 08:59:12,513 - INFO - Pause pendant 8546 secondes
+2026-04-01 11:21:38,623 - INFO - Contenu du tweet: Soi-disant et non soit disant. C'est une erreur très courante.
+2026-04-01 11:21:38,980 - INFO - Tweet publié: Response(data={'id': '2039302163655012482', 'edit_history_tweet_ids': ['2039302163655012482'], 'text': "Soi-disant et non soit disant. C'est une erreur très courante."}, includes={}, errors=[], meta={})
+2026-04-01 11:21:38,987 - INFO - Tweet No 176 successfully posted
+2026-04-01 11:21:38,987 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-02 08:59:11,309 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-03 08:59:11,596 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-04 08:59:11,027 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-05 08:59:11,961 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-05 08:59:11,961 - INFO - Pause pendant 8422 secondes
+2026-04-05 11:19:34,121 - INFO - Contenu du tweet: Valeur ne prend pas de E à la fin, bien qu'il s'agisse d'un nom féminin.
+2026-04-05 11:19:34,403 - INFO - Tweet publié: Response(data={'edit_history_tweet_ids': ['2040751192616075672'], 'text': "Valeur ne prend pas de E à la fin, bien qu'il s'agisse d'un nom féminin.", 'id': '2040751192616075672'}, includes={}, errors=[], meta={})
+2026-04-05 11:19:34,411 - INFO - Tweet No 177 successfully posted
+2026-04-05 11:19:34,411 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-06 08:59:10,977 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-07 08:59:11,194 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-08 08:59:12,933 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-09 08:59:11,443 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-10 08:59:11,277 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-11 08:59:11,404 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-11 08:59:11,404 - INFO - Pause pendant 19624 secondes
+2026-04-11 14:26:15,545 - INFO - Contenu du tweet: A sans accent ou à avec accent ?
+On doit écrire "a" quand il s'agit du verbe avoir. On peut alors le remplacer par "avait". Exemple : "Il a mangé".
+Dans le cas contraire, il faut écrire "à".
+2026-04-11 14:26:15,859 - INFO - Tweet publié: Response(data={'id': '2042972502104637583', 'text': 'A sans accent ou à avec accent ?\nOn doit écrire "a" quand il s\'agit du verbe avoir. On peut alors le remplacer par "avait". Exemple : "Il a mangé".\nDans le cas contraire, il faut écrire "à".', 'edit_history_tweet_ids': ['2042972502104637583']}, includes={}, errors=[], meta={})
+2026-04-11 14:26:15,867 - INFO - Tweet No 178 successfully posted
+2026-04-11 14:26:15,867 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-12 08:59:11,643 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-12 08:59:11,643 - INFO - Pause pendant 5567 secondes
+2026-04-12 10:31:58,810 - INFO - Contenu du tweet: Là ou la ?
+"La" peut soit être un déterminant ("la maison"), soit remplacer un nom ou un groupe nominal ("Je la vois").
+"Là" peut soit indiquer un lieu ("C’est là")., soit servir à désigner quelque chose de manière précise ("cette chose-là").
+2026-04-12 10:31:59,133 - INFO - Tweet publié: Response(data={'edit_history_tweet_ids': ['2043275931725222213'], 'id': '2043275931725222213', 'text': 'Là ou la ?\n"La" peut soit être un déterminant ("la maison"), soit remplacer un nom ou un groupe nominal ("Je la vois").\n"Là" peut soit indiquer un lieu ("C’est là")., soit servir à désigner quelque chose de manière précise ("cette chose-là").'}, includes={}, errors=[], meta={})
+2026-04-12 10:31:59,141 - INFO - Tweet No 179 successfully posted
+2026-04-12 10:31:59,141 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-13 08:59:11,937 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-14 08:59:12,391 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-14 08:59:12,391 - INFO - Pause pendant 5756 secondes
+2026-04-14 10:35:08,610 - INFO - Contenu du tweet: Or ou hors ?
+"Or" est une conjonction de coordination : "Je pensais avoir raté mon examen, or je l'ai obtenu.".
+"Hors" est une préposition qui signifie "en dehors de" : "L'incendie est hors de contrôle".
+2026-04-14 10:35:08,974 - INFO - Tweet publié: Response(data={'id': '2044001503749296497', 'edit_history_tweet_ids': ['2044001503749296497'], 'text': 'Or ou hors ?\n"Or" est une conjonction de coordination : "Je pensais avoir raté mon examen, or je l\'ai obtenu.".\n"Hors" est une préposition qui signifie "en dehors de" : "L\'incendie est hors de contrôle".'}, includes={}, errors=[], meta={})
+2026-04-14 10:35:08,984 - INFO - Tweet No 180 successfully posted
+2026-04-14 10:35:08,985 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-15 08:59:12,132 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-15 08:59:12,132 - INFO - Pause pendant 22475 secondes
+2026-04-15 15:13:47,299 - INFO - Contenu du tweet: Demi ou demie ? Placé devant un nom ou un adjectif, "demi" est invariable : une demi-heure, des demi-frères.
+Placé derrière un nom, "demi" peut prendre la marque du féminin, mais jamais celle du pluriel : deux heures et demie, trois mois et demi.
+2026-04-15 15:13:47,590 - INFO - Tweet publié: Response(data={'edit_history_tweet_ids': ['2044434014606393543'], 'id': '2044434014606393543', 'text': 'Demi ou demie ? Placé devant un nom ou un adjectif, "demi" est invariable : une demi-heure, des demi-frères.\nPlacé derrière un nom, "demi" peut prendre la marque du féminin, mais jamais celle du pluriel : deux heures et demie, trois mois et demi.'}, includes={}, errors=[], meta={})
+2026-04-15 15:13:47,597 - INFO - Tweet No 181 successfully posted
+2026-04-15 15:13:47,597 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-16 08:59:12,349 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-16 08:59:12,349 - INFO - Pause pendant 2842 secondes
+2026-04-16 09:46:34,415 - INFO - Contenu du tweet: Si l’on parle de robes blanc et noir, c’est que chacune des robes contient à la fois du blanc et du noir.
+En revanche, si l’on parle de robes blanches et noires, c’est que certaines sont uniquement blanches et d’autres uniquement noires.
+2026-04-16 09:46:34,660 - INFO - Tweet publié: Response(data={'text': 'Si l’on parle de robes blanc et noir, c’est que chacune des robes contient à la fois du blanc et du noir.\nEn revanche, si l’on parle de robes blanches et noires, c’est que certaines sont uniquement blanches et d’autres uniquement noires.', 'id': '2044714056007799185', 'edit_history_tweet_ids': ['2044714056007799185']}, includes={}, errors=[], meta={})
+2026-04-16 09:46:34,668 - INFO - Tweet No 182 successfully posted
+2026-04-16 09:46:34,668 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-17 08:59:17,152 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-18 08:59:18,353 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-19 08:59:15,337 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-20 08:59:14,728 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-21 08:59:15,982 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-21 08:59:15,982 - INFO - Pause pendant 10336 secondes
+2026-04-21 11:51:32,150 - INFO - Contenu du tweet: Velours prend un S même au singulier. Il joue sur du velours.
+2026-04-21 11:51:32,434 - INFO - Tweet publié: Response(data={'edit_history_tweet_ids': ['2046557443274981637'], 'id': '2046557443274981637', 'text': 'Velours prend un S même au singulier. Il joue sur du velours.'}, includes={}, errors=[], meta={})
+2026-04-21 11:51:32,442 - INFO - Tweet No 183 successfully posted
+2026-04-21 11:51:32,442 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-04-22 08:59:16,811 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-22 08:59:16,811 - INFO - Pause pendant 13933 secondes
+2026-04-23 09:00:00,488 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-24 09:00:00,428 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-25 09:00:00,429 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-26 09:00:00,526 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-04-26 09:00:00,527 - INFO - Pause pendant 21426 secondes
+2026-04-27 09:00:00,433 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-28 09:00:00,428 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-29 09:00:00,440 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-04-30 09:00:00,428 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
+2026-05-01 09:00:00,525 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-05-01 09:00:00,525 - INFO - Pause pendant 3915 secondes
+2026-05-01 10:05:18,229 - INFO - Contenu du tweet: Ostensible :
+1) Qui peut être montré publiquement sans inconvénient.
+2) Qui est fait sans se cacher ou avec l'intention d'être remarqué.
+Ostentatoire : qui témoigne de l'ostentation (mise en valeur excessive et indiscrète d'un avantage), qui est fait, montré avec ostentation.
+2026-05-01 10:05:24,526 - INFO - Tweet publié: Response(data={'edit_history_tweet_ids': ['2050154610208256397'], 'id': '2050154610208256397', 'text': "Ostensible :\n1) Qui peut être montré publiquement sans inconvénient.\n2) Qui est fait sans se cacher ou avec l'intention d'être remarqué.\nOstentatoire : qui témoigne de l'ostentation (mise en valeur excessive et indiscrète d'un avantage), qui est fait, montré avec ostentation."}, includes={}, errors=[], meta={})
+2026-05-01 10:05:24,554 - INFO - Tweet No 184 successfully posted
+2026-05-01 10:05:24,555 - INFO - Tweet posté. Attente relance dans 24h par task
+2026-05-02 09:00:00,414 - INFO - Le script Ortograf s'exécute aujourd'hui
+2026-05-02 09:00:00,415 - INFO - Pause pendant 18615 secondes
+2026-05-03 09:00:00,399 - INFO - Le script Ortograf ne s'exécute pas aujourd'hui
