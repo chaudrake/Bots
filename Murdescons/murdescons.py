@@ -1,4 +1,5 @@
 import tweepy
+import random
 from random import choice
 import os
 import sys
