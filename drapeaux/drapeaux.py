@@ -17,7 +17,7 @@ from datetime import datetime
 from dotenv import load_dotenv  # Ajout de cette importation
 
 """MISE A JOUR DU REPERTOIRE DE TRAVAIL POUR QUE CRON JOB MARCHE"""
-os.chdir('/home/pyth1on/drapeaux')
+#os.chdir('/home/pyth1on/drapeaux')
 version = "v4.7.8"
 
 #print(Fore.GREEN + f"####---> Drapeaux {version}" + Style.RET_ALL)
