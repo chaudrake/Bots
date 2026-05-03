@@ -1,1 +1,44 @@
+name: Mur Des Cons Bot
 
+on:
+  workflow_dispatch:
+  schedule:
+    # Chaque heure de 9h à 19h UTC (9h, 10h, 11h, 12h, 13h, 14h, 15h, 16h, 17h, 18h, 19h)
+    - cron: "0 9-19 * * *"
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd murdescons
+          pip install tweepy
+
+      - name: Debug files
+        run: |
+          echo "=== murdescons directory content ==="
+          ls -la murdescons/
+          echo "=== Check liste.txt (first 10 lines) ==="
+          head -10 murdescons/liste.txt
+          echo "=== Check tweeted.txt ==="
+          cat murdescons/tweeted.txt 2>/dev/null || echo "tweeted.txt n'existe pas encore"
+
+      - name: Run bot
+        run: |
+          cd murdescons
+          python murdescons.py
+        env:
+          MURDESCONS_CONSUMER_KEY: ${{ secrets.MURDESCONS_CONSUMER_KEY }}
+          MURDESCONS_CONSUMER_SECRET: ${{ secrets.MURDESCONS_CONSUMER_SECRET }}
+          MURDESCONS_ACCESS_TOKEN: ${{ secrets.MURDESCONS_ACCESS_TOKEN }}
+          MURDESCONS_ACCESS_TOKEN_SECRET: ${{ secrets.MURDESCONS_ACCESS_TOKEN_SECRET }}
