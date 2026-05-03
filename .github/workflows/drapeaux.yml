@@ -1,1 +1,43 @@
+name: Drapeaux Bot
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 10 * * *"   # tous les jours à 10h30 UTC
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd drapeaux
+          pip install requests tweepy tracery colorama python-dotenv
+
+      - name: Debug files
+        run: |
+          echo "=== Current directory ==="
+          pwd
+          echo "=== drapeaux directory content ==="
+          ls -la drapeaux/
+          echo "=== Check bot.json ==="
+          cat drapeaux/bot.json | head -5
+
+      - name: Run bot
+        run: |
+          cd drapeaux
+          python drapeaux.py
+        env:
+          DRAPEAUX_CONSUMER_KEY: ${{ secrets.DRAPEAUX_CONSUMER_KEY }}
+          DRAPEAUX_CONSUMER_SECRET: ${{ secrets.DRAPEAUX_CONSUMER_SECRET }}
+          DRAPEAUX_ACCESS_TOKEN: ${{ secrets.DRAPEAUX_ACCESS_TOKEN }}
+          DRAPEAUX_ACCESS_TOKEN_SECRET: ${{ secrets.DRAPEAUX_ACCESS_TOKEN_SECRET }}
