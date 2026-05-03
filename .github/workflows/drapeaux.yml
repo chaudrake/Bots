@@ -3,7 +3,7 @@ name: Drapeaux Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 10 * * *"   # tous les jours à 10h30 UTC
+    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
 
 jobs:
   run-bot:
