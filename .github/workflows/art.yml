@@ -1,1 +1,43 @@
+name: Art Bot
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"   # tous les jours à 15h UTC (17h en France été)
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd art
+          pip install tweepy requests Pillow
+
+      - name: Debug files
+        run: |
+          echo "=== art directory content ==="
+          ls -la art/
+          echo "=== Check oeuvres.txt ==="
+          head -5 art/oeuvres.txt
+          echo "=== Check index.txt ==="
+          cat art/index.txt 2>/dev/null || echo "index.txt n'existe pas encore"
+
+      - name: Run bot
+        run: |
+          cd art
+          python art.py
+        env:
+          2LART_CONSUMER_KEY: ${{ secrets.ART_CONSUMER_KEY }}
+          2LART_CONSUMER_SECRET: ${{ secrets.ART_CONSUMER_SECRET }}
+          2LART_ACCESS_KEY: ${{ secrets.ART_ACCESS_KEY }}
+          2LART_ACCESS_SECRET: ${{ secrets.ART_ACCESS_SECRET }}
