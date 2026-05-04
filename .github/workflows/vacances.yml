@@ -1,1 +1,41 @@
+name: Vacances Bot
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"   # tous les jours à 06h00 UTC (08h00 en France été)
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd vacances
+          pip install tweepy pandas openpyxl
+
+      - name: Debug files
+        run: |
+          echo "=== vacances directory content ==="
+          ls -la vacances/
+          echo "=== Check vacances.xlsx ==="
+          python -c "import pandas as pd; df = pd.read_excel('vacances/vacances.xlsx'); print(f'Zones: {list(df[\"zone\"])}')"
+
+      - name: Run bot
+        run: |
+          cd vacances
+          python vacances.py
+        env:
+          VACANCES_CONSUMER_KEY: ${{ secrets.VACANCES_CONSUMER_KEY }}
+          VACANCES_CONSUMER_SECRET: ${{ secrets.VACANCES_CONSUMER_SECRET }}
+          VACANCES_ACCESS_KEY: ${{ secrets.VACANCES_ACCESS_KEY }}
+          VACANCES_ACCESS_SECRET: ${{ secrets.VACANCES_ACCESS_SECRET }}
