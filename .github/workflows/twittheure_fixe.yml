@@ -3,10 +3,17 @@ name: TwittHeure - Heures Fixes
 on:
   workflow_dispatch:
   schedule:
-    # Crons calés sur l'heure d'hiver
-    - cron: "0 23 * * *"        # 23h00 UTC → attente 1h en été
-    - cron: "11 10 * * *"       # 10h11 UTC → attente 1h en été  
-    - cron: "22 21 * * *"       # 21h22 UTC → attente 1h en été
+    # 00h00 français : 22h00 UTC (été) / 23h00 UTC (hiver)
+    - cron: "0 22 * * *"        # 22h00 UTC
+    - cron: "0 23 * * *"        # 23h00 UTC
+    
+    # 11h11 français : 09h11 UTC (été) / 10h11 UTC (hiver)
+    - cron: "11 9 * * *"        # 09h11 UTC
+    - cron: "11 10 * * *"       # 10h11 UTC
+    
+    # 22h22 français : 20h22 UTC (été) / 21h22 UTC (hiver)
+    - cron: "22 20 * * *"       # 20h22 UTC
+    - cron: "22 21 * * *"       # 21h22 UTC
 
 jobs:
   run-bot:
