@@ -3,7 +3,12 @@ name: TwittHeure Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 4-22 * * *"
+    # Heures fixes
+    - cron: "0 0 * * *"        # 00h00 UTC (02h00 France été / 01h00 France hiver)
+    - cron: "11 11 * * *"      # 11h11 UTC (13h11 France été / 12h11 France hiver)
+    - cron: "22 22 * * *"      # 22h22 UTC (00h22 France été / 23h22 France hiver)
+    # Heures aléatoires : toutes les 10 minutes entre 6h et 21h UTC
+    - cron: "*/10 6-21 * * *"
 
 jobs:
   run-bot:
@@ -22,6 +27,13 @@ jobs:
         run: |
           cd twittheure
           pip install tweepy pytz
+
+      - name: Debug files
+        run: |
+          echo "=== twittheure directory content ==="
+          ls -la twittheure/
+          echo "=== Check bot.json ==="
+          cat twittheure/bot.json | head -10
 
       - name: Run bot
         run: |
