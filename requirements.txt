@@ -4,4 +4,3 @@ schedule
 dotenv
 tracery
 colorama
-random
