@@ -3,12 +3,13 @@ name: Pollution Bot
 on:
   workflow_dispatch:
   schedule:
-    # 8h00, 12h00, 18h00 (heure française)
-    # Calcul UTC: 8h00 FR = 6h00 UTC (été) / 7h00 UTC (hiver)
-    # On met des crons larges pour couvrir été/hiver
-    - cron: "0 6,7 * * *"     # 6h et 7h UTC → couvre 8h FR
-    - cron: "0 10,11 * * *"   # 10h et 11h UTC → couvre 12h FR
-    - cron: "0 16,17 * * *"   # 16h et 17h UTC → couvre 18h FR
+    # Crons calés sur l'heure d'été (UTC+2)
+    # 8h France → 6h UTC
+    # 12h France → 10h UTC
+    # 18h France → 16h UTC
+    - cron: "0 6 * * *"     # 6h UTC → 8h France (été) / 7h France (hiver)
+    - cron: "0 10 * * *"    # 10h UTC → 12h France (été) / 11h France (hiver)
+    - cron: "0 16 * * *"    # 16h UTC → 18h France (été) / 17h France (hiver)
 
 jobs:
   run-bot:
