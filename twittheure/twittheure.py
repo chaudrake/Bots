@@ -66,6 +66,10 @@ def post_tweet(text):
         print(f"❌ Erreur: {e}")
         return False
 
+def should_tweet_at_00h00(current_time):
+    """Vérifie s'il est 00h00"""
+    return current_time.hour == 0 and current_time.minute == 0
+
 def should_tweet_at_11h11(current_time):
     """Vérifie s'il est 11h11"""
     return current_time.hour == 11 and current_time.minute == 11
@@ -141,8 +145,18 @@ def main():
     tweeted_fixed = get_tweeted_hours_today()
     tweeted_random = get_tweeted_random_hours()
     
+    # === TWEET FIXE 00h00 ===
+    if should_tweet_at_00h00(current_time):
+        if "00:00" not in tweeted_fixed:
+            tweet_text = f"00:00"
+            if post_tweet(tweet_text):
+                save_tweeted_fixed_hour("00:00")
+                print("✅ Tweet 00:00 posté")
+        else:
+            print("⚠️ 00:00 déjà tweeté aujourd'hui")
+    
     # === TWEET FIXE 11h11 ===
-    if should_tweet_at_11h11(current_time):
+    elif should_tweet_at_11h11(current_time):
         if "11:11" not in tweeted_fixed:
             tweet_text = f"11:11"
             if post_tweet(tweet_text):
