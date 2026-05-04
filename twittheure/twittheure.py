@@ -3,7 +3,6 @@ import os
 import sys
 import random
 import json
-import re
 from datetime import datetime
 import pytz
 
@@ -28,11 +27,10 @@ client = tweepy.Client(
 
 print('🚀 Lancement du bot TwittHeure')
 
-# Fuseau horaire France (gère automatiquement été/hiver)
+# Fuseau horaire France
 france_tz = pytz.timezone('Europe/Paris')
 
 def get_france_time():
-    """Retourne l'heure actuelle en France (été/hiver automatique)"""
     return datetime.now(france_tz)
 
 def generate_random_hour_tweet():
@@ -41,83 +39,51 @@ def generate_random_hour_tweet():
         with open("bot.json", 'r', encoding="utf-8") as f:
             grammar_data = json.load(f)
         
-        # Sélection aléatoire de l'heure et des minutes
-        import random as rand
-        hours = grammar_data["heures"]
-        minutes = grammar_data["minutes"]
+        random_hour = random.choice(grammar_data["heures"])
+        random_minute = random.choice(grammar_data["minutes"])
         
-        random_hour = rand.choice(hours)
-        random_minute = rand.choice(minutes)
-        
-        # Formatage du tweet
-        tweet_text = f"Il n'est pas {random_hour}h{random_minute}"
-        return tweet_text
+        return f"Il n'est pas {random_hour}h{random_minute}"
     except Exception as e:
         print(f"❌ Erreur Tracery: {e}")
-        return "Il n'est pas midi"  # fallback
+        return "Il n'est pas midi"
 
 def post_tweet(text):
-    """Publie un tweet"""
     try:
-        tweet = client.create_tweet(text=text[:280])
+        client.create_tweet(text=text[:280])
         print(f"✅ Tweet publié: {text}")
         return True
     except Exception as e:
         print(f"❌ Erreur: {e}")
         return False
 
-def should_tweet_at_00h00(current_time):
-    """Vérifie s'il est 00h00"""
-    return current_time.hour == 0 and current_time.minute == 0
-
-def should_tweet_at_11h11(current_time):
-    """Vérifie s'il est 11h11"""
-    return current_time.hour == 11 and current_time.minute == 11
-
-def should_tweet_at_22h22(current_time):
-    """Vérifie s'il est 22h22"""
-    return current_time.hour == 22 and current_time.minute == 22
-
-# Gestion des heures déjà tweetées aujourd'hui
-def get_tweeted_hours_today():
-    """Récupère la liste des heures fixes déjà tweetées aujourd'hui"""
+def get_tweeted_fixed():
     if os.path.exists('tweeted_fixed.txt'):
         with open('tweeted_fixed.txt', 'r', encoding='utf-8') as f:
             return set(f.read().splitlines())
     return set()
 
-def get_tweeted_random_hours():
-    """Récupère la liste des heures aléatoires déjà tweetées aujourd'hui"""
+def get_tweeted_random_count():
     if os.path.exists('tweeted_random.txt'):
         with open('tweeted_random.txt', 'r', encoding='utf-8') as f:
-            return set(f.read().splitlines())
-    return set()
+            return len(f.read().splitlines())
+    return 0
 
-def save_tweeted_fixed_hour(hour_str):
-    """Sauvegarde une heure fixe tweetée"""
+def save_tweeted_fixed(hour_str):
     with open('tweeted_fixed.txt', 'a', encoding='utf-8') as f:
         f.write(hour_str + '\n')
 
-def save_tweeted_random_hour(hour_str):
-    """Sauvegarde une heure aléatoire tweetée"""
+def save_tweeted_random():
     with open('tweeted_random.txt', 'a', encoding='utf-8') as f:
-        f.write(hour_str + '\n')
+        f.write(datetime.now().strftime('%Y-%m-%d %H:%M') + '\n')
 
-def reset_tweeted_files():
-    """Réinitialise les fichiers des heures tweetées"""
+def reset_files():
     if os.path.exists('tweeted_fixed.txt'):
         os.remove('tweeted_fixed.txt')
     if os.path.exists('tweeted_random.txt'):
         os.remove('tweeted_random.txt')
 
-# Gestion du jour
-def get_current_day():
-    """Retourne le jour actuel (YYYY-MM-DD)"""
-    return get_france_time().strftime('%Y-%m-%d')
-
 def check_and_reset_day():
-    """Vérifie si on a changé de jour et réinitialise si nécessaire"""
-    current_day = get_current_day()
+    current_day = get_france_time().strftime('%Y-%m-%d')
     last_day_file = 'last_day.txt'
     
     if os.path.exists(last_day_file):
@@ -125,7 +91,7 @@ def check_and_reset_day():
             last_day = f.read().strip()
         if last_day != current_day:
             print(f"📅 Nouveau jour ({current_day}), réinitialisation...")
-            reset_tweeted_files()
+            reset_files()
             with open(last_day_file, 'w', encoding='utf-8') as f:
                 f.write(current_day)
     else:
@@ -139,62 +105,62 @@ def main():
     
     print(f"🕐 Heure actuelle (France): {current_time.strftime('%H:%M:%S')}")
     
-    # Vérifier et réinitialiser au début du nouveau jour
     check_and_reset_day()
+    tweeted_fixed = get_tweeted_fixed()
     
-    tweeted_fixed = get_tweeted_hours_today()
-    tweeted_random = get_tweeted_random_hours()
+    # === TWEETS FIXES (prioritaires) ===
     
-    # === TWEET FIXE 00h00 ===
-    if should_tweet_at_00h00(current_time):
+    # 00h00
+    if current_hour == 0 and current_minute == 0:
         if "00:00" not in tweeted_fixed:
-            tweet_text = f"00:00"
-            if post_tweet(tweet_text):
-                save_tweeted_fixed_hour("00:00")
-                print("✅ Tweet 00:00 posté")
-        else:
-            print("⚠️ 00:00 déjà tweeté aujourd'hui")
+            post_tweet("00:00")
+            save_tweeted_fixed("00:00")
+            print("✅ Tweet 00:00 posté")
+        return
     
-    # === TWEET FIXE 11h11 ===
-    elif should_tweet_at_11h11(current_time):
+    # 11h11
+    if current_hour == 11 and current_minute == 11:
         if "11:11" not in tweeted_fixed:
-            tweet_text = f"11:11"
-            if post_tweet(tweet_text):
-                save_tweeted_fixed_hour("11:11")
-                print("✅ Tweet 11:11 posté")
-        else:
-            print("⚠️ 11:11 déjà tweeté aujourd'hui")
+            post_tweet("11:11")
+            save_tweeted_fixed("11:11")
+            print("✅ Tweet 11:11 posté")
+        return
     
-    # === TWEET FIXE 22h22 ===
-    elif should_tweet_at_22h22(current_time):
+    # 22h22
+    if current_hour == 22 and current_minute == 22:
         if "22:22" not in tweeted_fixed:
-            tweet_text = f"22:22"
-            if post_tweet(tweet_text):
-                save_tweeted_fixed_hour("22:22")
-                print("✅ Tweet 22:22 posté")
-        else:
-            print("⚠️ 22:22 déjà tweeté aujourd'hui")
+            post_tweet("22:22")
+            save_tweeted_fixed("22:22")
+            print("✅ Tweet 22:22 posté")
+        return
     
-    # === TWEETS HEURES ALÉATOIRES (max 3 par jour) ===
+    # === TWEETS ALÉATOIRES (max 3 par jour, entre 6h et 22h) ===
+    
+    # Vérifier si on est dans la plage 6h-22h
+    if not (6 <= current_hour <= 21):
+        print("🌙 En dehors de la plage 6h-22h, pas de tweet aléatoire")
+        return
+    
+    # Compter combien de tweets aléatoires déjà faits aujourd'hui
+    random_count = get_tweeted_random_count()
+    
+    if random_count >= 3:
+        print(f"✅ Déjà {random_count}/3 tweets aléatoires aujourd'hui")
+        return
+    
+    # Probabilité de tweeter à cette exécution
+    # On veut en moyenne 3 tweets sur une plage de 16h (6h-22h) = 960 minutes
+    # On exécute toutes les 5 minutes = 192 exécutions possibles
+    # 3 / 192 = 1.56% de chance à chaque exécution (un peu plus pour être sûr)
+    chance = 0.03  # 3% de chance = environ 5-6 tweets par jour, puis filtré par le compteur
+    
+    if random.random() < chance:
+        tweet_text = generate_random_hour_tweet()
+        if post_tweet(tweet_text):
+            save_tweeted_random()
+            print(f"✅ Heure aléatoire tweetée ({random_count + 1}/3): {tweet_text}")
     else:
-        # Vérifier si on a déjà tweeté 3 heures aléatoires aujourd'hui
-        if len(tweeted_random) >= 3:
-            print(f"✅ Déjà {len(tweeted_random)} heures aléatoires tweetées aujourd'hui")
-        else:
-            # Vérifier si on est dans la plage horaire 6h-22h
-            if 6 <= current_hour <= 21:
-                # Générer un identifiant unique pour cette minute (pour éviter les doublons)
-                time_id = current_time.strftime('%H:%M')
-                
-                if time_id not in tweeted_random:
-                    tweet_text = generate_random_hour_tweet()
-                    if post_tweet(tweet_text):
-                        save_tweeted_random_hour(time_id)
-                        print(f"✅ Heure aléatoire tweetée: {tweet_text}")
-                else:
-                    print(f"⚠️ Heure {time_id} déjà tweetée aujourd'hui")
-            else:
-                print("🌙 En dehors de la plage 6h-22h, pas de tweet aléatoire")
+        print(f"⏭️ Pas de tweet aléatoire cette fois (chance: {chance*100}%)")
 
 if __name__ == "__main__":
     try:
