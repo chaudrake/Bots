@@ -1,0 +1,5 @@
+1 trouver une photo et la télécharger
+2 aller sur text-image.com
+3 mettre en 150 et extra contrast.
+4 uploader sur mon github : https://github.com/chaudrake/ASCII
+5 copier les noms de fichiers sur le serveur (image_list.txt)
