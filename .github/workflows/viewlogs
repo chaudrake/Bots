@@ -1,0 +1,31 @@
+name: View Central Logs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"  # toutes les 6h
+
+jobs:
+  collect_logs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create log summary
+        run: |
+          echo "# 📊 Logs des bots - $(date)" > summary.md
+          echo "" >> summary.md
+          echo "| Bot | Dernier statut | Dernière exécution |" >> summary.md
+          echo "|-----|----------------|-------------------|" >> summary.md
+          
+          # Exemple manuel (à adapter selon tes besoins)
+          echo "| Capitales | ✅ | $(date) |" >> summary.md
+          echo "| Drapeaux | ✅ | $(date) |" >> summary.md
+          echo "| Art | ✅ | $(date) |" >> summary.md
+          echo "| Mots Rares | ✅ | $(date) |" >> summary.md
+          echo "| Ortograf | ✅ | $(date) |" >> summary.md
+          echo "| Mur Des Cons | ✅ | $(date) |" >> summary.md
+          echo "| TwittHeure | ✅ | $(date) |" >> summary.md
+          echo "| Vacances | ✅ | $(date) |" >> summary.md
+          echo "| ASCII | ✅ | $(date) |" >> summary.md
+          
+          # Sauvegarder comme step summary (nouvelle feature GitHub)
+          cat summary.md >> $GITHUB_STEP_SUMMARY
