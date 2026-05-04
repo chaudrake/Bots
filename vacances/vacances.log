@@ -1,0 +1,112 @@
+#VacancesScolaires #Vacances
+2026-04-14 05:59:14,037 - INFO - Tweet envoyé: La zone A est en vacances (encore 6 jours)
+La zone B est en vacances (encore 13 jours)
+La zone C sera en vacances dans 4 jours.
+#VacancesScolaires #Vacances
+2026-04-14 05:59:14,037 - INFO - Réponse Twitter: Response(data={'text': 'La zone A est en vacances (encore 6 jours)\nLa zone B est en vacances (encore 13 jours)\nLa zone C sera en vacances dans 4 jours.\n#VacancesScolaires #Vacances', 'id': '2043932067398893597', 'edit_history_tweet_ids': ['2043932067398893597']}, includes={}, errors=[], meta={})
+2026-04-14 05:59:14,037 - INFO - Tweet envoyé avec succès
+2026-04-14 05:59:14,037 - INFO - Script terminé
+2026-04-15 05:59:15,491 - INFO - Démarrage du script vacances
+2026-04-15 05:59:15,505 - INFO - Fichier log nettoyé
+2026-04-15 05:59:15,937 - INFO - Préparation tweet: La zone A est en vacances (encore 5 jours)
+La zone B est en vacances (encore 12 jours)
+La zone C sera en vacances dans 3 jours.
+#VacancesScolaires #Vacances
+2026-04-15 05:59:16,144 - INFO - Tweet envoyé: La zone A est en vacances (encore 5 jours)
+La zone B est en vacances (encore 12 jours)
+La zone C sera en vacances dans 3 jours.
+#VacancesScolaires #Vacances
+2026-04-15 05:59:16,145 - INFO - Réponse Twitter: Response(data={'text': 'La zone A est en vacances (encore 5 jours)\nLa zone B est en vacances (encore 12 jours)\nLa zone C sera en vacances dans 3 jours.\n#VacancesScolaires #Vacances', 'id': '2044294464059961578', 'edit_history_tweet_ids': ['2044294464059961578']}, includes={}, errors=[], meta={})
+2026-04-15 05:59:16,145 - INFO - Tweet envoyé avec succès
+2026-04-15 05:59:16,145 - INFO - Script terminé
+2026-04-16 05:59:14,016 - INFO - Démarrage du script vacances
+2026-04-16 05:59:14,029 - INFO - Fichier log nettoyé
+2026-04-16 05:59:14,339 - INFO - Préparation tweet: La zone A est en vacances (encore 4 jours)
+La zone B est en vacances (encore 11 jours)
+La zone C sera en vacances dans 2 jours.
+#VacancesScolaires #Vacances
+2026-04-16 05:59:14,516 - INFO - Tweet envoyé: La zone A est en vacances (encore 4 jours)
+La zone B est en vacances (encore 11 jours)
+La zone C sera en vacances dans 2 jours.
+#VacancesScolaires #Vacances
+2026-04-16 05:59:14,517 - INFO - Réponse Twitter: Response(data={'text': 'La zone A est en vacances (encore 4 jours)\nLa zone B est en vacances (encore 11 jours)\nLa zone C sera en vacances dans 2 jours.\n#VacancesScolaires #Vacances', 'id': '2044656845072060703', 'edit_history_tweet_ids': ['2044656845072060703']}, includes={}, errors=[], meta={})
+2026-04-16 05:59:14,517 - INFO - Tweet envoyé avec succès
+2026-04-16 05:59:14,517 - INFO - Script terminé
+2026-04-17 05:59:13,607 - INFO - Démarrage du script vacances
+2026-04-17 05:59:13,621 - INFO - Fichier log nettoyé
+2026-04-17 05:59:13,832 - INFO - Préparation tweet: La zone C sera en vacances dès demain !
+La zone A est en vacances (encore 3 jours)
+La zone B est en vacances (encore 10 jours)
+#VacancesScolaires #Vacances
+2026-04-17 05:59:14,006 - INFO - Tweet envoyé: La zone C sera en vacances dès demain !
+La zone A est en vacances (encore 3 jours)
+La zone B est en vacances (encore 10 jours)
+#VacancesScolaires #Vacances
+2026-04-17 05:59:14,006 - INFO - Réponse Twitter: Response(data={'id': '2045019230853079323', 'text': 'La zone C sera en vacances dès demain !\nLa zone A est en vacances (encore 3 jours)\nLa zone B est en vacances (encore 10 jours)\n#VacancesScolaires #Vacances', 'edit_history_tweet_ids': ['2045019230853079323']}, includes={}, errors=[], meta={})
+2026-04-17 05:59:14,007 - INFO - Tweet envoyé avec succès
+2026-04-17 05:59:14,007 - INFO - Script terminé
+2026-04-18 05:59:14,880 - INFO - Démarrage du script vacances
+2026-04-18 05:59:14,893 - INFO - Fichier log nettoyé
+2026-04-18 05:59:15,300 - INFO - Préparation tweet: La zone A est en vacances (encore 2 jours)
+La zone B est en vacances (encore 9 jours)
+La zone C est en vacances (encore 16 jours)
+#VacancesScolaires #Vacances
+2026-04-18 05:59:15,476 - INFO - Tweet envoyé: La zone A est en vacances (encore 2 jours)
+La zone B est en vacances (encore 9 jours)
+La zone C est en vacances (encore 16 jours)
+#VacancesScolaires #Vacances
+2026-04-18 05:59:15,476 - INFO - Réponse Twitter: Response(data={'text': 'La zone A est en vacances (encore 2 jours)\nLa zone B est en vacances (encore 9 jours)\nLa zone C est en vacances (encore 16 jours)\n#VacancesScolaires #Vacances', 'id': '2045381624850755915', 'edit_history_tweet_ids': ['2045381624850755915']}, includes={}, errors=[], meta={})
+2026-04-18 05:59:15,476 - INFO - Tweet envoyé avec succès
+2026-04-18 05:59:15,476 - INFO - Script terminé
+2026-04-19 05:59:12,723 - INFO - Démarrage du script vacances
+2026-04-19 05:59:12,735 - INFO - Fichier log nettoyé
+2026-04-19 05:59:13,000 - INFO - Préparation tweet: La zone A est en vacances (encore 1 jour)
+La zone B est en vacances (encore 8 jours)
+La zone C est en vacances (encore 15 jours)
+#VacancesScolaires #Vacances
+2026-04-19 05:59:13,177 - INFO - Tweet envoyé: La zone A est en vacances (encore 1 jour)
+La zone B est en vacances (encore 8 jours)
+La zone C est en vacances (encore 15 jours)
+#VacancesScolaires #Vacances
+2026-04-19 05:59:13,177 - INFO - Réponse Twitter: Response(data={'id': '2045744003115606430', 'text': 'La zone A est en vacances (encore 1 jour)\nLa zone B est en vacances (encore 8 jours)\nLa zone C est en vacances (encore 15 jours)\n#VacancesScolaires #Vacances', 'edit_history_tweet_ids': ['2045744003115606430']}, includes={}, errors=[], meta={})
+2026-04-19 05:59:13,178 - INFO - Tweet envoyé avec succès
+2026-04-19 05:59:13,178 - INFO - Script terminé
+2026-04-20 05:59:13,285 - INFO - Démarrage du script vacances
+2026-04-20 05:59:13,297 - INFO - Fichier log nettoyé
+2026-04-20 05:59:13,648 - INFO - Préparation tweet: La zone B est en vacances (encore 7 jours)
+La zone C est en vacances (encore 14 jours)
+La zone A sera en vacances dans 75 jours.
+#VacancesScolaires #Vacances
+2026-04-20 05:59:13,808 - INFO - Tweet envoyé: La zone B est en vacances (encore 7 jours)
+La zone C est en vacances (encore 14 jours)
+La zone A sera en vacances dans 75 jours.
+#VacancesScolaires #Vacances
+2026-04-20 05:59:13,808 - INFO - Réponse Twitter: Response(data={'id': '2046106393632022705', 'edit_history_tweet_ids': ['2046106393632022705'], 'text': 'La zone B est en vacances (encore 7 jours)\nLa zone C est en vacances (encore 14 jours)\nLa zone A sera en vacances dans 75 jours.\n#VacancesScolaires #Vacances'}, includes={}, errors=[], meta={})
+2026-04-20 05:59:13,808 - INFO - Tweet envoyé avec succès
+2026-04-20 05:59:13,808 - INFO - Script terminé
+2026-04-21 05:59:12,746 - INFO - Démarrage du script vacances
+2026-04-21 05:59:12,770 - INFO - Fichier log nettoyé
+2026-04-21 05:59:13,211 - INFO - Préparation tweet: La zone B est en vacances (encore 6 jours)
+La zone C est en vacances (encore 13 jours)
+La zone A sera en vacances dans 74 jours.
+#VacancesScolaires #Vacances
+2026-04-21 05:59:13,424 - INFO - Tweet envoyé: La zone B est en vacances (encore 6 jours)
+La zone C est en vacances (encore 13 jours)
+La zone A sera en vacances dans 74 jours.
+#VacancesScolaires #Vacances
+2026-04-21 05:59:13,425 - INFO - Réponse Twitter: Response(data={'text': 'La zone B est en vacances (encore 6 jours)\nLa zone C est en vacances (encore 13 jours)\nLa zone A sera en vacances dans 74 jours.\n#VacancesScolaires #Vacances', 'id': '2046468779840770314', 'edit_history_tweet_ids': ['2046468779840770314']}, includes={}, errors=[], meta={})
+2026-04-21 05:59:13,425 - INFO - Tweet envoyé avec succès
+2026-04-21 05:59:13,425 - INFO - Script terminé
+2026-04-22 05:59:13,941 - INFO - Démarrage du script vacances
+2026-04-22 05:59:13,959 - INFO - Fichier log nettoyé
+2026-04-22 05:59:14,182 - INFO - Préparation tweet: La zone B est en vacances (encore 5 jours)
+La zone C est en vacances (encore 12 jours)
+La zone A sera en vacances dans 73 jours.
+#VacancesScolaires #Vacances
+2026-04-22 05:59:14,354 - INFO - Tweet envoyé: La zone B est en vacances (encore 5 jours)
+La zone C est en vacances (encore 12 jours)
+La zone A sera en vacances dans 73 jours.
+#VacancesScolaires #Vacances
+2026-04-22 05:59:14,354 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2046831171636498572'], 'text': 'La zone B est en vacances (encore 5 jours)\nLa zone C est en vacances (encore 12 jours)\nLa zone A sera en vacances dans 73 jours.\n#VacancesScolaires #Vacances', 'id': '2046831171636498572'}, includes={}, errors=[], meta={})
+2026-04-22 05:59:14,355 - INFO - Tweet envoyé avec succès
+2026-04-22 05:59:14,355 - INFO - Script terminé
