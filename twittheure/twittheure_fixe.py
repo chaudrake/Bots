@@ -1,10 +1,10 @@
 import tweepy
 import os
 import sys
+import time
 from datetime import datetime
 import pytz
 
-# Récupérer les variables d'environnement
 CONSUMER_KEY = os.getenv('THeure_CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('THeure_CONSUMER_SECRET')
 ACCESS_KEY = os.getenv('THeure_ACCESS_KEY')
@@ -24,6 +24,15 @@ client = tweepy.Client(
 print('🚀 Lancement du bot TwittHeure (heures fixes)')
 
 france_tz = pytz.timezone('Europe/Paris')
+
+def is_summer_time():
+    """Détecte si on est à l'heure d'été en France"""
+    now = datetime.now(france_tz)
+    # L'heure d'été : dernier dimanche de mars à 02h00 -> dernier dimanche d'octobre à 03h00
+    # Méthode simple : vérifier le décalage UTC
+    # Heure d'hiver: UTC+1, Heure d'été: UTC+2
+    offset = now.utcoffset()
+    return offset == pytz.FixedOffset(120)  # UTC+2 = été
 
 def post_tweet(text):
     try:
@@ -70,6 +79,16 @@ def main():
     
     print(f"🕐 Heure actuelle (France): {current_time.strftime('%H:%M:%S')}")
     
+    # Décalage été/hiver
+    if is_summer_time():
+        print("☀️ Heure d'été détectée - attente de 1 heure avant tweeter")
+        time.sleep(3600)  # Attend 1 heure
+        current_time = datetime.now(france_tz)
+        current_time_str = current_time.strftime('%H:%M')
+        print(f"🕐 Nouvelle heure après attente: {current_time.strftime('%H:%M:%S')}")
+    else:
+        print("❄️ Heure d'hiver - tweet immédiat")
+    
     check_and_reset_day()
     tweeted_fixed = get_tweeted_fixed()
     
@@ -77,19 +96,19 @@ def main():
         if "00:00" not in tweeted_fixed:
             post_tweet("00:00")
             save_tweeted_fixed("00:00")
-        return
+            print("✅ Tweet 00:00 posté")
     
-    if current_time_str == "11:11":
+    elif current_time_str == "11:11":
         if "11:11" not in tweeted_fixed:
             post_tweet("11:11")
             save_tweeted_fixed("11:11")
-        return
+            print("✅ Tweet 11:11 posté")
     
-    if current_time_str == "22:22":
+    elif current_time_str == "22:22":
         if "22:22" not in tweeted_fixed:
             post_tweet("22:22")
             save_tweeted_fixed("22:22")
-        return
+            print("✅ Tweet 22:22 posté")
 
 if __name__ == "__main__":
     try:
