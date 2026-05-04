@@ -5,6 +5,7 @@ import requests
 import tweepy
 import os
 import sys
+import time
 import pytz
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -22,6 +23,22 @@ if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
     sys.exit(1)
 
 print("✅ Démarrage du script Pollution")
+
+france_tz = pytz.timezone('Europe/Paris')
+
+def is_summer_time():
+    """Détecte l'heure d'été (UTC+2)"""
+    now = datetime.now(france_tz)
+    return now.utcoffset() == pytz.FixedOffset(120)
+
+def wait_for_winter_adjustment():
+    """Si on est en hiver, attend 1 heure pour caler l'heure française"""
+    if not is_summer_time():
+        print("❄️ Heure d'hiver détectée - attente de 1 heure")
+        time.sleep(3600)
+        print("✅ Reprise après attente")
+    else:
+        print("☀️ Heure d'été - exécution immédiate")
 
 def load_cities():
     """Charge la liste des villes depuis le fichier JSON"""
@@ -87,7 +104,7 @@ def get_city_aqi(city):
     return fetch_aqi_airvisual(city) or fetch_aqi_safe(city)
 
 def generate_pm25_tweet(polluted):
-    current_time = datetime.now(pytz.timezone('Europe/Paris')).strftime("%Hh%M")
+    current_time = datetime.now(france_tz).strftime("%Hh%M")
     base = [f"🌍 #Pollution aux #ParticulesFines (PM2.5) à {current_time}.", "\n🔴 Villes les plus polluées : 🔴\n"]
     footer = "\nSource : Open-Meteo"
     for n in [5, 3, 1]:
@@ -98,7 +115,7 @@ def generate_pm25_tweet(polluted):
     return None, 0
 
 def generate_ozone_tweet(polluted):
-    current_time = datetime.now(pytz.timezone('Europe/Paris')).strftime("%Hh%M")
+    current_time = datetime.now(france_tz).strftime("%Hh%M")
     base = [f"🌍 #Pollution à l'#Ozone (O₃) à {current_time}.", "\n🔴 Villes les plus polluées : 🔴\n"]
     footer = "\nSource : Open-Meteo"
     for n in [5, 3, 1]:
@@ -109,7 +126,7 @@ def generate_ozone_tweet(polluted):
     return None, 0
 
 def generate_aqi_tweet(polluted_cities):
-    current_time = datetime.now(pytz.timezone('Europe/Paris')).strftime("%Hh%M")
+    current_time = datetime.now(france_tz).strftime("%Hh%M")
     tweet_header = f"🌍 #Pollution à {current_time}. Indice Air Quality Index (AQI).\n\n🔴 Villes les plus polluées : 🔴\n"
     tweet_footer = f"\nSource : {polluted_cities[0]['source']}"
     for num_cities in [5, 3, 1]:
@@ -187,6 +204,13 @@ def execute_pollution_check():
     print(f"📊 Résumé: {tweets_postes}/3 tweets postés")
 
 def main():
+    # Ajustement pour l'heure d'hiver
+    wait_for_winter_adjustment()
+    
+    # Vérifier l'heure française actuelle
+    now_fr = datetime.now(france_tz)
+    print(f"🕐 Heure française: {now_fr.strftime('%H:%M:%S')}")
+    
     execute_pollution_check()
 
 if __name__ == "__main__":
