@@ -1,0 +1,1150 @@
+{
+    "#Paris (75)": {
+        "lat": 48.8566,
+        "lon": 2.3522
+    },
+    "#Marseille (13)": {
+        "lat": 43.2965,
+        "lon": 5.3698
+    },
+    "#Lyon (69)": {
+        "lat": 45.764,
+        "lon": 4.8357
+    },
+    "#Toulouse (31)": {
+        "lat": 43.6045,
+        "lon": 1.444
+    },
+    "#Nice (06)": {
+        "lat": 43.7102,
+        "lon": 7.262
+    },
+    "#Nantes (44)": {
+        "lat": 47.2184,
+        "lon": -1.5536
+    },
+    "#Montpellier (34)": {
+        "lat": 43.6109,
+        "lon": 3.8772
+    },
+    "#Strasbourg (67)": {
+        "lat": 48.5734,
+        "lon": 7.7521
+    },
+    "#Bordeaux (33)": {
+        "lat": 44.8378,
+        "lon": -0.5792
+    },
+    "#Lille (59)": {
+        "lat": 50.6292,
+        "lon": 3.0573
+    },
+    "#Rennes (35)": {
+        "lat": 48.1173,
+        "lon": -1.6778
+    },
+    "#Reims (51)": {
+        "lat": 49.2583,
+        "lon": 4.0317
+    },
+    "Saint-Étienne (42)": {
+        "lat": 45.4397,
+        "lon": 4.3872
+    },
+    "Le Havre (76)": {
+        "lat": 49.4938,
+        "lon": 0.1077
+    },
+    "#Toulon (83)": {
+        "lat": 43.1242,
+        "lon": 5.928
+    },
+    "#Grenoble (38)": {
+        "lat": 45.1885,
+        "lon": 5.7245
+    },
+    "#Dijon (21)": {
+        "lat": 47.322,
+        "lon": 5.0415
+    },
+    "#Angers (49)": {
+        "lat": 47.4784,
+        "lon": -0.5632
+    },
+    "#Nîmes (30)": {
+        "lat": 43.8367,
+        "lon": 4.3601
+    },
+    "#Villeurbanne (69)": {
+        "lat": 45.7667,
+        "lon": 4.8833
+    },
+    "Saint-Denis (93)": {
+        "lat": 48.9356,
+        "lon": 2.3539
+    },
+    "Le Mans (72)": {
+        "lat": 48.0077,
+        "lon": 0.1984
+    },
+    "Aix-en-Provence (13)": {
+        "lat": 43.5297,
+        "lon": 5.4474
+    },
+    "Clermont-Ferrand (63)": {
+        "lat": 45.7772,
+        "lon": 3.087
+    },
+    "#Brest (29)": {
+        "lat": 48.3904,
+        "lon": -4.4861
+    },
+    "#Limoges (87)": {
+        "lat": 45.8336,
+        "lon": 1.2611
+    },
+    "#Tours (37)": {
+        "lat": 47.3936,
+        "lon": 0.6892
+    },
+    "#Amiens (80)": {
+        "lat": 49.8941,
+        "lon": 2.2957
+    },
+    "#Metz (57)": {
+        "lat": 49.1197,
+        "lon": 6.1769
+    },
+    "#Besançon (25)": {
+        "lat": 47.24,
+        "lon": 6.02
+    },
+    "#Perpignan (66)": {
+        "lat": 42.6986,
+        "lon": 2.8956
+    },
+    "#Orléans (45)": {
+        "lat": 47.9025,
+        "lon": 1.909
+    },
+    "#Rouen (76)": {
+        "lat": 49.4428,
+        "lon": 1.0886
+    },
+    "#Mulhouse (68)": {
+        "lat": 47.75,
+        "lon": 7.34
+    },
+    "#Caen (14)": {
+        "lat": 49.1811,
+        "lon": -0.3712
+    },
+    "Boulogne-Billancourt (92)": {
+        "lat": 48.8352,
+        "lon": 2.2409
+    },
+    "#Nancy (54)": {
+        "lat": 48.6936,
+        "lon": 6.1846
+    },
+    "Saint-Denis (La Réunion)": {
+        "lat": -20.8789,
+        "lon": 55.4481
+    },
+    "#Argenteuil (95)": {
+        "lat": 48.95,
+        "lon": 2.25
+    },
+    "#Montreuil (93)": {
+        "lat": 48.8611,
+        "lon": 2.4436
+    },
+    "#Roubaix (59)": {
+        "lat": 50.6901,
+        "lon": 3.1817
+    },
+    "#Tourcoing (59)": {
+        "lat": 50.7239,
+        "lon": 3.1612
+    },
+    "#Nanterre (92)": {
+        "lat": 48.8925,
+        "lon": 2.2153
+    },
+    "#Avignon (84)": {
+        "lat": 43.9493,
+        "lon": 4.8055
+    },
+    "Vitry-sur-Seine (94)": {
+        "lat": 48.7875,
+        "lon": 2.3928
+    },
+    "#Créteil (94)": {
+        "lat": 48.7761,
+        "lon": 2.4556
+    },
+    "#Dunkerque (59)": {
+        "lat": 51.0344,
+        "lon": 2.3767
+    },
+    "#Poitiers (86)": {
+        "lat": 46.5802,
+        "lon": 0.3404
+    },
+    "Asnières-sur-Seine (92)": {
+        "lat": 48.9109,
+        "lon": 2.2859
+    },
+    "#Courbevoie (92)": {
+        "lat": 48.8978,
+        "lon": 2.2531
+    },
+    "#Versailles (78)": {
+        "lat": 48.8053,
+        "lon": 2.135
+    },
+    "#Colombes (92)": {
+        "lat": 48.9236,
+        "lon": 2.2522
+    },
+    "Fort-de-France (#Martinique)": {
+        "lat": 14.6161,
+        "lon": -61.0583
+    },
+    "Aulnay-sous-Bois (93)": {
+        "lat": 48.9381,
+        "lon": 2.4914
+    },
+    "Rueil-Malmaison (92)": {
+        "lat": 48.8762,
+        "lon": 2.1817
+    },
+    "#Pau (64)": {
+        "lat": 43.3,
+        "lon": -0.37
+    },
+    "#Aubervilliers (93)": {
+        "lat": 48.9136,
+        "lon": 2.3833
+    },
+    "Champigny-sur-Marne (94)": {
+        "lat": 48.8172,
+        "lon": 2.5156
+    },
+    "#Antibes (06)": {
+        "lat": 43.5808,
+        "lon": 7.1239
+    },
+    "#Béziers (34)": {
+        "lat": 43.3472,
+        "lon": 3.2192
+    },
+    "La Rochelle (17)": {
+        "lat": 46.1603,
+        "lon": -1.1517
+    },
+    "Saint-Maur-des-Fossés (94)": {
+        "lat": 48.7994,
+        "lon": 2.4997
+    },
+    "#Cannes (06)": {
+        "lat": 43.5513,
+        "lon": 7.0128
+    },
+    "#Calais (62)": {
+        "lat": 50.9481,
+        "lon": 1.8564
+    },
+    "Saint-Nazaire (44)": {
+        "lat": 47.2736,
+        "lon": -2.2139
+    },
+    "#Mérignac (33)": {
+        "lat": 44.8386,
+        "lon": -0.6436
+    },
+    "#Drancy (93)": {
+        "lat": 48.93,
+        "lon": 2.45
+    },
+    "#Colmar (68)": {
+        "lat": 48.08,
+        "lon": 7.36
+    },
+    "#Ajaccio (2A)": {
+        "lat": 41.9267,
+        "lon": 8.7369
+    },
+    "#Bourges (18)": {
+        "lat": 47.0833,
+        "lon": 2.4
+    },
+    "Issy-les-Moulineaux (92)": {
+        "lat": 48.8239,
+        "lon": 2.27
+    },
+    "Levallois-Perret (92)": {
+        "lat": 48.895,
+        "lon": 2.2872
+    },
+    "La Seyne-sur-Mer (83)": {
+        "lat": 43.1,
+        "lon": 5.88
+    },
+    "#Quimper (29)": {
+        "lat": 48.0,
+        "lon": -4.1
+    },
+    "Noisy-le-Grand (93)": {
+        "lat": 48.8478,
+        "lon": 2.5528
+    },
+    "Villeneuve-d'Ascq (59)": {
+        "lat": 50.6167,
+        "lon": 3.1667
+    },
+    "Neuilly-sur-Seine (92)": {
+        "lat": 48.8881,
+        "lon": 2.2686
+    },
+    "#Valence (26)": {
+        "lat": 44.9333,
+        "lon": 4.9
+    },
+    "#Antony (92)": {
+        "lat": 48.7539,
+        "lon": 2.2975
+    },
+    "#Cergy (95)": {
+        "lat": 49.0361,
+        "lon": 2.0761
+    },
+    "#Vénissieux (69)": {
+        "lat": 45.6964,
+        "lon": 4.8858
+    },
+    "#Pessac (33)": {
+        "lat": 44.8056,
+        "lon": -0.6311
+    },
+    "#Troyes (10)": {
+        "lat": 48.3,
+        "lon": 4.0833
+    },
+    "#Clichy (92)": {
+        "lat": 48.9044,
+        "lon": 2.3064
+    },
+    "Ivry-sur-Seine (94)": {
+        "lat": 48.8147,
+        "lon": 2.3847
+    },
+    "#Chambéry (73)": {
+        "lat": 45.5667,
+        "lon": 5.9333
+    },
+    "#Lorient (56)": {
+        "lat": 47.75,
+        "lon": -3.3667
+    },
+    "#Montauban (82)": {
+        "lat": 44.0167,
+        "lon": 1.35
+    },
+    "#Sarcelles (95)": {
+        "lat": 48.9956,
+        "lon": 2.3808
+    },
+    "#Niort (79)": {
+        "lat": 46.3231,
+        "lon": -0.4608
+    },
+    "#Villejuif (94)": {
+        "lat": 48.7939,
+        "lon": 2.3647
+    },
+    "#Hyères (83)": {
+        "lat": 43.12,
+        "lon": 6.13
+    },
+    "Saint-Quentin (02)": {
+        "lat": 49.8486,
+        "lon": 3.2864
+    },
+    "#Beauvais (60)": {
+        "lat": 49.43,
+        "lon": 2.08
+    },
+    "Épinay-sur-Seine (93)": {
+        "lat": 48.9533,
+        "lon": 2.3158
+    },
+    "#Cayenne (Guyane)": {
+        "lat": 4.933,
+        "lon": -52.33
+    },
+    "Maisons-Alfort (94)": {
+        "lat": 48.8058,
+        "lon": 2.4389
+    },
+    "#Meaux (77)": {
+        "lat": 48.96,
+        "lon": 2.8883
+    },
+    "#Chelles (77)": {
+        "lat": 48.8811,
+        "lon": 2.5928
+    },
+    "#Pantin (93)": {
+        "lat": 48.8953,
+        "lon": 2.4072
+    },
+    "Évry-Courcouronnes (91)": {
+        "lat": 48.63,
+        "lon": 2.43
+    },
+    "Fontenay-sous-Bois (94)": {
+        "lat": 48.8517,
+        "lon": 2.4772
+    },
+    "#Fréjus (83)": {
+        "lat": 43.4333,
+        "lon": 6.7333
+    },
+    "#Vannes (56)": {
+        "lat": 47.6556,
+        "lon": -2.7603
+    },
+    "#Bondy (93)": {
+        "lat": 48.9019,
+        "lon": 2.4828
+    },
+    "Le Blanc-Mesnil (93)": {
+        "lat": 48.9386,
+        "lon": 2.4619
+    },
+    "La Roche-sur-Yon (85)": {
+        "lat": 46.6706,
+        "lon": -1.4261
+    },
+    "#Arles (13)": {
+        "lat": 43.6767,
+        "lon": 4.6278
+    },
+    "#Clamart (92)": {
+        "lat": 48.8,
+        "lon": 2.2667
+    },
+    "#Narbonne (11)": {
+        "lat": 43.1836,
+        "lon": 3.0042
+    },
+    "#Annecy (74)": {
+        "lat": 45.9167,
+        "lon": 6.1333
+    },
+    "#Sartrouville (78)": {
+        "lat": 48.9369,
+        "lon": 2.1917
+    },
+    "#Grasse (06)": {
+        "lat": 43.6667,
+        "lon": 6.9167
+    },
+    "#Laval (53)": {
+        "lat": 48.0733,
+        "lon": -0.7689
+    },
+    "#Belfort (90)": {
+        "lat": 47.6378,
+        "lon": 6.8639
+    },
+    "#Bobigny (93)": {
+        "lat": 48.91,
+        "lon": 2.45
+    },
+    "#Évreux (27)": {
+        "lat": 49.0228,
+        "lon": 1.1508
+    },
+    "#Vincennes (94)": {
+        "lat": 48.8478,
+        "lon": 2.4378
+    },
+    "#Montrouge (92)": {
+        "lat": 48.8161,
+        "lon": 2.3214
+    },
+    "#Sevran (93)": {
+        "lat": 48.9333,
+        "lon": 2.5333
+    },
+    "#Albi (81)": {
+        "lat": 43.9298,
+        "lon": 2.148
+    },
+    "Charleville-Mézières (08)": {
+        "lat": 49.7667,
+        "lon": 4.7167
+    },
+    "#Suresnes (92)": {
+        "lat": 48.8714,
+        "lon": 2.2292
+    },
+    "#Martigues (13)": {
+        "lat": 43.4042,
+        "lon": 5.0453
+    },
+    "Corbeil-Essonnes (91)": {
+        "lat": 48.6139,
+        "lon": 2.482
+    },
+    "Saint-Ouen-sur-Seine (93)": {
+        "lat": 48.9119,
+        "lon": 2.3342
+    },
+    "#Bayonne (64)": {
+        "lat": 43.49,
+        "lon": -1.48
+    },
+    "Cagnes-sur-Mer (06)": {
+        "lat": 43.6644,
+        "lon": 7.1489
+    },
+    "Brive-la-Gaillarde (19)": {
+        "lat": 45.1589,
+        "lon": 1.5331
+    },
+    "#Carcassonne (11)": {
+        "lat": 43.2131,
+        "lon": 2.3517
+    },
+    "#Massy (91)": {
+        "lat": 48.7306,
+        "lon": 2.2714
+    },
+    "#Blois (41)": {
+        "lat": 47.5942,
+        "lon": 1.3347
+    },
+    "#Meudon (92)": {
+        "lat": 48.8103,
+        "lon": 2.235
+    },
+    "Saint-Brieuc (22)": {
+        "lat": 48.5136,
+        "lon": -2.7653
+    },
+    "#Châteauroux (36)": {
+        "lat": 46.8106,
+        "lon": 1.6939
+    },
+    "Chalon-sur-Saône (71)": {
+        "lat": 46.7811,
+        "lon": 4.8536
+    },
+    "#Aubagne (13)": {
+        "lat": 43.2917,
+        "lon": 5.5708
+    },
+    "Saint-Malo (35)": {
+        "lat": 48.6481,
+        "lon": -2.0075
+    },
+    "Mantes-la-Jolie (78)": {
+        "lat": 48.9908,
+        "lon": 1.7172
+    },
+    "#Alfortville (94)": {
+        "lat": 48.805,
+        "lon": 2.4239
+    },
+    "#Sète (34)": {
+        "lat": 43.4028,
+        "lon": 3.6928
+    },
+    "Salon-de-Provence (13)": {
+        "lat": 43.6403,
+        "lon": 5.0953
+    },
+    "Vaulx-en-Velin (69)": {
+        "lat": 45.7819,
+        "lon": 4.9208
+    },
+    "#Puteaux (92)": {
+        "lat": 48.8839,
+        "lon": 2.2389
+    },
+    "Rosny-sous-Bois (93)": {
+        "lat": 48.8667,
+        "lon": 2.4833
+    },
+    "Saint-Herblain (44)": {
+        "lat": 47.2178,
+        "lon": -1.6483
+    },
+    "#Gennevilliers (92)": {
+        "lat": 48.9333,
+        "lon": 2.3
+    },
+    "Le Cannet (06)": {
+        "lat": 43.5769,
+        "lon": 7.0194
+    },
+    "Livry-Gargan (93)": {
+        "lat": 48.9192,
+        "lon": 2.5361
+    },
+    "Saint-Priest (69)": {
+        "lat": 45.6958,
+        "lon": 4.9444
+    },
+    "#Istres (13)": {
+        "lat": 43.5136,
+        "lon": 4.9875
+    },
+    "#Valenciennes (59)": {
+        "lat": 50.3581,
+        "lon": 3.5233
+    },
+    "Choisy-le-Roi (94)": {
+        "lat": 48.7636,
+        "lon": 2.4097
+    },
+    "Caluire-et-Cuire (69)": {
+        "lat": 45.7956,
+        "lon": 4.8469
+    },
+    "Boulogne-sur-Mer (62)": {
+        "lat": 50.7264,
+        "lon": 1.6147
+    },
+    "#Bastia (2B)": {
+        "lat": 42.7028,
+        "lon": 9.45
+    },
+    "#Castres (81)": {
+        "lat": 43.6064,
+        "lon": 2.2408
+    },
+    "#Wattrelos (59)": {
+        "lat": 50.7019,
+        "lon": 3.2181
+    },
+    "Garges-lès-Gonesse (95)": {
+        "lat": 48.9719,
+        "lon": 2.3978
+    },
+    "#Anglet (64)": {
+        "lat": 43.4844,
+        "lon": -1.5186
+    },
+    "#Talence (33)": {
+        "lat": 44.8047,
+        "lon": -0.5903
+    },
+    "#Rezé (44)": {
+        "lat": 47.1914,
+        "lon": -1.5733
+    },
+    "Montigny-le-Bretonneux (78)": {
+        "lat": 48.7708,
+        "lon": 2.0342
+    },
+    "#Gagny (93)": {
+        "lat": 48.8833,
+        "lon": 2.5333
+    },
+    "Marcq-en-Barœul (59)": {
+        "lat": 50.67,
+        "lon": 3.09
+    },
+    "#Bagneux (92)": {
+        "lat": 48.8,
+        "lon": 2.3167
+    },
+    "#Bron (69)": {
+        "lat": 45.7333,
+        "lon": 4.9167
+    },
+    "Noisy-le-Sec (93)": {
+        "lat": 48.8914,
+        "lon": 2.4533
+    },
+    "#Goussainville (95)": {
+        "lat": 49.0136,
+        "lon": 2.465
+    },
+    "#Oullins (69)": {
+        "lat": 45.715,
+        "lon": 4.8083
+    },
+    "#Échirolles (38)": {
+        "lat": 45.1439,
+        "lon": 5.7156
+    },
+    "Savigny-sur-Orge (91)": {
+        "lat": 48.6767,
+        "lon": 2.3503
+    },
+    "Saint-Germain-en-Laye (78)": {
+        "lat": 48.8978,
+        "lon": 2.0942
+    },
+    "#Villepinte (93)": {
+        "lat": 48.9622,
+        "lon": 2.5286
+    },
+    "Sainte-Geneviève-des-Bois (91)": {
+        "lat": 48.6442,
+        "lon": 2.3297
+    },
+    "Tremblay-en-France (93)": {
+        "lat": 48.9556,
+        "lon": 2.5683
+    },
+    "Conflans-Sainte-Honorine (78)": {
+        "lat": 49.0008,
+        "lon": 2.0969
+    },
+    "Athis-Mons (91)": {
+        "lat": 48.7058,
+        "lon": 2.3919
+    },
+    "Pontault-Combault (77)": {
+        "lat": 48.7981,
+        "lon": 2.6069
+    },
+    "Six-Fours-les-Plages (83)": {
+        "lat": 43.1,
+        "lon": 5.85
+    },
+    "Villenave-d'Ornon (33)": {
+        "lat": 44.7733,
+        "lon": -0.5694
+    },
+    "Saint-Martin-d'Hères (38)": {
+        "lat": 45.1667,
+        "lon": 5.7667
+    },
+    "#Chartres (28)": {
+        "lat": 48.4439,
+        "lon": 1.4894
+    },
+    "Le Perreux-sur-Marne (94)": {
+        "lat": 48.8419,
+        "lon": 2.5036
+    },
+    "#Romainville (93)": {
+        "lat": 48.8819,
+        "lon": 2.4347
+    },
+    "Maisons-Laffitte (78)": {
+        "lat": 48.9467,
+        "lon": 2.1453
+    },
+    "Saint-Chamond (42)": {
+        "lat": 45.4769,
+        "lon": 4.5158
+    },
+    "#Alès (30)": {
+        "lat": 44.1281,
+        "lon": 4.0817
+    },
+    "Pierrefitte-sur-Seine (93)": {
+        "lat": 48.9669,
+        "lon": 2.3614
+    },
+    "#Sannois (95)": {
+        "lat": 48.9717,
+        "lon": 2.2578
+    },
+    "#Haguenau (67)": {
+        "lat": 48.8167,
+        "lon": 7.7886
+    },
+    "Villefranche-sur-Saône (69)": {
+        "lat": 45.9833,
+        "lon": 4.7167
+    },
+    "Le Chesnay-Rocquencourt (78)": {
+        "lat": 48.8222,
+        "lon": 2.1389
+    },
+    "L'Haÿ-les-Roses (94)": {
+        "lat": 48.7764,
+        "lon": 2.3364
+    },
+    "Châtenay-Malabry (92)": {
+        "lat": 48.7647,
+        "lon": 2.2761
+    },
+    "Villeneuve-Saint-Georges (94)": {
+        "lat": 48.7322,
+        "lon": 2.4494
+    },
+    "#Palaiseau (91)": {
+        "lat": 48.715,
+        "lon": 2.2461
+    },
+    "#Soissons (02)": {
+        "lat": 49.3817,
+        "lon": 3.3236
+    },
+    "#Vanves (92)": {
+        "lat": 48.8208,
+        "lon": 2.2892
+    },
+    "Saint-Raphaël (83)": {
+        "lat": 43.4233,
+        "lon": 6.7733
+    },
+    "#Élancourt (78)": {
+        "lat": 48.7842,
+        "lon": 1.9556
+    },
+    "Sucy-en-Brie (94)": {
+        "lat": 48.7686,
+        "lon": 2.5344
+    },
+    "Rillieux-la-Pape (69)": {
+        "lat": 45.8167,
+        "lon": 4.9
+    },
+    "La Garenne-Colombes (92)": {
+        "lat": 48.9047,
+        "lon": 2.2469
+    },
+    "Saint-Cloud (92)": {
+        "lat": 48.8456,
+        "lon": 2.2131
+    },
+    "#Draveil (91)": {
+        "lat": 48.6844,
+        "lon": 2.4142
+    },
+    "#Chatou (78)": {
+        "lat": 48.8897,
+        "lon": 2.1586
+    },
+    "#Cachan (94)": {
+        "lat": 48.7944,
+        "lon": 2.3292
+    },
+    "Coudekerque-Branche (59)": {
+        "lat": 51.0228,
+        "lon": 2.3936
+    },
+    "Boissy-Saint-Léger (94)": {
+        "lat": 48.7508,
+        "lon": 2.5119
+    },
+    "#Meyzieu (69)": {
+        "lat": 45.7667,
+        "lon": 5.0
+    },
+    "Vigneux-sur-Seine (91)": {
+        "lat": 48.7,
+        "lon": 2.4167
+    },
+    "#Plaisir (78)": {
+        "lat": 48.8181,
+        "lon": 1.9544
+    },
+    "Bourg-la-Reine (92)": {
+        "lat": 48.7797,
+        "lon": 2.315
+    },
+    "#Schiltigheim (67)": {
+        "lat": 48.6078,
+        "lon": 7.7494
+    },
+    "#Aurillac (15)": {
+        "lat": 44.9261,
+        "lon": 2.4406
+    },
+    "#Malakoff (92)": {
+        "lat": 48.8167,
+        "lon": 2.3
+    },
+    "#Guyancourt (78)": {
+        "lat": 48.7711,
+        "lon": 2.0733
+    },
+    "#Bagnolet (93)": {
+        "lat": 48.8692,
+        "lon": 2.4181
+    },
+    "Savigny-le-Temple (77)": {
+        "lat": 48.5841,
+        "lon": 2.583
+    },
+    "Viry-Châtillon (91)": {
+        "lat": 48.6719,
+        "lon": 2.3753
+    },
+    "Mont-de-Marsan (40)": {
+        "lat": 43.8903,
+        "lon": -0.5
+    },
+    "#Thionville (57)": {
+        "lat": 49.3578,
+        "lon": 6.1683
+    },
+    "Sotteville-lès-Rouen (76)": {
+        "lat": 49.4092,
+        "lon": 1.09
+    },
+    "La Courneuve (93)": {
+        "lat": 48.9319,
+        "lon": 2.3967
+    },
+    "Saint-Médard-en-Jalles (33)": {
+        "lat": 44.8961,
+        "lon": -0.7183
+    },
+    "Villiers-sur-Marne (94)": {
+        "lat": 48.8281,
+        "lon": 2.5444
+    },
+    "#Roanne (42)": {
+        "lat": 46.0364,
+        "lon": 4.0689
+    },
+    "Ablon-sur-Seine (94)": {
+        "lat": 48.7253,
+        "lon": 2.4203
+    },
+    "Le Plessis-Robinson (92)": {
+        "lat": 48.7808,
+        "lon": 2.2639
+    },
+    "#Dreux (28)": {
+        "lat": 48.7364,
+        "lon": 1.3664
+    },
+    "Les Mureaux (78)": {
+        "lat": 48.9917,
+        "lon": 1.9094
+    },
+    "#Houilles (78)": {
+        "lat": 48.9261,
+        "lon": 2.1922
+    },
+    "#Châtillon (92)": {
+        "lat": 48.8022,
+        "lon": 2.2925
+    },
+    "#Pontoise (95)": {
+        "lat": 49.05,
+        "lon": 2.1
+    },
+    "Saint-Cyr-l'École (78)": {
+        "lat": 48.8,
+        "lon": 2.0667
+    },
+    "Villiers-le-Bel (95)": {
+        "lat": 49.0089,
+        "lon": 2.39
+    },
+    "Salaise-sur-Sanne (38)": {
+        "lat": 45.3428,
+        "lon": 4.8125
+    },
+    "#Béthune (62)": {
+        "lat": 50.53,
+        "lon": 2.64
+    },
+    "Aix-les-Bains (73)": {
+        "lat": 45.6886,
+        "lon": 5.9153
+    },
+    "Villeneuve-la-Garenne (92)": {
+        "lat": 48.9369,
+        "lon": 2.3278
+    },
+    "#Trappes (78)": {
+        "lat": 48.7769,
+        "lon": 2.0019
+    },
+    "Saint-Étienne-du-Rouvray (76)": {
+        "lat": 49.3778,
+        "lon": 1.105
+    },
+    "#Fresnes (94)": {
+        "lat": 48.755,
+        "lon": 2.3222
+    },
+    "Le Kremlin-Bicêtre (94)": {
+        "lat": 48.8106,
+        "lon": 2.3597
+    },
+    "Décines-Charpieu (69)": {
+        "lat": 45.7686,
+        "lon": 4.9597
+    },
+    "Saint-Fons (69)": {
+        "lat": 45.7081,
+        "lon": 4.8539
+    },
+    "#Lens (62)": {
+        "lat": 50.4328,
+        "lon": 2.8358
+    },
+    "#Gonesse (95)": {
+        "lat": 48.9858,
+        "lon": 2.4489
+    },
+    "Ozoir-la-Ferrière (77)": {
+        "lat": 48.7667,
+        "lon": 2.6667
+    },
+    "Les Ulis (91)": {
+        "lat": 48.6817,
+        "lon": 2.1694
+    },
+    "Le Bouscat (33)": {
+        "lat": 44.8656,
+        "lon": -0.5964
+    },
+    "#Compiègne (60)": {
+        "lat": 49.4178,
+        "lon": 2.8261
+    },
+    "#Agde (34)": {
+        "lat": 43.3108,
+        "lon": 3.4758
+    },
+    "#Arras (62)": {
+        "lat": 50.2922,
+        "lon": 2.3694
+    },
+    "Le Petit-Quevilly (76)": {
+        "lat": 49.4308,
+        "lon": 1.0536
+    },
+    "La Ciotat (13)": {
+        "lat": 43.1767,
+        "lon": 5.6083
+    },
+    "Saint-Dizier (52)": {
+        "lat": 48.6375,
+        "lon": 4.9489
+    },
+    "Cherbourg-en-Cotentin (50)": {
+        "lat": 49.6397,
+        "lon": -1.6253
+    },
+    "#Ermont (95)": {
+        "lat": 48.99,
+        "lon": 2.26
+    },
+    "#Lambersart (59)": {
+        "lat": 50.65,
+        "lon": 3.025
+    },
+    "#Annemasse (74)": {
+        "lat": 46.1944,
+        "lon": 6.2375
+    },
+    "#Saintes (17)": {
+        "lat": 45.7458,
+        "lon": -0.6331
+    },
+    "#Montbéliard (25)": {
+        "lat": 47.5094,
+        "lon": 6.7983
+    },
+    "#Taverny (95)": {
+        "lat": 49.0258,
+        "lon": 2.2281
+    },
+    "Saint-Sébastien-sur-Loire (44)": {
+        "lat": 47.2078,
+        "lon": -1.5033
+    },
+    "#Vertou (44)": {
+        "lat": 47.1689,
+        "lon": -1.4694
+    },
+    "Bussy-Saint-Georges (77)": {
+        "lat": 48.8422,
+        "lon": 2.7017
+    },
+    "Vandoeuvre-lès-Nancy (54)": {
+        "lat": 48.6569,
+        "lon": 6.1686
+    },
+    "Fontenay-aux-Roses (92)": {
+        "lat": 48.7892,
+        "lon": 2.2889
+    },
+    "Le Grand-Quevilly (76)": {
+        "lat": 49.4069,
+        "lon": 1.0542
+    },
+    "Les Pavillons-sous-Bois (93)": {
+        "lat": 48.9061,
+        "lon": 2.5069
+    },
+    "La Teste-de-Buch (33)": {
+        "lat": 44.63,
+        "lon": -1.15
+    },
+    "#Rodez (12)": {
+        "lat": 44.3506,
+        "lon": 2.575
+    },
+    "#Frontignan (34)": {
+        "lat": 43.4481,
+        "lon": 3.7536
+    },
+    "#Tournefeuille (31)": {
+        "lat": 43.5886,
+        "lon": 1.3439
+    },
+    "#Montfermeil (93)": {
+        "lat": 48.9,
+        "lon": 2.5667
+    },
+    "#Lunel (34)": {
+        "lat": 43.6778,
+        "lon": 4.1361
+    },
+    "#Mâcon (71)": {
+        "lat": 46.3069,
+        "lon": 4.8283
+    },
+    "Sainte-Foy-lès-Lyon (69)": {
+        "lat": 45.7333,
+        "lon": 4.8
+    },
+    "#Concarneau (29)": {
+        "lat": 47.875,
+        "lon": -3.9167
+    },
+    "#Bergerac (24)": {
+        "lat": 44.8511,
+        "lon": 0.4819
+    },
+    "Sainte-Anne (#Guadeloupe)": {
+        "lat": 16.2264,
+        "lon": -61.3792
+    },
+    "#Biarritz (64)": {
+        "lat": 43.48,
+        "lon": -1.56
+    },
+    "Saint-Sébastien-de-Morsent (27)": {
+        "lat": 49.01,
+        "lon": 1.09
+    },
+    "Bruay-la-Buissière (62)": {
+        "lat": 50.4811,
+        "lon": 2.55
+    },
+    "#Épinal (88)": {
+        "lat": 48.175,
+        "lon": 6.4519
+    }
+}
