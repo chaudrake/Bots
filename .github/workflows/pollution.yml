@@ -1,0 +1,40 @@
+name: Pollution Bot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 8h00, 12h00, 18h00 (heure française)
+    # Calcul UTC: 8h00 FR = 6h00 UTC (été) / 7h00 UTC (hiver)
+    # On met des crons larges pour couvrir été/hiver
+    - cron: "0 6,7 * * *"     # 6h et 7h UTC → couvre 8h FR
+    - cron: "0 10,11 * * *"   # 10h et 11h UTC → couvre 12h FR
+    - cron: "0 16,17 * * *"   # 16h et 17h UTC → couvre 18h FR
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd pollution
+          pip install tweepy requests pytz
+
+      - name: Run bot
+        run: |
+          cd pollution
+          python pollution.py
+        env:
+          POLLUTION_CONSUMER_KEY: ${{ secrets.POLLUTION_CONSUMER_KEY }}
+          POLLUTION_CONSUMER_SECRET: ${{ secrets.POLLUTION_CONSUMER_SECRET }}
+          POLLUTION_ACCESS_KEY: ${{ secrets.POLLUTION_ACCESS_KEY }}
+          POLLUTION_ACCESS_SECRET: ${{ secrets.POLLUTION_ACCESS_SECRET }}
+          POLLUTION_AIRVISUAL_API_KEY: ${{ secrets.POLLUTION_AIRVISUAL_API_KEY }}
