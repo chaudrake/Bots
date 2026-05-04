@@ -3,9 +3,10 @@ name: TwittHeure - Heures Fixes
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"        # 00:00 UTC (02h France été)
-    - cron: "11 11 * * *"      # 11:11 UTC (13h11 France été)
-    - cron: "22 22 * * *"      # 22:22 UTC (00h22 France été)
+    # Crons calés sur l'heure d'hiver
+    - cron: "0 23 * * *"        # 23h00 UTC → attente 1h en été
+    - cron: "11 10 * * *"       # 10h11 UTC → attente 1h en été  
+    - cron: "22 21 * * *"       # 21h22 UTC → attente 1h en été
 
 jobs:
   run-bot:
@@ -16,7 +17,9 @@ jobs:
         with:
           python-version: "3.10"
       - name: Install dependencies
-        run: pip install tweepy pytz
+        run: |
+          cd twittheure
+          pip install tweepy pytz
       - name: Run fixed hours
         run: |
           cd twittheure
