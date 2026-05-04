@@ -1,0 +1,44 @@
+name: ASCII Bot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"   # 15h00 UTC = 17h00 heure française (été/hiver)
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd ASCII
+          pip install tweepy requests
+
+      - name: Debug files
+        run: |
+          echo "=== ASCII directory content ==="
+          ls -la ASCII/
+          echo "=== Check image_list.txt (first 10) ==="
+          head -10 ASCII/image_list.txt
+          echo "=== Check tweeted_urls.txt ==="
+          cat ASCII/tweeted_urls.txt 2>/dev/null | head -5 || echo "tweeted_urls.txt n'existe pas encore"
+
+      - name: Run bot
+        run: |
+          cd ASCII
+          python ASCII.py
+        env:
+          ASCII_CONSUMER_KEY: ${{ secrets.ASCII_CONSUMER_KEY }}
+          ASCII_CONSUMER_SECRET: ${{ secrets.ASCII_CONSUMER_SECRET }}
+          ASCII_ACCESS_KEY: ${{ secrets.ASCII_ACCESS_KEY }}
+          ASCII_ACCESS_SECRET: ${{ secrets.ASCII_ACCESS_SECRET }}
+          ASCII_BEARER_TOKEN: ${{ secrets.ASCII_BEARER_TOKEN }}
