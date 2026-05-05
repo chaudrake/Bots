@@ -9,13 +9,19 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # Autorise le bot à modifier les fichiers du dépôt
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -23,15 +29,6 @@ jobs:
         run: |
           cd Murdescons
           pip install tweepy
-
-      - name: Debug files
-        run: |
-          echo "=== Murdescons directory content ==="
-          ls -la Murdescons/
-          echo "=== Check liste.txt (first 10 lines) ==="
-          head -10 Murdescons/liste.txt
-          echo "=== Check tweeted.txt ==="
-          cat Murdescons/tweeted.txt 2>/dev/null || echo "tweeted.txt n'existe pas encore"
 
       - name: Run bot
         run: |
@@ -42,3 +39,13 @@ jobs:
           MURDESCONS_CONSUMER_SECRET: ${{ secrets.MURDESCONS_CONSUMER_SECRET }}
           MURDESCONS_ACCESS_TOKEN: ${{ secrets.MURDESCONS_ACCESS_TOKEN }}
           MURDESCONS_ACCESS_TOKEN_SECRET: ${{ secrets.MURDESCONS_ACCESS_TOKEN_SECRET }}
+
+      - name: Save History Update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On cible le fichier de suivi dans le bon dossier
+          git add Murdescons/tweeted.txt
+          # On commit et on push seulement s'il y a eu un changement (8% de chance selon ton script)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 MurDesCons: Mise à jour de la liste des tweetés" && git push)
+          
