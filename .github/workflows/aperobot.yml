@@ -3,28 +3,36 @@ name: Apéro Bot
 on:
   workflow_dispatch:
   schedule:
-    # Toutes les 10 minutes entre 6h et 22h UTC
-    # 6h UTC = 8h France été / 7h France hiver
-    - cron: "*/10 6-22 * * *"
+    # Un cron par heure de 5h à 20h UTC (calé sur l'été)
+    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 10 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 13 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 16 * * *"
+    - cron: "0 17 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 19 * * *"
+    - cron: "0 20 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-
       - name: Install dependencies
         run: |
           cd aperobot
           pip install tweepy pytz
-
       - name: Run bot
         run: |
           cd aperobot
