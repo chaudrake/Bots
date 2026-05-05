@@ -3,18 +3,25 @@ name: Ortograf Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
+    # Tous les jours à 09h UTC (11h en France été)
+    - cron: "0 9 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # INDISPENSABLE : Autorise le bot à mettre à jour l'index sur ton dépôt
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -22,15 +29,6 @@ jobs:
         run: |
           cd ortograf
           pip install tweepy
-
-      - name: Debug files
-        run: |
-          echo "=== ortograf directory content ==="
-          ls -la ortograf/
-          echo "=== Check liste.txt (first 5 lines) ==="
-          head -10 ortograf/liste.txt
-          echo "=== Check index.txt ==="
-          cat ortograf/index.txt 2>/dev/null || echo "index.txt n'existe pas encore"
 
       - name: Run bot
         run: |
@@ -41,3 +39,13 @@ jobs:
           ORTOGRAF_CONSUMER_SECRET: ${{ secrets.ORTOGRAF_CONSUMER_SECRET }}
           ORTOGRAF_ACCESS_KEY: ${{ secrets.ORTOGRAF_ACCESS_KEY }}
           ORTOGRAF_ACCESS_SECRET: ${{ secrets.ORTOGRAF_ACCESS_SECRET }}
+
+      - name: Save index update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On cible l'index dans le dossier ortograf
+          git add ortograf/index.txt
+          # Le script a 30% de chance de s'exécuter, on ne push que s'il y a un changement
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Ortograf: Mise à jour de l'index" && git push)
+          
