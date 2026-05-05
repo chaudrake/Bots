@@ -19,7 +19,6 @@ CONSUMER_SECRET = os.getenv('REPAS_CONSUMER_SECRET')
 ACCESS_KEY = os.getenv('REPAS_ACCESS_KEY')
 ACCESS_SECRET = os.getenv('REPAS_ACCESS_SECRET')
 
-# Vérification des credentials
 if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
     print("❌ Missing Twitter API credentials")
     sys.exit(1)
@@ -28,45 +27,20 @@ print("✅ Démarrage du script Repas")
 
 france_tz = pytz.timezone('Europe/Paris')
 
-# Fichiers de configuration (chemins relatifs)
-STATE_FILE = "meal_state.json"
-MEALS_DATA_FILE = "meals_data.json"
-
-def is_summer_time():
-    """Détecte l'heure d'été (UTC+2)"""
+def is_winter_time():
+    """Détecte l'heure d'hiver (UTC+1)"""
     now = datetime.now(france_tz)
-    return now.utcoffset() == pytz.FixedOffset(120)
+    # dst() retourne 0 en hiver, >0 en été
+    return now.dst().total_seconds() == 0
 
-def wait_for_adjustment():
-    """Ajuste l'exécution pour être à l'heure française"""
-    now = datetime.now(france_tz)
-    current_hour = now.hour
-    
-    # Déterminer l'heure cible selon le moment de la journée
-    if 5 <= current_hour < 10:
-        target_hour = 6
-        meal_name = "petit-déjeuner (6h)"
-    elif 10 <= current_hour < 15:
-        target_hour = 11
-        meal_name = "déjeuner (11h)"
-    elif 17 <= current_hour < 21:
-        target_hour = 18
-        meal_name = "dîner (18h)"
+def wait_for_winter_adjustment():
+    """En hiver, attend 1 heure pour caler l'heure française"""
+    if is_winter_time():
+        print("❄️ Heure d'hiver - attente de 1 heure")
+        time.sleep(3600)
+        print("✅ Reprise après attente")
     else:
-        # En dehors des plages, on ne tweete pas
-        return False
-    
-    # Calculer l'attente nécessaire
-    if current_hour < target_hour:
-        wait_seconds = (target_hour - current_hour) * 3600 - now.minute * 60 - now.second
-        if wait_seconds > 0:
-            print(f"⏰ Attente de {wait_seconds//3600}h{(wait_seconds%3600)//60}min pour {meal_name}")
-            time.sleep(wait_seconds)
-    elif current_hour > target_hour:
-        # Déjà après l'heure cible (cas du cron trop tard)
-        print(f"⚠️ Déjà après {target_hour}h, tweet immédiat")
-    
-    return True
+        print("☀️ Heure d'été - exécution immédiate")
 
 def get_current_meal_type():
     """Détermine le type de repas en fonction de l'heure française"""
@@ -83,7 +57,6 @@ def get_current_meal_type():
         return None
 
 def normalize_label(s: str) -> str:
-    """Normalise une étiquette de plat pour comparaison robuste"""
     if not isinstance(s, str):
         s = str(s)
     s = unicodedata.normalize("NFKC", s)
@@ -91,7 +64,6 @@ def normalize_label(s: str) -> str:
     return s.lower()
 
 def extract_keywords(dish_name):
-    """Extrait les mots-clés importants d'un nom de plat"""
     stop_words = {
         'de', 'du', 'des', 'à', 'au', 'aux', 'en', 'avec', 'sans', 'et', 'ou',
         'sur', 'sous', 'dans', 'pour', 'par', 'le', 'la', 'les', 'un', 'une',
@@ -104,7 +76,6 @@ def extract_keywords(dish_name):
     return set(keywords)
 
 def has_conflicting_keywords(starter, main_course, max_common_keywords=2):
-    """Vérifie si l'entrée et le plat principal ont trop de mots-clés en commun"""
     starter_keywords = extract_keywords(starter)
     main_keywords = extract_keywords(main_course)
 
@@ -128,17 +99,13 @@ def has_conflicting_keywords(starter, main_course, max_common_keywords=2):
     return False
 
 def load_meal_state():
-    """Charge l'état depuis le fichier"""
     try:
-        if os.path.exists(STATE_FILE):
-            with open(STATE_FILE, 'r', encoding="utf-8") as f:
+        if os.path.exists('meal_state.json'):
+            with open('meal_state.json', 'r', encoding="utf-8") as f:
                 state = json.load(f)
-            
-            # Migration si nécessaire
             for key in ["used_petit_dejeuner", "used_repas_principal", "used_entrees"]:
                 if key not in state or not isinstance(state[key], list):
                     state[key] = []
-            
             return state
     except Exception as e:
         print(f"❌ Erreur lecture état: {e}")
@@ -150,9 +117,8 @@ def load_meal_state():
     }
 
 def save_meal_state(state):
-    """Sauvegarde l'état dans le fichier"""
     try:
-        with open(STATE_FILE, 'w', encoding="utf-8") as f:
+        with open('meal_state.json', 'w', encoding="utf-8") as f:
             json.dump(state, f, indent=2, ensure_ascii=False)
     except Exception as e:
         print(f"❌ Erreur sauvegarde état: {e}")
@@ -160,9 +126,9 @@ def save_meal_state(state):
 class MealGenerator:
     def __init__(self):
         try:
-            with open(MEALS_DATA_FILE, 'r', encoding='utf-8') as f:
+            with open('meals_data.json', 'r', encoding='utf-8') as f:
                 self.meals_data = json.load(f)
-            print(f"✅ Données repas chargées depuis {MEALS_DATA_FILE}")
+            print(f"✅ Données repas chargées")
         except Exception as e:
             print(f"❌ Erreur chargement données repas: {e}")
             sys.exit(1)
@@ -237,7 +203,6 @@ class MealGenerator:
             }
 
 def generate_tweet(meal_data):
-    """Génère le texte du tweet"""
     emojis = {"petit_dejeuner": "☀️", "dejeuner": "🍳", "diner": "🍽️"}
     hashtags = {"petit_dejeuner": "#PetitDéjeuner #BonAppétit", "dejeuner": "#Déjeuner #BonAppétit", "diner": "#Dîner #BonAppétit"}
     
@@ -260,7 +225,6 @@ def generate_tweet(meal_data):
     return "\n".join(tweet_lines)[:280]
 
 def post_tweet(tweet_text):
-    """Poste le tweet sur Twitter"""
     try:
         client = tweepy.Client(
             consumer_key=CONSUMER_KEY,
@@ -269,14 +233,13 @@ def post_tweet(tweet_text):
             access_token_secret=ACCESS_SECRET
         )
         response = client.create_tweet(text=tweet_text)
-        print(f"✅ Tweet publié : {response.data['id']}")
+        print(f"✅ Tweet publié")
         return True
     except Exception as e:
         print(f"❌ Erreur publication : {e}")
         return False
 
 def execute_nutrition_tweet():
-    """Exécute le processus complet de tweet Repas"""
     print("🍽️ Génération de suggestion de repas...")
 
     meal_type = get_current_meal_type()
@@ -298,23 +261,13 @@ def execute_nutrition_tweet():
     print("💾 État sauvegardé")
 
     tweet_text = generate_tweet(meal_data)
-    print(f"📝 Tweet généré ({len(tweet_text)} caractères)")
-    print("-" * 40)
-    print(tweet_text)
-    print("-" * 40)
-
-    success = post_tweet(tweet_text)
-    print("✅ Tweet Repas publié!" if success else "❌ Échec de la publication")
+    post_tweet(tweet_text)
 
 def main():
-    # Attendre l'heure cible si nécessaire
-    if not wait_for_adjustment():
-        print("⏭️ En dehors des plages horaires, arrêt")
-        return
+    wait_for_winter_adjustment()
     
     now = datetime.now(france_tz)
     print(f"🕐 Heure française: {now.strftime('%H:%M:%S')}")
-    
     execute_nutrition_tweet()
 
 if __name__ == "__main__":
