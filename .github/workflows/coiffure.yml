@@ -3,38 +3,50 @@ name: Coiffure Bot
 on:
   workflow_dispatch:
   schedule:
-        - cron: "0 15 * * *" # 15h UTC = 17h FR (été) / 16h FR (hiver)[span_1](end_span)
+    # 15h UTC = 17h FR (été) / 16h FR (hiver)
+    - cron: "0 15 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    # Ajout explicite des permissions pour permettre le push de l'index
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout code
-        [span_2](start_span)uses: actions/checkout@v4 # Version mise à jour pour plus de stabilité[span_2](end_span)
+        uses: actions/checkout@v4
         with:
-          # Nécessaire pour avoir les droits de push sur le repo
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
-        [span_3](start_span)uses: actions/setup-python@v4[span_3](end_span)
+        uses: actions/setup-python@v4
         with:
-          [span_4](start_span)python-version: "3.10"[span_4](end_span)
+          python-version: "3.10"
 
       - name: Install dependencies
         run: |
-          [span_5](start_span)cd coiffure[span_5](end_span)
-          [span_6](start_span)pip install tweepy pytz[span_6](end_span)
+          cd coiffure
+          pip install tweepy pytz
 
       - name: Run bot
         run: |
-          [span_7](start_span)cd coiffure[span_7](end_span)
-          [span_8](start_span)python coiffure.py[span_8](end_span)
+          cd coiffure
+          python coiffure.py
         env:
-          [span_9](start_span)COIFFURE_CONSUMER_KEY: ${{ secrets.COIFFURE_CONSUMER_KEY }}[span_9](end_span)
-          [span_10](start_span)COIFFURE_CONSUMER_SECRET: ${{ secrets.COIFFURE_CONSUMER_SECRET }}[span_10](end_span)
-          [span_11](start_span)COIFFURE_ACCESS_KEY: ${{ secrets.COIFFURE_ACCESS_KEY }}[span_11](end_span)
-          [span_12](start_span)COIFFURE_ACCESS_SECRET: ${{ secrets.COIFFURE_ACCESS_SECRET }}[span_12](end_span)
+          COIFFURE_CONSUMER_KEY: ${{ secrets.COIFFURE_CONSUMER_KEY }}
+          COIFFURE_CONSUMER_SECRET: ${{ secrets.COIFFURE_CONSUMER_SECRET }}
+          COIFFURE_ACCESS_KEY: ${{ secrets.COIFFURE_ACCESS_KEY }}
+          COIFFURE_ACCESS_SECRET: ${{ secrets.COIFFURE_ACCESS_SECRET }}
 
+      - name: Save index update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add coiffure/index.txt
+          # Vérification de changement avant commit pour éviter les erreurs inutiles
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mise à jour automatique de l'index" && git push)
+          
       - name: Save index update
         run: |
           git config --global user.name "github-actions[bot]"
