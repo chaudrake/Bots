@@ -1,43 +1,35 @@
 name: Capitales Bot
 
 on:
-  workflow_dispatch:   # permet de lancer à la main
+  workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h France été)
-    - cron: "0 15 * * *"  # tous les jours à 15h UTC (17h France été)
+    # Tous les jours à 09h et 15h UTC
+    - cron: "0 9 * * *"
+    - cron: "0 15 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # INDISPENSABLE : Permet au bot de mettre à jour le fichier index.json
+    permissions:
+      contents: write
 
     steps:
-      # 1. Récupère le repo
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Installe Python
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
-      # 3. Installe les dépendances
       - name: Install dependencies
-        run: pip install --no-cache-dir -r requirements.txt
-  
-      # 4. Debug - vérifie la structure des fichiers
-      - name: Debug files
         run: |
-          echo "=== Current directory ==="
-          pwd
-          echo "=== Root directory content ==="
-          ls -la
-          echo "=== capitales directory content ==="
-          ls -la capitales/
-          echo "=== Check bot.json ==="
-          cat capitales/bot.json | head -3
+          pip install --no-cache-dir -r requirements.txt
 
-      # 5. Lance le bot
       - name: Run bot
         run: |
           cd capitales
@@ -47,3 +39,13 @@ jobs:
           CAPITALES_CONSUMER_SECRET: ${{ secrets.CAPITALES_CONSUMER_SECRET }}
           CAPITALES_ACCESS_TOKEN: ${{ secrets.CAPITALES_ACCESS_TOKEN }}
           CAPITALES_ACCESS_TOKEN_SECRET: ${{ secrets.CAPITALES_ACCESS_TOKEN_SECRET }}
+
+      - name: Save index update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On ajoute l'index JSON situé dans le dossier capitales
+          git add capitales/index.json
+          # On commit et on push seulement si le fichier a été modifié
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Capitales: Mise à jour de l'index des cités tweetées" && git push)
+          
