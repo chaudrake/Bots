@@ -3,19 +3,22 @@ name: TwittHeure - Heures Fixes
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 22 * * *"   # 00:00 FR (été)
-    - cron: "0 23 * * *"   # 00:00 FR (hiver)
-    - cron: "11 9 * * *"   # 11:11 FR (été)
-    - cron: "11 10 * * *"  # 11:11 FR (hiver)
-    - cron: "22 20 * * *"  # 22:22 FR (été)
-    - cron: "22 21 * * *"  # 22:22 FR (hiver)
+    # 00:00 FR : 22:00 UTC (été) / 23:00 UTC (hiver)
+    - cron: "0 22 * * *"
+    - cron: "0 23 * * *"
+    # 11:11 FR : 09:11 UTC (été) / 10:11 UTC (hiver)
+    - cron: "11 9 * * *"
+    - cron: "11 10 * * *"
+    # 22:22 FR : 20:22 UTC (été) / 21:22 UTC (hiver)
+    - cron: "22 20 * * *"
+    - cron: "22 21 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Bots/twittheure # Définit le dossier par défaut pour toutes les étapes
+        working-directory: twittheure
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
