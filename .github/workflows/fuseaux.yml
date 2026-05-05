@@ -1,0 +1,44 @@
+name: Fuseaux Bot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Toutes les 2 heures de 6h à 20h UTC (calé sur l'été)
+    # 6h UTC = 8h FR (été) / attend 1h = 8h FR (hiver)
+    # 20h UTC = 22h FR (été) / attend 1h = 22h FR (hiver)
+    - cron: "0 6-20/2 * * *"
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd fuseaux
+          pip install tweepy pytz
+
+      - name: Debug files
+        run: |
+          echo "=== fuseaux directory content ==="
+          ls -la fuseaux/
+          echo "=== Check tweeted_territories.txt ==="
+          cat fuseaux/tweeted_territories.txt 2>/dev/null | head -5 || echo "Fichier n'existe pas encore"
+
+      - name: Run bot
+        run: |
+          cd fuseaux
+          python fuseaux.py
+        env:
+          HORAIRES_CONSUMER_KEY: ${{ secrets.HORAIRES_CONSUMER_KEY }}
+          HORAIRES_CONSUMER_SECRET: ${{ secrets.HORAIRES_CONSUMER_SECRET }}
+          HORAIRES_ACCESS_KEY: ${{ secrets.HORAIRES_ACCESS_KEY }}
+          HORAIRES_ACCESS_SECRET: ${{ secrets.HORAIRES_ACCESS_SECRET }}
