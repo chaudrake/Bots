@@ -3,7 +3,7 @@ name: Coiffure Bot
 on:
   workflow_dispatch:
   schedule:
-    - [span_1](start_span)cron: "0 15 * * *"   # 15h UTC = 17h FR (été) / 16h FR (hiver)[span_1](end_span)
+        - cron: "0 15 * * *" # 15h UTC = 17h FR (été) / 16h FR (hiver)[span_1](end_span)
 
 jobs:
   run-bot:
