@@ -3,18 +3,25 @@ name: Mots Rares Bot
 on:
   workflow_dispatch:
   schedule:
+    # Exécution chaque jour à 9h00 UTC
     - cron: "0 9 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # CRUCIAL : Autorise la mise à jour de l'index sur le dépôt
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -22,13 +29,6 @@ jobs:
         run: |
           cd motsrares
           pip install tweepy
-
-      - name: Debug files
-        run: |
-          echo "=== motsrares directory content ==="
-          ls -la motsrares/
-          echo "=== Check motsrares.txt ==="
-          head -5 motsrares/motsrares.txt
 
       - name: Run bot
         run: |
@@ -39,3 +39,13 @@ jobs:
           MOTSRARES_CONSUMER_SECRET: ${{ secrets.MOTSRARES_CONSUMER_SECRET }}
           MOTSRARES_ACCESS_KEY: ${{ secrets.MOTSRARES_ACCESS_KEY }}
           MOTSRARES_ACCESS_SECRET: ${{ secrets.MOTSRARES_ACCESS_SECRET }}
+
+      - name: Save index update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On cible l'index dans le dossier motsrares
+          git add motsrares/indexmotsrares.txt
+          # On ne commit que si l'index a été modifié (ton script a 50% de chance de s'exécuter)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mots Rares: Mise à jour de l'index" && git push)
+          
