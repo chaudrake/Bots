@@ -3,19 +3,26 @@ name: Drapeaux Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *"   # tous les jours à 09h UTC (11h en France été)
-    - cron: "0 15 * * *"  # tous les jours à 15h UTC (17h en France été)
+    # Tous les jours à 09h et 15h UTC (11h et 17h en France l'été)
+    - cron: "0 9 * * *"
+    - cron: "0 15 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # INDISPENSABLE : Autorise le bot à sauvegarder l'index des drapeaux utilisés
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -23,15 +30,6 @@ jobs:
         run: |
           cd drapeaux
           pip install requests tweepy tracery colorama python-dotenv
-
-      - name: Debug files
-        run: |
-          echo "=== Current directory ==="
-          pwd
-          echo "=== drapeaux directory content ==="
-          ls -la drapeaux/
-          echo "=== Check bot.json ==="
-          cat drapeaux/bot.json | head -5
 
       - name: Run bot
         run: |
@@ -42,3 +40,13 @@ jobs:
           DRAPEAUX_CONSUMER_SECRET: ${{ secrets.DRAPEAUX_CONSUMER_SECRET }}
           DRAPEAUX_ACCESS_TOKEN: ${{ secrets.DRAPEAUX_ACCESS_TOKEN }}
           DRAPEAUX_ACCESS_TOKEN_SECRET: ${{ secrets.DRAPEAUX_ACCESS_TOKEN_SECRET }}
+
+      - name: Save index update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On cible l'index JSON dans le dossier drapeaux
+          git add drapeaux/index.json
+          # On commit et on push seulement si le fichier a été modifié
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Drapeaux: Mise à jour de l'index des drapeaux postés" && git push)
+          
