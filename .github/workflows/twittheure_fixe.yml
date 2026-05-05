@@ -3,34 +3,35 @@ name: TwittHeure - Heures Fixes
 on:
   workflow_dispatch:
   schedule:
-    # 00:00 FR : 22:00 UTC (été) / 23:00 UTC (hiver)
-    - cron: "0 22 * * *"
-    - cron: "0 23 * * *"
-    # 11:11 FR : 09:11 UTC (été) / 10:11 UTC (hiver)
-    - cron: "11 9 * * *"
-    - cron: "11 10 * * *"
-    # 22:22 FR : 20:22 UTC (été) / 21:22 UTC (hiver)
-    - cron: "22 20 * * *"
-    - cron: "22 21 * * *"
+    # Crons calés sur l'heure d'été (UTC+2)
+    - cron: "0 22 * * *"     # 22h UTC → 00h00 FR (été) / attend 1h → 00h00 FR (hiver)
+    - cron: "11 9 * * *"     # 9h11 UTC → 11h11 FR (été) / attend 1h → 11h11 FR (hiver)
+    - cron: "22 20 * * *"    # 20h22 UTC → 22h22 FR (été) / attend 1h → 22h22 FR (hiver)
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: twittheure
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+
       - name: Install dependencies
-        run: pip install tweepy pytz
-      - name: Run fixed hours
-        run: python twittheure_fixe.py
+        run: |
+          cd twittheure
+          pip install tweepy pytz
+
+      - name: Run bot
+        run: |
+          cd twittheure
+          python twittheure_fixe.py
         env:
           THeure_CONSUMER_KEY: ${{ secrets.THEURE_CONSUMER_KEY }}
           THeure_CONSUMER_SECRET: ${{ secrets.THEURE_CONSUMER_SECRET }}
           THeure_ACCESS_KEY: ${{ secrets.THEURE_ACCESS_KEY }}
           THeure_ACCESS_SECRET: ${{ secrets.THEURE_ACCESS_SECRET }}
-          
