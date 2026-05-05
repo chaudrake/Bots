@@ -3,38 +3,20 @@ name: Coiffure Bot
 on:
   workflow_dispatch:
   schedule:
-    # 17h00 heure française
-    # Été: 15h00 UTC, Hiver: 16h00 UTC
-    # On met le cron à 15h00 UTC et on ajuste avec sleep
-    - cron: "0 15 * * *"     # 15h00 UTC
+    - cron: "0 15 * * *"   # 15h UTC = 17h FR (été) / 16h FR (hiver)
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-
       - name: Install dependencies
         run: |
           cd coiffure
           pip install tweepy pytz
-
-      - name: Debug files
-        run: |
-          echo "=== coiffure directory content ==="
-          ls -la coiffure/
-          echo "=== Check liste.txt (first 5 lines) ==="
-          head -10 coiffure/liste.txt
-          echo "=== Check index.txt ==="
-          cat coiffure/index.txt 2>/dev/null || echo "index.txt n'existe pas encore"
-
       - name: Run bot
         run: |
           cd coiffure
