@@ -3,11 +3,15 @@ name: TwittHeure - Heures Aléatoires
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 6-21 * * *"   # toutes les 10 min entre 6h et 21h UTC
+    # Toutes les 15 minutes de 4h à 21h UTC (soit 6h-23h FR)
+    - cron: "*/15 4-21 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Bots/twittheure
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -16,11 +20,10 @@ jobs:
       - name: Install dependencies
         run: pip install tweepy pytz
       - name: Run random hours
-        run: |
-          cd twittheure
-          python twittheure_random.py
+        run: python twittheure_random.py
         env:
           THeure_CONSUMER_KEY: ${{ secrets.THEURE_CONSUMER_KEY }}
           THeure_CONSUMER_SECRET: ${{ secrets.THEURE_CONSUMER_SECRET }}
           THeure_ACCESS_KEY: ${{ secrets.THEURE_ACCESS_KEY }}
           THeure_ACCESS_SECRET: ${{ secrets.THEURE_ACCESS_SECRET }}
+          
