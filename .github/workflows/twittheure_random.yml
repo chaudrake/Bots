@@ -3,7 +3,7 @@ name: TwittHeure - Heures Aléatoires
 on:
   workflow_dispatch:
   schedule:
-    # Toutes les 15 minutes de 4h à 21h UTC (soit 6h-23h FR)
+    # Se lance toutes les 15 min de 4h à 21h UTC (couvre 6h-23h FR été/hiver)
     - cron: "*/15 4-21 * * *"
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Bots/twittheure
+        working-directory: twittheure
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
