@@ -1,0 +1,36 @@
+name: Apéro Bot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Toutes les 10 minutes entre 6h et 22h UTC
+    # 6h UTC = 8h France été / 7h France hiver
+    - cron: "*/10 6-22 * * *"
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          cd aperobot
+          pip install tweepy pytz
+
+      - name: Run bot
+        run: |
+          cd aperobot
+          python aperobot.py
+        env:
+          APEROBOT_CONSUMER_KEY: ${{ secrets.APEROBOT_CONSUMER_KEY }}
+          APEROBOT_CONSUMER_SECRET: ${{ secrets.APEROBOT_CONSUMER_SECRET }}
+          APEROBOT_ACCESS_KEY: ${{ secrets.APEROBOT_ACCESS_KEY }}
+          APEROBOT_ACCESS_SECRET: ${{ secrets.APEROBOT_ACCESS_SECRET }}
