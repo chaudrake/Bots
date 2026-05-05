@@ -9,10 +9,14 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # Cette section est CRUCIALE pour corriger l'erreur 403 (Permission denied)
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Version stable mise à jour
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -42,6 +46,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           # On ajoute spécifiquement le fichier d'historique dans le dossier fuseaux
           git add fuseaux/tweeted_territories.txt
-          # On commit seulement s'il y a des changements
+          # On commit seulement s'il y a des changements pour éviter les erreurs
           git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Fuseaux: Mise à jour de l'historique des territoires" && git push)
           
