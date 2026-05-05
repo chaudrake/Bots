@@ -3,18 +3,25 @@ name: ASCII Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * *"   # 15h00 UTC = 17h00 heure française (été/hiver)
+    # 15h00 UTC = 17h00 heure française (été/hiver)
+    - cron: "0 15 * * *"
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # INDISPENSABLE : Permet de sauvegarder l'historique sur ton dépôt
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -22,15 +29,6 @@ jobs:
         run: |
           cd ASCII
           pip install tweepy requests
-
-      - name: Debug files
-        run: |
-          echo "=== ASCII directory content ==="
-          ls -la ASCII/
-          echo "=== Check image_list.txt (first 10) ==="
-          head -10 ASCII/image_list.txt
-          echo "=== Check tweeted_urls.txt ==="
-          cat ASCII/tweeted_urls.txt 2>/dev/null | head -5 || echo "tweeted_urls.txt n'existe pas encore"
 
       - name: Run bot
         run: |
@@ -42,3 +40,13 @@ jobs:
           ASCII_ACCESS_KEY: ${{ secrets.ASCII_ACCESS_KEY }}
           ASCII_ACCESS_SECRET: ${{ secrets.ASCII_ACCESS_SECRET }}
           ASCII_BEARER_TOKEN: ${{ secrets.ASCII_BEARER_TOKEN }}
+
+      - name: Save History Update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On ajoute le fichier qui contient la liste des URLs déjà tweetées
+          git add ASCII/tweeted_urls.txt
+          # On commit et on push seulement si une nouvelle image a été marquée comme tweetée
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 ASCII: Mise à jour de l'historique des images postées" && git push)
+          
