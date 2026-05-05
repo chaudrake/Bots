@@ -3,37 +3,22 @@ name: Repas Bot
 on:
   workflow_dispatch:
   schedule:
-    # Crons à 5h, 10h et 17h UTC (1h avant les heures cibles)
-    # Le script attendra si nécessaire
-    - cron: "0 5 * * *"     # 5h UTC → pour 6h FR
-    - cron: "0 10 * * *"    # 10h UTC → pour 11h FR
-    - cron: "0 17 * * *"    # 17h UTC → pour 18h FR
+    - cron: "0 4 * * *"     # 4h UTC → 6h FR (été) / 5h FR (hiver)
+    - cron: "0 9 * * *"     # 9h UTC → 11h FR (été) / 10h FR (hiver)
+    - cron: "0 16 * * *"    # 16h UTC → 18h FR (été) / 17h FR (hiver)
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-
       - name: Install dependencies
         run: |
           cd repas
           pip install tweepy pytz
-
-      - name: Debug files
-        run: |
-          echo "=== repas directory content ==="
-          ls -la repas/
-          echo "=== Check meals_data.json ==="
-          head -20 repas/meals_data.json
-
       - name: Run bot
         run: |
           cd repas
