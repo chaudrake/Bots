@@ -27,18 +27,19 @@ print("✅ Démarrage du script Pollution")
 france_tz = pytz.timezone('Europe/Paris')
 
 def is_summer_time():
-    """Détecte l'heure d'été (UTC+2)"""
+    """Détecte si l'heure d'été est active à Paris"""
     now = datetime.now(france_tz)
-    return now.utcoffset() == pytz.FixedOffset(120)
+    # dst() renvoie un timedelta. S'il n'est pas nul (différent de 0), on est en heure d'été.
+    return now.dst().total_seconds() != 0
 
 def wait_for_winter_adjustment():
-    """Si on est en hiver, attend 1 heure pour caler l'heure française"""
+    """Si on est en hiver, attend 1 heure pour caler l'heure française sur la cible (8h, 12h, 18h)"""
     if not is_summer_time():
-        print("❄️ Heure d'hiver détectée - attente de 1 heure")
+        print("❄️ Heure d'hiver détectée (UTC+1) - attente de 1 heure")
         time.sleep(3600)
         print("✅ Reprise après attente")
     else:
-        print("☀️ Heure d'été - exécution immédiate")
+        print("☀️ Heure d'été détectée (UTC+2) - exécution immédiate")
 
 def load_cities():
     """Charge la liste des villes depuis le fichier JSON"""
@@ -145,7 +146,7 @@ def post_tweet(tweet_text):
             access_token_secret=ACCESS_SECRET
         )
         response = client.create_tweet(text=tweet_text[:280])
-        print(f"✅ Tweet publié : {response.data['id']}")
+        print(f"✅ Tweet publié")
         return True
     except Exception as e:
         print(f"❌ Erreur publication : {e}")
@@ -157,17 +158,9 @@ def execute_pollution_check():
     print(f"📋 {len(cities)} villes chargées")
 
     with ThreadPoolExecutor(max_workers=10) as executor:
-        print("\n🔄 Récupération des données PM2.5...")
         pm25_data = [data for data in executor.map(fetch_pm25, cities) if data]
-        print(f"   ✅ {len(pm25_data)} données PM2.5 récupérées")
-        
-        print("\n🔄 Récupération des données Ozone...")
         ozone_data = [data for data in executor.map(fetch_ozone, cities) if data]
-        print(f"   ✅ {len(ozone_data)} données Ozone récupérées")
-        
-        print("\n🔄 Récupération des données AQI...")
         aqi_data = [data for data in executor.map(get_city_aqi, cities) if data]
-        print(f"   ✅ {len(aqi_data)} données AQI récupérées")
 
     tweets_postes = 0
     
@@ -177,9 +170,6 @@ def execute_pollution_check():
         pm25_tweet, _ = generate_pm25_tweet(top_pm25)
         if pm25_tweet and post_tweet(pm25_tweet):
             tweets_postes += 1
-            print(f"✅ Tweet PM2.5 posté")
-    else:
-        print(f"⚠️ Pas assez de données PM2.5 ({len(pm25_data)}/3)")
 
     # Ozone
     if len(ozone_data) >= 3:
@@ -187,9 +177,6 @@ def execute_pollution_check():
         ozone_tweet, _ = generate_ozone_tweet(top_ozone)
         if ozone_tweet and post_tweet(ozone_tweet):
             tweets_postes += 1
-            print(f"✅ Tweet Ozone posté")
-    else:
-        print(f"⚠️ Pas assez de données Ozone ({len(ozone_data)}/3)")
 
     # AQI
     if len(aqi_data) >= 3:
@@ -197,19 +184,16 @@ def execute_pollution_check():
         aqi_tweet, _ = generate_aqi_tweet(top_aqi)
         if aqi_tweet and post_tweet(aqi_tweet):
             tweets_postes += 1
-            print(f"✅ Tweet AQI posté")
-    else:
-        print(f"⚠️ Pas assez de données AQI ({len(aqi_data)}/3)")
 
     print(f"📊 Résumé: {tweets_postes}/3 tweets postés")
 
 def main():
-    # Ajustement pour l'heure d'hiver
+    # Ajustement pour l'heure d'hiver (attend 1h si nécessaire)
     wait_for_winter_adjustment()
     
-    # Vérifier l'heure française actuelle
+    # Vérifier l'heure française actuelle après l'éventuelle attente
     now_fr = datetime.now(france_tz)
-    print(f"🕐 Heure française: {now_fr.strftime('%H:%M:%S')}")
+    print(f"🕐 Heure française d'exécution : {now_fr.strftime('%H:%M:%S')}")
     
     execute_pollution_check()
 
@@ -219,5 +203,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Erreur inattendue: {e}")
         sys.exit(1)
-
-print("🏁 Opération terminée")
+        
