@@ -1,79 +1,56 @@
-import os
-import sys
-import time
 import tweepy
-from datetime import datetime
+import datetime
 import pytz
+import logging
+import os
 
-CONSUMER_KEY = os.getenv('APEROBOT_CONSUMER_KEY')
-CONSUMER_SECRET = os.getenv('APEROBOT_CONSUMER_SECRET')
-ACCESS_KEY = os.getenv('APEROBOT_ACCESS_KEY')
-ACCESS_SECRET = os.getenv('APEROBOT_ACCESS_SECRET')
+# Configuration des logs
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger()
 
-if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
-    print("❌ Missing Twitter API credentials")
-    sys.exit(1)
+# Configuration du fuseau horaire (comme dans fuseaux.py)
+PARIS_TZ = pytz.timezone("Europe/Paris")
 
-api = tweepy.Client(
-    access_token=ACCESS_KEY,
-    access_token_secret=ACCESS_SECRET,
-    consumer_key=CONSUMER_KEY,
-    consumer_secret=CONSUMER_SECRET
-)
+def create_api():
+    """
+    Initialise la connexion à l'API Twitter en utilisant les variables d'environnement.
+    On garde la structure initiale d'aperobot.
+    """
+    auth = tweepy.OAuthHandler(os.getenv("CONSUMER_KEY"), os.getenv("CONSUMER_SECRET"))
+    auth.set_access_token(os.getenv("ACCESS_TOKEN"), os.getenv("ACCESS_TOKEN_SECRET"))
+    api = tweepy.API(auth, wait_on_rate_limit=True)
+    try:
+        api.verify_credentials()
+    except Exception as e:
+        logger.error("Erreur lors de la création de l'API", exc_info=True)
+        raise e
+    logger.info("API créée avec succès")
+    return api
 
-print("🚀 Lancement de l'Apéro Bot")
-
-france_tz = pytz.timezone('Europe/Paris')
-
-def is_winter_time():
-    now = datetime.now(france_tz)
-    offset_hours = now.utcoffset().total_seconds() / 3600
-    return offset_hours == 1  # UTC+1 = hiver
-
-tweet_schedule = {
-    7: "7h, ce n'est pas l'heure ! ❌ #Apéro",
-    8: "8h, ce n'est pas l'heure ! ❌ #Apéro",
-    9: "9h, ce n'est pas l'heure ! ❌ #Apéro",
-    10: "10h, ce n'est pas l'heure ! ❌ #Apéro",
-    11: "11h, c'est la bonne heure ! 🍾🎉 #Apéro",
-    12: "Midi ! C'est maintenant ou jamais pour l'apéritif ! 🎉🍾 #Apéro",
-    13: "13h ! Dernière chance ! Après, ce ne sera plus l'heure ! 🍾🎉 #Apéro",
-    14: "14h, ce n'est pas l'heure ! ❌ #Apéro",
-    15: "15h, ce n'est pas l'heure ! ❌ #Apéro",
-    16: "16h, ce n'est pas l'heure ! ❌ #Apéro",
-    17: "17h, ce n'est pas l'heure ! ❌ #Apéro",
-    18: "18h ! C'est l'heure de sortir les bouteilles ! 🍾🎉 #Apéro",
-    19: "19h : Gooooo à l'#apéro ! 🎉🍾",
-    20: "20h, allez ! Un petit dernier... 🍾🎉 #Apéro",
-    21: "21h, ce n'est plus l'heure ! ❌ #Apéro",
-    22: "22h, ce n'est plus l'heure ! ❌ \n\nÀ demain ! #Apéro",
-}
+def get_precise_time_tweet():
+    """
+    Génère le texte du tweet en récupérant l'heure exacte.
+    Inspiré de la logique fuseaux : "HHhMM, ce n'est plus l'heure"
+    """
+    now = datetime.datetime.now(PARIS_TZ)
+    # Formatage de l'heure exacte (ex: 22h04)
+    heure_exacte = now.strftime("%Hh%M")
+    return f"{heure_exacte}, ce n'est plus l'heure"
 
 def main():
-    # En hiver, attendre 1 heure
-    if is_winter_time():
-        print("❄️ Heure d'hiver - attente de 1 heure")
-        time.sleep(3600)
-    else:
-        print("☀️ Heure d'été - exécution immédiate")
-    
-    now = datetime.now(france_tz)
-    print(f"🕐 Heure française: {now.strftime('%H:%M:%S')}")
-    
-    hour = now.hour
-    if 7 <= hour <= 22:
-        message = tweet_schedule.get(hour)
-        if message:
-            api.create_tweet(text=message[:280])
-            print(f"✅ Tweet posté à {hour}h")
-        else:
-            print(f"⚠️ Pas de message pour {hour}h")
-    else:
-        print(f"⏭️ Heure {hour}h hors plage 7h-22h")
+    # 1. Connexion à l'API
+    api = create_api()
+
+    # 2. Préparation du message avec l'heure exacte
+    tweet_text = get_precise_time_tweet()
+
+    # 3. Envoi du tweet (Fonctionnalité principale conservée)
+    try:
+        api.update_status(tweet_text)
+        logger.info(f"Tweet envoyé : {tweet_text}")
+    except Exception as e:
+        logger.error("Erreur lors de l'envoi du tweet", exc_info=True)
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print(f"❌ Erreur: {e}")
-        sys.exit(1)
+    main()
+    
