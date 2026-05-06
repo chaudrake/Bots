@@ -43,6 +43,33 @@ def post_to_twitter(api_v2, quote):
     print(Fore.GREEN + f'\n####---> Posted: ID={tweet[0]["id"]}' + Style.RESET_ALL)
 
 
+def manage_index():
+    """Gère l'index des capitales déjà tweetées"""
+    index_file = os.path.join(script_dir, "index.json")
+
+    if not os.path.exists(index_file):
+        with open(index_file, 'w', encoding="utf-8") as f:
+            json.dump({"used": []}, f)
+
+    with open(index_file, 'r', encoding="utf-8") as f:
+        index_data = json.load(f)
+
+    # Nettoyage des doublons
+    cleaned_used = []
+    seen = set()
+    for entry in index_data["used"]:
+        if entry not in seen:
+            seen.add(entry)
+            cleaned_used.append(entry)
+
+    index_data["used"] = cleaned_used
+
+    with open(index_file, 'w', encoding="utf-8") as f:
+        json.dump(index_data, f, ensure_ascii=False)
+
+    return index_data
+
+
 def tracery_magic():
     # Cherche bot.json dans le répertoire courant d'abord, puis dans le répertoire du script
     if os.path.exists("bot.json"):
@@ -63,21 +90,79 @@ def tracery_magic():
     with open(bot_json_path, 'r', encoding="utf-8") as f:
         bot_data = json.load(f)
     
+    # Gestion de l'index - filtre les capitales déjà utilisées
+    index_data = manage_index()
+    used_capitals = index_data["used"]
+    
+    # Vérifie si la clé "capitale" existe dans bot_data
+    if "capitale" in bot_data:
+        available_capitals = []
+        for capitale in bot_data["capitale"]:
+            # Compare la chaîne complète (ex: "de la FRANCE est PARIS.")
+            if capitale not in used_capitals:
+                available_capitals.append(capitale)
+        
+        # Si toutes les capitales ont été utilisées, on réinitialise
+        if not available_capitals:
+            print(Fore.YELLOW + "####---> Toutes les capitales ont été tweetées, réinitialisation de l'index..." + Style.RESET_ALL)
+            with open(os.path.join(script_dir, "index.json"), 'w', encoding="utf-8") as f:
+                json.dump({"used": []}, f)
+            available_capitals = bot_data["capitale"].copy()
+        
+        # Sauvegarde la liste originale et la remplace par celles disponibles
+        original_capitals = bot_data["capitale"]
+        bot_data["capitale"] = available_capitals
+    else:
+        original_capitals = None
+        available_capitals = []
+    
     grammar = tracery.Grammar(bot_data)
     grammar.add_modifiers(base_english)
     quote = grammar.flatten("#origin#")
+    
+    # Restaure la liste originale des capitales
+    if original_capitals is not None:
+        bot_data["capitale"] = original_capitals
+    
+    # Extrait quelle capitale a été tweetée
+    selected_capital = None
+    if available_capitals:
+        for capitale in available_capitals:
+            if capitale in quote:
+                selected_capital = capitale
+                print(Fore.CYAN + f"####---> Capitale sélectionnée : {capitale.split('est')[0].strip().upper() if 'est' in capitale else capitale}" + Style.RESET_ALL)
+                break
+    
+    if not selected_capital:
+        print(Fore.RED + "####---> ATTENTION : Aucune capitale identifiée dans le tweet !" + Style.RESET_ALL)
 
     raw_img_links = re.findall(r'\{img\s[^}]*\}', quote)
     parsed_quote = re.sub(r'\{img\s[^}]*\}', '', quote)
     imgs = re.findall(r'\bhttps?://[^}\s]+', ' '.join(raw_img_links))
 
-    return parsed_quote, imgs  # ← Correction : retourne parsed_quote au lieu de quote
+    return parsed_quote, imgs, selected_capital
 
 
 def main():
     api_v1, api_v2 = init_twitter_client()
-    quote, imgs = tracery_magic()
+    quote, imgs, selected_capital = tracery_magic()
+    
+    # Poste le tweet
     post_to_twitter(api_v2, quote)
+    
+    # Ajoute la capitale à l'index après un tweet réussi
+    if selected_capital:
+        index_data = manage_index()
+        used_capitals = index_data["used"]
+        if selected_capital not in used_capitals:
+            used_capitals.append(selected_capital)
+            index_file = os.path.join(script_dir, "index.json")
+            with open(index_file, 'w', encoding="utf-8") as f:
+                json.dump({"used": used_capitals}, f, ensure_ascii=False)
+            print(Fore.GREEN + f"####---> Capitale ajoutée à l'index : {selected_capital.split('est')[0].strip() if 'est' in selected_capital else selected_capital}" + Style.RESET_ALL)
+    else:
+        print(Fore.YELLOW + "####---> Aucune capitale ajoutée à l'index (non identifiée)" + Style.RESET_ALL)
+    
     print(Fore.GREEN + "####---> Bot terminé!" + Style.RESET_ALL)
 
 
