@@ -1,6 +1,8 @@
 Si ça n'uploade plus :
-Supprimer credentials.json
-Lancer depuis l'ordi init_auth2.py. si besoin utiliser "https://www.imagetotext.info/" pour avoir le lien inscrit dans la console
+Supprimer les credentials dans Github.
+Lancer depuis l'ordi init_auth2.py. 
+
+si besoin utiliser "https://www.imagetotext.info/" pour avoir le lien inscrit dans la console
 ca devrait mettre à jour credentials.json avec un refresh token (qui permet de se connecter à l'infini)
 
 si ça ne marche pas :
