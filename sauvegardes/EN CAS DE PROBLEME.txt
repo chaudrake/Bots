@@ -1,0 +1,8 @@
+Si ça n'uploade plus :
+Supprimer credentials.json
+Lancer depuis l'ordi init_auth2.py. si besoin utiliser "https://www.imagetotext.info/" pour avoir le lien inscrit dans la console
+ca devrait mettre à jour credentials.json avec un refresh token (qui permet de se connecter à l'infini)
+
+si ça ne marche pas :
+Supprimer credentials.json
+se reconnecter depuis l'ordi en lançant sauvegardesurdrive.py, copier coller l'url dans la console et obteniur OAuth
