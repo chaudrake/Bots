@@ -5,9 +5,9 @@ on:
   schedule:
     # Crons calés sur l'heure d'été (UTC+2)
     # 4h UTC → 6h FR | 9h UTC → 11h FR | 16h UTC → 18h FR
-    - cron: "0 4 * * *"
-    - cron: "0 9 * * *"
-    - cron: "0 16 * * *"
+    - cron: "59 3 * * *"
+    - cron: "59 9 * * *"
+    - cron: "59 15 * * *"
 
 jobs:
   run-bot:
