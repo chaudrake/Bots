@@ -1,51 +1,49 @@
 name: Mots Rares Bot
 
 on:
-  workflow_dispatch:
   schedule:
-    # Exécution chaque jour à 9h00 UTC
+    # Ton cron d'origine
     - cron: "0 9 * * *"
+  workflow_dispatch:
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    
-    # CRUCIAL : Autorise la mise à jour de l'index sur le dépôt
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
+      - name: Checkout du dépôt
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Indispensable pour permettre le rebase
+          fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Configurer Python
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Installer les dépendances
         run: |
-          cd motsrares
-          pip install tweepy
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
 
-      - name: Run bot
-        run: |
-          cd motsrares
-          python motsrares.py
-        env:
-          MOTSRARES_CONSUMER_KEY: ${{ secrets.MOTSRARES_CONSUMER_KEY }}
-          MOTSRARES_CONSUMER_SECRET: ${{ secrets.MOTSRARES_CONSUMER_SECRET }}
-          MOTSRARES_ACCESS_KEY: ${{ secrets.MOTSRARES_ACCESS_KEY }}
-          MOTSRARES_ACCESS_SECRET: ${{ secrets.MOTSRARES_ACCESS_SECRET }}
+      - name: Exécuter le script
+        run: python motsrares/motsrares.py
 
-      - name: Save index update
+      - name: Configurer l'identité Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On cible l'index dans le dossier motsrares
+
+      - name: Commit et Push des modifications
+        run: |
           git add motsrares/indexmotsrares.txt
-          # On ne commit que si l'index a été modifié (ton script a 50% de chance de s'exécuter)
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mots Rares: Mise à jour de l'index" && git push)
+          # On vérifie s'il y a des changements pour éviter une erreur sur commit vide
+          if ! git diff --cached --exit-code; then
+            git commit -m "🤖 Mots Rares: Mise à jour de l'index"
+            # On récupère les changements distants et on place notre commit après
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "Aucun nouveau mot rare trouvé."
+          fi
           
