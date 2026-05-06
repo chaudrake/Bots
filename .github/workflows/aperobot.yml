@@ -1,9 +1,11 @@
-        name: Aperobot - Tweet Quotidien
+name: Aperobot - Tweet Quotidien
 
 on:
   schedule:
-    # S'exécute tous les jours à 18:30 (Heure UTC)
-    - cron: '30 18 * * *'
+    # '*/30' = toutes les 30 minutes
+    # '5-21' = de 5h du matin à 21h inclus
+    # Les heures sont en UTC/GMT
+    - cron: '*/30 5-21 * * *'
   workflow_dispatch: # Permet de lancer le bot manuellement depuis l'onglet Actions
 
 jobs:
@@ -22,15 +24,14 @@ jobs:
       - name: Installation des dépendances
         run: |
           python -m pip install --upgrade pip
-          pip install tweepy
+          pip install tweepy pytz
 
       - name: Lancer Aperobot
         env:
-          # Ces noms à gauche (ex: CONSUMER_KEY) doivent correspondre à os.getenv() dans ton .py
-          # Les noms à droite (ex: secrets.CONSUMER_KEY) doivent être identiques dans tes Secrets GitHub
-          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
-          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          # Correspondance exacte avec ton script Python os.getenv()
+          APEROBOT_CONSUMER_KEY: ${{ secrets.APEROBOT_CONSUMER_KEY }}
+          APEROBOT_CONSUMER_SECRET: ${{ secrets.APEROBOT_CONSUMER_SECRET }}
+          APEROBOT_ACCESS_KEY: ${{ secrets.APEROBOT_ACCESS_KEY }}
+          APEROBOT_ACCESS_SECRET: ${{ secrets.APEROBOT_ACCESS_SECRET }}
         run: python aperobot/aperobot.py
         
