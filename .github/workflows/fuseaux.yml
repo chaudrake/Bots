@@ -3,8 +3,8 @@ name: Fuseaux Bot
 on:
   workflow_dispatch:
   schedule:
-    # Toutes les 2 heures de 6h à 20h UTC
-    - cron: "0 6-20/2 * * *"
+    # Toutes les 6 heures de 6h à 20h UTC
+    - cron: "0 6-20/6 * * *"
 
 jobs:
   run-bot:
