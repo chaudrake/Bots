@@ -1,44 +1,36 @@
-name: Apéro Bot
+        name: Aperobot - Tweet Quotidien
 
 on:
-  workflow_dispatch:
   schedule:
-    # Un cron par heure de 5h à 20h UTC (calé sur l'été)
-    - cron: "0 5 * * *"
-    - cron: "0 6 * * *"
-    - cron: "0 7 * * *"
-    - cron: "0 8 * * *"
-    - cron: "0 9 * * *"
-    - cron: "0 10 * * *"
-    - cron: "0 11 * * *"
-    - cron: "0 12 * * *"
-    - cron: "0 13 * * *"
-    - cron: "0 14 * * *"
-    - cron: "0 15 * * *"
-    - cron: "0 16 * * *"
-    - cron: "0 17 * * *"
-    - cron: "0 18 * * *"
-    - cron: "0 19 * * *"
-    - cron: "0 20 * * *"
+    # S'exécute tous les jours à 18:30 (Heure UTC)
+    - cron: '30 18 * * *'
+  workflow_dispatch: # Permet de lancer le bot manuellement depuis l'onglet Actions
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Récupération du code
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
-      - name: Install dependencies
+          python-version: '3.10'
+
+      - name: Installation des dépendances
         run: |
-          cd aperobot
-          pip install tweepy pytz
-      - name: Run bot
-        run: |
-          cd aperobot
-          python aperobot.py
+          python -m pip install --upgrade pip
+          pip install tweepy
+
+      - name: Lancer Aperobot
         env:
-          APEROBOT_CONSUMER_KEY: ${{ secrets.APEROBOT_CONSUMER_KEY }}
-          APEROBOT_CONSUMER_SECRET: ${{ secrets.APEROBOT_CONSUMER_SECRET }}
-          APEROBOT_ACCESS_KEY: ${{ secrets.APEROBOT_ACCESS_KEY }}
-          APEROBOT_ACCESS_SECRET: ${{ secrets.APEROBOT_ACCESS_SECRET }}
+          # Ces noms à gauche (ex: CONSUMER_KEY) doivent correspondre à os.getenv() dans ton .py
+          # Les noms à droite (ex: secrets.CONSUMER_KEY) doivent être identiques dans tes Secrets GitHub
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+        run: python aperobot/aperobot.py
+        
