@@ -11,10 +11,10 @@ on:
     - cron: "30 21 * * *"
     
     # Pour 11:11 (heure française) - Cron à 8:30 UTC (soit 10:30 FR hiver / 11:30 FR été)
-    - cron: "30 8 * * *"
+    - cron: "30 7 * * *"
     
     # Pour 22:22 (heure française) - Cron à 20:00 UTC (soit 21:00 FR hiver / 22:00 FR été)
-    - cron: "0 20 * * *"
+    - cron: "0 19 * * *"
 
 jobs:
   run-bot-00h00:
