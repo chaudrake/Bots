@@ -43,7 +43,7 @@ api = tweepy.Client(
 logger.info('🚀 Lancement du bot Les Mots Rares')
 
 # Génère un nombre aléatoire entre 0 et 1 pour tweeter un jour sur 2 environ.
-if random.random() < 0.0005:
+if random.random() < 0.5:
     logger.info('📅 Le script ne s\'exécute pas aujourd\'hui (1 jour sur 2)')
     sys.exit(0)
 else:
@@ -51,7 +51,7 @@ else:
 
 # Pause aléatoire de 10 sec à 2.5 heures (pour éviter les patterns trop réguliers)
 #wait_time = randint(10, 10000)
-wait_time = randint(10, 20)
+wait_time = randint(10, 4500)
 logger.info(f"⏳ Pause pendant {wait_time} secondes...")
 sleep(wait_time)
 
