@@ -1,3 +1,5 @@
+# bot lancé par cron. Il détermine quelle heure il est
+# Puis sleep jusqu'à l'heure cible.
 import tweepy
 import os
 import sys
