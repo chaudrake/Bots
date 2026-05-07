@@ -58,7 +58,7 @@ sleep(wait_time)
 def get_post_content(block_number):
     """Récupère le contenu du tweet à partir du fichier motsrares.txt."""
     try:
-        with open("motsrares.txt", "r", encoding="utf-8") as file:
+        with open("motsrares/motsrares.txt", "r", encoding="utf-8") as file:
             content = file.read()
             blocks = content.split('\n\n')
             return blocks[int(block_number)].strip()
@@ -70,8 +70,8 @@ def post_tweets(api):
     """Publie le tweet en utilisant l'API Twitter."""
     try:
         # Lire l'index du fichier (ou initialiser à 0 si non trouvé)
-        if os.path.exists('indexmotsrares.txt'):
-            with open('indexmotsrares.txt', 'r', encoding="utf-8") as index_file:
+        if os.path.exists('motsrares/indexmotsrares.txt'):
+            with open('motsrares/indexmotsrares.txt', 'r', encoding="utf-8") as index_file:
                 block_number = int(index_file.read().strip())
         else:
             block_number = 0
@@ -83,7 +83,7 @@ def post_tweets(api):
         logger.info(f"📝 Contenu du tweet: {content[:100]}...")
 
         # Compter le nombre total de blocs
-        with open("motsrares.txt", "r", encoding="utf-8") as file:
+        with open("motsrares/motsrares.txt", "r", encoding="utf-8") as file:
             total_blocks = len(file.read().split('\n\n'))
 
         # S'assurer que l'index est valide
@@ -106,7 +106,7 @@ def post_tweets(api):
             logger.info("🔄 Retour au début de la liste")
 
         # Sauvegarder l'index
-        with open('indexmotsrares.txt', 'w', encoding="utf-8") as index_file:
+        with open('motsrares/indexmotsrares.txt', 'w', encoding="utf-8") as index_file:
             index_file.write(str(block_number))
 
         logger.info(f"📌 Nouvel index sauvegardé: {block_number}")
