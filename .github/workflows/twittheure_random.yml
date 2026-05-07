@@ -6,7 +6,7 @@ on:
     # Toutes les 15 minutes entre 4h et 20h UTC
     # 4h UTC = 6h FR (été) / attend 1h = 6h FR (hiver)
     # 20h UTC = 22h FR (été) / attend 1h = 22h FR (hiver)
-    - cron: "*/15 4-20 * * *"
+    - cron: "39 4-20/3 * * *"
 
 jobs:
   run-bot:
