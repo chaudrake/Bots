@@ -3,7 +3,7 @@ name: Sauvegarde Automatique sur Google Drive
 on:
   schedule:
     # S'exécute à 03:00 tous les jours (le script filtrera les jours autorisés)
-    - cron: '0 3 * * *'
+    - cron: '19 3 * * *'
   workflow_dispatch: # Permet de lancer manuellement la sauvegarde depuis GitHub
 
 jobs:
