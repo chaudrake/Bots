@@ -13,7 +13,7 @@ from pathlib import Path
 # Configuration
 CONFIG = {
     'backups_to_keep': 5,   # Nombre de sauvegardes à conserver
-    'backup_days': [2, 3, 6]   # 2=mercredi, 6=dimanche (Monday=0)
+    'backup_days': [2, 6]   # 2=mercredi, 6=dimanche (Monday=0)
 }
 
 def create_backup():
