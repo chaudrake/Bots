@@ -2,7 +2,7 @@ name: TwittHeure - Heures Fixes
 
 on:
   workflow_dispatch:
-  schedule:
+ # schedule:
     # Crons calés sur l'heure d'été (UTC+2) Décommenter les cron si réutilisation de ce fichier.
    # - cron: "59 21 * * *"     
    # - cron: "11 9 * * *"    
