@@ -7,13 +7,13 @@ on:
     # On se déclenche suffisamment tôt pour avoir le temps d'attendre jusqu'à l'heure cible
     # Les marges sont larges (30-60 min avant l'heure cible)
     
-    # Pour 00:00 (heure française) - Cron à 21:30 UTC (soit 23:30 FR hiver / 00:30 FR été)
+    # Pour 00:00 (heure française) - Cron à 21:30 UTC (soit 22:30 FR hiver / 23:30 FR été)
     - cron: "30 21 * * *"
     
-    # Pour 11:11 (heure française) - Cron à 8:30 UTC (soit 10:30 FR hiver / 11:30 FR été)
+    # Pour 11:11 (heure française) - Cron à 7:30 UTC (soit 8:30 FR hiver / 9:30 FR été)
     - cron: "30 7 * * *"
     
-    # Pour 22:22 (heure française) - Cron à 20:00 UTC (soit 21:00 FR hiver / 22:00 FR été)
+    # Pour 22:22 (heure française) - Cron à 19:00 UTC
     - cron: "0 19 * * *"
 
 jobs:
