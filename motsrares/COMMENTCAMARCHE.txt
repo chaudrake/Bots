@@ -1,3 +1,0 @@
- Lancement par "plannification.py"
- Ce script reste actif grace à un ping toutes les 2h.
- il lance lesmotsrares.py à 9h GMT
