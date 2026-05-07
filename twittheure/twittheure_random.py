@@ -62,9 +62,9 @@ def main():
 
     # Plage 6h-22h (Heure Française)
     if 6 <= hour <= 22:
-        # Probabilité : ~3 tweets sur 64 lancements quotidiens (toutes les 15 min)
-        # 3 / 64 = 0.046
-        if random.random() < 0.046:
+        # Probabilité : 1 fois sur 4
+        
+        if random.random() < 0.25:
             tweet_text = generate_random_hour_tweet()
             if tweet_text:
                 try:
