@@ -31,9 +31,11 @@ def wait_until_target(target_hour, target_minute):
     now = datetime.now(france_tz)
     target = now.replace(hour=target_hour, minute=target_minute, second=0, microsecond=0)
     
-    # Si l'heure cible est déjà passée aujourd'hui, viser demain
+    # Si l'heure cible est déjà passée, on ne fait rien (le cron est trop tard)
     if target <= now:
-        target += timedelta(days=1)
+        print(f"⚠️ Heure cible {target_hour:02d}:{target_minute:02d} déjà passée (il est {now.strftime('%H:%M:%S')})")
+        print("🛑 Annulation du job - le prochain cron s'en chargera demain")
+        sys.exit(0)  # Sortie propre, pas d'erreur
     
     wait_seconds = (target - now).total_seconds()
     
@@ -41,10 +43,15 @@ def wait_until_target(target_hour, target_minute):
     print(f"🎯 Heure cible: {target_hour:02d}:{target_minute:02d}")
     print(f"⏳ Attente de {wait_seconds:.0f} secondes...")
     
+    # GitHub Actions timeout à 6h minimum, on vérifie qu'on attend pas trop longtemps
+    if wait_seconds > 21600:  # 6 heures
+        print("❌ Attente trop longue (>6h), abandon pour éviter timeout GitHub")
+        sys.exit(1)
+    
     time.sleep(wait_seconds)
     
     print(f"✅ Il est maintenant {target_hour:02d}:{target_minute:02d} !")
-
+    
 def main():
     # Déterminer l'heure cible en fonction du cron qui a été déclenché
     # On reçoit l'heure cible via variable d'environnement
