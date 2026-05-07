@@ -4,6 +4,22 @@ from time import sleep
 import os
 import random
 import sys
+import logging
+from datetime import datetime
+
+# Configuration du logging
+log_filename = f"motsrares_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename, encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+logger.info(f"📁 Logs sauvegardés dans {log_filename}")
 
 # Récupérer les variables d'environnement (GitHub Secrets)
 ACCESS_KEY = os.getenv('MOTSRARES_ACCESS_KEY')
@@ -13,7 +29,7 @@ CONSUMER_SECRET = os.getenv('MOTSRARES_CONSUMER_SECRET')
 
 # Vérification des credentials
 if not all([ACCESS_KEY, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET]):
-    print("❌ Missing Twitter API credentials")
+    logger.error("❌ Missing Twitter API credentials")
     sys.exit(1)
 
 # Créer un client Tweepy
@@ -24,26 +40,30 @@ api = tweepy.Client(
     consumer_secret=CONSUMER_SECRET
 )
 
-print('🚀 Lancement du bot Les Mots Rares')
+logger.info('🚀 Lancement du bot Les Mots Rares')
 
 # Génère un nombre aléatoire entre 0 et 1 pour tweeter un jour sur 2 environ.
 if random.random() < 0.5:
-    print('📅 Le script ne s\'exécute pas aujourd\'hui (1 jour sur 2)')
+    logger.info('📅 Le script ne s\'exécute pas aujourd\'hui (1 jour sur 2)')
     sys.exit(0)
 else:
-    print('📅 Le script s\'exécute aujourd\'hui')
+    logger.info('📅 Le script s\'exécute aujourd\'hui')
 
 # Pause aléatoire de 10 sec à 2.5 heures (pour éviter les patterns trop réguliers)
 wait_time = randint(10, 10000)
-print(f"⏳ Pause pendant {wait_time} secondes...")
+logger.info(f"⏳ Pause pendant {wait_time} secondes...")
 sleep(wait_time)
 
 def get_post_content(block_number):
     """Récupère le contenu du tweet à partir du fichier motsrares.txt."""
-    with open("motsrares.txt", "r", encoding="utf-8") as file:
-        content = file.read()
-        blocks = content.split('\n\n')
-        return blocks[int(block_number)].strip()
+    try:
+        with open("motsrares.txt", "r", encoding="utf-8") as file:
+            content = file.read()
+            blocks = content.split('\n\n')
+            return blocks[int(block_number)].strip()
+    except Exception as e:
+        logger.error(f"Erreur lors de la lecture de motsrares.txt: {e}")
+        raise
 
 def post_tweets(api):
     """Publie le tweet en utilisant l'API Twitter."""
@@ -55,11 +75,11 @@ def post_tweets(api):
         else:
             block_number = 0
 
-        print(f"📌 Index actuel: {block_number}")
+        logger.info(f"📌 Index actuel: {block_number}")
 
         # Récupérer le contenu du tweet
         content = get_post_content(block_number)
-        print(f"📝 Contenu du tweet: {content[:100]}...")
+        logger.info(f"📝 Contenu du tweet: {content[:100]}...")
 
         # Compter le nombre total de blocs
         with open("motsrares.txt", "r", encoding="utf-8") as file:
@@ -68,7 +88,7 @@ def post_tweets(api):
         # S'assurer que l'index est valide
         if block_number >= total_blocks:
             block_number = 0
-            print("🔄 Réinitialisation de l'index (fin de la liste)")
+            logger.info("🔄 Réinitialisation de l'index (fin de la liste)")
 
         # Récupérer à nouveau le contenu avec l'index corrigé
         content = get_post_content(block_number)
@@ -76,33 +96,33 @@ def post_tweets(api):
         # Publier le tweet (tronqué à 280 caractères)
         tweet_text = content[:280]
         tweet = api.create_tweet(text=tweet_text)
-        print(f"✅ Tweet publié: {tweet}")
+        logger.info(f"✅ Tweet publié: {tweet}")
 
         # Incrémenter le numéro de bloc
         block_number += 1
         if block_number >= total_blocks:
             block_number = 0
-            print("🔄 Retour au début de la liste")
+            logger.info("🔄 Retour au début de la liste")
 
         # Sauvegarder l'index
         with open('indexmotsrares.txt', 'w', encoding="utf-8") as index_file:
             index_file.write(str(block_number))
 
-        print(f"📌 Nouvel index sauvegardé: {block_number}")
+        logger.info(f"📌 Nouvel index sauvegardé: {block_number}")
         return True
 
     except Exception as e:
-        print(f"❌ Erreur lors de la publication du tweet: {e}")
+        logger.error(f"❌ Erreur lors de la publication du tweet: {e}")
         return False
 
 if __name__ == "__main__":
     try:
         if post_tweets(api):
-            print('✅ Tweet posté avec succès')
+            logger.info('✅ Tweet posté avec succès')
         else:
-            print('❌ Erreur lors de la publication du tweet')
+            logger.error('❌ Erreur lors de la publication du tweet')
     except Exception as e:
-        print(f"❌ Erreur inattendue: {e}")
+        logger.error(f"❌ Erreur inattendue: {e}")
         sys.exit(1)
 
-print("🏁 Opération terminée")
+logger.info("🏁 Opération terminée")
