@@ -50,8 +50,7 @@ else:
     logger.info('📅 Le script s\'exécute aujourd\'hui')
 
 # Pause aléatoire de 10 sec à 2.5 heures (pour éviter les patterns trop réguliers)
-#wait_time = randint(10, 10000)
-wait_time = randint(10, 4500)
+wait_time = randint(10, 10000)
 logger.info(f"⏳ Pause pendant {wait_time} secondes...")
 sleep(wait_time)
 
