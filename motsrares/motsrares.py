@@ -33,7 +33,7 @@ if random.random() < 0.5:
 else:
     print('📅 Le script s\'exécute aujourd\'hui')
 
-# Pause aléatoire de 10 sec à 7 heures (pour éviter les patterns trop réguliers)
+# Pause aléatoire de 10 sec à 2.5 heures (pour éviter les patterns trop réguliers)
 wait_time = randint(10, 10000)
 print(f"⏳ Pause pendant {wait_time} secondes...")
 sleep(wait_time)
