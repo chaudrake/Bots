@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -44,8 +45,21 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On cible l'index dans le dossier ortograf
-          git add ortograf/index.txt
-          # Le script a 30% de chance de s'exécuter, on ne push que s'il y a un changement
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Ortograf: Mise à jour de l'index" && git push)
           
+          # D'abord, récupérer les changements distants
+          git fetch origin main
+          
+          # Vérifier si index.txt a changé
+          if git diff --quiet HEAD -- ortograf/index.txt; then
+            echo "Aucun changement à pousser"
+          else
+            # Commit des changements locaux
+            git add ortograf/index.txt
+            git commit -m "🤖 Ortograf: Mise à jour de l'index"
+            
+            # Ensuite, rebaser ou merger en douceur
+            git pull --rebase origin main || git pull origin main --no-rebase
+            
+            # Enfin, pousser
+            git push origin main
+          fi
