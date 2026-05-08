@@ -1,0 +1,11 @@
+2026-05-08 20:44:32,363 - INFO - === Démarrage Maires ===
+2026-05-08 20:44:32,363 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-08 20:44:32,363 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-08 20:44:32,445 - INFO - Historique chargé: 1607 maires déjà tweetés
+2026-05-08 20:44:32,465 - INFO - Nombre de maires actifs uniques: 32475
+2026-05-08 20:44:32,465 - INFO - Nombre de maires déjà tweetés: 1607
+2026-05-08 20:44:32,466 - INFO - Sélectionné: 09258 - Philippe JUGNIOT (nouveau maire)
+2026-05-08 20:44:32,468 - INFO - Tweet: 🏛 Le #maire de Saint-Félix-De-Rieutord (Ariège) est Philippe JUGNIOT (55 ans) #MairesdeFrance 🇫🇷
+2026-05-08 20:44:32,660 - INFO - Sauvegarde effectuée: 09258 - Philippe JUGNIOT
+2026-05-08 20:44:32,661 - INFO - Succès: Response(data={'id': '2052852171868102873', 'text': '🏛 Le #maire de Saint-Félix-De-Rieutord (Ariège) est Philippe JUGNIOT (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2052852171868102873']}, includes={}, errors=[], meta={})
+2026-05-08 20:44:32,663 - INFO - === Fin ===
