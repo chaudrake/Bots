@@ -337,7 +337,7 @@ def main():
     
     # Ajouter le lien Maps s'il existe
     if link and link != "À COMPLETER":
-        tweet = f"{tweet}\n\n📍 {link}"
+        tweet = f"{tweet}\n\n {link}"
     
     print(f"📝 Tweet: {tweet[:100]}...")
 
