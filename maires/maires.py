@@ -7,7 +7,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import tweepy
 
-# Charger les variables d'environnement (depuis le root du repo ou via GitHub Secrets)
+# Charger les variables d'environnement
 load_dotenv()
 
 # Configuration - Chemins relatifs au dossier courant
@@ -189,7 +189,9 @@ def get_maire_to_tweet(df, tweeted_maires):
     for _ in range(len(df_active)):
         row = df_active.sample(n=1).iloc[0]
         code = row['Code_normalise']
-        name = f"{row['Prénom de l\'élu']} {row['Nom de l\'élu']}"
+        prenom = row["Prénom de l'élu"]
+        nom = row["Nom de l'élu"]
+        name = f"{prenom} {nom}"
 
         norm_tweeted = {str(k).zfill(5): v for k, v in tweeted_maires.items()}
 
@@ -217,7 +219,11 @@ def post_random_tweet(api):
 
         log_and_print(f"Tweet: {tweet_text}")
         response = api.create_tweet(text=tweet_text)
-        save_tweeted_maire(str(row['Code de la commune']).zfill(5), f"{row['Prénom de l\'élu']} {row['Nom de l\'élu']}")
+        
+        prenom = row["Prénom de l'élu"]
+        nom = row["Nom de l'élu"]
+        save_tweeted_maire(str(row['Code de la commune']).zfill(5), f"{prenom} {nom}")
+        
         log_and_print(f"Succès: {response}")
         return True
     except Exception as e:
