@@ -37,12 +37,21 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add motsrares/indexmotsrares.txt
           
-          if ! git diff --cached --quiet; then
-            git pull --rebase origin main
-            git commit -m "🤖 Mots Rares: Mise à jour de l'index"
-            git push origin main
-          else
+          # D'abord, récupérer les changements distants (sans essayer de rebaser tout de suite)
+          git fetch origin main
+          
+          # Vérifier si indexmotsrares.txt a changé
+          if git diff --quiet HEAD -- motsrares/indexmotsrares.txt; then
             echo "Aucun changement à pousser"
+          else
+            # Commit des changements locaux
+            git add motsrares/indexmotsrares.txt
+            git commit -m "🤖 Mots Rares: Mise à jour de l'index"
+            
+            # Ensuite, rebaser ou merger en douceur
+            git pull --rebase origin main || git pull origin main --no-rebase
+            
+            # Enfin, pousser
+            git push origin main
           fi
