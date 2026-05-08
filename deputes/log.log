@@ -70,3 +70,14 @@
 2026-05-05 15:00:02,413 - INFO - Tweet envoyé: Response(data={'id': '2051678310925582502', 'text': '🏛 Le #député de la 4e circonscription du Haut-Rhin est Raphaël SCHELLENBERGER (36 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2051678310925582502']}, includes={}, errors=[], meta={})
 2026-05-05 15:00:02,413 - INFO - Tweet 7 envoyé
 2026-05-05 15:00:02,413 - INFO - Attente 60.0 min...
+2026-05-08 21:08:51,699 - INFO - === Démarrage Députés ===
+2026-05-08 21:08:51,699 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-08 21:08:51,699 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-08 21:08:51,704 - INFO - Historique chargé: 22 députés déjà tweetés
+2026-05-08 21:08:51,709 - INFO - Nombre de députés actifs uniques: 570
+2026-05-08 21:08:51,709 - INFO - Nombre de députés déjà tweetés: 22
+2026-05-08 21:08:51,710 - INFO - Sélectionné: 3507 - Jean-Luc BOURGEAUX (nouveau député)
+2026-05-08 21:08:51,710 - INFO - Tweet: 🏛 Le #député de la 7e circonscription d'Ille-et-Vilaine est Jean-Luc BOURGEAUX (63 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-08 21:08:51,993 - INFO - Sauvegarde effectuée: 3507 - Jean-Luc BOURGEAUX
+2026-05-08 21:08:51,994 - INFO - Succès: Response(data={'id': '2052858292712398990', 'text': "🏛 Le #député de la 7e circonscription d'Ille-et-Vilaine est Jean-Luc BOURGEAUX (63 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2052858292712398990']}, includes={}, errors=[], meta={})
+2026-05-08 21:08:51,994 - INFO - === Fin ===
