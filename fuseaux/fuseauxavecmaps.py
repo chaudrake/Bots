@@ -210,16 +210,15 @@ PREPOSITIONS = {
 
 # Liens Google Maps pour les territoires (À COMPLETER)
 MAPS_LINKS = {
-    "Paris": "À COMPLETER",
     "#Guadeloupe": "https://maps.app.goo.gl/p8A11PsTiYAAX83YA",
     "#Martinique": "https://maps.app.goo.gl/nhNDcYhJqBKn7MHs7",
     "rocher du Diamant (#Martinique)": "https://maps.app.goo.gl/tSRsRd4zrL7MtTsJ7",
     "#Guyane": "https://maps.app.goo.gl/wjrRfJWVhVE6TwyT6",
-    "île Saint-Joseph (#Guyane)": "À COMPLETER",
-    "île Royale (#Guyane)": "À COMPLETER",
-    "île du Diable (#Guyane)": "À COMPLETER",
-    "La Réunion": "À COMPLETER",
-    "#Mayotte": "À COMPLETER",
+    "île Saint-Joseph (#Guyane)": "https://maps.app.goo.gl/cHMcxfMruo7Fugbf7",
+    "île Royale (#Guyane)": "https://maps.app.goo.gl/1o2RsAfjTRKxmCbA9",
+    "île du Diable (#Guyane)": "https://maps.app.goo.gl/X5Gr6oXqnikSvzNV9",
+    "La Réunion": "https://maps.app.goo.gl/HkQzmpbeE6ekyXPj8",
+    "#Mayotte": "https://maps.app.goo.gl/AohhyEjm7DSUutVn8",
     "îles Choazil (#Mayotte)": "À COMPLETER",
     "Petite Terre (#Mayotte)": "À COMPLETER",
     "îles Hajangoua (#Mayotte)": "À COMPLETER",
