@@ -253,18 +253,18 @@ MAPS_LINKS = {
     "île Hould (#Kerguelen)": "https://maps.app.goo.gl/wrz3jLFH2nHw66V88",
     "île de la Possession (#Crozet)": "https://maps.app.goo.gl/WPXQcJWFneP38SQA6",
     "île de l'Est (#Crozet)": "https://maps.app.goo.gl/yEDHCQuTfZaqtKWBA",
-    "île aux Cochons (#Crozet)": "",
-    "îlots des Apôtres (#Crozet)": "",
-    "île des Pingouins (#Crozet)": "",
-    "île Amsterdam": "",
-    "île Saint Paul": "",
-    "île Juan de Nova": "",
-    "atoll Bassas da India": "",
-    "île Europa": "",
-    "îles Glorieuses": "",
-    "île Tromelin": "",
-    "île #Clipperton": "https://maps.app.goo.gl/M8LPcY3p4b7EQBQk9",  # Exemple existant
-    "île aux Oeufs (#Clipperton)": ""
+    "île aux Cochons (#Crozet)": "https://maps.app.goo.gl/xJXyrWW91Mkkm54F6",
+    "îlots des Apôtres (#Crozet)": "https://maps.app.goo.gl/kEzfZzzCd12nGcqh8",
+    "île des Pingouins (#Crozet)": "https://maps.app.goo.gl/jWKkZczUC21SGrrB6",
+    "île Amsterdam": "https://maps.app.goo.gl/Gw4QZ8RVuu2e4muE9",
+    "île Saint Paul": "https://maps.app.goo.gl/XFesYGrVJ5mS9o1t6",
+    "île Juan de Nova": "https://maps.app.goo.gl/Zn6WowqM1VnSNnot9",
+    "atoll Bassas da India": "https://maps.app.goo.gl/dqQVmFEKu8vv47sg6",
+    "île Europa": "https://maps.app.goo.gl/Gr8HTjqRjxoFYcWj6",
+    "îles Glorieuses": "https://maps.app.goo.gl/SmJfnD8M1Mj8xszq9",
+    "île Tromelin": "https://maps.app.goo.gl/nQdtXu7aL992zRto6",
+    "île #Clipperton": "https://maps.app.goo.gl/M8LPcY3p4b7EQBQk9",
+    "île aux Oeufs (#Clipperton)": "https://maps.app.goo.gl/zhRFK17cR2r4Qn1m8"
 }
 
 def load_tweeted_territories():
