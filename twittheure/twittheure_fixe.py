@@ -1,11 +1,9 @@
-# bot lancé par cron. Il détermine quelle heure il est
-# Puis sleep jusqu'à l'heure cible.
 import tweepy
 import os
 import sys
 import time
 import pytz
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # Configuration Twitter
 CONSUMER_KEY = os.getenv('THeure_CONSUMER_KEY')
@@ -24,8 +22,6 @@ client = tweepy.Client(
     consumer_secret=CONSUMER_SECRET
 )
 
-print("🚀 Lancement du bot TwittHeure (avec synchronisation précise)")
-
 france_tz = pytz.timezone('Europe/Paris')
 
 def wait_until_target(target_hour, target_minute):
@@ -33,11 +29,9 @@ def wait_until_target(target_hour, target_minute):
     now = datetime.now(france_tz)
     target = now.replace(hour=target_hour, minute=target_minute, second=0, microsecond=0)
     
-    # Si l'heure cible est déjà passée, on ne fait rien (le cron est trop tard)
     if target <= now:
-        print(f"⚠️ Heure cible {target_hour:02d}:{target_minute:02d} déjà passée (il est {now.strftime('%H:%M:%S')})")
-        print("🛑 Annulation du job - le prochain cron s'en chargera demain")
-        sys.exit(0)  # Sortie propre, pas d'erreur
+        print(f"⚠️ Heure cible {target_hour:02d}:{target_minute:02d} déjà passée")
+        return False
     
     wait_seconds = (target - now).total_seconds()
     
@@ -45,38 +39,53 @@ def wait_until_target(target_hour, target_minute):
     print(f"🎯 Heure cible: {target_hour:02d}:{target_minute:02d}")
     print(f"⏳ Attente de {wait_seconds:.0f} secondes...")
     
-    # GitHub Actions timeout à 6h minimum, on vérifie qu'on attend pas trop longtemps
-    if wait_seconds > 21600:  # 6 heures
-        print("❌ Attente trop longue (>6h), abandon pour éviter timeout GitHub")
-        sys.exit(1)
+    if wait_seconds > 21600:
+        print("❌ Attente trop longue (>6h), abandon")
+        return False
     
     time.sleep(wait_seconds)
-    
     print(f"✅ Il est maintenant {target_hour:02d}:{target_minute:02d} !")
-    
-def main():
-    # Déterminer l'heure cible en fonction du cron qui a été déclenché
-    # On reçoit l'heure cible via variable d'environnement
-    target_hour = int(os.getenv('TARGET_HOUR', '0'))
-    target_minute = int(os.getenv('TARGET_MINUTE', '0'))
-    
-    print(f"📌 Mode: tweeter à {target_hour:02d}:{target_minute:02d} (heure française)")
-    
-    # Attendre précisément l'heure cible
-    wait_until_target(target_hour, target_minute)
-    
-    # Tweeter
+    return True
+
+def post_tweet():
+    """Poste l'heure actuelle"""
     now = datetime.now(france_tz)
     current_time_str = now.strftime('%H:%M')
-    
-    print(f"🕐 Heure française: {current_time_str}")
     
     try:
         client.create_tweet(text=current_time_str)
         print(f"✅ Tweet envoyé : {current_time_str}")
+        return True
     except Exception as e:
         print(f"❌ Erreur lors du tweet : {e}")
+        return False
+
+def main():
+    target_times_str = os.getenv('TARGET_TIMES', '')
+    if not target_times_str:
+        print("❌ Variable TARGET_TIMES manquante")
         sys.exit(1)
+    
+    # Parse les horaires cibles (format "22:22,00:00" ou "11:11")
+    target_times = []
+    for part in target_times_str.split(','):
+        part = part.strip()
+        if ':' in part:
+            h, m = part.split(':')
+            target_times.append((int(h), int(m)))
+    
+    print(f"📌 Horaires cibles: {target_times}")
+    
+    for hour, minute in target_times:
+        print(f"\n--- Préparation du tweet pour {hour:02d}:{minute:02d} ---")
+        
+        if wait_until_target(hour, minute):
+            if not post_tweet():
+                print(f"⚠️ Échec du tweet pour {hour:02d}:{minute:02d}")
+        else:
+            print(f"⏭️ Ignoré l'horaire {hour:02d}:{minute:02d} (déjà passé)")
+    
+    print("🏁 Opération terminée")
 
 if __name__ == "__main__":
     try:
@@ -84,5 +93,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Erreur inattendue: {e}")
         sys.exit(1)
-
-print("🏁 Opération terminée")
