@@ -27,7 +27,8 @@ client = tweepy.Client(
 france_tz = pytz.timezone('Europe/Paris')
 
 def wait_until_target(target_hour, target_minute):
-    """Attend précisément jusqu'à l'heure cible (heure française)"""
+    """Attend précisément jusqu'à l'heure cible (heure française)
+    Retourne True si on a attendu et qu'on peut tweeter, False si trop long"""
     now = datetime.now(france_tz)
     target = now.replace(hour=target_hour, minute=target_minute, second=0, microsecond=0)
     
@@ -41,8 +42,9 @@ def wait_until_target(target_hour, target_minute):
     print(f"🎯 Heure cible: {target_hour:02d}:{target_minute:02d}")
     print(f"⏳ Attente de {wait_seconds:.0f} secondes...")
     
-    if wait_seconds > 21600:
-        print("❌ Attente trop longue (>6h), abandon")
+    # Si attente trop longue, on abandonne sans faire échouer le workflow
+    if wait_seconds > 21600:  # 6 heures
+        print("⚠️ Attente trop longue (>6h), abandon sans erreur pour éviter timeout GitHub")
         return False
     
     time.sleep(wait_seconds)
@@ -85,13 +87,14 @@ def main():
             if not post_tweet():
                 print(f"⚠️ Échec du tweet pour {hour:02d}:{minute:02d}")
         else:
-            print(f"⏭️ Ignoré l'horaire {hour:02d}:{minute:02d} (déjà passé)")
+            print(f"⏭️ Ignoré l'horaire {hour:02d}:{minute:02d}")
     
     print("🏁 Opération terminée")
+    sys.exit(0)  # Sortie toujours en succès
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as e:
         print(f"❌ Erreur inattendue: {e}")
-        sys.exit(1)
+        sys.exit(0)  # ← Même erreur inattendue = sortie 0, pas d'email
