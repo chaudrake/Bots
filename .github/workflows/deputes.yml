@@ -2,55 +2,47 @@ name: Twitter Bot - Députés
 
 on:
   schedule:
-    # Toutes les 90 minutes entre 8h et 20h UTC (9 tweets par jour)
-    - cron: '0 8,11,14,17,20 * * *'    # 8h00, 11h00, 14h00, 17h00, 20h00
-    - cron: '30 9,12,15,18 * * *'       # 9h30, 12h30, 15h30, 18h30
-  workflow_dispatch:  # Permet l'exécution manuelle
+    - cron: '0 8,11,14,17,20 * * *'
+    - cron: '30 9,12,15,18 * * *'
+  workflow_dispatch:
 
 jobs:
   post-tweet:
     runs-on: ubuntu-latest
-    concurrency:
-      group: twitter-bot
-      cancel-in-progress: false
     
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-      
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
+
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          cd deputes
           pip install pandas tweepy python-dotenv
-      
-      - name: Download previous data
-        uses: dawidd6/action-download-artifact@v3
-        continue-on-error: true
-        with:
-          name: deputes-bot-data
-          path: ./deputes/
-          if_no_artifact_found: warn
-      
+
       - name: Post tweet
-        working-directory: ./deputes
+        run: |
+          cd deputes
+          python deputes.py
         env:
           DEPUTE_ACCESS_KEY: ${{ secrets.DEPUTE_ACCESS_KEY }}
           DEPUTE_ACCESS_SECRET: ${{ secrets.DEPUTE_ACCESS_SECRET }}
           DEPUTE_CONSUMER_KEY: ${{ secrets.DEPUTE_CONSUMER_KEY }}
           DEPUTE_CONSUMER_SECRET: ${{ secrets.DEPUTE_CONSUMER_SECRET }}
-        run: python deputes.py
-      
-      - name: Upload updated data
-        uses: actions/upload-artifact@v4
-        with:
-          name: deputes-bot-data
-          path: |
-            deputes/tweeted_deputes.txt
-            deputes/log.log
-          retention-days: 90
-          overwrite: true
+
+      - name: Save history update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add deputes/tweeted_deputes.txt
+          git add deputes/log.log
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Députés: Mise à jour de l'historique" && git push)
