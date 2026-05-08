@@ -1,3 +1,5 @@
+# le bot tweete à 11h11, 21h22 et 00h00
+# lancements par cron
 import tweepy
 import os
 import sys
