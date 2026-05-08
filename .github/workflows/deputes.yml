@@ -1,0 +1,55 @@
+name: Twitter Bot - Députés
+
+on:
+  schedule:
+    # Tous les jours à 9h UTC (11h CET / 10h CEST)
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # Permet un déclenchement manuel
+
+jobs:
+  post-tweets:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas tweepy python-dotenv
+      
+      - name: Download data files from artifacts (previous run)
+        uses: dawidd6/action-download-artifact@v3
+        continue-on-error: true
+        with:
+          name: deputes-bot-data
+          path: ./deputes/
+          if_no_artifact_found: warn
+      
+      - name: Run Twitter bot
+        working-directory: ./deputes
+        env:
+          DEPUTE_ACCESS_KEY: ${{ secrets.DEPUTE_ACCESS_KEY }}
+          DEPUTE_ACCESS_SECRET: ${{ secrets.DEPUTE_ACCESS_SECRET }}
+          DEPUTE_CONSUMER_KEY: ${{ secrets.DEPUTE_CONSUMER_KEY }}
+          DEPUTE_CONSUMER_SECRET: ${{ secrets.DEPUTE_CONSUMER_SECRET }}
+        run: |
+          python deputes.py
+      
+      - name: Upload data files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: deputes-bot-data
+          path: |
+            deputes/tweeted_deputes.txt
+            deputes/log.log
+          retention-days: 90
+          overwrite: true
