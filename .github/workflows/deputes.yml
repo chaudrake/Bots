@@ -3,7 +3,7 @@ name: Twitter Bot - Députés
 on:
   schedule:
     # Tous les jours à 9h UTC (11h CET / 10h CEST)
-    - cron: '0 9 * * *'
+    - cron: '51 8 * * *'
   workflow_dispatch:  # Permet un déclenchement manuel
 
 jobs:
