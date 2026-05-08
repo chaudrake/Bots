@@ -33,7 +33,7 @@ jobs:
       - name: Run bot
         run: |
           cd fuseaux
-          python fuseaux.py
+          python fuseauxavecmaps.py
         env:
           HORAIRES_CONSUMER_KEY: ${{ secrets.HORAIRES_CONSUMER_KEY }}
           HORAIRES_CONSUMER_SECRET: ${{ secrets.HORAIRES_CONSUMER_SECRET }}
