@@ -9,3 +9,14 @@
 2026-05-08 20:44:32,660 - INFO - Sauvegarde effectuée: 09258 - Philippe JUGNIOT
 2026-05-08 20:44:32,661 - INFO - Succès: Response(data={'id': '2052852171868102873', 'text': '🏛 Le #maire de Saint-Félix-De-Rieutord (Ariège) est Philippe JUGNIOT (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2052852171868102873']}, includes={}, errors=[], meta={})
 2026-05-08 20:44:32,663 - INFO - === Fin ===
+2026-05-08 21:01:44,652 - INFO - === Démarrage Maires ===
+2026-05-08 21:01:44,653 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-08 21:01:44,653 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-08 21:01:44,734 - INFO - Historique chargé: 1608 maires déjà tweetés
+2026-05-08 21:01:44,757 - INFO - Nombre de maires actifs uniques: 32475
+2026-05-08 21:01:44,757 - INFO - Nombre de maires déjà tweetés: 1608
+2026-05-08 21:01:44,759 - INFO - Sélectionné: 21178 - Christian ROUSSEL (nouveau maire)
+2026-05-08 21:01:44,761 - INFO - Tweet: 🏛 Le #maire de Valforêt (Côte-d'Or) est Christian ROUSSEL (56 ans) #MairesdeFrance 🇫🇷
+2026-05-08 21:01:45,131 - INFO - Sauvegarde effectuée: 21178 - Christian ROUSSEL
+2026-05-08 21:01:45,132 - INFO - Succès: Response(data={'text': "🏛 Le #maire de Valforêt (Côte-d'Or) est Christian ROUSSEL (56 ans) #MairesdeFrance 🇫🇷", 'edit_history_tweet_ids': ['2052856502336319931'], 'id': '2052856502336319931'}, includes={}, errors=[], meta={})
+2026-05-08 21:01:45,133 - INFO - === Fin ===
