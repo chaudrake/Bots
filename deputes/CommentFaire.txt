@@ -1,0 +1,11 @@
+Le fichier .csv de base se télécharge ici : https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/
+Le fichier est mal encodé. le corriger avec le script "miseenformeducsv.py"
+
+le script copie et colle aussi les "collectivités à statut particulier" (colonne D) dans la colonne "libellé du département" (colonne B) pour avoir tous les départements dans la même colonne
+le script corrige normalement toutes les erreurs
+Attention pour St pierre et miquelon, supprimer la case "circonscription (laisser vide) sinon ça tweete 2 fois st pierre et miquelon
+
+vérifier si la 1e circo de l Ain y est 2 fois.
+tester avec le compte Test avant !
+
+Dernière mise à jour : 7 oct 2025

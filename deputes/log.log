@@ -1,0 +1,72 @@
+2026-05-02 09:00:00,597 - INFO - Démarrage du script Députés
+2026-05-02 09:00:00,601 - INFO - Envoi tweet 1/8
+2026-05-02 09:00:00,622 - INFO - Préparation tweet: 🏛 Le #député de la 3e circonscription de la Mayenne est Yannick FAVENNEC (67 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 09:00:00,622 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 09:00:00,622 - INFO - Échec tweet 1
+2026-05-02 09:00:00,622 - INFO - Attente 60.0 min...
+2026-05-02 10:00:00,622 - INFO - Envoi tweet 2/8
+2026-05-02 10:00:00,638 - INFO - Préparation tweet: 🏛 Le #député de la 6e circonscription de la Réunion est Frédéric MAILLOT (39 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 10:00:00,638 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 10:00:00,638 - INFO - Échec tweet 2
+2026-05-02 10:00:00,638 - INFO - Attente 60.0 min...
+2026-05-02 11:00:00,638 - INFO - Envoi tweet 3/8
+2026-05-02 11:00:00,654 - INFO - Préparation tweet: 🏛 La #députée de la 9e circonscription de Seine-Maritime est Marie-Agnès POUSSIER-WINSBACK (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 11:00:00,654 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 11:00:00,654 - INFO - Échec tweet 3
+2026-05-02 11:00:00,654 - INFO - Attente 60.0 min...
+2026-05-02 12:00:00,654 - INFO - Envoi tweet 4/8
+2026-05-02 12:00:00,665 - INFO - Préparation tweet: 🏛 La #députée de la 2e circonscription d'Eure-et-Loir est Christelle MINARD (55 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 12:00:00,665 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 12:00:00,665 - INFO - Échec tweet 4
+2026-05-02 12:00:00,665 - INFO - Attente 60.0 min...
+2026-05-02 13:00:00,665 - INFO - Envoi tweet 5/8
+2026-05-02 13:00:00,688 - INFO - Préparation tweet: 🏛 Le #député de la 9e circonscription du Bas-Rhin est Vincent THIEBAUT (53 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 13:00:00,688 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 13:00:00,688 - INFO - Échec tweet 5
+2026-05-02 13:00:00,688 - INFO - Attente 60.0 min...
+2026-05-02 14:00:00,688 - INFO - Envoi tweet 6/8
+2026-05-02 14:00:00,707 - INFO - Préparation tweet: 🏛 Le #député de la 2e circonscription du Territoire de Belfort est Guillaume BIGOT (56 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 14:00:00,707 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 14:00:00,707 - INFO - Échec tweet 6
+2026-05-02 14:00:00,707 - INFO - Attente 60.0 min...
+2026-05-02 15:00:00,707 - INFO - Envoi tweet 7/8
+2026-05-02 15:00:00,757 - INFO - Préparation tweet: 🏛 La #députée de la 9e circonscription de la Moselle est Isabelle RAUCH (57 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-02 15:00:00,757 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 15:00:00,757 - INFO - Échec tweet 7
+2026-05-02 15:00:00,757 - INFO - Attente 60.0 min...
+2026-05-05 09:00:00,671 - INFO - Démarrage du script Députés
+2026-05-05 09:00:00,676 - INFO - Envoi tweet 1/8
+2026-05-05 09:00:00,695 - INFO - Préparation tweet: 🏛 La #députée de la 1ère circonscription de la Côte-d'Or est Océane GODARD (43 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 09:00:00,886 - INFO - Tweet envoyé: Response(data={'edit_history_tweet_ids': ['2051587707592183843'], 'text': "🏛 La #députée de la 1ère circonscription de la Côte-d'Or est Océane GODARD (43 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2051587707592183843'}, includes={}, errors=[], meta={})
+2026-05-05 09:00:00,886 - INFO - Tweet 1 envoyé
+2026-05-05 09:00:00,886 - INFO - Attente 60.0 min...
+2026-05-05 10:00:00,886 - INFO - Envoi tweet 2/8
+2026-05-05 10:00:00,903 - INFO - Préparation tweet: 🏛 La #députée de la 2e circonscription du Maine-et-Loire est Stella DUPONT (52 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 10:00:01,100 - INFO - Tweet envoyé: Response(data={'id': '2051602807942226225', 'text': '🏛 La #députée de la 2e circonscription du Maine-et-Loire est Stella DUPONT (52 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2051602807942226225']}, includes={}, errors=[], meta={})
+2026-05-05 10:00:01,100 - INFO - Tweet 2 envoyé
+2026-05-05 10:00:01,100 - INFO - Attente 60.0 min...
+2026-05-05 11:00:01,100 - INFO - Envoi tweet 3/8
+2026-05-05 11:00:01,112 - INFO - Préparation tweet: 🏛 Le #député de la 1ère circonscription de la Charente est René PILATO (63 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 11:00:01,310 - INFO - Tweet envoyé: Response(data={'id': '2051617908334174714', 'text': '🏛 Le #député de la 1ère circonscription de la Charente est René PILATO (63 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2051617908334174714']}, includes={}, errors=[], meta={})
+2026-05-05 11:00:01,310 - INFO - Tweet 3 envoyé
+2026-05-05 11:00:01,311 - INFO - Attente 60.0 min...
+2026-05-05 12:00:01,311 - INFO - Envoi tweet 4/8
+2026-05-05 12:00:01,332 - INFO - Préparation tweet: 🏛 Le #député de la 2e circonscription de Haute-Loire est Jean-Pierre VIGIER (56 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 12:00:01,550 - INFO - Tweet envoyé: Response(data={'text': '🏛 Le #député de la 2e circonscription de Haute-Loire est Jean-Pierre VIGIER (56 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2051633008835207457'], 'id': '2051633008835207457'}, includes={}, errors=[], meta={})
+2026-05-05 12:00:01,551 - INFO - Tweet 4 envoyé
+2026-05-05 12:00:01,551 - INFO - Attente 60.0 min...
+2026-05-05 13:00:01,551 - INFO - Envoi tweet 5/8
+2026-05-05 13:00:01,570 - INFO - Préparation tweet: 🏛 La #députée de la 3e circonscription de la Moselle est Nathalie COLIN-OESTERLÉ (61 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 13:00:01,779 - INFO - Tweet envoyé: Response(data={'edit_history_tweet_ids': ['2051648109260743015'], 'id': '2051648109260743015', 'text': '🏛 La #députée de la 3e circonscription de la Moselle est Nathalie COLIN-OESTERLÉ (61 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-05 13:00:01,779 - INFO - Tweet 5 envoyé
+2026-05-05 13:00:01,779 - INFO - Attente 60.0 min...
+2026-05-05 14:00:01,779 - INFO - Envoi tweet 6/8
+2026-05-05 14:00:01,809 - INFO - Préparation tweet: 🏛 La #députée de la 1ère circonscription du Puy-de-Dôme est Marianne MAXIMI (40 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 14:00:02,077 - INFO - Tweet envoyé: Response(data={'edit_history_tweet_ids': ['2051663209875010047'], 'id': '2051663209875010047', 'text': '🏛 La #députée de la 1ère circonscription du Puy-de-Dôme est Marianne MAXIMI (40 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-05 14:00:02,078 - INFO - Tweet 6 envoyé
+2026-05-05 14:00:02,078 - INFO - Attente 60.0 min...
+2026-05-05 15:00:02,079 - INFO - Envoi tweet 7/8
+2026-05-05 15:00:02,111 - INFO - Préparation tweet: 🏛 Le #député de la 4e circonscription du Haut-Rhin est Raphaël SCHELLENBERGER (36 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-05 15:00:02,413 - INFO - Tweet envoyé: Response(data={'id': '2051678310925582502', 'text': '🏛 Le #député de la 4e circonscription du Haut-Rhin est Raphaël SCHELLENBERGER (36 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2051678310925582502']}, includes={}, errors=[], meta={})
+2026-05-05 15:00:02,413 - INFO - Tweet 7 envoyé
+2026-05-05 15:00:02,413 - INFO - Attente 60.0 min...
