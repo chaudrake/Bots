@@ -3,9 +3,7 @@ name: TwittHeure - Heures Aléatoires
 on:
   workflow_dispatch:
   schedule:
-    # Toutes les 15 minutes entre 4h et 20h UTC
-    # 4h UTC = 6h FR (été) / attend 1h = 6h FR (hiver)
-    # 20h UTC = 22h FR (été) / attend 1h = 22h FR (hiver)
+    #  past the hour, every 3 hours, between 04:00 and 20:59
     - cron: "39 4-20/3 * * *"
 
 jobs:
