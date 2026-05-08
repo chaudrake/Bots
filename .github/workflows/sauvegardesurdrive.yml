@@ -2,9 +2,8 @@ name: Sauvegarde Automatique sur Google Drive
 
 on:
   schedule:
-    # S'exécute à 03:19 tous les jours (le script filtrera les jours autorisés)
     - cron: '19 3 * * *'
-  workflow_dispatch: # Permet de lancer manuellement la sauvegarde depuis GitHub
+  workflow_dispatch:
 
 jobs:
   backup:
@@ -28,6 +27,4 @@ jobs:
         env:
           GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-        # On lance le script depuis la racine du dépôt
         run: python sauvegardes/sauvegardesurdrive.py
-        
