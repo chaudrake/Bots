@@ -1,0 +1,13 @@
+Le fichier .csv de base se télécharge ici : https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/
+Le fichier est mal encodé. le corriger avec le script "miseenformeducsv.py"
+
+le script copie et colle aussi les "collectivités à statut particulier" (colonne D) dans la colonne "libellé du département" (colonne B) pour avoir tous les départements dans la même colonne
+
+ATTENTION il y a des erreurs dans les départements : les numéros sont les bons mais pas toujours les noms de départements (ou l'inverse).
+
+(voir départements 51 et 52, 92, 75 par exemple)
+
+Normalement le script corrige tout.
+le script doit aussi corriger les départements "inconnu" en supprimant la ligne concernée
+
+Dernière mise à jour : 24 mai 2026

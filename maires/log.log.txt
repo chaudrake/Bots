@@ -1,0 +1,73 @@
+2026-05-02 09:00:02,636 - INFO - Démarrage du script Maires
+2026-05-02 09:00:02,643 - INFO - Envoi du tweet 1/8
+2026-05-02 09:00:02,783 - INFO - Préparation tweet: 🏛 Le #maire de Saint-Rémy (Corrèze) est Gérard BOGUET (72 ans) #MairesdeFrance 🇫🇷
+2026-05-02 09:00:02,783 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 09:00:02,786 - INFO - Échec de l'envoi du tweet 1
+2026-05-02 09:00:02,786 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-02 10:00:02,786 - INFO - Envoi du tweet 2/8
+2026-05-02 10:00:02,907 - INFO - Préparation tweet: 🏛 Le #maire de Beuvraignes (Somme) est Bernard DUPUIS (77 ans) #MairesdeFrance 🇫🇷
+2026-05-02 10:00:02,907 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 10:00:02,910 - INFO - Échec de l'envoi du tweet 2
+2026-05-02 10:00:02,910 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-02 11:00:02,910 - INFO - Envoi du tweet 3/8
+2026-05-02 11:00:03,054 - INFO - Préparation tweet: 🏛 Le #maire de Vaudancourt (Oise) est Jean-Michel COLSON (70 ans) #MairesdeFrance 🇫🇷
+2026-05-02 11:00:03,054 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 11:00:03,059 - INFO - Échec de l'envoi du tweet 3
+2026-05-02 11:00:03,059 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-02 12:00:03,059 - INFO - Envoi du tweet 4/8
+2026-05-02 12:00:03,236 - INFO - Préparation tweet: 🏛 Le #maire de Ecoche (Loire) est Jean-Charles BUTAUD (67 ans) #MairesdeFrance 🇫🇷
+2026-05-02 12:00:03,236 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 12:00:03,239 - INFO - Échec de l'envoi du tweet 4
+2026-05-02 12:00:03,239 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-02 13:00:03,239 - INFO - Envoi du tweet 5/8
+2026-05-02 13:00:03,447 - INFO - Préparation tweet: 🏛 Le #maire de Putot-En-Auge (Calvados) est Gilbert LE GUEN (64 ans) #MairesdeFrance 🇫🇷
+2026-05-02 13:00:03,448 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 13:00:03,461 - INFO - Échec de l'envoi du tweet 5
+2026-05-02 13:00:03,461 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-02 14:00:03,463 - INFO - Envoi du tweet 6/8
+2026-05-02 14:00:03,991 - INFO - Préparation tweet: 🏛 Le #maire de Cieux (Haute-Vienne) est Olivier GUILLOT (57 ans) #MairesdeFrance 🇫🇷
+2026-05-02 14:00:03,991 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 14:00:03,997 - INFO - Échec de l'envoi du tweet 6
+2026-05-02 14:00:03,997 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-02 15:00:03,998 - INFO - Envoi du tweet 7/8
+2026-05-02 15:00:04,475 - INFO - Changement de maire: 88231 (Maurice GROSSE → Pascal DELADIENNÉE)
+2026-05-02 15:00:04,481 - INFO - Préparation tweet: 🏛 Le #maire de Haréville (Vosges) est Pascal DELADIENNÉE (64 ans) #MairesdeFrance 🇫🇷
+2026-05-02 15:00:04,481 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
+2026-05-02 15:00:04,490 - INFO - Échec de l'envoi du tweet 7
+2026-05-02 15:00:04,490 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 09:00:02,703 - INFO - Démarrage du script Maires
+2026-05-05 09:00:02,708 - INFO - Envoi du tweet 1/8
+2026-05-05 09:00:02,953 - INFO - Préparation tweet: 🏛 La #maire de Annesse-Et-Beaulieu (Dordogne) est Marie-Laure ALARCON (48 ans) #MairesdeFrance 🇫🇷
+2026-05-05 09:00:03,199 - INFO - Réponse Twitter: Response(data={'text': '🏛 La #maire de Annesse-Et-Beaulieu (Dordogne) est Marie-Laure ALARCON (48 ans) #MairesdeFrance 🇫🇷', 'id': '2051587717260025868', 'edit_history_tweet_ids': ['2051587717260025868']}, includes={}, errors=[], meta={})
+2026-05-05 09:00:03,205 - INFO - Tweet 1 envoyé avec succès
+2026-05-05 09:00:03,205 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 10:00:03,205 - INFO - Envoi du tweet 2/8
+2026-05-05 10:00:03,364 - INFO - Préparation tweet: 🏛 La #maire de Montlaux (Alpes-de-Haute-Provence) est Camille FELLER (57 ans) #MairesdeFrance 🇫🇷
+2026-05-05 10:00:03,589 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2051602818281189574'], 'id': '2051602818281189574', 'text': '🏛 La #maire de Montlaux (Alpes-de-Haute-Provence) est Camille FELLER (57 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-05 10:00:03,592 - INFO - Tweet 2 envoyé avec succès
+2026-05-05 10:00:03,592 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 11:00:03,592 - INFO - Envoi du tweet 3/8
+2026-05-05 11:00:03,743 - INFO - Préparation tweet: 🏛 Le #maire de Dampierre-En-Crot (Cher) est Bertrand LEJUS (34 ans) #MairesdeFrance 🇫🇷
+2026-05-05 11:00:03,929 - INFO - Réponse Twitter: Response(data={'id': '2051617919331705099', 'text': '🏛 Le #maire de Dampierre-En-Crot (Cher) est Bertrand LEJUS (34 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2051617919331705099']}, includes={}, errors=[], meta={})
+2026-05-05 11:00:03,934 - INFO - Tweet 3 envoyé avec succès
+2026-05-05 11:00:03,934 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 12:00:03,934 - INFO - Envoi du tweet 4/8
+2026-05-05 12:00:04,129 - INFO - Préparation tweet: 🏛 Le #maire de Avrecourt (Haute-Marne) est Alain LAMBERT (72 ans) #MairesdeFrance 🇫🇷
+2026-05-05 12:00:04,328 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2051633020499542215'], 'id': '2051633020499542215', 'text': '🏛 Le #maire de Avrecourt (Haute-Marne) est Alain LAMBERT (72 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-05 12:00:04,335 - INFO - Tweet 4 envoyé avec succès
+2026-05-05 12:00:04,335 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 13:00:04,340 - INFO - Envoi du tweet 5/8
+2026-05-05 13:00:05,490 - INFO - Préparation tweet: 🏛 Le #maire de Lignou (Orne) est Jean-Claude BIGNON (80 ans) #MairesdeFrance 🇫🇷
+2026-05-05 13:00:05,800 - INFO - Réponse Twitter: Response(data={'id': '2051648125991879029', 'text': '🏛 Le #maire de Lignou (Orne) est Jean-Claude BIGNON (80 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2051648125991879029']}, includes={}, errors=[], meta={})
+2026-05-05 13:00:05,817 - INFO - Tweet 5 envoyé avec succès
+2026-05-05 13:00:05,817 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 14:00:05,818 - INFO - Envoi du tweet 6/8
+2026-05-05 14:00:06,149 - INFO - Préparation tweet: 🏛 La #maire de Fontaine-La-Rivière (Essonne) est Sandra DA MOTA (38 ans) #MairesdeFrance 🇫🇷
+2026-05-05 14:00:06,375 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2051663228002816349'], 'text': '🏛 La #maire de Fontaine-La-Rivière (Essonne) est Sandra DA MOTA (38 ans) #MairesdeFrance 🇫🇷', 'id': '2051663228002816349'}, includes={}, errors=[], meta={})
+2026-05-05 14:00:06,383 - INFO - Tweet 6 envoyé avec succès
+2026-05-05 14:00:06,383 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-05 15:00:06,384 - INFO - Envoi du tweet 7/8
+2026-05-05 15:00:06,618 - INFO - Préparation tweet: 🏛 Le #maire de Varesnes (Oise) est Philippe BASSET (75 ans) #MairesdeFrance 🇫🇷
+2026-05-05 15:00:06,812 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Varesnes (Oise) est Philippe BASSET (75 ans) #MairesdeFrance 🇫🇷', 'id': '2051678329418215822', 'edit_history_tweet_ids': ['2051678329418215822']}, includes={}, errors=[], meta={})
+2026-05-05 15:00:06,817 - INFO - Tweet 7 envoyé avec succès
+2026-05-05 15:00:06,817 - INFO - Attente de 60.0 minutes avant le prochain tweet...

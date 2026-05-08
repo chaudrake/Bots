@@ -1,0 +1,116 @@
+2026-04-25 10:00:43,324 - INFO - Tweet 2 envoyé avec succès
+2026-04-25 10:00:43,492 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-25 11:00:43,712 - INFO - Envoi du tweet 3/8
+2026-04-25 11:01:00,097 - INFO - Préparation tweet: 🏛 Le #maire de Heiligenstein (Bas-Rhin) est Loïc BERGER (38 ans) #MairesdeFrance 🇫🇷
+2026-04-25 11:01:03,293 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Heiligenstein (Bas-Rhin) est Loïc BERGER (38 ans) #MairesdeFrance 🇫🇷', 'id': '2047994287690781029', 'edit_history_tweet_ids': ['2047994287690781029']}, includes={}, errors=[], meta={})
+2026-04-25 11:01:03,646 - INFO - Tweet 3 envoyé avec succès
+2026-04-25 11:01:03,646 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-26 09:01:23,060 - INFO - Démarrage du script Maires
+2026-04-26 09:01:23,080 - INFO - Fichier log nettoyé
+2026-04-26 09:01:23,104 - INFO - Envoi du tweet 1/8
+2026-04-26 09:02:25,849 - INFO - Préparation tweet: 🏛 Le #maire de Saint-Loup-De-Buffigny (Aube) est Guy-Hugues LEBRUN (53 ans) #MairesdeFrance 🇫🇷
+2026-04-26 09:02:27,234 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Saint-Loup-De-Buffigny (Aube) est Guy-Hugues LEBRUN (53 ans) #MairesdeFrance 🇫🇷', 'id': '2048326829375651852', 'edit_history_tweet_ids': ['2048326829375651852']}, includes={}, errors=[], meta={})
+2026-04-26 09:02:27,554 - INFO - Tweet 1 envoyé avec succès
+2026-04-26 09:02:27,554 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-26 10:02:27,661 - INFO - Envoi du tweet 2/8
+2026-04-26 10:02:30,848 - INFO - Préparation tweet: 🏛 Le #maire de Villequier-Aumont (Aisne) est Loïc CHALA (49 ans) #MairesdeFrance 🇫🇷
+2026-04-26 10:02:31,260 - INFO - Réponse Twitter: Response(data={'id': '2048341946884665504', 'text': '🏛 Le #maire de Villequier-Aumont (Aisne) est Loïc CHALA (49 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2048341946884665504']}, includes={}, errors=[], meta={})
+2026-04-26 10:02:31,279 - INFO - Tweet 2 envoyé avec succès
+2026-04-26 10:02:31,280 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-26 11:02:31,410 - INFO - Envoi du tweet 3/8
+2026-04-26 11:02:32,163 - INFO - Préparation tweet: 🏛 Le #maire de Rubrouck (Nord) est Luc EVERAERE (65 ans) #MairesdeFrance 🇫🇷
+2026-04-26 11:02:32,535 - INFO - Réponse Twitter: Response(data={'id': '2048357051743547461', 'text': '🏛 Le #maire de Rubrouck (Nord) est Luc EVERAERE (65 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2048357051743547461']}, includes={}, errors=[], meta={})
+2026-04-26 11:02:32,550 - INFO - Tweet 3 envoyé avec succès
+2026-04-26 11:02:32,551 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-27 09:00:06,690 - INFO - Démarrage du script Maires
+2026-04-27 09:00:06,710 - INFO - Fichier log nettoyé
+2026-04-27 09:00:06,711 - INFO - Envoi du tweet 1/8
+2026-04-27 09:00:43,649 - INFO - Préparation tweet: 🏛 Le #maire de Corbara (Corse) est Ange SALDUCCI (65 ans) #MairesdeFrance 🇫🇷
+2026-04-27 09:01:01,623 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Corbara (Corse) est Ange SALDUCCI (65 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2048688846380974262'], 'id': '2048688846380974262'}, includes={}, errors=[], meta={})
+2026-04-27 09:01:05,457 - INFO - Tweet 1 envoyé avec succès
+2026-04-27 09:01:05,458 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-27 10:01:13,398 - INFO - Envoi du tweet 2/8
+2026-04-27 10:02:26,431 - INFO - Préparation tweet: 🏛 Le #maire de Le Relecq-Kerhuon (Finistère) est Erwan L'EOST (47 ans) #MairesdeFrance 🇫🇷
+2026-04-27 10:02:27,782 - INFO - Réponse Twitter: Response(data={'id': '2048704319889838546', 'edit_history_tweet_ids': ['2048704319889838546'], 'text': "🏛 Le #maire de Le Relecq-Kerhuon (Finistère) est Erwan L'EOST (47 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-04-27 10:02:27,826 - INFO - Tweet 2 envoyé avec succès
+2026-04-27 10:02:27,826 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-27 11:02:27,926 - INFO - Envoi du tweet 3/8
+2026-04-27 11:02:29,128 - INFO - Préparation tweet: 🏛 Le #maire de La Ferté-Sur-Chiers (Ardennes) est Etienne MALCUIT (63 ans) #MairesdeFrance 🇫🇷
+2026-04-27 11:02:29,509 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2048719426971652430'], 'id': '2048719426971652430', 'text': '🏛 Le #maire de La Ferté-Sur-Chiers (Ardennes) est Etienne MALCUIT (63 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-04-27 11:02:29,566 - INFO - Tweet 3 envoyé avec succès
+2026-04-27 11:02:29,567 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-28 09:00:06,063 - INFO - Démarrage du script Maires
+2026-04-28 09:00:06,089 - INFO - Fichier log nettoyé
+2026-04-28 09:00:06,090 - INFO - Envoi du tweet 1/8
+2026-04-28 09:00:06,828 - INFO - Préparation tweet: 🏛 Le #maire de Châtelus-Le-Marcheix (Creuse) est Alain BERTRAND (65 ans) #MairesdeFrance 🇫🇷
+2026-04-28 09:00:07,193 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Châtelus-Le-Marcheix (Creuse) est Alain BERTRAND (65 ans) #MairesdeFrance 🇫🇷', 'id': '2049051018780958793', 'edit_history_tweet_ids': ['2049051018780958793']}, includes={}, errors=[], meta={})
+2026-04-28 09:00:07,254 - INFO - Tweet 1 envoyé avec succès
+2026-04-28 09:00:07,254 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-28 10:00:13,198 - INFO - Envoi du tweet 2/8
+2026-04-28 10:02:34,720 - INFO - Préparation tweet: 🏛 La #maire de Cambrin (Pas-de-Calais) est Géraldine SEBERT (66 ans) #MairesdeFrance 🇫🇷
+2026-04-28 10:02:35,275 - INFO - Réponse Twitter: Response(data={'text': '🏛 La #maire de Cambrin (Pas-de-Calais) est Géraldine SEBERT (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2049066739523096818'], 'id': '2049066739523096818'}, includes={}, errors=[], meta={})
+2026-04-28 10:02:35,282 - INFO - Tweet 2 envoyé avec succès
+2026-04-28 10:02:35,282 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-28 11:02:35,382 - INFO - Envoi du tweet 3/8
+2026-04-28 11:02:35,763 - INFO - Préparation tweet: 🏛 Le #maire de Vendoeuvres (Indre) est Christophe VANDAELE (68 ans) #MairesdeFrance 🇫🇷
+2026-04-28 11:02:35,973 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Vendoeuvres (Indre) est Christophe VANDAELE (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2049081841995448732'], 'id': '2049081841995448732'}, includes={}, errors=[], meta={})
+2026-04-28 11:02:35,978 - INFO - Tweet 3 envoyé avec succès
+2026-04-28 11:02:35,978 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-29 09:01:53,686 - INFO - Démarrage du script Maires
+2026-04-29 09:01:53,869 - INFO - Fichier log nettoyé
+2026-04-29 09:01:53,870 - INFO - Envoi du tweet 1/8
+2026-04-29 09:02:23,342 - INFO - Préparation tweet: 🏛 Le #maire de Racquinghem (Pas-de-Calais) est Jean-Luc DEMAIRE (68 ans) #MairesdeFrance 🇫🇷
+2026-04-29 09:02:25,179 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2049413983141024088'], 'id': '2049413983141024088', 'text': '🏛 Le #maire de Racquinghem (Pas-de-Calais) est Jean-Luc DEMAIRE (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-04-29 09:02:25,621 - INFO - Tweet 1 envoyé avec succès
+2026-04-29 09:02:25,621 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-29 10:02:25,732 - INFO - Envoi du tweet 2/8
+2026-04-29 10:02:29,410 - INFO - Préparation tweet: 🏛 Le #maire de La Chapelle-D'Abondance (Haute-Savoie) est Gérald DAVID-CRUZ (49 ans) #MairesdeFrance 🇫🇷
+2026-04-29 10:02:29,943 - INFO - Réponse Twitter: Response(data={'id': '2049429104961708301', 'text': "🏛 Le #maire de La Chapelle-D'Abondance (Haute-Savoie) est Gérald DAVID-CRUZ (49 ans) #MairesdeFrance 🇫🇷", 'edit_history_tweet_ids': ['2049429104961708301']}, includes={}, errors=[], meta={})
+2026-04-29 10:02:29,957 - INFO - Tweet 2 envoyé avec succès
+2026-04-29 10:02:29,957 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-29 11:02:30,072 - INFO - Envoi du tweet 3/8
+2026-04-29 11:02:31,216 - INFO - Préparation tweet: 🏛 Le #maire de Plouvorn (Finistère) est Gilbert MIOSSEC (73 ans) #MairesdeFrance 🇫🇷
+2026-04-29 11:02:31,552 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Plouvorn (Finistère) est Gilbert MIOSSEC (73 ans) #MairesdeFrance 🇫🇷', 'id': '2049444211276042447', 'edit_history_tweet_ids': ['2049444211276042447']}, includes={}, errors=[], meta={})
+2026-04-29 11:02:31,558 - INFO - Tweet 3 envoyé avec succès
+2026-04-29 11:02:31,558 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-30 09:00:05,948 - INFO - Démarrage du script Maires
+2026-04-30 09:00:05,962 - INFO - Fichier log nettoyé
+2026-04-30 09:00:05,962 - INFO - Envoi du tweet 1/8
+2026-04-30 09:00:06,420 - INFO - Préparation tweet: 🏛 Le #maire de Francheville (Côte-d'Or) est Bogdan OSTROUCH (40 ans) #MairesdeFrance 🇫🇷
+2026-04-30 09:00:07,035 - INFO - Réponse Twitter: Response(data={'text': "🏛 Le #maire de Francheville (Côte-d'Or) est Bogdan OSTROUCH (40 ans) #MairesdeFrance 🇫🇷", 'id': '2049775793383821736', 'edit_history_tweet_ids': ['2049775793383821736']}, includes={}, errors=[], meta={})
+2026-04-30 09:00:07,056 - INFO - Tweet 1 envoyé avec succès
+2026-04-30 09:00:07,079 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-30 10:00:07,608 - INFO - Envoi du tweet 2/8
+2026-04-30 10:02:25,154 - INFO - Préparation tweet: 🏛 Le #maire de Blémerey (Meurthe-et-Moselle) est Gérard PATOUX (74 ans) #MairesdeFrance 🇫🇷
+2026-04-30 10:02:30,024 - INFO - Réponse Twitter: Response(data={'edit_history_tweet_ids': ['2049791491585778109'], 'id': '2049791491585778109', 'text': '🏛 Le #maire de Blémerey (Meurthe-et-Moselle) est Gérard PATOUX (74 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-04-30 10:02:30,029 - INFO - Tweet 2 envoyé avec succès
+2026-04-30 10:02:30,029 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-04-30 11:02:30,146 - INFO - Envoi du tweet 3/8
+2026-04-30 11:02:31,007 - INFO - Préparation tweet: 🏛 Le #maire de Harquency (Eure) est Francis SAUVALLE (73 ans) #MairesdeFrance 🇫🇷
+2026-04-30 11:02:31,328 - INFO - Réponse Twitter: Response(data={'id': '2049806598197961099', 'text': '🏛 Le #maire de Harquency (Eure) est Francis SAUVALLE (73 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2049806598197961099']}, includes={}, errors=[], meta={})
+2026-04-30 11:02:31,341 - INFO - Tweet 3 envoyé avec succès
+2026-04-30 11:02:31,341 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-01 09:00:04,811 - INFO - Démarrage du script Maires
+2026-05-01 09:00:04,824 - INFO - Fichier log nettoyé
+2026-05-01 09:00:04,824 - INFO - Envoi du tweet 1/8
+2026-05-01 09:00:04,989 - INFO - Préparation tweet: 🏛 Le #maire de Cabrières-D'Aigues (Vaucluse) est Rémy FRANCESCHI (67 ans) #MairesdeFrance 🇫🇷
+2026-05-01 09:00:05,183 - INFO - Réponse Twitter: Response(data={'text': "🏛 Le #maire de Cabrières-D'Aigues (Vaucluse) est Rémy FRANCESCHI (67 ans) #MairesdeFrance 🇫🇷", 'edit_history_tweet_ids': ['2050138174135865441'], 'id': '2050138174135865441'}, includes={}, errors=[], meta={})
+2026-05-01 09:00:05,186 - INFO - Tweet 1 envoyé avec succès
+2026-05-01 09:00:05,186 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-01 09:02:33,264 - INFO - Démarrage du script Maires
+2026-05-01 09:02:33,648 - INFO - Fichier log nettoyé
+2026-05-01 09:02:33,648 - INFO - Envoi du tweet 1/8
+2026-05-01 09:02:42,307 - INFO - Préparation tweet: 🏛 Le #maire de Poudenas (Lot-et-Garonne) est François DUPRAT (68 ans) #MairesdeFrance 🇫🇷
+2026-05-01 09:02:43,025 - INFO - Réponse Twitter: Response(data={'text': '🏛 Le #maire de Poudenas (Lot-et-Garonne) est François DUPRAT (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2050138835313479846'], 'id': '2050138835313479846'}, includes={}, errors=[], meta={})
+2026-05-01 09:02:43,099 - INFO - Tweet 1 envoyé avec succès
+2026-05-01 09:02:43,100 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-01 10:02:43,200 - INFO - Envoi du tweet 2/8
+2026-05-01 10:02:44,225 - INFO - Préparation tweet: 🏛 La #maire de Faucon (Vaucluse) est Corinne GONNY (57 ans) #MairesdeFrance 🇫🇷
+2026-05-01 10:02:44,526 - INFO - Réponse Twitter: Response(data={'id': '2050153941984244198', 'edit_history_tweet_ids': ['2050153941984244198'], 'text': '🏛 La #maire de Faucon (Vaucluse) est Corinne GONNY (57 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-01 10:02:44,537 - INFO - Tweet 2 envoyé avec succès
+2026-05-01 10:02:44,538 - INFO - Attente de 60.0 minutes avant le prochain tweet...
+2026-05-01 11:02:44,638 - INFO - Envoi du tweet 3/8
+2026-05-01 11:02:44,896 - INFO - Préparation tweet: 🏛 La #maire de Amailloux (Deux-Sèvres) est Nathalie BRESCIA (55 ans) #MairesdeFrance 🇫🇷
+2026-05-01 11:02:45,202 - INFO - Réponse Twitter: Response(data={'id': '2050169044204999126', 'text': '🏛 La #maire de Amailloux (Deux-Sèvres) est Nathalie BRESCIA (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2050169044204999126']}, includes={}, errors=[], meta={})
+2026-05-01 11:02:45,207 - INFO - Tweet 3 envoyé avec succès
+2026-05-01 11:02:45,207 - INFO - Attente de 60.0 minutes avant le prochain tweet...
