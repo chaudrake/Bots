@@ -9,47 +9,40 @@ on:
 jobs:
   post-tweet:
     runs-on: ubuntu-latest
-    concurrency:
-      group: twitter-bot-maires
-      cancel-in-progress: false
     
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-      
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
+
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          cd maires
           pip install pandas tweepy python-dotenv
-      
-      - name: Download previous data
-        uses: dawidd6/action-download-artifact@v3
-        continue-on-error: true
-        with:
-          name: maires-bot-data
-          path: ./maires/
-          if_no_artifact_found: warn
-      
+
       - name: Post tweet
-        working-directory: ./maires
+        run: |
+          cd maires
+          python maires.py
         env:
           QUIESTLEMAIRE_ACCESS_KEY: ${{ secrets.QUIESTLEMAIRE_ACCESS_KEY }}
           QUIESTLEMAIRE_ACCESS_SECRET: ${{ secrets.QUIESTLEMAIRE_ACCESS_SECRET }}
           QUIESTLEMAIRE_CONSUMER_KEY: ${{ secrets.QUIESTLEMAIRE_CONSUMER_KEY }}
           QUIESTLEMAIRE_CONSUMER_SECRET: ${{ secrets.QUIESTLEMAIRE_CONSUMER_SECRET }}
-        run: python maires.py
-      
-      - name: Upload updated data
-        uses: actions/upload-artifact@v4
-        with:
-          name: maires-bot-data
-          path: |
-            maires/tweeted_maires.txt
-            maires/log.log
-          retention-days: 90
-          overwrite: true
+
+      - name: Save history update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add maires/tweeted_maires.txt
+          git add maires/log.log
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Maires: Mise à jour de l'historique" && git push)
