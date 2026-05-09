@@ -104,12 +104,6 @@ def main():
     for col in df.columns:
         df[col] = df[col].astype(str).apply(repair_utf8)
 
-    # Correction spécifique des colonnes de noms
-    if 'Prénom de l\'élu' in df.columns:
-        df['Prénom de l\'élu'] = df['Prénom de l\'élu'].apply(repair_utf8)
-    if 'Nom de l\'élu' in df.columns:
-        df['Nom de l\'élu'] = df['Nom de l\'élu'].apply(repair_utf8)
-
     # Vérification et correction des départements
     if 'Code de la commune' in df.columns:
         df['Code de la commune'] = df['Code de la commune'].astype(str).replace('nan', '')
@@ -139,17 +133,18 @@ def main():
 
     # Aperçu des corrections
     print("\n📊 Vérification des corrections :")
-    print("   Avant → Après")
-    print("   'ClÃ©menciat' → 'Clémenciat'")
-    print("   'IngÃ©nieur' → 'Ingénieur'")
     
-    # Tester sur les premières lignes
-    if 'Libellé de la commune' in df.columns:
-        print(f"\n   Exemple commune: {df['Libellé de la commune'].iloc[0][:30]}")
-    if 'Prénom de l\'élu' in df.columns:
-        print(f"   Exemple prénom: {df['Prénom de l\'élu'].iloc[0]}")
-    if 'Nom de l\'élu' in df.columns:
-        print(f"   Exemple nom: {df['Nom de l\'élu'].iloc[0]}")
+    # Tester sur les premières lignes (sans backslash dans f-string)
+    commune_col = 'Libellé de la commune'
+    prenom_col = "Prénom de l'élu"
+    nom_col = "Nom de l'élu"
+    
+    if commune_col in df.columns:
+        print(f"   Exemple commune: {df[commune_col].iloc[0][:30]}")
+    if prenom_col in df.columns:
+        print(f"   Exemple prénom: {df[prenom_col].iloc[0]}")
+    if nom_col in df.columns:
+        print(f"   Exemple nom: {df[nom_col].iloc[0]}")
 
     print("\n✅ Terminé !")
 
