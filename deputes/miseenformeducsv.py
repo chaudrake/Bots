@@ -16,8 +16,6 @@ def fix_encoding_deep(text):
     if not isinstance(text, str):
         return text
     
-    # Problème courant : latin1 lu comme UTF-8 puis ré-encodé
-    # Solution : tenter de réparer les séquences corrompues
     replacements = {
         'Ã': 'È',
         'Ã©': 'é',
@@ -43,7 +41,6 @@ def fix_encoding_deep(text):
     for wrong, correct in replacements.items():
         text = text.replace(wrong, correct)
     
-    # Tentative de correction par re-encodage
     try:
         text = text.encode('latin1').decode('utf-8')
     except (UnicodeError, LookupError):
@@ -67,16 +64,16 @@ def fix_circonscription(text):
     return text
 
 def fix_dates(df):
-    """Normalise les colonnes de dates au format AAAA-MM-JJ"""
+    """Normalise les colonnes de dates au format JJ/MM/AAAA"""
     date_columns = ['Date de naissance', 'Date de début du mandat']
     
     for col in date_columns:
         if col in df.columns:
-            # Convertir en datetime (gère automatiquement les formats variés)
-            df[col] = pd.to_datetime(df[col], errors='coerce')
-            # Formater en chaîne ISO (AAAA-MM-JJ)
-            df[col] = df[col].dt.strftime('%Y-%m-%d')
-            print(f"✅ Dates normalisées : {col}")
+            # Convertir en datetime (gère les formats AAAA-MM-JJ du CSV source)
+            df[col] = pd.to_datetime(df[col], format='%Y-%m-%d', errors='coerce')
+            # Formater en JJ/MM/AAAA
+            df[col] = df[col].dt.strftime('%d/%m/%Y')
+            print(f"✅ Dates normalisées : {col} (JJ/MM/AAAA)")
     
     return df
 
@@ -99,21 +96,18 @@ def main():
         sys.exit(1)
 
     try:
-        # Lecture du fichier en mode binaire pour éviter les soucis d'encodage
+        # Lecture du fichier
         with open(fichier_entree, 'rb') as f:
             content = f.read()
-            # Tenter de décoder correctement
             try:
                 content_str = content.decode('utf-8')
             except UnicodeDecodeError:
                 content_str = content.decode('latin1')
         
-        # Ré-écrire temporairement
         temp_file = fichier_entree + '.temp'
         with open(temp_file, 'w', encoding='utf-8') as f:
             f.write(content_str)
         
-        # Lire avec pandas
         df = pd.read_csv(temp_file, sep=';', encoding='utf-8')
         os.remove(temp_file)
         
@@ -124,7 +118,7 @@ def main():
             if df[col].dtype == object:
                 df[col] = df[col].apply(fix_encoding_deep)
 
-        # Correction spécifique des circonscriptions
+        # Correction des circonscriptions
         if 'Libellé de la circonscription législative' in df.columns:
             df['Libellé de la circonscription législative'] = df['Libellé de la circonscription législative'].apply(fix_circonscription)
             print("✅ Normalisation des circonscriptions effectuée")
@@ -132,7 +126,7 @@ def main():
         # Normalisation des dates
         df = fix_dates(df)
 
-        # Nettoyage des colonnes départementales
+        # Nettoyage des collectivités
         col_statut = 'Libellé de la collectivité à statut particulier'
         if col_statut in df.columns:
             df['Libellé du département'] = df[col_statut].fillna(df['Libellé du département'])
@@ -149,17 +143,15 @@ def main():
         df.to_csv(fichier_sortie, sep=';', index=False, encoding='utf-8-sig')
         print(f"💾 Sauvegarde : {fichier_sortie}")
 
-        # Aperçu des corrections
         print("\n📊 Aperçu des 3 premières lignes corrigées :")
         for col in ['Libellé de la circonscription législative', 'Prenom', 'Nom', 'Date de naissance']:
             if col in df.columns:
                 print(f"   {col}: {df[col].iloc[0]}")
 
         print("\n✅ Résumé des corrections :")
-        print("   - Correction des caractères mal encodés (Ã → È, etc.)")
-        print("   - Normalisation des circonscriptions (ex: '1Ère' → '1ère')")
-        print("   - Normalisation des dates (format AAAA-MM-JJ)")
-        print("   - Nettoyage des colonnes collectivités")
+        print("   - Correction des caractères mal encodés")
+        print("   - Normalisation des circonscriptions")
+        print("   - Normalisation des dates (JJ/MM/AAAA)")
         print(f"\n📌 Fichier prêt : {fichier_sortie}")
 
     except Exception as e:
