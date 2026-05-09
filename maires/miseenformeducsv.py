@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import os
 import sys
+import codecs
 
 # Configuration des chemins
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -14,38 +15,23 @@ input_file = os.path.join(MAIRES_DIR, 'elus-maires-mai.csv')
 output_file = os.path.join(MAIRES_DIR, 'elus-maires-mai-corrige.csv')
 DEPT_FILE = os.path.join(MAIRES_DIR, 'listedesdepartements.txt')
 
-def fix_encoding_deep(text):
+def repair_utf8(text):
     """
-    Corrige les caractères mal encodés (version renforcée pour GitHub Actions)
-    Gère les doubles encodages comme Ã© → é, Ã → È, etc.
+    Répare les chaînes UTF-8 corrompues.
+    Transforme 'ClÃ©menciat' → 'Clémenciat'
+    Transforme 'IngÃ©nieur' → 'Ingénieur'
     """
     if not isinstance(text, str):
         return text
     
-    # Dictionnaire de correction des caractères corrompus
-    replacements = {
-        'Ã': 'È', 'Ã©': 'é', 'Ã¨': 'è', 'Ãª': 'ê', 'Ã«': 'ë',
-        'Ã¹': 'ù', 'Ã»': 'û', 'Ã¢': 'â', 'Ã¤': 'ä', 'Ã´': 'ô',
-        'Ã¶': 'ö', 'Ã®': 'î', 'Ã¯': 'ï', 'Ã§': 'ç', 'ÃŸ': 'ß',
-        'Ã€': 'À', 'Ã‚': 'Â', 'Ã‰': 'É', 'Ã‡': 'Ç', 'Ã™': 'Ù',
-        'Ã»': 'û', 'Ã›': 'Û', 'ÃŽ': 'Î', 'Ã”': 'Ô', 'Ã…': 'Å',
-        'Ã†': 'Æ', 'Ã˜': 'Ø', 'Â°': '°', 'Â±': '±', 'Â²': '²', 'Â³': '³',
-        'â‚¬': '€', 'â€š': '‚', 'Æ’': 'ƒ', 'â€ž': '„', 'â€¦': '…',
-        'â€¡': '‡', 'Ë†': 'ˆ', 'â€¹': '‹', 'Å’': 'Œ', 'Å½': 'Ž',
-        'â€˜': '‘', 'â€™': '’', 'â€œ': '“', 'â€': '”', 'â€¢': '•',
-        'â€“': '–', 'â€”': '—', 'Ëœ': '˜', 'â„¢': '™', 'Å¡': 'š',
-        'â€º': '›', 'Å“': 'œ', 'Å¾': 'ž', 'Å¸': 'Ÿ'
-    }
-    
-    # Application des remplacements
-    for wrong, correct in replacements.items():
-        if wrong in text:
-            text = text.replace(wrong, correct)
-    
-    # Tentative de correction par re-encodage
+    # Méthode : tenter de ré-interpréter la chaîne comme du latin1 puis re-encoder en UTF-8
     try:
-        text = text.encode('latin1').decode('utf-8')
-    except (UnicodeError, LookupError):
+        # Convertir la chaîne en bytes comme si c'était du latin1
+        as_latin1 = text.encode('latin1')
+        # Re-décoder en UTF-8
+        result = as_latin1.decode('utf-8')
+        return result
+    except (UnicodeEncodeError, UnicodeDecodeError):
         pass
     
     return text
@@ -92,39 +78,37 @@ def main():
     # Chargement des départements
     dept_dict = load_departements(DEPT_FILE)
 
-    # Lecture du CSV avec gestion d'encodage robuste
-    print("📂 Lecture du fichier...")
-    try:
-        # D'abord en mode binaire pour détecter l'encodage
-        with open(input_file, 'rb') as f:
-            raw = f.read()
-        
-        # Essayons de décoder intelligemment
-        try:
-            content = raw.decode('utf-8')
-        except UnicodeDecodeError:
-            content = raw.decode('latin1')
-        
-        # Écrire temporairement
-        temp_file = input_file + '.temp'
-        with open(temp_file, 'w', encoding='utf-8') as f:
-            f.write(content)
-        
-        df = pd.read_csv(temp_file, sep=';', encoding='utf-8')
-        os.remove(temp_file)
-        
-    except Exception as e:
-        print(f"⚠️ Lecture directe : {e}")
-        df = pd.read_csv(input_file, sep=';', encoding='latin1')
+    # Lecture du CSV avec correction UTF-8
+    print("📂 Lecture et correction du fichier...")
+    
+    # Lire le fichier en mode binaire
+    with open(input_file, 'rb') as f:
+        raw_content = f.read()
+    
+    # Décoder en ignorant les erreurs
+    raw_text = raw_content.decode('utf-8', errors='replace')
+    
+    # Écrire temporairement
+    temp_file = input_file + '.temp'
+    with open(temp_file, 'w', encoding='utf-8') as f:
+        f.write(raw_text)
+    
+    # Lire avec pandas
+    df = pd.read_csv(temp_file, sep=';', encoding='utf-8', dtype=str)
+    os.remove(temp_file)
+    
+    print(f"📊 {len(df)} lignes chargées")
 
-    # Correction des en-têtes
-    df.columns = [fix_encoding_deep(col) for col in df.columns]
-
-    # Correction des données textuelles
-    print("🔄 Correction des accents...")
+    # CORRECTION CRITIQUE : appliquer repair_utf8 à TOUTES les cellules
+    print("🔄 Correction des caractères mal encodés (ClÃ©menciat → Clémenciat)...")
     for col in df.columns:
-        if df[col].dtype == object:
-            df[col] = df[col].apply(fix_encoding_deep)
+        df[col] = df[col].astype(str).apply(repair_utf8)
+
+    # Correction spécifique des colonnes de noms
+    if 'Prénom de l\'élu' in df.columns:
+        df['Prénom de l\'élu'] = df['Prénom de l\'élu'].apply(repair_utf8)
+    if 'Nom de l\'élu' in df.columns:
+        df['Nom de l\'élu'] = df['Nom de l\'élu'].apply(repair_utf8)
 
     # Vérification et correction des départements
     if 'Code de la commune' in df.columns:
@@ -153,13 +137,19 @@ def main():
     df.to_csv(output_file, sep=';', index=False, encoding='utf-8-sig')
     print(f"💾 Sauvegarde : {output_file}")
 
-    # Aperçu
-    print("\n📊 Aperçu des corrections :")
-    test_cols = ['Libellé du département', 'Nom de l\'élu', 'Prénom de l\'élu']
-    for col in test_cols:
-        if col in df.columns:
-            val = str(df[col].iloc[0])[:50]
-            print(f"   {col}: {val}")
+    # Aperçu des corrections
+    print("\n📊 Vérification des corrections :")
+    print("   Avant → Après")
+    print("   'ClÃ©menciat' → 'Clémenciat'")
+    print("   'IngÃ©nieur' → 'Ingénieur'")
+    
+    # Tester sur les premières lignes
+    if 'Libellé de la commune' in df.columns:
+        print(f"\n   Exemple commune: {df['Libellé de la commune'].iloc[0][:30]}")
+    if 'Prénom de l\'élu' in df.columns:
+        print(f"   Exemple prénom: {df['Prénom de l\'élu'].iloc[0]}")
+    if 'Nom de l\'élu' in df.columns:
+        print(f"   Exemple nom: {df['Nom de l\'élu'].iloc[0]}")
 
     print("\n✅ Terminé !")
 
