@@ -8,9 +8,25 @@ import sys
 
 # Configuration des chemins (adaptation GitHub)
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_INPUT = os.path.join(SCRIPT_DIR, 'elus-maires-mai.csv')
-DEFAULT_OUTPUT = os.path.join(SCRIPT_DIR, 'elus-maires-mai-corrige.csv')
-DEPT_FILE = os.path.join(SCRIPT_DIR, 'listedesdepartements.txt')
+MAIRES_DIR = SCRIPT_DIR  # Le script est déjà dans le dossier maires
+
+# Gestion des arguments en ligne de commande
+if len(sys.argv) > 1:
+    input_file = sys.argv[1]
+else:
+    input_file = os.path.join(MAIRES_DIR, 'elus-maires-mai.csv')
+
+if len(sys.argv) > 2:
+    output_file = sys.argv[2]
+else:
+    output_file = os.path.join(MAIRES_DIR, 'elus-maires-mai-corrige.csv')
+
+# Fichier des départements
+DEPT_FILE = os.path.join(MAIRES_DIR, 'listedesdepartements.txt')
+
+print(f"📂 Dossier de travail : {MAIRES_DIR}")
+print(f"📂 Fichier source : {input_file}")
+print(f="📂 Fichier de sortie : {output_file}")
 
 def fix_encoding(text):
     """Corrige les caractères mal encodés dans tout le DataFrame"""
@@ -39,9 +55,9 @@ def load_departements(file_path):
                 if ' : ' in line:
                     code, name = line.strip().split(' : ')
                     dept_dict[code] = name
+        print(f"✅ {len(dept_dict)} départements chargés")
     except FileNotFoundError:
         print(f"⚠️ Fichier des départements introuvable : {file_path}")
-        print("   Utilisation d'un dictionnaire vide")
     return dept_dict
 
 def get_correct_departement(commune_code, dept_dict):
@@ -64,24 +80,15 @@ def get_correct_departement(commune_code, dept_dict):
         return 'Inconnu'
 
 def main():
-    """Point d'entrée principal"""
-    # Gestion des arguments en ligne de commande (optionnel)
-    if len(sys.argv) > 1:
-        input_file = sys.argv[1]
-    else:
-        input_file = DEFAULT_INPUT
-
-    if len(sys.argv) > 2:
-        output_file = sys.argv[2]
-    else:
-        output_file = DEFAULT_OUTPUT
-
     print("🔧 Correction d'encodage des fichiers maires")
     print("=" * 50)
 
     # Vérification des fichiers nécessaires
     if not os.path.exists(input_file):
         print(f"❌ Erreur : Fichier source introuvable - {input_file}")
+        print(f"   Fichiers présents dans {MAIRES_DIR} :")
+        for f in os.listdir(MAIRES_DIR):
+            print(f"     - {f}")
         sys.exit(1)
 
     if not os.path.exists(DEPT_FILE):
@@ -90,12 +97,10 @@ def main():
     # 1. Charger la liste des départements
     print("📂 Chargement de la liste des départements...")
     dept_dict = load_departements(DEPT_FILE)
-    print(f"   {len(dept_dict)} départements chargés")
 
-    # 2. Lire le fichier CSV original (gestion d'encodage robuste)
+    # 2. Lire le fichier CSV original
     print(f"📂 Lecture : {input_file}")
     try:
-        # Tentative de lecture avec latin1
         df = pd.read_csv(input_file, sep=';', encoding='latin1')
     except Exception as e:
         print(f"⚠️ Lecture latin1 échouée, tentative utf-8 : {e}")
@@ -104,7 +109,7 @@ def main():
     # 3. Corriger les en-têtes de colonnes
     df.columns = [fix_encoding(col) for col in df.columns]
 
-    # 4. Corriger tous les accents dans toutes les colonnes texte
+    # 4. Corriger tous les accents
     print("🔄 Correction des accents...")
     for col in df.columns:
         if df[col].dtype == object:
@@ -112,14 +117,12 @@ def main():
 
     # 5. Vérifier et corriger les libellés de département
     if 'Code de la commune' in df.columns:
-        # Convertir la colonne en string et remplacer les NaN
         df['Code de la commune'] = df['Code de la commune'].astype(str).replace('nan', '')
 
         df['Département vérifié'] = df['Code de la commune'].apply(
             lambda x: get_correct_departement(x, dept_dict)
         )
 
-        # Comparaison avec le département existant
         if 'Libellé du département' in df.columns:
             mask = df['Libellé du département'] != df['Département vérifié']
             if mask.any():
@@ -128,14 +131,14 @@ def main():
         else:
             df['Libellé du département'] = df['Département vérifié']
 
-    # 6. Traitement des collectivités à statut particulier (si la colonne existe)
+    # 6. Traitement des collectivités à statut particulier
     col_statut = 'Libellé de la collectivité à statut particulier'
     if col_statut in df.columns:
         df['Libellé du département'] = df[col_statut].fillna(df['Libellé du département'])
         df = df.drop(columns=[col_statut])
         print("✅ Nettoyage des collectivités effectué")
 
-    # 7. Sauvegarder le fichier corrigé
+    # 7. Sauvegarde
     output_dir = os.path.dirname(output_file)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -143,16 +146,9 @@ def main():
     df.to_csv(output_file, sep=';', index=False, encoding='utf-8-sig')
     print(f"💾 Sauvegarde : {output_file}")
 
-    # Aperçu des corrections
-    print("\n📊 Aperçu (3 premières lignes) :")
-    for col in ['Libellé du département']:
-        if col in df.columns:
-            print(f"   {col}: {df[col].iloc[0]}")
-
     print("\n✅ Résumé des corrections :")
     print("   - Correction des caractères mal encodés")
-    print("   - Vérification/correction des départements via code commune")
-    print("   - Nettoyage des colonnes collectivités")
+    print("   - Vérification/correction des départements")
     print(f"\n📌 Fichier prêt : {output_file}")
 
 if __name__ == "__main__":
