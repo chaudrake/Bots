@@ -1,0 +1,63 @@
+name: Traitement des maires
+
+on:
+  workflow_dispatch:
+    inputs:
+      fichier_entree:
+        description: 'Nom du fichier CSV source'
+        required: false
+        default: 'elus-maires-mai.csv'
+        type: string
+      fichier_sortie:
+        description: 'Nom du fichier CSV de sortie'
+        required: false
+        default: 'elus-maires-mai-corrige.csv'
+        type: string
+
+jobs:
+  corriger-encodage:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      
+      - name: Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Mise à jour de pip
+        run: |
+          python -m pip install --upgrade pip
+      
+      - name: Installation des dépendances
+        run: |
+          pip install pandas numpy
+      
+      - name: Exécution du script
+        run: |
+          cd maires
+          python miseenformeducsv.py "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
+      
+      - name: Vérification de la création du fichier
+        run: |
+          cd maires
+          ls -la *.csv
+          echo "---"
+          ls -la "${{ github.event.inputs.fichier_sortie }}" || echo "Fichier non trouvé"
+      
+      - name: Commit et push du fichier corrigé
+        run: |
+          cd maires
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ github.event.inputs.fichier_sortie }}"
+          git status
+          git commit -m "Mise à jour auto: ${{ github.event.inputs.fichier_sortie }} [skip ci]" || echo "Aucun changement à committer"
+          git push
