@@ -90,3 +90,12 @@
     - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 2026-05-09 09:24:48,441 - INFO - === Fin ===
+2026-05-09 10:31:31,076 - INFO - === Démarrage Députés ===
+2026-05-09 10:31:31,076 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-09 10:31:31,076 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-09 10:31:31,081 - INFO - Historique chargé: 23 députés déjà tweetés
+2026-05-09 10:31:31,083 - INFO - Erreur: unconverted data remains when parsing with format "%Y-%d-%m": "4", at position 1. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2026-05-09 10:31:31,083 - INFO - === Fin ===
