@@ -36,3 +36,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/zlatan.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/omarsy.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/alpacino.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/adele.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/beyonce.jpg
