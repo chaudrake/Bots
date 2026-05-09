@@ -1,5 +1,3 @@
-2026-05-08 20:44:32,363 - INFO - === Démarrage Maires ===
-2026-05-08 20:44:32,363 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-08 20:44:32,363 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-08 20:44:32,445 - INFO - Historique chargé: 1607 maires déjà tweetés
 2026-05-08 20:44:32,465 - INFO - Nombre de maires actifs uniques: 32475
@@ -97,3 +95,14 @@
 2026-05-09 16:12:52,246 - INFO - Sauvegarde effectuée: 14078 - Rodolphe RICORDEL
 2026-05-09 16:12:52,246 - INFO - Succès: Response(data={'id': '2053146190821421132', 'edit_history_tweet_ids': ['2053146190821421132'], 'text': '🏛 Le #maire de Blay (Calvados) est Rodolphe RICORDEL (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-09 16:12:52,248 - INFO - === Fin ===
+2026-05-09 17:42:24,991 - INFO - === Démarrage Maires ===
+2026-05-09 17:42:24,991 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-09 17:42:24,991 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-09 17:42:25,084 - INFO - Historique chargé: 1616 maires déjà tweetés
+2026-05-09 17:42:25,107 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-09 17:42:25,107 - INFO - Nombre de maires déjà tweetés: 1616
+2026-05-09 17:42:25,109 - INFO - Sélectionné: 47213 - Philippe BOUSQUIER (nouveau maire)
+2026-05-09 17:42:25,111 - INFO - Tweet: 🏛 Le #maire de Prayssas (Lot-et-Garonne) est Philippe BOUSQUIER (66 ans) #MairesdeFrance 🇫🇷
+2026-05-09 17:42:25,413 - INFO - Sauvegarde effectuée: 47213 - Philippe BOUSQUIER
+2026-05-09 17:42:25,413 - INFO - Succès: Response(data={'id': '2053168727521198497', 'text': '🏛 Le #maire de Prayssas (Lot-et-Garonne) est Philippe BOUSQUIER (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053168727521198497']}, includes={}, errors=[], meta={})
+2026-05-09 17:42:25,415 - INFO - === Fin ===
