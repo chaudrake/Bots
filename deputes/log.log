@@ -1,12 +1,3 @@
-2026-05-02 13:00:00,688 - INFO - Préparation tweet: 🏛 Le #député de la 9e circonscription du Bas-Rhin est Vincent THIEBAUT (53 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-02 13:00:00,688 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
-2026-05-02 13:00:00,688 - INFO - Échec tweet 5
-2026-05-02 13:00:00,688 - INFO - Attente 60.0 min...
-2026-05-02 14:00:00,688 - INFO - Envoi tweet 6/8
-2026-05-02 14:00:00,707 - INFO - Préparation tweet: 🏛 Le #député de la 2e circonscription du Territoire de Belfort est Guillaume BIGOT (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-02 14:00:00,707 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
-2026-05-02 14:00:00,707 - INFO - Échec tweet 6
-2026-05-02 14:00:00,707 - INFO - Attente 60.0 min...
 2026-05-02 15:00:00,707 - INFO - Envoi tweet 7/8
 2026-05-02 15:00:00,757 - INFO - Préparation tweet: 🏛 La #députée de la 9e circonscription de la Moselle est Isabelle RAUCH (57 ans) #Députés #AssembléeNationale 🇫🇷
 2026-05-02 15:00:00,757 - INFO - Erreur envoi tweet: Consumer key must be string or bytes, not NoneType
@@ -104,3 +95,12 @@
     - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 2026-05-09 14:57:42,116 - INFO - === Fin ===
+2026-05-09 16:13:13,600 - INFO - === Démarrage Députés ===
+2026-05-09 16:13:13,600 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-09 16:13:13,600 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-09 16:13:13,605 - INFO - Historique chargé: 23 députés déjà tweetés
+2026-05-09 16:13:13,607 - INFO - Erreur: unconverted data remains when parsing with format "%Y-%d-%m": "4", at position 1. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2026-05-09 16:13:13,607 - INFO - === Fin ===
