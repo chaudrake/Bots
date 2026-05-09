@@ -66,6 +66,20 @@ def fix_circonscription(text):
             text = " ".join(parts)
     return text
 
+def fix_dates(df):
+    """Normalise les colonnes de dates au format AAAA-MM-JJ"""
+    date_columns = ['Date de naissance', 'Date de début du mandat']
+    
+    for col in date_columns:
+        if col in df.columns:
+            # Convertir en datetime (gère automatiquement les formats variés)
+            df[col] = pd.to_datetime(df[col], errors='coerce')
+            # Formater en chaîne ISO (AAAA-MM-JJ)
+            df[col] = df[col].dt.strftime('%Y-%m-%d')
+            print(f"✅ Dates normalisées : {col}")
+    
+    return df
+
 def main():
     if len(sys.argv) > 1:
         fichier_entree = sys.argv[1]
@@ -115,6 +129,9 @@ def main():
             df['Libellé de la circonscription législative'] = df['Libellé de la circonscription législative'].apply(fix_circonscription)
             print("✅ Normalisation des circonscriptions effectuée")
 
+        # Normalisation des dates
+        df = fix_dates(df)
+
         # Nettoyage des colonnes départementales
         col_statut = 'Libellé de la collectivité à statut particulier'
         if col_statut in df.columns:
@@ -134,13 +151,14 @@ def main():
 
         # Aperçu des corrections
         print("\n📊 Aperçu des 3 premières lignes corrigées :")
-        for col in ['Libellé de la circonscription législative', 'Prenom', 'Nom']:
+        for col in ['Libellé de la circonscription législative', 'Prenom', 'Nom', 'Date de naissance']:
             if col in df.columns:
                 print(f"   {col}: {df[col].iloc[0]}")
 
         print("\n✅ Résumé des corrections :")
         print("   - Correction des caractères mal encodés (Ã → È, etc.)")
         print("   - Normalisation des circonscriptions (ex: '1Ère' → '1ère')")
+        print("   - Normalisation des dates (format AAAA-MM-JJ)")
         print("   - Nettoyage des colonnes collectivités")
         print(f"\n📌 Fichier prêt : {fichier_sortie}")
 
