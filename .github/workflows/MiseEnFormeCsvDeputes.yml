@@ -1,0 +1,67 @@
+name: Traitement des députés
+
+on:
+  # Déclenchement manuel depuis l'interface GitHub
+  workflow_dispatch:
+    inputs:
+      fichier_entree:
+        description: 'Nom du fichier CSV source'
+        required: false
+        default: 'elus-deputes-dep.csv'
+        type: string
+      fichier_sortie:
+        description: 'Nom du fichier CSV de sortie'
+        required: false
+        default: 'elus-deputes-depCorrige.csv'
+        type: string
+
+  # Déclenchement automatique lors d'un push sur le dossier deputes
+  push:
+    paths:
+      - 'deputes/*.csv'
+      - 'deputes/miseenformeducsv.py'
+    branches:
+      - main
+
+jobs:
+  corriger-encodage:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+      
+      - name: Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Installation des dépendances
+        run: |
+          cd deputes
+          pip install -r requirements.txt
+      
+      - name: Exécution du script
+        run: |
+          cd deputes
+          if [ -z "${{ github.event.inputs.fichier_entree }}" ]; then
+            python miseenformeducsv.py
+          else
+            python miseenformeducsv.py "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
+          fi
+      
+      - name: Upload du fichier corrigé
+        uses: actions/upload-artifact@v4
+        with:
+          name: fichier-corrige
+          path: deputes/elus-deputes-depCorrige.csv
+          retention-days: 30
+      
+      - name: Commit du fichier corrigé (optionnel)
+        run: |
+          cd deputes
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add elus-deputes-depCorrige.csv
+          git commit -m "Ajout fichier corrigé [skip ci]" || echo "Aucun changement à committer"
+          git push || echo "Push ignoré"
