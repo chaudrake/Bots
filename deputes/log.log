@@ -1,12 +1,3 @@
-2026-05-05 13:00:01,570 - INFO - Préparation tweet: 🏛 La #députée de la 3e circonscription de la Moselle est Nathalie COLIN-OESTERLÉ (61 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-05 13:00:01,779 - INFO - Tweet envoyé: Response(data={'edit_history_tweet_ids': ['2051648109260743015'], 'id': '2051648109260743015', 'text': '🏛 La #députée de la 3e circonscription de la Moselle est Nathalie COLIN-OESTERLÉ (61 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-05 13:00:01,779 - INFO - Tweet 5 envoyé
-2026-05-05 13:00:01,779 - INFO - Attente 60.0 min...
-2026-05-05 14:00:01,779 - INFO - Envoi tweet 6/8
-2026-05-05 14:00:01,809 - INFO - Préparation tweet: 🏛 La #députée de la 1ère circonscription du Puy-de-Dôme est Marianne MAXIMI (40 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-05 14:00:02,077 - INFO - Tweet envoyé: Response(data={'edit_history_tweet_ids': ['2051663209875010047'], 'id': '2051663209875010047', 'text': '🏛 La #députée de la 1ère circonscription du Puy-de-Dôme est Marianne MAXIMI (40 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-05 14:00:02,078 - INFO - Tweet 6 envoyé
-2026-05-05 14:00:02,078 - INFO - Attente 60.0 min...
 2026-05-05 15:00:02,079 - INFO - Envoi tweet 7/8
 2026-05-05 15:00:02,111 - INFO - Préparation tweet: 🏛 Le #député de la 4e circonscription du Haut-Rhin est Raphaël SCHELLENBERGER (36 ans) #Députés #AssembléeNationale 🇫🇷
 2026-05-05 15:00:02,413 - INFO - Tweet envoyé: Response(data={'id': '2051678310925582502', 'text': '🏛 Le #député de la 4e circonscription du Haut-Rhin est Raphaël SCHELLENBERGER (36 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2051678310925582502']}, includes={}, errors=[], meta={})
@@ -104,3 +95,15 @@
     - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 2026-05-09 20:52:37,783 - INFO - === Fin ===
+2026-05-09 21:21:01,810 - INFO - === Démarrage Députés ===
+2026-05-09 21:21:01,810 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-09 21:21:01,810 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-09 21:21:01,816 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-09 21:21:01,817 - INFO - Historique chargé: 23 députés déjà tweetés
+2026-05-09 21:21:01,818 - INFO - Nombre de députés uniques: 572
+2026-05-09 21:21:01,819 - INFO - Nombre de députés déjà tweetés: 23
+2026-05-09 21:21:01,819 - INFO - Sélectionné: 7203 - Eric MARTINEAU (nouveau député)
+2026-05-09 21:21:01,820 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de la Sarthe est Eric MARTINEAU (58 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-09 21:21:02,027 - INFO - Sauvegarde effectuée: 7203 - Eric MARTINEAU
+2026-05-09 21:21:02,027 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 3e circonscription de la Sarthe est Eric MARTINEAU (58 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2053223742591893716', 'edit_history_tweet_ids': ['2053223742591893716']}, includes={}, errors=[], meta={})
+2026-05-09 21:21:02,027 - INFO - === Fin ===
