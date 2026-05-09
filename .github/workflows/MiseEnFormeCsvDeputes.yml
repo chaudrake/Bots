@@ -32,7 +32,7 @@ jobs:
           python miseenformeducsv.py
           
           echo "=== Vérification des dates corrigées ==="
-          head -3 elus-deputes-depCorrige.csv | cut -d';' -f2,6,7,8,9
+          head -3 elus-deputes-depCorrige.csv
       
       - name: Commit et push
         uses: stefanzweifel/git-auto-commit-action@v5
