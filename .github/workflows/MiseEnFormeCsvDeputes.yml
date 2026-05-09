@@ -2,23 +2,11 @@ name: Traitement des députés
 
 on:
   workflow_dispatch:
-    inputs:
-      fichier_entree:
-        description: 'Nom du fichier CSV source'
-        required: false
-        default: 'elus-deputes-dep.csv'
-        type: string
-      fichier_sortie:
-        description: 'Nom du fichier CSV de sortie'
-        required: false
-        default: 'elus-deputes-depCorrige.csv'
-        type: string
 
 jobs:
   corriger-encodage:
     runs-on: ubuntu-latest
     
-    # Permet au workflow de modifier le repo
     permissions:
       contents: write
     
@@ -26,17 +14,13 @@ jobs:
       - name: Récupération du code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
-          fetch-depth: 0  # Important pour éviter les problèmes de commit
       
       - name: Installation de Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
-      - name: Mise à jour de pip
-        run: |
-          python -m pip install --upgrade pip
       
       - name: Installation des dépendances
         run: |
@@ -45,48 +29,17 @@ jobs:
       - name: Exécution du script
         run: |
           cd deputes
-          python miseenformeducsv.py "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
+          python miseenformeducsv.py
+          
+          echo "=== Vérification des dates corrigées ==="
+          head -3 elus-deputes-depCorrige.csv | cut -d';' -f2,6,7,8,9
       
-      - name: Vérification de la création du fichier
-        run: |
-          cd deputes
-          echo "=== Fichiers CSV présents ==="
-          ls -la *.csv
-          echo "==="
-          echo "Fichier d'entrée :"
-          ls -la "${{ github.event.inputs.fichier_entree }}" || echo "Fichier d'entrée non trouvé"
-          echo "==="
-          echo "Fichier de sortie :"
-          ls -la "${{ github.event.inputs.fichier_sortie }}" || echo "Fichier de sortie non trouvé"
-          echo "==="
-          
-          # Afficher les 3 premières lignes du fichier corrigé pour vérifier
-          if [ -f "${{ github.event.inputs.fichier_sortie }}" ]; then
-            echo "Aperçu du fichier corrigé :"
-            head -3 "${{ github.event.inputs.fichier_sortie }}"
-          fi
-      
-      - name: Commit et push du fichier corrigé
-        run: |
-          cd deputes
-          
-          # Configuration git
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Ajouter le fichier de sortie
-          git add "${{ github.event.inputs.fichier_sortie }}"
-          
-          # Vérifier si des changements sont à committer
-          if git diff --cached --quiet; then
-            echo "Aucun changement à committer pour ${{ github.event.inputs.fichier_sortie }}"
-          else
-            echo "Changements détectés, commit en cours..."
-            git commit -m "Mise à jour auto: ${{ github.event.inputs.fichier_sortie }} [skip ci]"
-            
-            # Push avec force pour éviter les conflits
-            git push origin HEAD:main --force-with-lease || git push origin HEAD:master --force-with-lease
-          fi
-          
-          # Afficher le statut final
-          git status
+      - name: Commit et push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Correction des dates au format JJ/MM/AAAA [skip ci]"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          file_pattern: "deputes/elus-deputes-depCorrige.csv"
+          add_options: "--force"
+          push_options: "--force-with-lease"
