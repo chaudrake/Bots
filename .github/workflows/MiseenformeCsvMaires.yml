@@ -52,7 +52,7 @@ jobs:
       
       - name: Exécution du script (chemin absolu)
         run: |
-          python "$GITHUB_WORKSPACE/maires/misenformeducsv.py" "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
+          python "$GITHUB_WORKSPACE/maires/miseenformeducsv.py" "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
       
       - name: Vérification du fichier de sortie
         run: |
