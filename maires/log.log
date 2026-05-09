@@ -31,3 +31,14 @@
 2026-05-09 07:19:16,656 - INFO - Sauvegarde effectuée: 39342 - Cédric BOILLOZ
 2026-05-09 07:19:16,656 - INFO - Succès: Response(data={'id': '2053011907745915374', 'text': '🏛 Le #maire de Monay (Jura) est Cédric BOILLOZ (43 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053011907745915374']}, includes={}, errors=[], meta={})
 2026-05-09 07:19:16,658 - INFO - === Fin ===
+2026-05-09 09:10:09,333 - INFO - === Démarrage Maires ===
+2026-05-09 09:10:09,333 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-09 09:10:09,333 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-09 09:10:09,417 - INFO - Historique chargé: 1610 maires déjà tweetés
+2026-05-09 09:10:09,439 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-09 09:10:09,439 - INFO - Nombre de maires déjà tweetés: 1610
+2026-05-09 09:10:09,440 - INFO - Sélectionné: 74191 - Jean-François BERGER (nouveau maire)
+2026-05-09 09:10:09,442 - INFO - Tweet: 🏛 Le #maire de Morzine (Haute-Savoie) est Jean-François BERGER (56 ans) #MairesdeFrance 🇫🇷
+2026-05-09 09:10:09,628 - INFO - Sauvegarde effectuée: 74191 - Jean-François BERGER
+2026-05-09 09:10:09,628 - INFO - Succès: Response(data={'id': '2053039812320370904', 'edit_history_tweet_ids': ['2053039812320370904'], 'text': '🏛 Le #maire de Morzine (Haute-Savoie) est Jean-François BERGER (56 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-09 09:10:09,631 - INFO - === Fin ===
