@@ -42,22 +42,17 @@ jobs:
       
       - name: Exécution du script
         run: |
-          cd maires
-          python miseenformeducsv.py "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
+          python maires/miseenformeducsv.py "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
       
       - name: Vérification de la création du fichier
         run: |
-          cd maires
-          ls -la *.csv
-          echo "---"
-          ls -la "${{ github.event.inputs.fichier_sortie }}" || echo "Fichier non trouvé"
+          ls -la maires/*.csv
       
       - name: Commit et push du fichier corrigé
         run: |
-          cd maires
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "${{ github.event.inputs.fichier_sortie }}"
+          git add maires/"${{ github.event.inputs.fichier_sortie }}"
           git status
           git commit -m "Mise à jour auto: ${{ github.event.inputs.fichier_sortie }} [skip ci]" || echo "Aucun changement à committer"
           git push
