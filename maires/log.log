@@ -53,3 +53,14 @@
 2026-05-09 10:30:37,188 - INFO - Sauvegarde effectuée: 36034 - Fabrice VAURY
 2026-05-09 10:30:37,188 - INFO - Succès: Response(data={'id': '2053060060562001982', 'edit_history_tweet_ids': ['2053060060562001982'], 'text': '🏛 Le #maire de Chabris (Indre) est Fabrice VAURY (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-09 10:30:37,190 - INFO - === Fin ===
+2026-05-09 11:42:46,749 - INFO - === Démarrage Maires ===
+2026-05-09 11:42:46,749 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-09 11:42:46,749 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-09 11:42:46,829 - INFO - Historique chargé: 1612 maires déjà tweetés
+2026-05-09 11:42:46,852 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-09 11:42:46,852 - INFO - Nombre de maires déjà tweetés: 1612
+2026-05-09 11:42:46,853 - INFO - Sélectionné: 39373 - Mathieu LE MOULLEC (nouveau maire)
+2026-05-09 11:42:46,854 - INFO - Tweet: 🏛 Le #maire de Les Moussières (Jura) est Mathieu LE MOULLEC (53 ans) #MairesdeFrance 🇫🇷
+2026-05-09 11:42:47,044 - INFO - Sauvegarde effectuée: 39373 - Mathieu LE MOULLEC
+2026-05-09 11:42:47,044 - INFO - Succès: Response(data={'id': '2053078221290131781', 'edit_history_tweet_ids': ['2053078221290131781'], 'text': '🏛 Le #maire de Les Moussières (Jura) est Mathieu LE MOULLEC (53 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-09 11:42:47,046 - INFO - === Fin ===
