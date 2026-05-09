@@ -107,6 +107,12 @@ def format_departement(nom_departement):
 def read_excel_data():
     try:
         df = pd.read_csv(EXCEL_FILE, sep=';')
+        
+        # Convertir la date de naissance - format JJ/MM/AAAA
+        if 'Date de naissance' in df.columns:
+            df['Date de naissance'] = pd.to_datetime(df['Date de naissance'], format='%d/%m/%Y', errors='coerce')
+            log_and_print("✅ Dates de naissance converties avec succès")
+        
         required_columns = ["Code de la circonscription législative",
                           "Libellé de la circonscription législative",
                           "Libellé du département", "Prenom", "Nom",
@@ -152,14 +158,23 @@ def generate_tweet_text(row):
     sexe = row["Code sexe"]
 
     age_text = ""
-    if not pd.isna(row['Date de naissance']):
+    date_naissance = row['Date de naissance']
+    
+    if pd.notna(date_naissance):
         try:
-            birth_date = pd.to_datetime(row['Date de naissance'], dayfirst=True)
-            today = pd.to_datetime('today')
-            age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
-            age_text = f" ({age} ans)"
-        except:
-            pass
+            if hasattr(date_naissance, 'year'):
+                birth_date = date_naissance
+            else:
+                birth_date = pd.to_datetime(date_naissance, format='%d/%m/%Y', errors='coerce')
+            
+            if pd.notna(birth_date):
+                today = pd.Timestamp.now()
+                age = today.year - birth_date.year
+                if (today.month, today.day) < (birth_date.month, birth_date.day):
+                    age -= 1
+                age_text = f" ({age} ans)"
+        except Exception as e:
+            log_and_print(f"Erreur calcul âge: {e}")
 
     if circo:
         if sexe == "F":
@@ -205,24 +220,14 @@ def reset_tweeted_deputes():
         log_and_print(f"Erreur réinitialisation: {e}")
 
 def get_depute_to_tweet(df, tweeted_deputes):
-    today = pd.to_datetime('today').normalize()
+    df_unique = df.drop_duplicates(subset=['Code de la circonscription législative'], keep='first')
+    df_unique['Code_normalise'] = df_unique['Code de la circonscription législative'].astype(str).str.zfill(4)
 
-    if 'Date de début du mandat' in df.columns:
-        df['Date_debut'] = pd.to_datetime(df['Date de début du mandat'], dayfirst=True)
-        df_active = df[df['Date_debut'] <= today]
-    else:
-        df_active = df.copy()
-
-    if 'Date_debut' in df_active.columns:
-        df_active = df_active.sort_values('Date_debut', ascending=False)
-    df_active = df_active.drop_duplicates(subset=['Code de la circonscription législative'], keep='first')
-    df_active['Code_normalise'] = df_active['Code de la circonscription législative'].astype(str).str.zfill(4)
-
-    log_and_print(f"Nombre de députés actifs uniques: {len(df_active)}")
+    log_and_print(f"Nombre de députés uniques: {len(df_unique)}")
     log_and_print(f"Nombre de députés déjà tweetés: {len(tweeted_deputes)}")
 
-    for _ in range(len(df_active)):
-        row = df_active.sample(n=1).iloc[0]
+    for _ in range(len(df_unique)):
+        row = df_unique.sample(n=1).iloc[0]
         code = row['Code_normalise']
         prenom = row["Prenom"]
         nom = row["Nom"]
@@ -241,7 +246,7 @@ def get_depute_to_tweet(df, tweeted_deputes):
 
     log_and_print("Tous les députés tweetés → réinitialisation")
     reset_tweeted_deputes()
-    row = df_active.sample(n=1).iloc[0]
+    row = df_unique.sample(n=1).iloc[0]
     log_and_print(f"Nouveau cycle: sélection de {row['Code_normalise']}")
     return row
 
