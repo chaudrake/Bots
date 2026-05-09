@@ -26,8 +26,8 @@ jobs:
       - name: Récupération du code
         uses: actions/checkout@v4
         with:
-          # Nécessaire pour pouvoir pusher ensuite
           persist-credentials: true
+          fetch-depth: 0  # Important pour éviter les problèmes de commit
       
       - name: Installation de Python
         uses: actions/setup-python@v5
@@ -50,17 +50,43 @@ jobs:
       - name: Vérification de la création du fichier
         run: |
           cd deputes
+          echo "=== Fichiers CSV présents ==="
           ls -la *.csv
-          echo "---"
+          echo "==="
+          echo "Fichier d'entrée :"
+          ls -la "${{ github.event.inputs.fichier_entree }}" || echo "Fichier d'entrée non trouvé"
+          echo "==="
           echo "Fichier de sortie :"
-          ls -la "${{ github.event.inputs.fichier_sortie }}" || echo "Fichier non trouvé"
+          ls -la "${{ github.event.inputs.fichier_sortie }}" || echo "Fichier de sortie non trouvé"
+          echo "==="
+          
+          # Afficher les 3 premières lignes du fichier corrigé pour vérifier
+          if [ -f "${{ github.event.inputs.fichier_sortie }}" ]; then
+            echo "Aperçu du fichier corrigé :"
+            head -3 "${{ github.event.inputs.fichier_sortie }}"
+          fi
       
       - name: Commit et push du fichier corrigé
         run: |
           cd deputes
+          
+          # Configuration git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Ajouter le fichier de sortie
           git add "${{ github.event.inputs.fichier_sortie }}"
+          
+          # Vérifier si des changements sont à committer
+          if git diff --cached --quiet; then
+            echo "Aucun changement à committer pour ${{ github.event.inputs.fichier_sortie }}"
+          else
+            echo "Changements détectés, commit en cours..."
+            git commit -m "Mise à jour auto: ${{ github.event.inputs.fichier_sortie }} [skip ci]"
+            
+            # Push avec force pour éviter les conflits
+            git push origin HEAD:main --force-with-lease || git push origin HEAD:master --force-with-lease
+          fi
+          
+          # Afficher le statut final
           git status
-          git commit -m "Mise à jour auto: ${{ github.event.inputs.fichier_sortie }} [skip ci]" || echo "Aucun changement à committer"
-          git push
