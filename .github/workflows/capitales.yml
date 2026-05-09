@@ -41,11 +41,27 @@ jobs:
           CAPITALES_ACCESS_TOKEN_SECRET: ${{ secrets.CAPITALES_ACCESS_TOKEN_SECRET }}
 
       - name: Save index update
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On ajoute l'index JSON situé dans le dossier capitales
-          git add capitales/index.json
-          # On commit et on push seulement si le fichier a été modifié
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Capitales: Mise à jour de l'index des cités tweetées" && git push)
-          
+  run: |
+    git config --global user.name "github-actions[bot]"
+    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    
+    # Sauvegarder le fichier local si modifié
+    if [ -f capitales/index.json ]; then
+      cp capitales/index.json /tmp/index_backup.json
+    fi
+    
+    # Récupérer les dernières modifications
+    git fetch origin main
+    git reset --hard origin/main
+    
+    # Restaurer notre version modifiée
+    if [ -f /tmp/index_backup.json ]; then
+      cp /tmp/index_backup.json capitales/index.json
+    fi
+    
+    # Ajouter, committer et pousser
+    git add capitales/index.json
+    if ! git diff --quiet --cached; then
+      git commit -m "🤖 Capitales: Mise à jour de l'index des cités tweetées"
+      git push origin main
+    fi
