@@ -64,3 +64,14 @@
 2026-05-09 11:42:47,044 - INFO - Sauvegarde effectuée: 39373 - Mathieu LE MOULLEC
 2026-05-09 11:42:47,044 - INFO - Succès: Response(data={'id': '2053078221290131781', 'edit_history_tweet_ids': ['2053078221290131781'], 'text': '🏛 Le #maire de Les Moussières (Jura) est Mathieu LE MOULLEC (53 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-09 11:42:47,046 - INFO - === Fin ===
+2026-05-09 13:56:51,545 - INFO - === Démarrage Maires ===
+2026-05-09 13:56:51,545 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-09 13:56:51,545 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-09 13:56:51,638 - INFO - Historique chargé: 1613 maires déjà tweetés
+2026-05-09 13:56:51,657 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-09 13:56:51,658 - INFO - Nombre de maires déjà tweetés: 1613
+2026-05-09 13:56:51,659 - INFO - Sélectionné: 44097 - Eric ROULIER (nouveau maire)
+2026-05-09 13:56:51,660 - INFO - Tweet: 🏛 Le #maire de Mesquer (Loire-Atlantique) est Eric ROULIER (63 ans) #MairesdeFrance 🇫🇷
+2026-05-09 13:56:51,869 - INFO - Sauvegarde effectuée: 44097 - Eric ROULIER
+2026-05-09 13:56:51,869 - INFO - Succès: Response(data={'id': '2053111963715063862', 'edit_history_tweet_ids': ['2053111963715063862'], 'text': '🏛 Le #maire de Mesquer (Loire-Atlantique) est Eric ROULIER (63 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-09 13:56:51,871 - INFO - === Fin ===
