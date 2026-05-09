@@ -35,7 +35,7 @@ jobs:
           echo "Contenu de maires :"
           ls -la maires/
           echo "Chemin absolu : $GITHUB_WORKSPACE/maires"
-          file "$GITHUB_WORKSPACE/maires/misenformeducsv.py"
+          file "$GITHUB_WORKSPACE/maires/miseenformeducsv.py"
       
       - name: Installation de Python
         uses: actions/setup-python@v5
