@@ -5,3 +5,5 @@ dotenv
 tracery
 colorama
 pytz
+numpy
+pandas
