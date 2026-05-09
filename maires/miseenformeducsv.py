@@ -26,7 +26,7 @@ DEPT_FILE = os.path.join(MAIRES_DIR, 'listedesdepartements.txt')
 
 print(f"📂 Dossier de travail : {MAIRES_DIR}")
 print(f"📂 Fichier source : {input_file}")
-print(f="📂 Fichier de sortie : {output_file}")
+print(f"📂 Fichier de sortie : {output_file}")
 
 def fix_encoding(text):
     """Corrige les caractères mal encodés dans tout le DataFrame"""
