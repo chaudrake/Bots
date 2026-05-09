@@ -1,14 +1,3 @@
-2026-05-08 20:44:32,363 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-08 20:44:32,445 - INFO - Historique chargé: 1607 maires déjà tweetés
-2026-05-08 20:44:32,465 - INFO - Nombre de maires actifs uniques: 32475
-2026-05-08 20:44:32,465 - INFO - Nombre de maires déjà tweetés: 1607
-2026-05-08 20:44:32,466 - INFO - Sélectionné: 09258 - Philippe JUGNIOT (nouveau maire)
-2026-05-08 20:44:32,468 - INFO - Tweet: 🏛 Le #maire de Saint-Félix-De-Rieutord (Ariège) est Philippe JUGNIOT (55 ans) #MairesdeFrance 🇫🇷
-2026-05-08 20:44:32,660 - INFO - Sauvegarde effectuée: 09258 - Philippe JUGNIOT
-2026-05-08 20:44:32,661 - INFO - Succès: Response(data={'id': '2052852171868102873', 'text': '🏛 Le #maire de Saint-Félix-De-Rieutord (Ariège) est Philippe JUGNIOT (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2052852171868102873']}, includes={}, errors=[], meta={})
-2026-05-08 20:44:32,663 - INFO - === Fin ===
-2026-05-08 21:01:44,652 - INFO - === Démarrage Maires ===
-2026-05-08 21:01:44,653 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-08 21:01:44,653 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-08 21:01:44,734 - INFO - Historique chargé: 1608 maires déjà tweetés
 2026-05-08 21:01:44,757 - INFO - Nombre de maires actifs uniques: 32475
@@ -106,3 +95,14 @@
 2026-05-09 17:42:25,413 - INFO - Sauvegarde effectuée: 47213 - Philippe BOUSQUIER
 2026-05-09 17:42:25,413 - INFO - Succès: Response(data={'id': '2053168727521198497', 'text': '🏛 Le #maire de Prayssas (Lot-et-Garonne) est Philippe BOUSQUIER (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053168727521198497']}, includes={}, errors=[], meta={})
 2026-05-09 17:42:25,415 - INFO - === Fin ===
+2026-05-09 19:38:48,454 - INFO - === Démarrage Maires ===
+2026-05-09 19:38:48,454 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-09 19:38:48,454 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-09 19:38:48,539 - INFO - Historique chargé: 1617 maires déjà tweetés
+2026-05-09 19:38:48,560 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-09 19:38:48,561 - INFO - Nombre de maires déjà tweetés: 1617
+2026-05-09 19:38:48,562 - INFO - Sélectionné: 95660 - Patrice ROBIN (nouveau maire)
+2026-05-09 19:38:48,564 - INFO - Tweet: 🏛 Le #maire de Villaines-Sous-Bois (Val-d'Oise) est Patrice ROBIN (66 ans) #MairesdeFrance 🇫🇷
+2026-05-09 19:38:48,780 - INFO - Sauvegarde effectuée: 95660 - Patrice ROBIN
+2026-05-09 19:38:48,780 - INFO - Succès: Response(data={'id': '2053198017893953924', 'edit_history_tweet_ids': ['2053198017893953924'], 'text': "🏛 Le #maire de Villaines-Sous-Bois (Val-d'Oise) est Patrice ROBIN (66 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-05-09 19:38:48,782 - INFO - === Fin ===
