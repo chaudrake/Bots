@@ -86,3 +86,14 @@
 2026-05-09 14:43:16,567 - INFO - Sauvegarde effectuée: 47074 - Isabelle GAJAC
 2026-05-09 14:43:16,567 - INFO - Succès: Response(data={'text': '🏛 La #maire de Couthures-Sur-Garonne (Lot-et-Garonne) est Isabelle GAJAC (51 ans) #MairesdeFrance 🇫🇷', 'id': '2053123643568160987', 'edit_history_tweet_ids': ['2053123643568160987']}, includes={}, errors=[], meta={})
 2026-05-09 14:43:16,569 - INFO - === Fin ===
+2026-05-09 16:12:51,914 - INFO - === Démarrage Maires ===
+2026-05-09 16:12:51,914 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-09 16:12:51,914 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-09 16:12:51,998 - INFO - Historique chargé: 1615 maires déjà tweetés
+2026-05-09 16:12:52,020 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-09 16:12:52,020 - INFO - Nombre de maires déjà tweetés: 1615
+2026-05-09 16:12:52,022 - INFO - Sélectionné: 14078 - Rodolphe RICORDEL (nouveau maire)
+2026-05-09 16:12:52,023 - INFO - Tweet: 🏛 Le #maire de Blay (Calvados) est Rodolphe RICORDEL (48 ans) #MairesdeFrance 🇫🇷
+2026-05-09 16:12:52,246 - INFO - Sauvegarde effectuée: 14078 - Rodolphe RICORDEL
+2026-05-09 16:12:52,246 - INFO - Succès: Response(data={'id': '2053146190821421132', 'edit_history_tweet_ids': ['2053146190821421132'], 'text': '🏛 Le #maire de Blay (Calvados) est Rodolphe RICORDEL (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-09 16:12:52,248 - INFO - === Fin ===
