@@ -69,11 +69,9 @@ def fix_dates(df):
     
     for col in date_columns:
         if col in df.columns:
-            # Convertir en datetime (gère les formats AAAA-MM-JJ du CSV source)
             df[col] = pd.to_datetime(df[col], format='%Y-%m-%d', errors='coerce')
-            # Formater en JJ/MM/AAAA
             df[col] = df[col].dt.strftime('%d/%m/%Y')
-            print(f"✅ Dates normalisées : {col} (JJ/MM/AAAA)")
+            print(f"✅ Dates normalisees : {col} (JJ/MM/AAAA)")
     
     return df
 
@@ -96,7 +94,6 @@ def main():
         sys.exit(1)
 
     try:
-        # Lecture du fichier
         with open(fichier_entree, 'rb') as f:
             content = f.read()
             try:
@@ -113,33 +110,27 @@ def main():
         
         print(f"📂 Lecture : {fichier_entree}")
 
-        # Correction des données textuelles
         for col in df.columns:
             if df[col].dtype == object:
                 df[col] = df[col].apply(fix_encoding_deep)
 
-        # Correction des circonscriptions
         if 'Libellé de la circonscription législative' in df.columns:
             df['Libellé de la circonscription législative'] = df['Libellé de la circonscription législative'].apply(fix_circonscription)
             print("✅ Normalisation des circonscriptions effectuée")
 
-        # Normalisation des dates
         df = fix_dates(df)
 
-        # Nettoyage des collectivités
         col_statut = 'Libellé de la collectivité à statut particulier'
         if col_statut in df.columns:
             df['Libellé du département'] = df[col_statut].fillna(df['Libellé du département'])
             df = df.drop(columns=[col_statut])
             print("✅ Nettoyage des collectivités effectué")
 
-        # Renommage des colonnes
         df = df.rename(columns={
             "Prénom de l'élu": "Prenom",
             "Nom de l'élu": "Nom"
         })
 
-        # Sauvegarde
         df.to_csv(fichier_sortie, sep=';', index=False, encoding='utf-8-sig')
         print(f"💾 Sauvegarde : {fichier_sortie}")
 
