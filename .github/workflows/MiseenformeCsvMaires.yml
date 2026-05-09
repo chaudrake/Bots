@@ -27,6 +27,16 @@ jobs:
         with:
           persist-credentials: true
       
+      - name: Debug - Vérification des fichiers
+        run: |
+          echo "Répertoire courant : $(pwd)"
+          echo "Contenu de la racine :"
+          ls -la
+          echo "Contenu de maires :"
+          ls -la maires/
+          echo "Chemin absolu : $GITHUB_WORKSPACE/maires"
+          file "$GITHUB_WORKSPACE/maires/misenformeducsv.py"
+      
       - name: Installation de Python
         uses: actions/setup-python@v5
         with:
@@ -40,19 +50,22 @@ jobs:
         run: |
           pip install pandas numpy
       
-      - name: Exécution du script
+      - name: Exécution du script (chemin absolu)
         run: |
-          python maires/miseenformeducsv.py "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
+          python "$GITHUB_WORKSPACE/maires/misenformeducsv.py" "${{ github.event.inputs.fichier_entree }}" "${{ github.event.inputs.fichier_sortie }}"
       
-      - name: Vérification de la création du fichier
+      - name: Vérification du fichier de sortie
         run: |
-          ls -la maires/*.csv
+          echo "Contenu de maires après exécution :"
+          ls -la maires/
+          echo "Recherche du fichier corrigé :"
+          find . -name "${{ github.event.inputs.fichier_sortie }}" -type f
       
       - name: Commit et push du fichier corrigé
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add maires/"${{ github.event.inputs.fichier_sortie }}"
+          git add "maires/${{ github.event.inputs.fichier_sortie }}"
           git status
           git commit -m "Mise à jour auto: ${{ github.event.inputs.fichier_sortie }} [skip ci]" || echo "Aucun changement à committer"
           git push
