@@ -1,63 +1,72 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Script de correction d'encodage pour les fichiers CSV des députés français.
-
-Problème résolu :
-    Les fichiers exportés depuis certains systèmes (anciens SIGIC, etc.)
-    utilisent l'encodage 'latin1' au lieu d'UTF-8, causant des problèmes d'affichage
-    des accents et caractères spéciaux.
-
-Corrections effectuées :
-    - Conversion des colonnes et données de latin1 → UTF-8
-    - Normalisation des libellés de circonscription (ex: "1Ère" → "1ère")
-    - Nettoyage des colonnes des collectivités
-    - Renommage simplifié des colonnes
-
-Utilisation :
-    python miseenformeducsv.py
-    python miseenformeducsv.py mon_fichier.csv
-    python miseenformeducsv.py mon_fichier.csv mon_fichier_corrige.csv
-"""
-
 import pandas as pd
 import sys
 import os
 
-# Configuration par défaut
 DEFAULT_ENTREE = 'elus-deputes-dep.csv'
 DEFAULT_SORTIE = 'elus-deputes-depCorrige.csv'
 
-
-def fix_encoding(text):
-    """Corrige les caractères mal encodés (latin1 → UTF-8)"""
-    if isinstance(text, str):
-        try:
-            return text.encode('latin1').decode('utf-8')
-        except (UnicodeError, LookupError):
-            return text
+def fix_encoding_deep(text):
+    """
+    Corrige les caractères mal encodés.
+    Gère le cas spécifique des doubles encodages (Ã -> È, etc.)
+    """
+    if not isinstance(text, str):
+        return text
+    
+    # Problème courant : latin1 lu comme UTF-8 puis ré-encodé
+    # Solution : tenter de réparer les séquences corrompues
+    replacements = {
+        'Ã': 'È',
+        'Ã©': 'é',
+        'Ã¨': 'è',
+        'Ãª': 'ê',
+        'Ã«': 'ë',
+        'Ã¹': 'ù',
+        'Ã»': 'û',
+        'Ã¢': 'â',
+        'Ã¤': 'ä',
+        'Ã´': 'ô',
+        'Ã¶': 'ö',
+        'Ã®': 'î',
+        'Ã¯': 'ï',
+        'Ã§': 'ç',
+        'ÃŸ': 'ß',
+        'Â°': '°',
+        'Â±': '±',
+        'Â²': '²',
+        'Â³': '³',
+    }
+    
+    for wrong, correct in replacements.items():
+        text = text.replace(wrong, correct)
+    
+    # Tentative de correction par re-encodage
+    try:
+        text = text.encode('latin1').decode('utf-8')
+    except (UnicodeError, LookupError):
+        pass
+    
     return text
 
-
 def fix_circonscription(text):
-    """
-    Corrige spécifiquement les formes 'Ère/Ème' et la casse.
-    Exemples : "1Ère" → "1ère", "2Ème" → "2ème"
-    """
+    """Normalise les libellés de circonscription"""
     if isinstance(text, str):
         text = text.replace("Ère", "ère").replace("Ème", "ème")
-        # Met la deuxième partie en minuscule
+        text = text.replace("1ere", "1ère").replace("2eme", "2ème")
+        text = text.replace("3eme", "3ème").replace("4eme", "4ème")
+        text = text.replace("5eme", "5ème").replace("6eme", "6ème")
+        text = text.replace("7eme", "7ème").replace("8eme", "8ème")
+        text = text.replace("9eme", "9ème")
         parts = text.split()
         if len(parts) >= 2:
             parts[1] = parts[1].lower()
             text = " ".join(parts)
     return text
 
-
 def main():
-    """Point d'entrée principal"""
-    # Gestion des arguments en ligne de commande
     if len(sys.argv) > 1:
         fichier_entree = sys.argv[1]
     else:
@@ -71,59 +80,73 @@ def main():
     print("🔧 Correction d'encodage des fichiers députés")
     print("=" * 50)
 
-    # Vérification que le fichier source existe
     if not os.path.exists(fichier_entree):
         print(f"❌ Erreur : Fichier introuvable - {fichier_entree}")
-        print(f"   Placez votre fichier CSV dans le dossier courant ou spécifiez son chemin.")
         sys.exit(1)
 
     try:
-        # 1. Lire le fichier
+        # Lecture du fichier en mode binaire pour éviter les soucis d'encodage
+        with open(fichier_entree, 'rb') as f:
+            content = f.read()
+            # Tenter de décoder correctement
+            try:
+                content_str = content.decode('utf-8')
+            except UnicodeDecodeError:
+                content_str = content.decode('latin1')
+        
+        # Ré-écrire temporairement
+        temp_file = fichier_entree + '.temp'
+        with open(temp_file, 'w', encoding='utf-8') as f:
+            f.write(content_str)
+        
+        # Lire avec pandas
+        df = pd.read_csv(temp_file, sep=';', encoding='utf-8')
+        os.remove(temp_file)
+        
         print(f"📂 Lecture : {fichier_entree}")
-        df = pd.read_csv(fichier_entree, sep=';', encoding='latin1')
 
-        # 2. Corriger les en-têtes
-        df.columns = [fix_encoding(col) for col in df.columns]
-
-        # 3. Corriger les accents dans les données
+        # Correction des données textuelles
         for col in df.columns:
             if df[col].dtype == object:
-                df[col] = df[col].apply(fix_encoding)
+                df[col] = df[col].apply(fix_encoding_deep)
 
-        # 4. Correction spécifique des circonscriptions
+        # Correction spécifique des circonscriptions
         if 'Libellé de la circonscription législative' in df.columns:
             df['Libellé de la circonscription législative'] = df['Libellé de la circonscription législative'].apply(fix_circonscription)
             print("✅ Normalisation des circonscriptions effectuée")
 
-        # 5. Nettoyage des colonnes départementales
+        # Nettoyage des colonnes départementales
         col_statut = 'Libellé de la collectivité à statut particulier'
         if col_statut in df.columns:
             df['Libellé du département'] = df[col_statut].fillna(df['Libellé du département'])
             df = df.drop(columns=[col_statut])
             print("✅ Nettoyage des collectivités effectué")
 
-        # 6. Renommage des colonnes
+        # Renommage des colonnes
         df = df.rename(columns={
             "Prénom de l'élu": "Prenom",
             "Nom de l'élu": "Nom"
         })
 
-        # 7. Sauvegarde
+        # Sauvegarde
         df.to_csv(fichier_sortie, sep=';', index=False, encoding='utf-8-sig')
         print(f"💾 Sauvegarde : {fichier_sortie}")
 
-        # 8. Résumé
+        # Aperçu des corrections
+        print("\n📊 Aperçu des 3 premières lignes corrigées :")
+        for col in ['Libellé de la circonscription législative', 'Prenom', 'Nom']:
+            if col in df.columns:
+                print(f"   {col}: {df[col].iloc[0]}")
+
         print("\n✅ Résumé des corrections :")
-        print("   - Encodage latin1 → UTF-8")
+        print("   - Correction des caractères mal encodés (Ã → È, etc.)")
         print("   - Normalisation des circonscriptions (ex: '1Ère' → '1ère')")
         print("   - Nettoyage des colonnes collectivités")
-        print("   - Renommage : 'Prénom de l'élu' → 'Prenom', 'Nom de l'élu' → 'Nom'")
         print(f"\n📌 Fichier prêt : {fichier_sortie}")
 
     except Exception as e:
         print(f"❌ Erreur : {e}")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
