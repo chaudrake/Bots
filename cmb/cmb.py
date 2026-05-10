@@ -41,7 +41,7 @@ def limit_log_file(file_path, max_lines=100):
 
 def should_execute_script():
     """10% de chance de s'exécuter."""
-    if random.random() < 0.10: 
+    if random.random() < 0.90: 
         log_and_print("Le script CMB s'exécute maintenant")
     else:
         log_and_print("Le script CMB ne s'exécute pas cette fois (tirage aléatoire)")
