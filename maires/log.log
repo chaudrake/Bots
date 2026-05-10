@@ -1,14 +1,3 @@
-2026-05-09 17:42:24,991 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-09 17:42:25,084 - INFO - Historique chargé: 1616 maires déjà tweetés
-2026-05-09 17:42:25,107 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-09 17:42:25,107 - INFO - Nombre de maires déjà tweetés: 1616
-2026-05-09 17:42:25,109 - INFO - Sélectionné: 47213 - Philippe BOUSQUIER (nouveau maire)
-2026-05-09 17:42:25,111 - INFO - Tweet: 🏛 Le #maire de Prayssas (Lot-et-Garonne) est Philippe BOUSQUIER (66 ans) #MairesdeFrance 🇫🇷
-2026-05-09 17:42:25,413 - INFO - Sauvegarde effectuée: 47213 - Philippe BOUSQUIER
-2026-05-09 17:42:25,413 - INFO - Succès: Response(data={'id': '2053168727521198497', 'text': '🏛 Le #maire de Prayssas (Lot-et-Garonne) est Philippe BOUSQUIER (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053168727521198497']}, includes={}, errors=[], meta={})
-2026-05-09 17:42:25,415 - INFO - === Fin ===
-2026-05-09 19:38:48,454 - INFO - === Démarrage Maires ===
-2026-05-09 19:38:48,454 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-09 19:38:48,454 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-09 19:38:48,539 - INFO - Historique chargé: 1617 maires déjà tweetés
 2026-05-09 19:38:48,560 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-10 17:43:25,889 - INFO - Sauvegarde effectuée: 02414 - Vincent LAMOTTE
 2026-05-10 17:43:25,889 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2053531368747880684'], 'id': '2053531368747880684', 'text': '🏛 Le #maire de Lavaqueresse (Dordogne) est Vincent LAMOTTE (37 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-10 17:43:25,892 - INFO - === Fin ===
+2026-05-10 19:38:23,454 - INFO - === Démarrage Maires ===
+2026-05-10 19:38:23,454 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-10 19:38:23,454 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-10 19:38:23,540 - INFO - Historique chargé: 1626 maires déjà tweetés
+2026-05-10 19:38:23,560 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-10 19:38:23,560 - INFO - Nombre de maires déjà tweetés: 1626
+2026-05-10 19:38:23,561 - INFO - Sélectionné: 06108 - Clément THIERY (nouveau maire)
+2026-05-10 19:38:23,563 - INFO - Tweet: 🏛 Le #maire de La Roquette-Sur-Siagne (Orne) est Clément THIERY (39 ans) #MairesdeFrance 🇫🇷
+2026-05-10 19:38:23,795 - INFO - Sauvegarde effectuée: 06108 - Clément THIERY
+2026-05-10 19:38:23,795 - INFO - Succès: Response(data={'text': '🏛 Le #maire de La Roquette-Sur-Siagne (Orne) est Clément THIERY (39 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053560300960469073'], 'id': '2053560300960469073'}, includes={}, errors=[], meta={})
+2026-05-10 19:38:23,797 - INFO - === Fin ===
