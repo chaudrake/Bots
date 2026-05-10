@@ -1,14 +1,3 @@
-2026-05-09 19:38:48,454 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-09 19:38:48,539 - INFO - Historique chargé: 1617 maires déjà tweetés
-2026-05-09 19:38:48,560 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-09 19:38:48,561 - INFO - Nombre de maires déjà tweetés: 1617
-2026-05-09 19:38:48,562 - INFO - Sélectionné: 95660 - Patrice ROBIN (nouveau maire)
-2026-05-09 19:38:48,564 - INFO - Tweet: 🏛 Le #maire de Villaines-Sous-Bois (Val-d'Oise) est Patrice ROBIN (66 ans) #MairesdeFrance 🇫🇷
-2026-05-09 19:38:48,780 - INFO - Sauvegarde effectuée: 95660 - Patrice ROBIN
-2026-05-09 19:38:48,780 - INFO - Succès: Response(data={'id': '2053198017893953924', 'edit_history_tweet_ids': ['2053198017893953924'], 'text': "🏛 Le #maire de Villaines-Sous-Bois (Val-d'Oise) est Patrice ROBIN (66 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-05-09 19:38:48,782 - INFO - === Fin ===
-2026-05-09 20:36:22,081 - INFO - === Démarrage Maires ===
-2026-05-09 20:36:22,081 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-09 20:36:22,081 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-09 20:36:22,166 - INFO - Historique chargé: 1618 maires déjà tweetés
 2026-05-09 20:36:22,187 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-10 19:38:23,795 - INFO - Sauvegarde effectuée: 06108 - Clément THIERY
 2026-05-10 19:38:23,795 - INFO - Succès: Response(data={'text': '🏛 Le #maire de La Roquette-Sur-Siagne (Orne) est Clément THIERY (39 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053560300960469073'], 'id': '2053560300960469073'}, includes={}, errors=[], meta={})
 2026-05-10 19:38:23,797 - INFO - === Fin ===
+2026-05-10 20:39:11,812 - INFO - === Démarrage Maires ===
+2026-05-10 20:39:11,812 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-10 20:39:11,812 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-10 20:39:11,900 - INFO - Historique chargé: 1627 maires déjà tweetés
+2026-05-10 20:39:11,921 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-10 20:39:11,921 - INFO - Nombre de maires déjà tweetés: 1627
+2026-05-10 20:39:11,922 - INFO - Sélectionné: 82143 - Pascal GUERIN (nouveau maire)
+2026-05-10 20:39:11,924 - INFO - Tweet: 🏛 Le #maire de Poupas (Tarn-et-Garonne) est Pascal GUERIN (58 ans) #MairesdeFrance 🇫🇷
+2026-05-10 20:39:12,238 - INFO - Sauvegarde effectuée: 82143 - Pascal GUERIN
+2026-05-10 20:39:12,238 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Poupas (Tarn-et-Garonne) est Pascal GUERIN (58 ans) #MairesdeFrance 🇫🇷', 'id': '2053575603660476532', 'edit_history_tweet_ids': ['2053575603660476532']}, includes={}, errors=[], meta={})
+2026-05-10 20:39:12,241 - INFO - === Fin ===
