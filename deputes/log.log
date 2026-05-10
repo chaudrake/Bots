@@ -1,15 +1,3 @@
-    - passing `format` if your strings have a consistent format;
-    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
-    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
-2026-05-09 13:57:28,757 - INFO - === Fin ===
-2026-05-09 14:57:42,109 - INFO - === Démarrage Députés ===
-2026-05-09 14:57:42,109 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-09 14:57:42,109 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-09 14:57:42,114 - INFO - Historique chargé: 23 députés déjà tweetés
-2026-05-09 14:57:42,116 - INFO - Erreur: unconverted data remains when parsing with format "%Y-%d-%m": "4", at position 1. You might want to try:
-    - passing `format` if your strings have a consistent format;
-    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
-    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 2026-05-09 14:57:42,116 - INFO - === Fin ===
 2026-05-09 16:13:13,600 - INFO - === Démarrage Députés ===
 2026-05-09 16:13:13,600 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-10 14:58:35,593 - INFO - Sauvegarde effectuée: 6001 - Claire MARAIS-BEUIL
 2026-05-10 14:58:35,593 - INFO - Succès: Response(data={'id': '2053489886125056118', 'edit_history_tweet_ids': ['2053489886125056118'], 'text': "🏛 La #députée de la 1ère circonscription de l'Oise est Claire MARAIS-BEUIL (67 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-05-10 14:58:35,593 - INFO - === Fin ===
+2026-05-10 16:27:51,813 - INFO - === Démarrage Députés ===
+2026-05-10 16:27:51,813 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-10 16:27:51,813 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-10 16:27:51,820 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-10 16:27:51,820 - INFO - Historique chargé: 28 députés déjà tweetés
+2026-05-10 16:27:51,822 - INFO - Nombre de députés uniques: 572
+2026-05-10 16:27:51,822 - INFO - Nombre de députés déjà tweetés: 28
+2026-05-10 16:27:51,823 - INFO - Sélectionné: 0401 - Christian GIRARD (nouveau député)
+2026-05-10 16:27:51,823 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription des Alpes-de-Haute-Provence est Christian GIRARD (74 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-10 16:27:52,018 - INFO - Sauvegarde effectuée: 0401 - Christian GIRARD
+2026-05-10 16:27:52,018 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 1ère circonscription des Alpes-de-Haute-Provence est Christian GIRARD (74 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2053512352595579197', 'edit_history_tweet_ids': ['2053512352595579197']}, includes={}, errors=[], meta={})
+2026-05-10 16:27:52,018 - INFO - === Fin ===
