@@ -1,3 +1,4 @@
+# Le script se declenche avec un cron sur ceon-jobs.org
 name: Mur Des Cons Bot
 
 on:
