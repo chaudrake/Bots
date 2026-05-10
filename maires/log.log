@@ -1,14 +1,3 @@
-2026-05-09 11:42:46,749 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-09 11:42:46,829 - INFO - Historique chargé: 1612 maires déjà tweetés
-2026-05-09 11:42:46,852 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-09 11:42:46,852 - INFO - Nombre de maires déjà tweetés: 1612
-2026-05-09 11:42:46,853 - INFO - Sélectionné: 39373 - Mathieu LE MOULLEC (nouveau maire)
-2026-05-09 11:42:46,854 - INFO - Tweet: 🏛 Le #maire de Les Moussières (Jura) est Mathieu LE MOULLEC (53 ans) #MairesdeFrance 🇫🇷
-2026-05-09 11:42:47,044 - INFO - Sauvegarde effectuée: 39373 - Mathieu LE MOULLEC
-2026-05-09 11:42:47,044 - INFO - Succès: Response(data={'id': '2053078221290131781', 'edit_history_tweet_ids': ['2053078221290131781'], 'text': '🏛 Le #maire de Les Moussières (Jura) est Mathieu LE MOULLEC (53 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-09 11:42:47,046 - INFO - === Fin ===
-2026-05-09 13:56:51,545 - INFO - === Démarrage Maires ===
-2026-05-09 13:56:51,545 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-09 13:56:51,545 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-09 13:56:51,638 - INFO - Historique chargé: 1613 maires déjà tweetés
 2026-05-09 13:56:51,657 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-10 11:43:14,361 - INFO - Sauvegarde effectuée: 65083 - Anne SOULIÉ
 2026-05-10 11:43:14,361 - INFO - Succès: Response(data={'text': '🏛 La #maire de Bernac-Debat (Hautes-Pyrénées) est Anne SOULIÉ (50 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053440723723202674'], 'id': '2053440723723202674'}, includes={}, errors=[], meta={})
 2026-05-10 11:43:14,363 - INFO - === Fin ===
+2026-05-10 13:59:00,967 - INFO - === Démarrage Maires ===
+2026-05-10 13:59:00,967 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-10 13:59:00,967 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-10 13:59:01,050 - INFO - Historique chargé: 1622 maires déjà tweetés
+2026-05-10 13:59:01,070 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-10 13:59:01,071 - INFO - Nombre de maires déjà tweetés: 1622
+2026-05-10 13:59:01,072 - INFO - Sélectionné: 59124 - Olivier VERCRUYSSE (nouveau maire)
+2026-05-10 13:59:01,073 - INFO - Tweet: 🏛 Le #maire de Camphin-En-Pévèle (Nord) est Olivier VERCRUYSSE (50 ans) #MairesdeFrance 🇫🇷
+2026-05-10 13:59:01,243 - INFO - Sauvegarde effectuée: 59124 - Olivier VERCRUYSSE
+2026-05-10 13:59:01,243 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Camphin-En-Pévèle (Nord) est Olivier VERCRUYSSE (50 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053474894248112502'], 'id': '2053474894248112502'}, includes={}, errors=[], meta={})
+2026-05-10 13:59:01,245 - INFO - === Fin ===
