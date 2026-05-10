@@ -1,0 +1,44 @@
+name: CMB Bot Schedule
+
+on:
+  schedule:
+    # Toutes les 4 heures entre 5h et 20h UTC
+    - cron: '0 5,9,13,17,21 * * *'
+  workflow_dispatch:
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install tweepy python-dotenv
+
+      - name: Run bot
+        env:
+          CMB_ACCESS_KEY: ${{ secrets.CMB_ACCESS_KEY }}
+          CMB_ACCESS_SECRET: ${{ secrets.CMB_ACCESS_SECRET }}
+          CMB_CONSUMER_KEY: ${{ secrets.CMB_CONSUMER_KEY }}
+          CMB_CONSUMER_SECRET: ${{ secrets.CMB_CONSUMER_SECRET }}
+        # On précise qu'on travaille dans le dossier cmb
+        run: python cmb.py
+        working-directory: ./cmb
+
+      - name: Commit and push if index changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          # On cible spécifiquement le fichier dans le dossier cmb
+          git add cmb/last_index.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index: $(date)" && git push)
+          
