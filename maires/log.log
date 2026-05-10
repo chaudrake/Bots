@@ -1,14 +1,3 @@
-2026-05-09 13:56:51,545 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-09 13:56:51,638 - INFO - Historique chargé: 1613 maires déjà tweetés
-2026-05-09 13:56:51,657 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-09 13:56:51,658 - INFO - Nombre de maires déjà tweetés: 1613
-2026-05-09 13:56:51,659 - INFO - Sélectionné: 44097 - Eric ROULIER (nouveau maire)
-2026-05-09 13:56:51,660 - INFO - Tweet: 🏛 Le #maire de Mesquer (Loire-Atlantique) est Eric ROULIER (63 ans) #MairesdeFrance 🇫🇷
-2026-05-09 13:56:51,869 - INFO - Sauvegarde effectuée: 44097 - Eric ROULIER
-2026-05-09 13:56:51,869 - INFO - Succès: Response(data={'id': '2053111963715063862', 'edit_history_tweet_ids': ['2053111963715063862'], 'text': '🏛 Le #maire de Mesquer (Loire-Atlantique) est Eric ROULIER (63 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-09 13:56:51,871 - INFO - === Fin ===
-2026-05-09 14:43:16,240 - INFO - === Démarrage Maires ===
-2026-05-09 14:43:16,240 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-09 14:43:16,240 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-09 14:43:16,324 - INFO - Historique chargé: 1614 maires déjà tweetés
 2026-05-09 14:43:16,345 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-10 13:59:01,243 - INFO - Sauvegarde effectuée: 59124 - Olivier VERCRUYSSE
 2026-05-10 13:59:01,243 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Camphin-En-Pévèle (Nord) est Olivier VERCRUYSSE (50 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053474894248112502'], 'id': '2053474894248112502'}, includes={}, errors=[], meta={})
 2026-05-10 13:59:01,245 - INFO - === Fin ===
+2026-05-10 14:44:29,467 - INFO - === Démarrage Maires ===
+2026-05-10 14:44:29,467 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-10 14:44:29,467 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-10 14:44:29,551 - INFO - Historique chargé: 1623 maires déjà tweetés
+2026-05-10 14:44:29,571 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-10 14:44:29,571 - INFO - Nombre de maires déjà tweetés: 1623
+2026-05-10 14:44:29,573 - INFO - Sélectionné: 72044 - Didier LEVALET (nouveau maire)
+2026-05-10 14:44:29,574 - INFO - Tweet: 🏛 Le #maire de Bousse (Sarthe) est Didier LEVALET (61 ans) #MairesdeFrance 🇫🇷
+2026-05-10 14:44:29,780 - INFO - Sauvegarde effectuée: 72044 - Didier LEVALET
+2026-05-10 14:44:29,780 - INFO - Succès: Response(data={'id': '2053486338557501867', 'text': '🏛 Le #maire de Bousse (Sarthe) est Didier LEVALET (61 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053486338557501867']}, includes={}, errors=[], meta={})
+2026-05-10 14:44:29,783 - INFO - === Fin ===
