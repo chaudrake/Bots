@@ -1,14 +1,3 @@
-2026-05-09 14:43:16,240 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-09 14:43:16,324 - INFO - Historique chargé: 1614 maires déjà tweetés
-2026-05-09 14:43:16,345 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-09 14:43:16,345 - INFO - Nombre de maires déjà tweetés: 1614
-2026-05-09 14:43:16,346 - INFO - Sélectionné: 47074 - Isabelle GAJAC (nouveau maire)
-2026-05-09 14:43:16,348 - INFO - Tweet: 🏛 La #maire de Couthures-Sur-Garonne (Lot-et-Garonne) est Isabelle GAJAC (51 ans) #MairesdeFrance 🇫🇷
-2026-05-09 14:43:16,567 - INFO - Sauvegarde effectuée: 47074 - Isabelle GAJAC
-2026-05-09 14:43:16,567 - INFO - Succès: Response(data={'text': '🏛 La #maire de Couthures-Sur-Garonne (Lot-et-Garonne) est Isabelle GAJAC (51 ans) #MairesdeFrance 🇫🇷', 'id': '2053123643568160987', 'edit_history_tweet_ids': ['2053123643568160987']}, includes={}, errors=[], meta={})
-2026-05-09 14:43:16,569 - INFO - === Fin ===
-2026-05-09 16:12:51,914 - INFO - === Démarrage Maires ===
-2026-05-09 16:12:51,914 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-09 16:12:51,914 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-09 16:12:51,998 - INFO - Historique chargé: 1615 maires déjà tweetés
 2026-05-09 16:12:52,020 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-10 14:44:29,780 - INFO - Sauvegarde effectuée: 72044 - Didier LEVALET
 2026-05-10 14:44:29,780 - INFO - Succès: Response(data={'id': '2053486338557501867', 'text': '🏛 Le #maire de Bousse (Sarthe) est Didier LEVALET (61 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053486338557501867']}, includes={}, errors=[], meta={})
 2026-05-10 14:44:29,783 - INFO - === Fin ===
+2026-05-10 16:15:02,964 - INFO - === Démarrage Maires ===
+2026-05-10 16:15:02,964 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-10 16:15:02,964 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-10 16:15:03,047 - INFO - Historique chargé: 1624 maires déjà tweetés
+2026-05-10 16:15:03,067 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-10 16:15:03,067 - INFO - Nombre de maires déjà tweetés: 1624
+2026-05-10 16:15:03,069 - INFO - Sélectionné: 58067 - Sébastien CLEMENCON (nouveau maire)
+2026-05-10 16:15:03,070 - INFO - Tweet: 🏛 Le #maire de Chaulgnes (Nièvre) est Sébastien CLEMENCON (51 ans) #MairesdeFrance 🇫🇷
+2026-05-10 16:15:03,276 - INFO - Sauvegarde effectuée: 58067 - Sébastien CLEMENCON
+2026-05-10 16:15:03,276 - INFO - Succès: Response(data={'id': '2053509128308531362', 'edit_history_tweet_ids': ['2053509128308531362'], 'text': '🏛 Le #maire de Chaulgnes (Nièvre) est Sébastien CLEMENCON (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-10 16:15:03,278 - INFO - === Fin ===
