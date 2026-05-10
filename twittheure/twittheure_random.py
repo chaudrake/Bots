@@ -61,7 +61,7 @@ def main():
     print(f"🕐 Heure française: {now.strftime('%H:%M:%S')}")
 
     # Plage 6h-22h (Heure Française)
-    if 6 <= hour <= 22:
+    if 6 <= hour <= 23:
         # Probabilité : 1 fois sur 3
         
         if random.random() < 0.33:
