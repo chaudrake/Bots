@@ -1,0 +1,45 @@
+name: Histoire Bot Schedule
+
+on:
+  schedule:
+    # À 54 minutes toutes les heures entre 5h et 20h UTC
+    - cron: '54 5-20 * * *'
+  workflow_dispatch:
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install tweepy python-dotenv
+
+      - name: Run bot
+        env:
+          # Assure-toi que ces secrets sont bien configurés dans ton repo
+          CONSUMER_KEY: ${{ secrets.HISTOIRE_CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.HISTOIRE_CONSUMER_SECRET }}
+          ACCESS_KEY: ${{ secrets.HISTOIRE_ACCESS_KEY }}
+          ACCESS_SECRET: ${{ secrets.HISTOIRE_ACCESS_SECRET }}
+        run: python histoire.py
+        working-directory: ./histoire
+
+      - name: Commit and push if index changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          # On ajoute l'index situé dans le dossier histoire
+          git add histoire/index.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update history index: $(date)" && git push)
+        continue-on-error: true
+        
