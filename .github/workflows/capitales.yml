@@ -3,9 +3,13 @@ name: Capitales Bot
 on:
   workflow_dispatch:
   schedule:
-    # Tous les jours à 09h et 15h UTC
     - cron: "0 9 * * *"
     - cron: "0 15 * * *"
+  push:
+    paths:
+      - 'capitales/**'    # Ne se déclenche que pour les modifs dans ce dossier
+      - '.github/workflows/capitales.yml' # Ou si on modifie le workflow lui-même
+
 
 jobs:
   run-bot:
