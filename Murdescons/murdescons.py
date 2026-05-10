@@ -26,7 +26,7 @@ api = tweepy.Client(
 print('🚀 Lancement du bot Mur Des Cons')
 
 # 8% de chance de s'exécuter
-if random.random() < 0.98:
+if random.random() < 0.08:
     print("📅 Le script s'exécute (8% de chance)")
 else:
     print("📅 Le script ne s'exécute pas cette fois (92% de chance)")
