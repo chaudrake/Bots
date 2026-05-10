@@ -3,7 +3,7 @@ name: Histoire Bot Schedule
 on:
   schedule:
     # À 54 minutes toutes les heures entre 5h et 20h UTC
-    - cron: '54 5-20 * * *'
+    - cron: '54 7,15 * * *'
   workflow_dispatch:
 
 jobs:
