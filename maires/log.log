@@ -1,14 +1,3 @@
-2026-05-09 16:12:51,914 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-09 16:12:51,998 - INFO - Historique chargé: 1615 maires déjà tweetés
-2026-05-09 16:12:52,020 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-09 16:12:52,020 - INFO - Nombre de maires déjà tweetés: 1615
-2026-05-09 16:12:52,022 - INFO - Sélectionné: 14078 - Rodolphe RICORDEL (nouveau maire)
-2026-05-09 16:12:52,023 - INFO - Tweet: 🏛 Le #maire de Blay (Calvados) est Rodolphe RICORDEL (48 ans) #MairesdeFrance 🇫🇷
-2026-05-09 16:12:52,246 - INFO - Sauvegarde effectuée: 14078 - Rodolphe RICORDEL
-2026-05-09 16:12:52,246 - INFO - Succès: Response(data={'id': '2053146190821421132', 'edit_history_tweet_ids': ['2053146190821421132'], 'text': '🏛 Le #maire de Blay (Calvados) est Rodolphe RICORDEL (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-09 16:12:52,248 - INFO - === Fin ===
-2026-05-09 17:42:24,991 - INFO - === Démarrage Maires ===
-2026-05-09 17:42:24,991 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-09 17:42:24,991 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-09 17:42:25,084 - INFO - Historique chargé: 1616 maires déjà tweetés
 2026-05-09 17:42:25,107 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-10 16:15:03,276 - INFO - Sauvegarde effectuée: 58067 - Sébastien CLEMENCON
 2026-05-10 16:15:03,276 - INFO - Succès: Response(data={'id': '2053509128308531362', 'edit_history_tweet_ids': ['2053509128308531362'], 'text': '🏛 Le #maire de Chaulgnes (Nièvre) est Sébastien CLEMENCON (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-10 16:15:03,278 - INFO - === Fin ===
+2026-05-10 17:43:25,517 - INFO - === Démarrage Maires ===
+2026-05-10 17:43:25,517 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-10 17:43:25,517 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-10 17:43:25,602 - INFO - Historique chargé: 1625 maires déjà tweetés
+2026-05-10 17:43:25,624 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-10 17:43:25,624 - INFO - Nombre de maires déjà tweetés: 1625
+2026-05-10 17:43:25,625 - INFO - Sélectionné: 02414 - Vincent LAMOTTE (nouveau maire)
+2026-05-10 17:43:25,627 - INFO - Tweet: 🏛 Le #maire de Lavaqueresse (Dordogne) est Vincent LAMOTTE (37 ans) #MairesdeFrance 🇫🇷
+2026-05-10 17:43:25,889 - INFO - Sauvegarde effectuée: 02414 - Vincent LAMOTTE
+2026-05-10 17:43:25,889 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2053531368747880684'], 'id': '2053531368747880684', 'text': '🏛 Le #maire de Lavaqueresse (Dordogne) est Vincent LAMOTTE (37 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-10 17:43:25,892 - INFO - === Fin ===
