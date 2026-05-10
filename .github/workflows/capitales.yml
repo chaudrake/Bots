@@ -1,71 +1,72 @@
-name: Capitales Bot
+[span_3](start_span)name: Capitales Bot[span_3](end_span)
 
 on:
-  workflow_dispatch:
+  [span_4](start_span)workflow_dispatch:[span_4](end_span)
   schedule:
-    - cron: "0 9 * * *"
-    - cron: "0 15 * * *"
+    # [span_5](start_span)Tous les jours à 09h et 15h UTC[span_5](end_span)
+    - [span_6](start_span)cron: "0 9 * * *"[span_6](end_span)
+    - [span_7](start_span)cron: "0 15 * * *"[span_7](end_span)
   push:
     paths:
-      - 'capitales/**'    # Ne se déclenche que pour les modifs dans ce dossier
-      - '.github/workflows/capitales.yml' # Ou si on modifie le workflow lui-même
-
+      - 'capitales/**'
+      - '.github/workflows/capitales.yml'
 
 jobs:
   run-bot:
-    runs-on: ubuntu-latest
+    [span_8](start_span)runs-on: ubuntu-latest[span_8](end_span)
     
-    # INDISPENSABLE : Permet au bot de mettre à jour le fichier index.json
+    # [span_9](start_span)INDISPENSABLE : Permet au bot de mettre à jour le fichier index.json[span_9](end_span)
     permissions:
-      contents: write
+      [span_10](start_span)contents: write[span_10](end_span)
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - [span_11](start_span)name: Checkout repository[span_11](end_span)
+        [span_12](start_span)uses: actions/checkout@v4[span_12](end_span)
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          [span_13](start_span)token: ${{ secrets.GITHUB_TOKEN }}[span_13](end_span)
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - [span_14](start_span)name: Setup Python[span_14](end_span)
+        [span_15](start_span)uses: actions/setup-python@v5[span_15](end_span)
         with:
-          python-version: "3.10"
+          [span_16](start_span)python-version: "3.10"[span_16](end_span)
 
-      - name: Install dependencies
+      - [span_17](start_span)name: Install dependencies[span_17](end_span)
         run: |
-          pip install --no-cache-dir -r requirements.txt
+          [span_18](start_span)pip install --no-cache-dir -r requirements.txt[span_18](end_span)
 
-      - name: Run bot
+      - [span_19](start_span)name: Run bot[span_19](end_span)
         run: |
-          cd capitales
-          python capitales.py
+          [span_20](start_span)cd capitales[span_20](end_span)
+          [span_21](start_span)python capitales.py[span_21](end_span)
         env:
-          CAPITALES_CONSUMER_KEY: ${{ secrets.CAPITALES_CONSUMER_KEY }}
-          CAPITALES_CONSUMER_SECRET: ${{ secrets.CAPITALES_CONSUMER_SECRET }}
-          CAPITALES_ACCESS_TOKEN: ${{ secrets.CAPITALES_ACCESS_TOKEN }}
-          CAPITALES_ACCESS_TOKEN_SECRET: ${{ secrets.CAPITALES_ACCESS_TOKEN_SECRET }}
+          [span_22](start_span)CAPITALES_CONSUMER_KEY: ${{ secrets.CAPITALES_CONSUMER_KEY }}[span_22](end_span)
+          [span_23](start_span)CAPITALES_CONSUMER_SECRET: ${{ secrets.CAPITALES_CONSUMER_SECRET }}[span_23](end_span)
+          [span_24](start_span)CAPITALES_ACCESS_TOKEN: ${{ secrets.CAPITALES_ACCESS_TOKEN }}[span_24](end_span)
+          [span_25](start_span)CAPITALES_ACCESS_TOKEN_SECRET: ${{ secrets.CAPITALES_ACCESS_TOKEN_SECRET }}[span_25](end_span)
 
-       - name: Save index update
-  run: |
-    git config --global user.name "github-actions[bot]"
-    git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    
-    # Sauvegarder le fichier local si modifié
-    if [ -f capitales/index.json ]; then
-      cp capitales/index.json /tmp/index_backup.json
-    fi
-    
-    # Récupérer les dernières modifications
-    git fetch origin main
-    git reset --hard origin/main
-    
-    # Restaurer notre version modifiée
-    if [ -f /tmp/index_backup.json ]; then
-      cp /tmp/index_backup.json capitales/index.json
-    fi
-    
-    # Ajouter, committer et pousser
-    git add capitales/index.json
-    if ! git diff --quiet --cached; then
-      git commit -m "🤖 Capitales: Mise à jour de l'index des cités tweetées"
-      git push origin main
-    fi
+      - [span_26](start_span)name: Save index update[span_26](end_span)
+        run: |
+          [span_27](start_span)git config --global user.name "github-actions[bot]"[span_27](end_span)
+          [span_28](start_span)git config --global user.email "github-actions[bot]@users.noreply.github.com"[span_28](end_span)
+          
+          # [span_29](start_span)Sauvegarder le fichier local si modifié[span_29](end_span)
+          [span_30](start_span)if [ -f capitales/index.json ]; then[span_30](end_span)
+            [span_31](start_span)cp capitales/index.json /tmp/index_backup.json[span_31](end_span)
+          [span_32](start_span)fi[span_32](end_span)
+          
+          # [span_33](start_span)Récupérer les dernières modifications[span_33](end_span)
+          [span_34](start_span)git fetch origin main[span_34](end_span)
+          [span_35](start_span)git reset --hard origin/main[span_35](end_span)
+          
+          # [span_36](start_span)Restaurer notre version modifiée[span_36](end_span)
+          [span_37](start_span)if [ -f /tmp/index_backup.json ]; then[span_37](end_span)
+            [span_38](start_span)cp /tmp/index_backup.json capitales/index.json[span_38](end_span)
+          [span_39](start_span)fi[span_39](end_span)
+          
+          # [span_40](start_span)Ajouter, committer et pousser[span_40](end_span)
+          [span_41](start_span)git add capitales/index.json[span_41](end_span)
+          [span_42](start_span)if ! git diff --quiet --cached; then[span_42](end_span)
+            [span_43](start_span)git commit -m "🤖 Capitales: Mise à jour de l'index des cités tweetées"[span_43](end_span)
+            [span_44](start_span)git push origin main[span_44](end_span)
+          [span_45](start_span)fi[span_45](end_span)
+          
