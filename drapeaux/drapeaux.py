@@ -15,13 +15,13 @@ from tracery.modifiers import base_english
 from datetime import datetime
 from dotenv import load_dotenv
 
-version = "v4.7.8"
+version = "v4.7.9"
 print(Fore.GREEN + f"####---> Drapeaux {version}" + Style.RESET_ALL)
 
 
 def init_twitter_client():
     """Initialising Twitter API Client"""
-    # Chargement des variables d'environnement depuis GitHub Secrets
+    # [span_1](start_span)Chargement des variables d'environnement depuis GitHub Secrets[span_1](end_span)
     consumer_key = os.getenv("DRAPEAUX_CONSUMER_KEY")
     consumer_secret = os.getenv("DRAPEAUX_CONSUMER_SECRET")
     access_token = os.getenv("DRAPEAUX_ACCESS_TOKEN")
@@ -47,7 +47,7 @@ def init_twitter_client():
 
 def get_imgs(api_v1, imgs):
     """Downloads images from url list and returns image filepaths"""
-    # Crée le dossier temp-imgs s'il n'existe pas
+    # [span_2](start_span)Crée le dossier temp-imgs s'il n'existe pas[span_2](end_span)
     os.makedirs("temp-imgs", exist_ok=True)
     
     media_ids = []
@@ -88,18 +88,19 @@ def post_to_twitter(api_v2, quote, include_datetime, media_ids=None):
 
 
 def manage_index():
-    """Gère le fichier index des drapeaux déjà tweetés (version simplifiée)"""
+    """Gère le fichier index des drapeaux déjà tweetés"""
     index_file = "index.json"
 
     if not os.path.exists(index_file):
         with open(index_file, 'w', encoding="utf-8") as f:
-            json.dump({"used": []}, f)
+            json.dump({"used": []}, f, ensure_ascii=False, indent=2)
 
     with open(index_file, 'r', encoding="utf-8") as f:
         index_data = json.load(f)
 
     cleaned_used = []
     seen = set()
+    # Nettoyage des doublons potentiels basés sur le nom de pays brut
     for entry in index_data["used"]:
         country_name = entry.split("{")[0].strip()
         if country_name not in seen:
@@ -108,8 +109,9 @@ def manage_index():
 
     index_data["used"] = cleaned_used
 
+    # Sauvegarde avec ensure_ascii=False pour garder les accents lisibles
     with open(index_file, 'w', encoding="utf-8") as f:
-        json.dump(index_data, f)
+        json.dump(index_data, f, ensure_ascii=False, indent=2)
 
     return index_data
 
@@ -124,6 +126,7 @@ def tracery_magic():
 
     available_flags = []
     for flag in bot_data["drapeau"]:
+        # [span_3](start_span)On extrait le nom du pays pour comparer avec l'index[span_3](end_span)
         country_name = flag.split("{")[0].strip()
         if country_name not in used_flags:
             available_flags.append(flag)
@@ -131,7 +134,7 @@ def tracery_magic():
     if not available_flags:
         print(Fore.YELLOW + "####---> Tous les drapeaux ont été tweetés, réinitialisation de l'index..." + Style.RESET_ALL)
         with open("index.json", 'w', encoding="utf-8") as f:
-            json.dump({"used": []}, f)
+            json.dump({"used": []}, f, ensure_ascii=False, indent=2)
         available_flags = bot_data["drapeau"].copy()
 
     original_data = bot_data["drapeau"]
@@ -143,6 +146,7 @@ def tracery_magic():
 
     bot_data["drapeau"] = original_data
 
+    # Identification du pays choisi dans le texte généré pour mise à jour de l'index
     selected_country_name = None
     for flag in available_flags:
         country_name = flag.split("{")[0].strip()
@@ -174,14 +178,14 @@ def main():
         media_ids = get_imgs(api_v1, imgs)
         post_to_twitter(api_v2, quote, "false", media_ids)
 
-    # Ajouter à l'index après tweet réussi
+    # [span_4](start_span)Ajouter à l'index après tweet réussi[span_4](end_span)
     if selected_country:
         index_data = manage_index()
         used_flags = index_data["used"]
         if selected_country not in used_flags:
             used_flags.append(selected_country)
             with open("index.json", 'w', encoding="utf-8") as f:
-                json.dump({"used": used_flags}, f)
+                json.dump({"used": used_flags}, f, ensure_ascii=False, indent=2)
             print(Fore.GREEN + f"####---> Pays ajouté à l'index : {selected_country}" + Style.RESET_ALL)
     
     print(Fore.GREEN + "####---> Bot terminé!" + Style.RESET_ALL)
@@ -189,3 +193,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
