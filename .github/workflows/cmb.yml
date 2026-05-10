@@ -34,7 +34,7 @@ jobs:
         run: python cmb.py
         working-directory: ./cmb
 
-        - name: Commit and push if index changed
+      - name: Commit and push if index changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
