@@ -44,7 +44,7 @@ jobs:
           CAPITALES_ACCESS_TOKEN: ${{ secrets.CAPITALES_ACCESS_TOKEN }}
           CAPITALES_ACCESS_TOKEN_SECRET: ${{ secrets.CAPITALES_ACCESS_TOKEN_SECRET }}
 
-      - name: Save index update
+       - name: Save index update
   run: |
     git config --global user.name "github-actions[bot]"
     git config --global user.email "github-actions[bot]@users.noreply.github.com"
