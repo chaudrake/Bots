@@ -34,15 +34,16 @@ jobs:
         run: python cmb.py
         working-directory: ./cmb
 
-      - name: Commit and push if index changed
+      - name: Save history update
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          # On ajoute l'index ET les logs si tu veux les garder, 
-          # sinon juste l'index.
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add cmb/last_index.json
-          
-          # On commit seulement s'il y a des changements, sans provoquer d'erreur sinon
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index: $(date)" && git push)
-        continue-on-error: true
-
+          git add cmb/log_bot_qualites.log
+          # On vérifie s'il y a eu un changement
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 CMB: Mise à jour de la liste"
+            # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
+            git pull --rebase origin main
+            git push
+          fi
