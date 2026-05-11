@@ -1,15 +1,3 @@
-2026-05-09 17:53:49,634 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-09 17:53:49,639 - INFO - Historique chargé: 23 députés déjà tweetés
-2026-05-09 17:53:49,641 - INFO - Erreur: unconverted data remains when parsing with format "%Y-%d-%m": "4", at position 1. You might want to try:
-    - passing `format` if your strings have a consistent format;
-    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
-    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
-2026-05-09 17:53:49,641 - INFO - === Fin ===
-2026-05-09 19:39:33,009 - INFO - === Démarrage Députés ===
-2026-05-09 19:39:33,009 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-09 19:39:33,009 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-09 19:39:33,014 - INFO - Historique chargé: 23 députés déjà tweetés
-2026-05-09 19:39:33,016 - INFO - Erreur: unconverted data remains when parsing with format "%Y-%d-%m": "4", at position 1. You might want to try:
     - passing `format` if your strings have a consistent format;
     - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
@@ -107,3 +95,15 @@
 2026-05-10 19:39:34,553 - INFO - Sauvegarde effectuée: 0104 - Jérôme BUISSON
 2026-05-10 19:39:34,554 - INFO - Succès: Response(data={'id': '2053560597753582022', 'text': "🏛 Le #député de la 4e circonscription de l'Ain est Jérôme BUISSON (53 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2053560597753582022']}, includes={}, errors=[], meta={})
 2026-05-10 19:39:34,554 - INFO - === Fin ===
+2026-05-11 12:27:18,145 - INFO - === Démarrage Députés ===
+2026-05-11 12:27:18,145 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-11 12:27:18,145 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-11 12:27:18,152 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-11 12:27:18,152 - INFO - Historique chargé: 30 députés déjà tweetés
+2026-05-11 12:27:18,154 - INFO - Nombre de députés uniques: 572
+2026-05-11 12:27:18,154 - INFO - Nombre de députés déjà tweetés: 30
+2026-05-11 12:27:18,155 - INFO - Sélectionné: 6204 - Philippe FAIT (nouveau député)
+2026-05-11 12:27:18,155 - INFO - Tweet: 🏛 Le #député de la 4e circonscription du Pas-de-Calais est Philippe FAIT (56 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-11 12:27:18,412 - INFO - Sauvegarde effectuée: 6204 - Philippe FAIT
+2026-05-11 12:27:18,412 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 4e circonscription du Pas-de-Calais est Philippe FAIT (56 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2053814201521426797'], 'id': '2053814201521426797'}, includes={}, errors=[], meta={})
+2026-05-11 12:27:18,412 - INFO - === Fin ===
