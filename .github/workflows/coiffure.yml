@@ -47,12 +47,16 @@ jobs:
           # Vérification de changement avant commit pour éviter les erreurs inutiles
           git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mise à jour automatique de l'index" && git push)
           
-      - name: Save index update
+      - name: Save history update
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On ajoute le fichier index.txt situé dans le dossier coiffure
           git add coiffure/index.txt
-          # On ne commit que si le fichier a effectivement changé
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mise à jour automatique de l'index" && git push)
-          
+          git add coiffure/log.log
+          # On vérifie s'il y a eu un changement
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Coiffure : Mise à jour de la liste"
+            # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
+            git pull --rebase origin main
+            git push
+          fi
