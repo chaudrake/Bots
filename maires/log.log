@@ -1,14 +1,3 @@
-2026-05-10 16:15:02,964 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-10 16:15:03,047 - INFO - Historique chargé: 1624 maires déjà tweetés
-2026-05-10 16:15:03,067 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-10 16:15:03,067 - INFO - Nombre de maires déjà tweetés: 1624
-2026-05-10 16:15:03,069 - INFO - Sélectionné: 58067 - Sébastien CLEMENCON (nouveau maire)
-2026-05-10 16:15:03,070 - INFO - Tweet: 🏛 Le #maire de Chaulgnes (Nièvre) est Sébastien CLEMENCON (51 ans) #MairesdeFrance 🇫🇷
-2026-05-10 16:15:03,276 - INFO - Sauvegarde effectuée: 58067 - Sébastien CLEMENCON
-2026-05-10 16:15:03,276 - INFO - Succès: Response(data={'id': '2053509128308531362', 'edit_history_tweet_ids': ['2053509128308531362'], 'text': '🏛 Le #maire de Chaulgnes (Nièvre) est Sébastien CLEMENCON (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-10 16:15:03,278 - INFO - === Fin ===
-2026-05-10 17:43:25,517 - INFO - === Démarrage Maires ===
-2026-05-10 17:43:25,517 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-10 17:43:25,517 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-10 17:43:25,602 - INFO - Historique chargé: 1625 maires déjà tweetés
 2026-05-10 17:43:25,624 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-11 18:51:55,909 - INFO - Sauvegarde effectuée: 19215 - Jean-François GASQUET
 2026-05-11 18:51:55,909 - INFO - Succès: Response(data={'id': '2053910995643531626', 'text': '🏛 Le #maire de Saint-Julien-Le-Pèlerin (Corrèze) est Jean-François GASQUET (54 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053910995643531626']}, includes={}, errors=[], meta={})
 2026-05-11 18:51:55,911 - INFO - === Fin ===
+2026-05-11 20:11:28,859 - INFO - === Démarrage Maires ===
+2026-05-11 20:11:28,859 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-11 20:11:28,859 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-11 20:11:28,939 - INFO - Historique chargé: 1634 maires déjà tweetés
+2026-05-11 20:11:28,959 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-11 20:11:28,959 - INFO - Nombre de maires déjà tweetés: 1634
+2026-05-11 20:11:28,960 - INFO - Sélectionné: 68377 - Benoît ACKERMANN (nouveau maire)
+2026-05-11 20:11:28,961 - INFO - Tweet: 🏛 Le #maire de Wittersdorf (Haut-Rhin) est Benoît ACKERMANN (34 ans) #MairesdeFrance 🇫🇷
+2026-05-11 20:11:29,189 - INFO - Sauvegarde effectuée: 68377 - Benoît ACKERMANN
+2026-05-11 20:11:29,189 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Wittersdorf (Haut-Rhin) est Benoît ACKERMANN (34 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053931016184594453'], 'id': '2053931016184594453'}, includes={}, errors=[], meta={})
+2026-05-11 20:11:29,191 - INFO - === Fin ===
