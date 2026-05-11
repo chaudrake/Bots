@@ -34,12 +34,17 @@ jobs:
         run: python histoire.py
         working-directory: ./histoire
 
-      - name: Commit and push if index changed
+      - name: Save history update
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          # On ajoute l'index situé dans le dossier histoire
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add histoire/index.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update history index: $(date)" && git push)
-        continue-on-error: true
-        
+          git add histoire/log.log
+          # On vérifie s'il y a eu un changement
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Histoire : Mise à jour de la liste"
+            # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
+            git pull --rebase origin main
+            git push
+          fi
+
