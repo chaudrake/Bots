@@ -2,12 +2,12 @@ name: TwittHeure - Heures Fixes
 
 on:
   workflow_dispatch:
-  schedule:
-    # Pour 11:11 (heure française) - Cron à 7:30 UTC
-    - cron: "30 7 * * *"
+ # schedule:
+  #  # Pour 11:11 (heure française) - Cron à 7:30 UTC
+   # - cron: "30 7 * * *"
     
     # Pour 22:22 ET 00:00 (heure française) - Cron à 19:00 UTC
-    - cron: "0 19 * * *"
+ #    - cron: "0 19 * * *"
 
 jobs:
   run-bot-11h11:
