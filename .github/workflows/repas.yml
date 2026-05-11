@@ -2,12 +2,12 @@ name: Repas Bot
 
 on:
   workflow_dispatch:
-  schedule:
+ # schedule:
     # Crons calés sur l'heure d'été (UTC+2)
     # 4h UTC → 6h FR | 9h UTC → 11h FR | 16h UTC → 18h FR
-    - cron: "11 4 * * *"
-    - cron: "11 9 * * *"
-    - cron: "19 15 * * *"
+ #   - cron: "11 4 * * *"
+  #  - cron: "11 9 * * *"
+  #  - cron: "19 15 * * *"
 
 jobs:
   run-bot:
