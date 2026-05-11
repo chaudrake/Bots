@@ -1,15 +1,3 @@
-    - passing `format` if your strings have a consistent format;
-    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
-    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
-2026-05-09 19:39:33,016 - INFO - === Fin ===
-2026-05-09 20:52:37,776 - INFO - === Démarrage Députés ===
-2026-05-09 20:52:37,776 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-09 20:52:37,776 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-09 20:52:37,781 - INFO - Historique chargé: 23 députés déjà tweetés
-2026-05-09 20:52:37,783 - INFO - Erreur: unconverted data remains when parsing with format "%Y-%d-%m": "4", at position 1. You might want to try:
-    - passing `format` if your strings have a consistent format;
-    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
-    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 2026-05-09 20:52:37,783 - INFO - === Fin ===
 2026-05-09 21:21:01,810 - INFO - === Démarrage Députés ===
 2026-05-09 21:21:01,810 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-11 12:27:18,412 - INFO - Sauvegarde effectuée: 6204 - Philippe FAIT
 2026-05-11 12:27:18,412 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 4e circonscription du Pas-de-Calais est Philippe FAIT (56 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2053814201521426797'], 'id': '2053814201521426797'}, includes={}, errors=[], meta={})
 2026-05-11 12:27:18,412 - INFO - === Fin ===
+2026-05-11 15:44:27,450 - INFO - === Démarrage Députés ===
+2026-05-11 15:44:27,451 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-11 15:44:27,451 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-11 15:44:27,458 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-11 15:44:27,458 - INFO - Historique chargé: 31 députés déjà tweetés
+2026-05-11 15:44:27,460 - INFO - Nombre de députés uniques: 572
+2026-05-11 15:44:27,460 - INFO - Nombre de députés déjà tweetés: 31
+2026-05-11 15:44:27,460 - INFO - Sélectionné: 3101 - Hadrien CLOUET (nouveau député)
+2026-05-11 15:44:27,461 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Haute-Garonne est Hadrien CLOUET (34 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-11 15:44:27,632 - INFO - Sauvegarde effectuée: 3101 - Hadrien CLOUET
+2026-05-11 15:44:27,632 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 1ère circonscription de la Haute-Garonne est Hadrien CLOUET (34 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2053863816954581231'], 'id': '2053863816954581231'}, includes={}, errors=[], meta={})
+2026-05-11 15:44:27,632 - INFO - === Fin ===
