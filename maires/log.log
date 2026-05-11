@@ -1,14 +1,3 @@
-2026-05-10 09:23:13,028 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-10 09:23:13,109 - INFO - Historique chargé: 1619 maires déjà tweetés
-2026-05-10 09:23:13,129 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-10 09:23:13,129 - INFO - Nombre de maires déjà tweetés: 1619
-2026-05-10 09:23:13,131 - INFO - Sélectionné: 43182 - Alain MIRAND (nouveau maire)
-2026-05-10 09:23:13,132 - INFO - Tweet: 🏛 Le #maire de Saint-Etienne-Sur-Blesle (Haute-Loire) est Alain MIRAND (74 ans) #MairesdeFrance 🇫🇷
-2026-05-10 09:23:13,300 - INFO - Sauvegarde effectuée: 43182 - Alain MIRAND
-2026-05-10 09:23:13,300 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Saint-Etienne-Sur-Blesle (Haute-Loire) est Alain MIRAND (74 ans) #MairesdeFrance 🇫🇷', 'id': '2053405487174214123', 'edit_history_tweet_ids': ['2053405487174214123']}, includes={}, errors=[], meta={})
-2026-05-10 09:23:13,302 - INFO - === Fin ===
-2026-05-10 10:42:52,296 - INFO - === Démarrage Maires ===
-2026-05-10 10:42:52,296 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-10 10:42:52,296 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-10 10:42:52,380 - INFO - Historique chargé: 1620 maires déjà tweetés
 2026-05-10 10:42:52,400 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-11 10:54:32,652 - INFO - Sauvegarde effectuée: 07306 - Yvon VENTALON
 2026-05-11 10:54:32,652 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Sampzon (Savoie) est Yvon VENTALON (72 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053790857028128900'], 'id': '2053790857028128900'}, includes={}, errors=[], meta={})
 2026-05-11 10:54:32,654 - INFO - === Fin ===
+2026-05-11 12:26:47,798 - INFO - === Démarrage Maires ===
+2026-05-11 12:26:47,798 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-11 12:26:47,798 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-11 12:26:47,884 - INFO - Historique chargé: 1629 maires déjà tweetés
+2026-05-11 12:26:47,906 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-11 12:26:47,906 - INFO - Nombre de maires déjà tweetés: 1629
+2026-05-11 12:26:47,907 - INFO - Sélectionné: 25517 - Romain ROGÉ (nouveau maire)
+2026-05-11 12:26:47,909 - INFO - Tweet: 🏛 Le #maire de Saint-Gorgon-Main (Doubs) est Romain ROGÉ (36 ans) #MairesdeFrance 🇫🇷
+2026-05-11 12:26:48,129 - INFO - Sauvegarde effectuée: 25517 - Romain ROGÉ
+2026-05-11 12:26:48,129 - INFO - Succès: Response(data={'id': '2053814074530795772', 'edit_history_tweet_ids': ['2053814074530795772'], 'text': '🏛 Le #maire de Saint-Gorgon-Main (Doubs) est Romain ROGÉ (36 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-11 12:26:48,131 - INFO - === Fin ===
