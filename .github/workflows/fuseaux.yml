@@ -40,12 +40,16 @@ jobs:
           HORAIRES_ACCESS_KEY: ${{ secrets.HORAIRES_ACCESS_KEY }}
           HORAIRES_ACCESS_SECRET: ${{ secrets.HORAIRES_ACCESS_SECRET }}
 
-      - name: Save History Update
+      - name: Save history update
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On ajoute spécifiquement le fichier d'historique dans le dossier fuseaux
           git add fuseaux/tweeted_territories.txt
-          # On commit seulement s'il y a des changements pour éviter les erreurs
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Fuseaux: Mise à jour de l'historique des territoires" && git push)
-          
+          git add fuseaux/time_bot.log
+          # On vérifie s'il y a eu un changement
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Fuseaux : Mise à jour de la liste"
+            # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
+            git pull --rebase origin main
+            git push
+          fi
