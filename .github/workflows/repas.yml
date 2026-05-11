@@ -48,8 +48,14 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On ajoute le fichier JSON de suivi
           git add repas/meal_state.json
-          # On ne commit que s'il y a eu un changement d'état
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Repas: Mise à jour de l'état du cycle alimentaire" && git push)
-          
+          # On vérifie s'il y a des changements
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Repas: Mise à jour de l'état du cycle alimentaire"
+            # On récupère les changements distants avec rebase pour éviter les conflits
+            git pull --rebase origin main
+            git push
+          else
+            echo "Aucune modification à enregistrer"
+          fi
+
