@@ -35,8 +35,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main
-          git add zemmour/index.txt
-          git commit -m "Update index [skip ci]" || echo "No changes"
-          git push
-          
+          git pull --rebase origin main
+          # On ajoute le nouveau fichier index.json
+          git add zemmour/index.json
+          # On commit seulement s'il y a des changements
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index [skip ci]" && git push)
+
