@@ -130,7 +130,7 @@ TERRITORIES = {
     "île Ravelo (#Kerguelen)": "Indian/Kerguelen",
     "îlots Simone (#Kerguelen)": "Indian/Kerguelen",
     "île Hould (#Kerguelen)": "Indian/Kerguelen",
-    "île Léon aux rennes (#Kerguelen)": "Indian/Kerguelen",
+    "île aux rennes (#Kerguelen)": "Indian/Kerguelen",
     "île de la Possession (#Crozet)": "Etc/GMT-4",
     "île de l'Est (#Crozet)": "Etc/GMT-4",
     "île aux Cochons (#Crozet)": "Etc/GMT-4",
