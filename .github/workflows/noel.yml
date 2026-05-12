@@ -1,0 +1,32 @@
+# lancement par cron-jobs.org
+name: NoelBot Action
+
+on:
+#  schedule:
+    # Déclenchement à 17:00 UTC
+#    - cron: '0 17 * * *'
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Run bot
+        env:
+          NOEL_CONSUMER_KEY: ${{ secrets.NOEL_CONSUMER_KEY }}
+          NOEL_CONSUMER_SECRET: ${{ secrets.NOEL_CONSUMER_SECRET }}
+          NOEL_ACCESS_KEY: ${{ secrets.NOEL_ACCESS_KEY }}
+          NOEL_ACCESS_SECRET: ${{ secrets.NOEL_ACCESS_SECRET }}
+        run: python noel/noel.py
+        
