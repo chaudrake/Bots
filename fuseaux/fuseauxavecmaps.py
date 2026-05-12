@@ -253,6 +253,7 @@ MAPS_LINKS = {
     "île Ravelo (#Kerguelen)": "https://maps.app.goo.gl/CbqA1N5ka9LY6EnN7",
     "îlots Simone (#Kerguelen)": "https://maps.app.goo.gl/M4Y5oY4fmLXapVHW6",
     "île Hould (#Kerguelen)": "https://maps.app.goo.gl/wrz3jLFH2nHw66V88",
+    "île aux rennes (#Kerguelen)": "https://maps.app.goo.gl/XgmtdpTs3aEgbJZi9",
     "île de la Possession (#Crozet)": "https://maps.app.goo.gl/WPXQcJWFneP38SQA6",
     "île de l'Est (#Crozet)": "https://maps.app.goo.gl/yEDHCQuTfZaqtKWBA",
     "île aux Cochons (#Crozet)": "https://maps.app.goo.gl/xJXyrWW91Mkkm54F6",
