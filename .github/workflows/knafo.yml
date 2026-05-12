@@ -35,7 +35,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main
+          # Récupération des dernières modifications pour éviter les conflits
+          git pull --rebase origin main
           git add knafo/last_index.json
-          git commit -m "Update Knafo index [skip ci]" || echo "No changes"
-          git push
+          # Commit seulement si le fichier a été modifié
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Knafo index [skip ci]" && git push) [span_6](start_span)
