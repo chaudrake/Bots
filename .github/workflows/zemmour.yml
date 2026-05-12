@@ -2,7 +2,7 @@ name: ZemmourBot Action
 
 on:
   schedule:
-    # Un tweet toutes les 12 heures (basé sur ton souhait de délai long)
+    # Un tweet toutes les 12 heures
     - cron: '0 */12 * * *'
   workflow_dispatch: 
 
@@ -25,11 +25,10 @@ jobs:
 
       - name: Run bot
         env:
-          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-        # Exécution dans le sous-répertoire
+          ZEMMOUR_CONSUMER_KEY: ${{ secrets.ZEMMOUR_CONSUMER_KEY }}
+          ZEMMOUR_CONSUMER_SECRET: ${{ secrets.ZEMMOUR_CONSUMER_SECRET }}
+          ZEMMOUR_ACCESS_TOKEN: ${{ secrets.ZEMMOUR_ACCESS_TOKEN }}
+          ZEMMOUR_ACCESS_TOKEN_SECRET: ${{ secrets.ZEMMOUR_ACCESS_TOKEN_SECRET }}
         run: python zemmour/zemmour.py
 
       - name: Update Repository
