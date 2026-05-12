@@ -190,6 +190,7 @@ PREPOSITIONS = {
     "île Léon Lefèvre (#Kerguelen)": "sur l'",
     "île Ravelo (#Kerguelen)": "sur l'",
     "îlots Simone (#Kerguelen)": "sur les ",
+    "île aux rennes (#Kerguelen)": "sur l'",
     "île Hould (#Kerguelen)": "sur l'",
     "île de la Possession (#Crozet)": "sur l'",
     "île de l'Est (#Crozet)": "sur l'",
