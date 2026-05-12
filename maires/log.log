@@ -1,14 +1,3 @@
-2026-05-11 15:43:34,934 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-11 15:43:35,021 - INFO - Historique chargé: 1631 maires déjà tweetés
-2026-05-11 15:43:35,047 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-11 15:43:35,047 - INFO - Nombre de maires déjà tweetés: 1631
-2026-05-11 15:43:35,048 - INFO - Sélectionné: 61439 - Charles FONTAINE (nouveau maire)
-2026-05-11 15:43:35,051 - INFO - Tweet: 🏛 Le #maire de Saint-Ouen-Le-Brisoult (Orne) est Charles FONTAINE (38 ans) #MairesdeFrance 🇫🇷
-2026-05-11 15:43:35,311 - INFO - Sauvegarde effectuée: 61439 - Charles FONTAINE
-2026-05-11 15:43:35,311 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2053863597424718290'], 'id': '2053863597424718290', 'text': '🏛 Le #maire de Saint-Ouen-Le-Brisoult (Orne) est Charles FONTAINE (38 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-11 15:43:35,313 - INFO - === Fin ===
-2026-05-11 16:25:35,295 - INFO - === Démarrage Maires ===
-2026-05-11 16:25:35,295 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-11 16:25:35,295 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-11 16:25:35,382 - INFO - Historique chargé: 1632 maires déjà tweetés
 2026-05-11 16:25:35,409 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-12 17:30:18,339 - INFO - Sauvegarde effectuée: 26035 - Stéphanie RIGAUD
 2026-05-12 17:30:18,339 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054252841494024250'], 'id': '2054252841494024250', 'text': '🏛 La #maire de Beaufort-Sur-Gervanne (Drôme) est Stéphanie RIGAUD (47 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-12 17:30:18,342 - INFO - === Fin ===
+2026-05-12 18:51:36,491 - INFO - === Démarrage Maires ===
+2026-05-12 18:51:36,491 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-12 18:51:36,491 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-12 18:51:36,575 - INFO - Historique chargé: 1641 maires déjà tweetés
+2026-05-12 18:51:36,596 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-12 18:51:36,596 - INFO - Nombre de maires déjà tweetés: 1641
+2026-05-12 18:51:36,597 - INFO - Sélectionné: 50511 - Colette LEQUERTIER (nouveau maire)
+2026-05-12 18:51:36,598 - INFO - Tweet: 🏛 La #maire de Saint-Martin-D'Audouville (Manche) est Colette LEQUERTIER (67 ans) #MairesdeFrance 🇫🇷
+2026-05-12 18:51:36,794 - INFO - Sauvegarde effectuée: 50511 - Colette LEQUERTIER
+2026-05-12 18:51:36,794 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054273303297044687'], 'id': '2054273303297044687', 'text': "🏛 La #maire de Saint-Martin-D'Audouville (Manche) est Colette LEQUERTIER (67 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-05-12 18:51:36,796 - INFO - === Fin ===
