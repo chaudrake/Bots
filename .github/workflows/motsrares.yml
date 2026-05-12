@@ -1,8 +1,9 @@
+# Lancé par cron-jobs.org
 name: Mots Rares Bot
 
 on:
-  schedule:
-    - cron: "9 8 * * *"
+#  schedule:
+#    - cron: "9 8 * * *"
   workflow_dispatch:
 
 jobs:
