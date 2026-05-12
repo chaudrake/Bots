@@ -1,15 +1,3 @@
-2026-05-10 09:42:40,682 - INFO - === Fin ===
-2026-05-10 10:44:04,074 - INFO - === Démarrage Députés ===
-2026-05-10 10:44:04,074 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-10 10:44:04,074 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-10 10:44:04,082 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-10 10:44:04,082 - INFO - Historique chargé: 25 députés déjà tweetés
-2026-05-10 10:44:04,084 - INFO - Nombre de députés uniques: 572
-2026-05-10 10:44:04,084 - INFO - Nombre de députés déjà tweetés: 25
-2026-05-10 10:44:04,085 - INFO - Sélectionné: 6602 - Anaïs SABATINI (nouveau député)
-2026-05-10 10:44:04,085 - INFO - Tweet: 🏛 La #députée de la 2e circonscription des Pyrénées-Orientales est Anaïs SABATINI (36 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-10 10:44:04,407 - INFO - Sauvegarde effectuée: 6602 - Anaïs SABATINI
-2026-05-10 10:44:04,407 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 2e circonscription des Pyrénées-Orientales est Anaïs SABATINI (36 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2053425834136899609'], 'id': '2053425834136899609'}, includes={}, errors=[], meta={})
 2026-05-10 10:44:04,407 - INFO - === Fin ===
 2026-05-10 11:56:47,169 - INFO - === Démarrage Députés ===
 2026-05-10 11:56:47,169 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-12 11:29:39,692 - INFO - Sauvegarde effectuée: 97406 - Frédéric MAILLOT
 2026-05-12 11:29:39,692 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054162082505875839'], 'id': '2054162082505875839', 'text': '🏛 Le #député de la 6e circonscription de la Réunion est Frédéric MAILLOT (39 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-12 11:29:39,692 - INFO - === Fin ===
+2026-05-12 15:19:23,637 - INFO - === Démarrage Députés ===
+2026-05-12 15:19:23,637 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-12 15:19:23,637 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-12 15:19:23,644 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-12 15:19:23,644 - INFO - Historique chargé: 34 députés déjà tweetés
+2026-05-12 15:19:23,646 - INFO - Nombre de députés uniques: 572
+2026-05-12 15:19:23,646 - INFO - Nombre de députés déjà tweetés: 34
+2026-05-12 15:19:23,647 - INFO - Sélectionné: 6906 - Gabriel AMARD (nouveau député)
+2026-05-12 15:19:23,647 - INFO - Tweet: 🏛 Le #député de la 6e circonscription du Rhône est Gabriel AMARD (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-12 15:19:23,847 - INFO - Sauvegarde effectuée: 6906 - Gabriel AMARD
+2026-05-12 15:19:23,847 - INFO - Succès: Response(data={'id': '2054219897450705392', 'edit_history_tweet_ids': ['2054219897450705392'], 'text': '🏛 Le #député de la 6e circonscription du Rhône est Gabriel AMARD (59 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-12 15:19:23,847 - INFO - === Fin ===
