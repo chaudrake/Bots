@@ -2,9 +2,9 @@ name: Ortograf Bot
 
 on:
   workflow_dispatch:
-  schedule:
+#  schedule:
     # Tous les jours à 09h UTC (11h en France été)
-    - cron: "59 8 * * *"
+ #   - cron: "59 8 * * *"
 
 jobs:
   run-bot:
