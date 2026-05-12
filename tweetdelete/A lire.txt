@@ -1,0 +1,3 @@
+ Ca efface tous les tweets a partir du fichier tweets.json de l'archive
+ Il faut que le fichier tweets.json soit décompressé et mis dans le dossier
+Le script demande de quelle date à quelle date effacer.
