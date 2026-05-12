@@ -1,0 +1,101 @@
+2026-04-17 17:59:19,308 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-17 18:59:18,916 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-17 19:59:21,848 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-17 20:59:22,619 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 03:59:21,755 - INFO - Le script Knafobot s'exécute maintenant
+2026-04-18 03:59:21,755 - INFO - Pause aléatoire
+2026-04-18 03:59:24,953 - INFO - Tweet publié : Sarah #Knafo est audacieuse.
+2026-04-18 03:59:24,953 - INFO - Qualités utilisées : 73/199
+2026-04-18 04:59:18,750 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 05:59:20,721 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 06:59:21,305 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 07:59:22,094 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 08:59:27,249 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 09:59:18,747 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 10:59:18,530 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 11:59:18,676 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 12:59:21,247 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 13:59:19,509 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 14:59:18,893 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 15:59:18,199 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 16:59:20,046 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 17:59:18,582 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 18:59:19,141 - INFO - Le script Knafobot s'exécute maintenant
+2026-04-18 18:59:19,141 - INFO - Pause aléatoire
+2026-04-18 18:59:21,717 - INFO - Tweet publié : Sarah #Knafo est sereine.
+2026-04-18 18:59:21,717 - INFO - Qualités utilisées : 74/199
+2026-04-18 19:59:20,925 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-18 20:59:21,617 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 03:59:21,143 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 04:59:18,763 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 05:59:21,288 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 06:59:18,374 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 07:59:18,396 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 08:59:24,404 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 09:59:18,692 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 10:59:18,490 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 11:59:18,811 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 12:59:18,761 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 13:59:18,488 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 14:59:18,101 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 15:59:18,311 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 16:59:19,385 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 17:59:18,659 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 18:59:20,645 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 19:59:19,080 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-19 20:59:19,498 - INFO - Le script Knafobot s'exécute maintenant
+2026-04-19 20:59:19,498 - INFO - Pause aléatoire
+2026-04-19 20:59:20,671 - INFO - Tweet publié : Sarah #Knafo est captivante.
+2026-04-19 20:59:20,671 - INFO - Qualités utilisées : 75/199
+2026-04-20 03:59:19,600 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 04:59:18,368 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 05:59:20,883 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 06:59:20,756 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 07:59:18,461 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 08:59:24,491 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 09:59:18,457 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 10:59:18,371 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 11:59:18,506 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 12:59:18,714 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 13:59:20,549 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 14:59:18,366 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 15:59:18,998 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 16:59:18,966 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 17:59:19,835 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 18:59:17,781 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 19:59:19,414 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-20 20:59:19,136 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 03:59:18,261 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 04:59:18,826 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 05:59:19,590 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 06:59:18,576 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 07:59:17,788 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 08:59:25,819 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 09:59:18,025 - INFO - Le script Knafobot s'exécute maintenant
+2026-04-21 09:59:18,026 - INFO - Pause aléatoire
+2026-04-21 09:59:19,200 - INFO - Tweet publié : Sarah #Knafo est exceptionnelle.
+2026-04-21 09:59:19,200 - INFO - Qualités utilisées : 76/199
+2026-04-21 10:59:20,033 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 11:59:18,373 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 12:59:18,529 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 13:59:18,424 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 14:59:20,435 - INFO - Le script Knafobot s'exécute maintenant
+2026-04-21 14:59:20,435 - INFO - Pause aléatoire
+2026-04-21 14:59:21,722 - INFO - Tweet publié : Sarah #Knafo est curieuse.
+2026-04-21 14:59:21,722 - INFO - Qualités utilisées : 77/199
+2026-04-21 15:59:19,884 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 16:59:19,017 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 17:59:19,194 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 18:59:20,042 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 19:59:21,418 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-21 20:59:19,538 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-22 03:59:19,865 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-22 04:59:19,641 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-22 05:59:22,432 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-22 06:59:18,555 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-04-22 07:59:18,742 - INFO - Le script Knafobot s'exécute maintenant
+2026-04-22 07:59:18,742 - INFO - Pause aléatoire
+2026-04-22 07:59:22,920 - INFO - Tweet publié : Sarah #Knafo est excellente.
+2026-04-22 07:59:22,920 - INFO - Qualités utilisées : 78/199
+2026-04-22 08:59:26,035 - INFO - Le script Knafobot ne s'exécute pas cette fois
+2026-05-01 08:59:46,223 - INFO - Le script Knafobot ne s'exécute pas cette fois
