@@ -1,3 +1,5 @@
+# 1 tweet par lancement.
+# sleep de 0 à 2h avant déclenchement du tweet
 import os
 import json
 import tweepy
