@@ -1,0 +1,41 @@
+name: KnafoBot Action
+
+on:
+  schedule:
+    # Lancement à 08:30 et 15:30 UTC (environ 9h30 et 16h30 en France)
+    - cron: '30 8,15 * * *'
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Run bot
+        env:
+          KNAFO_CONSUMER_KEY: ${{ secrets.KNAFO_CONSUMER_KEY }}
+          KNAFO_CONSUMER_SECRET: ${{ secrets.KNAFO_CONSUMER_SECRET }}
+          KNAFO_ACCESS_TOKEN: ${{ secrets.KNAFO_ACCESS_TOKEN }}
+          KNAFO_ACCESS_TOKEN_SECRET: ${{ secrets.KNAFO_ACCESS_TOKEN_SECRET }}
+        run: python knafo/knafo.py
+
+      - name: Update Repository (Index)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main
+          git add knafo/last_index.json
+          git commit -m "Update Knafo index [skip ci]" || echo "No changes"
+          git push
