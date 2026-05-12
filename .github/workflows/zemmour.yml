@@ -2,8 +2,8 @@ name: ZemmourBot Action
 
 on:
   schedule:
-    # Un tweet toutes les 12 heures
-    - cron: '0 */12 * * *'
+    # Déclenchements à 08:00 et 15:00 UTC
+    - cron: '0 8,15 * * *'
   workflow_dispatch: 
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
           ZEMMOUR_ACCESS_TOKEN_SECRET: ${{ secrets.ZEMMOUR_ACCESS_TOKEN_SECRET }}
         run: python zemmour/zemmour.py
 
-      - name: Update Repository
+      - name: Update Repository (Index)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
