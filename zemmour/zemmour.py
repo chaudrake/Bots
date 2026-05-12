@@ -1,14 +1,16 @@
 import os
 import json
 import tweepy
+import time
+import random
 
-# Configuration des chemins relative au script
+# Configuration des chemins
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INDEX_FILE = os.path.join(BASE_DIR, "index.txt")
 DATA_FILE = os.path.join(BASE_DIR, "bot.json")
 
 def init_twitter_client():
-    """Initialise le client Twitter avec les secrets spécifiques à ZemmourBot."""
+    """Initialise le client Twitter avec les secrets spécifiques."""
     client = tweepy.Client(
         consumer_key=os.environ["ZEMMOUR_CONSUMER_KEY"],
         consumer_secret=os.environ["ZEMMOUR_CONSUMER_SECRET"],
@@ -18,12 +20,11 @@ def init_twitter_client():
     return client
 
 def get_next_qualifier():
-    [span_0](start_span)"""Récupère le prochain qualificatif dans l'ordre de la liste[span_0](end_span)."""
+    """Récupère le prochain qualificatif et met à jour l'index."""
     with open(DATA_FILE, 'r', encoding="utf-8") as f:
         data = json.load(f)
         qualifiers = data["qualif"]
 
-    # Gestion de l'index pour le suivi de progression
     if os.path.exists(INDEX_FILE):
         with open(INDEX_FILE, 'r') as f:
             try:
@@ -33,13 +34,11 @@ def get_next_qualifier():
     else:
         index = 0
 
-    # Boucle si on dépasse la taille de la liste
     if index >= len(qualifiers):
         index = 0
 
     qualifier = qualifiers[index]
     
-    # Mise à jour de l'index pour le prochain passage
     with open(INDEX_FILE, 'w') as f:
         f.write(str(index + 1))
     
@@ -47,17 +46,22 @@ def get_next_qualifier():
 
 def run_bot():
     try:
+        # --- PAUSE ALÉATOIRE (0 à 120 minutes) ---
+        wait_minutes = random.randint(0, 120)
+        print(f"Attente aléatoire : {wait_minutes} minutes avant postage...")
+        time.sleep(wait_minutes * 60)
+        # -----------------------------------------
+
         client = init_twitter_client()
         qualifier = get_next_qualifier()
         
-        # [span_1](start_span)Reconstruction de la phrase[span_1](end_span)
         tweet_text = f"Éric #Zemmour est {qualifier}."
         
         client.create_tweet(text=tweet_text)
-        print(f"Tweet envoyé : {tweet_text}")
+        print(f"Succès : {tweet_text}")
         
     except Exception as e:
-        print(f"Erreur lors de l'exécution : {e}")
+        print(f"Erreur : {e}")
         exit(1)
 
 if __name__ == "__main__":
