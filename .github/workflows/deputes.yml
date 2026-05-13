@@ -1,9 +1,10 @@
+# lancé par cron-job.org
 name: Députés
 
 on:
-  schedule:
+ # schedule:
   
-    - cron: '30 9,12,15,18 * * *'
+ #   - cron: '30 9,12,15,18 * * *'
   workflow_dispatch:
 
 jobs:
