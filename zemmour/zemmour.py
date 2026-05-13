@@ -52,8 +52,8 @@ def get_next_qualifier():
 
 def run_bot():
     try:
-        # Pause aléatoire (0 à 120 minutes)
-        wait_minutes = random.randint(0, 120)
+        # Pause aléatoire (0 à 10 minutes)
+        wait_minutes = random.randint(0, 10)
         print(f"Attente : {wait_minutes} min...")
         time.sleep(wait_minutes * 60)
 
