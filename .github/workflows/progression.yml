@@ -3,7 +3,7 @@ name: Progression Année
 on:
   schedule:
     - cron: '0 10 * * *'
-  workflow_dispatch: # Pour tester manuellement
+  workflow_dispatch:
 
 jobs:
   run-bot:
