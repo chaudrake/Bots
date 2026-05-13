@@ -1,14 +1,3 @@
-2026-05-11 20:11:28,859 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-11 20:11:28,939 - INFO - Historique chargé: 1634 maires déjà tweetés
-2026-05-11 20:11:28,959 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-11 20:11:28,959 - INFO - Nombre de maires déjà tweetés: 1634
-2026-05-11 20:11:28,960 - INFO - Sélectionné: 68377 - Benoît ACKERMANN (nouveau maire)
-2026-05-11 20:11:28,961 - INFO - Tweet: 🏛 Le #maire de Wittersdorf (Haut-Rhin) est Benoît ACKERMANN (34 ans) #MairesdeFrance 🇫🇷
-2026-05-11 20:11:29,189 - INFO - Sauvegarde effectuée: 68377 - Benoît ACKERMANN
-2026-05-11 20:11:29,189 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Wittersdorf (Haut-Rhin) est Benoît ACKERMANN (34 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2053931016184594453'], 'id': '2053931016184594453'}, includes={}, errors=[], meta={})
-2026-05-11 20:11:29,191 - INFO - === Fin ===
-2026-05-11 21:11:34,952 - INFO - === Démarrage Maires ===
-2026-05-11 21:11:34,952 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-11 21:11:34,952 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-11 21:11:35,038 - INFO - Historique chargé: 1635 maires déjà tweetés
 2026-05-11 21:11:35,058 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-12 21:10:46,649 - INFO - Sauvegarde effectuée: 45305 - Philippe VACHER
 2026-05-12 21:10:46,649 - INFO - Succès: Response(data={'id': '2054308325081100527', 'text': '🏛 Le #maire de Seichebrières (Loiret) est Philippe VACHER (63 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054308325081100527']}, includes={}, errors=[], meta={})
 2026-05-12 21:10:46,651 - INFO - === Fin ===
+2026-05-13 10:15:03,669 - INFO - === Démarrage Maires ===
+2026-05-13 10:15:03,669 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-13 10:15:03,669 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-13 10:15:03,754 - INFO - Historique chargé: 1644 maires déjà tweetés
+2026-05-13 10:15:03,776 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-13 10:15:03,776 - INFO - Nombre de maires déjà tweetés: 1644
+2026-05-13 10:15:03,778 - INFO - Sélectionné: 06066 - Jean-Claude NIEL (nouveau maire)
+2026-05-13 10:15:03,779 - INFO - Tweet: 🏛 Le #maire de Gilette (Oise) est Jean-Claude NIEL (71 ans) #MairesdeFrance 🇫🇷
+2026-05-13 10:15:04,009 - INFO - Sauvegarde effectuée: 06066 - Jean-Claude NIEL
+2026-05-13 10:15:04,009 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054505697841222036'], 'id': '2054505697841222036', 'text': '🏛 Le #maire de Gilette (Oise) est Jean-Claude NIEL (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-13 10:15:04,011 - INFO - === Fin ===
