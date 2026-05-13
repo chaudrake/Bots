@@ -1,0 +1,30 @@
+# Ça crée les barres de progression dans le dossier /barres
+from PIL import Image, ImageDraw, ImageFont
+import os
+
+OUTPUT_DIR = "/home/pyth1on/progression_annee/barres2"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+width, height = 500, 60
+bg_color = (30, 30, 30)
+bar_color = (0, 200, 100)
+text_color = (255, 255, 255)
+font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+for i in range(100):
+    img = Image.new('RGB', (width, height), bg_color)
+    draw = ImageDraw.Draw(img)
+
+    draw.rectangle([0, 0, width, height], fill=(50, 50, 50))
+    bar_width = int(width * (i / 100))
+    draw.rectangle([0, 0, bar_width, height], fill=bar_color)
+
+    text = f"{i}%"
+    try:
+        font = ImageFont.truetype(font_path, 24)
+    except:
+        font = ImageFont.load_default()
+    text_w, text_h = draw.textsize(text, font=font)
+    draw.text(((width - text_w) / 2, (height - text_h) / 2), text, fill=text_color, font=font)
+
+    img.save(os.path.join(OUTPUT_DIR, f"progress_{i}.gif"), format="GIF")
