@@ -44,7 +44,7 @@ def should_execute_script():
     if random.random() < 0.10: 
         log_and_print("Le script CMB s'exécute maintenant")
     else:
-        log_and_print("Le script CMB ne s'exécute pas cette fois (tirage aléatoire)")
+        log_and_print("Le script CMB ne s'exécute pas cette fois (90% des cas)")
         sys.exit()
 
 def read_qualities(qualities_file):
