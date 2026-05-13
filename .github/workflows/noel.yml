@@ -1,5 +1,5 @@
 # lancement par cron-jobs.org
-name: NoelBot Action
+name: Noel Bot
 
 on:
 #  schedule:
