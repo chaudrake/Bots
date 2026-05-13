@@ -1,5 +1,6 @@
 # le bot tweete à 11h11, 22h22 et 00h00
 # lancements par cron - corrigé pour gérer le passage à minuit
+
 import tweepy
 import os
 import sys
@@ -13,14 +14,9 @@ CONSUMER_SECRET = os.getenv('THeure_CONSUMER_SECRET')
 ACCESS_KEY = os.getenv('THeure_ACCESS_KEY')
 ACCESS_SECRET = os.getenv('THeure_ACCESS_SECRET')
 
-if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
-    print("❌ Missing Twitter API credentials")
-    sys.exit(1)
-
 france_tz = pytz.timezone('Europe/Paris')
 
 def get_twitter_client():
-    """Initialise et retourne un client Tweepy frais"""
     return tweepy.Client(
         access_token=ACCESS_KEY,
         access_token_secret=ACCESS_SECRET,
@@ -29,70 +25,73 @@ def get_twitter_client():
     )
 
 def wait_until_target(target_hour, target_minute):
-    """Attend précisément jusqu'à l'heure cible (heure française)"""
     now = datetime.now(france_tz)
     target = now.replace(hour=target_hour, minute=target_minute, second=0, microsecond=0)
     
-    if target <= now:
+    # Si la cible est minuit et qu'il est tard le soir, c'est pour le lendemain
+    if target_hour == 0 and now.hour >= 22:
         target += timedelta(days=1)
-        print(f"📅 Heure cible {target_hour:02d}:{target_minute:02d} programmée pour demain")
     
+    # Si l'heure est déjà passée de plus d'une minute, on ne traite pas
+    if target < (now - timedelta(minutes=1)):
+        return False
+
     wait_seconds = (target - now).total_seconds()
     
-    print(f"🕐 Heure courante (FR): {now.strftime('%H:%M:%S')}")
-    print(f"🎯 Heure cible: {target_hour:02d}:{target_minute:02d} (le {target.strftime('%d/%m')})")
-    print(f"⏳ Attente de {wait_seconds:.0f} secondes (soit {wait_seconds/60:.1f} minutes)")
+    if wait_seconds < 0: # On est dans la minute même
+        wait_seconds = 0
+
+    print(f"🕐 Heure actuelle : {now.strftime('%H:%M:%S')}")
+    print(f"🎯 Cible détectée : {target_hour:02d}:{target_minute:02d}")
     
-    if wait_seconds > 43200:
-        print("⚠️ Attente trop longue (>12h), abandon sans erreur")
+    if wait_seconds > 7200: # Sécurité : n'attend pas plus de 2h
+        print("⚠️ Cible trop lointaine, le script s'arrête pour économiser les ressources.")
         return False
     
+    print(f"⏳ Attente de {wait_seconds:.0f} secondes...")
     time.sleep(wait_seconds)
-    print(f"✅ Il est maintenant {target_hour:02d}:{target_minute:02d} !")
     return True
 
 def post_tweet():
-    """Poste l'heure actuelle en recréant le client"""
     now = datetime.now(france_tz)
     current_time_str = now.strftime('%H:%M')
-    
     try:
         client = get_twitter_client()
         client.create_tweet(text=current_time_str)
         print(f"✅ Tweet envoyé : {current_time_str}")
         return True
     except Exception as e:
-        print(f"❌ Erreur lors du tweet : {e}")
+        print(f"❌ Erreur : {e}")
         return False
 
 def main():
-    target_times_str = os.getenv('TARGET_TIMES', '')
-    if not target_times_str:
-        print("❌ Variable TARGET_TIMES manquante")
+    if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
+        print("❌ Credentials manquants")
         sys.exit(1)
+
+    # Définition des paliers
+    paliers = [(11, 11), (22, 22), (0, 0)]
+    now = datetime.now(france_tz)
     
-    target_times = []
-    for part in target_times_str.split(','):
-        part = part.strip()
-        if ':' in part:
-            h, m = part.split(':')
-            target_times.append((int(h), int(m)))
+    cible_retenue = None
     
-    print(f"📌 Horaires cibles: {target_times}")
-    
-    for hour, minute in target_times:
-        print(f"\n--- Préparation du tweet pour {hour:02d}:{minute:02d} ---")
-        if wait_until_target(hour, minute):
-            if not post_tweet():
-                print(f"⚠️ Échec du tweet pour {hour:02d}:{minute:02d}")
-    
-    print("🏁 Opération terminée")
-    sys.exit(0)
+    for h, m in paliers:
+        target_dt = now.replace(hour=h, minute=m, second=0, microsecond=0)
+        if h == 0 and now.hour >= 22:
+            target_dt += timedelta(days=1)
+            
+        # On prend le premier palier qui n'est pas encore passé
+        if now < (target_dt + timedelta(seconds=10)):
+            cible_retenue = (h, m)
+            break
+
+    if cible_retenue:
+        h, m = cible_retenue
+        if wait_until_target(h, m):
+            post_tweet()
+    else:
+        print("Commutation : Aucune cible proche trouvée.")
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print(f"❌ Erreur inattendue: {e}")
-        sys.exit(0)
-        
+    main()
+    
