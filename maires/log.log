@@ -1,14 +1,3 @@
-2026-05-12 10:25:18,074 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-12 10:25:18,158 - INFO - Historique chargé: 1636 maires déjà tweetés
-2026-05-12 10:25:18,178 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-12 10:25:18,178 - INFO - Nombre de maires déjà tweetés: 1636
-2026-05-12 10:25:18,180 - INFO - Sélectionné: 59539 - Gérard GRONDEL (nouveau maire)
-2026-05-12 10:25:18,181 - INFO - Tweet: 🏛 Le #maire de Saint-Pierre-Brouck (Nord) est Gérard GRONDEL (75 ans) #MairesdeFrance 🇫🇷
-2026-05-12 10:25:18,375 - INFO - Sauvegarde effectuée: 59539 - Gérard GRONDEL
-2026-05-12 10:25:18,375 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054145886960103799'], 'id': '2054145886960103799', 'text': '🏛 Le #maire de Saint-Pierre-Brouck (Nord) est Gérard GRONDEL (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-12 10:25:18,377 - INFO - === Fin ===
-2026-05-12 13:01:47,288 - INFO - === Démarrage Maires ===
-2026-05-12 13:01:47,288 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-12 13:01:47,288 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-12 13:01:47,372 - INFO - Historique chargé: 1637 maires déjà tweetés
 2026-05-12 13:01:47,395 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-13 11:38:28,081 - INFO - Sauvegarde effectuée: 76012 - Séverine CHICOT
 2026-05-13 11:38:28,081 - INFO - Succès: Response(data={'text': '🏛 La #maire de Angerville-Bailleul (Seine-Maritime) est Séverine CHICOT (46 ans) #MairesdeFrance 🇫🇷', 'id': '2054526686578766119', 'edit_history_tweet_ids': ['2054526686578766119']}, includes={}, errors=[], meta={})
 2026-05-13 11:38:28,084 - INFO - === Fin ===
+2026-05-13 13:07:23,470 - INFO - === Démarrage Maires ===
+2026-05-13 13:07:23,470 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-13 13:07:23,470 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-13 13:07:23,557 - INFO - Historique chargé: 1646 maires déjà tweetés
+2026-05-13 13:07:23,580 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-13 13:07:23,581 - INFO - Nombre de maires déjà tweetés: 1646
+2026-05-13 13:07:23,582 - INFO - Sélectionné: 71435 - Guy MIKOLAJSKI (nouveau maire)
+2026-05-13 13:07:23,584 - INFO - Tweet: 🏛 Le #maire de Saint-Julien-Sur-Dheune (Saône-et-Loire) est Guy MIKOLAJSKI (74 ans) #MairesdeFrance 🇫🇷
+2026-05-13 13:07:23,771 - INFO - Sauvegarde effectuée: 71435 - Guy MIKOLAJSKI
+2026-05-13 13:07:23,771 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Saint-Julien-Sur-Dheune (Saône-et-Loire) est Guy MIKOLAJSKI (74 ans) #MairesdeFrance 🇫🇷', 'id': '2054549066114117779', 'edit_history_tweet_ids': ['2054549066114117779']}, includes={}, errors=[], meta={})
+2026-05-13 13:07:23,773 - INFO - === Fin ===
