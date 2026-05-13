@@ -1,5 +1,5 @@
 # lancé oar cron-job.org
-name: CMB Bot Schedule
+name: CMB Bot
 
 on:
 #  schedule:
