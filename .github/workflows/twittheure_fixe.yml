@@ -1,5 +1,5 @@
 # Lancé par cron-job.org
-name: TwittHeure - 11h11 22h22 00h00
+name: TwittHeure 11h11 22h22 00h00
 
 on:
   workflow_dispatch:
@@ -26,7 +26,6 @@ jobs:
           cd twittheure
           python twittheure_fixe.py
         env:
-          TARGET_TIMES: ${{ github.event.inputs.TARGET_TIMES || '00:00' }}
           THeure_CONSUMER_KEY: ${{ secrets.THEURE_CONSUMER_KEY }}
           THeure_CONSUMER_SECRET: ${{ secrets.THEURE_CONSUMER_SECRET }}
           THeure_ACCESS_KEY: ${{ secrets.THEURE_ACCESS_KEY }}
