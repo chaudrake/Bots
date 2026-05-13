@@ -1,9 +1,10 @@
+# lancé oar cron-job.org
 name: CMB Bot Schedule
 
 on:
-  schedule:
+#  schedule:
     # Toutes les 4 heures entre 5h et 20h UTC
-    - cron: '0 5,9,13,17,21 * * *'
+ #   - cron: '0 5,9,13,17,21 * * *'
   workflow_dispatch:
 
 jobs:
