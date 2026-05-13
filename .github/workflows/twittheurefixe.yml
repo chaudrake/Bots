@@ -3,34 +3,32 @@ name: TwittHeure - Heures Fixes
 
 on:
   workflow_dispatch:
- # schedule:
-  #  # Pour 11:11 (heure française) - Cron à 7:30 UTC
-   # - cron: "30 7 * * *"
-    
-    # Pour 22:22 ET 00:00 (heure française) - Cron à 19:00 UTC
- #    - cron: "0 19 * * *"
 
 jobs:
-  run-bot-11h11:
+  run-bot:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+          
       - name: Install dependencies
         run: |
           cd twittheure
           pip install tweepy pytz
-      - name: Run bot for 11:11
+          
+      - name: Run bot
         run: |
           cd twittheure
           python twittheure_fixe.py
         env:
-          TARGET_TIMES: "11:11"
+          TARGET_TIMES: ${{ github.event.inputs.TARGET_TIMES || '00:00' }}
           THeure_CONSUMER_KEY: ${{ secrets.THEURE_CONSUMER_KEY }}
           THeure_CONSUMER_SECRET: ${{ secrets.THEURE_CONSUMER_SECRET }}
           THeure_ACCESS_KEY: ${{ secrets.THEURE_ACCESS_KEY }}
           THeure_ACCESS_SECRET: ${{ secrets.THEURE_ACCESS_SECRET }}
+          
