@@ -1,4 +1,4 @@
-name: Aperobot - Tweet Quotidien
+name: Aperobot
 
 on:
   schedule:
