@@ -1,4 +1,4 @@
-name: ZemmourBot Action
+name: ZemmourBot
 
 on:
   schedule:
