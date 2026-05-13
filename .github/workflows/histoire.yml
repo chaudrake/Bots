@@ -1,4 +1,4 @@
-name: Histoire Bot Schedule
+name: Histoire Bot
 
 on:
   schedule:
