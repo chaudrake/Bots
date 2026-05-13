@@ -33,11 +33,22 @@ jobs:
 
       - name: Update Repository (Index)
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
-          # On ajoute le nouveau fichier index.json
-          git add zemmour/index.json
-          # On commit seulement s'il y a des changements
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index [skip ci]" && git push)
-
+          [span_2](start_span)git config --global user.name "github-actions[bot]"[span_2](end_span)
+          [span_3](start_span)git config --global user.email "github-actions[bot]@users.noreply.github.com"[span_3](end_span)
+          
+          # 1. On prépare le fichier modifié
+          [span_4](start_span)git add zemmour/index.json[span_4](end_span)
+          
+          # 2. On vérifie s'il y a des changements à enregistrer
+          [span_5](start_span)if ! git diff --cached --quiet; then[span_5](end_span)
+            # 3. On commit les changements localement pour "nettoyer" le répertoire
+            [span_6](start_span)git commit -m "Update index [skip ci]"[span_6](end_span)
+            
+            # 4. Maintenant on peut faire le pull rebase sans erreur
+            [span_7](start_span)git pull --rebase origin main[span_7](end_span)
+            
+            # 5. On envoie vers GitHub
+            [span_8](start_span)git push[span_8](end_span)
+          else
+            echo "Aucun changement détecté dans l'index."
+          fi
