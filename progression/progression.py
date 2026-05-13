@@ -4,25 +4,22 @@ import logging
 from datetime import datetime
 import tweepy
 
-# Configuration des chemins relatifs au dépôt GitHub
-# On part du principe que le script est dans /progression/
+# Configuration des chemins relatifs
 WORKING_DIR = os.path.dirname(os.path.abspath(__file__))
 PROGRESS_BARS_DIR = os.path.join(WORKING_DIR, 'barres')
 
-# Récupération des tokens via les variables d'environnement (Secrets GitHub)
+# Récupération des tokens via Secrets GitHub
 ACCESS_KEY = os.getenv('PROGRESSION_ACCESS_KEY')
 ACCESS_SECRET = os.getenv('PROGRESSION_ACCESS_SECRET')
 CONSUMER_KEY = os.getenv('PROGRESSION_CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('PROGRESSION_CONSUMER_SECRET')
 
-# Logging configuré pour GitHub Actions
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def log_and_print(message):
     logging.info(message)
 
 def create_twitter_client():
-    """Crée le client Twitter avec tes variables spécifiques"""
     try:
         return tweepy.Client(
             consumer_key=CONSUMER_KEY,
@@ -43,8 +40,10 @@ def calculate_year_progress():
     return (elapsed / year_duration) * 100
 
 def get_progress_image_path(progress):
+    """Retourne le chemin vers le fichier .gif correspondant"""
     progress_rounded = max(0, min(100, int(round(progress))))
-    image_name = f"progress_{progress_rounded}.png"
+    # [span_0](start_span)Mise à jour de l'extension en .gif[span_0](end_span)
+    image_name = f"progress_{progress_rounded}.gif"
     return os.path.join(PROGRESS_BARS_DIR, image_name)
 
 def generate_progress_tweet():
@@ -68,20 +67,22 @@ def post_tweet(api):
         progress = calculate_year_progress()
         image_path = get_progress_image_path(progress)
 
-        # Upload media via API v1.1
+        # Auth v1.1 pour l'upload média
         auth = tweepy.OAuth1UserHandler(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET)
         api_v1 = tweepy.API(auth)
+        
+        log_and_print(f"Upload de l'image: {image_path}")
         media = api_v1.media_upload(image_path)
         
-        # Envoi du tweet via API v2
+        # Envoi via API v2
         api.create_tweet(text=tweet_text, media_ids=[media.media_id])
         return True
     except Exception as e:
-        log_and_print(f"Erreur envoi: {e}")
+        log_and_print(f"Erreur lors de l'envoi: {e}")
         return False
 
 def main():
-    log_and_print("Démarrage du script")
+    log_and_print("Démarrage du script année écoulée")
     api = create_twitter_client()
     if api and post_tweet(api):
         log_and_print("Tweet envoyé avec succès")
