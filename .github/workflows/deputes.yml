@@ -40,7 +40,7 @@ jobs:
           DEPUTE_CONSUMER_KEY: ${{ secrets.DEPUTE_CONSUMER_KEY }}
           DEPUTE_CONSUMER_SECRET: ${{ secrets.DEPUTE_CONSUMER_SECRET }}
 
-       - name: Save history update
+      - name: Save history update
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
