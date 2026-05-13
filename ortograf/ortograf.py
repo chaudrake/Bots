@@ -33,8 +33,8 @@ if random.random() < 0.7:
 else:
     print("📅 Le script Ortograf s'exécute aujourd'hui (30% de chance)")
 
-# Pause aléatoire entre 10 secondes et 7 heures (25000 sec)
-wait_time = randint(10, 25000)
+# Pause aléatoire entre 10 secondes et 6 heures
+wait_time = randint(10, 21000)
 print(f"⏳ Pause pendant {wait_time} secondes...")
 sleep(wait_time)
 
