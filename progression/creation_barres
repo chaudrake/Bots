@@ -1,4 +1,4 @@
-# Ça crée les barres de progression dans le dossier /barres
+ # Ça crée les barres de progression dans le dossier /barres
 from PIL import Image, ImageDraw, ImageFont
 import os
 
