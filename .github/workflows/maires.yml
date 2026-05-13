@@ -1,9 +1,10 @@
+# lancé par cron-job.org
 name: Maires
 
 on:
-  schedule:
-    - cron: '0 8,11,14,17,20 * * *'
-    - cron: '30 9,12,15,18 * * *'
+  #schedule:
+ #   - cron: '0 8,11,14,17,20 * * *'
+ #   - cron: '30 9,12,15,18 * * *'
   workflow_dispatch:
 
 jobs:
