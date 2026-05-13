@@ -1,31 +1,29 @@
-name: Daily Year Progress Tweet
+name: Progression Année
 
 on:
   schedule:
-    # 10h UTC chaque jour
     - cron: '0 10 * * *'
-  workflow_dispatch: # Permet de lancer le script manuellement pour tester
+  workflow_dispatch: # Pour tester manuellement
 
 jobs:
-  build:
+  run-bot:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: |
-          pip install tweepy
+        run: pip install tweepy
 
-      - name: Run script
+      - name: Execute script
         env:
-          TWITTER_ACCESS_KEY: ${{ secrets.TWITTER_ACCESS_KEY }}
-          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
-          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          PROGRESSION_ACCESS_KEY: ${{ secrets.PROGRESSION_ACCESS_KEY }}
+          PROGRESSION_ACCESS_SECRET: ${{ secrets.PROGRESSION_ACCESS_SECRET }}
+          PROGRESSION_CONSUMER_KEY: ${{ secrets.PROGRESSION_CONSUMER_KEY }}
+          PROGRESSION_CONSUMER_SECRET: ${{ secrets.PROGRESSION_CONSUMER_SECRET }}
         run: python progression/progression.py
