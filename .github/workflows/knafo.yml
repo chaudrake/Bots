@@ -31,7 +31,7 @@ jobs:
           KNAFO_ACCESS_TOKEN_SECRET: ${{ secrets.KNAFO_ACCESS_TOKEN_SECRET }}
         run: python knafo/knafo.py
 
-       - name: Update Repository (Index)
+      - name: Update Repository (Index)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
