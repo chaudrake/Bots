@@ -1,5 +1,5 @@
 # Lancé par cron-jobs.org
-name: Ortograf Bot
+name: Ortograf
 
 on:
   workflow_dispatch:
