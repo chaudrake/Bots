@@ -1,7 +1,7 @@
 # Bots
 
 FAIRE MARCHER LES CRON depuis cron-jobs.org :
-url : https://api.github.com/repos/chaudrake/Bots/actions/workflows/murdescons.yml/dispatches
+url : https://api.github.com/repos/chaudrake/Bots/actions/workflows/motsrares.yml/dispatches
 
 paramètres avancés :
 en tetes :
