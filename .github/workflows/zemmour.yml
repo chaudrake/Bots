@@ -1,9 +1,9 @@
 name: ZemmourBot
 
 on:
-#  schedule:
+  schedule:
     # [span_1](start_span)Déclenchements à 08:00 et 15:00 UTC[span_1](end_span)
- #   - cron: '0 8,15 * * *'
+    - cron: '0 8,15 * * *'
   workflow_dispatch: 
 
 jobs:
