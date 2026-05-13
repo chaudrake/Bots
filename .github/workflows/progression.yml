@@ -1,5 +1,5 @@
 # lancé par cron-job.org
-name: Progression Année
+name: Progression
 
 on:
  # schedule:
