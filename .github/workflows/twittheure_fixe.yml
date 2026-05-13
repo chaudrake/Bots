@@ -1,5 +1,5 @@
 # Lancé par cron-job.org
-name: TwittHeure - Heures Fixes
+name: TwittHeure - 11h11 22h22 00h00
 
 on:
   workflow_dispatch:
