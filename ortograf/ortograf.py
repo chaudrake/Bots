@@ -27,14 +27,14 @@ api = tweepy.Client(
 print('🚀 Lancement du bot Ortograf')
 
 # Détermine aléatoirement si le script doit s'exécuter aujourd'hui (70% de chance de NE PAS s'exécuter)
-if random.random() < 0.07:
+if random.random() < 0.7:
     print("📅 Le script Ortograf ne s'exécute pas aujourd'hui (70% de chance)")
     sys.exit(0)
 else:
     print("📅 Le script Ortograf s'exécute aujourd'hui (30% de chance)")
 
 # Pause aléatoire entre 10 secondes et 6 heures 21000 sec
-wait_time = randint(10, 21)
+wait_time = randint(10, 21000)
 print(f"⏳ Pause pendant {wait_time} secondes...")
 sleep(wait_time)
 
