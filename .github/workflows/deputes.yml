@@ -40,17 +40,25 @@ jobs:
           DEPUTE_CONSUMER_KEY: ${{ secrets.DEPUTE_CONSUMER_KEY }}
           DEPUTE_CONSUMER_SECRET: ${{ secrets.DEPUTE_CONSUMER_SECRET }}
 
-      - name: Save history update
+       - name: Save history update
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add deputes/tweeted_deputes.txt
           git add deputes/log.log
-          # On vérifie s'il y a eu un changement
+          
           if ! git diff --quiet --staged; then
             git commit -m "🤖 Députés: Mise à jour de la liste"
-            # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
-            git pull --rebase origin main
-            git push
+            
+            # Boucle pour gérer les conflits de push simultanés
+            for i in {1..5}; do
+              git pull --rebase origin main
+              if git push; then
+                echo "Push réussi !"
+                exit 0
+              fi
+              echo "Échec du push, nouvelle tentative dans 5 secondes..."
+              sleep 5
+            done
+            exit 1
           fi
-
