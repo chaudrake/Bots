@@ -2,7 +2,7 @@ name: ZemmourBot
 
 on:
   schedule:
-    # Déclenchements à 08:00 et 15:00 UTC
+    # [span_1](start_span)Déclenchements à 08:00 et 15:00 UTC[span_1](end_span)
     - cron: '0 8,15 * * *'
   workflow_dispatch: 
 
@@ -33,22 +33,18 @@ jobs:
 
       - name: Update Repository (Index)
         run: |
-          [span_2](start_span)git config --global user.name "github-actions[bot]"[span_2](end_span)
-          [span_3](start_span)git config --global user.email "github-actions[bot]@users.noreply.github.com"[span_3](end_span)
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. On prépare le fichier modifié
-          [span_4](start_span)git add zemmour/index.json[span_4](end_span)
+          # On indexe le fichier json modifié
+          git add zemmour/index.json
           
-          # 2. On vérifie s'il y a des changements à enregistrer
-          [span_5](start_span)if ! git diff --cached --quiet; then[span_5](end_span)
-            # 3. On commit les changements localement pour "nettoyer" le répertoire
-            [span_6](start_span)git commit -m "Update index [skip ci]"[span_6](end_span)
-            
-            # 4. Maintenant on peut faire le pull rebase sans erreur
-            [span_7](start_span)git pull --rebase origin main[span_7](end_span)
-            
-            # 5. On envoie vers GitHub
-            [span_8](start_span)git push[span_8](end_span)
+          # On commit seulement s'il y a des modifications
+          if ! git diff --cached --quiet; then
+            git commit -m "Update index [skip ci]"
+            git pull --rebase origin main
+            git push
           else
-            echo "Aucun changement détecté dans l'index."
+            echo "Aucune modification à sauvegarder."
           fi
+          
