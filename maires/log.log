@@ -1,14 +1,3 @@
-2026-05-13 11:38:27,764 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-13 11:38:27,764 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-13 11:38:27,850 - INFO - Historique chargé: 1645 maires déjà tweetés
-2026-05-13 11:38:27,873 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-13 11:38:27,873 - INFO - Nombre de maires déjà tweetés: 1645
-2026-05-13 11:38:27,875 - INFO - Sélectionné: 76012 - Séverine CHICOT (nouveau maire)
-2026-05-13 11:38:27,877 - INFO - Tweet: 🏛 La #maire de Angerville-Bailleul (Seine-Maritime) est Séverine CHICOT (46 ans) #MairesdeFrance 🇫🇷
-2026-05-13 11:38:28,081 - INFO - Sauvegarde effectuée: 76012 - Séverine CHICOT
-2026-05-13 11:38:28,081 - INFO - Succès: Response(data={'text': '🏛 La #maire de Angerville-Bailleul (Seine-Maritime) est Séverine CHICOT (46 ans) #MairesdeFrance 🇫🇷', 'id': '2054526686578766119', 'edit_history_tweet_ids': ['2054526686578766119']}, includes={}, errors=[], meta={})
-2026-05-13 11:38:28,084 - INFO - === Fin ===
-2026-05-13 13:07:23,470 - INFO - === Démarrage Maires ===
 2026-05-13 13:07:23,470 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-13 13:07:23,470 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-13 13:07:23,557 - INFO - Historique chargé: 1646 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-05-14 13:46:24,768 - INFO - Sauvegarde effectuée: 49002 - Simon HOLLEY
 2026-05-14 13:46:24,768 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Allonnes (Maine-et-Loire) est Simon HOLLEY (33 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054921272841408868'], 'id': '2054921272841408868'}, includes={}, errors=[], meta={})
 2026-05-14 13:46:24,770 - INFO - === Fin ===
+2026-05-14 14:46:30,008 - INFO - === Démarrage Maires ===
+2026-05-14 14:46:30,008 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-14 14:46:30,008 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-14 14:46:30,095 - INFO - Historique chargé: 1653 maires déjà tweetés
+2026-05-14 14:46:30,116 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-14 14:46:30,117 - INFO - Nombre de maires déjà tweetés: 1653
+2026-05-14 14:46:30,118 - INFO - Sélectionné: 83075 - Michel MONDANI (nouveau maire)
+2026-05-14 14:46:30,119 - INFO - Tweet: 🏛 Le #maire de Les Mayons (Var) est Michel MONDANI (82 ans) #MairesdeFrance 🇫🇷
+2026-05-14 14:46:30,383 - INFO - Sauvegarde effectuée: 83075 - Michel MONDANI
+2026-05-14 14:46:30,384 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Les Mayons (Var) est Michel MONDANI (82 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054936395815235700'], 'id': '2054936395815235700'}, includes={}, errors=[], meta={})
+2026-05-14 14:46:30,386 - INFO - === Fin ===
