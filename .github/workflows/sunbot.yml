@@ -1,4 +1,4 @@
-name: Sunbot Execution
+name: Sunbot
 
 on:
   schedule:
