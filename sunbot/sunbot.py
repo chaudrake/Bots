@@ -8,7 +8,7 @@ from time import sleep
 import sys
 
 # 1. Tirage aléatoire : 1 chance sur 3 environ
-if random.random() > 0.933:
+if random.random() > 0.33:
     print("Le tirage n'a pas été retenu. Sunbot passe son tour.")
     sys.exit(0)
 
