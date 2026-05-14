@@ -63,24 +63,34 @@ def generate_progress_tweet():
             "#Progression")
 
 def post_tweet(api):
-    try:
-        tweet_text = generate_progress_tweet()
-        progress = calculate_year_progress()
-        image_path = get_progress_image_path(progress)
+    max_retries = 2  # Nombre de tentatives supplémentaires
+    retry_delay = 60  # Délai en secondes (1 minute)
 
-        # Auth v1.1 pour l'upload média
-        auth = tweepy.OAuth1UserHandler(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET)
-        api_v1 = tweepy.API(auth)
-        
-        log_and_print(f"Upload de l'image: {image_path}")
-        media = api_v1.media_upload(image_path)
-        
-        # Envoi via API v2
-        api.create_tweet(text=tweet_text, media_ids=[media.media_id])
-        return True
-    except Exception as e:
-        log_and_print(f"Erreur lors de l'envoi: {e}")
-        return False
+    for attempt in range(max_retries + 1):
+        try:
+            tweet_text = generate_progress_tweet()
+            progress = calculate_year_progress()
+            image_path = get_progress_image_path(progress)
+
+            # Auth v1.1 pour l'upload média
+            auth = tweepy.OAuth1UserHandler(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET)
+            api_v1 = tweepy.API(auth)
+            
+            log_and_print(f"Tentative {attempt + 1}: Upload de l'image {image_path}")
+            media = api_v1.media_upload(image_path)
+            
+            # Envoi via API v2
+            api.create_tweet(text=tweet_text, media_ids=[media.media_id])
+            return True
+
+        except Exception as e:
+            # On vérifie si c'est une erreur 403
+            if "403" in str(e) and attempt < max_retries:
+                log_and_print(f"Erreur 403 détectée. Nouvelle tentative dans {retry_delay}s...")
+                time.sleep(retry_delay)
+            else:
+                log_and_print(f"Erreur lors de l'envoi: {e}")
+                return False
 
 def main():
     log_and_print("Démarrage du script année écoulée")
