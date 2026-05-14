@@ -45,8 +45,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On cible l'index JSON dans le dossier drapeaux
-          git add drapeaux/index.json
-          # On commit et on push seulement si le fichier a été modifié
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Drapeaux: Mise à jour de l'index des drapeaux postés" && git push)
-          
+          git add drapeaux/index json
+          git add drapeaux/bot.log
+          # On vérifie s'il y a eu un changement
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Maires : Mise à jour de la liste"
+            # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
+            git pull --rebase origin main
+            git push
+          fi
