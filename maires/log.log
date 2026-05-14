@@ -1,14 +1,3 @@
-2026-05-12 21:10:46,219 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-12 21:10:46,219 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-12 21:10:46,304 - INFO - Historique chargé: 1643 maires déjà tweetés
-2026-05-12 21:10:46,325 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-12 21:10:46,325 - INFO - Nombre de maires déjà tweetés: 1643
-2026-05-12 21:10:46,326 - INFO - Sélectionné: 45305 - Philippe VACHER (nouveau maire)
-2026-05-12 21:10:46,328 - INFO - Tweet: 🏛 Le #maire de Seichebrières (Loiret) est Philippe VACHER (63 ans) #MairesdeFrance 🇫🇷
-2026-05-12 21:10:46,649 - INFO - Sauvegarde effectuée: 45305 - Philippe VACHER
-2026-05-12 21:10:46,649 - INFO - Succès: Response(data={'id': '2054308325081100527', 'text': '🏛 Le #maire de Seichebrières (Loiret) est Philippe VACHER (63 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054308325081100527']}, includes={}, errors=[], meta={})
-2026-05-12 21:10:46,651 - INFO - === Fin ===
-2026-05-13 10:15:03,669 - INFO - === Démarrage Maires ===
 2026-05-13 10:15:03,669 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-13 10:15:03,669 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-13 10:15:03,754 - INFO - Historique chargé: 1644 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-05-14 10:46:31,092 - INFO - Sauvegarde effectuée: 60635 - Mounir RECHIDI
 2026-05-14 10:46:31,092 - INFO - Succès: Response(data={'id': '2054876000861790585', 'text': '🏛 Le #maire de Thiverny (Oise) est Mounir RECHIDI (45 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054876000861790585']}, includes={}, errors=[], meta={})
 2026-05-14 10:46:31,094 - INFO - === Fin ===
+2026-05-14 12:46:29,350 - INFO - === Démarrage Maires ===
+2026-05-14 12:46:29,350 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-14 12:46:29,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-14 12:46:29,419 - INFO - Historique chargé: 1652 maires déjà tweetés
+2026-05-14 12:46:29,438 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-14 12:46:29,438 - INFO - Nombre de maires déjà tweetés: 1652
+2026-05-14 12:46:29,439 - INFO - Sélectionné: 01079 - Christophe MICHAILLE (nouveau maire)
+2026-05-14 12:46:29,441 - INFO - Tweet: 🏛 Le #maire de Champagne-En-Valromey (Aube) est Christophe MICHAILLE (51 ans) #MairesdeFrance 🇫🇷
+2026-05-14 12:46:29,628 - INFO - Sauvegarde effectuée: 01079 - Christophe MICHAILLE
+2026-05-14 12:46:29,628 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Champagne-En-Valromey (Aube) est Christophe MICHAILLE (51 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054906193727111260'], 'id': '2054906193727111260'}, includes={}, errors=[], meta={})
+2026-05-14 12:46:29,630 - INFO - === Fin ===
