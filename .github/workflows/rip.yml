@@ -1,0 +1,63 @@
+name: RipBot
+
+on:
+#  schedule:
+#    - cron: '0 9,12,15,18 * * *'
+  workflow_dispatch:
+
+jobs:
+  post-rip:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          cd rip
+          pip install tweepy colorama
+
+      - name: Run RipBot
+        run: |
+          cd rip
+          python rip.py
+        env:
+          RIP_CONSUMER_KEY: ${{ secrets.RIP_CONSUMER_KEY }}
+          RIP_CONSUMER_SECRET: ${{ secrets.RIP_CONSUMER_SECRET }}
+          RIP_ACCESS_TOKEN: ${{ secrets.RIP_ACCESS_TOKEN }}
+          RIP_ACCESS_TOKEN_SECRET: ${{ secrets.RIP_ACCESS_TOKEN_SECRET }}
+
+      - name: Save index update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add rip/used_names.json
+          
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 RipBot: Mise à jour de l'index"
+            
+            for i in {1..5};
+            do
+              git pull --rebase origin main
+              if git push;
+              then
+                echo "Push réussi !"
+                exit 0
+              fi
+              echo "Échec du push, nouvelle tentative dans 15 secondes..."
+              sleep 15
+            done
+            exit 1
+          fi
+          
