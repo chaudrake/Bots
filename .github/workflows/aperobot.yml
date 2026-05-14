@@ -9,7 +9,7 @@ on:
   workflow_dispatch: # Permet de lancer le bot manuellement depuis l'onglet Actions
 
 jobs:
-  run-bot:
+  run-aperobot:
     runs-on: ubuntu-latest
     
     steps:
