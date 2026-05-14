@@ -1,14 +1,3 @@
-2026-05-12 20:13:03,783 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-12 20:13:03,783 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-12 20:13:03,868 - INFO - Historique chargé: 1642 maires déjà tweetés
-2026-05-12 20:13:03,888 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-12 20:13:03,888 - INFO - Nombre de maires déjà tweetés: 1642
-2026-05-12 20:13:03,889 - INFO - Sélectionné: 08192 - Gilles DUANT (nouveau maire)
-2026-05-12 20:13:03,891 - INFO - Tweet: 🏛 Le #maire de Givron (Tarn) est Gilles DUANT (74 ans) #MairesdeFrance 🇫🇷
-2026-05-12 20:13:04,072 - INFO - Sauvegarde effectuée: 08192 - Gilles DUANT
-2026-05-12 20:13:04,072 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Givron (Tarn) est Gilles DUANT (74 ans) #MairesdeFrance 🇫🇷', 'id': '2054293802035421675', 'edit_history_tweet_ids': ['2054293802035421675']}, includes={}, errors=[], meta={})
-2026-05-12 20:13:04,074 - INFO - === Fin ===
-2026-05-12 21:10:46,219 - INFO - === Démarrage Maires ===
 2026-05-12 21:10:46,219 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-12 21:10:46,219 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-12 21:10:46,304 - INFO - Historique chargé: 1643 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-05-14 08:46:23,198 - INFO - Sauvegarde effectuée: 31189 - Gabriel ARAGON
 2026-05-14 08:46:23,198 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054845768767611319'], 'id': '2054845768767611319', 'text': '🏛 Le #maire de Forgues (Haute-Garonne) est Gabriel ARAGON (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-14 08:46:23,200 - INFO - === Fin ===
+2026-05-14 10:46:30,795 - INFO - === Démarrage Maires ===
+2026-05-14 10:46:30,795 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-14 10:46:30,795 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-14 10:46:30,880 - INFO - Historique chargé: 1651 maires déjà tweetés
+2026-05-14 10:46:30,900 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-14 10:46:30,900 - INFO - Nombre de maires déjà tweetés: 1651
+2026-05-14 10:46:30,901 - INFO - Sélectionné: 60635 - Mounir RECHIDI (nouveau maire)
+2026-05-14 10:46:30,903 - INFO - Tweet: 🏛 Le #maire de Thiverny (Oise) est Mounir RECHIDI (45 ans) #MairesdeFrance 🇫🇷
+2026-05-14 10:46:31,092 - INFO - Sauvegarde effectuée: 60635 - Mounir RECHIDI
+2026-05-14 10:46:31,092 - INFO - Succès: Response(data={'id': '2054876000861790585', 'text': '🏛 Le #maire de Thiverny (Oise) est Mounir RECHIDI (45 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054876000861790585']}, includes={}, errors=[], meta={})
+2026-05-14 10:46:31,094 - INFO - === Fin ===
