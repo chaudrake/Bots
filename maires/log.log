@@ -1,14 +1,3 @@
-2026-05-13 10:15:03,669 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-13 10:15:03,669 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-13 10:15:03,754 - INFO - Historique chargé: 1644 maires déjà tweetés
-2026-05-13 10:15:03,776 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-13 10:15:03,776 - INFO - Nombre de maires déjà tweetés: 1644
-2026-05-13 10:15:03,778 - INFO - Sélectionné: 06066 - Jean-Claude NIEL (nouveau maire)
-2026-05-13 10:15:03,779 - INFO - Tweet: 🏛 Le #maire de Gilette (Oise) est Jean-Claude NIEL (71 ans) #MairesdeFrance 🇫🇷
-2026-05-13 10:15:04,009 - INFO - Sauvegarde effectuée: 06066 - Jean-Claude NIEL
-2026-05-13 10:15:04,009 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054505697841222036'], 'id': '2054505697841222036', 'text': '🏛 Le #maire de Gilette (Oise) est Jean-Claude NIEL (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-13 10:15:04,011 - INFO - === Fin ===
-2026-05-13 11:38:27,764 - INFO - === Démarrage Maires ===
 2026-05-13 11:38:27,764 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-13 11:38:27,764 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-13 11:38:27,850 - INFO - Historique chargé: 1645 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-05-14 12:46:29,628 - INFO - Sauvegarde effectuée: 01079 - Christophe MICHAILLE
 2026-05-14 12:46:29,628 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Champagne-En-Valromey (Aube) est Christophe MICHAILLE (51 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054906193727111260'], 'id': '2054906193727111260'}, includes={}, errors=[], meta={})
 2026-05-14 12:46:29,630 - INFO - === Fin ===
+2026-05-14 13:46:24,442 - INFO - === Démarrage Maires ===
+2026-05-14 13:46:24,442 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-14 13:46:24,443 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-14 13:46:24,527 - INFO - Historique chargé: 1653 maires déjà tweetés
+2026-05-14 13:46:24,548 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-14 13:46:24,548 - INFO - Nombre de maires déjà tweetés: 1653
+2026-05-14 13:46:24,549 - INFO - Changement détecté: 49002 (Jérôme HARRAULT → Simon HOLLEY)
+2026-05-14 13:46:24,551 - INFO - Tweet: 🏛 Le #maire de Allonnes (Maine-et-Loire) est Simon HOLLEY (33 ans) #MairesdeFrance 🇫🇷
+2026-05-14 13:46:24,768 - INFO - Sauvegarde effectuée: 49002 - Simon HOLLEY
+2026-05-14 13:46:24,768 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Allonnes (Maine-et-Loire) est Simon HOLLEY (33 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054921272841408868'], 'id': '2054921272841408868'}, includes={}, errors=[], meta={})
+2026-05-14 13:46:24,770 - INFO - === Fin ===
