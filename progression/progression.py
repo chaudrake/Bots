@@ -3,6 +3,7 @@ import sys
 import logging
 from datetime import datetime
 import tweepy
+import time
 
 # Configuration des chemins relatifs
 WORKING_DIR = os.path.dirname(os.path.abspath(__file__))
