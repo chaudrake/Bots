@@ -1,11 +1,11 @@
 name: Aperobot
 
 on:
-#  schedule:
+  schedule:
     # '*/30' = toutes les 30 minutes
     # '5-21' = de 5h du matin à 21h inclus
     # Les heures sont en UTC/GMT
-#    - cron: '*/30 5-21 * * *'
+    - cron: '*/30 5-21 * * *'
   workflow_dispatch: # Permet de lancer le bot manuellement depuis l'onglet Actions
 
 jobs:
