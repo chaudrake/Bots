@@ -4,7 +4,7 @@ on:
 #  schedule:
     # Chaque heure de 6h15 à 20h15 UTC
 #    - cron: '15 6-20 * * *'
-  workflow_dispatch: # Permet de le lancer manuellement pour tester
+  workflow_dispatch:
 
 jobs:
   run-sunbot:
