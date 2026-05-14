@@ -259,7 +259,7 @@ MAPS_LINKS = {
     "île aux Cochons (#Crozet)": "https://maps.app.goo.gl/xJXyrWW91Mkkm54F6",
     "îlots des Apôtres (#Crozet)": "https://maps.app.goo.gl/kEzfZzzCd12nGcqh8",
     "île des Pingouins (#Crozet)": "https://maps.app.goo.gl/jWKkZczUC21SGrrB6",
-    "île Amsterdam": "https://maps.app.goo.gl/Gw4QZ8RVuu2e4muE9",
+    "île Amsterdam": "https://maps.app.goo.gl/xzfzYG8FQt9gFVMz6",
     "île Saint Paul": "https://maps.app.goo.gl/XFesYGrVJ5mS9o1t6",
     "île Juan de Nova": "https://maps.app.goo.gl/Zn6WowqM1VnSNnot9",
     "atoll Bassas da India": "https://maps.app.goo.gl/dqQVmFEKu8vv47sg6",
