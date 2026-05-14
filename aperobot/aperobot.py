@@ -1,89 +1,49 @@
 import os
 import sys
 import time
+import logging
 import tweepy
-from datetime import datetime
-import pytz
 
-# On conserve tes identifiants exacts
+# Configuration des secrets
+# Ces noms correspondent exactement à votre fichier aperobot.yml
 CONSUMER_KEY = os.getenv('APEROBOT_CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('APEROBOT_CONSUMER_SECRET')
 ACCESS_KEY = os.getenv('APEROBOT_ACCESS_KEY')
 ACCESS_SECRET = os.getenv('APEROBOT_ACCESS_SECRET')
 
-if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
-    print("❌ Missing Twitter API credentials")
-    sys.exit(1)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-api = tweepy.Client(
-    access_token=ACCESS_KEY,
-    access_token_secret=ACCESS_SECRET,
-    consumer_key=CONSUMER_KEY,
-    consumer_secret=CONSUMER_SECRET
-)
+def post_tweet():
+    # Initialisation du client Twitter (API v2)
+    client = tweepy.Client(
+        consumer_key=CONSUMER_KEY,
+        consumer_secret=CONSUMER_SECRET,
+        access_token=ACCESS_KEY,
+        access_token_secret=ACCESS_SECRET
+    )
 
-print("🚀 Lancement de l'Apéro Bot (Mode Heure Précise)")
+    max_retries = 2
+    retry_delay = 60  # Délai d'attente de 60 secondes
 
-france_tz = pytz.timezone('Europe/Paris')
+    # Texte du tweet
+    tweet_text = "C'est l'heure de l'apéro ! 🍹 #Aperobot"
 
-def is_winter_time():
-    now = datetime.now(france_tz)
-    offset_hours = now.utcoffset().total_seconds() / 3600
-    return offset_hours == 1  # UTC+1 = hiver
-
-# On garde ton dictionnaire pour la fin des phrases
-tweet_schedule = {
-    7: "ce n'est pas l'heure ! ❌ #Apéro",
-    8: "ce n'est pas l'heure ! ❌ #Apéro",
-    9: "ce n'est pas l'heure ! ❌ #Apéro",
-    10: "ce n'est pas l'heure ! ❌ #Apéro",
-    11: "c'est la bonne heure ! 🍾🎉 #Apéro",
-    12: "C'est maintenant ou jamais pour l'apéritif ! 🎉🍾 #Apéro", # "Midi" sera remplacé par 12h00
-    13: "Dernière chance ! Après, ce ne sera plus l'heure ! 🍾🎉 #Apéro",
-    14: "ce n'est pas l'heure ! ❌ #Apéro",
-    15: "ce n'est pas l'heure ! ❌ #Apéro",
-    16: "ce n'est pas l'heure ! ❌ #Apéro",
-    17: "ce n'est pas l'heure ! ❌ #Apéro",
-    18: "C'est l'heure de sortir les bouteilles ! 🍾🎉 #Apéro",
-    19: "Gooooo à l'#apéro ! 🎉🍾",
-    20: "allez ! Un petit dernier... 🍾🎉 #Apéro",
-    21: "ce n'est plus l'heure ! ❌ #Apéro",
-    22: "ce n'est plus l'heure ! ❌ \n\nÀ demain ! #Apéro",
-}
-
-def main():
-    # Conservation de ta logique de délai hiver/été
-    if is_winter_time():
-        print("❄️ Heure d'hiver - attente de 1 heure")
-        time.sleep(3600)
-    else:
-        print("☀️ Heure d'été - exécution immédiate")
-    
-    now = datetime.now(france_tz)
-    # On récupère l'heure précise comme dans fuseaux (ex: 22h04)
-    heure_exacte = now.strftime("%Hh%M")
-    hour = now.hour
-    
-    print(f"🕐 Heure française précise: {heure_exacte}")
-    
-    if 7 <= hour <= 22:
-        suffixe = tweet_schedule.get(hour)
-        if suffixe:
-            # Construction du tweet final : "HeurePrécise, texte"
-            # Exemple : "22h04, ce n'est plus l'heure ! ❌..."
-            message = f"{heure_exacte}, {suffixe}"
-            
-            api.create_tweet(text=message[:280])
-            print(f"✅ Tweet posté : {message}")
-        else:
-            print(f"⚠️ Pas de message pour {hour}h")
-    else:
-        print(f"⏭️ Heure {hour}h hors plage 7h-22h")
+    for attempt in range(max_retries + 1):
+        try:
+            logging.info(f"Tentative {attempt + 1} d'envoi du tweet...")
+            client.create_tweet(text=tweet_text)
+            logging.info("Tweet envoyé avec succès !")
+            return True
+        except Exception as e:
+            # Gestion de l'erreur 403 avec retry
+            if "403" in str(e) and attempt < max_retries:
+                logging.warning(f"Erreur 403 détectée. Nouvel essai dans {retry_delay}s...")
+                time.sleep(retry_delay)
+            else:
+                logging.error(f"Échec définitif de l'envoi : {e}")
+                return False
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print(f"❌ Erreur: {e}")
+    # On exécute la fonction et on quitte avec un code erreur si ça échoue
+    if not post_tweet():
         sys.exit(1)
-        
