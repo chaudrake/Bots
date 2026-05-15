@@ -1,14 +1,3 @@
-2026-05-14 10:46:30,795 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-14 10:46:30,880 - INFO - Historique chargé: 1651 maires déjà tweetés
-2026-05-14 10:46:30,900 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-14 10:46:30,900 - INFO - Nombre de maires déjà tweetés: 1651
-2026-05-14 10:46:30,901 - INFO - Sélectionné: 60635 - Mounir RECHIDI (nouveau maire)
-2026-05-14 10:46:30,903 - INFO - Tweet: 🏛 Le #maire de Thiverny (Oise) est Mounir RECHIDI (45 ans) #MairesdeFrance 🇫🇷
-2026-05-14 10:46:31,092 - INFO - Sauvegarde effectuée: 60635 - Mounir RECHIDI
-2026-05-14 10:46:31,092 - INFO - Succès: Response(data={'id': '2054876000861790585', 'text': '🏛 Le #maire de Thiverny (Oise) est Mounir RECHIDI (45 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054876000861790585']}, includes={}, errors=[], meta={})
-2026-05-14 10:46:31,094 - INFO - === Fin ===
-2026-05-14 12:46:29,350 - INFO - === Démarrage Maires ===
-2026-05-14 12:46:29,350 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-14 12:46:29,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-14 12:46:29,419 - INFO - Historique chargé: 1652 maires déjà tweetés
 2026-05-14 12:46:29,438 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-15 12:46:24,017 - INFO - Sauvegarde effectuée: 68343 - Jean-Philippe VONESCH
 2026-05-15 12:46:24,017 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Ungersheim (Haut-Rhin) est Jean-Philippe VONESCH (53 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055268557739495818'], 'id': '2055268557739495818'}, includes={}, errors=[], meta={})
 2026-05-15 12:46:24,019 - INFO - === Fin ===
+2026-05-15 13:46:23,684 - INFO - === Démarrage Maires ===
+2026-05-15 13:46:23,684 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-15 13:46:23,684 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-15 13:46:23,772 - INFO - Historique chargé: 1659 maires déjà tweetés
+2026-05-15 13:46:23,796 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-15 13:46:23,796 - INFO - Nombre de maires déjà tweetés: 1659
+2026-05-15 13:46:23,797 - INFO - Sélectionné: 46125 - Eric AMADIEU (nouveau maire)
+2026-05-15 13:46:23,799 - INFO - Tweet: 🏛 Le #maire de Gorses (Lot) est Eric AMADIEU (60 ans) #MairesdeFrance 🇫🇷
+2026-05-15 13:46:24,058 - INFO - Sauvegarde effectuée: 46125 - Eric AMADIEU
+2026-05-15 13:46:24,058 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Gorses (Lot) est Eric AMADIEU (60 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055283657657762022'], 'id': '2055283657657762022'}, includes={}, errors=[], meta={})
+2026-05-15 13:46:24,060 - INFO - === Fin ===
