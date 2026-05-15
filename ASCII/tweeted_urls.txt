@@ -42,3 +42,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/mileycyrus.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/TienAnMen.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/brucewillis.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/barrackobama.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/PyramideGiseh.jpg
