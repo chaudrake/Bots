@@ -3,7 +3,7 @@ name: Vacances Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"   # tous les jours à 06h00 UTC (08h00 en France été)
+    - cron: "0 6 * * *"
 
 jobs:
   run-bot:
