@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "10 15 * * *"
-  push:
-    paths:
-      - 'capitales/**'
-      - '.github/workflows/capitales.yml'
 
 jobs:
   run-bot:
