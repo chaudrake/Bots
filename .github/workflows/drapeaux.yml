@@ -45,7 +45,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add drapeaux/index json
+          git add drapeaux/drapeaux.json
           git add drapeaux/bot.log
           # On vérifie s'il y a eu un changement
           if ! git diff --quiet --staged; then
