@@ -1,14 +1,3 @@
-2026-05-14 08:46:22,896 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-14 08:46:22,980 - INFO - Historique chargé: 1650 maires déjà tweetés
-2026-05-14 08:46:23,001 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-14 08:46:23,001 - INFO - Nombre de maires déjà tweetés: 1650
-2026-05-14 08:46:23,002 - INFO - Sélectionné: 31189 - Gabriel ARAGON (nouveau maire)
-2026-05-14 08:46:23,004 - INFO - Tweet: 🏛 Le #maire de Forgues (Haute-Garonne) est Gabriel ARAGON (66 ans) #MairesdeFrance 🇫🇷
-2026-05-14 08:46:23,198 - INFO - Sauvegarde effectuée: 31189 - Gabriel ARAGON
-2026-05-14 08:46:23,198 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054845768767611319'], 'id': '2054845768767611319', 'text': '🏛 Le #maire de Forgues (Haute-Garonne) est Gabriel ARAGON (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-14 08:46:23,200 - INFO - === Fin ===
-2026-05-14 10:46:30,795 - INFO - === Démarrage Maires ===
-2026-05-14 10:46:30,795 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-14 10:46:30,795 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-14 10:46:30,880 - INFO - Historique chargé: 1651 maires déjà tweetés
 2026-05-14 10:46:30,900 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-15 10:46:23,858 - INFO - Sauvegarde effectuée: 47096 - Jean-Pierre PAILLÉ
 2026-05-15 10:46:23,858 - INFO - Succès: Response(data={'id': '2055238358343856277', 'text': '🏛 Le #maire de Ferrensac (Lot-et-Garonne) est Jean-Pierre PAILLÉ (53 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055238358343856277']}, includes={}, errors=[], meta={})
 2026-05-15 10:46:23,860 - INFO - === Fin ===
+2026-05-15 12:46:23,652 - INFO - === Démarrage Maires ===
+2026-05-15 12:46:23,652 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-15 12:46:23,652 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-15 12:46:23,736 - INFO - Historique chargé: 1658 maires déjà tweetés
+2026-05-15 12:46:23,760 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-15 12:46:23,760 - INFO - Nombre de maires déjà tweetés: 1658
+2026-05-15 12:46:23,761 - INFO - Sélectionné: 68343 - Jean-Philippe VONESCH (nouveau maire)
+2026-05-15 12:46:23,763 - INFO - Tweet: 🏛 Le #maire de Ungersheim (Haut-Rhin) est Jean-Philippe VONESCH (53 ans) #MairesdeFrance 🇫🇷
+2026-05-15 12:46:24,017 - INFO - Sauvegarde effectuée: 68343 - Jean-Philippe VONESCH
+2026-05-15 12:46:24,017 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Ungersheim (Haut-Rhin) est Jean-Philippe VONESCH (53 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055268557739495818'], 'id': '2055268557739495818'}, includes={}, errors=[], meta={})
+2026-05-15 12:46:24,019 - INFO - === Fin ===
