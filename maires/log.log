@@ -1,14 +1,3 @@
-2026-05-14 12:46:29,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-14 12:46:29,419 - INFO - Historique chargé: 1652 maires déjà tweetés
-2026-05-14 12:46:29,438 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-14 12:46:29,438 - INFO - Nombre de maires déjà tweetés: 1652
-2026-05-14 12:46:29,439 - INFO - Sélectionné: 01079 - Christophe MICHAILLE (nouveau maire)
-2026-05-14 12:46:29,441 - INFO - Tweet: 🏛 Le #maire de Champagne-En-Valromey (Aube) est Christophe MICHAILLE (51 ans) #MairesdeFrance 🇫🇷
-2026-05-14 12:46:29,628 - INFO - Sauvegarde effectuée: 01079 - Christophe MICHAILLE
-2026-05-14 12:46:29,628 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Champagne-En-Valromey (Aube) est Christophe MICHAILLE (51 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054906193727111260'], 'id': '2054906193727111260'}, includes={}, errors=[], meta={})
-2026-05-14 12:46:29,630 - INFO - === Fin ===
-2026-05-14 13:46:24,442 - INFO - === Démarrage Maires ===
-2026-05-14 13:46:24,442 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-14 13:46:24,443 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-14 13:46:24,527 - INFO - Historique chargé: 1653 maires déjà tweetés
 2026-05-14 13:46:24,548 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-15 13:46:24,058 - INFO - Sauvegarde effectuée: 46125 - Eric AMADIEU
 2026-05-15 13:46:24,058 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Gorses (Lot) est Eric AMADIEU (60 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055283657657762022'], 'id': '2055283657657762022'}, includes={}, errors=[], meta={})
 2026-05-15 13:46:24,060 - INFO - === Fin ===
+2026-05-15 14:46:23,182 - INFO - === Démarrage Maires ===
+2026-05-15 14:46:23,182 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-15 14:46:23,182 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-15 14:46:23,267 - INFO - Historique chargé: 1660 maires déjà tweetés
+2026-05-15 14:46:23,290 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-15 14:46:23,290 - INFO - Nombre de maires déjà tweetés: 1660
+2026-05-15 14:46:23,291 - INFO - Sélectionné: 27397 - Didier COURTAT (nouveau maire)
+2026-05-15 14:46:23,293 - INFO - Tweet: 🏛 Le #maire de Ménilles (Eure) est Didier COURTAT (66 ans) #MairesdeFrance 🇫🇷
+2026-05-15 14:46:23,557 - INFO - Sauvegarde effectuée: 27397 - Didier COURTAT
+2026-05-15 14:46:23,558 - INFO - Succès: Response(data={'id': '2055298755075707191', 'text': '🏛 Le #maire de Ménilles (Eure) est Didier COURTAT (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055298755075707191']}, includes={}, errors=[], meta={})
+2026-05-15 14:46:23,560 - INFO - === Fin ===
