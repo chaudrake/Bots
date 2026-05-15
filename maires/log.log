@@ -1,14 +1,3 @@
-2026-05-14 14:46:30,008 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-14 14:46:30,095 - INFO - Historique chargé: 1653 maires déjà tweetés
-2026-05-14 14:46:30,116 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-14 14:46:30,117 - INFO - Nombre de maires déjà tweetés: 1653
-2026-05-14 14:46:30,118 - INFO - Sélectionné: 83075 - Michel MONDANI (nouveau maire)
-2026-05-14 14:46:30,119 - INFO - Tweet: 🏛 Le #maire de Les Mayons (Var) est Michel MONDANI (82 ans) #MairesdeFrance 🇫🇷
-2026-05-14 14:46:30,383 - INFO - Sauvegarde effectuée: 83075 - Michel MONDANI
-2026-05-14 14:46:30,384 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Les Mayons (Var) est Michel MONDANI (82 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054936395815235700'], 'id': '2054936395815235700'}, includes={}, errors=[], meta={})
-2026-05-14 14:46:30,386 - INFO - === Fin ===
-2026-05-14 16:46:31,699 - INFO - === Démarrage Maires ===
-2026-05-14 16:46:31,699 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-14 16:46:31,699 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-14 16:46:31,786 - INFO - Historique chargé: 1654 maires déjà tweetés
 2026-05-14 16:46:31,807 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-15 16:46:25,653 - INFO - Sauvegarde effectuée: 46338 - Corentin ISSERTES
 2026-05-15 16:46:25,654 - INFO - Succès: Response(data={'id': '2055328962839003568', 'edit_history_tweet_ids': ['2055328962839003568'], 'text': '🏛 Le #maire de Bessonies (Lot) est Corentin ISSERTES (27 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-15 16:46:25,656 - INFO - === Fin ===
+2026-05-15 17:46:30,074 - INFO - === Démarrage Maires ===
+2026-05-15 17:46:30,074 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-15 17:46:30,074 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-15 17:46:30,162 - INFO - Historique chargé: 1662 maires déjà tweetés
+2026-05-15 17:46:30,186 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-15 17:46:30,186 - INFO - Nombre de maires déjà tweetés: 1662
+2026-05-15 17:46:30,187 - INFO - Sélectionné: 64303 - Pierre BAQUÉ (nouveau maire)
+2026-05-15 17:46:30,189 - INFO - Tweet: 🏛 Le #maire de Laguinge-Restoue (Pyrénées-Atlantiques) est Pierre BAQUÉ (69 ans) #MairesdeFrance 🇫🇷
+2026-05-15 17:46:30,359 - INFO - Sauvegarde effectuée: 64303 - Pierre BAQUÉ
+2026-05-15 17:46:30,359 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2055344082130481425'], 'id': '2055344082130481425', 'text': '🏛 Le #maire de Laguinge-Restoue (Pyrénées-Atlantiques) est Pierre BAQUÉ (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-15 17:46:30,361 - INFO - === Fin ===
