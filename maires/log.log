@@ -1,14 +1,3 @@
-2026-05-14 13:46:24,443 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-14 13:46:24,527 - INFO - Historique chargé: 1653 maires déjà tweetés
-2026-05-14 13:46:24,548 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-14 13:46:24,548 - INFO - Nombre de maires déjà tweetés: 1653
-2026-05-14 13:46:24,549 - INFO - Changement détecté: 49002 (Jérôme HARRAULT → Simon HOLLEY)
-2026-05-14 13:46:24,551 - INFO - Tweet: 🏛 Le #maire de Allonnes (Maine-et-Loire) est Simon HOLLEY (33 ans) #MairesdeFrance 🇫🇷
-2026-05-14 13:46:24,768 - INFO - Sauvegarde effectuée: 49002 - Simon HOLLEY
-2026-05-14 13:46:24,768 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Allonnes (Maine-et-Loire) est Simon HOLLEY (33 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2054921272841408868'], 'id': '2054921272841408868'}, includes={}, errors=[], meta={})
-2026-05-14 13:46:24,770 - INFO - === Fin ===
-2026-05-14 14:46:30,008 - INFO - === Démarrage Maires ===
-2026-05-14 14:46:30,008 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-14 14:46:30,008 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-14 14:46:30,095 - INFO - Historique chargé: 1653 maires déjà tweetés
 2026-05-14 14:46:30,116 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-15 14:46:23,557 - INFO - Sauvegarde effectuée: 27397 - Didier COURTAT
 2026-05-15 14:46:23,558 - INFO - Succès: Response(data={'id': '2055298755075707191', 'text': '🏛 Le #maire de Ménilles (Eure) est Didier COURTAT (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055298755075707191']}, includes={}, errors=[], meta={})
 2026-05-15 14:46:23,560 - INFO - === Fin ===
+2026-05-15 16:46:25,354 - INFO - === Démarrage Maires ===
+2026-05-15 16:46:25,354 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-15 16:46:25,354 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-15 16:46:25,442 - INFO - Historique chargé: 1661 maires déjà tweetés
+2026-05-15 16:46:25,465 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-15 16:46:25,466 - INFO - Nombre de maires déjà tweetés: 1661
+2026-05-15 16:46:25,467 - INFO - Sélectionné: 46338 - Corentin ISSERTES (nouveau maire)
+2026-05-15 16:46:25,469 - INFO - Tweet: 🏛 Le #maire de Bessonies (Lot) est Corentin ISSERTES (27 ans) #MairesdeFrance 🇫🇷
+2026-05-15 16:46:25,653 - INFO - Sauvegarde effectuée: 46338 - Corentin ISSERTES
+2026-05-15 16:46:25,654 - INFO - Succès: Response(data={'id': '2055328962839003568', 'edit_history_tweet_ids': ['2055328962839003568'], 'text': '🏛 Le #maire de Bessonies (Lot) est Corentin ISSERTES (27 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-15 16:46:25,656 - INFO - === Fin ===
