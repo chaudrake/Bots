@@ -215,7 +215,7 @@ MAPS_LINKS = {
     "rocher du Diamant (#Martinique)": "https://maps.app.goo.gl/tSRsRd4zrL7MtTsJ7",
     "#Guyane": "https://maps.app.goo.gl/wjrRfJWVhVE6TwyT6",
     "île Saint-Joseph (#Guyane)": "https://maps.app.goo.gl/cHMcxfMruo7Fugbf7",
-    "île Royale (#Guyane)": "https://maps.app.goo.gl/1o2RsAfjTRKxmCbA9",
+    "île Royale (#Guyane)": "https://maps.app.goo.gl/oEMXMaUDRNmavfUL7",
     "île du Diable (#Guyane)": "https://maps.app.goo.gl/X5Gr6oXqnikSvzNV9",
     "La Réunion": "https://maps.app.goo.gl/HkQzmpbeE6ekyXPj8",
     "#Mayotte": "https://maps.app.goo.gl/AohhyEjm7DSUutVn8",
