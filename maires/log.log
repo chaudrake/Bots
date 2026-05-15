@@ -1,14 +1,3 @@
-2026-05-13 16:46:26,770 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-13 16:46:26,770 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-13 16:46:26,849 - INFO - Historique chargé: 1648 maires déjà tweetés
-2026-05-13 16:46:26,870 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-13 16:46:26,870 - INFO - Nombre de maires déjà tweetés: 1648
-2026-05-13 16:46:26,871 - INFO - Sélectionné: 58206 - François PEIGNOT (nouveau maire)
-2026-05-13 16:46:26,873 - INFO - Tweet: 🏛 Le #maire de Parigny-La-Rose (Nièvre) est François PEIGNOT (70 ans) #MairesdeFrance 🇫🇷
-2026-05-13 16:46:27,090 - INFO - Sauvegarde effectuée: 58206 - François PEIGNOT
-2026-05-13 16:46:27,090 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054604193122722207'], 'text': '🏛 Le #maire de Parigny-La-Rose (Nièvre) est François PEIGNOT (70 ans) #MairesdeFrance 🇫🇷', 'id': '2054604193122722207'}, includes={}, errors=[], meta={})
-2026-05-13 16:46:27,092 - INFO - === Fin ===
-2026-05-13 17:46:35,360 - INFO - === Démarrage Maires ===
 2026-05-13 17:46:35,360 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-13 17:46:35,360 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-13 17:46:35,453 - INFO - Historique chargé: 1649 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-05-14 17:46:33,145 - INFO - Sauvegarde effectuée: 94052 - Gilles HAGEGE
 2026-05-14 17:46:33,146 - INFO - Succès: Response(data={'id': '2054981705963081782', 'edit_history_tweet_ids': ['2054981705963081782'], 'text': '🏛 Le #maire de Nogent-Sur-Marne (Val-de-Marne) est Gilles HAGEGE (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-14 17:46:33,148 - INFO - === Fin ===
+2026-05-15 06:46:22,267 - INFO - === Démarrage Maires ===
+2026-05-15 06:46:22,267 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-15 06:46:22,267 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-15 06:46:22,348 - INFO - Historique chargé: 1656 maires déjà tweetés
+2026-05-15 06:46:22,369 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-15 06:46:22,370 - INFO - Nombre de maires déjà tweetés: 1656
+2026-05-15 06:46:22,371 - INFO - Changement détecté: 22319 (François PONCHON → Benoît DUMONT)
+2026-05-15 06:46:22,373 - INFO - Tweet: 🏛 Le #maire de Saint-Michel-En-Grève (Côtes-d'Armor) est Benoît DUMONT (63 ans) #MairesdeFrance 🇫🇷
+2026-05-15 06:46:22,558 - INFO - Sauvegarde effectuée: 22319 - Benoît DUMONT
+2026-05-15 06:46:22,558 - INFO - Succès: Response(data={'id': '2055177954921955647', 'text': "🏛 Le #maire de Saint-Michel-En-Grève (Côtes-d'Armor) est Benoît DUMONT (63 ans) #MairesdeFrance 🇫🇷", 'edit_history_tweet_ids': ['2055177954921955647']}, includes={}, errors=[], meta={})
+2026-05-15 06:46:22,560 - INFO - === Fin ===
