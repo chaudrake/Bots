@@ -42,7 +42,7 @@ jobs:
           ORTOGRAF_ACCESS_KEY: ${{ secrets.ORTOGRAF_ACCESS_KEY }}
           ORTOGRAF_ACCESS_SECRET: ${{ secrets.ORTOGRAF_ACCESS_SECRET }}
 
-       - name: Save index update
+      - name: Save index update
   run: |
     git config --global user.name "github-actions[bot]"
     git config --global user.email "github-actions[bot]@users.noreply.github.com"
