@@ -13,15 +13,15 @@
           while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = false ]; do
             echo "Tentative $((RETRY_COUNT+1)) sur $MAX_RETRIES..."
             
-            if [ -f ortograf/index.txt ]; then
-              cp ortograf/index.txt "$BACKUP_FILE"
+            if [ -f repas/meal_state.json ]; then
+              cp repas/meal_state.json "$BACKUP_FILE"
             fi
             
             git fetch origin main
             git reset --hard origin/main
             
             if [ -f "$BACKUP_FILE" ]; then
-              cp "$BACKUP_FILE" ortograf/index.txt
+              cp "$BACKUP_FILE" repas/meal_state.json
             fi
             
             git add ortograf/index.txt
@@ -29,7 +29,7 @@
               echo "Aucun changement à committer"
               SUCCESS=true
             else
-              if git commit -m "🤖 Ortograf : Mise à jour de l'index"; then
+              if git commit -m "🤖 Repas : Mise à jour de l'index"; then
                 if git push origin main; then
                   echo "Commit et push réussis"
                   SUCCESS=true
