@@ -44,18 +44,56 @@ jobs:
           REPAS_ACCESS_KEY: ${{ secrets.REPAS_ACCESS_KEY }}
           REPAS_ACCESS_SECRET: ${{ secrets.REPAS_ACCESS_SECRET }}
 
-      - name: Save state update
+      - name: Save index update
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add repas/meal_state.json
-          # On vérifie s'il y a des changements
-          if ! git diff --quiet --staged; then
-            git commit -m "🤖 Repas: Mise à jour de l'état du cycle alimentaire"
-            # On récupère les changements distants avec rebase pour éviter les conflits
-            git pull --rebase origin main
-            git push
-          else
-            echo "Aucune modification à enregistrer"
-          fi
 
+          BACKUP_FILE="/tmp/index_backup_${{ github.run_id }}.json"
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          SUCCESS=false
+
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = false ]; do
+            echo "Tentative $((RETRY_COUNT+1)) sur $MAX_RETRIES..."
+
+            if [ -f repas/meal_state.json ]; then
+              cp repas/meal_state.json "$BACKUP_FILE"
+            fi
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            if [ -f "$BACKUP_FILE" ]; then
+              cp "$BACKUP_FILE" repas/meal_state.json
+            fi
+
+            git add ortograf/index.txt
+            if git diff --quiet --cached; then
+              echo "Aucun changement à committer"
+              SUCCESS=true
+            else
+              if git commit -m "🤖 Repas : Mise à jour de l'index"; then
+                if git push origin main; then
+                  echo "Commit et push réussis"
+                  SUCCESS=true
+                else
+                  echo "Push échoué, tentative de récupération..."
+                  git pull --rebase origin main
+                  RETRY_COUNT=$((RETRY_COUNT+1))
+                  if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                    echo "Attente de 60 secondes avant nouvelle tentative..."
+                    sleep 60
+                  fi
+                fi
+              else
+                echo "Commit échoué (pas de changement?)"
+                SUCCESS=true
+              fi
+            fi
+          done
+
+          if [ "$SUCCESS" = false ]; then
+            echo "❌ Échec après $MAX_RETRIES tentatives"
+            exit 1
+          fi
