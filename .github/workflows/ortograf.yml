@@ -42,25 +42,56 @@ jobs:
           ORTOGRAF_ACCESS_KEY: ${{ secrets.ORTOGRAF_ACCESS_KEY }}
           ORTOGRAF_ACCESS_SECRET: ${{ secrets.ORTOGRAF_ACCESS_SECRET }}
 
-      - name: Save index update
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # D'abord, récupérer les changements distants
-          git fetch origin main
-          
-          # Vérifier si index.txt a changé
-          if git diff --quiet HEAD -- ortograf/index.txt; then
-            echo "Aucun changement à pousser"
+       - name: Save index update
+  run: |
+    git config --global user.name "github-actions[bot]"
+    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    
+    BACKUP_FILE="/tmp/index_backup_${{ github.run_id }}.json"
+    MAX_RETRIES=3
+    RETRY_COUNT=0
+    SUCCESS=false
+    
+    while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = false ]; do
+      echo "Tentative $((RETRY_COUNT+1)) sur $MAX_RETRIES..."
+      
+      if [ -f ortograf/index.txt ]; then
+        cp ortograf/index.txt "$BACKUP_FILE"
+      fi
+      
+      git fetch origin main
+      git reset --hard origin/main
+      
+      if [ -f "$BACKUP_FILE" ]; then
+        cp "$BACKUP_FILE" ortograf/index.txt
+      fi
+      
+      git add ortograf/index.txt
+      if git diff --quiet --cached; then
+        echo "Aucun changement à committer"
+        SUCCESS=true
+      else
+        if git commit -m "🤖 Ortograf : Mise à jour de l'index"; then
+          if git push origin main; then
+            echo "Commit et push réussis"
+            SUCCESS=true
           else
-            # Commit des changements locaux
-            git add ortograf/index.txt
-            git commit -m "🤖 Ortograf: Mise à jour de l'index"
-            
-            # Ensuite, rebaser ou merger en douceur
-            git pull --rebase origin main || git pull origin main --no-rebase
-            
-            # Enfin, pousser
-            git push origin main
+            echo "Push échoué, tentative de récupération..."
+            git pull --rebase origin main
+            RETRY_COUNT=$((RETRY_COUNT+1))
+            if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+              echo "Attente de 60 secondes avant nouvelle tentative..."
+              sleep 60
+            fi
           fi
+        else
+          echo "Commit échoué (pas de changement?)"
+          SUCCESS=true
+        fi
+      fi
+    done
+    
+    if [ "$SUCCESS" = false ]; then
+      echo "❌ Échec après $MAX_RETRIES tentatives"
+      exit 1
+    fi
