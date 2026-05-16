@@ -1,15 +1,3 @@
-2026-05-13 11:39:25,674 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054526928153903590'], 'text': '🏛 Le #député de la 4e circonscription du Loiret est Thomas MÉNAGÉ (34 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2054526928153903590'}, includes={}, errors=[], meta={})
-2026-05-13 11:39:25,674 - INFO - === Fin ===
-2026-05-13 17:17:33,216 - INFO - === Démarrage Députés ===
-2026-05-13 17:17:33,216 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-13 17:17:33,216 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-13 17:17:33,223 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-13 17:17:33,223 - INFO - Historique chargé: 38 députés déjà tweetés
-2026-05-13 17:17:33,225 - INFO - Nombre de députés uniques: 572
-2026-05-13 17:17:33,225 - INFO - Nombre de députés déjà tweetés: 38
-2026-05-13 17:17:33,226 - INFO - Sélectionné: 6007 - David MAGNIER (nouveau député)
-2026-05-13 17:17:33,226 - INFO - Tweet: 🏛 Le #député de la 7e circonscription de l'Oise est David MAGNIER (53 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-13 17:17:33,473 - INFO - Sauvegarde effectuée: 6007 - David MAGNIER
 2026-05-13 17:17:33,473 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2054612021312909588'], 'text': "🏛 Le #député de la 7e circonscription de l'Oise est David MAGNIER (53 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2054612021312909588'}, includes={}, errors=[], meta={})
 2026-05-13 17:17:33,473 - INFO - === Fin ===
 2026-05-14 06:17:22,051 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-05-15 17:17:23,849 - INFO - Sauvegarde effectuée: 6604 - Michèle MARTINEZ
 2026-05-15 17:17:23,849 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2055336756690502016'], 'text': '🏛 La #députée de la 4e circonscription des Pyrénées-Orientales est Michèle MARTINEZ (57 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2055336756690502016'}, includes={}, errors=[], meta={})
 2026-05-15 17:17:23,849 - INFO - === Fin ===
+2026-05-16 06:17:17,298 - INFO - === Démarrage Députés ===
+2026-05-16 06:17:17,298 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-16 06:17:17,298 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-16 06:17:17,305 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-16 06:17:17,305 - INFO - Historique chargé: 46 députés déjà tweetés
+2026-05-16 06:17:17,306 - INFO - Nombre de députés uniques: 572
+2026-05-16 06:17:17,306 - INFO - Nombre de députés déjà tweetés: 46
+2026-05-16 06:17:17,307 - INFO - Sélectionné: 5911 - Roger VICOT (nouveau député)
+2026-05-16 06:17:17,307 - INFO - Tweet: 🏛 Le #député de la 11e circonscription du Nord est Roger VICOT (62 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-16 06:17:17,522 - INFO - Sauvegarde effectuée: 5911 - Roger VICOT
+2026-05-16 06:17:17,523 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 11e circonscription du Nord est Roger VICOT (62 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2055533023588724956'], 'id': '2055533023588724956'}, includes={}, errors=[], meta={})
+2026-05-16 06:17:17,523 - INFO - === Fin ===
