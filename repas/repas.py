@@ -184,7 +184,7 @@ class MealGenerator:
             plat_principal = self._pick_random_without_repeat(
                 self.meals["petit_dejeuner"], "used_petit_dejeuner", state, "Petit-déjeuner"
             )
-            drink = "Une boisson chaude (café, thé vert...) et/ou un jus de fruits et/ou une boisson détox."
+            drink = "Une boisson chaude (café, thé vert...) et/ou un jus de fruits."
             return {
                 "type": meal_type,
                 "plat_principal": plat_principal,
