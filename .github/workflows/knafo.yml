@@ -36,19 +36,22 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. On ajoute d'abord les changements faits par le script
+          # 1. On récupère d'abord les changements distants sans rebaser immédiatement
+          git fetch origin main
+          
+          # 2. On ajoute les changements faits par le script
           git add knafo/last_index.json
           
-          # 2. On vérifie s'il y a quelque chose à commiter
+          # 3. On vérifie s'il y a quelque chose à commiter
           if ! git diff --cached --quiet; then
-            # 3. On commit localement
+            # 4. On commit localement
             git commit -m "Update Knafo index [skip ci]"
             
-            # 4. On récupère les éventuels changements distants en rebasant
-            # Le rebase fonctionnera car ton changement local est maintenant propre (commité)
-            git pull --rebase origin main
+            # 5. On fait le pull en disant à Git de privilégier NOTRE version (ours) en cas de conflit
+            # Note: Avec un rebase, "ours" (le nôtre) désigne en réalité le commit qu'on est en train d'appliquer.
+            git pull --rebase -X theirs origin main
             
-            # 5. On pousse le tout
+            # 6. On pousse le tout
             git push
           else
             echo "Aucune modification à sauvegarder."
