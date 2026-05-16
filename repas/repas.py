@@ -33,15 +33,6 @@ def is_winter_time():
     # dst() retourne 0 en hiver, >0 en été
     return now.dst().total_seconds() == 0
 
-def wait_for_winter_adjustment():
-    """En hiver, attend 1 heure pour caler l'heure française"""
-    if is_winter_time():
-        print("❄️ Heure d'hiver - attente de 1 heure")
-        time.sleep(3600)
-        print("✅ Reprise après attente")
-    else:
-        print("☀️ Heure d'été - exécution immédiate")
-
 def get_current_meal_type():
     """Détermine le type de repas en fonction de l'heure française"""
     now = datetime.now(france_tz)
@@ -264,8 +255,6 @@ def execute_nutrition_tweet():
     post_tweet(tweet_text)
 
 def main():
-    wait_for_winter_adjustment()
-    
     now = datetime.now(france_tz)
     print(f"🕐 Heure française: {now.strftime('%H:%M:%S')}")
     execute_nutrition_tweet()
@@ -278,3 +267,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
 print("🏁 Opération terminée")
+    
