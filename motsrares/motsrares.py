@@ -1,0 +1,145 @@
+import tweepy
+from random import randint
+from time import sleep
+import os
+import random
+import sys
+import logging
+from datetime import datetime
+
+# Configuration du logging
+log_filename = f"motsrares_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename, encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+logger.info(f"📁 Logs sauvegardés dans {log_filename}")
+
+# ==========================================
+# 1. LOGIQUE D'EXÉCUTION ET TIMING 🎲
+# ==========================================
+
+# Génère un nombre aléatoire entre 0 et 1 pour tweeter un jour sur 2 environ.
+if random.random() < 0.5:
+    logger.info('📅 Le script ne s\'exécute pas aujourd\'hui (1 jour sur 2)')
+    sys.exit(0)
+else:
+    logger.info('📅 Le script s\'exécute aujourd\'hui')
+
+# Pause aléatoire de 10 sec à 2.5 heures (pour éviter les patterns trop réguliers)
+# Placé ici pour ne pas consommer de temps de calcul GitHub Actions si on ne tweete pas.
+wait_time = randint(10, 10000)
+logger.info(f"⏳ Pause pendant {wait_time} secondes...")
+sleep(wait_time)
+
+# ==========================================
+# 2. CONFIGURATION ET CONNEXION X (TWITTER) 🔑
+# ==========================================
+
+# Récupérer les variables d'environnement (GitHub Secrets)
+ACCESS_KEY = os.getenv('MOTSRARES_ACCESS_KEY')
+ACCESS_SECRET = os.getenv('MOTSRARES_ACCESS_SECRET')
+CONSUMER_KEY = os.getenv('MOTSRARES_CONSUMER_KEY')
+CONSUMER_SECRET = os.getenv('MOTSRARES_CONSUMER_SECRET')
+
+# Vérification des credentials
+if not all([ACCESS_KEY, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET]):
+    logger.error("❌ Missing Twitter API credentials")
+    sys.exit(1)
+
+# Créer un client Tweepy (Ne consomme pas de crédit d'API à l'initialisation)
+api = tweepy.Client(
+    access_token=ACCESS_KEY,
+    access_token_secret=ACCESS_SECRET,
+    consumer_key=CONSUMER_KEY,
+    consumer_secret=CONSUMER_SECRET
+)
+
+logger.info('🚀 Lancement du bot Les Mots Rares')
+
+# ==========================================
+# 3. FONCTIONS DE GESTION DES TWEETS 📝
+# ==========================================
+
+def get_post_content(block_number):
+    """Récupère le contenu du tweet à partir du fichier motsrares.txt."""
+    try:
+        with open("motsrares/motsrares.txt", "r", encoding="utf-8") as file:
+            content = file.read()
+            blocks = content.split('\n\n')
+            return blocks[int(block_number)].strip()
+    except Exception as e:
+        logger.error(f"Erreur lors de la lecture de motsrares.txt: {e}")
+        raise
+
+def post_tweets(api):
+    """Publie le tweet en utilisant l'API Twitter."""
+    try:
+        # Lire l'index du fichier (ou initialiser à 0 si non trouvé)
+        if os.path.exists('motsrares/indexmotsrares.txt'):
+            with open('motsrares/indexmotsrares.txt', 'r', encoding="utf-8") as index_file:
+                block_number = int(index_file.read().strip())
+        else:
+            block_number = 0
+
+        logger.info(f"📌 Index actuel: {block_number}")
+
+        # Récupérer le contenu du tweet
+        content = get_post_content(block_number)
+        logger.info(f"📝 Contenu du tweet: {content[:100]}...")
+
+        # Compter le nombre total de blocs
+        with open("motsrares/motsrares.txt", "r", encoding="utf-8") as file:
+            total_blocks = len(file.read().split('\n\n'))
+
+        # S'assurer que l'index est valide
+        if block_number >= total_blocks:
+            block_number = 0
+            logger.info("🔄 Réinitialisation de l'index (fin de la liste)")
+
+        # Récupérer à nouveau le contenu avec l'index corrigé
+        content = get_post_content(block_number)
+
+        # Publier le tweet (tronqué à 280 caractères) - C'est CETTE ligne qui consomme 1 crédit
+        tweet_text = content[:280]
+        tweet = api.create_tweet(text=tweet_text)
+        logger.info(f"✅ Tweet publié: {tweet}")
+
+        # Incrémenter le numéro de bloc
+        block_number += 1
+        if block_number >= total_blocks:
+            block_number = 0
+            logger.info("🔄 Retour au début de la liste")
+
+        # Sauvegarder l'index
+        with open('motsrares/indexmotsrares.txt', 'w', encoding="utf-8") as index_file:
+            index_file.write(str(block_number))
+
+        logger.info(f"📌 Nouvel index sauvegardé: {block_number}")
+        return True
+
+    except Exception as e:
+        logger.error(f"❌ Erreur lors de la publication du tweet: {e}")
+        return False
+
+# ==========================================
+# 4. POINT D'ENTRÉE PRINCIPAL 🏁
+# ==========================================
+
+if __name__ == "__main__":
+    try:
+        if post_tweets(api):
+            logger.info('✅ Tweet posté avec succès')
+        else:
+            logger.error('❌ Erreur lors de la publication du tweet')
+    except Exception as e:
+        logger.error(f"❌ Erreur inattendue: {e}")
+        sys.exit(1)
+
+logger.info("🏁 Opération terminée")
