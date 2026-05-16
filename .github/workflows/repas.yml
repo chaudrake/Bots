@@ -68,7 +68,7 @@ jobs:
               cp "$BACKUP_FILE" repas/meal_state.json
             fi
 
-            git add ortograf/index.txt
+            git add repas/meal_state.json
             if git diff --quiet --cached; then
               echo "Aucun changement à committer"
               SUCCESS=true
