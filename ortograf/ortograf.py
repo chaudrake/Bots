@@ -5,6 +5,29 @@ import os
 import random
 import sys
 
+print('🚀 Lancement du bot Ortograf')
+
+# ==========================================
+# 1. LOGIQUE D'EXÉCUTION ET TIMING 🎲
+# ==========================================
+
+# Détermine aléatoirement si le script doit s'exécuter aujourd'hui (70% de chance de NE PAS s'exécuter)
+if random.random() < 0.7:
+    print("📅 Le script Ortograf ne s'exécute pas aujourd'hui (70% de chance)")
+    sys.exit(0)
+else:
+    print("📅 Le script Ortograf s'exécute aujourd'hui (30% de chance)")
+
+# Pause aléatoire entre 10 secondes et 6 heures (21000 sec)
+# Placé ici pour ne pas consommer de temps de calcul GitHub Actions si on ne tweete pas.
+wait_time = randint(10, 21000)
+print(f"⏳ Pause pendant {wait_time} secondes...")
+sleep(wait_time)
+
+# ==========================================
+# 2. CONFIGURATION ET CONNEXION X (TWITTER) 🔑
+# ==========================================
+
 # Récupérer les variables d'environnement (GitHub Secrets)
 ACCESS_KEY = os.getenv('ORTOGRAF_ACCESS_KEY')
 ACCESS_SECRET = os.getenv('ORTOGRAF_ACCESS_SECRET')
@@ -16,7 +39,7 @@ if not all([ACCESS_KEY, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET]):
     print("❌ Missing Twitter API credentials")
     sys.exit(1)
 
-# Créer un client Tweepy
+# Créer un client Tweepy (Ne consomme pas de crédit d'API à l'initialisation)
 api = tweepy.Client(
     access_token=ACCESS_KEY,
     access_token_secret=ACCESS_SECRET,
@@ -24,19 +47,9 @@ api = tweepy.Client(
     consumer_secret=CONSUMER_SECRET
 )
 
-print('🚀 Lancement du bot Ortograf')
-
-# Détermine aléatoirement si le script doit s'exécuter aujourd'hui (70% de chance de NE PAS s'exécuter)
-if random.random() < 0.7:
-    print("📅 Le script Ortograf ne s'exécute pas aujourd'hui (70% de chance)")
-    sys.exit(0)
-else:
-    print("📅 Le script Ortograf s'exécute aujourd'hui (30% de chance)")
-
-# Pause aléatoire entre 10 secondes et 6 heures 21000 sec
-wait_time = randint(10, 21000)
-print(f"⏳ Pause pendant {wait_time} secondes...")
-sleep(wait_time)
+# ==========================================
+# 3. FONCTIONS DE GESTION DES TWEETS 📝
+# ==========================================
 
 def get_post_content(block_number):
     """Récupère le contenu du tweet à partir du fichier liste.txt."""
@@ -77,7 +90,7 @@ def post_tweets(api):
 
         print(f"📝 Contenu du tweet: {content[:100]}...")
 
-        # Publier le tweet (tronqué à 280 caractères)
+        # Publier le tweet (tronqué à 280 caractères) - C'est CETTE ligne qui consomme 1 crédit
         tweet_text = content[:280]
         tweet = api.create_tweet(text=tweet_text)
         print(f"✅ Tweet publié: {tweet}")
@@ -98,6 +111,10 @@ def post_tweets(api):
     except Exception as e:
         print(f"❌ Erreur lors de la publication du tweet: {e}")
         return False
+
+# ==========================================
+# 4. POINT D'ENTRÉE PRINCIPAL 🏁
+# ==========================================
 
 if __name__ == "__main__":
     try:
