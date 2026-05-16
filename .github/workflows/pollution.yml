@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     # Crons calés sur l'heure d'été (UTC+2)
-    - cron: "59 5 * * *"     # 6h UTC → 8h FR (été) / attend 1h → 8h FR (hiver)
-    - cron: "59 9 * * *"    # 10h UTC → 12h FR (été) / attend 1h → 12h FR (hiver)
+#    - cron: "59 5 * * *"     # 6h UTC → 8h FR (été) / attend 1h → 8h FR (hiver)
+ #   - cron: "59 9 * * *"    # 10h UTC → 12h FR (été) / attend 1h → 12h FR (hiver)
     - cron: "59 15 * * *"    # 16h UTC → 18h FR (été) / attend 1h → 18h FR (hiver)
 
 jobs:
