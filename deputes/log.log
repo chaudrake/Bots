@@ -1,15 +1,3 @@
-2026-05-14 17:17:27,541 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 11e circonscription de Paris est Céline HERVIEU (32 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2054974384344035389', 'edit_history_tweet_ids': ['2054974384344035389']}, includes={}, errors=[], meta={})
-2026-05-14 17:17:27,541 - INFO - === Fin ===
-2026-05-15 06:17:23,026 - INFO - === Démarrage Députés ===
-2026-05-15 06:17:23,026 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-15 06:17:23,026 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-15 06:17:23,033 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-15 06:17:23,034 - INFO - Historique chargé: 42 députés déjà tweetés
-2026-05-15 06:17:23,035 - INFO - Nombre de députés uniques: 572
-2026-05-15 06:17:23,035 - INFO - Nombre de députés déjà tweetés: 42
-2026-05-15 06:17:23,036 - INFO - Sélectionné: 8308 - Philippe SCHRECK (nouveau député)
-2026-05-15 06:17:23,036 - INFO - Tweet: 🏛 Le #député de la 8e circonscription du Var est Philippe SCHRECK (54 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-15 06:17:23,274 - INFO - Sauvegarde effectuée: 8308 - Philippe SCHRECK
 2026-05-15 06:17:23,274 - INFO - Succès: Response(data={'id': '2055170659815223562', 'edit_history_tweet_ids': ['2055170659815223562'], 'text': '🏛 Le #député de la 8e circonscription du Var est Philippe SCHRECK (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-15 06:17:23,274 - INFO - === Fin ===
 2026-05-15 10:17:23,767 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-05-17 10:17:22,814 - INFO - Sauvegarde effectuée: 5405 - Dominique POTIER
 2026-05-17 10:17:22,814 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2055955831640695260'], 'text': '🏛 Le #député de la 5e circonscription de la Meurthe-et-Moselle est Dominique POTIER (62 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2055955831640695260'}, includes={}, errors=[], meta={})
 2026-05-17 10:17:22,815 - INFO - === Fin ===
+2026-05-17 17:17:22,892 - INFO - === Démarrage Députés ===
+2026-05-17 17:17:22,892 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-17 17:17:22,892 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-17 17:17:22,899 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-17 17:17:22,899 - INFO - Historique chargé: 50 députés déjà tweetés
+2026-05-17 17:17:22,901 - INFO - Nombre de députés uniques: 572
+2026-05-17 17:17:22,901 - INFO - Nombre de députés déjà tweetés: 50
+2026-05-17 17:17:22,902 - INFO - Sélectionné: 2205 - Eric BOTHOREL (nouveau député)
+2026-05-17 17:17:22,902 - INFO - Tweet: 🏛 Le #député de la 5e circonscription des Côtes-d'Armor est Eric BOTHOREL (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-17 17:17:23,225 - INFO - Sauvegarde effectuée: 2205 - Eric BOTHOREL
+2026-05-17 17:17:23,225 - INFO - Succès: Response(data={'text': "🏛 Le #député de la 5e circonscription des Côtes-d'Armor est Eric BOTHOREL (59 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2056061529850798131'], 'id': '2056061529850798131'}, includes={}, errors=[], meta={})
+2026-05-17 17:17:23,225 - INFO - === Fin ===
