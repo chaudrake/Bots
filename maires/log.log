@@ -1,14 +1,3 @@
-2026-05-15 10:46:23,485 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-15 10:46:23,573 - INFO - Historique chargé: 1657 maires déjà tweetés
-2026-05-15 10:46:23,595 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-15 10:46:23,595 - INFO - Nombre de maires déjà tweetés: 1657
-2026-05-15 10:46:23,596 - INFO - Sélectionné: 47096 - Jean-Pierre PAILLÉ (nouveau maire)
-2026-05-15 10:46:23,598 - INFO - Tweet: 🏛 Le #maire de Ferrensac (Lot-et-Garonne) est Jean-Pierre PAILLÉ (53 ans) #MairesdeFrance 🇫🇷
-2026-05-15 10:46:23,858 - INFO - Sauvegarde effectuée: 47096 - Jean-Pierre PAILLÉ
-2026-05-15 10:46:23,858 - INFO - Succès: Response(data={'id': '2055238358343856277', 'text': '🏛 Le #maire de Ferrensac (Lot-et-Garonne) est Jean-Pierre PAILLÉ (53 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055238358343856277']}, includes={}, errors=[], meta={})
-2026-05-15 10:46:23,860 - INFO - === Fin ===
-2026-05-15 12:46:23,652 - INFO - === Démarrage Maires ===
-2026-05-15 12:46:23,652 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-15 12:46:23,652 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-15 12:46:23,736 - INFO - Historique chargé: 1658 maires déjà tweetés
 2026-05-15 12:46:23,760 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-17 10:46:21,840 - INFO - Sauvegarde effectuée: 88401 - Jean Claude MARMEUSE
 2026-05-17 10:46:21,840 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Rouvres-La-Chétive (Vosges) est Jean Claude MARMEUSE (62 ans) #MairesdeFrance 🇫🇷', 'id': '2055963125610864999', 'edit_history_tweet_ids': ['2055963125610864999']}, includes={}, errors=[], meta={})
 2026-05-17 10:46:21,842 - INFO - === Fin ===
+2026-05-17 16:46:30,177 - INFO - === Démarrage Maires ===
+2026-05-17 16:46:30,177 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-17 16:46:30,177 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-17 16:46:30,279 - INFO - Historique chargé: 1667 maires déjà tweetés
+2026-05-17 16:46:30,311 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-17 16:46:30,311 - INFO - Nombre de maires déjà tweetés: 1667
+2026-05-17 16:46:30,313 - INFO - Sélectionné: 57100 - Régis IDOUX (nouveau maire)
+2026-05-17 16:46:30,316 - INFO - Tweet: 🏛 Le #maire de Bourscheid (Moselle) est Régis IDOUX (58 ans) #MairesdeFrance 🇫🇷
+2026-05-17 16:46:30,583 - INFO - Sauvegarde effectuée: 57100 - Régis IDOUX
+2026-05-17 16:46:30,583 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2056053759256465606'], 'text': '🏛 Le #maire de Bourscheid (Moselle) est Régis IDOUX (58 ans) #MairesdeFrance 🇫🇷', 'id': '2056053759256465606'}, includes={}, errors=[], meta={})
+2026-05-17 16:46:30,588 - INFO - === Fin ===
