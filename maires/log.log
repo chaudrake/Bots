@@ -1,14 +1,3 @@
-2026-05-15 16:46:25,354 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-15 16:46:25,442 - INFO - Historique chargé: 1661 maires déjà tweetés
-2026-05-15 16:46:25,465 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-15 16:46:25,466 - INFO - Nombre de maires déjà tweetés: 1661
-2026-05-15 16:46:25,467 - INFO - Sélectionné: 46338 - Corentin ISSERTES (nouveau maire)
-2026-05-15 16:46:25,469 - INFO - Tweet: 🏛 Le #maire de Bessonies (Lot) est Corentin ISSERTES (27 ans) #MairesdeFrance 🇫🇷
-2026-05-15 16:46:25,653 - INFO - Sauvegarde effectuée: 46338 - Corentin ISSERTES
-2026-05-15 16:46:25,654 - INFO - Succès: Response(data={'id': '2055328962839003568', 'edit_history_tweet_ids': ['2055328962839003568'], 'text': '🏛 Le #maire de Bessonies (Lot) est Corentin ISSERTES (27 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-15 16:46:25,656 - INFO - === Fin ===
-2026-05-15 17:46:30,074 - INFO - === Démarrage Maires ===
-2026-05-15 17:46:30,074 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-15 17:46:30,074 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-15 17:46:30,162 - INFO - Historique chargé: 1662 maires déjà tweetés
 2026-05-15 17:46:30,186 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-19 10:46:23,820 - INFO - Sauvegarde effectuée: 80751 - Philippe MAROTTE
 2026-05-19 10:46:23,820 - INFO - Succès: Response(data={'id': '2056687909617451016', 'text': '🏛 Le #maire de Thennes (Somme) est Philippe MAROTTE (77 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2056687909617451016']}, includes={}, errors=[], meta={})
 2026-05-19 10:46:23,822 - INFO - === Fin ===
+2026-05-19 16:46:27,456 - INFO - === Démarrage Maires ===
+2026-05-19 16:46:27,456 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-19 16:46:27,456 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-19 16:46:27,541 - INFO - Historique chargé: 1671 maires déjà tweetés
+2026-05-19 16:46:27,563 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-19 16:46:27,563 - INFO - Nombre de maires déjà tweetés: 1671
+2026-05-19 16:46:27,564 - INFO - Sélectionné: 39449 - Christine BOLIS (nouveau maire)
+2026-05-19 16:46:27,566 - INFO - Tweet: 🏛 La #maire de Rainans (Jura) est Christine BOLIS (61 ans) #MairesdeFrance 🇫🇷
+2026-05-19 16:46:27,754 - INFO - Sauvegarde effectuée: 39449 - Christine BOLIS
+2026-05-19 16:46:27,754 - INFO - Succès: Response(data={'text': '🏛 La #maire de Rainans (Jura) est Christine BOLIS (61 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2056778523163898281'], 'id': '2056778523163898281'}, includes={}, errors=[], meta={})
+2026-05-19 16:46:27,756 - INFO - === Fin ===
