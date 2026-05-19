@@ -1,14 +1,3 @@
-2026-05-15 14:46:23,182 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-15 14:46:23,267 - INFO - Historique chargé: 1660 maires déjà tweetés
-2026-05-15 14:46:23,290 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-15 14:46:23,290 - INFO - Nombre de maires déjà tweetés: 1660
-2026-05-15 14:46:23,291 - INFO - Sélectionné: 27397 - Didier COURTAT (nouveau maire)
-2026-05-15 14:46:23,293 - INFO - Tweet: 🏛 Le #maire de Ménilles (Eure) est Didier COURTAT (66 ans) #MairesdeFrance 🇫🇷
-2026-05-15 14:46:23,557 - INFO - Sauvegarde effectuée: 27397 - Didier COURTAT
-2026-05-15 14:46:23,558 - INFO - Succès: Response(data={'id': '2055298755075707191', 'text': '🏛 Le #maire de Ménilles (Eure) est Didier COURTAT (66 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2055298755075707191']}, includes={}, errors=[], meta={})
-2026-05-15 14:46:23,560 - INFO - === Fin ===
-2026-05-15 16:46:25,354 - INFO - === Démarrage Maires ===
-2026-05-15 16:46:25,354 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-15 16:46:25,354 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-15 16:46:25,442 - INFO - Historique chargé: 1661 maires déjà tweetés
 2026-05-15 16:46:25,465 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-18 16:46:25,752 - INFO - Sauvegarde effectuée: 08361 - Patrick MONVOISIN
 2026-05-18 16:46:25,752 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2056416126884630964'], 'id': '2056416126884630964', 'text': '🏛 Le #maire de Renwez (Var) est Patrick MONVOISIN (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-18 16:46:25,754 - INFO - === Fin ===
+2026-05-19 10:46:23,440 - INFO - === Démarrage Maires ===
+2026-05-19 10:46:23,440 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-19 10:46:23,441 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-19 10:46:23,529 - INFO - Historique chargé: 1670 maires déjà tweetés
+2026-05-19 10:46:23,549 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-19 10:46:23,549 - INFO - Nombre de maires déjà tweetés: 1670
+2026-05-19 10:46:23,551 - INFO - Sélectionné: 80751 - Philippe MAROTTE (nouveau maire)
+2026-05-19 10:46:23,552 - INFO - Tweet: 🏛 Le #maire de Thennes (Somme) est Philippe MAROTTE (77 ans) #MairesdeFrance 🇫🇷
+2026-05-19 10:46:23,820 - INFO - Sauvegarde effectuée: 80751 - Philippe MAROTTE
+2026-05-19 10:46:23,820 - INFO - Succès: Response(data={'id': '2056687909617451016', 'text': '🏛 Le #maire de Thennes (Somme) est Philippe MAROTTE (77 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2056687909617451016']}, includes={}, errors=[], meta={})
+2026-05-19 10:46:23,822 - INFO - === Fin ===
