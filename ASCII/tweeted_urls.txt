@@ -46,3 +46,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/PyramideGiseh.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/taylorswift.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/shakira.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/montrushmore.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/murailledeChine.jpg
