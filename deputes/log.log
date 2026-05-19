@@ -1,15 +1,3 @@
-2026-05-16 06:17:17,523 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 11e circonscription du Nord est Roger VICOT (62 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2055533023588724956'], 'id': '2055533023588724956'}, includes={}, errors=[], meta={})
-2026-05-16 06:17:17,523 - INFO - === Fin ===
-2026-05-16 10:17:21,255 - INFO - === Démarrage Députés ===
-2026-05-16 10:17:21,255 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-16 10:17:21,255 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-16 10:17:21,262 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-16 10:17:21,262 - INFO - Historique chargé: 47 députés déjà tweetés
-2026-05-16 10:17:21,264 - INFO - Nombre de députés uniques: 572
-2026-05-16 10:17:21,264 - INFO - Nombre de députés déjà tweetés: 47
-2026-05-16 10:17:21,265 - INFO - Sélectionné: 5801 - Perrine GOULET (nouveau député)
-2026-05-16 10:17:21,265 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de la Nièvre est Perrine GOULET (48 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-16 10:17:21,340 - INFO - Erreur: 403 Forbidden
 2026-05-16 10:17:21,341 - INFO - === Fin ===
 2026-05-16 17:17:24,200 - INFO - === Démarrage Députés ===
 2026-05-16 17:17:24,200 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-19 06:17:25,594 - INFO - Sauvegarde effectuée: 9202 - Thomas LAM
 2026-05-19 06:17:25,594 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 2e circonscription des Hauts-de-Seine est Thomas LAM (44 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2056620221016814070', 'edit_history_tweet_ids': ['2056620221016814070']}, includes={}, errors=[], meta={})
 2026-05-19 06:17:25,594 - INFO - === Fin ===
+2026-05-19 10:17:22,361 - INFO - === Démarrage Députés ===
+2026-05-19 10:17:22,361 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-19 10:17:22,361 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-19 10:17:22,369 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-19 10:17:22,369 - INFO - Historique chargé: 55 députés déjà tweetés
+2026-05-19 10:17:22,371 - INFO - Nombre de députés uniques: 572
+2026-05-19 10:17:22,371 - INFO - Nombre de députés déjà tweetés: 55
+2026-05-19 10:17:22,372 - INFO - Sélectionné: 7510 - Rodrigo ARENAS (nouveau député)
+2026-05-19 10:17:22,373 - INFO - Tweet: 🏛 Le #député de la 10e circonscription de Paris est Rodrigo ARENAS (52 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-19 10:17:22,573 - INFO - Sauvegarde effectuée: 7510 - Rodrigo ARENAS
+2026-05-19 10:17:22,573 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 10e circonscription de Paris est Rodrigo ARENAS (52 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2056680606369566836'], 'id': '2056680606369566836'}, includes={}, errors=[], meta={})
+2026-05-19 10:17:22,573 - INFO - === Fin ===
