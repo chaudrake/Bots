@@ -1,14 +1,3 @@
-2026-05-16 06:46:23,568 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-16 06:46:23,652 - INFO - Historique chargé: 1663 maires déjà tweetés
-2026-05-16 06:46:23,672 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-16 06:46:23,672 - INFO - Nombre de maires déjà tweetés: 1663
-2026-05-16 06:46:23,673 - INFO - Sélectionné: 80140 - Vanessa DEBONNE (nouveau maire)
-2026-05-16 06:46:23,675 - INFO - Tweet: 🏛 La #maire de Brévillers (Somme) est Vanessa DEBONNE (44 ans) #MairesdeFrance 🇫🇷
-2026-05-16 06:46:23,882 - INFO - Sauvegarde effectuée: 80140 - Vanessa DEBONNE
-2026-05-16 06:46:23,882 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2055540348383113284'], 'id': '2055540348383113284', 'text': '🏛 La #maire de Brévillers (Somme) est Vanessa DEBONNE (44 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-16 06:46:23,884 - INFO - === Fin ===
-2026-05-16 10:46:22,306 - INFO - === Démarrage Maires ===
-2026-05-16 10:46:22,306 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-16 10:46:22,306 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-16 10:46:22,395 - INFO - Historique chargé: 1664 maires déjà tweetés
 2026-05-16 10:46:22,415 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-20 10:46:26,471 - INFO - Sauvegarde effectuée: 45320 - José PIERQUIN
 2026-05-20 10:46:26,471 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057050308602171650'], 'id': '2057050308602171650', 'text': '🏛 Le #maire de Thignonville (Loiret) est José PIERQUIN (72 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-20 10:46:26,473 - INFO - === Fin ===
+2026-05-20 16:46:29,166 - INFO - === Démarrage Maires ===
+2026-05-20 16:46:29,166 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-20 16:46:29,166 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-20 16:46:29,235 - INFO - Historique chargé: 1673 maires déjà tweetés
+2026-05-20 16:46:29,251 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-20 16:46:29,251 - INFO - Nombre de maires déjà tweetés: 1673
+2026-05-20 16:46:29,252 - INFO - Sélectionné: 94070 - Vincent BEDU (nouveau maire)
+2026-05-20 16:46:29,253 - INFO - Tweet: 🏛 Le #maire de Santeny (Val-de-Marne) est Vincent BEDU (69 ans) #MairesdeFrance 🇫🇷
+2026-05-20 16:46:29,440 - INFO - Sauvegarde effectuée: 94070 - Vincent BEDU
+2026-05-20 16:46:29,440 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Santeny (Val-de-Marne) est Vincent BEDU (69 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2057140918067892689'], 'id': '2057140918067892689'}, includes={}, errors=[], meta={})
+2026-05-20 16:46:29,442 - INFO - === Fin ===
