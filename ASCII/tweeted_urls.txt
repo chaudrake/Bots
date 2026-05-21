@@ -48,3 +48,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/shakira.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/montrushmore.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/murailledeChine.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/JackNicholson.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/arianagrande.jpg
