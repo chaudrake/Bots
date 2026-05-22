@@ -1,15 +1,3 @@
-2026-05-18 17:17:38,390 - INFO - === Fin ===
-2026-05-19 06:17:25,272 - INFO - === Démarrage Députés ===
-2026-05-19 06:17:25,272 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-19 06:17:25,272 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-19 06:17:25,279 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-19 06:17:25,279 - INFO - Historique chargé: 54 députés déjà tweetés
-2026-05-19 06:17:25,281 - INFO - Nombre de députés uniques: 572
-2026-05-19 06:17:25,281 - INFO - Nombre de députés déjà tweetés: 54
-2026-05-19 06:17:25,282 - INFO - Sélectionné: 9202 - Thomas LAM (nouveau député)
-2026-05-19 06:17:25,282 - INFO - Tweet: 🏛 Le #député de la 2e circonscription des Hauts-de-Seine est Thomas LAM (44 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-19 06:17:25,594 - INFO - Sauvegarde effectuée: 9202 - Thomas LAM
-2026-05-19 06:17:25,594 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 2e circonscription des Hauts-de-Seine est Thomas LAM (44 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2056620221016814070', 'edit_history_tweet_ids': ['2056620221016814070']}, includes={}, errors=[], meta={})
 2026-05-19 06:17:25,594 - INFO - === Fin ===
 2026-05-19 10:17:22,361 - INFO - === Démarrage Députés ===
 2026-05-19 10:17:22,361 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-21 17:17:27,260 - INFO - Sauvegarde effectuée: 6501 - Sylvie FERRER
 2026-05-21 17:17:27,260 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057511098237305224'], 'id': '2057511098237305224', 'text': '🏛 La #députée de la 1ère circonscription des Hautes-Pyrénées est Sylvie FERRER (58 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-21 17:17:27,260 - INFO - === Fin ===
+2026-05-22 06:17:19,571 - INFO - === Démarrage Députés ===
+2026-05-22 06:17:19,572 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-22 06:17:19,572 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-22 06:17:19,579 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-22 06:17:19,579 - INFO - Historique chargé: 63 députés déjà tweetés
+2026-05-22 06:17:19,581 - INFO - Nombre de députés uniques: 572
+2026-05-22 06:17:19,581 - INFO - Nombre de députés déjà tweetés: 63
+2026-05-22 06:17:19,582 - INFO - Sélectionné: 3803 - Élisa MARTIN (nouveau député)
+2026-05-22 06:17:19,582 - INFO - Tweet: 🏛 La #députée de la 3e circonscription de l'Isère est Élisa MARTIN (54 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-22 06:17:19,809 - INFO - Sauvegarde effectuée: 3803 - Élisa MARTIN
+2026-05-22 06:17:19,809 - INFO - Succès: Response(data={'id': '2057707360324333661', 'text': "🏛 La #députée de la 3e circonscription de l'Isère est Élisa MARTIN (54 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2057707360324333661']}, includes={}, errors=[], meta={})
+2026-05-22 06:17:19,809 - INFO - === Fin ===
