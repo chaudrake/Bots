@@ -1,15 +1,3 @@
-2026-05-19 10:17:22,573 - INFO - === Fin ===
-2026-05-19 17:17:21,002 - INFO - === Démarrage Députés ===
-2026-05-19 17:17:21,002 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-19 17:17:21,003 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-19 17:17:21,010 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-19 17:17:21,010 - INFO - Historique chargé: 56 députés déjà tweetés
-2026-05-19 17:17:21,012 - INFO - Nombre de députés uniques: 572
-2026-05-19 17:17:21,012 - INFO - Nombre de députés déjà tweetés: 56
-2026-05-19 17:17:21,013 - INFO - Sélectionné: 9311 - Clémentine AUTAIN (nouveau député)
-2026-05-19 17:17:21,013 - INFO - Tweet: 🏛 La #députée de la 11e circonscription de Seine-Saint-Denis est Clémentine AUTAIN (52 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-19 17:17:21,213 - INFO - Sauvegarde effectuée: 9311 - Clémentine AUTAIN
-2026-05-19 17:17:21,214 - INFO - Succès: Response(data={'id': '2056786297176420851', 'text': '🏛 La #députée de la 11e circonscription de Seine-Saint-Denis est Clémentine AUTAIN (52 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2056786297176420851']}, includes={}, errors=[], meta={})
 2026-05-19 17:17:21,214 - INFO - === Fin ===
 2026-05-20 06:17:21,326 - INFO - === Démarrage Députés ===
 2026-05-20 06:17:21,326 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-22 10:17:21,453 - INFO - Sauvegarde effectuée: 8903 - Julien ODOUL
 2026-05-22 10:17:21,453 - INFO - Succès: Response(data={'id': '2057767765264453743', 'text': "🏛 Le #député de la 3e circonscription de l'Yonne est Julien ODOUL (41 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2057767765264453743']}, includes={}, errors=[], meta={})
 2026-05-22 10:17:21,453 - INFO - === Fin ===
+2026-05-22 17:17:22,317 - INFO - === Démarrage Députés ===
+2026-05-22 17:17:22,317 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-22 17:17:22,318 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-22 17:17:22,325 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-22 17:17:22,325 - INFO - Historique chargé: 65 députés déjà tweetés
+2026-05-22 17:17:22,327 - INFO - Nombre de députés uniques: 572
+2026-05-22 17:17:22,327 - INFO - Nombre de députés déjà tweetés: 65
+2026-05-22 17:17:22,327 - INFO - Sélectionné: 6702 - Emmanuel FERNANDES (nouveau député)
+2026-05-22 17:17:22,328 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Bas-Rhin est Emmanuel FERNANDES (45 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-22 17:17:22,502 - INFO - Sauvegarde effectuée: 6702 - Emmanuel FERNANDES
+2026-05-22 17:17:22,502 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057873466096050197'], 'id': '2057873466096050197', 'text': '🏛 Le #député de la 2e circonscription du Bas-Rhin est Emmanuel FERNANDES (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-22 17:17:22,502 - INFO - === Fin ===
