@@ -1,14 +1,3 @@
-2026-05-18 10:46:33,138 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-18 10:46:33,205 - INFO - Historique chargé: 1668 maires déjà tweetés
-2026-05-18 10:46:33,222 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-18 10:46:33,222 - INFO - Nombre de maires déjà tweetés: 1668
-2026-05-18 10:46:33,223 - INFO - Sélectionné: 67281 - Frédéric PFLIEGERSDOERFFER (nouveau maire)
-2026-05-18 10:46:33,224 - INFO - Tweet: 🏛 Le #maire de Marckolsheim (Bas-Rhin) est Frédéric PFLIEGERSDOERFFER (61 ans) #MairesdeFrance 🇫🇷
-2026-05-18 10:46:33,496 - INFO - Sauvegarde effectuée: 67281 - Frédéric PFLIEGERSDOERFFER
-2026-05-18 10:46:33,496 - INFO - Succès: Response(data={'id': '2056325562361172174', 'edit_history_tweet_ids': ['2056325562361172174'], 'text': '🏛 Le #maire de Marckolsheim (Bas-Rhin) est Frédéric PFLIEGERSDOERFFER (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-18 10:46:33,498 - INFO - === Fin ===
-2026-05-18 16:46:25,437 - INFO - === Démarrage Maires ===
-2026-05-18 16:46:25,437 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-18 16:46:25,437 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-18 16:46:25,520 - INFO - Historique chargé: 1669 maires déjà tweetés
 2026-05-18 16:46:25,540 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-22 16:46:25,667 - INFO - Sauvegarde effectuée: 62023 - André HENNEBELLE
 2026-05-22 16:46:25,667 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057865677969506451'], 'text': '🏛 Le #maire de Allouagne (Pas-de-Calais) est André HENNEBELLE (75 ans) #MairesdeFrance 🇫🇷', 'id': '2057865677969506451'}, includes={}, errors=[], meta={})
 2026-05-22 16:46:25,669 - INFO - === Fin ===
+2026-05-23 10:46:21,876 - INFO - === Démarrage Maires ===
+2026-05-23 10:46:21,876 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-23 10:46:21,876 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-23 10:46:21,963 - INFO - Historique chargé: 1678 maires déjà tweetés
+2026-05-23 10:46:21,985 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-23 10:46:21,985 - INFO - Nombre de maires déjà tweetés: 1678
+2026-05-23 10:46:21,986 - INFO - Sélectionné: 11155 - Bernard CROS (nouveau maire)
+2026-05-23 10:46:21,988 - INFO - Tweet: 🏛 Le #maire de Fourtou (Aude) est Bernard CROS (69 ans) #MairesdeFrance 🇫🇷
+2026-05-23 10:46:22,225 - INFO - Sauvegarde effectuée: 11155 - Bernard CROS
+2026-05-23 10:46:22,225 - INFO - Succès: Response(data={'id': '2058137454423519345', 'edit_history_tweet_ids': ['2058137454423519345'], 'text': '🏛 Le #maire de Fourtou (Aude) est Bernard CROS (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-23 10:46:22,227 - INFO - === Fin ===
