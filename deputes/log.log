@@ -1,15 +1,3 @@
-2026-05-20 06:17:21,513 - INFO - === Fin ===
-2026-05-20 10:17:24,787 - INFO - === Démarrage Députés ===
-2026-05-20 10:17:24,788 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-20 10:17:24,788 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-20 10:17:24,794 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-20 10:17:24,794 - INFO - Historique chargé: 58 députés déjà tweetés
-2026-05-20 10:17:24,796 - INFO - Nombre de députés uniques: 572
-2026-05-20 10:17:24,796 - INFO - Nombre de députés déjà tweetés: 58
-2026-05-20 10:17:24,797 - INFO - Sélectionné: 97202 - Marcellin NADEAU (nouveau député)
-2026-05-20 10:17:24,797 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de Martinique est Marcellin NADEAU (63 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-20 10:17:25,019 - INFO - Sauvegarde effectuée: 97202 - Marcellin NADEAU
-2026-05-20 10:17:25,019 - INFO - Succès: Response(data={'id': '2057043004490203471', 'text': '🏛 Le #député de la 2e circonscription de Martinique est Marcellin NADEAU (63 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2057043004490203471']}, includes={}, errors=[], meta={})
 2026-05-20 10:17:25,019 - INFO - === Fin ===
 2026-05-20 17:18:29,230 - INFO - === Démarrage Députés ===
 2026-05-20 17:18:29,231 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-23 06:17:21,778 - INFO - Sauvegarde effectuée: 3311 - Edwige DIAZ
 2026-05-23 06:17:21,778 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 11e circonscription de la Gironde est Edwige DIAZ (38 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2058069756503319003'], 'id': '2058069756503319003'}, includes={}, errors=[], meta={})
 2026-05-23 06:17:21,778 - INFO - === Fin ===
+2026-05-23 10:17:22,863 - INFO - === Démarrage Députés ===
+2026-05-23 10:17:22,863 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-23 10:17:22,863 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-23 10:17:22,870 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-23 10:17:22,870 - INFO - Historique chargé: 67 députés déjà tweetés
+2026-05-23 10:17:22,872 - INFO - Nombre de députés uniques: 572
+2026-05-23 10:17:22,872 - INFO - Nombre de députés déjà tweetés: 67
+2026-05-23 10:17:22,873 - INFO - Sélectionné: 97404 - Emeline KBIDI (nouveau député)
+2026-05-23 10:17:22,873 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de la Réunion est Emeline KBIDI (39 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-23 10:17:23,152 - INFO - Sauvegarde effectuée: 97404 - Emeline KBIDI
+2026-05-23 10:17:23,152 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058130160214249750'], 'text': '🏛 La #députée de la 4e circonscription de la Réunion est Emeline KBIDI (39 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2058130160214249750'}, includes={}, errors=[], meta={})
+2026-05-23 10:17:23,152 - INFO - === Fin ===
