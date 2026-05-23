@@ -85,7 +85,8 @@
     "Poulet rôti et légumes de saison (ou frites)",
     "Burger maison et légumes",
     "Tartine de fromage de chèvre et miel",
-    "Spaghettis bolognaise"
+    "Spaghettis bolognaise",
+    "Gratin dauphinois avec une viande grillée (steak ou escalope)"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -119,6 +120,7 @@
     "Velouté de carottes au cumin",
     "Salade de lentilles",
     "Salade de riz au thon",
-    "Taboulé de chou-fleur"
+    "Taboulé de chou-fleur",
+    "Rouleaux de printemps"
   ]
 }
