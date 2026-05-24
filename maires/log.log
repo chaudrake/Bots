@@ -1,14 +1,3 @@
-2026-05-19 10:46:23,441 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-19 10:46:23,529 - INFO - Historique chargé: 1670 maires déjà tweetés
-2026-05-19 10:46:23,549 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-19 10:46:23,549 - INFO - Nombre de maires déjà tweetés: 1670
-2026-05-19 10:46:23,551 - INFO - Sélectionné: 80751 - Philippe MAROTTE (nouveau maire)
-2026-05-19 10:46:23,552 - INFO - Tweet: 🏛 Le #maire de Thennes (Somme) est Philippe MAROTTE (77 ans) #MairesdeFrance 🇫🇷
-2026-05-19 10:46:23,820 - INFO - Sauvegarde effectuée: 80751 - Philippe MAROTTE
-2026-05-19 10:46:23,820 - INFO - Succès: Response(data={'id': '2056687909617451016', 'text': '🏛 Le #maire de Thennes (Somme) est Philippe MAROTTE (77 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2056687909617451016']}, includes={}, errors=[], meta={})
-2026-05-19 10:46:23,822 - INFO - === Fin ===
-2026-05-19 16:46:27,456 - INFO - === Démarrage Maires ===
-2026-05-19 16:46:27,456 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-19 16:46:27,456 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-19 16:46:27,541 - INFO - Historique chargé: 1671 maires déjà tweetés
 2026-05-19 16:46:27,563 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-23 16:46:21,292 - INFO - Sauvegarde effectuée: 50500 - Isabelle TABUREL
 2026-05-23 16:46:21,292 - INFO - Succès: Response(data={'text': '🏛 La #maire de Saint-Laurent-De-Terregatte (Manche) est Isabelle TABUREL (57 ans) #MairesdeFrance 🇫🇷', 'id': '2058228047455670482', 'edit_history_tweet_ids': ['2058228047455670482']}, includes={}, errors=[], meta={})
 2026-05-23 16:46:21,294 - INFO - === Fin ===
+2026-05-24 10:46:22,463 - INFO - === Démarrage Maires ===
+2026-05-24 10:46:22,463 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-24 10:46:22,463 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-24 10:46:22,544 - INFO - Historique chargé: 1680 maires déjà tweetés
+2026-05-24 10:46:22,566 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-24 10:46:22,566 - INFO - Nombre de maires déjà tweetés: 1680
+2026-05-24 10:46:22,567 - INFO - Sélectionné: 33379 - Laurence DUCOURT (nouveau maire)
+2026-05-24 10:46:22,569 - INFO - Tweet: 🏛 La #maire de Saint-Brice (Gironde) est Laurence DUCOURT (65 ans) #MairesdeFrance 🇫🇷
+2026-05-24 10:46:22,803 - INFO - Sauvegarde effectuée: 33379 - Laurence DUCOURT
+2026-05-24 10:46:22,803 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058499844696900078'], 'id': '2058499844696900078', 'text': '🏛 La #maire de Saint-Brice (Gironde) est Laurence DUCOURT (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-24 10:46:22,805 - INFO - === Fin ===
