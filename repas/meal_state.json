@@ -87,7 +87,8 @@
     "Burger maison et légumes",
     "Tartine de fromage de chèvre et miel",
     "Spaghettis bolognaise",
-    "Gratin dauphinois avec une viande grillée (steak ou escalope)"
+    "Gratin dauphinois avec une viande grillée (steak ou escalope)",
+    "Saucisson brioché et salade verte"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -122,6 +123,7 @@
     "Salade de lentilles",
     "Salade de riz au thon",
     "Taboulé de chou-fleur",
-    "Rouleaux de printemps"
+    "Rouleaux de printemps",
+    "Charcuterie"
   ]
 }
