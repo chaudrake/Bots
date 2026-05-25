@@ -1,15 +1,3 @@
-2026-05-22 10:17:21,453 - INFO - === Fin ===
-2026-05-22 17:17:22,317 - INFO - === Démarrage Députés ===
-2026-05-22 17:17:22,317 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-22 17:17:22,318 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-22 17:17:22,325 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-22 17:17:22,325 - INFO - Historique chargé: 65 députés déjà tweetés
-2026-05-22 17:17:22,327 - INFO - Nombre de députés uniques: 572
-2026-05-22 17:17:22,327 - INFO - Nombre de députés déjà tweetés: 65
-2026-05-22 17:17:22,327 - INFO - Sélectionné: 6702 - Emmanuel FERNANDES (nouveau député)
-2026-05-22 17:17:22,328 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Bas-Rhin est Emmanuel FERNANDES (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-22 17:17:22,502 - INFO - Sauvegarde effectuée: 6702 - Emmanuel FERNANDES
-2026-05-22 17:17:22,502 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057873466096050197'], 'id': '2057873466096050197', 'text': '🏛 Le #député de la 2e circonscription du Bas-Rhin est Emmanuel FERNANDES (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-22 17:17:22,502 - INFO - === Fin ===
 2026-05-23 06:17:21,601 - INFO - === Démarrage Députés ===
 2026-05-23 06:17:21,601 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-25 10:17:22,823 - INFO - Sauvegarde effectuée: 6910 - Thomas GASSILLOUD
 2026-05-25 10:17:22,824 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058854934540374069'], 'id': '2058854934540374069', 'text': '🏛 Le #député de la 10e circonscription du Rhône est Thomas GASSILLOUD (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-25 10:17:22,824 - INFO - === Fin ===
+2026-05-25 17:17:22,072 - INFO - === Démarrage Députés ===
+2026-05-25 17:17:22,072 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-25 17:17:22,072 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-25 17:17:22,079 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-25 17:17:22,079 - INFO - Historique chargé: 74 députés déjà tweetés
+2026-05-25 17:17:22,081 - INFO - Nombre de députés uniques: 572
+2026-05-25 17:17:22,081 - INFO - Nombre de députés déjà tweetés: 74
+2026-05-25 17:17:22,082 - INFO - Sélectionné: 3703 - Henri ALFANDARI (nouveau député)
+2026-05-25 17:17:22,082 - INFO - Tweet: 🏛 Le #député de la 3e circonscription d'Indre-et-Loire est Henri ALFANDARI (46 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-25 17:17:22,372 - INFO - Sauvegarde effectuée: 3703 - Henri ALFANDARI
+2026-05-25 17:17:22,372 - INFO - Succès: Response(data={'text': "🏛 Le #député de la 3e circonscription d'Indre-et-Loire est Henri ALFANDARI (46 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2058960629130481858'], 'id': '2058960629130481858'}, includes={}, errors=[], meta={})
+2026-05-25 17:17:22,372 - INFO - === Fin ===
