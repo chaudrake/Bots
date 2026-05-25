@@ -1,15 +1,3 @@
-2026-05-21 17:17:27,260 - INFO - === Fin ===
-2026-05-22 06:17:19,571 - INFO - === Démarrage Députés ===
-2026-05-22 06:17:19,572 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-22 06:17:19,572 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-22 06:17:19,579 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-22 06:17:19,579 - INFO - Historique chargé: 63 députés déjà tweetés
-2026-05-22 06:17:19,581 - INFO - Nombre de députés uniques: 572
-2026-05-22 06:17:19,581 - INFO - Nombre de députés déjà tweetés: 63
-2026-05-22 06:17:19,582 - INFO - Sélectionné: 3803 - Élisa MARTIN (nouveau député)
-2026-05-22 06:17:19,582 - INFO - Tweet: 🏛 La #députée de la 3e circonscription de l'Isère est Élisa MARTIN (54 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-22 06:17:19,809 - INFO - Sauvegarde effectuée: 3803 - Élisa MARTIN
-2026-05-22 06:17:19,809 - INFO - Succès: Response(data={'id': '2057707360324333661', 'text': "🏛 La #députée de la 3e circonscription de l'Isère est Élisa MARTIN (54 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2057707360324333661']}, includes={}, errors=[], meta={})
 2026-05-22 06:17:19,809 - INFO - === Fin ===
 2026-05-22 10:17:21,237 - INFO - === Démarrage Députés ===
 2026-05-22 10:17:21,237 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-24 17:17:25,056 - INFO - Sauvegarde effectuée: 6703 - Thierry SOTHER
 2026-05-24 17:17:25,056 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058598252530794798'], 'id': '2058598252530794798', 'text': '🏛 Le #député de la 3e circonscription du Bas-Rhin est Thierry SOTHER (44 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-24 17:17:25,056 - INFO - === Fin ===
+2026-05-25 06:17:26,150 - INFO - === Démarrage Députés ===
+2026-05-25 06:17:26,150 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-25 06:17:26,150 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-25 06:17:26,167 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-25 06:17:26,167 - INFO - Historique chargé: 72 députés déjà tweetés
+2026-05-25 06:17:26,168 - INFO - Nombre de députés uniques: 572
+2026-05-25 06:17:26,169 - INFO - Nombre de députés déjà tweetés: 72
+2026-05-25 06:17:26,169 - INFO - Sélectionné: 8503 - Stéphane BUCHOU (nouveau député)
+2026-05-25 06:17:26,169 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de la Vendée est Stéphane BUCHOU (52 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-25 06:17:26,357 - INFO - Sauvegarde effectuée: 8503 - Stéphane BUCHOU
+2026-05-25 06:17:26,357 - INFO - Succès: Response(data={'id': '2058794551423496421', 'edit_history_tweet_ids': ['2058794551423496421'], 'text': '🏛 Le #député de la 3e circonscription de la Vendée est Stéphane BUCHOU (52 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-25 06:17:26,357 - INFO - === Fin ===
