@@ -1,14 +1,3 @@
-2026-05-20 10:46:26,099 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-20 10:46:26,182 - INFO - Historique chargé: 1672 maires déjà tweetés
-2026-05-20 10:46:26,203 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-20 10:46:26,203 - INFO - Nombre de maires déjà tweetés: 1672
-2026-05-20 10:46:26,205 - INFO - Sélectionné: 45320 - José PIERQUIN (nouveau maire)
-2026-05-20 10:46:26,206 - INFO - Tweet: 🏛 Le #maire de Thignonville (Loiret) est José PIERQUIN (72 ans) #MairesdeFrance 🇫🇷
-2026-05-20 10:46:26,471 - INFO - Sauvegarde effectuée: 45320 - José PIERQUIN
-2026-05-20 10:46:26,471 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057050308602171650'], 'id': '2057050308602171650', 'text': '🏛 Le #maire de Thignonville (Loiret) est José PIERQUIN (72 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-20 10:46:26,473 - INFO - === Fin ===
-2026-05-20 16:46:29,166 - INFO - === Démarrage Maires ===
-2026-05-20 16:46:29,166 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-20 16:46:29,166 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-20 16:46:29,235 - INFO - Historique chargé: 1673 maires déjà tweetés
 2026-05-20 16:46:29,251 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-24 16:46:20,810 - INFO - Sauvegarde effectuée: 08351 - Jérôme HARDY
 2026-05-24 16:46:20,810 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058590433308037165'], 'id': '2058590433308037165', 'text': '🏛 Le #maire de Quilly (Var) est Jérôme HARDY (50 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-24 16:46:20,812 - INFO - === Fin ===
+2026-05-25 10:46:20,904 - INFO - === Démarrage Maires ===
+2026-05-25 10:46:20,904 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-25 10:46:20,905 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-25 10:46:20,987 - INFO - Historique chargé: 1682 maires déjà tweetés
+2026-05-25 10:46:21,011 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-25 10:46:21,011 - INFO - Nombre de maires déjà tweetés: 1682
+2026-05-25 10:46:21,012 - INFO - Sélectionné: 70199 - Nicole ROUSSEL (nouveau maire)
+2026-05-25 10:46:21,014 - INFO - Tweet: 🏛 La #maire de Dampvalley-Lès-Colombe (Haute-Saône) est Nicole ROUSSEL (71 ans) #MairesdeFrance 🇫🇷
+2026-05-25 10:46:21,205 - INFO - Sauvegarde effectuée: 70199 - Nicole ROUSSEL
+2026-05-25 10:46:21,205 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058862225855562055'], 'id': '2058862225855562055', 'text': '🏛 La #maire de Dampvalley-Lès-Colombe (Haute-Saône) est Nicole ROUSSEL (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-25 10:46:21,207 - INFO - === Fin ===
