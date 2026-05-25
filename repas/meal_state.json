@@ -91,7 +91,8 @@
     "Gratin dauphinois avec une viande grillée (steak ou escalope)",
     "Saucisson brioché et salade verte",
     "Aiguillettes de poulet",
-    "Tagliatelles au pesto"
+    "Tagliatelles au pesto",
+    "Croque monsieur accompagné de salade"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -129,6 +130,7 @@
     "Rouleaux de printemps",
     "Charcuterie",
     "Cubes de saumon à l'aneth",
-    "Foie gras (maison si possible)"
+    "Foie gras (maison si possible)",
+    "Guacamole"
   ]
 }
