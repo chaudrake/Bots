@@ -1,15 +1,3 @@
-2026-05-23 10:17:23,152 - INFO - === Fin ===
-2026-05-23 17:17:22,248 - INFO - === Démarrage Députés ===
-2026-05-23 17:17:22,248 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-23 17:17:22,248 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-23 17:17:22,255 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-23 17:17:22,255 - INFO - Historique chargé: 68 députés déjà tweetés
-2026-05-23 17:17:22,256 - INFO - Nombre de députés uniques: 572
-2026-05-23 17:17:22,256 - INFO - Nombre de députés déjà tweetés: 68
-2026-05-23 17:17:22,257 - INFO - Sélectionné: 9402 - Clémence GUETTÉ (nouveau député)
-2026-05-23 17:17:22,258 - INFO - Tweet: 🏛 La #députée de la 2e circonscription du Val-de-Marne est Clémence GUETTÉ (35 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-23 17:17:22,472 - INFO - Sauvegarde effectuée: 9402 - Clémence GUETTÉ
-2026-05-23 17:17:22,472 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 2e circonscription du Val-de-Marne est Clémence GUETTÉ (35 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2058235853810663769'], 'id': '2058235853810663769'}, includes={}, errors=[], meta={})
 2026-05-23 17:17:22,473 - INFO - === Fin ===
 2026-05-24 06:17:23,057 - INFO - === Démarrage Députés ===
 2026-05-24 06:17:23,057 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-26 10:17:29,125 - INFO - Sauvegarde effectuée: 7710 - Maxime LAISNEY
 2026-05-26 10:17:29,125 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 10e circonscription de Seine-et-Marne est Maxime LAISNEY (45 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2059217348901712000', 'edit_history_tweet_ids': ['2059217348901712000']}, includes={}, errors=[], meta={})
 2026-05-26 10:17:29,125 - INFO - === Fin ===
+2026-05-26 17:17:23,902 - INFO - === Démarrage Députés ===
+2026-05-26 17:17:23,902 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-26 17:17:23,902 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-26 17:17:23,909 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-26 17:17:23,910 - INFO - Historique chargé: 77 députés déjà tweetés
+2026-05-26 17:17:23,911 - INFO - Nombre de députés uniques: 572
+2026-05-26 17:17:23,911 - INFO - Nombre de députés déjà tweetés: 77
+2026-05-26 17:17:23,913 - INFO - Sélectionné: 2604 - Thibaut MONNIER (nouveau député)
+2026-05-26 17:17:23,913 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de la Drôme est Thibaut MONNIER (39 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-26 17:17:24,132 - INFO - Sauvegarde effectuée: 2604 - Thibaut MONNIER
+2026-05-26 17:17:24,132 - INFO - Succès: Response(data={'id': '2059323024411644399', 'edit_history_tweet_ids': ['2059323024411644399'], 'text': '🏛 Le #député de la 4e circonscription de la Drôme est Thibaut MONNIER (39 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-26 17:17:24,132 - INFO - === Fin ===
