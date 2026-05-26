@@ -1,15 +1,3 @@
-2026-05-22 17:17:22,502 - INFO - === Fin ===
-2026-05-23 06:17:21,601 - INFO - === Démarrage Députés ===
-2026-05-23 06:17:21,601 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-23 06:17:21,602 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-23 06:17:21,609 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-23 06:17:21,609 - INFO - Historique chargé: 66 députés déjà tweetés
-2026-05-23 06:17:21,611 - INFO - Nombre de députés uniques: 572
-2026-05-23 06:17:21,611 - INFO - Nombre de députés déjà tweetés: 66
-2026-05-23 06:17:21,612 - INFO - Sélectionné: 3311 - Edwige DIAZ (nouveau député)
-2026-05-23 06:17:21,612 - INFO - Tweet: 🏛 La #députée de la 11e circonscription de la Gironde est Edwige DIAZ (38 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-23 06:17:21,778 - INFO - Sauvegarde effectuée: 3311 - Edwige DIAZ
-2026-05-23 06:17:21,778 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 11e circonscription de la Gironde est Edwige DIAZ (38 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2058069756503319003'], 'id': '2058069756503319003'}, includes={}, errors=[], meta={})
 2026-05-23 06:17:21,778 - INFO - === Fin ===
 2026-05-23 10:17:22,863 - INFO - === Démarrage Députés ===
 2026-05-23 10:17:22,863 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-25 17:17:22,372 - INFO - Sauvegarde effectuée: 3703 - Henri ALFANDARI
 2026-05-25 17:17:22,372 - INFO - Succès: Response(data={'text': "🏛 Le #député de la 3e circonscription d'Indre-et-Loire est Henri ALFANDARI (46 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2058960629130481858'], 'id': '2058960629130481858'}, includes={}, errors=[], meta={})
 2026-05-25 17:17:22,372 - INFO - === Fin ===
+2026-05-26 06:17:26,305 - INFO - === Démarrage Députés ===
+2026-05-26 06:17:26,305 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-26 06:17:26,305 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-26 06:17:26,312 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-26 06:17:26,313 - INFO - Historique chargé: 75 députés déjà tweetés
+2026-05-26 06:17:26,314 - INFO - Nombre de députés uniques: 572
+2026-05-26 06:17:26,314 - INFO - Nombre de députés déjà tweetés: 75
+2026-05-26 06:17:26,315 - INFO - Sélectionné: 6805 - Olivier BECHT (nouveau député)
+2026-05-26 06:17:26,315 - INFO - Tweet: 🏛 Le #député de la 5e circonscription du Haut-Rhin est Olivier BECHT (50 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-26 06:17:26,531 - INFO - Sauvegarde effectuée: 6805 - Olivier BECHT
+2026-05-26 06:17:26,531 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 5e circonscription du Haut-Rhin est Olivier BECHT (50 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2059156940073079177'], 'id': '2059156940073079177'}, includes={}, errors=[], meta={})
+2026-05-26 06:17:26,531 - INFO - === Fin ===
