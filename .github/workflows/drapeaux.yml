@@ -49,7 +49,7 @@ jobs:
           git add drapeaux/bot.log
           # On vérifie s'il y a eu un changement
           if ! git diff --quiet --staged; then
-            git commit -m "🤖 Maires : Mise à jour de la liste"
+            git commit -m "🤖 Drapeaux : Mise à jour de la liste"
             # SÉCURITÉ : On récupère les modifs des autres bots avant de pousser
             git pull --rebase origin main
             git push
