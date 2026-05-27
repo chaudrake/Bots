@@ -1,15 +1,3 @@
-2026-05-23 17:17:22,473 - INFO - === Fin ===
-2026-05-24 06:17:23,057 - INFO - === Démarrage Députés ===
-2026-05-24 06:17:23,057 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-24 06:17:23,057 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-24 06:17:23,064 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-24 06:17:23,064 - INFO - Historique chargé: 69 députés déjà tweetés
-2026-05-24 06:17:23,066 - INFO - Nombre de députés uniques: 572
-2026-05-24 06:17:23,066 - INFO - Nombre de députés déjà tweetés: 69
-2026-05-24 06:17:23,067 - INFO - Sélectionné: 6401 - Josy POUEYTO (nouveau député)
-2026-05-24 06:17:23,067 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription des Pyrénées-Atlantiques est Josy POUEYTO (72 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-24 06:17:23,326 - INFO - Sauvegarde effectuée: 6401 - Josy POUEYTO
-2026-05-24 06:17:23,326 - INFO - Succès: Response(data={'id': '2058432150819766658', 'edit_history_tweet_ids': ['2058432150819766658'], 'text': '🏛 La #députée de la 1ère circonscription des Pyrénées-Atlantiques est Josy POUEYTO (72 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-24 06:17:23,327 - INFO - === Fin ===
 2026-05-24 10:17:22,588 - INFO - === Démarrage Députés ===
 2026-05-24 10:17:22,588 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-26 17:17:24,132 - INFO - Sauvegarde effectuée: 2604 - Thibaut MONNIER
 2026-05-26 17:17:24,132 - INFO - Succès: Response(data={'id': '2059323024411644399', 'edit_history_tweet_ids': ['2059323024411644399'], 'text': '🏛 Le #député de la 4e circonscription de la Drôme est Thibaut MONNIER (39 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-26 17:17:24,132 - INFO - === Fin ===
+2026-05-27 06:17:25,781 - INFO - === Démarrage Députés ===
+2026-05-27 06:17:25,781 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-27 06:17:25,781 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-27 06:17:25,788 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-27 06:17:25,788 - INFO - Historique chargé: 78 députés déjà tweetés
+2026-05-27 06:17:25,790 - INFO - Nombre de députés uniques: 572
+2026-05-27 06:17:25,790 - INFO - Nombre de députés déjà tweetés: 78
+2026-05-27 06:17:25,790 - INFO - Sélectionné: 5917 - Vincent LEDOUX (nouveau député)
+2026-05-27 06:17:25,791 - INFO - Tweet: 🏛 Le #député de la 17e circonscription du Nord est Vincent LEDOUX (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-27 06:17:26,040 - INFO - Sauvegarde effectuée: 5917 - Vincent LEDOUX
+2026-05-27 06:17:26,040 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 17e circonscription du Nord est Vincent LEDOUX (59 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2059519325804105846', 'edit_history_tweet_ids': ['2059519325804105846']}, includes={}, errors=[], meta={})
+2026-05-27 06:17:26,040 - INFO - === Fin ===
