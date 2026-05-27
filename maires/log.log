@@ -1,14 +1,3 @@
-2026-05-22 10:46:22,939 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-22 10:46:23,020 - INFO - Historique chargé: 1676 maires déjà tweetés
-2026-05-22 10:46:23,039 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-22 10:46:23,040 - INFO - Nombre de maires déjà tweetés: 1676
-2026-05-22 10:46:23,041 - INFO - Sélectionné: 77083 - Michel COLAS (nouveau maire)
-2026-05-22 10:46:23,042 - INFO - Tweet: 🏛 Le #maire de Champs-Sur-Marne (Seine-et-Marne) est Michel COLAS (61 ans) #MairesdeFrance 🇫🇷
-2026-05-22 10:46:23,239 - INFO - Sauvegarde effectuée: 77083 - Michel COLAS
-2026-05-22 10:46:23,239 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2057775070831911074'], 'id': '2057775070831911074', 'text': '🏛 Le #maire de Champs-Sur-Marne (Seine-et-Marne) est Michel COLAS (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-22 10:46:23,241 - INFO - === Fin ===
-2026-05-22 16:46:25,290 - INFO - === Démarrage Maires ===
-2026-05-22 16:46:25,290 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-22 16:46:25,290 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-22 16:46:25,378 - INFO - Historique chargé: 1677 maires déjà tweetés
 2026-05-22 16:46:25,403 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-27 10:46:21,402 - INFO - Sauvegarde effectuée: 29292 - Jean-Daniel MAO
 2026-05-27 10:46:21,402 - INFO - Succès: Response(data={'id': '2059587002463371677', 'text': '🏛 Le #maire de Tréguennec (Finistère) est Jean-Daniel MAO (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2059587002463371677']}, includes={}, errors=[], meta={})
 2026-05-27 10:46:21,404 - INFO - === Fin ===
+2026-05-27 16:46:24,417 - INFO - === Démarrage Maires ===
+2026-05-27 16:46:24,417 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-27 16:46:24,417 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-27 16:46:24,502 - INFO - Historique chargé: 1686 maires déjà tweetés
+2026-05-27 16:46:24,525 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-27 16:46:24,525 - INFO - Nombre de maires déjà tweetés: 1686
+2026-05-27 16:46:24,527 - INFO - Sélectionné: 89439 - Frédéric BLANCHET (nouveau maire)
+2026-05-27 16:46:24,528 - INFO - Tweet: 🏛 Le #maire de Vergigny (Yonne) est Frédéric BLANCHET (64 ans) #MairesdeFrance 🇫🇷
+2026-05-27 16:46:24,723 - INFO - Sauvegarde effectuée: 89439 - Frédéric BLANCHET
+2026-05-27 16:46:24,723 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Vergigny (Yonne) est Frédéric BLANCHET (64 ans) #MairesdeFrance 🇫🇷', 'id': '2059677613363245094', 'edit_history_tweet_ids': ['2059677613363245094']}, includes={}, errors=[], meta={})
+2026-05-27 16:46:24,725 - INFO - === Fin ===
