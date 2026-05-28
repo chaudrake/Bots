@@ -1,14 +1,3 @@
-2026-05-23 10:46:21,876 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-23 10:46:21,963 - INFO - Historique chargé: 1678 maires déjà tweetés
-2026-05-23 10:46:21,985 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-23 10:46:21,985 - INFO - Nombre de maires déjà tweetés: 1678
-2026-05-23 10:46:21,986 - INFO - Sélectionné: 11155 - Bernard CROS (nouveau maire)
-2026-05-23 10:46:21,988 - INFO - Tweet: 🏛 Le #maire de Fourtou (Aude) est Bernard CROS (69 ans) #MairesdeFrance 🇫🇷
-2026-05-23 10:46:22,225 - INFO - Sauvegarde effectuée: 11155 - Bernard CROS
-2026-05-23 10:46:22,225 - INFO - Succès: Response(data={'id': '2058137454423519345', 'edit_history_tweet_ids': ['2058137454423519345'], 'text': '🏛 Le #maire de Fourtou (Aude) est Bernard CROS (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-23 10:46:22,227 - INFO - === Fin ===
-2026-05-23 16:46:20,979 - INFO - === Démarrage Maires ===
-2026-05-23 16:46:20,979 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-23 16:46:20,979 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-23 16:46:21,062 - INFO - Historique chargé: 1679 maires déjà tweetés
 2026-05-23 16:46:21,083 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-28 10:46:26,215 - INFO - Sauvegarde effectuée: 85059 - Nicolas MAUPETIT
 2026-05-28 10:46:26,215 - INFO - Succès: Response(data={'id': '2059949410407358507', 'text': '🏛 Le #maire de La Châtaigneraie (Vendée) est Nicolas MAUPETIT (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2059949410407358507']}, includes={}, errors=[], meta={})
 2026-05-28 10:46:26,217 - INFO - === Fin ===
+2026-05-28 16:46:23,486 - INFO - === Démarrage Maires ===
+2026-05-28 16:46:23,486 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-28 16:46:23,486 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-28 16:46:23,558 - INFO - Historique chargé: 1688 maires déjà tweetés
+2026-05-28 16:46:23,578 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-28 16:46:23,578 - INFO - Nombre de maires déjà tweetés: 1688
+2026-05-28 16:46:23,579 - INFO - Sélectionné: 29151 - Jean-Paul VERMOT (nouveau maire)
+2026-05-28 16:46:23,581 - INFO - Tweet: 🏛 Le #maire de Morlaix (Finistère) est Jean-Paul VERMOT (52 ans) #MairesdeFrance 🇫🇷
+2026-05-28 16:46:23,771 - INFO - Sauvegarde effectuée: 29151 - Jean-Paul VERMOT
+2026-05-28 16:46:23,771 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060039997231907267'], 'id': '2060039997231907267', 'text': '🏛 Le #maire de Morlaix (Finistère) est Jean-Paul VERMOT (52 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-28 16:46:23,773 - INFO - === Fin ===
