@@ -1,15 +1,3 @@
-2026-05-25 10:17:22,824 - INFO - === Fin ===
-2026-05-25 17:17:22,072 - INFO - === Démarrage Députés ===
-2026-05-25 17:17:22,072 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-25 17:17:22,072 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-25 17:17:22,079 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-25 17:17:22,079 - INFO - Historique chargé: 74 députés déjà tweetés
-2026-05-25 17:17:22,081 - INFO - Nombre de députés uniques: 572
-2026-05-25 17:17:22,081 - INFO - Nombre de députés déjà tweetés: 74
-2026-05-25 17:17:22,082 - INFO - Sélectionné: 3703 - Henri ALFANDARI (nouveau député)
-2026-05-25 17:17:22,082 - INFO - Tweet: 🏛 Le #député de la 3e circonscription d'Indre-et-Loire est Henri ALFANDARI (46 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-25 17:17:22,372 - INFO - Sauvegarde effectuée: 3703 - Henri ALFANDARI
-2026-05-25 17:17:22,372 - INFO - Succès: Response(data={'text': "🏛 Le #député de la 3e circonscription d'Indre-et-Loire est Henri ALFANDARI (46 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2058960629130481858'], 'id': '2058960629130481858'}, includes={}, errors=[], meta={})
 2026-05-25 17:17:22,372 - INFO - === Fin ===
 2026-05-26 06:17:26,305 - INFO - === Démarrage Députés ===
 2026-05-26 06:17:26,305 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-28 10:17:22,712 - INFO - Sauvegarde effectuée: 6209 - Caroline PARMENTIER
 2026-05-28 10:17:22,712 - INFO - Succès: Response(data={'id': '2059942097705181342', 'text': '🏛 La #députée de la 9e circonscription du Pas-de-Calais est Caroline PARMENTIER (60 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2059942097705181342']}, includes={}, errors=[], meta={})
 2026-05-28 10:17:22,712 - INFO - === Fin ===
+2026-05-28 17:17:28,311 - INFO - === Démarrage Députés ===
+2026-05-28 17:17:28,311 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-28 17:17:28,311 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-28 17:17:28,318 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-28 17:17:28,318 - INFO - Historique chargé: 83 députés déjà tweetés
+2026-05-28 17:17:28,320 - INFO - Nombre de députés uniques: 572
+2026-05-28 17:17:28,320 - INFO - Nombre de députés déjà tweetés: 83
+2026-05-28 17:17:28,321 - INFO - Sélectionné: 9503 - Emmanuel MAUREL (nouveau député)
+2026-05-28 17:17:28,321 - INFO - Tweet: 🏛 Le #député de la 3e circonscription du Val-d'Oise est Emmanuel MAUREL (53 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-28 17:17:28,518 - INFO - Sauvegarde effectuée: 9503 - Emmanuel MAUREL
+2026-05-28 17:17:28,518 - INFO - Succès: Response(data={'id': '2060047818543263826', 'text': "🏛 Le #député de la 3e circonscription du Val-d'Oise est Emmanuel MAUREL (53 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2060047818543263826']}, includes={}, errors=[], meta={})
+2026-05-28 17:17:28,518 - INFO - === Fin ===
