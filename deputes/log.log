@@ -1,15 +1,3 @@
-2026-05-26 06:17:26,531 - INFO - === Fin ===
-2026-05-26 10:17:28,937 - INFO - === Démarrage Députés ===
-2026-05-26 10:17:28,937 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-26 10:17:28,937 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-26 10:17:28,944 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-26 10:17:28,944 - INFO - Historique chargé: 76 députés déjà tweetés
-2026-05-26 10:17:28,945 - INFO - Nombre de députés uniques: 572
-2026-05-26 10:17:28,945 - INFO - Nombre de députés déjà tweetés: 76
-2026-05-26 10:17:28,946 - INFO - Sélectionné: 7710 - Maxime LAISNEY (nouveau député)
-2026-05-26 10:17:28,947 - INFO - Tweet: 🏛 Le #député de la 10e circonscription de Seine-et-Marne est Maxime LAISNEY (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-26 10:17:29,125 - INFO - Sauvegarde effectuée: 7710 - Maxime LAISNEY
-2026-05-26 10:17:29,125 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 10e circonscription de Seine-et-Marne est Maxime LAISNEY (45 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2059217348901712000', 'edit_history_tweet_ids': ['2059217348901712000']}, includes={}, errors=[], meta={})
 2026-05-26 10:17:29,125 - INFO - === Fin ===
 2026-05-26 17:17:23,902 - INFO - === Démarrage Députés ===
 2026-05-26 17:17:23,902 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-29 06:17:21,043 - INFO - Sauvegarde effectuée: 7711 - Olivier FAURE
 2026-05-29 06:17:21,043 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060244080580264188'], 'text': '🏛 Le #député de la 11e circonscription de Seine-et-Marne est Olivier FAURE (57 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2060244080580264188'}, includes={}, errors=[], meta={})
 2026-05-29 06:17:21,043 - INFO - === Fin ===
+2026-05-29 10:17:22,003 - INFO - === Démarrage Députés ===
+2026-05-29 10:17:22,003 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-29 10:17:22,003 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-29 10:17:22,010 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-29 10:17:22,010 - INFO - Historique chargé: 85 députés déjà tweetés
+2026-05-29 10:17:22,012 - INFO - Nombre de députés uniques: 572
+2026-05-29 10:17:22,012 - INFO - Nombre de députés déjà tweetés: 85
+2026-05-29 10:17:22,013 - INFO - Sélectionné: 97601 - Estelle YOUSSOUFFA (nouveau député)
+2026-05-29 10:17:22,013 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de Mayotte est Estelle YOUSSOUFFA (47 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-29 10:17:22,212 - INFO - Sauvegarde effectuée: 97601 - Estelle YOUSSOUFFA
+2026-05-29 10:17:22,212 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 1ère circonscription de Mayotte est Estelle YOUSSOUFFA (47 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2060304483477840262'], 'id': '2060304483477840262'}, includes={}, errors=[], meta={})
+2026-05-29 10:17:22,212 - INFO - === Fin ===
