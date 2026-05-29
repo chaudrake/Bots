@@ -1,15 +1,3 @@
-2026-05-25 17:17:22,372 - INFO - === Fin ===
-2026-05-26 06:17:26,305 - INFO - === Démarrage Députés ===
-2026-05-26 06:17:26,305 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-26 06:17:26,305 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-26 06:17:26,312 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-26 06:17:26,313 - INFO - Historique chargé: 75 députés déjà tweetés
-2026-05-26 06:17:26,314 - INFO - Nombre de députés uniques: 572
-2026-05-26 06:17:26,314 - INFO - Nombre de députés déjà tweetés: 75
-2026-05-26 06:17:26,315 - INFO - Sélectionné: 6805 - Olivier BECHT (nouveau député)
-2026-05-26 06:17:26,315 - INFO - Tweet: 🏛 Le #député de la 5e circonscription du Haut-Rhin est Olivier BECHT (50 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-26 06:17:26,531 - INFO - Sauvegarde effectuée: 6805 - Olivier BECHT
-2026-05-26 06:17:26,531 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 5e circonscription du Haut-Rhin est Olivier BECHT (50 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2059156940073079177'], 'id': '2059156940073079177'}, includes={}, errors=[], meta={})
 2026-05-26 06:17:26,531 - INFO - === Fin ===
 2026-05-26 10:17:28,937 - INFO - === Démarrage Députés ===
 2026-05-26 10:17:28,937 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-28 17:17:28,518 - INFO - Sauvegarde effectuée: 9503 - Emmanuel MAUREL
 2026-05-28 17:17:28,518 - INFO - Succès: Response(data={'id': '2060047818543263826', 'text': "🏛 Le #député de la 3e circonscription du Val-d'Oise est Emmanuel MAUREL (53 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2060047818543263826']}, includes={}, errors=[], meta={})
 2026-05-28 17:17:28,518 - INFO - === Fin ===
+2026-05-29 06:17:20,837 - INFO - === Démarrage Députés ===
+2026-05-29 06:17:20,837 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-29 06:17:20,837 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-29 06:17:20,844 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-29 06:17:20,844 - INFO - Historique chargé: 84 députés déjà tweetés
+2026-05-29 06:17:20,846 - INFO - Nombre de députés uniques: 572
+2026-05-29 06:17:20,846 - INFO - Nombre de députés déjà tweetés: 84
+2026-05-29 06:17:20,847 - INFO - Sélectionné: 7711 - Olivier FAURE (nouveau député)
+2026-05-29 06:17:20,847 - INFO - Tweet: 🏛 Le #député de la 11e circonscription de Seine-et-Marne est Olivier FAURE (57 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-29 06:17:21,043 - INFO - Sauvegarde effectuée: 7711 - Olivier FAURE
+2026-05-29 06:17:21,043 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060244080580264188'], 'text': '🏛 Le #député de la 11e circonscription de Seine-et-Marne est Olivier FAURE (57 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2060244080580264188'}, includes={}, errors=[], meta={})
+2026-05-29 06:17:21,043 - INFO - === Fin ===
