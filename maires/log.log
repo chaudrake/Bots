@@ -1,14 +1,3 @@
-2026-05-25 10:46:20,905 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-25 10:46:20,987 - INFO - Historique chargé: 1682 maires déjà tweetés
-2026-05-25 10:46:21,011 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-25 10:46:21,011 - INFO - Nombre de maires déjà tweetés: 1682
-2026-05-25 10:46:21,012 - INFO - Sélectionné: 70199 - Nicole ROUSSEL (nouveau maire)
-2026-05-25 10:46:21,014 - INFO - Tweet: 🏛 La #maire de Dampvalley-Lès-Colombe (Haute-Saône) est Nicole ROUSSEL (71 ans) #MairesdeFrance 🇫🇷
-2026-05-25 10:46:21,205 - INFO - Sauvegarde effectuée: 70199 - Nicole ROUSSEL
-2026-05-25 10:46:21,205 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2058862225855562055'], 'id': '2058862225855562055', 'text': '🏛 La #maire de Dampvalley-Lès-Colombe (Haute-Saône) est Nicole ROUSSEL (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-25 10:46:21,207 - INFO - === Fin ===
-2026-05-25 16:46:20,663 - INFO - === Démarrage Maires ===
-2026-05-25 16:46:20,663 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-25 16:46:20,663 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-25 16:46:20,753 - INFO - Historique chargé: 1683 maires déjà tweetés
 2026-05-25 16:46:20,775 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-30 10:46:21,493 - INFO - Sauvegarde effectuée: 74313 - Xavier BRAND
 2026-05-30 10:46:21,493 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Vovray-En-Bornes (Haute-Savoie) est Xavier BRAND (62 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2060674166467268748'], 'id': '2060674166467268748'}, includes={}, errors=[], meta={})
 2026-05-30 10:46:21,495 - INFO - === Fin ===
+2026-05-30 16:46:24,212 - INFO - === Démarrage Maires ===
+2026-05-30 16:46:24,212 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-30 16:46:24,212 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-30 16:46:24,298 - INFO - Historique chargé: 1692 maires déjà tweetés
+2026-05-30 16:46:24,319 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-30 16:46:24,319 - INFO - Nombre de maires déjà tweetés: 1692
+2026-05-30 16:46:24,320 - INFO - Sélectionné: 49262 - Rodolphe MIRANDE (nouveau maire)
+2026-05-30 16:46:24,322 - INFO - Tweet: 🏛 Le #maire de Rou-Marson (Maine-et-Loire) est Rodolphe MIRANDE (56 ans) #MairesdeFrance 🇫🇷
+2026-05-30 16:46:24,648 - INFO - Sauvegarde effectuée: 49262 - Rodolphe MIRANDE
+2026-05-30 16:46:24,648 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Rou-Marson (Maine-et-Loire) est Rodolphe MIRANDE (56 ans) #MairesdeFrance 🇫🇷', 'id': '2060764776595157289', 'edit_history_tweet_ids': ['2060764776595157289']}, includes={}, errors=[], meta={})
+2026-05-30 16:46:24,650 - INFO - === Fin ===
