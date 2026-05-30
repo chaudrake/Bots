@@ -1,15 +1,3 @@
-2026-05-27 10:17:21,874 - INFO - === Fin ===
-2026-05-27 17:17:21,061 - INFO - === Démarrage Députés ===
-2026-05-27 17:17:21,061 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-27 17:17:21,061 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-27 17:17:21,068 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-27 17:17:21,069 - INFO - Historique chargé: 80 députés déjà tweetés
-2026-05-27 17:17:21,070 - INFO - Nombre de députés uniques: 572
-2026-05-27 17:17:21,070 - INFO - Nombre de députés déjà tweetés: 80
-2026-05-27 17:17:21,071 - INFO - Sélectionné: 3601 - François JOLIVET (nouveau député)
-2026-05-27 17:17:21,072 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de l'Indre est François JOLIVET (60 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-27 17:17:21,331 - INFO - Sauvegarde effectuée: 3601 - François JOLIVET
-2026-05-27 17:17:21,331 - INFO - Succès: Response(data={'text': "🏛 Le #député de la 1ère circonscription de l'Indre est François JOLIVET (60 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2059685400516473325', 'edit_history_tweet_ids': ['2059685400516473325']}, includes={}, errors=[], meta={})
 2026-05-27 17:17:21,331 - INFO - === Fin ===
 2026-05-28 06:17:21,959 - INFO - === Démarrage Députés ===
 2026-05-28 06:17:21,959 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-30 10:17:20,692 - INFO - Sauvegarde effectuée: 8803 - Christophe NAEGELEN
 2026-05-30 10:17:20,692 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060666864951263735'], 'text': '🏛 Le #député de la 3e circonscription des Vosges est Christophe NAEGELEN (42 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2060666864951263735'}, includes={}, errors=[], meta={})
 2026-05-30 10:17:20,692 - INFO - === Fin ===
+2026-05-30 17:17:21,274 - INFO - === Démarrage Députés ===
+2026-05-30 17:17:21,274 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-30 17:17:21,274 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-30 17:17:21,282 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-30 17:17:21,282 - INFO - Historique chargé: 89 députés déjà tweetés
+2026-05-30 17:17:21,283 - INFO - Nombre de députés uniques: 572
+2026-05-30 17:17:21,283 - INFO - Nombre de députés déjà tweetés: 89
+2026-05-30 17:17:21,284 - INFO - Sélectionné: 7401 - Véronique RIOTTON (nouveau député)
+2026-05-30 17:17:21,285 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de Haute-Savoie est Véronique RIOTTON (56 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-30 17:17:21,616 - INFO - Sauvegarde effectuée: 7401 - Véronique RIOTTON
+2026-05-30 17:17:21,616 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060772565333807565'], 'id': '2060772565333807565', 'text': '🏛 La #députée de la 1ère circonscription de Haute-Savoie est Véronique RIOTTON (56 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-05-30 17:17:21,616 - INFO - === Fin ===
