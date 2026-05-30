@@ -1,15 +1,3 @@
-2026-05-27 06:17:26,040 - INFO - === Fin ===
-2026-05-27 10:17:21,647 - INFO - === Démarrage Députés ===
-2026-05-27 10:17:21,647 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-27 10:17:21,647 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-27 10:17:21,654 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-27 10:17:21,654 - INFO - Historique chargé: 79 députés déjà tweetés
-2026-05-27 10:17:21,656 - INFO - Nombre de députés uniques: 572
-2026-05-27 10:17:21,656 - INFO - Nombre de députés déjà tweetés: 79
-2026-05-27 10:17:21,657 - INFO - Sélectionné: 1314 - Gérault VERNY (nouveau député)
-2026-05-27 10:17:21,657 - INFO - Tweet: 🏛 Le #député de la 14e circonscription des Bouches-du-Rhône est Gérault VERNY (41 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-27 10:17:21,874 - INFO - Sauvegarde effectuée: 1314 - Gérault VERNY
-2026-05-27 10:17:21,874 - INFO - Succès: Response(data={'id': '2059579706286944581', 'edit_history_tweet_ids': ['2059579706286944581'], 'text': '🏛 Le #député de la 14e circonscription des Bouches-du-Rhône est Gérault VERNY (41 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-27 10:17:21,874 - INFO - === Fin ===
 2026-05-27 17:17:21,061 - INFO - === Démarrage Députés ===
 2026-05-27 17:17:21,061 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-05-30 06:17:24,277 - INFO - Sauvegarde effectuée: 4501 - Stéphanie RIST
 2026-05-30 06:17:24,277 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060606482052424057'], 'id': '2060606482052424057', 'text': '🏛 La #députée de la 1ère circonscription du Loiret est Stéphanie RIST (52 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-30 06:17:24,277 - INFO - === Fin ===
+2026-05-30 10:17:20,490 - INFO - === Démarrage Députés ===
+2026-05-30 10:17:20,490 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-05-30 10:17:20,490 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-05-30 10:17:20,497 - INFO - ✅ Dates de naissance converties avec succès
+2026-05-30 10:17:20,497 - INFO - Historique chargé: 88 députés déjà tweetés
+2026-05-30 10:17:20,499 - INFO - Nombre de députés uniques: 572
+2026-05-30 10:17:20,499 - INFO - Nombre de députés déjà tweetés: 88
+2026-05-30 10:17:20,500 - INFO - Sélectionné: 8803 - Christophe NAEGELEN (nouveau député)
+2026-05-30 10:17:20,500 - INFO - Tweet: 🏛 Le #député de la 3e circonscription des Vosges est Christophe NAEGELEN (42 ans) #Députés #AssembléeNationale 🇫🇷
+2026-05-30 10:17:20,692 - INFO - Sauvegarde effectuée: 8803 - Christophe NAEGELEN
+2026-05-30 10:17:20,692 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060666864951263735'], 'text': '🏛 Le #député de la 3e circonscription des Vosges est Christophe NAEGELEN (42 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2060666864951263735'}, includes={}, errors=[], meta={})
+2026-05-30 10:17:20,692 - INFO - === Fin ===
