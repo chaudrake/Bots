@@ -1,14 +1,3 @@
-2026-05-26 16:46:24,106 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-26 16:46:24,190 - INFO - Historique chargé: 1684 maires déjà tweetés
-2026-05-26 16:46:24,211 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-26 16:46:24,211 - INFO - Nombre de maires déjà tweetés: 1684
-2026-05-26 16:46:24,213 - INFO - Sélectionné: 17347 - Françoise MESNARD (nouveau maire)
-2026-05-26 16:46:24,214 - INFO - Tweet: 🏛 La #maire de Saint-Jean-D'Angély (Charente-Maritime) est Françoise MESNARD (68 ans) #MairesdeFrance 🇫🇷
-2026-05-26 16:46:24,447 - INFO - Sauvegarde effectuée: 17347 - Françoise MESNARD
-2026-05-26 16:46:24,447 - INFO - Succès: Response(data={'id': '2059315224164139072', 'edit_history_tweet_ids': ['2059315224164139072'], 'text': "🏛 La #maire de Saint-Jean-D'Angély (Charente-Maritime) est Françoise MESNARD (68 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-05-26 16:46:24,449 - INFO - === Fin ===
-2026-05-27 10:46:21,113 - INFO - === Démarrage Maires ===
-2026-05-27 10:46:21,113 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-27 10:46:21,113 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-27 10:46:21,199 - INFO - Historique chargé: 1685 maires déjà tweetés
 2026-05-27 10:46:21,219 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,13 @@
 2026-05-31 10:46:20,019 - INFO - Sauvegarde effectuée: 78466 - Sophie CLERC
 2026-05-31 10:46:20,019 - INFO - Succès: Response(data={'id': '2061036548112433506', 'text': '🏛 La #maire de Orgeval (Yvelines) est Sophie CLERC (59 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2061036548112433506']}, includes={}, errors=[], meta={})
 2026-05-31 10:46:20,021 - INFO - === Fin ===
+2026-05-31 16:46:23,472 - INFO - === Démarrage Maires ===
+2026-05-31 16:46:23,472 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-31 16:46:23,472 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-31 16:46:23,559 - INFO - Historique chargé: 1694 maires déjà tweetés
+2026-05-31 16:46:23,585 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-31 16:46:23,585 - INFO - Nombre de maires déjà tweetés: 1694
+2026-05-31 16:46:23,587 - INFO - Sélectionné: 42029 - Georges SUZAN (nouveau maire)
+2026-05-31 16:46:23,589 - INFO - Tweet: 🏛 Le #maire de Bussières (Loire) est Georges SUZAN (73 ans) #MairesdeFrance 🇫🇷
+2026-05-31 16:46:23,763 - INFO - Erreur: 403 Forbidden
+2026-05-31 16:46:23,766 - INFO - === Fin ===
