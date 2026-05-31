@@ -1,14 +1,3 @@
-2026-05-25 16:46:20,663 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-25 16:46:20,753 - INFO - Historique chargé: 1683 maires déjà tweetés
-2026-05-25 16:46:20,775 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-25 16:46:20,775 - INFO - Nombre de maires déjà tweetés: 1683
-2026-05-25 16:46:20,776 - INFO - Sélectionné: 43058 - Caroline DI VINCENZO (nouveau maire)
-2026-05-25 16:46:20,778 - INFO - Tweet: 🏛 La #maire de La Chapelle-D'Aurec (Haute-Loire) est Caroline DI VINCENZO (42 ans) #MairesdeFrance 🇫🇷
-2026-05-25 16:46:20,974 - INFO - Sauvegarde effectuée: 43058 - Caroline DI VINCENZO
-2026-05-25 16:46:20,974 - INFO - Succès: Response(data={'id': '2058952821911797887', 'edit_history_tweet_ids': ['2058952821911797887'], 'text': "🏛 La #maire de La Chapelle-D'Aurec (Haute-Loire) est Caroline DI VINCENZO (42 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-05-25 16:46:20,976 - INFO - === Fin ===
-2026-05-26 16:46:24,106 - INFO - === Démarrage Maires ===
-2026-05-26 16:46:24,106 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-26 16:46:24,106 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-26 16:46:24,190 - INFO - Historique chargé: 1684 maires déjà tweetés
 2026-05-26 16:46:24,211 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-05-30 16:46:24,648 - INFO - Sauvegarde effectuée: 49262 - Rodolphe MIRANDE
 2026-05-30 16:46:24,648 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Rou-Marson (Maine-et-Loire) est Rodolphe MIRANDE (56 ans) #MairesdeFrance 🇫🇷', 'id': '2060764776595157289', 'edit_history_tweet_ids': ['2060764776595157289']}, includes={}, errors=[], meta={})
 2026-05-30 16:46:24,650 - INFO - === Fin ===
+2026-05-31 10:46:19,718 - INFO - === Démarrage Maires ===
+2026-05-31 10:46:19,718 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-05-31 10:46:19,718 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-05-31 10:46:19,813 - INFO - Historique chargé: 1693 maires déjà tweetés
+2026-05-31 10:46:19,834 - INFO - Nombre de maires actifs uniques: 34637
+2026-05-31 10:46:19,834 - INFO - Nombre de maires déjà tweetés: 1693
+2026-05-31 10:46:19,836 - INFO - Sélectionné: 78466 - Sophie CLERC (nouveau maire)
+2026-05-31 10:46:19,837 - INFO - Tweet: 🏛 La #maire de Orgeval (Yvelines) est Sophie CLERC (59 ans) #MairesdeFrance 🇫🇷
+2026-05-31 10:46:20,019 - INFO - Sauvegarde effectuée: 78466 - Sophie CLERC
+2026-05-31 10:46:20,019 - INFO - Succès: Response(data={'id': '2061036548112433506', 'text': '🏛 La #maire de Orgeval (Yvelines) est Sophie CLERC (59 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2061036548112433506']}, includes={}, errors=[], meta={})
+2026-05-31 10:46:20,021 - INFO - === Fin ===
