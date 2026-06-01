@@ -1,13 +1,3 @@
-2026-05-27 10:46:21,113 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-27 10:46:21,199 - INFO - Historique chargé: 1685 maires déjà tweetés
-2026-05-27 10:46:21,219 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-27 10:46:21,220 - INFO - Nombre de maires déjà tweetés: 1685
-2026-05-27 10:46:21,221 - INFO - Sélectionné: 29292 - Jean-Daniel MAO (nouveau maire)
-2026-05-27 10:46:21,222 - INFO - Tweet: 🏛 Le #maire de Tréguennec (Finistère) est Jean-Daniel MAO (55 ans) #MairesdeFrance 🇫🇷
-2026-05-27 10:46:21,402 - INFO - Sauvegarde effectuée: 29292 - Jean-Daniel MAO
-2026-05-27 10:46:21,402 - INFO - Succès: Response(data={'id': '2059587002463371677', 'text': '🏛 Le #maire de Tréguennec (Finistère) est Jean-Daniel MAO (55 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2059587002463371677']}, includes={}, errors=[], meta={})
-2026-05-27 10:46:21,404 - INFO - === Fin ===
-2026-05-27 16:46:24,417 - INFO - === Démarrage Maires ===
 2026-05-27 16:46:24,417 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-27 16:46:24,417 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-27 16:46:24,502 - INFO - Historique chargé: 1686 maires déjà tweetés
@@ -105,3 +95,14 @@
 2026-05-31 16:46:23,589 - INFO - Tweet: 🏛 Le #maire de Bussières (Loire) est Georges SUZAN (73 ans) #MairesdeFrance 🇫🇷
 2026-05-31 16:46:23,763 - INFO - Erreur: 403 Forbidden
 2026-05-31 16:46:23,766 - INFO - === Fin ===
+2026-06-01 10:46:22,477 - INFO - === Démarrage Maires ===
+2026-06-01 10:46:22,477 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-01 10:46:22,477 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-01 10:46:22,568 - INFO - Historique chargé: 1694 maires déjà tweetés
+2026-06-01 10:46:22,603 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-01 10:46:22,604 - INFO - Nombre de maires déjà tweetés: 1694
+2026-06-01 10:46:22,605 - INFO - Sélectionné: 80020 - Audrey BOCHÉ (nouveau maire)
+2026-06-01 10:46:22,608 - INFO - Tweet: 🏛 La #maire de Allonville (Somme) est Audrey BOCHÉ (45 ans) #MairesdeFrance 🇫🇷
+2026-06-01 10:46:22,845 - INFO - Sauvegarde effectuée: 80020 - Audrey BOCHÉ
+2026-06-01 10:46:22,845 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2061398947764023746'], 'id': '2061398947764023746', 'text': '🏛 La #maire de Allonville (Somme) est Audrey BOCHÉ (45 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-01 10:46:22,848 - INFO - === Fin ===
