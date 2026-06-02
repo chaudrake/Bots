@@ -1,15 +1,3 @@
-2026-05-30 06:17:24,277 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060606482052424057'], 'id': '2060606482052424057', 'text': '🏛 La #députée de la 1ère circonscription du Loiret est Stéphanie RIST (52 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-30 06:17:24,277 - INFO - === Fin ===
-2026-05-30 10:17:20,490 - INFO - === Démarrage Députés ===
-2026-05-30 10:17:20,490 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-30 10:17:20,490 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-30 10:17:20,497 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-30 10:17:20,497 - INFO - Historique chargé: 88 députés déjà tweetés
-2026-05-30 10:17:20,499 - INFO - Nombre de députés uniques: 572
-2026-05-30 10:17:20,499 - INFO - Nombre de députés déjà tweetés: 88
-2026-05-30 10:17:20,500 - INFO - Sélectionné: 8803 - Christophe NAEGELEN (nouveau député)
-2026-05-30 10:17:20,500 - INFO - Tweet: 🏛 Le #député de la 3e circonscription des Vosges est Christophe NAEGELEN (42 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-30 10:17:20,692 - INFO - Sauvegarde effectuée: 8803 - Christophe NAEGELEN
 2026-05-30 10:17:20,692 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060666864951263735'], 'text': '🏛 Le #député de la 3e circonscription des Vosges est Christophe NAEGELEN (42 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2060666864951263735'}, includes={}, errors=[], meta={})
 2026-05-30 10:17:20,692 - INFO - === Fin ===
 2026-05-30 17:17:21,274 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-06-02 06:17:24,046 - INFO - Sauvegarde effectuée: 8005 - Yaël MENACHE
 2026-06-02 06:17:24,047 - INFO - Succès: Response(data={'id': '2061693644566855910', 'text': '🏛 La #députée de la 5e circonscription de la Somme est Yaël MENACHE (41 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2061693644566855910']}, includes={}, errors=[], meta={})
 2026-06-02 06:17:24,047 - INFO - === Fin ===
+2026-06-02 10:17:24,185 - INFO - === Démarrage Députés ===
+2026-06-02 10:17:24,185 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-02 10:17:24,185 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-02 10:17:24,192 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-02 10:17:24,193 - INFO - Historique chargé: 96 députés déjà tweetés
+2026-06-02 10:17:24,194 - INFO - Nombre de députés uniques: 572
+2026-06-02 10:17:24,194 - INFO - Nombre de députés déjà tweetés: 96
+2026-06-02 10:17:24,195 - INFO - Sélectionné: 9405 - Sandrine LALANNE (nouveau député)
+2026-06-02 10:17:24,195 - INFO - Tweet: 🏛 La #députée de la 5e circonscription du Val-de-Marne est Sandrine LALANNE (53 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-02 10:17:24,499 - INFO - Sauvegarde effectuée: 9405 - Sandrine LALANNE
+2026-06-02 10:17:24,499 - INFO - Succès: Response(data={'id': '2061754044440261024', 'edit_history_tweet_ids': ['2061754044440261024'], 'text': '🏛 La #députée de la 5e circonscription du Val-de-Marne est Sandrine LALANNE (53 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-02 10:17:24,499 - INFO - === Fin ===
