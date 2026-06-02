@@ -1,14 +1,3 @@
-2026-05-28 16:46:23,486 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-28 16:46:23,486 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-28 16:46:23,558 - INFO - Historique chargé: 1688 maires déjà tweetés
-2026-05-28 16:46:23,578 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-28 16:46:23,578 - INFO - Nombre de maires déjà tweetés: 1688
-2026-05-28 16:46:23,579 - INFO - Sélectionné: 29151 - Jean-Paul VERMOT (nouveau maire)
-2026-05-28 16:46:23,581 - INFO - Tweet: 🏛 Le #maire de Morlaix (Finistère) est Jean-Paul VERMOT (52 ans) #MairesdeFrance 🇫🇷
-2026-05-28 16:46:23,771 - INFO - Sauvegarde effectuée: 29151 - Jean-Paul VERMOT
-2026-05-28 16:46:23,771 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060039997231907267'], 'id': '2060039997231907267', 'text': '🏛 Le #maire de Morlaix (Finistère) est Jean-Paul VERMOT (52 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-05-28 16:46:23,773 - INFO - === Fin ===
-2026-05-29 10:46:23,653 - INFO - === Démarrage Maires ===
 2026-05-29 10:46:23,653 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-29 10:46:23,653 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-29 10:46:23,741 - INFO - Historique chargé: 1689 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-06-02 10:46:21,376 - INFO - Sauvegarde effectuée: 43214 - Alain FOUILLIT
 2026-06-02 10:46:21,376 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2061761329413730457'], 'text': '🏛 Le #maire de Saint-Pal-De-Senouire (Haute-Loire) est Alain FOUILLIT (58 ans) #MairesdeFrance 🇫🇷', 'id': '2061761329413730457'}, includes={}, errors=[], meta={})
 2026-06-02 10:46:21,379 - INFO - === Fin ===
+2026-06-02 16:46:27,957 - INFO - === Démarrage Maires ===
+2026-06-02 16:46:27,957 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-02 16:46:27,957 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-02 16:46:28,043 - INFO - Historique chargé: 1697 maires déjà tweetés
+2026-06-02 16:46:28,064 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-02 16:46:28,064 - INFO - Nombre de maires déjà tweetés: 1697
+2026-06-02 16:46:28,066 - INFO - Sélectionné: 27061 - Marie-Françoise LECLERC (nouveau maire)
+2026-06-02 16:46:28,067 - INFO - Tweet: 🏛 La #maire de Berthouville (Eure) est Marie-Françoise LECLERC (59 ans) #MairesdeFrance 🇫🇷
+2026-06-02 16:46:28,393 - INFO - Sauvegarde effectuée: 27061 - Marie-Françoise LECLERC
+2026-06-02 16:46:28,393 - INFO - Succès: Response(data={'id': '2061851955786317832', 'edit_history_tweet_ids': ['2061851955786317832'], 'text': '🏛 La #maire de Berthouville (Eure) est Marie-Françoise LECLERC (59 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-02 16:46:28,395 - INFO - === Fin ===
