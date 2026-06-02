@@ -1,15 +1,3 @@
-2026-05-30 10:17:20,692 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060666864951263735'], 'text': '🏛 Le #député de la 3e circonscription des Vosges est Christophe NAEGELEN (42 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2060666864951263735'}, includes={}, errors=[], meta={})
-2026-05-30 10:17:20,692 - INFO - === Fin ===
-2026-05-30 17:17:21,274 - INFO - === Démarrage Députés ===
-2026-05-30 17:17:21,274 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-30 17:17:21,274 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-30 17:17:21,282 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-30 17:17:21,282 - INFO - Historique chargé: 89 députés déjà tweetés
-2026-05-30 17:17:21,283 - INFO - Nombre de députés uniques: 572
-2026-05-30 17:17:21,283 - INFO - Nombre de députés déjà tweetés: 89
-2026-05-30 17:17:21,284 - INFO - Sélectionné: 7401 - Véronique RIOTTON (nouveau député)
-2026-05-30 17:17:21,285 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de Haute-Savoie est Véronique RIOTTON (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-30 17:17:21,616 - INFO - Sauvegarde effectuée: 7401 - Véronique RIOTTON
 2026-05-30 17:17:21,616 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2060772565333807565'], 'id': '2060772565333807565', 'text': '🏛 La #députée de la 1ère circonscription de Haute-Savoie est Véronique RIOTTON (56 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-05-30 17:17:21,616 - INFO - === Fin ===
 2026-05-31 06:17:23,914 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-06-02 10:17:24,499 - INFO - Sauvegarde effectuée: 9405 - Sandrine LALANNE
 2026-06-02 10:17:24,499 - INFO - Succès: Response(data={'id': '2061754044440261024', 'edit_history_tweet_ids': ['2061754044440261024'], 'text': '🏛 La #députée de la 5e circonscription du Val-de-Marne est Sandrine LALANNE (53 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-02 10:17:24,499 - INFO - === Fin ===
+2026-06-02 17:17:28,321 - INFO - === Démarrage Députés ===
+2026-06-02 17:17:28,322 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-02 17:17:28,322 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-02 17:17:28,327 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-02 17:17:28,328 - INFO - Historique chargé: 97 députés déjà tweetés
+2026-06-02 17:17:28,329 - INFO - Nombre de députés uniques: 572
+2026-06-02 17:17:28,329 - INFO - Nombre de députés déjà tweetés: 97
+2026-06-02 17:17:28,329 - INFO - Sélectionné: ZZ03 - Vincent CAURE (nouveau député)
+2026-06-02 17:17:28,330 - INFO - Tweet: 🏛 Le #député de la 3e circonscription des Français établis hors de France est Vincent CAURE (33 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-02 17:17:28,636 - INFO - Sauvegarde effectuée: ZZ03 - Vincent CAURE
+2026-06-02 17:17:28,636 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2061859758198391291'], 'text': '🏛 Le #député de la 3e circonscription des Français établis hors de France est Vincent CAURE (33 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2061859758198391291'}, includes={}, errors=[], meta={})
+2026-06-02 17:17:28,636 - INFO - === Fin ===
