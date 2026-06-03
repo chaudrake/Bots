@@ -1,15 +1,3 @@
-2026-05-31 10:17:22,267 - INFO - === Fin ===
-2026-05-31 17:17:23,148 - INFO - === Démarrage Députés ===
-2026-05-31 17:17:23,148 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-05-31 17:17:23,148 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-05-31 17:17:23,155 - INFO - ✅ Dates de naissance converties avec succès
-2026-05-31 17:17:23,156 - INFO - Historique chargé: 91 députés déjà tweetés
-2026-05-31 17:17:23,157 - INFO - Nombre de députés uniques: 572
-2026-05-31 17:17:23,157 - INFO - Nombre de députés déjà tweetés: 91
-2026-05-31 17:17:23,158 - INFO - Sélectionné: 7809 - Dieynaba DIOP (nouveau député)
-2026-05-31 17:17:23,159 - INFO - Tweet: 🏛 La #députée de la 9e circonscription des Yvelines est Dieynaba DIOP (51 ans) #Députés #AssembléeNationale 🇫🇷
-2026-05-31 17:17:23,453 - INFO - Sauvegarde effectuée: 7809 - Dieynaba DIOP
-2026-05-31 17:17:23,453 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 9e circonscription des Yvelines est Dieynaba DIOP (51 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2061134960841445493', 'edit_history_tweet_ids': ['2061134960841445493']}, includes={}, errors=[], meta={})
 2026-05-31 17:17:23,453 - INFO - === Fin ===
 2026-06-01 06:17:22,421 - INFO - === Démarrage Députés ===
 2026-06-01 06:17:22,421 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-03 10:17:23,627 - INFO - Sauvegarde effectuée: 1002 - Valérie BAZIN-MALGRAS
 2026-06-03 10:17:23,627 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062116428736528604'], 'id': '2062116428736528604', 'text': "🏛 La #députée de la 2e circonscription de l'Aube est Valérie BAZIN-MALGRAS (56 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-03 10:17:23,627 - INFO - === Fin ===
+2026-06-03 17:17:29,426 - INFO - === Démarrage Députés ===
+2026-06-03 17:17:29,426 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-03 17:17:29,426 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-03 17:17:29,433 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-03 17:17:29,433 - INFO - Historique chargé: 100 députés déjà tweetés
+2026-06-03 17:17:29,435 - INFO - Nombre de députés uniques: 572
+2026-06-03 17:17:29,435 - INFO - Nombre de députés déjà tweetés: 100
+2026-06-03 17:17:29,436 - INFO - Sélectionné: 3110 - Jacques OBERTI (nouveau député)
+2026-06-03 17:17:29,437 - INFO - Tweet: 🏛 Le #député de la 10e circonscription de la Haute-Garonne est Jacques OBERTI (65 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-03 17:17:29,660 - INFO - Sauvegarde effectuée: 3110 - Jacques OBERTI
+2026-06-03 17:17:29,661 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062222150468022703'], 'id': '2062222150468022703', 'text': '🏛 Le #député de la 10e circonscription de la Haute-Garonne est Jacques OBERTI (65 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-03 17:17:29,661 - INFO - === Fin ===
