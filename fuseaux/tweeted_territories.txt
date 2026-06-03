@@ -33,3 +33,4 @@ Saint-Martin
 île Europa
 Archipel des #Marquises (Polynésie)
 #Guadeloupe
+#Martinique
