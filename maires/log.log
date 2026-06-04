@@ -1,14 +1,3 @@
-2026-05-30 10:46:21,191 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-30 10:46:21,191 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-30 10:46:21,275 - INFO - Historique chargé: 1691 maires déjà tweetés
-2026-05-30 10:46:21,296 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-30 10:46:21,296 - INFO - Nombre de maires déjà tweetés: 1691
-2026-05-30 10:46:21,299 - INFO - Sélectionné: 74313 - Xavier BRAND (nouveau maire)
-2026-05-30 10:46:21,300 - INFO - Tweet: 🏛 Le #maire de Vovray-En-Bornes (Haute-Savoie) est Xavier BRAND (62 ans) #MairesdeFrance 🇫🇷
-2026-05-30 10:46:21,493 - INFO - Sauvegarde effectuée: 74313 - Xavier BRAND
-2026-05-30 10:46:21,493 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Vovray-En-Bornes (Haute-Savoie) est Xavier BRAND (62 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2060674166467268748'], 'id': '2060674166467268748'}, includes={}, errors=[], meta={})
-2026-05-30 10:46:21,495 - INFO - === Fin ===
-2026-05-30 16:46:24,212 - INFO - === Démarrage Maires ===
 2026-05-30 16:46:24,212 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-30 16:46:24,212 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-30 16:46:24,298 - INFO - Historique chargé: 1692 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-06-03 16:46:25,794 - INFO - Sauvegarde effectuée: 09084 - Anne COURTIAL
 2026-06-03 16:46:25,794 - INFO - Succès: Response(data={'id': '2062214332893606355', 'edit_history_tweet_ids': ['2062214332893606355'], 'text': '🏛 La #maire de Castex (Territoire de Belfort) est Anne COURTIAL (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-03 16:46:25,797 - INFO - === Fin ===
+2026-06-04 10:46:26,043 - INFO - === Démarrage Maires ===
+2026-06-04 10:46:26,043 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-04 10:46:26,043 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-04 10:46:26,130 - INFO - Historique chargé: 1700 maires déjà tweetés
+2026-06-04 10:46:26,154 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-04 10:46:26,154 - INFO - Nombre de maires déjà tweetés: 1700
+2026-06-04 10:46:26,155 - INFO - Sélectionné: 49102 - Serge LEFEVRE (nouveau maire)
+2026-06-04 10:46:26,158 - INFO - Tweet: 🏛 Le #maire de Cléré-Sur-Layon (Maine-et-Loire) est Serge LEFEVRE (67 ans) #MairesdeFrance 🇫🇷
+2026-06-04 10:46:26,381 - INFO - Sauvegarde effectuée: 49102 - Serge LEFEVRE
+2026-06-04 10:46:26,381 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062486126233846033'], 'text': '🏛 Le #maire de Cléré-Sur-Layon (Maine-et-Loire) est Serge LEFEVRE (67 ans) #MairesdeFrance 🇫🇷', 'id': '2062486126233846033'}, includes={}, errors=[], meta={})
+2026-06-04 10:46:26,383 - INFO - === Fin ===
