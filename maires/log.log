@@ -1,14 +1,3 @@
-2026-05-30 16:46:24,212 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-30 16:46:24,212 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-30 16:46:24,298 - INFO - Historique chargé: 1692 maires déjà tweetés
-2026-05-30 16:46:24,319 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-30 16:46:24,319 - INFO - Nombre de maires déjà tweetés: 1692
-2026-05-30 16:46:24,320 - INFO - Sélectionné: 49262 - Rodolphe MIRANDE (nouveau maire)
-2026-05-30 16:46:24,322 - INFO - Tweet: 🏛 Le #maire de Rou-Marson (Maine-et-Loire) est Rodolphe MIRANDE (56 ans) #MairesdeFrance 🇫🇷
-2026-05-30 16:46:24,648 - INFO - Sauvegarde effectuée: 49262 - Rodolphe MIRANDE
-2026-05-30 16:46:24,648 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Rou-Marson (Maine-et-Loire) est Rodolphe MIRANDE (56 ans) #MairesdeFrance 🇫🇷', 'id': '2060764776595157289', 'edit_history_tweet_ids': ['2060764776595157289']}, includes={}, errors=[], meta={})
-2026-05-30 16:46:24,650 - INFO - === Fin ===
-2026-05-31 10:46:19,718 - INFO - === Démarrage Maires ===
 2026-05-31 10:46:19,718 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-05-31 10:46:19,718 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-05-31 10:46:19,813 - INFO - Historique chargé: 1693 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-06-04 10:46:26,381 - INFO - Sauvegarde effectuée: 49102 - Serge LEFEVRE
 2026-06-04 10:46:26,381 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062486126233846033'], 'text': '🏛 Le #maire de Cléré-Sur-Layon (Maine-et-Loire) est Serge LEFEVRE (67 ans) #MairesdeFrance 🇫🇷', 'id': '2062486126233846033'}, includes={}, errors=[], meta={})
 2026-06-04 10:46:26,383 - INFO - === Fin ===
+2026-06-04 16:46:26,697 - INFO - === Démarrage Maires ===
+2026-06-04 16:46:26,697 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-04 16:46:26,697 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-04 16:46:26,766 - INFO - Historique chargé: 1701 maires déjà tweetés
+2026-06-04 16:46:26,782 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-04 16:46:26,782 - INFO - Nombre de maires déjà tweetés: 1701
+2026-06-04 16:46:26,783 - INFO - Sélectionné: 10206 - Etienne GEOFFRIN (nouveau maire)
+2026-06-04 16:46:26,785 - INFO - Tweet: 🏛 Le #maire de Longsols (Aube) est Etienne GEOFFRIN (63 ans) #MairesdeFrance 🇫🇷
+2026-06-04 16:46:27,198 - INFO - Sauvegarde effectuée: 10206 - Etienne GEOFFRIN
+2026-06-04 16:46:27,198 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Longsols (Aube) est Etienne GEOFFRIN (63 ans) #MairesdeFrance 🇫🇷', 'id': '2062576726408868166', 'edit_history_tweet_ids': ['2062576726408868166']}, includes={}, errors=[], meta={})
+2026-06-04 16:46:27,200 - INFO - === Fin ===
