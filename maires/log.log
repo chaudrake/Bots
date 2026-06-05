@@ -1,14 +1,3 @@
-2026-05-31 16:46:23,472 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-05-31 16:46:23,472 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-05-31 16:46:23,559 - INFO - Historique chargé: 1694 maires déjà tweetés
-2026-05-31 16:46:23,585 - INFO - Nombre de maires actifs uniques: 34637
-2026-05-31 16:46:23,585 - INFO - Nombre de maires déjà tweetés: 1694
-2026-05-31 16:46:23,587 - INFO - Sélectionné: 42029 - Georges SUZAN (nouveau maire)
-2026-05-31 16:46:23,589 - INFO - Tweet: 🏛 Le #maire de Bussières (Loire) est Georges SUZAN (73 ans) #MairesdeFrance 🇫🇷
-2026-05-31 16:46:23,763 - INFO - Erreur: 403 Forbidden
-2026-05-31 16:46:23,766 - INFO - === Fin ===
-2026-06-01 10:46:22,477 - INFO - === Démarrage Maires ===
-2026-06-01 10:46:22,477 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-01 10:46:22,477 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-01 10:46:22,568 - INFO - Historique chargé: 1694 maires déjà tweetés
 2026-06-01 10:46:22,603 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-05 10:46:21,075 - INFO - Sauvegarde effectuée: 65270 - Emile SCHERRER
 2026-06-05 10:46:21,075 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062848491869896933'], 'id': '2062848491869896933', 'text': '🏛 Le #maire de Lespouey (Hautes-Pyrénées) est Emile SCHERRER (70 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-05 10:46:21,077 - INFO - === Fin ===
+2026-06-05 16:46:21,887 - INFO - === Démarrage Maires ===
+2026-06-05 16:46:21,887 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-05 16:46:21,887 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-05 16:46:21,975 - INFO - Historique chargé: 1703 maires déjà tweetés
+2026-06-05 16:46:21,995 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-05 16:46:21,995 - INFO - Nombre de maires déjà tweetés: 1703
+2026-06-05 16:46:21,996 - INFO - Sélectionné: 67148 - Didier FOLLENIUS (nouveau maire)
+2026-06-05 16:46:21,998 - INFO - Tweet: 🏛 Le #maire de Frohmuhl (Bas-Rhin) est Didier FOLLENIUS (67 ans) #MairesdeFrance 🇫🇷
+2026-06-05 16:46:22,238 - INFO - Sauvegarde effectuée: 67148 - Didier FOLLENIUS
+2026-06-05 16:46:22,238 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062939093718196324'], 'id': '2062939093718196324', 'text': '🏛 Le #maire de Frohmuhl (Bas-Rhin) est Didier FOLLENIUS (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-05 16:46:22,240 - INFO - === Fin ===
