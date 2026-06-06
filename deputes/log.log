@@ -1,15 +1,3 @@
-2026-06-03 06:17:22,292 - INFO - === Fin ===
-2026-06-03 10:17:23,434 - INFO - === Démarrage Députés ===
-2026-06-03 10:17:23,434 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-03 10:17:23,434 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-03 10:17:23,441 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-03 10:17:23,441 - INFO - Historique chargé: 99 députés déjà tweetés
-2026-06-03 10:17:23,443 - INFO - Nombre de députés uniques: 572
-2026-06-03 10:17:23,443 - INFO - Nombre de députés déjà tweetés: 99
-2026-06-03 10:17:23,444 - INFO - Sélectionné: 1002 - Valérie BAZIN-MALGRAS (nouveau député)
-2026-06-03 10:17:23,444 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de l'Aube est Valérie BAZIN-MALGRAS (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-03 10:17:23,627 - INFO - Sauvegarde effectuée: 1002 - Valérie BAZIN-MALGRAS
-2026-06-03 10:17:23,627 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062116428736528604'], 'id': '2062116428736528604', 'text': "🏛 La #députée de la 2e circonscription de l'Aube est Valérie BAZIN-MALGRAS (56 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-03 10:17:23,627 - INFO - === Fin ===
 2026-06-03 17:17:29,426 - INFO - === Démarrage Députés ===
 2026-06-03 17:17:29,426 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-06 06:17:21,911 - INFO - Sauvegarde effectuée: 8302 - Laure LAVALETTE
 2026-06-06 06:17:21,911 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 2e circonscription du Var est Laure LAVALETTE (50 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2063143187129237669', 'edit_history_tweet_ids': ['2063143187129237669']}, includes={}, errors=[], meta={})
 2026-06-06 06:17:21,911 - INFO - === Fin ===
+2026-06-06 10:17:22,019 - INFO - === Démarrage Députés ===
+2026-06-06 10:17:22,019 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-06 10:17:22,019 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-06 10:17:22,025 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-06 10:17:22,026 - INFO - Historique chargé: 108 députés déjà tweetés
+2026-06-06 10:17:22,027 - INFO - Nombre de députés uniques: 572
+2026-06-06 10:17:22,027 - INFO - Nombre de députés déjà tweetés: 108
+2026-06-06 10:17:22,028 - INFO - Sélectionné: 1306 - Olivier FAYSSAT (nouveau député)
+2026-06-06 10:17:22,028 - INFO - Tweet: 🏛 Le #député de la 6e circonscription des Bouches-du-Rhône est Olivier FAYSSAT (58 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-06 10:17:22,350 - INFO - Sauvegarde effectuée: 1306 - Olivier FAYSSAT
+2026-06-06 10:17:22,350 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 6e circonscription des Bouches-du-Rhône est Olivier FAYSSAT (58 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2063203586872344904'], 'id': '2063203586872344904'}, includes={}, errors=[], meta={})
+2026-06-06 10:17:22,350 - INFO - === Fin ===
