@@ -1,14 +1,3 @@
-2026-06-01 16:46:28,124 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-01 16:46:28,211 - INFO - Historique chargé: 1695 maires déjà tweetés
-2026-06-01 16:46:28,234 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-01 16:46:28,234 - INFO - Nombre de maires déjà tweetés: 1695
-2026-06-01 16:46:28,236 - INFO - Sélectionné: 09035 - Jean-Claude ROQUES (nouveau maire)
-2026-06-01 16:46:28,238 - INFO - Tweet: 🏛 Le #maire de Balaguères (Territoire de Belfort) est Jean-Claude ROQUES (68 ans) #MairesdeFrance 🇫🇷
-2026-06-01 16:46:28,441 - INFO - Sauvegarde effectuée: 09035 - Jean-Claude ROQUES
-2026-06-01 16:46:28,441 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2061489568235581602'], 'text': '🏛 Le #maire de Balaguères (Territoire de Belfort) est Jean-Claude ROQUES (68 ans) #MairesdeFrance 🇫🇷', 'id': '2061489568235581602'}, includes={}, errors=[], meta={})
-2026-06-01 16:46:28,443 - INFO - === Fin ===
-2026-06-02 10:46:21,007 - INFO - === Démarrage Maires ===
-2026-06-02 10:46:21,008 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-02 10:46:21,008 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-02 10:46:21,097 - INFO - Historique chargé: 1696 maires déjà tweetés
 2026-06-02 10:46:21,118 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-06 10:46:21,123 - INFO - Sauvegarde effectuée: 25390 - Marie RUFENACHT
 2026-06-06 10:46:21,123 - INFO - Succès: Response(data={'text': '🏛 La #maire de Pays-De-Montbenoît (Doubs) est Marie RUFENACHT (41 ans) #MairesdeFrance 🇫🇷', 'id': '2063210879693525231', 'edit_history_tweet_ids': ['2063210879693525231']}, includes={}, errors=[], meta={})
 2026-06-06 10:46:21,125 - INFO - === Fin ===
+2026-06-06 16:46:22,120 - INFO - === Démarrage Maires ===
+2026-06-06 16:46:22,120 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-06 16:46:22,120 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-06 16:46:22,206 - INFO - Historique chargé: 1705 maires déjà tweetés
+2026-06-06 16:46:22,228 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-06 16:46:22,228 - INFO - Nombre de maires déjà tweetés: 1705
+2026-06-06 16:46:22,229 - INFO - Sélectionné: 44166 - François BLANCHARD (nouveau maire)
+2026-06-06 16:46:22,231 - INFO - Tweet: 🏛 Le #maire de Saint-Jean-De-Boiseau (Loire-Atlantique) est François BLANCHARD (48 ans) #MairesdeFrance 🇫🇷
+2026-06-06 16:46:22,554 - INFO - Sauvegarde effectuée: 44166 - François BLANCHARD
+2026-06-06 16:46:22,554 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063301482737209548'], 'id': '2063301482737209548', 'text': '🏛 Le #maire de Saint-Jean-De-Boiseau (Loire-Atlantique) est François BLANCHARD (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-06 16:46:22,557 - INFO - === Fin ===
