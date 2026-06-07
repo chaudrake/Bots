@@ -1,15 +1,3 @@
-2026-06-04 06:17:23,808 - INFO - === Fin ===
-2026-06-04 10:17:22,823 - INFO - === Démarrage Députés ===
-2026-06-04 10:17:22,823 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-04 10:17:22,823 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-04 10:17:22,830 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-04 10:17:22,830 - INFO - Historique chargé: 102 députés déjà tweetés
-2026-06-04 10:17:22,832 - INFO - Nombre de députés uniques: 572
-2026-06-04 10:17:22,832 - INFO - Nombre de députés déjà tweetés: 102
-2026-06-04 10:17:22,833 - INFO - Sélectionné: 3903 - Justine GRUET (nouveau député)
-2026-06-04 10:17:22,833 - INFO - Tweet: 🏛 La #députée de la 3e circonscription du Jura est Justine GRUET (36 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-04 10:17:22,998 - INFO - Sauvegarde effectuée: 3903 - Justine GRUET
-2026-06-04 10:17:22,998 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 3e circonscription du Jura est Justine GRUET (36 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2062478814001979771'], 'id': '2062478814001979771'}, includes={}, errors=[], meta={})
 2026-06-04 10:17:22,999 - INFO - === Fin ===
 2026-06-04 17:17:22,887 - INFO - === Démarrage Députés ===
 2026-06-04 17:17:22,887 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-07 06:17:22,105 - INFO - Sauvegarde effectuée: 9302 - Stéphane PEU
 2026-06-07 06:17:22,105 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063505575560786060'], 'id': '2063505575560786060', 'text': '🏛 Le #député de la 2e circonscription de Seine-Saint-Denis est Stéphane PEU (63 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-07 06:17:22,105 - INFO - === Fin ===
+2026-06-07 10:17:23,750 - INFO - === Démarrage Députés ===
+2026-06-07 10:17:23,750 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-07 10:17:23,750 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-07 10:17:23,756 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-07 10:17:23,757 - INFO - Historique chargé: 111 députés déjà tweetés
+2026-06-07 10:17:23,758 - INFO - Nombre de députés uniques: 572
+2026-06-07 10:17:23,758 - INFO - Nombre de députés déjà tweetés: 111
+2026-06-07 10:17:23,759 - INFO - Sélectionné: 7104 - Eric MICHOUX (nouveau député)
+2026-06-07 10:17:23,760 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de Saône-et-Loire est Eric MICHOUX (66 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-07 10:17:24,103 - INFO - Sauvegarde effectuée: 7104 - Eric MICHOUX
+2026-06-07 10:17:24,103 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063565982036062566'], 'text': '🏛 Le #député de la 4e circonscription de Saône-et-Loire est Eric MICHOUX (66 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2063565982036062566'}, includes={}, errors=[], meta={})
+2026-06-07 10:17:24,103 - INFO - === Fin ===
