@@ -1,10 +1,11 @@
 name: Fuseaux Bot
+# FUSEAUX NE MARCHE PLUS. NÉCESSITE PAIEMENT.
 
 on:
   workflow_dispatch:
-  schedule:
+#  schedule:
     # chaque jour à 11h24
-    - cron: "24 11 * * *"
+  #  - cron: "24 11 * * *"
 
 jobs:
   run-bot:
