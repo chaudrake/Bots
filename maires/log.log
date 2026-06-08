@@ -1,14 +1,3 @@
-2026-06-03 16:46:25,462 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-03 16:46:25,549 - INFO - Historique chargé: 1699 maires déjà tweetés
-2026-06-03 16:46:25,572 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-03 16:46:25,573 - INFO - Nombre de maires déjà tweetés: 1699
-2026-06-03 16:46:25,576 - INFO - Sélectionné: 09084 - Anne COURTIAL (nouveau maire)
-2026-06-03 16:46:25,578 - INFO - Tweet: 🏛 La #maire de Castex (Territoire de Belfort) est Anne COURTIAL (48 ans) #MairesdeFrance 🇫🇷
-2026-06-03 16:46:25,794 - INFO - Sauvegarde effectuée: 09084 - Anne COURTIAL
-2026-06-03 16:46:25,794 - INFO - Succès: Response(data={'id': '2062214332893606355', 'edit_history_tweet_ids': ['2062214332893606355'], 'text': '🏛 La #maire de Castex (Territoire de Belfort) est Anne COURTIAL (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-03 16:46:25,797 - INFO - === Fin ===
-2026-06-04 10:46:26,043 - INFO - === Démarrage Maires ===
-2026-06-04 10:46:26,043 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-04 10:46:26,043 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-04 10:46:26,130 - INFO - Historique chargé: 1700 maires déjà tweetés
 2026-06-04 10:46:26,154 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-08 10:46:24,902 - INFO - Sauvegarde effectuée: 76567 - Bernard BRUCHET
 2026-06-08 10:46:24,902 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063935671455174792'], 'id': '2063935671455174792', 'text': '🏛 Le #maire de Sainte-Beuve-En-Rivière (Seine-Maritime) est Bernard BRUCHET (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-08 10:46:24,904 - INFO - === Fin ===
+2026-06-08 16:46:25,751 - INFO - === Démarrage Maires ===
+2026-06-08 16:46:25,751 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-08 16:46:25,751 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-08 16:46:25,834 - INFO - Historique chargé: 1708 maires déjà tweetés
+2026-06-08 16:46:25,855 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-08 16:46:25,855 - INFO - Nombre de maires déjà tweetés: 1708
+2026-06-08 16:46:25,856 - INFO - Sélectionné: 59485 - Julien WAXIN (nouveau maire)
+2026-06-08 16:46:25,858 - INFO - Tweet: 🏛 Le #maire de Quiévy (Nord) est Julien WAXIN (36 ans) #MairesdeFrance 🇫🇷
+2026-06-08 16:46:26,165 - INFO - Sauvegarde effectuée: 59485 - Julien WAXIN
+2026-06-08 16:46:26,165 - INFO - Succès: Response(data={'id': '2064026273647841555', 'text': '🏛 Le #maire de Quiévy (Nord) est Julien WAXIN (36 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2064026273647841555']}, includes={}, errors=[], meta={})
+2026-06-08 16:46:26,167 - INFO - === Fin ===
