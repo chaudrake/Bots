@@ -1,14 +1,3 @@
-2026-06-03 10:46:23,749 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-03 10:46:23,837 - INFO - Historique chargé: 1698 maires déjà tweetés
-2026-06-03 10:46:23,857 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-03 10:46:23,857 - INFO - Nombre de maires déjà tweetés: 1698
-2026-06-03 10:46:23,859 - INFO - Sélectionné: 16338 - Laurent Didier MURGUET (nouveau maire)
-2026-06-03 10:46:23,860 - INFO - Tweet: 🏛 Le #maire de Saint-Médard (Charente) est Laurent Didier MURGUET (57 ans) #MairesdeFrance 🇫🇷
-2026-06-03 10:46:24,185 - INFO - Sauvegarde effectuée: 16338 - Laurent Didier MURGUET
-2026-06-03 10:46:24,185 - INFO - Succès: Response(data={'id': '2062123729036218522', 'text': '🏛 Le #maire de Saint-Médard (Charente) est Laurent Didier MURGUET (57 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2062123729036218522']}, includes={}, errors=[], meta={})
-2026-06-03 10:46:24,188 - INFO - === Fin ===
-2026-06-03 16:46:25,462 - INFO - === Démarrage Maires ===
-2026-06-03 16:46:25,462 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-03 16:46:25,462 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-03 16:46:25,549 - INFO - Historique chargé: 1699 maires déjà tweetés
 2026-06-03 16:46:25,572 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-07 16:46:22,000 - INFO - Sauvegarde effectuée: 80237 - Thierry LAVALLARD
 2026-06-07 16:46:22,000 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063663868325368149'], 'text': '🏛 Le #maire de Démuin (Somme) est Thierry LAVALLARD (59 ans) #MairesdeFrance 🇫🇷', 'id': '2063663868325368149'}, includes={}, errors=[], meta={})
 2026-06-07 16:46:22,002 - INFO - === Fin ===
+2026-06-08 10:46:24,515 - INFO - === Démarrage Maires ===
+2026-06-08 10:46:24,515 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-08 10:46:24,515 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-08 10:46:24,604 - INFO - Historique chargé: 1707 maires déjà tweetés
+2026-06-08 10:46:24,626 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-08 10:46:24,626 - INFO - Nombre de maires déjà tweetés: 1707
+2026-06-08 10:46:24,628 - INFO - Sélectionné: 76567 - Bernard BRUCHET (nouveau maire)
+2026-06-08 10:46:24,629 - INFO - Tweet: 🏛 Le #maire de Sainte-Beuve-En-Rivière (Seine-Maritime) est Bernard BRUCHET (65 ans) #MairesdeFrance 🇫🇷
+2026-06-08 10:46:24,902 - INFO - Sauvegarde effectuée: 76567 - Bernard BRUCHET
+2026-06-08 10:46:24,902 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063935671455174792'], 'id': '2063935671455174792', 'text': '🏛 Le #maire de Sainte-Beuve-En-Rivière (Seine-Maritime) est Bernard BRUCHET (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-08 10:46:24,904 - INFO - === Fin ===
