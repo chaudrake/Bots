@@ -67,3 +67,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/britneyspears.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/macron.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/Notre-Dame.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/serenawilliams.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/stallone.jpg
