@@ -1,14 +1,3 @@
-2026-06-05 10:46:20,786 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-05 10:46:20,857 - INFO - Historique chargé: 1702 maires déjà tweetés
-2026-06-05 10:46:20,874 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-05 10:46:20,874 - INFO - Nombre de maires déjà tweetés: 1702
-2026-06-05 10:46:20,875 - INFO - Sélectionné: 65270 - Emile SCHERRER (nouveau maire)
-2026-06-05 10:46:20,876 - INFO - Tweet: 🏛 Le #maire de Lespouey (Hautes-Pyrénées) est Emile SCHERRER (70 ans) #MairesdeFrance 🇫🇷
-2026-06-05 10:46:21,075 - INFO - Sauvegarde effectuée: 65270 - Emile SCHERRER
-2026-06-05 10:46:21,075 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2062848491869896933'], 'id': '2062848491869896933', 'text': '🏛 Le #maire de Lespouey (Hautes-Pyrénées) est Emile SCHERRER (70 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-05 10:46:21,077 - INFO - === Fin ===
-2026-06-05 16:46:21,887 - INFO - === Démarrage Maires ===
-2026-06-05 16:46:21,887 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-05 16:46:21,887 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-05 16:46:21,975 - INFO - Historique chargé: 1703 maires déjà tweetés
 2026-06-05 16:46:21,995 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-09 16:46:33,986 - INFO - Sauvegarde effectuée: 35347 - Bruno DELVA
 2026-06-09 16:46:33,986 - INFO - Succès: Response(data={'id': '2064388694270783644', 'edit_history_tweet_ids': ['2064388694270783644'], 'text': "🏛 Le #maire de Val-D'Izé (Ille-et-Vilaine) est Bruno DELVA (68 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-09 16:46:33,988 - INFO - === Fin ===
+2026-06-10 10:46:24,152 - INFO - === Démarrage Maires ===
+2026-06-10 10:46:24,152 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-10 10:46:24,152 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-10 10:46:24,240 - INFO - Historique chargé: 1711 maires déjà tweetés
+2026-06-10 10:46:24,267 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-10 10:46:24,267 - INFO - Nombre de maires déjà tweetés: 1711
+2026-06-10 10:46:24,269 - INFO - Sélectionné: 12296 - Maxime CONSTANS (nouveau maire)
+2026-06-10 10:46:24,271 - INFO - Tweet: 🏛 Le #maire de Viala-Du-Tarn (Aveyron) est Maxime CONSTANS (44 ans) #MairesdeFrance 🇫🇷
+2026-06-10 10:46:24,527 - INFO - Sauvegarde effectuée: 12296 - Maxime CONSTANS
+2026-06-10 10:46:24,527 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2064660445491769746'], 'id': '2064660445491769746', 'text': '🏛 Le #maire de Viala-Du-Tarn (Aveyron) est Maxime CONSTANS (44 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-10 10:46:24,529 - INFO - === Fin ===
