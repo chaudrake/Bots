@@ -69,3 +69,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/Notre-Dame.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/serenawilliams.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/stallone.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/ladydi.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/sophiemarceau.jpg
