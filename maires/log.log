@@ -1,14 +1,3 @@
-2026-06-07 16:46:21,635 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-07 16:46:21,719 - INFO - Historique chargé: 1707 maires déjà tweetés
-2026-06-07 16:46:21,740 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-07 16:46:21,741 - INFO - Nombre de maires déjà tweetés: 1707
-2026-06-07 16:46:21,742 - INFO - Changement détecté: 80237 (Alain DOVERGNE → Thierry LAVALLARD)
-2026-06-07 16:46:21,743 - INFO - Tweet: 🏛 Le #maire de Démuin (Somme) est Thierry LAVALLARD (59 ans) #MairesdeFrance 🇫🇷
-2026-06-07 16:46:22,000 - INFO - Sauvegarde effectuée: 80237 - Thierry LAVALLARD
-2026-06-07 16:46:22,000 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2063663868325368149'], 'text': '🏛 Le #maire de Démuin (Somme) est Thierry LAVALLARD (59 ans) #MairesdeFrance 🇫🇷', 'id': '2063663868325368149'}, includes={}, errors=[], meta={})
-2026-06-07 16:46:22,002 - INFO - === Fin ===
-2026-06-08 10:46:24,515 - INFO - === Démarrage Maires ===
-2026-06-08 10:46:24,515 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-08 10:46:24,515 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-08 10:46:24,604 - INFO - Historique chargé: 1707 maires déjà tweetés
 2026-06-08 10:46:24,626 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-12 10:46:22,836 - INFO - Sauvegarde effectuée: 67552 - Julien WIES
 2026-06-12 10:46:22,836 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Wolfskirchen (Bas-Rhin) est Julien WIES (39 ans) #MairesdeFrance 🇫🇷', 'id': '2065385214189142433', 'edit_history_tweet_ids': ['2065385214189142433']}, includes={}, errors=[], meta={})
 2026-06-12 10:46:22,838 - INFO - === Fin ===
+2026-06-12 16:46:26,338 - INFO - === Démarrage Maires ===
+2026-06-12 16:46:26,338 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-12 16:46:26,338 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-12 16:46:26,420 - INFO - Historique chargé: 1716 maires déjà tweetés
+2026-06-12 16:46:26,440 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-12 16:46:26,440 - INFO - Nombre de maires déjà tweetés: 1716
+2026-06-12 16:46:26,441 - INFO - Sélectionné: 21323 - Pierre DUVERNOIS (nouveau maire)
+2026-06-12 16:46:26,443 - INFO - Tweet: 🏛 Le #maire de Jancigny (Côte-d'Or) est Pierre DUVERNOIS (65 ans) #MairesdeFrance 🇫🇷
+2026-06-12 16:46:26,663 - INFO - Sauvegarde effectuée: 21323 - Pierre DUVERNOIS
+2026-06-12 16:46:26,663 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2065475827278745930'], 'id': '2065475827278745930', 'text': "🏛 Le #maire de Jancigny (Côte-d'Or) est Pierre DUVERNOIS (65 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-06-12 16:46:26,665 - INFO - === Fin ===
