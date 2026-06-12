@@ -1,15 +1,3 @@
-2026-06-09 10:17:24,801 - INFO - === Fin ===
-2026-06-09 17:17:30,008 - INFO - === Démarrage Députés ===
-2026-06-09 17:17:30,008 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-09 17:17:30,008 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-09 17:17:30,015 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-09 17:17:30,015 - INFO - Historique chargé: 118 députés déjà tweetés
-2026-06-09 17:17:30,017 - INFO - Nombre de députés uniques: 572
-2026-06-09 17:17:30,017 - INFO - Nombre de députés déjà tweetés: 118
-2026-06-09 17:17:30,018 - INFO - Sélectionné: 2502 - Dominique VOYNET (nouveau député)
-2026-06-09 17:17:30,018 - INFO - Tweet: 🏛 La #députée de la 2e circonscription du Doubs est Dominique VOYNET (67 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-09 17:17:30,242 - INFO - Sauvegarde effectuée: 2502 - Dominique VOYNET
-2026-06-09 17:17:30,242 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2064396480094547984'], 'id': '2064396480094547984', 'text': '🏛 La #députée de la 2e circonscription du Doubs est Dominique VOYNET (67 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-09 17:17:30,242 - INFO - === Fin ===
 2026-06-10 06:17:20,185 - INFO - === Démarrage Députés ===
 2026-06-10 06:17:20,185 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-12 10:17:25,752 - INFO - Sauvegarde effectuée: 9205 - Céline CALVEZ
 2026-06-12 10:17:25,752 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 5e circonscription des Hauts-de-Seine est Céline CALVEZ (46 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2065377928364380268', 'edit_history_tweet_ids': ['2065377928364380268']}, includes={}, errors=[], meta={})
 2026-06-12 10:17:25,752 - INFO - === Fin ===
+2026-06-12 17:17:23,891 - INFO - === Démarrage Députés ===
+2026-06-12 17:17:23,891 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-12 17:17:23,891 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-12 17:17:23,898 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-12 17:17:23,899 - INFO - Historique chargé: 127 députés déjà tweetés
+2026-06-12 17:17:23,900 - INFO - Nombre de députés uniques: 572
+2026-06-12 17:17:23,901 - INFO - Nombre de députés déjà tweetés: 127
+2026-06-12 17:17:23,901 - INFO - Sélectionné: 2301 - Bartolomé LENOIR (nouveau député)
+2026-06-12 17:17:23,901 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Creuse est Bartolomé LENOIR (34 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-12 17:17:24,183 - INFO - Sauvegarde effectuée: 2301 - Bartolomé LENOIR
+2026-06-12 17:17:24,184 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2065483618231672895'], 'text': '🏛 Le #député de la 1ère circonscription de la Creuse est Bartolomé LENOIR (34 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2065483618231672895'}, includes={}, errors=[], meta={})
+2026-06-12 17:17:24,184 - INFO - === Fin ===
