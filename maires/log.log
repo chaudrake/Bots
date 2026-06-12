@@ -1,14 +1,3 @@
-2026-06-07 10:46:23,687 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-07 10:46:23,773 - INFO - Historique chargé: 1706 maires déjà tweetés
-2026-06-07 10:46:23,798 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-07 10:46:23,799 - INFO - Nombre de maires déjà tweetés: 1706
-2026-06-07 10:46:23,800 - INFO - Sélectionné: 86299 - François HEILY (nouveau maire)
-2026-06-07 10:46:23,802 - INFO - Tweet: 🏛 Le #maire de Vouzailles (Vienne) est François HEILY (63 ans) #MairesdeFrance 🇫🇷
-2026-06-07 10:46:24,127 - INFO - Sauvegarde effectuée: 86299 - François HEILY
-2026-06-07 10:46:24,127 - INFO - Succès: Response(data={'id': '2063573280276226498', 'edit_history_tweet_ids': ['2063573280276226498'], 'text': '🏛 Le #maire de Vouzailles (Vienne) est François HEILY (63 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-07 10:46:24,129 - INFO - === Fin ===
-2026-06-07 16:46:21,634 - INFO - === Démarrage Maires ===
-2026-06-07 16:46:21,635 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-07 16:46:21,635 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-07 16:46:21,719 - INFO - Historique chargé: 1707 maires déjà tweetés
 2026-06-07 16:46:21,740 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-11 16:46:28,158 - INFO - Sauvegarde effectuée: 36190 - Edward TUMSON
 2026-06-11 16:46:28,158 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2065113445532406063'], 'text': '🏛 Le #maire de Sainte-Fauste (Indre) est Edward TUMSON (54 ans) #MairesdeFrance 🇫🇷', 'id': '2065113445532406063'}, includes={}, errors=[], meta={})
 2026-06-11 16:46:28,160 - INFO - === Fin ===
+2026-06-12 10:46:22,442 - INFO - === Démarrage Maires ===
+2026-06-12 10:46:22,442 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-12 10:46:22,442 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-12 10:46:22,534 - INFO - Historique chargé: 1715 maires déjà tweetés
+2026-06-12 10:46:22,559 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-12 10:46:22,559 - INFO - Nombre de maires déjà tweetés: 1715
+2026-06-12 10:46:22,561 - INFO - Sélectionné: 67552 - Julien WIES (nouveau maire)
+2026-06-12 10:46:22,562 - INFO - Tweet: 🏛 Le #maire de Wolfskirchen (Bas-Rhin) est Julien WIES (39 ans) #MairesdeFrance 🇫🇷
+2026-06-12 10:46:22,836 - INFO - Sauvegarde effectuée: 67552 - Julien WIES
+2026-06-12 10:46:22,836 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Wolfskirchen (Bas-Rhin) est Julien WIES (39 ans) #MairesdeFrance 🇫🇷', 'id': '2065385214189142433', 'edit_history_tweet_ids': ['2065385214189142433']}, includes={}, errors=[], meta={})
+2026-06-12 10:46:22,838 - INFO - === Fin ===
