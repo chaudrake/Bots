@@ -35,7 +35,8 @@
   ],
   "used_repas_principal": [
     "Tartare de thon et avocat",
-    "Jambalaya de poulet accompagné de riz"
+    "Jambalaya de poulet accompagné de riz",
+    "Merlan au court-bouillon"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -109,6 +110,7 @@
     "Brocoli rôti à l’ail",
     "Melon et jambon de Bayonne",
     "Hareng pommes à l'huile",
-    "Des huîtres"
+    "Des huîtres",
+    "Gaspacho de tomates"
   ]
 }
