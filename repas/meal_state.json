@@ -38,7 +38,8 @@
     "Tartare de thon et avocat",
     "Jambalaya de poulet accompagné de riz",
     "Merlan au court-bouillon",
-    "Brochettes de poulet"
+    "Brochettes de poulet",
+    "Pizza garnie des restes de la veille"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -114,6 +115,7 @@
     "Hareng pommes à l'huile",
     "Des huîtres",
     "Gaspacho de tomates",
-    "Céviche de dorade au citron vert"
+    "Céviche de dorade au citron vert",
+    "Céleri rémoulade"
   ]
 }
