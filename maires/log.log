@@ -1,14 +1,3 @@
-2026-06-08 16:46:25,751 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-08 16:46:25,834 - INFO - Historique chargé: 1708 maires déjà tweetés
-2026-06-08 16:46:25,855 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-08 16:46:25,855 - INFO - Nombre de maires déjà tweetés: 1708
-2026-06-08 16:46:25,856 - INFO - Sélectionné: 59485 - Julien WAXIN (nouveau maire)
-2026-06-08 16:46:25,858 - INFO - Tweet: 🏛 Le #maire de Quiévy (Nord) est Julien WAXIN (36 ans) #MairesdeFrance 🇫🇷
-2026-06-08 16:46:26,165 - INFO - Sauvegarde effectuée: 59485 - Julien WAXIN
-2026-06-08 16:46:26,165 - INFO - Succès: Response(data={'id': '2064026273647841555', 'text': '🏛 Le #maire de Quiévy (Nord) est Julien WAXIN (36 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2064026273647841555']}, includes={}, errors=[], meta={})
-2026-06-08 16:46:26,167 - INFO - === Fin ===
-2026-06-09 10:46:23,251 - INFO - === Démarrage Maires ===
-2026-06-09 10:46:23,251 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-09 10:46:23,251 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-09 10:46:23,330 - INFO - Historique chargé: 1709 maires déjà tweetés
 2026-06-09 10:46:23,351 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-13 10:46:28,506 - INFO - Sauvegarde effectuée: 35234 - Lydie MÉAL
 2026-06-13 10:46:28,506 - INFO - Succès: Response(data={'id': '2065747625966510165', 'text': '🏛 La #maire de Quédillac (Ille-et-Vilaine) est Lydie MÉAL (64 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2065747625966510165']}, includes={}, errors=[], meta={})
 2026-06-13 10:46:28,508 - INFO - === Fin ===
+2026-06-13 16:46:29,848 - INFO - === Démarrage Maires ===
+2026-06-13 16:46:29,848 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-13 16:46:29,848 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-13 16:46:29,935 - INFO - Historique chargé: 1718 maires déjà tweetés
+2026-06-13 16:46:29,957 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-13 16:46:29,957 - INFO - Nombre de maires déjà tweetés: 1718
+2026-06-13 16:46:29,958 - INFO - Sélectionné: 53035 - Jean-Eudes GAUBERT (nouveau maire)
+2026-06-13 16:46:29,960 - INFO - Tweet: 🏛 Le #maire de Bouchamps-Lès-Craon (Mayenne) est Jean-Eudes GAUBERT (54 ans) #MairesdeFrance 🇫🇷
+2026-06-13 16:46:30,145 - INFO - Sauvegarde effectuée: 53035 - Jean-Eudes GAUBERT
+2026-06-13 16:46:30,145 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Bouchamps-Lès-Craon (Mayenne) est Jean-Eudes GAUBERT (54 ans) #MairesdeFrance 🇫🇷', 'id': '2065838229811548399', 'edit_history_tweet_ids': ['2065838229811548399']}, includes={}, errors=[], meta={})
+2026-06-13 16:46:30,147 - INFO - === Fin ===
