@@ -1,14 +1,3 @@
-2026-06-09 10:46:23,251 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-09 10:46:23,330 - INFO - Historique chargé: 1709 maires déjà tweetés
-2026-06-09 10:46:23,351 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-09 10:46:23,351 - INFO - Nombre de maires déjà tweetés: 1709
-2026-06-09 10:46:23,352 - INFO - Sélectionné: 15001 - Alain GRIFFE (nouveau maire)
-2026-06-09 10:46:23,354 - INFO - Tweet: 🏛 Le #maire de Allanche (Cantal) est Alain GRIFFE (74 ans) #MairesdeFrance 🇫🇷
-2026-06-09 10:46:23,599 - INFO - Sauvegarde effectuée: 15001 - Alain GRIFFE
-2026-06-09 10:46:23,599 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2064298053834567738'], 'text': '🏛 Le #maire de Allanche (Cantal) est Alain GRIFFE (74 ans) #MairesdeFrance 🇫🇷', 'id': '2064298053834567738'}, includes={}, errors=[], meta={})
-2026-06-09 10:46:23,601 - INFO - === Fin ===
-2026-06-09 16:46:33,586 - INFO - === Démarrage Maires ===
-2026-06-09 16:46:33,586 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-09 16:46:33,586 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-09 16:46:33,672 - INFO - Historique chargé: 1710 maires déjà tweetés
 2026-06-09 16:46:33,695 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-13 16:46:30,145 - INFO - Sauvegarde effectuée: 53035 - Jean-Eudes GAUBERT
 2026-06-13 16:46:30,145 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Bouchamps-Lès-Craon (Mayenne) est Jean-Eudes GAUBERT (54 ans) #MairesdeFrance 🇫🇷', 'id': '2065838229811548399', 'edit_history_tweet_ids': ['2065838229811548399']}, includes={}, errors=[], meta={})
 2026-06-13 16:46:30,147 - INFO - === Fin ===
+2026-06-14 10:46:27,283 - INFO - === Démarrage Maires ===
+2026-06-14 10:46:27,283 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-14 10:46:27,283 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-14 10:46:27,371 - INFO - Historique chargé: 1719 maires déjà tweetés
+2026-06-14 10:46:27,391 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-14 10:46:27,391 - INFO - Nombre de maires déjà tweetés: 1719
+2026-06-14 10:46:27,392 - INFO - Sélectionné: 51229 - Myriam RICARDE (nouveau maire)
+2026-06-14 10:46:27,394 - INFO - Tweet: 🏛 La #maire de Epense (Marne) est Myriam RICARDE (54 ans) #MairesdeFrance 🇫🇷
+2026-06-14 10:46:27,619 - INFO - Sauvegarde effectuée: 51229 - Myriam RICARDE
+2026-06-14 10:46:27,619 - INFO - Succès: Response(data={'id': '2066110010065592603', 'edit_history_tweet_ids': ['2066110010065592603'], 'text': '🏛 La #maire de Epense (Marne) est Myriam RICARDE (54 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-14 10:46:27,621 - INFO - === Fin ===
