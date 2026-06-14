@@ -1,15 +1,3 @@
-2026-06-11 06:17:20,078 - INFO - === Fin ===
-2026-06-11 10:17:31,095 - INFO - === Démarrage Députés ===
-2026-06-11 10:17:31,095 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-11 10:17:31,095 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-11 10:17:31,103 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-11 10:17:31,103 - INFO - Historique chargé: 123 députés déjà tweetés
-2026-06-11 10:17:31,105 - INFO - Nombre de députés uniques: 572
-2026-06-11 10:17:31,105 - INFO - Nombre de députés déjà tweetés: 123
-2026-06-11 10:17:31,106 - INFO - Sélectionné: 5003 - Stéphane TRAVERT (nouveau député)
-2026-06-11 10:17:31,106 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de la Manche est Stéphane TRAVERT (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-11 10:17:31,322 - INFO - Sauvegarde effectuée: 5003 - Stéphane TRAVERT
-2026-06-11 10:17:31,322 - INFO - Succès: Response(data={'id': '2065015563890598244', 'edit_history_tweet_ids': ['2065015563890598244'], 'text': '🏛 Le #député de la 3e circonscription de la Manche est Stéphane TRAVERT (56 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-11 10:17:31,322 - INFO - === Fin ===
 2026-06-11 17:17:24,073 - INFO - === Démarrage Députés ===
 2026-06-11 17:17:24,073 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-14 06:17:21,728 - INFO - Sauvegarde effectuée: 6101 - Chantal JOURDAN
 2026-06-14 06:17:21,728 - INFO - Succès: Response(data={'id': '2066042289282228701', 'edit_history_tweet_ids': ['2066042289282228701'], 'text': "🏛 La #députée de la 1ère circonscription de l'Orne est Chantal JOURDAN (67 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-14 06:17:21,728 - INFO - === Fin ===
+2026-06-14 10:17:23,280 - INFO - === Démarrage Députés ===
+2026-06-14 10:17:23,280 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-14 10:17:23,280 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-14 10:17:23,287 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-14 10:17:23,287 - INFO - Historique chargé: 132 députés déjà tweetés
+2026-06-14 10:17:23,289 - INFO - Nombre de députés uniques: 572
+2026-06-14 10:17:23,289 - INFO - Nombre de députés déjà tweetés: 132
+2026-06-14 10:17:23,290 - INFO - Sélectionné: 6909 - Alexandre PORTIER (nouveau député)
+2026-06-14 10:17:23,290 - INFO - Tweet: 🏛 Le #député de la 9e circonscription du Rhône est Alexandre PORTIER (36 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-14 10:17:23,542 - INFO - Sauvegarde effectuée: 6909 - Alexandre PORTIER
+2026-06-14 10:17:23,542 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066102694864126204'], 'id': '2066102694864126204', 'text': '🏛 Le #député de la 9e circonscription du Rhône est Alexandre PORTIER (36 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-14 10:17:23,542 - INFO - === Fin ===
