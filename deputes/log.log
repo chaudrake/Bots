@@ -1,15 +1,3 @@
-2026-06-11 10:17:31,322 - INFO - === Fin ===
-2026-06-11 17:17:24,073 - INFO - === Démarrage Députés ===
-2026-06-11 17:17:24,073 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-11 17:17:24,073 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-11 17:17:24,081 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-11 17:17:24,081 - INFO - Historique chargé: 124 députés déjà tweetés
-2026-06-11 17:17:24,084 - INFO - Nombre de députés uniques: 572
-2026-06-11 17:17:24,084 - INFO - Nombre de députés déjà tweetés: 124
-2026-06-11 17:17:24,085 - INFO - Sélectionné: 6907 - Abdelkader LAHMAR (nouveau député)
-2026-06-11 17:17:24,085 - INFO - Tweet: 🏛 Le #député de la 7e circonscription du Rhône est Abdelkader LAHMAR (55 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-11 17:17:24,298 - INFO - Sauvegarde effectuée: 6907 - Abdelkader LAHMAR
-2026-06-11 17:17:24,298 - INFO - Succès: Response(data={'id': '2065121230894616750', 'text': '🏛 Le #député de la 7e circonscription du Rhône est Abdelkader LAHMAR (55 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2065121230894616750']}, includes={}, errors=[], meta={})
 2026-06-11 17:17:24,299 - INFO - === Fin ===
 2026-06-12 06:17:22,822 - INFO - === Démarrage Députés ===
 2026-06-12 06:17:22,822 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-14 10:17:23,542 - INFO - Sauvegarde effectuée: 6909 - Alexandre PORTIER
 2026-06-14 10:17:23,542 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066102694864126204'], 'id': '2066102694864126204', 'text': '🏛 Le #député de la 9e circonscription du Rhône est Alexandre PORTIER (36 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-14 10:17:23,542 - INFO - === Fin ===
+2026-06-14 17:17:26,174 - INFO - === Démarrage Députés ===
+2026-06-14 17:17:26,174 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-14 17:17:26,174 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-14 17:17:26,181 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-14 17:17:26,181 - INFO - Historique chargé: 133 députés déjà tweetés
+2026-06-14 17:17:26,183 - INFO - Nombre de députés uniques: 572
+2026-06-14 17:17:26,183 - INFO - Nombre de députés déjà tweetés: 133
+2026-06-14 17:17:26,184 - INFO - Sélectionné: 9507 - Romain ESKENAZI (nouveau député)
+2026-06-14 17:17:26,184 - INFO - Tweet: 🏛 Le #député de la 7e circonscription du Val-d'Oise est Romain ESKENAZI (40 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-14 17:17:26,390 - INFO - Sauvegarde effectuée: 9507 - Romain ESKENAZI
+2026-06-14 17:17:26,390 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066208403307798859'], 'id': '2066208403307798859', 'text': "🏛 Le #député de la 7e circonscription du Val-d'Oise est Romain ESKENAZI (40 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-06-14 17:17:26,390 - INFO - === Fin ===
