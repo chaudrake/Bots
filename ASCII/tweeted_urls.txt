@@ -72,3 +72,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/ladydi.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/sophiemarceau.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/GeorgiaMeloni.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/princewilliam.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/michelleobama.jpg
