@@ -1,14 +1,3 @@
-2026-06-10 16:46:26,103 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-10 16:46:26,191 - INFO - Historique chargé: 1712 maires déjà tweetés
-2026-06-10 16:46:26,215 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-10 16:46:26,215 - INFO - Nombre de maires déjà tweetés: 1712
-2026-06-10 16:46:26,216 - INFO - Sélectionné: 67169 - Eric HOFFSTETTER (nouveau maire)
-2026-06-10 16:46:26,219 - INFO - Tweet: 🏛 Le #maire de Gries (Bas-Rhin) est Eric HOFFSTETTER (68 ans) #MairesdeFrance 🇫🇷
-2026-06-10 16:46:26,491 - INFO - Sauvegarde effectuée: 67169 - Eric HOFFSTETTER
-2026-06-10 16:46:26,491 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Gries (Bas-Rhin) est Eric HOFFSTETTER (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2064751050779771074'], 'id': '2064751050779771074'}, includes={}, errors=[], meta={})
-2026-06-10 16:46:26,493 - INFO - === Fin ===
-2026-06-11 10:46:25,565 - INFO - === Démarrage Maires ===
-2026-06-11 10:46:25,565 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-11 10:46:25,565 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-11 10:46:25,651 - INFO - Historique chargé: 1713 maires déjà tweetés
 2026-06-11 10:46:25,674 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-15 10:46:29,806 - INFO - Sauvegarde effectuée: 14280 - Marie-Thérèse LESQUERBAULT
 2026-06-15 10:46:29,806 - INFO - Succès: Response(data={'id': '2066472407112778225', 'text': '🏛 La #maire de Formentin (Calvados) est Marie-Thérèse LESQUERBAULT (75 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2066472407112778225']}, includes={}, errors=[], meta={})
 2026-06-15 10:46:29,808 - INFO - === Fin ===
+2026-06-15 16:46:28,459 - INFO - === Démarrage Maires ===
+2026-06-15 16:46:28,459 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-15 16:46:28,459 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-15 16:46:28,544 - INFO - Historique chargé: 1722 maires déjà tweetés
+2026-06-15 16:46:28,564 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-15 16:46:28,564 - INFO - Nombre de maires déjà tweetés: 1722
+2026-06-15 16:46:28,565 - INFO - Sélectionné: 81025 - Christophe ESPARBIE (nouveau maire)
+2026-06-15 16:46:28,567 - INFO - Tweet: 🏛 Le #maire de Belcastel (Tarn) est Christophe ESPARBIE (59 ans) #MairesdeFrance 🇫🇷
+2026-06-15 16:46:28,810 - INFO - Sauvegarde effectuée: 81025 - Christophe ESPARBIE
+2026-06-15 16:46:28,810 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066562999863910844'], 'id': '2066562999863910844', 'text': '🏛 Le #maire de Belcastel (Tarn) est Christophe ESPARBIE (59 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-15 16:46:28,812 - INFO - === Fin ===
