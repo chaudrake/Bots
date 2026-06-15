@@ -1,14 +1,3 @@
-2026-06-10 10:46:24,152 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-10 10:46:24,240 - INFO - Historique chargé: 1711 maires déjà tweetés
-2026-06-10 10:46:24,267 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-10 10:46:24,267 - INFO - Nombre de maires déjà tweetés: 1711
-2026-06-10 10:46:24,269 - INFO - Sélectionné: 12296 - Maxime CONSTANS (nouveau maire)
-2026-06-10 10:46:24,271 - INFO - Tweet: 🏛 Le #maire de Viala-Du-Tarn (Aveyron) est Maxime CONSTANS (44 ans) #MairesdeFrance 🇫🇷
-2026-06-10 10:46:24,527 - INFO - Sauvegarde effectuée: 12296 - Maxime CONSTANS
-2026-06-10 10:46:24,527 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2064660445491769746'], 'id': '2064660445491769746', 'text': '🏛 Le #maire de Viala-Du-Tarn (Aveyron) est Maxime CONSTANS (44 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-10 10:46:24,529 - INFO - === Fin ===
-2026-06-10 16:46:26,103 - INFO - === Démarrage Maires ===
-2026-06-10 16:46:26,103 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-10 16:46:26,103 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-10 16:46:26,191 - INFO - Historique chargé: 1712 maires déjà tweetés
 2026-06-10 16:46:26,215 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-14 16:46:21,281 - INFO - Sauvegarde effectuée: 33105 - Christiane FOUILHAC
 2026-06-14 16:46:21,281 - INFO - Succès: Response(data={'text': '🏛 La #maire de Castelviel (Gironde) est Christiane FOUILHAC (73 ans) #MairesdeFrance 🇫🇷', 'id': '2066200580490477727', 'edit_history_tweet_ids': ['2066200580490477727']}, includes={}, errors=[], meta={})
 2026-06-14 16:46:21,284 - INFO - === Fin ===
+2026-06-15 10:46:29,465 - INFO - === Démarrage Maires ===
+2026-06-15 10:46:29,465 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-15 10:46:29,465 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-15 10:46:29,553 - INFO - Historique chargé: 1721 maires déjà tweetés
+2026-06-15 10:46:29,575 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-15 10:46:29,575 - INFO - Nombre de maires déjà tweetés: 1721
+2026-06-15 10:46:29,577 - INFO - Sélectionné: 14280 - Marie-Thérèse LESQUERBAULT (nouveau maire)
+2026-06-15 10:46:29,578 - INFO - Tweet: 🏛 La #maire de Formentin (Calvados) est Marie-Thérèse LESQUERBAULT (75 ans) #MairesdeFrance 🇫🇷
+2026-06-15 10:46:29,806 - INFO - Sauvegarde effectuée: 14280 - Marie-Thérèse LESQUERBAULT
+2026-06-15 10:46:29,806 - INFO - Succès: Response(data={'id': '2066472407112778225', 'text': '🏛 La #maire de Formentin (Calvados) est Marie-Thérèse LESQUERBAULT (75 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2066472407112778225']}, includes={}, errors=[], meta={})
+2026-06-15 10:46:29,808 - INFO - === Fin ===
