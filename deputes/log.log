@@ -1,15 +1,3 @@
-2026-06-11 17:17:24,299 - INFO - === Fin ===
-2026-06-12 06:17:22,822 - INFO - === Démarrage Députés ===
-2026-06-12 06:17:22,822 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-12 06:17:22,822 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-12 06:17:22,830 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-12 06:17:22,830 - INFO - Historique chargé: 125 députés déjà tweetés
-2026-06-12 06:17:22,832 - INFO - Nombre de députés uniques: 572
-2026-06-12 06:17:22,832 - INFO - Nombre de députés déjà tweetés: 125
-2026-06-12 06:17:22,833 - INFO - Sélectionné: 9103 - Steevy GUSTAVE (nouveau député)
-2026-06-12 06:17:22,834 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de l'Essonne est Steevy GUSTAVE (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-12 06:17:23,107 - INFO - Sauvegarde effectuée: 9103 - Steevy GUSTAVE
-2026-06-12 06:17:23,107 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2065317519280189785'], 'id': '2065317519280189785', 'text': "🏛 Le #député de la 3e circonscription de l'Essonne est Steevy GUSTAVE (56 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-12 06:17:23,107 - INFO - === Fin ===
 2026-06-12 10:17:25,483 - INFO - === Démarrage Députés ===
 2026-06-12 10:17:25,483 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-14 17:17:26,390 - INFO - Sauvegarde effectuée: 9507 - Romain ESKENAZI
 2026-06-14 17:17:26,390 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066208403307798859'], 'id': '2066208403307798859', 'text': "🏛 Le #député de la 7e circonscription du Val-d'Oise est Romain ESKENAZI (40 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-14 17:17:26,390 - INFO - === Fin ===
+2026-06-15 06:17:20,982 - INFO - === Démarrage Députés ===
+2026-06-15 06:17:20,982 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-15 06:17:20,982 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-15 06:17:20,989 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-15 06:17:20,990 - INFO - Historique chargé: 134 députés déjà tweetés
+2026-06-15 06:17:20,991 - INFO - Nombre de députés uniques: 572
+2026-06-15 06:17:20,992 - INFO - Nombre de députés déjà tweetés: 134
+2026-06-15 06:17:20,992 - INFO - Sélectionné: 3705 - Sabine THILLAYE (nouveau député)
+2026-06-15 06:17:20,992 - INFO - Tweet: 🏛 La #députée de la 5e circonscription d'Indre-et-Loire est Sabine THILLAYE (67 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-15 06:17:21,216 - INFO - Sauvegarde effectuée: 3705 - Sabine THILLAYE
+2026-06-15 06:17:21,217 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066404675029545275'], 'id': '2066404675029545275', 'text': "🏛 La #députée de la 5e circonscription d'Indre-et-Loire est Sabine THILLAYE (67 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-06-15 06:17:21,217 - INFO - === Fin ===
