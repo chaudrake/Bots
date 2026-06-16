@@ -1,14 +1,3 @@
-2026-06-11 10:46:25,565 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-11 10:46:25,651 - INFO - Historique chargé: 1713 maires déjà tweetés
-2026-06-11 10:46:25,674 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-11 10:46:25,674 - INFO - Nombre de maires déjà tweetés: 1713
-2026-06-11 10:46:25,675 - INFO - Sélectionné: 08210 - Gonzague GERARD (nouveau maire)
-2026-06-11 10:46:25,677 - INFO - Tweet: 🏛 Le #maire de Hannogne-Saint-Rémy (Tarn-et-Garonne) est Gonzague GERARD (64 ans) #MairesdeFrance 🇫🇷
-2026-06-11 10:46:25,914 - INFO - Sauvegarde effectuée: 08210 - Gonzague GERARD
-2026-06-11 10:46:25,914 - INFO - Succès: Response(data={'id': '2065022839292588485', 'text': '🏛 Le #maire de Hannogne-Saint-Rémy (Tarn-et-Garonne) est Gonzague GERARD (64 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2065022839292588485']}, includes={}, errors=[], meta={})
-2026-06-11 10:46:25,916 - INFO - === Fin ===
-2026-06-11 16:46:27,743 - INFO - === Démarrage Maires ===
-2026-06-11 16:46:27,743 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-11 16:46:27,743 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-11 16:46:27,838 - INFO - Historique chargé: 1714 maires déjà tweetés
 2026-06-11 16:46:27,864 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-15 16:46:28,810 - INFO - Sauvegarde effectuée: 81025 - Christophe ESPARBIE
 2026-06-15 16:46:28,810 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066562999863910844'], 'id': '2066562999863910844', 'text': '🏛 Le #maire de Belcastel (Tarn) est Christophe ESPARBIE (59 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-15 16:46:28,812 - INFO - === Fin ===
+2026-06-16 10:46:30,213 - INFO - === Démarrage Maires ===
+2026-06-16 10:46:30,213 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-16 10:46:30,213 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-16 10:46:30,281 - INFO - Historique chargé: 1723 maires déjà tweetés
+2026-06-16 10:46:30,297 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-16 10:46:30,297 - INFO - Nombre de maires déjà tweetés: 1723
+2026-06-16 10:46:30,298 - INFO - Sélectionné: 88138 - Salomon LAURENT (nouveau maire)
+2026-06-16 10:46:30,299 - INFO - Tweet: 🏛 Le #maire de Dombasle-Devant-Darney (Vosges) est Salomon LAURENT (29 ans) #MairesdeFrance 🇫🇷
+2026-06-16 10:46:30,481 - INFO - Sauvegarde effectuée: 88138 - Salomon LAURENT
+2026-06-16 10:46:30,481 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Dombasle-Devant-Darney (Vosges) est Salomon LAURENT (29 ans) #MairesdeFrance 🇫🇷', 'id': '2066834797855637934', 'edit_history_tweet_ids': ['2066834797855637934']}, includes={}, errors=[], meta={})
+2026-06-16 10:46:30,483 - INFO - === Fin ===
