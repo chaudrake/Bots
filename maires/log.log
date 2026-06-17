@@ -1,14 +1,3 @@
-2026-06-12 16:46:26,338 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-12 16:46:26,420 - INFO - Historique chargé: 1716 maires déjà tweetés
-2026-06-12 16:46:26,440 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-12 16:46:26,440 - INFO - Nombre de maires déjà tweetés: 1716
-2026-06-12 16:46:26,441 - INFO - Sélectionné: 21323 - Pierre DUVERNOIS (nouveau maire)
-2026-06-12 16:46:26,443 - INFO - Tweet: 🏛 Le #maire de Jancigny (Côte-d'Or) est Pierre DUVERNOIS (65 ans) #MairesdeFrance 🇫🇷
-2026-06-12 16:46:26,663 - INFO - Sauvegarde effectuée: 21323 - Pierre DUVERNOIS
-2026-06-12 16:46:26,663 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2065475827278745930'], 'id': '2065475827278745930', 'text': "🏛 Le #maire de Jancigny (Côte-d'Or) est Pierre DUVERNOIS (65 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-06-12 16:46:26,665 - INFO - === Fin ===
-2026-06-13 10:46:28,140 - INFO - === Démarrage Maires ===
-2026-06-13 10:46:28,140 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-13 10:46:28,140 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-13 10:46:28,222 - INFO - Historique chargé: 1717 maires déjà tweetés
 2026-06-13 10:46:28,242 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-17 10:46:25,114 - INFO - Sauvegarde effectuée: 51188 - Xavier AUGUSTE
 2026-06-17 10:46:25,114 - INFO - Succès: Response(data={'id': '2067197163210182736', 'edit_history_tweet_ids': ['2067197163210182736'], 'text': '🏛 Le #maire de Courmas (Marne) est Xavier AUGUSTE (50 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-17 10:46:25,116 - INFO - === Fin ===
+2026-06-17 16:46:37,632 - INFO - === Démarrage Maires ===
+2026-06-17 16:46:37,632 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-17 16:46:37,632 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-17 16:46:37,716 - INFO - Historique chargé: 1726 maires déjà tweetés
+2026-06-17 16:46:37,737 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-17 16:46:37,737 - INFO - Nombre de maires déjà tweetés: 1726
+2026-06-17 16:46:37,738 - INFO - Sélectionné: 88374 - Stéphanie FIOLSI (nouveau maire)
+2026-06-17 16:46:37,739 - INFO - Tweet: 🏛 La #maire de Rapey (Vosges) est Stéphanie FIOLSI (42 ans) #MairesdeFrance 🇫🇷
+2026-06-17 16:46:37,911 - INFO - Sauvegarde effectuée: 88374 - Stéphanie FIOLSI
+2026-06-17 16:46:37,911 - INFO - Succès: Response(data={'id': '2067287813863932318', 'text': '🏛 La #maire de Rapey (Vosges) est Stéphanie FIOLSI (42 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067287813863932318']}, includes={}, errors=[], meta={})
+2026-06-17 16:46:37,913 - INFO - === Fin ===
