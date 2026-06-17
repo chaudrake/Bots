@@ -49,7 +49,8 @@
     "Risotto aux champignons et parmesan",
     "Tajine d'agneau aux pruneaux et amandes",
     "Steak haché, purée et haricots verts",
-    "Gratin de pâtes"
+    "Gratin de pâtes",
+    "Salade méditerranéenne (tomates, olives, thon, oignons rouges)"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -132,6 +133,7 @@
     "Salade de tomates et oignons",
     "Terrine de légumes",
     "Soupe de légumes maison",
-    "Ravioles du Dauphiné"
+    "Ravioles du Dauphiné",
+    "Poireaux vinaigrette"
   ]
 }
