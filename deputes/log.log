@@ -1,15 +1,3 @@
-2026-06-13 17:17:23,591 - INFO - === Fin ===
-2026-06-14 06:17:21,499 - INFO - === Démarrage Députés ===
-2026-06-14 06:17:21,499 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-14 06:17:21,499 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-14 06:17:21,506 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-14 06:17:21,506 - INFO - Historique chargé: 131 députés déjà tweetés
-2026-06-14 06:17:21,508 - INFO - Nombre de députés uniques: 572
-2026-06-14 06:17:21,508 - INFO - Nombre de députés déjà tweetés: 131
-2026-06-14 06:17:21,509 - INFO - Sélectionné: 6101 - Chantal JOURDAN (nouveau député)
-2026-06-14 06:17:21,509 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de l'Orne est Chantal JOURDAN (67 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-14 06:17:21,728 - INFO - Sauvegarde effectuée: 6101 - Chantal JOURDAN
-2026-06-14 06:17:21,728 - INFO - Succès: Response(data={'id': '2066042289282228701', 'edit_history_tweet_ids': ['2066042289282228701'], 'text': "🏛 La #députée de la 1ère circonscription de l'Orne est Chantal JOURDAN (67 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-14 06:17:21,728 - INFO - === Fin ===
 2026-06-14 10:17:23,280 - INFO - === Démarrage Députés ===
 2026-06-14 10:17:23,280 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-16 17:17:35,206 - INFO - Sauvegarde effectuée: 6704 - Françoise BUFFET
 2026-06-16 17:17:35,206 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066933215433039912'], 'text': '🏛 La #députée de la 4e circonscription du Bas-Rhin est Françoise BUFFET (72 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2066933215433039912'}, includes={}, errors=[], meta={})
 2026-06-16 17:17:35,206 - INFO - === Fin ===
+2026-06-17 06:17:20,081 - INFO - === Démarrage Députés ===
+2026-06-17 06:17:20,081 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-17 06:17:20,081 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-17 06:17:20,088 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-17 06:17:20,088 - INFO - Historique chargé: 140 députés déjà tweetés
+2026-06-17 06:17:20,090 - INFO - Nombre de députés uniques: 572
+2026-06-17 06:17:20,090 - INFO - Nombre de députés déjà tweetés: 140
+2026-06-17 06:17:20,091 - INFO - Sélectionné: 5920 - Guillaume FLORQUIN (nouveau député)
+2026-06-17 06:17:20,091 - INFO - Tweet: 🏛 Le #député de la 20e circonscription du Nord est Guillaume FLORQUIN (33 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-17 06:17:20,287 - INFO - Sauvegarde effectuée: 5920 - Guillaume FLORQUIN
+2026-06-17 06:17:20,287 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 20e circonscription du Nord est Guillaume FLORQUIN (33 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2067129446889345145'], 'id': '2067129446889345145'}, includes={}, errors=[], meta={})
+2026-06-17 06:17:20,288 - INFO - === Fin ===
