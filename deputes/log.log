@@ -1,15 +1,3 @@
-2026-06-14 10:17:23,542 - INFO - === Fin ===
-2026-06-14 17:17:26,174 - INFO - === Démarrage Députés ===
-2026-06-14 17:17:26,174 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-14 17:17:26,174 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-14 17:17:26,181 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-14 17:17:26,181 - INFO - Historique chargé: 133 députés déjà tweetés
-2026-06-14 17:17:26,183 - INFO - Nombre de députés uniques: 572
-2026-06-14 17:17:26,183 - INFO - Nombre de députés déjà tweetés: 133
-2026-06-14 17:17:26,184 - INFO - Sélectionné: 9507 - Romain ESKENAZI (nouveau député)
-2026-06-14 17:17:26,184 - INFO - Tweet: 🏛 Le #député de la 7e circonscription du Val-d'Oise est Romain ESKENAZI (40 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-14 17:17:26,390 - INFO - Sauvegarde effectuée: 9507 - Romain ESKENAZI
-2026-06-14 17:17:26,390 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066208403307798859'], 'id': '2066208403307798859', 'text': "🏛 Le #député de la 7e circonscription du Val-d'Oise est Romain ESKENAZI (40 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-14 17:17:26,390 - INFO - === Fin ===
 2026-06-15 06:17:20,982 - INFO - === Démarrage Députés ===
 2026-06-15 06:17:20,982 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-17 10:17:27,070 - INFO - Sauvegarde effectuée: 5301 - Guillaume GAROT
 2026-06-17 10:17:27,070 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2067189873291809078'], 'text': '🏛 Le #député de la 1ère circonscription de la Mayenne est Guillaume GAROT (60 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2067189873291809078'}, includes={}, errors=[], meta={})
 2026-06-17 10:17:27,070 - INFO - === Fin ===
+2026-06-17 17:17:26,155 - INFO - === Démarrage Députés ===
+2026-06-17 17:17:26,155 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-17 17:17:26,155 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-17 17:17:26,162 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-17 17:17:26,162 - INFO - Historique chargé: 142 députés déjà tweetés
+2026-06-17 17:17:26,164 - INFO - Nombre de députés uniques: 572
+2026-06-17 17:17:26,164 - INFO - Nombre de députés déjà tweetés: 142
+2026-06-17 17:17:26,165 - INFO - Sélectionné: 0201 - Nicolas DRAGON (nouveau député)
+2026-06-17 17:17:26,165 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de l'Aisne est Nicolas DRAGON (49 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-17 17:17:26,391 - INFO - Sauvegarde effectuée: 0201 - Nicolas DRAGON
+2026-06-17 17:17:26,391 - INFO - Succès: Response(data={'id': '2067295566867136530', 'edit_history_tweet_ids': ['2067295566867136530'], 'text': "🏛 Le #député de la 1ère circonscription de l'Aisne est Nicolas DRAGON (49 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-06-17 17:17:26,391 - INFO - === Fin ===
