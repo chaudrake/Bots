@@ -75,3 +75,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/princewilliam.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/michelleobama.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/MickaelJackson.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/charlesIII.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/kamalaharris.jpg
