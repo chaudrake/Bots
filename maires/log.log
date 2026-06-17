@@ -1,14 +1,3 @@
-2026-06-12 10:46:22,442 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-12 10:46:22,534 - INFO - Historique chargé: 1715 maires déjà tweetés
-2026-06-12 10:46:22,559 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-12 10:46:22,559 - INFO - Nombre de maires déjà tweetés: 1715
-2026-06-12 10:46:22,561 - INFO - Sélectionné: 67552 - Julien WIES (nouveau maire)
-2026-06-12 10:46:22,562 - INFO - Tweet: 🏛 Le #maire de Wolfskirchen (Bas-Rhin) est Julien WIES (39 ans) #MairesdeFrance 🇫🇷
-2026-06-12 10:46:22,836 - INFO - Sauvegarde effectuée: 67552 - Julien WIES
-2026-06-12 10:46:22,836 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Wolfskirchen (Bas-Rhin) est Julien WIES (39 ans) #MairesdeFrance 🇫🇷', 'id': '2065385214189142433', 'edit_history_tweet_ids': ['2065385214189142433']}, includes={}, errors=[], meta={})
-2026-06-12 10:46:22,838 - INFO - === Fin ===
-2026-06-12 16:46:26,338 - INFO - === Démarrage Maires ===
-2026-06-12 16:46:26,338 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-12 16:46:26,338 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-12 16:46:26,420 - INFO - Historique chargé: 1716 maires déjà tweetés
 2026-06-12 16:46:26,440 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-16 16:46:34,872 - INFO - Sauvegarde effectuée: 35330 - Michel SAUVAGE
 2026-06-16 16:46:34,872 - INFO - Succès: Response(data={'id': '2066925413150998622', 'text': '🏛 Le #maire de Taillis (Ille-et-Vilaine) est Michel SAUVAGE (62 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2066925413150998622']}, includes={}, errors=[], meta={})
 2026-06-16 16:46:34,874 - INFO - === Fin ===
+2026-06-17 10:46:24,755 - INFO - === Démarrage Maires ===
+2026-06-17 10:46:24,755 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-17 10:46:24,755 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-17 10:46:24,844 - INFO - Historique chargé: 1725 maires déjà tweetés
+2026-06-17 10:46:24,866 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-17 10:46:24,866 - INFO - Nombre de maires déjà tweetés: 1725
+2026-06-17 10:46:24,867 - INFO - Sélectionné: 51188 - Xavier AUGUSTE (nouveau maire)
+2026-06-17 10:46:24,869 - INFO - Tweet: 🏛 Le #maire de Courmas (Marne) est Xavier AUGUSTE (50 ans) #MairesdeFrance 🇫🇷
+2026-06-17 10:46:25,114 - INFO - Sauvegarde effectuée: 51188 - Xavier AUGUSTE
+2026-06-17 10:46:25,114 - INFO - Succès: Response(data={'id': '2067197163210182736', 'edit_history_tweet_ids': ['2067197163210182736'], 'text': '🏛 Le #maire de Courmas (Marne) est Xavier AUGUSTE (50 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-17 10:46:25,116 - INFO - === Fin ===
