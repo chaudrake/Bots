@@ -1,15 +1,3 @@
-2026-06-15 10:17:24,953 - INFO - === Fin ===
-2026-06-15 17:17:39,287 - INFO - === Démarrage Députés ===
-2026-06-15 17:17:39,287 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-15 17:17:39,287 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-15 17:17:39,294 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-15 17:17:39,294 - INFO - Historique chargé: 136 députés déjà tweetés
-2026-06-15 17:17:39,296 - INFO - Nombre de députés uniques: 572
-2026-06-15 17:17:39,296 - INFO - Nombre de députés déjà tweetés: 136
-2026-06-15 17:17:39,297 - INFO - Sélectionné: 6901 - Anaïs BELOUASSA-CHERIFI (nouveau député)
-2026-06-15 17:17:39,297 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription du Rhône est Anaïs BELOUASSA-CHERIFI (31 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-15 17:17:39,541 - INFO - Sauvegarde effectuée: 6901 - Anaïs BELOUASSA-CHERIFI
-2026-06-15 17:17:39,541 - INFO - Succès: Response(data={'id': '2066570846307565885', 'text': '🏛 La #députée de la 1ère circonscription du Rhône est Anaïs BELOUASSA-CHERIFI (31 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2066570846307565885']}, includes={}, errors=[], meta={})
 2026-06-15 17:17:39,542 - INFO - === Fin ===
 2026-06-16 06:17:26,299 - INFO - === Démarrage Députés ===
 2026-06-16 06:17:26,299 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-18 10:17:23,799 - INFO - Sauvegarde effectuée: 2902 - Pierre-Yves CADALEN
 2026-06-18 10:17:23,799 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2067552247417131015'], 'text': '🏛 Le #député de la 2e circonscription du Finistère est Pierre-Yves CADALEN (33 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2067552247417131015'}, includes={}, errors=[], meta={})
 2026-06-18 10:17:23,800 - INFO - === Fin ===
+2026-06-18 17:17:27,361 - INFO - === Démarrage Députés ===
+2026-06-18 17:17:27,362 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-18 17:17:27,362 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-18 17:17:27,368 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-18 17:17:27,368 - INFO - Historique chargé: 145 députés déjà tweetés
+2026-06-18 17:17:27,370 - INFO - Nombre de députés uniques: 572
+2026-06-18 17:17:27,370 - INFO - Nombre de députés déjà tweetés: 145
+2026-06-18 17:17:27,371 - INFO - Sélectionné: 5801 - Perrine GOULET (nouveau député)
+2026-06-18 17:17:27,371 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de la Nièvre est Perrine GOULET (48 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-18 17:17:27,629 - INFO - Sauvegarde effectuée: 5801 - Perrine GOULET
+2026-06-18 17:17:27,629 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 1ère circonscription de la Nièvre est Perrine GOULET (48 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2067657959811735771'], 'id': '2067657959811735771'}, includes={}, errors=[], meta={})
+2026-06-18 17:17:27,629 - INFO - === Fin ===
