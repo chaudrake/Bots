@@ -1,15 +1,3 @@
-2026-06-14 17:17:26,390 - INFO - === Fin ===
-2026-06-15 06:17:20,982 - INFO - === Démarrage Députés ===
-2026-06-15 06:17:20,982 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-15 06:17:20,982 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-15 06:17:20,989 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-15 06:17:20,990 - INFO - Historique chargé: 134 députés déjà tweetés
-2026-06-15 06:17:20,991 - INFO - Nombre de députés uniques: 572
-2026-06-15 06:17:20,992 - INFO - Nombre de députés déjà tweetés: 134
-2026-06-15 06:17:20,992 - INFO - Sélectionné: 3705 - Sabine THILLAYE (nouveau député)
-2026-06-15 06:17:20,992 - INFO - Tweet: 🏛 La #députée de la 5e circonscription d'Indre-et-Loire est Sabine THILLAYE (67 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-15 06:17:21,216 - INFO - Sauvegarde effectuée: 3705 - Sabine THILLAYE
-2026-06-15 06:17:21,217 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2066404675029545275'], 'id': '2066404675029545275', 'text': "🏛 La #députée de la 5e circonscription d'Indre-et-Loire est Sabine THILLAYE (67 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-15 06:17:21,217 - INFO - === Fin ===
 2026-06-15 10:17:24,680 - INFO - === Démarrage Députés ===
 2026-06-15 10:17:24,680 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-17 17:17:26,391 - INFO - Sauvegarde effectuée: 0201 - Nicolas DRAGON
 2026-06-17 17:17:26,391 - INFO - Succès: Response(data={'id': '2067295566867136530', 'edit_history_tweet_ids': ['2067295566867136530'], 'text': "🏛 Le #député de la 1ère circonscription de l'Aisne est Nicolas DRAGON (49 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-17 17:17:26,391 - INFO - === Fin ===
+2026-06-18 06:17:23,213 - INFO - === Démarrage Députés ===
+2026-06-18 06:17:23,213 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-18 06:17:23,213 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-18 06:17:23,220 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-18 06:17:23,220 - INFO - Historique chargé: 143 députés déjà tweetés
+2026-06-18 06:17:23,222 - INFO - Nombre de députés uniques: 572
+2026-06-18 06:17:23,222 - INFO - Nombre de députés déjà tweetés: 143
+2026-06-18 06:17:23,223 - INFO - Sélectionné: 0301 - Yannick MONNET (nouveau député)
+2026-06-18 06:17:23,223 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de l'Allier est Yannick MONNET (50 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-18 06:17:23,492 - INFO - Sauvegarde effectuée: 0301 - Yannick MONNET
+2026-06-18 06:17:23,492 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2067491848139272641'], 'text': "🏛 Le #député de la 1ère circonscription de l'Allier est Yannick MONNET (50 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2067491848139272641'}, includes={}, errors=[], meta={})
+2026-06-18 06:17:23,492 - INFO - === Fin ===
