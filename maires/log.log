@@ -1,14 +1,3 @@
-2026-06-13 10:46:28,140 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-13 10:46:28,222 - INFO - Historique chargé: 1717 maires déjà tweetés
-2026-06-13 10:46:28,242 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-13 10:46:28,242 - INFO - Nombre de maires déjà tweetés: 1717
-2026-06-13 10:46:28,244 - INFO - Sélectionné: 35234 - Lydie MÉAL (nouveau maire)
-2026-06-13 10:46:28,245 - INFO - Tweet: 🏛 La #maire de Quédillac (Ille-et-Vilaine) est Lydie MÉAL (64 ans) #MairesdeFrance 🇫🇷
-2026-06-13 10:46:28,506 - INFO - Sauvegarde effectuée: 35234 - Lydie MÉAL
-2026-06-13 10:46:28,506 - INFO - Succès: Response(data={'id': '2065747625966510165', 'text': '🏛 La #maire de Quédillac (Ille-et-Vilaine) est Lydie MÉAL (64 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2065747625966510165']}, includes={}, errors=[], meta={})
-2026-06-13 10:46:28,508 - INFO - === Fin ===
-2026-06-13 16:46:29,848 - INFO - === Démarrage Maires ===
-2026-06-13 16:46:29,848 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-13 16:46:29,848 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-13 16:46:29,935 - INFO - Historique chargé: 1718 maires déjà tweetés
 2026-06-13 16:46:29,957 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-17 16:46:37,911 - INFO - Sauvegarde effectuée: 88374 - Stéphanie FIOLSI
 2026-06-17 16:46:37,911 - INFO - Succès: Response(data={'id': '2067287813863932318', 'text': '🏛 La #maire de Rapey (Vosges) est Stéphanie FIOLSI (42 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067287813863932318']}, includes={}, errors=[], meta={})
 2026-06-17 16:46:37,913 - INFO - === Fin ===
+2026-06-18 10:46:23,810 - INFO - === Démarrage Maires ===
+2026-06-18 10:46:23,810 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-18 10:46:23,810 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-18 10:46:23,900 - INFO - Historique chargé: 1727 maires déjà tweetés
+2026-06-18 10:46:23,921 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-18 10:46:23,921 - INFO - Nombre de maires déjà tweetés: 1727
+2026-06-18 10:46:23,922 - INFO - Sélectionné: 53202 - Emmanuel CERISIER (nouveau maire)
+2026-06-18 10:46:23,924 - INFO - Tweet: 🏛 Le #maire de Saint-Berthevin-La-Tannière (Mayenne) est Emmanuel CERISIER (55 ans) #MairesdeFrance 🇫🇷
+2026-06-18 10:46:24,173 - INFO - Sauvegarde effectuée: 53202 - Emmanuel CERISIER
+2026-06-18 10:46:24,174 - INFO - Succès: Response(data={'id': '2067559547078582450', 'edit_history_tweet_ids': ['2067559547078582450'], 'text': '🏛 Le #maire de Saint-Berthevin-La-Tannière (Mayenne) est Emmanuel CERISIER (55 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-18 10:46:24,176 - INFO - === Fin ===
