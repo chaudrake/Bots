@@ -1,14 +1,3 @@
-2026-06-14 10:46:27,283 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-14 10:46:27,371 - INFO - Historique chargé: 1719 maires déjà tweetés
-2026-06-14 10:46:27,391 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-14 10:46:27,391 - INFO - Nombre de maires déjà tweetés: 1719
-2026-06-14 10:46:27,392 - INFO - Sélectionné: 51229 - Myriam RICARDE (nouveau maire)
-2026-06-14 10:46:27,394 - INFO - Tweet: 🏛 La #maire de Epense (Marne) est Myriam RICARDE (54 ans) #MairesdeFrance 🇫🇷
-2026-06-14 10:46:27,619 - INFO - Sauvegarde effectuée: 51229 - Myriam RICARDE
-2026-06-14 10:46:27,619 - INFO - Succès: Response(data={'id': '2066110010065592603', 'edit_history_tweet_ids': ['2066110010065592603'], 'text': '🏛 La #maire de Epense (Marne) est Myriam RICARDE (54 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-14 10:46:27,621 - INFO - === Fin ===
-2026-06-14 16:46:20,978 - INFO - === Démarrage Maires ===
-2026-06-14 16:46:20,978 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-14 16:46:20,978 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-14 16:46:21,062 - INFO - Historique chargé: 1720 maires déjà tweetés
 2026-06-14 16:46:21,086 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-18 16:46:22,985 - INFO - Sauvegarde effectuée: 16095 - Norbert BOULIER
 2026-06-18 16:46:22,985 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Chenon (Charente) est Norbert BOULIER (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067650139032859055'], 'id': '2067650139032859055'}, includes={}, errors=[], meta={})
 2026-06-18 16:46:22,987 - INFO - === Fin ===
+2026-06-19 10:46:24,380 - INFO - === Démarrage Maires ===
+2026-06-19 10:46:24,380 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-19 10:46:24,380 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-19 10:46:24,470 - INFO - Historique chargé: 1728 maires déjà tweetés
+2026-06-19 10:46:24,490 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-19 10:46:24,490 - INFO - Nombre de maires déjà tweetés: 1728
+2026-06-19 10:46:24,492 - INFO - Sélectionné: 89257 - François BOUCHER (nouveau maire)
+2026-06-19 10:46:24,493 - INFO - Tweet: 🏛 Le #maire de Migennes (Yonne) est François BOUCHER (67 ans) #MairesdeFrance 🇫🇷
+2026-06-19 10:46:24,797 - INFO - Sauvegarde effectuée: 89257 - François BOUCHER
+2026-06-19 10:46:24,797 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Migennes (Yonne) est François BOUCHER (67 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067921937477550479'], 'id': '2067921937477550479'}, includes={}, errors=[], meta={})
+2026-06-19 10:46:24,799 - INFO - === Fin ===
