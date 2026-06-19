@@ -1,15 +1,3 @@
-2026-06-15 17:17:39,542 - INFO - === Fin ===
-2026-06-16 06:17:26,299 - INFO - === Démarrage Députés ===
-2026-06-16 06:17:26,299 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-16 06:17:26,299 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-16 06:17:26,306 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-16 06:17:26,306 - INFO - Historique chargé: 137 députés déjà tweetés
-2026-06-16 06:17:26,308 - INFO - Nombre de députés uniques: 572
-2026-06-16 06:17:26,308 - INFO - Nombre de députés déjà tweetés: 137
-2026-06-16 06:17:26,309 - INFO - Sélectionné: 4503 - Constance DE PÉLICHY (nouveau député)
-2026-06-16 06:17:26,310 - INFO - Tweet: 🏛 La #députée de la 3e circonscription du Loiret est Constance DE PÉLICHY (40 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-16 06:17:26,504 - INFO - Sauvegarde effectuée: 4503 - Constance DE PÉLICHY
-2026-06-16 06:17:26,504 - INFO - Succès: Response(data={'id': '2066767085103910935', 'edit_history_tweet_ids': ['2066767085103910935'], 'text': '🏛 La #députée de la 3e circonscription du Loiret est Constance DE PÉLICHY (40 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-16 06:17:26,504 - INFO - === Fin ===
 2026-06-16 10:17:29,013 - INFO - === Démarrage Députés ===
 2026-06-16 10:17:29,013 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-18 17:17:27,629 - INFO - Sauvegarde effectuée: 5801 - Perrine GOULET
 2026-06-18 17:17:27,629 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 1ère circonscription de la Nièvre est Perrine GOULET (48 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2067657959811735771'], 'id': '2067657959811735771'}, includes={}, errors=[], meta={})
 2026-06-18 17:17:27,629 - INFO - === Fin ===
+2026-06-19 06:17:23,501 - INFO - === Démarrage Députés ===
+2026-06-19 06:17:23,501 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-19 06:17:23,501 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-19 06:17:23,509 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-19 06:17:23,509 - INFO - Historique chargé: 146 députés déjà tweetés
+2026-06-19 06:17:23,511 - INFO - Nombre de députés uniques: 572
+2026-06-19 06:17:23,511 - INFO - Nombre de députés déjà tweetés: 146
+2026-06-19 06:17:23,513 - INFO - Sélectionné: 3901 - Danielle BRULEBOIS (nouveau député)
+2026-06-19 06:17:23,513 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription du Jura est Danielle BRULEBOIS (78 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-19 06:17:23,745 - INFO - Sauvegarde effectuée: 3901 - Danielle BRULEBOIS
+2026-06-19 06:17:23,745 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 1ère circonscription du Jura est Danielle BRULEBOIS (78 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2067854237099573337', 'edit_history_tweet_ids': ['2067854237099573337']}, includes={}, errors=[], meta={})
+2026-06-19 06:17:23,745 - INFO - === Fin ===
