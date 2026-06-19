@@ -77,3 +77,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/MickaelJackson.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/charlesIII.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/kamalaharris.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/willsmith.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/GeorgesClooney.jpg
