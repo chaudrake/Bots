@@ -1,14 +1,3 @@
-2026-06-14 16:46:20,978 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-14 16:46:21,062 - INFO - Historique chargé: 1720 maires déjà tweetés
-2026-06-14 16:46:21,086 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-14 16:46:21,086 - INFO - Nombre de maires déjà tweetés: 1720
-2026-06-14 16:46:21,088 - INFO - Sélectionné: 33105 - Christiane FOUILHAC (nouveau maire)
-2026-06-14 16:46:21,090 - INFO - Tweet: 🏛 La #maire de Castelviel (Gironde) est Christiane FOUILHAC (73 ans) #MairesdeFrance 🇫🇷
-2026-06-14 16:46:21,281 - INFO - Sauvegarde effectuée: 33105 - Christiane FOUILHAC
-2026-06-14 16:46:21,281 - INFO - Succès: Response(data={'text': '🏛 La #maire de Castelviel (Gironde) est Christiane FOUILHAC (73 ans) #MairesdeFrance 🇫🇷', 'id': '2066200580490477727', 'edit_history_tweet_ids': ['2066200580490477727']}, includes={}, errors=[], meta={})
-2026-06-14 16:46:21,284 - INFO - === Fin ===
-2026-06-15 10:46:29,465 - INFO - === Démarrage Maires ===
-2026-06-15 10:46:29,465 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-15 10:46:29,465 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-15 10:46:29,553 - INFO - Historique chargé: 1721 maires déjà tweetés
 2026-06-15 10:46:29,575 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-19 10:46:24,797 - INFO - Sauvegarde effectuée: 89257 - François BOUCHER
 2026-06-19 10:46:24,797 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Migennes (Yonne) est François BOUCHER (67 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067921937477550479'], 'id': '2067921937477550479'}, includes={}, errors=[], meta={})
 2026-06-19 10:46:24,799 - INFO - === Fin ===
+2026-06-19 16:46:26,261 - INFO - === Démarrage Maires ===
+2026-06-19 16:46:26,261 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-19 16:46:26,261 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-19 16:46:26,342 - INFO - Historique chargé: 1729 maires déjà tweetés
+2026-06-19 16:46:26,363 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-19 16:46:26,363 - INFO - Nombre de maires déjà tweetés: 1729
+2026-06-19 16:46:26,364 - INFO - Sélectionné: 27395 - Caroline BEAUMONT (nouveau maire)
+2026-06-19 16:46:26,366 - INFO - Tweet: 🏛 La #maire de Mélicourt (Eure) est Caroline BEAUMONT (56 ans) #MairesdeFrance 🇫🇷
+2026-06-19 16:46:26,667 - INFO - Sauvegarde effectuée: 27395 - Caroline BEAUMONT
+2026-06-19 16:46:26,667 - INFO - Succès: Response(data={'id': '2068012542316933258', 'text': '🏛 La #maire de Mélicourt (Eure) est Caroline BEAUMONT (56 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2068012542316933258']}, includes={}, errors=[], meta={})
+2026-06-19 16:46:26,670 - INFO - === Fin ===
