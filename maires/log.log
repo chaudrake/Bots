@@ -1,14 +1,3 @@
-2026-06-15 10:46:29,465 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-15 10:46:29,553 - INFO - Historique chargé: 1721 maires déjà tweetés
-2026-06-15 10:46:29,575 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-15 10:46:29,575 - INFO - Nombre de maires déjà tweetés: 1721
-2026-06-15 10:46:29,577 - INFO - Sélectionné: 14280 - Marie-Thérèse LESQUERBAULT (nouveau maire)
-2026-06-15 10:46:29,578 - INFO - Tweet: 🏛 La #maire de Formentin (Calvados) est Marie-Thérèse LESQUERBAULT (75 ans) #MairesdeFrance 🇫🇷
-2026-06-15 10:46:29,806 - INFO - Sauvegarde effectuée: 14280 - Marie-Thérèse LESQUERBAULT
-2026-06-15 10:46:29,806 - INFO - Succès: Response(data={'id': '2066472407112778225', 'text': '🏛 La #maire de Formentin (Calvados) est Marie-Thérèse LESQUERBAULT (75 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2066472407112778225']}, includes={}, errors=[], meta={})
-2026-06-15 10:46:29,808 - INFO - === Fin ===
-2026-06-15 16:46:28,459 - INFO - === Démarrage Maires ===
-2026-06-15 16:46:28,459 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-15 16:46:28,459 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-15 16:46:28,544 - INFO - Historique chargé: 1722 maires déjà tweetés
 2026-06-15 16:46:28,564 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-19 16:46:26,667 - INFO - Sauvegarde effectuée: 27395 - Caroline BEAUMONT
 2026-06-19 16:46:26,667 - INFO - Succès: Response(data={'id': '2068012542316933258', 'text': '🏛 La #maire de Mélicourt (Eure) est Caroline BEAUMONT (56 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2068012542316933258']}, includes={}, errors=[], meta={})
 2026-06-19 16:46:26,670 - INFO - === Fin ===
+2026-06-20 10:46:23,316 - INFO - === Démarrage Maires ===
+2026-06-20 10:46:23,316 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-20 10:46:23,316 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-20 10:46:23,406 - INFO - Historique chargé: 1730 maires déjà tweetés
+2026-06-20 10:46:23,431 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-20 10:46:23,431 - INFO - Nombre de maires déjà tweetés: 1730
+2026-06-20 10:46:23,433 - INFO - Sélectionné: 59585 - Pierre-Henri DESMETTRE (nouveau maire)
+2026-06-20 10:46:23,435 - INFO - Tweet: 🏛 Le #maire de Templemars (Nord) est Pierre-Henri DESMETTRE (73 ans) #MairesdeFrance 🇫🇷
+2026-06-20 10:46:23,664 - INFO - Sauvegarde effectuée: 59585 - Pierre-Henri DESMETTRE
+2026-06-20 10:46:23,664 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Templemars (Nord) est Pierre-Henri DESMETTRE (73 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2068284320616501338'], 'id': '2068284320616501338'}, includes={}, errors=[], meta={})
+2026-06-20 10:46:23,666 - INFO - === Fin ===
