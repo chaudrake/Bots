@@ -62,7 +62,8 @@
     "Aiguillettes de poulet",
     "Carpaccio de bœuf avec parmesan et roquette",
     "Blanquette de veau accompagné de riz",
-    "Cabillaud rôti avec poêlée de courgettes et carottes"
+    "Cabillaud rôti avec poêlée de courgettes et carottes",
+    "Gratin dauphinois avec rôti de bœuf"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -154,6 +155,7 @@
     "Aumônières de crevettes",
     "Salade verte vinaigrette",
     "Huîtres chaudes",
-    "Soupe de carottes"
+    "Soupe de carottes",
+    "Gazpacho andalou"
   ]
 }
