@@ -1,15 +1,3 @@
-2026-06-18 06:17:23,492 - INFO - === Fin ===
-2026-06-18 10:17:23,578 - INFO - === Démarrage Députés ===
-2026-06-18 10:17:23,578 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-18 10:17:23,578 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-18 10:17:23,585 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-18 10:17:23,586 - INFO - Historique chargé: 144 députés déjà tweetés
-2026-06-18 10:17:23,587 - INFO - Nombre de députés uniques: 572
-2026-06-18 10:17:23,587 - INFO - Nombre de députés déjà tweetés: 144
-2026-06-18 10:17:23,588 - INFO - Sélectionné: 2902 - Pierre-Yves CADALEN (nouveau député)
-2026-06-18 10:17:23,588 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Finistère est Pierre-Yves CADALEN (33 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-18 10:17:23,799 - INFO - Sauvegarde effectuée: 2902 - Pierre-Yves CADALEN
-2026-06-18 10:17:23,799 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2067552247417131015'], 'text': '🏛 Le #député de la 2e circonscription du Finistère est Pierre-Yves CADALEN (33 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2067552247417131015'}, includes={}, errors=[], meta={})
 2026-06-18 10:17:23,800 - INFO - === Fin ===
 2026-06-18 17:17:27,361 - INFO - === Démarrage Députés ===
 2026-06-18 17:17:27,362 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-21 06:17:21,486 - INFO - Sauvegarde effectuée: 8305 - Julie LECHANTEUX
 2026-06-21 06:17:21,486 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2068579003343270360'], 'id': '2068579003343270360', 'text': '🏛 La #députée de la 5e circonscription du Var est Julie LECHANTEUX (48 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-21 06:17:21,486 - INFO - === Fin ===
+2026-06-21 10:17:20,822 - INFO - === Démarrage Députés ===
+2026-06-21 10:17:20,822 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-21 10:17:20,822 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-21 10:17:20,829 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-21 10:17:20,829 - INFO - Historique chargé: 153 députés déjà tweetés
+2026-06-21 10:17:20,831 - INFO - Nombre de députés uniques: 572
+2026-06-21 10:17:20,831 - INFO - Nombre de députés déjà tweetés: 153
+2026-06-21 10:17:20,832 - INFO - Sélectionné: 5701 - Belkhir BELHADDAD (nouveau député)
+2026-06-21 10:17:20,832 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Moselle est Belkhir BELHADDAD (56 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-21 10:17:21,178 - INFO - Sauvegarde effectuée: 5701 - Belkhir BELHADDAD
+2026-06-21 10:17:21,178 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2068639399554715710'], 'text': '🏛 Le #député de la 1ère circonscription de la Moselle est Belkhir BELHADDAD (56 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2068639399554715710'}, includes={}, errors=[], meta={})
+2026-06-21 10:17:21,178 - INFO - === Fin ===
