@@ -1,14 +1,3 @@
-2026-06-16 10:46:30,213 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-16 10:46:30,281 - INFO - Historique chargé: 1723 maires déjà tweetés
-2026-06-16 10:46:30,297 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-16 10:46:30,297 - INFO - Nombre de maires déjà tweetés: 1723
-2026-06-16 10:46:30,298 - INFO - Sélectionné: 88138 - Salomon LAURENT (nouveau maire)
-2026-06-16 10:46:30,299 - INFO - Tweet: 🏛 Le #maire de Dombasle-Devant-Darney (Vosges) est Salomon LAURENT (29 ans) #MairesdeFrance 🇫🇷
-2026-06-16 10:46:30,481 - INFO - Sauvegarde effectuée: 88138 - Salomon LAURENT
-2026-06-16 10:46:30,481 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Dombasle-Devant-Darney (Vosges) est Salomon LAURENT (29 ans) #MairesdeFrance 🇫🇷', 'id': '2066834797855637934', 'edit_history_tweet_ids': ['2066834797855637934']}, includes={}, errors=[], meta={})
-2026-06-16 10:46:30,483 - INFO - === Fin ===
-2026-06-16 16:46:34,548 - INFO - === Démarrage Maires ===
-2026-06-16 16:46:34,548 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-16 16:46:34,548 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-16 16:46:34,635 - INFO - Historique chargé: 1724 maires déjà tweetés
 2026-06-16 16:46:34,656 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-20 16:46:21,537 - INFO - Sauvegarde effectuée: 21421 - Florian PAQUET
 2026-06-20 16:46:21,537 - INFO - Succès: Response(data={'id': '2068374908694909241', 'edit_history_tweet_ids': ['2068374908694909241'], 'text': "🏛 Le #maire de Moloy (Côte-d'Or) est Florian PAQUET (35 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-20 16:46:21,539 - INFO - === Fin ===
+2026-06-21 10:46:24,267 - INFO - === Démarrage Maires ===
+2026-06-21 10:46:24,267 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-21 10:46:24,267 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-21 10:46:24,352 - INFO - Historique chargé: 1732 maires déjà tweetés
+2026-06-21 10:46:24,373 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-21 10:46:24,373 - INFO - Nombre de maires déjà tweetés: 1732
+2026-06-21 10:46:24,375 - INFO - Sélectionné: 08071 - Nathalie TAVERNIER (nouveau maire)
+2026-06-21 10:46:24,376 - INFO - Tweet: 🏛 La #maire de Blombay (Somme) est Nathalie TAVERNIER (59 ans) #MairesdeFrance 🇫🇷
+2026-06-21 10:46:24,650 - INFO - Sauvegarde effectuée: 08071 - Nathalie TAVERNIER
+2026-06-21 10:46:24,650 - INFO - Succès: Response(data={'id': '2068646712642596952', 'edit_history_tweet_ids': ['2068646712642596952'], 'text': '🏛 La #maire de Blombay (Somme) est Nathalie TAVERNIER (59 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-21 10:46:24,652 - INFO - === Fin ===
