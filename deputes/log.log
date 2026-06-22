@@ -1,15 +1,3 @@
-2026-06-18 17:17:27,629 - INFO - === Fin ===
-2026-06-19 06:17:23,501 - INFO - === Démarrage Députés ===
-2026-06-19 06:17:23,501 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-19 06:17:23,501 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-19 06:17:23,509 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-19 06:17:23,509 - INFO - Historique chargé: 146 députés déjà tweetés
-2026-06-19 06:17:23,511 - INFO - Nombre de députés uniques: 572
-2026-06-19 06:17:23,511 - INFO - Nombre de députés déjà tweetés: 146
-2026-06-19 06:17:23,513 - INFO - Sélectionné: 3901 - Danielle BRULEBOIS (nouveau député)
-2026-06-19 06:17:23,513 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription du Jura est Danielle BRULEBOIS (78 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-19 06:17:23,745 - INFO - Sauvegarde effectuée: 3901 - Danielle BRULEBOIS
-2026-06-19 06:17:23,745 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 1ère circonscription du Jura est Danielle BRULEBOIS (78 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2067854237099573337', 'edit_history_tweet_ids': ['2067854237099573337']}, includes={}, errors=[], meta={})
 2026-06-19 06:17:23,745 - INFO - === Fin ===
 2026-06-19 10:17:22,888 - INFO - === Démarrage Députés ===
 2026-06-19 10:17:22,888 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-21 17:17:23,330 - INFO - Sauvegarde effectuée: 2802 - Christelle MINARD
 2026-06-21 17:17:23,330 - INFO - Succès: Response(data={'id': '2068745104852926744', 'text': "🏛 La #députée de la 2e circonscription d'Eure-et-Loir est Christelle MINARD (55 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2068745104852926744']}, includes={}, errors=[], meta={})
 2026-06-21 17:17:23,330 - INFO - === Fin ===
+2026-06-22 06:17:34,061 - INFO - === Démarrage Députés ===
+2026-06-22 06:17:34,061 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-22 06:17:34,061 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-22 06:17:34,143 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-22 06:17:34,143 - INFO - Historique chargé: 155 députés déjà tweetés
+2026-06-22 06:17:34,144 - INFO - Nombre de députés uniques: 572
+2026-06-22 06:17:34,144 - INFO - Nombre de députés déjà tweetés: 155
+2026-06-22 06:17:34,145 - INFO - Sélectionné: ZZ11 - Anne GENETET (nouveau député)
+2026-06-22 06:17:34,145 - INFO - Tweet: 🏛 La #députée de la 11e circonscription des Français établis hors de France est Anne GENETET (63 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-22 06:17:34,359 - INFO - Sauvegarde effectuée: ZZ11 - Anne GENETET
+2026-06-22 06:17:34,360 - INFO - Succès: Response(data={'id': '2068941445130756234', 'edit_history_tweet_ids': ['2068941445130756234'], 'text': '🏛 La #députée de la 11e circonscription des Français établis hors de France est Anne GENETET (63 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-22 06:17:34,360 - INFO - === Fin ===
