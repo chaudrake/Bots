@@ -1,14 +1,3 @@
-2026-06-17 10:46:24,755 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-17 10:46:24,844 - INFO - Historique chargé: 1725 maires déjà tweetés
-2026-06-17 10:46:24,866 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-17 10:46:24,866 - INFO - Nombre de maires déjà tweetés: 1725
-2026-06-17 10:46:24,867 - INFO - Sélectionné: 51188 - Xavier AUGUSTE (nouveau maire)
-2026-06-17 10:46:24,869 - INFO - Tweet: 🏛 Le #maire de Courmas (Marne) est Xavier AUGUSTE (50 ans) #MairesdeFrance 🇫🇷
-2026-06-17 10:46:25,114 - INFO - Sauvegarde effectuée: 51188 - Xavier AUGUSTE
-2026-06-17 10:46:25,114 - INFO - Succès: Response(data={'id': '2067197163210182736', 'edit_history_tweet_ids': ['2067197163210182736'], 'text': '🏛 Le #maire de Courmas (Marne) est Xavier AUGUSTE (50 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-17 10:46:25,116 - INFO - === Fin ===
-2026-06-17 16:46:37,632 - INFO - === Démarrage Maires ===
-2026-06-17 16:46:37,632 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-17 16:46:37,632 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-17 16:46:37,716 - INFO - Historique chargé: 1726 maires déjà tweetés
 2026-06-17 16:46:37,737 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-21 16:46:22,967 - INFO - Sauvegarde effectuée: 06019 - Michel LOTTIER
 2026-06-21 16:46:22,967 - INFO - Succès: Response(data={'id': '2068737302562500938', 'edit_history_tweet_ids': ['2068737302562500938'], 'text': '🏛 Le #maire de Blausasc (Oise) est Michel LOTTIER (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-21 16:46:22,969 - INFO - === Fin ===
+2026-06-22 10:46:23,600 - INFO - === Démarrage Maires ===
+2026-06-22 10:46:23,600 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-22 10:46:23,600 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-22 10:46:23,697 - INFO - Historique chargé: 1734 maires déjà tweetés
+2026-06-22 10:46:23,718 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-22 10:46:23,718 - INFO - Nombre de maires déjà tweetés: 1734
+2026-06-22 10:46:23,720 - INFO - Sélectionné: 34303 - Ludovic CAMPLO (nouveau maire)
+2026-06-22 10:46:23,721 - INFO - Tweet: 🏛 Le #maire de Sorbs (Hérault) est Ludovic CAMPLO (49 ans) #MairesdeFrance 🇫🇷
+2026-06-22 10:46:23,990 - INFO - Sauvegarde effectuée: 34303 - Ludovic CAMPLO
+2026-06-22 10:46:23,990 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Sorbs (Hérault) est Ludovic CAMPLO (49 ans) #MairesdeFrance 🇫🇷', 'id': '2069009097639239897', 'edit_history_tweet_ids': ['2069009097639239897']}, includes={}, errors=[], meta={})
+2026-06-22 10:46:23,992 - INFO - === Fin ===
