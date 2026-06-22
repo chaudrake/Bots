@@ -23,7 +23,8 @@
     "Carpaccio de bœuf avec parmesan et roquette",
     "Blanquette de veau accompagné de riz",
     "Cabillaud rôti avec poêlée de courgettes et carottes",
-    "Gratin dauphinois avec rôti de bœuf"
+    "Gratin dauphinois avec rôti de bœuf",
+    "Tagliatelles au pesto"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -116,6 +117,7 @@
     "Salade verte vinaigrette",
     "Huîtres chaudes",
     "Soupe de carottes",
-    "Gazpacho andalou"
+    "Gazpacho andalou",
+    "Salade de pâtes au basilic"
   ]
 }
