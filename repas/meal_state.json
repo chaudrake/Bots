@@ -26,7 +26,8 @@
     "Cabillaud rôti avec poêlée de courgettes et carottes",
     "Gratin dauphinois avec rôti de bœuf",
     "Tagliatelles au pesto",
-    "Flan de courgettes"
+    "Flan de courgettes",
+    "Gratin dauphinois avec une viande grillée (steak ou escalope)"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -121,6 +122,7 @@
     "Soupe de carottes",
     "Gazpacho andalou",
     "Salade de pâtes au basilic",
-    "Coleslaw"
+    "Coleslaw",
+    "Ramens au poulet"
   ]
 }
