@@ -1,14 +1,3 @@
-2026-06-18 16:46:22,632 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-18 16:46:22,714 - INFO - Historique chargé: 1728 maires déjà tweetés
-2026-06-18 16:46:22,733 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-18 16:46:22,734 - INFO - Nombre de maires déjà tweetés: 1728
-2026-06-18 16:46:22,735 - INFO - Changement détecté: 16095 (Martine MAINGUET → Norbert BOULIER)
-2026-06-18 16:46:22,736 - INFO - Tweet: 🏛 Le #maire de Chenon (Charente) est Norbert BOULIER (68 ans) #MairesdeFrance 🇫🇷
-2026-06-18 16:46:22,985 - INFO - Sauvegarde effectuée: 16095 - Norbert BOULIER
-2026-06-18 16:46:22,985 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Chenon (Charente) est Norbert BOULIER (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067650139032859055'], 'id': '2067650139032859055'}, includes={}, errors=[], meta={})
-2026-06-18 16:46:22,987 - INFO - === Fin ===
-2026-06-19 10:46:24,380 - INFO - === Démarrage Maires ===
-2026-06-19 10:46:24,380 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-19 10:46:24,380 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-19 10:46:24,470 - INFO - Historique chargé: 1728 maires déjà tweetés
 2026-06-19 10:46:24,490 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-23 10:46:24,633 - INFO - Sauvegarde effectuée: 38244 - Thierry MAUCHERAT
 2026-06-23 10:46:24,633 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2069371488247931223'], 'id': '2069371488247931223', 'text': '🏛 Le #maire de Monsteroux-Milieu (Isère) est Thierry MAUCHERAT (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-23 10:46:24,635 - INFO - === Fin ===
+2026-06-23 16:46:27,300 - INFO - === Démarrage Maires ===
+2026-06-23 16:46:27,300 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-23 16:46:27,300 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-23 16:46:27,383 - INFO - Historique chargé: 1737 maires déjà tweetés
+2026-06-23 16:46:27,408 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-23 16:46:27,408 - INFO - Nombre de maires déjà tweetés: 1737
+2026-06-23 16:46:27,409 - INFO - Sélectionné: 54002 - Colette SAVARD (nouveau maire)
+2026-06-23 16:46:27,411 - INFO - Tweet: 🏛 La #maire de Abbéville-Lès-Conflans (Meurthe-et-Moselle) est Colette SAVARD (65 ans) #MairesdeFrance 🇫🇷
+2026-06-23 16:46:27,638 - INFO - Sauvegarde effectuée: 54002 - Colette SAVARD
+2026-06-23 16:46:27,638 - INFO - Succès: Response(data={'text': '🏛 La #maire de Abbéville-Lès-Conflans (Meurthe-et-Moselle) est Colette SAVARD (65 ans) #MairesdeFrance 🇫🇷', 'id': '2069462097881071891', 'edit_history_tweet_ids': ['2069462097881071891']}, includes={}, errors=[], meta={})
+2026-06-23 16:46:27,640 - INFO - === Fin ===
