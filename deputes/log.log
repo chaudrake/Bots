@@ -1,15 +1,3 @@
-2026-06-21 06:17:21,486 - INFO - === Fin ===
-2026-06-21 10:17:20,822 - INFO - === Démarrage Députés ===
-2026-06-21 10:17:20,822 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-21 10:17:20,822 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-21 10:17:20,829 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-21 10:17:20,829 - INFO - Historique chargé: 153 députés déjà tweetés
-2026-06-21 10:17:20,831 - INFO - Nombre de députés uniques: 572
-2026-06-21 10:17:20,831 - INFO - Nombre de députés déjà tweetés: 153
-2026-06-21 10:17:20,832 - INFO - Sélectionné: 5701 - Belkhir BELHADDAD (nouveau député)
-2026-06-21 10:17:20,832 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Moselle est Belkhir BELHADDAD (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-21 10:17:21,178 - INFO - Sauvegarde effectuée: 5701 - Belkhir BELHADDAD
-2026-06-21 10:17:21,178 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2068639399554715710'], 'text': '🏛 Le #député de la 1ère circonscription de la Moselle est Belkhir BELHADDAD (56 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2068639399554715710'}, includes={}, errors=[], meta={})
 2026-06-21 10:17:21,178 - INFO - === Fin ===
 2026-06-21 17:17:22,714 - INFO - === Démarrage Députés ===
 2026-06-21 17:17:22,714 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-24 06:17:24,034 - INFO - Sauvegarde effectuée: 7609 - Marie-Agnes POUSSIER-WINSBACK
 2026-06-24 06:17:24,034 - INFO - Succès: Response(data={'id': '2069666177526485053', 'edit_history_tweet_ids': ['2069666177526485053'], 'text': '🏛 La #députée de la 9e circonscription de Seine-Maritime est Marie-Agnes POUSSIER-WINSBACK (59 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-24 06:17:24,035 - INFO - === Fin ===
+2026-06-24 10:17:22,371 - INFO - === Démarrage Députés ===
+2026-06-24 10:17:22,371 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-24 10:17:22,371 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-24 10:17:22,378 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-24 10:17:22,379 - INFO - Historique chargé: 162 députés déjà tweetés
+2026-06-24 10:17:22,380 - INFO - Nombre de députés uniques: 572
+2026-06-24 10:17:22,380 - INFO - Nombre de députés déjà tweetés: 162
+2026-06-24 10:17:22,381 - INFO - Sélectionné: 3104 - François PIQUEMAL (nouveau député)
+2026-06-24 10:17:22,382 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de la Haute-Garonne est François PIQUEMAL (41 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-24 10:17:22,654 - INFO - Sauvegarde effectuée: 3104 - François PIQUEMAL
+2026-06-24 10:17:22,654 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 4e circonscription de la Haute-Garonne est François PIQUEMAL (41 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2069726569807954298', 'edit_history_tweet_ids': ['2069726569807954298']}, includes={}, errors=[], meta={})
+2026-06-24 10:17:22,654 - INFO - === Fin ===
