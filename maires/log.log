@@ -1,14 +1,3 @@
-2026-06-19 10:46:24,380 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-19 10:46:24,470 - INFO - Historique chargé: 1728 maires déjà tweetés
-2026-06-19 10:46:24,490 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-19 10:46:24,490 - INFO - Nombre de maires déjà tweetés: 1728
-2026-06-19 10:46:24,492 - INFO - Sélectionné: 89257 - François BOUCHER (nouveau maire)
-2026-06-19 10:46:24,493 - INFO - Tweet: 🏛 Le #maire de Migennes (Yonne) est François BOUCHER (67 ans) #MairesdeFrance 🇫🇷
-2026-06-19 10:46:24,797 - INFO - Sauvegarde effectuée: 89257 - François BOUCHER
-2026-06-19 10:46:24,797 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Migennes (Yonne) est François BOUCHER (67 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2067921937477550479'], 'id': '2067921937477550479'}, includes={}, errors=[], meta={})
-2026-06-19 10:46:24,799 - INFO - === Fin ===
-2026-06-19 16:46:26,261 - INFO - === Démarrage Maires ===
-2026-06-19 16:46:26,261 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-19 16:46:26,261 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-19 16:46:26,342 - INFO - Historique chargé: 1729 maires déjà tweetés
 2026-06-19 16:46:26,363 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-23 16:46:27,638 - INFO - Sauvegarde effectuée: 54002 - Colette SAVARD
 2026-06-23 16:46:27,638 - INFO - Succès: Response(data={'text': '🏛 La #maire de Abbéville-Lès-Conflans (Meurthe-et-Moselle) est Colette SAVARD (65 ans) #MairesdeFrance 🇫🇷', 'id': '2069462097881071891', 'edit_history_tweet_ids': ['2069462097881071891']}, includes={}, errors=[], meta={})
 2026-06-23 16:46:27,640 - INFO - === Fin ===
+2026-06-24 10:46:22,603 - INFO - === Démarrage Maires ===
+2026-06-24 10:46:22,603 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-24 10:46:22,603 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-24 10:46:22,688 - INFO - Historique chargé: 1738 maires déjà tweetés
+2026-06-24 10:46:22,711 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-24 10:46:22,711 - INFO - Nombre de maires déjà tweetés: 1738
+2026-06-24 10:46:22,713 - INFO - Sélectionné: 27228 - Claude GENCE (nouveau maire)
+2026-06-24 10:46:22,714 - INFO - Tweet: 🏛 Le #maire de Eturqueraye (Eure) est Claude GENCE (77 ans) #MairesdeFrance 🇫🇷
+2026-06-24 10:46:22,948 - INFO - Sauvegarde effectuée: 27228 - Claude GENCE
+2026-06-24 10:46:22,948 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Eturqueraye (Eure) est Claude GENCE (77 ans) #MairesdeFrance 🇫🇷', 'id': '2069733869113204973', 'edit_history_tweet_ids': ['2069733869113204973']}, includes={}, errors=[], meta={})
+2026-06-24 10:46:22,950 - INFO - === Fin ===
