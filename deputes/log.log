@@ -1,15 +1,3 @@
-2026-06-21 10:17:21,178 - INFO - === Fin ===
-2026-06-21 17:17:22,714 - INFO - === Démarrage Députés ===
-2026-06-21 17:17:22,714 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-21 17:17:22,714 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-21 17:17:22,722 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-21 17:17:22,722 - INFO - Historique chargé: 154 députés déjà tweetés
-2026-06-21 17:17:22,724 - INFO - Nombre de députés uniques: 572
-2026-06-21 17:17:22,724 - INFO - Nombre de députés déjà tweetés: 154
-2026-06-21 17:17:22,725 - INFO - Sélectionné: 2802 - Christelle MINARD (nouveau député)
-2026-06-21 17:17:22,726 - INFO - Tweet: 🏛 La #députée de la 2e circonscription d'Eure-et-Loir est Christelle MINARD (55 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-21 17:17:23,330 - INFO - Sauvegarde effectuée: 2802 - Christelle MINARD
-2026-06-21 17:17:23,330 - INFO - Succès: Response(data={'id': '2068745104852926744', 'text': "🏛 La #députée de la 2e circonscription d'Eure-et-Loir est Christelle MINARD (55 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2068745104852926744']}, includes={}, errors=[], meta={})
 2026-06-21 17:17:23,330 - INFO - === Fin ===
 2026-06-22 06:17:34,061 - INFO - === Démarrage Députés ===
 2026-06-22 06:17:34,061 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-24 10:17:22,654 - INFO - Sauvegarde effectuée: 3104 - François PIQUEMAL
 2026-06-24 10:17:22,654 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 4e circonscription de la Haute-Garonne est François PIQUEMAL (41 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2069726569807954298', 'edit_history_tweet_ids': ['2069726569807954298']}, includes={}, errors=[], meta={})
 2026-06-24 10:17:22,654 - INFO - === Fin ===
+2026-06-24 17:17:20,585 - INFO - === Démarrage Députés ===
+2026-06-24 17:17:20,585 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-24 17:17:20,585 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-24 17:17:20,593 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-24 17:17:20,593 - INFO - Historique chargé: 163 députés déjà tweetés
+2026-06-24 17:17:20,595 - INFO - Nombre de députés uniques: 572
+2026-06-24 17:17:20,595 - INFO - Nombre de députés déjà tweetés: 163
+2026-06-24 17:17:20,596 - INFO - Sélectionné: 5102 - Laure MILLER (nouveau député)
+2026-06-24 17:17:20,596 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de la Marne est Laure MILLER (42 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-24 17:17:20,837 - INFO - Sauvegarde effectuée: 5102 - Laure MILLER
+2026-06-24 17:17:20,837 - INFO - Succès: Response(data={'id': '2069832258572206495', 'text': '🏛 La #députée de la 2e circonscription de la Marne est Laure MILLER (42 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2069832258572206495']}, includes={}, errors=[], meta={})
+2026-06-24 17:17:20,837 - INFO - === Fin ===
