@@ -1,15 +1,3 @@
-2026-06-20 17:17:21,143 - INFO - === Fin ===
-2026-06-21 06:17:21,225 - INFO - === Démarrage Députés ===
-2026-06-21 06:17:21,225 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-21 06:17:21,225 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-21 06:17:21,231 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-21 06:17:21,232 - INFO - Historique chargé: 152 députés déjà tweetés
-2026-06-21 06:17:21,233 - INFO - Nombre de députés uniques: 572
-2026-06-21 06:17:21,233 - INFO - Nombre de députés déjà tweetés: 152
-2026-06-21 06:17:21,234 - INFO - Sélectionné: 8305 - Julie LECHANTEUX (nouveau député)
-2026-06-21 06:17:21,234 - INFO - Tweet: 🏛 La #députée de la 5e circonscription du Var est Julie LECHANTEUX (48 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-21 06:17:21,486 - INFO - Sauvegarde effectuée: 8305 - Julie LECHANTEUX
-2026-06-21 06:17:21,486 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2068579003343270360'], 'id': '2068579003343270360', 'text': '🏛 La #députée de la 5e circonscription du Var est Julie LECHANTEUX (48 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-21 06:17:21,486 - INFO - === Fin ===
 2026-06-21 10:17:20,822 - INFO - === Démarrage Députés ===
 2026-06-21 10:17:20,822 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-23 17:17:27,199 - INFO - Sauvegarde effectuée: 4203 - Emmanuel MANDON
 2026-06-23 17:17:27,200 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2069469897378156687'], 'id': '2069469897378156687', 'text': '🏛 Le #député de la 3e circonscription de la Loire est Emmanuel MANDON (61 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-23 17:17:27,200 - INFO - === Fin ===
+2026-06-24 06:17:23,709 - INFO - === Démarrage Députés ===
+2026-06-24 06:17:23,709 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-24 06:17:23,709 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-24 06:17:23,716 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-24 06:17:23,717 - INFO - Historique chargé: 161 députés déjà tweetés
+2026-06-24 06:17:23,719 - INFO - Nombre de députés uniques: 572
+2026-06-24 06:17:23,719 - INFO - Nombre de députés déjà tweetés: 161
+2026-06-24 06:17:23,719 - INFO - Sélectionné: 7609 - Marie-Agnes POUSSIER-WINSBACK (nouveau député)
+2026-06-24 06:17:23,720 - INFO - Tweet: 🏛 La #députée de la 9e circonscription de Seine-Maritime est Marie-Agnes POUSSIER-WINSBACK (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-24 06:17:24,034 - INFO - Sauvegarde effectuée: 7609 - Marie-Agnes POUSSIER-WINSBACK
+2026-06-24 06:17:24,034 - INFO - Succès: Response(data={'id': '2069666177526485053', 'edit_history_tweet_ids': ['2069666177526485053'], 'text': '🏛 La #députée de la 9e circonscription de Seine-Maritime est Marie-Agnes POUSSIER-WINSBACK (59 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-24 06:17:24,035 - INFO - === Fin ===
