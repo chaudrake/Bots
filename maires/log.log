@@ -1,14 +1,3 @@
-2026-06-20 16:46:21,178 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-20 16:46:21,263 - INFO - Historique chargé: 1731 maires déjà tweetés
-2026-06-20 16:46:21,284 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-20 16:46:21,284 - INFO - Nombre de maires déjà tweetés: 1731
-2026-06-20 16:46:21,286 - INFO - Sélectionné: 21421 - Florian PAQUET (nouveau maire)
-2026-06-20 16:46:21,287 - INFO - Tweet: 🏛 Le #maire de Moloy (Côte-d'Or) est Florian PAQUET (35 ans) #MairesdeFrance 🇫🇷
-2026-06-20 16:46:21,537 - INFO - Sauvegarde effectuée: 21421 - Florian PAQUET
-2026-06-20 16:46:21,537 - INFO - Succès: Response(data={'id': '2068374908694909241', 'edit_history_tweet_ids': ['2068374908694909241'], 'text': "🏛 Le #maire de Moloy (Côte-d'Or) est Florian PAQUET (35 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-06-20 16:46:21,539 - INFO - === Fin ===
-2026-06-21 10:46:24,267 - INFO - === Démarrage Maires ===
-2026-06-21 10:46:24,267 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-21 10:46:24,267 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-21 10:46:24,352 - INFO - Historique chargé: 1732 maires déjà tweetés
 2026-06-21 10:46:24,373 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-25 10:46:26,524 - INFO - Sauvegarde effectuée: 60072 - Franck SUPERBI
 2026-06-25 10:46:26,524 - INFO - Succès: Response(data={'id': '2070096271952753061', 'text': '🏛 Le #maire de Bitry (Oise) est Franck SUPERBI (51 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2070096271952753061']}, includes={}, errors=[], meta={})
 2026-06-25 10:46:26,526 - INFO - === Fin ===
+2026-06-25 16:46:27,030 - INFO - === Démarrage Maires ===
+2026-06-25 16:46:27,030 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-25 16:46:27,030 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-25 16:46:27,120 - INFO - Historique chargé: 1741 maires déjà tweetés
+2026-06-25 16:46:27,147 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-25 16:46:27,147 - INFO - Nombre de maires déjà tweetés: 1741
+2026-06-25 16:46:27,148 - INFO - Sélectionné: 08413 - Mathieu FOURNY (nouveau maire)
+2026-06-25 16:46:27,150 - INFO - Tweet: 🏛 Le #maire de Seraincourt (Vaucluse) est Mathieu FOURNY (37 ans) #MairesdeFrance 🇫🇷
+2026-06-25 16:46:27,511 - INFO - Sauvegarde effectuée: 08413 - Mathieu FOURNY
+2026-06-25 16:46:27,511 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Seraincourt (Vaucluse) est Mathieu FOURNY (37 ans) #MairesdeFrance 🇫🇷', 'id': '2070186873012555784', 'edit_history_tweet_ids': ['2070186873012555784']}, includes={}, errors=[], meta={})
+2026-06-25 16:46:27,513 - INFO - === Fin ===
