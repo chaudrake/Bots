@@ -33,7 +33,8 @@
     "Salade grecque (tomate, féta, concombres...)",
     "Courgettes à la crème",
     "Filet de maigre sauté à l'ail",
-    "Raviolis"
+    "Raviolis",
+    "Cassoulet"
   ],
   "used_entrees": [
     "Carottes râpées au citron",
@@ -133,6 +134,7 @@
     "Artichauts vinaigrette",
     "Salade de figues et fromage de chèvre",
     "Bretzels maison",
-    "Champignons farcis au fromage"
+    "Champignons farcis au fromage",
+    "Soupe à l'oignon gratinée (ou pas)"
   ]
 }
