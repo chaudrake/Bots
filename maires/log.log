@@ -1,14 +1,3 @@
-2026-06-20 10:46:23,316 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-20 10:46:23,406 - INFO - Historique chargé: 1730 maires déjà tweetés
-2026-06-20 10:46:23,431 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-20 10:46:23,431 - INFO - Nombre de maires déjà tweetés: 1730
-2026-06-20 10:46:23,433 - INFO - Sélectionné: 59585 - Pierre-Henri DESMETTRE (nouveau maire)
-2026-06-20 10:46:23,435 - INFO - Tweet: 🏛 Le #maire de Templemars (Nord) est Pierre-Henri DESMETTRE (73 ans) #MairesdeFrance 🇫🇷
-2026-06-20 10:46:23,664 - INFO - Sauvegarde effectuée: 59585 - Pierre-Henri DESMETTRE
-2026-06-20 10:46:23,664 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Templemars (Nord) est Pierre-Henri DESMETTRE (73 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2068284320616501338'], 'id': '2068284320616501338'}, includes={}, errors=[], meta={})
-2026-06-20 10:46:23,666 - INFO - === Fin ===
-2026-06-20 16:46:21,178 - INFO - === Démarrage Maires ===
-2026-06-20 16:46:21,178 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-20 16:46:21,178 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-20 16:46:21,263 - INFO - Historique chargé: 1731 maires déjà tweetés
 2026-06-20 16:46:21,284 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-24 16:46:22,442 - INFO - Sauvegarde effectuée: 78090 - Sabine OLIVIER
 2026-06-24 16:46:22,442 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2069824463894376932'], 'text': '🏛 La #maire de Bouafle (Yvelines) est Sabine OLIVIER (61 ans) #MairesdeFrance 🇫🇷', 'id': '2069824463894376932'}, includes={}, errors=[], meta={})
 2026-06-24 16:46:22,444 - INFO - === Fin ===
+2026-06-25 10:46:26,192 - INFO - === Démarrage Maires ===
+2026-06-25 10:46:26,192 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-25 10:46:26,192 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-25 10:46:26,275 - INFO - Historique chargé: 1740 maires déjà tweetés
+2026-06-25 10:46:26,294 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-25 10:46:26,294 - INFO - Nombre de maires déjà tweetés: 1740
+2026-06-25 10:46:26,295 - INFO - Sélectionné: 60072 - Franck SUPERBI (nouveau maire)
+2026-06-25 10:46:26,297 - INFO - Tweet: 🏛 Le #maire de Bitry (Oise) est Franck SUPERBI (51 ans) #MairesdeFrance 🇫🇷
+2026-06-25 10:46:26,524 - INFO - Sauvegarde effectuée: 60072 - Franck SUPERBI
+2026-06-25 10:46:26,524 - INFO - Succès: Response(data={'id': '2070096271952753061', 'text': '🏛 Le #maire de Bitry (Oise) est Franck SUPERBI (51 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2070096271952753061']}, includes={}, errors=[], meta={})
+2026-06-25 10:46:26,526 - INFO - === Fin ===
