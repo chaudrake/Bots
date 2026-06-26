@@ -1,14 +1,3 @@
-2026-06-21 16:46:22,587 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-21 16:46:22,675 - INFO - Historique chargé: 1733 maires déjà tweetés
-2026-06-21 16:46:22,696 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-21 16:46:22,697 - INFO - Nombre de maires déjà tweetés: 1733
-2026-06-21 16:46:22,698 - INFO - Sélectionné: 06019 - Michel LOTTIER (nouveau maire)
-2026-06-21 16:46:22,699 - INFO - Tweet: 🏛 Le #maire de Blausasc (Oise) est Michel LOTTIER (68 ans) #MairesdeFrance 🇫🇷
-2026-06-21 16:46:22,967 - INFO - Sauvegarde effectuée: 06019 - Michel LOTTIER
-2026-06-21 16:46:22,967 - INFO - Succès: Response(data={'id': '2068737302562500938', 'edit_history_tweet_ids': ['2068737302562500938'], 'text': '🏛 Le #maire de Blausasc (Oise) est Michel LOTTIER (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-21 16:46:22,969 - INFO - === Fin ===
-2026-06-22 10:46:23,600 - INFO - === Démarrage Maires ===
-2026-06-22 10:46:23,600 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-22 10:46:23,600 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-22 10:46:23,697 - INFO - Historique chargé: 1734 maires déjà tweetés
 2026-06-22 10:46:23,718 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-26 10:46:23,544 - INFO - Sauvegarde effectuée: 02739 - Bruno SAUVAGE
 2026-06-26 10:46:23,544 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Terny-Sorny (Eure) est Bruno SAUVAGE (74 ans) #MairesdeFrance 🇫🇷', 'id': '2070458647314891253', 'edit_history_tweet_ids': ['2070458647314891253']}, includes={}, errors=[], meta={})
 2026-06-26 10:46:23,546 - INFO - === Fin ===
+2026-06-26 16:46:23,814 - INFO - === Démarrage Maires ===
+2026-06-26 16:46:23,814 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-26 16:46:23,814 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-26 16:46:23,896 - INFO - Historique chargé: 1743 maires déjà tweetés
+2026-06-26 16:46:23,916 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-26 16:46:23,916 - INFO - Nombre de maires déjà tweetés: 1743
+2026-06-26 16:46:23,917 - INFO - Sélectionné: 01202 - Alexandre NANCHI (nouveau maire)
+2026-06-26 16:46:23,919 - INFO - Tweet: 🏛 Le #maire de Lagnieu (Aveyron) est Alexandre NANCHI (51 ans) #MairesdeFrance 🇫🇷
+2026-06-26 16:46:24,182 - INFO - Sauvegarde effectuée: 01202 - Alexandre NANCHI
+2026-06-26 16:46:24,182 - INFO - Succès: Response(data={'id': '2070549246957559854', 'edit_history_tweet_ids': ['2070549246957559854'], 'text': '🏛 Le #maire de Lagnieu (Aveyron) est Alexandre NANCHI (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-26 16:46:24,184 - INFO - === Fin ===
