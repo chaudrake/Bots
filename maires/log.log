@@ -1,14 +1,3 @@
-2026-06-21 10:46:24,267 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-21 10:46:24,352 - INFO - Historique chargé: 1732 maires déjà tweetés
-2026-06-21 10:46:24,373 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-21 10:46:24,373 - INFO - Nombre de maires déjà tweetés: 1732
-2026-06-21 10:46:24,375 - INFO - Sélectionné: 08071 - Nathalie TAVERNIER (nouveau maire)
-2026-06-21 10:46:24,376 - INFO - Tweet: 🏛 La #maire de Blombay (Somme) est Nathalie TAVERNIER (59 ans) #MairesdeFrance 🇫🇷
-2026-06-21 10:46:24,650 - INFO - Sauvegarde effectuée: 08071 - Nathalie TAVERNIER
-2026-06-21 10:46:24,650 - INFO - Succès: Response(data={'id': '2068646712642596952', 'edit_history_tweet_ids': ['2068646712642596952'], 'text': '🏛 La #maire de Blombay (Somme) est Nathalie TAVERNIER (59 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-21 10:46:24,652 - INFO - === Fin ===
-2026-06-21 16:46:22,587 - INFO - === Démarrage Maires ===
-2026-06-21 16:46:22,587 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-21 16:46:22,587 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-21 16:46:22,675 - INFO - Historique chargé: 1733 maires déjà tweetés
 2026-06-21 16:46:22,696 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-25 16:46:27,511 - INFO - Sauvegarde effectuée: 08413 - Mathieu FOURNY
 2026-06-25 16:46:27,511 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Seraincourt (Vaucluse) est Mathieu FOURNY (37 ans) #MairesdeFrance 🇫🇷', 'id': '2070186873012555784', 'edit_history_tweet_ids': ['2070186873012555784']}, includes={}, errors=[], meta={})
 2026-06-25 16:46:27,513 - INFO - === Fin ===
+2026-06-26 10:46:23,122 - INFO - === Démarrage Maires ===
+2026-06-26 10:46:23,122 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-26 10:46:23,122 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-26 10:46:23,210 - INFO - Historique chargé: 1742 maires déjà tweetés
+2026-06-26 10:46:23,236 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-26 10:46:23,236 - INFO - Nombre de maires déjà tweetés: 1742
+2026-06-26 10:46:23,237 - INFO - Sélectionné: 02739 - Bruno SAUVAGE (nouveau maire)
+2026-06-26 10:46:23,240 - INFO - Tweet: 🏛 Le #maire de Terny-Sorny (Eure) est Bruno SAUVAGE (74 ans) #MairesdeFrance 🇫🇷
+2026-06-26 10:46:23,544 - INFO - Sauvegarde effectuée: 02739 - Bruno SAUVAGE
+2026-06-26 10:46:23,544 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Terny-Sorny (Eure) est Bruno SAUVAGE (74 ans) #MairesdeFrance 🇫🇷', 'id': '2070458647314891253', 'edit_history_tweet_ids': ['2070458647314891253']}, includes={}, errors=[], meta={})
+2026-06-26 10:46:23,546 - INFO - === Fin ===
