@@ -1,15 +1,3 @@
-2026-06-23 10:17:24,563 - INFO - === Fin ===
-2026-06-23 17:17:26,931 - INFO - === Démarrage Députés ===
-2026-06-23 17:17:26,931 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-23 17:17:26,931 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-23 17:17:26,939 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-23 17:17:26,939 - INFO - Historique chargé: 160 députés déjà tweetés
-2026-06-23 17:17:26,941 - INFO - Nombre de députés uniques: 572
-2026-06-23 17:17:26,941 - INFO - Nombre de députés déjà tweetés: 160
-2026-06-23 17:17:26,942 - INFO - Sélectionné: 4203 - Emmanuel MANDON (nouveau député)
-2026-06-23 17:17:26,942 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de la Loire est Emmanuel MANDON (61 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-23 17:17:27,199 - INFO - Sauvegarde effectuée: 4203 - Emmanuel MANDON
-2026-06-23 17:17:27,200 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2069469897378156687'], 'id': '2069469897378156687', 'text': '🏛 Le #député de la 3e circonscription de la Loire est Emmanuel MANDON (61 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-23 17:17:27,200 - INFO - === Fin ===
 2026-06-24 06:17:23,709 - INFO - === Démarrage Députés ===
 2026-06-24 06:17:23,709 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-26 10:17:23,432 - INFO - Sauvegarde effectuée: 9303 - Thomas PORTES
 2026-06-26 10:17:23,432 - INFO - Succès: Response(data={'id': '2070451348710052181', 'edit_history_tweet_ids': ['2070451348710052181'], 'text': '🏛 Le #député de la 3e circonscription de Seine-Saint-Denis est Thomas PORTES (40 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-26 10:17:23,432 - INFO - === Fin ===
+2026-06-26 17:17:23,759 - INFO - === Démarrage Députés ===
+2026-06-26 17:17:23,759 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-26 17:17:23,759 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-26 17:17:23,766 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-26 17:17:23,766 - INFO - Historique chargé: 169 députés déjà tweetés
+2026-06-26 17:17:23,768 - INFO - Nombre de députés uniques: 572
+2026-06-26 17:17:23,768 - INFO - Nombre de députés déjà tweetés: 169
+2026-06-26 17:17:23,769 - INFO - Sélectionné: 3402 - Nathalie OZIOL (nouveau député)
+2026-06-26 17:17:23,769 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de l'Hérault est Nathalie OZIOL (36 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-26 17:17:24,011 - INFO - Sauvegarde effectuée: 3402 - Nathalie OZIOL
+2026-06-26 17:17:24,011 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2070557047624515634'], 'id': '2070557047624515634', 'text': "🏛 La #députée de la 2e circonscription de l'Hérault est Nathalie OZIOL (36 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-06-26 17:17:24,011 - INFO - === Fin ===
