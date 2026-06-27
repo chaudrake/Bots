@@ -1,14 +1,3 @@
-2026-06-22 10:46:23,600 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-22 10:46:23,697 - INFO - Historique chargé: 1734 maires déjà tweetés
-2026-06-22 10:46:23,718 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-22 10:46:23,718 - INFO - Nombre de maires déjà tweetés: 1734
-2026-06-22 10:46:23,720 - INFO - Sélectionné: 34303 - Ludovic CAMPLO (nouveau maire)
-2026-06-22 10:46:23,721 - INFO - Tweet: 🏛 Le #maire de Sorbs (Hérault) est Ludovic CAMPLO (49 ans) #MairesdeFrance 🇫🇷
-2026-06-22 10:46:23,990 - INFO - Sauvegarde effectuée: 34303 - Ludovic CAMPLO
-2026-06-22 10:46:23,990 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Sorbs (Hérault) est Ludovic CAMPLO (49 ans) #MairesdeFrance 🇫🇷', 'id': '2069009097639239897', 'edit_history_tweet_ids': ['2069009097639239897']}, includes={}, errors=[], meta={})
-2026-06-22 10:46:23,992 - INFO - === Fin ===
-2026-06-22 16:46:40,259 - INFO - === Démarrage Maires ===
-2026-06-22 16:46:40,259 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-22 16:46:40,259 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-22 16:46:40,350 - INFO - Historique chargé: 1735 maires déjà tweetés
 2026-06-22 16:46:40,373 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-26 16:46:24,182 - INFO - Sauvegarde effectuée: 01202 - Alexandre NANCHI
 2026-06-26 16:46:24,182 - INFO - Succès: Response(data={'id': '2070549246957559854', 'edit_history_tweet_ids': ['2070549246957559854'], 'text': '🏛 Le #maire de Lagnieu (Aveyron) est Alexandre NANCHI (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-26 16:46:24,184 - INFO - === Fin ===
+2026-06-27 10:46:20,424 - INFO - === Démarrage Maires ===
+2026-06-27 10:46:20,424 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-27 10:46:20,424 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-27 10:46:20,514 - INFO - Historique chargé: 1744 maires déjà tweetés
+2026-06-27 10:46:20,536 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-27 10:46:20,536 - INFO - Nombre de maires déjà tweetés: 1744
+2026-06-27 10:46:20,538 - INFO - Sélectionné: 50504 - Vanessa GAILLARD (nouveau maire)
+2026-06-27 10:46:20,539 - INFO - Tweet: 🏛 La #maire de Saint-Louet-Sur-Vire (Manche) est Vanessa GAILLARD (48 ans) #MairesdeFrance 🇫🇷
+2026-06-27 10:46:20,787 - INFO - Sauvegarde effectuée: 50504 - Vanessa GAILLARD
+2026-06-27 10:46:20,787 - INFO - Succès: Response(data={'id': '2070821023621038426', 'text': '🏛 La #maire de Saint-Louet-Sur-Vire (Manche) est Vanessa GAILLARD (48 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2070821023621038426']}, includes={}, errors=[], meta={})
+2026-06-27 10:46:20,789 - INFO - === Fin ===
