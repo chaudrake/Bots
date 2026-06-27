@@ -1,14 +1,3 @@
-2026-06-22 16:46:40,259 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-22 16:46:40,350 - INFO - Historique chargé: 1735 maires déjà tweetés
-2026-06-22 16:46:40,373 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-22 16:46:40,373 - INFO - Nombre de maires déjà tweetés: 1735
-2026-06-22 16:46:40,375 - INFO - Sélectionné: 89337 - Olivier FELIX (nouveau maire)
-2026-06-22 16:46:40,376 - INFO - Tweet: 🏛 Le #maire de Saint-Bris-Le-Vineux (Yonne) est Olivier FELIX (41 ans) #MairesdeFrance 🇫🇷
-2026-06-22 16:46:40,606 - INFO - Sauvegarde effectuée: 89337 - Olivier FELIX
-2026-06-22 16:46:40,606 - INFO - Succès: Response(data={'id': '2069099764386345232', 'text': '🏛 Le #maire de Saint-Bris-Le-Vineux (Yonne) est Olivier FELIX (41 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2069099764386345232']}, includes={}, errors=[], meta={})
-2026-06-22 16:46:40,609 - INFO - === Fin ===
-2026-06-23 10:46:24,287 - INFO - === Démarrage Maires ===
-2026-06-23 10:46:24,287 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-23 10:46:24,287 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-23 10:46:24,372 - INFO - Historique chargé: 1736 maires déjà tweetés
 2026-06-23 10:46:24,394 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-27 10:46:20,787 - INFO - Sauvegarde effectuée: 50504 - Vanessa GAILLARD
 2026-06-27 10:46:20,787 - INFO - Succès: Response(data={'id': '2070821023621038426', 'text': '🏛 La #maire de Saint-Louet-Sur-Vire (Manche) est Vanessa GAILLARD (48 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2070821023621038426']}, includes={}, errors=[], meta={})
 2026-06-27 10:46:20,789 - INFO - === Fin ===
+2026-06-27 16:46:37,482 - INFO - === Démarrage Maires ===
+2026-06-27 16:46:37,482 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-27 16:46:37,482 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-27 16:46:37,570 - INFO - Historique chargé: 1745 maires déjà tweetés
+2026-06-27 16:46:37,596 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-27 16:46:37,596 - INFO - Nombre de maires déjà tweetés: 1745
+2026-06-27 16:46:37,597 - INFO - Sélectionné: 61082 - Rémy RILLET (nouveau maire)
+2026-06-27 16:46:37,599 - INFO - Tweet: 🏛 Le #maire de Le Chalange (Orne) est Rémy RILLET (69 ans) #MairesdeFrance 🇫🇷
+2026-06-27 16:46:37,897 - INFO - Sauvegarde effectuée: 61082 - Rémy RILLET
+2026-06-27 16:46:37,897 - INFO - Succès: Response(data={'id': '2070911692335435778', 'edit_history_tweet_ids': ['2070911692335435778'], 'text': '🏛 Le #maire de Le Chalange (Orne) est Rémy RILLET (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-27 16:46:37,899 - INFO - === Fin ===
