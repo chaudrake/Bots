@@ -1,15 +1,3 @@
-2026-06-24 10:17:22,654 - INFO - === Fin ===
-2026-06-24 17:17:20,585 - INFO - === Démarrage Députés ===
-2026-06-24 17:17:20,585 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-24 17:17:20,585 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-24 17:17:20,593 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-24 17:17:20,593 - INFO - Historique chargé: 163 députés déjà tweetés
-2026-06-24 17:17:20,595 - INFO - Nombre de députés uniques: 572
-2026-06-24 17:17:20,595 - INFO - Nombre de députés déjà tweetés: 163
-2026-06-24 17:17:20,596 - INFO - Sélectionné: 5102 - Laure MILLER (nouveau député)
-2026-06-24 17:17:20,596 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de la Marne est Laure MILLER (42 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-24 17:17:20,837 - INFO - Sauvegarde effectuée: 5102 - Laure MILLER
-2026-06-24 17:17:20,837 - INFO - Succès: Response(data={'id': '2069832258572206495', 'text': '🏛 La #députée de la 2e circonscription de la Marne est Laure MILLER (42 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2069832258572206495']}, includes={}, errors=[], meta={})
 2026-06-24 17:17:20,837 - INFO - === Fin ===
 2026-06-25 06:17:27,761 - INFO - === Démarrage Députés ===
 2026-06-25 06:17:27,761 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-27 10:17:22,196 - INFO - Sauvegarde effectuée: 7204 - Elise LEBOUCHER
 2026-06-27 10:17:22,196 - INFO - Succès: Response(data={'id': '2070813731484004764', 'text': '🏛 La #députée de la 4e circonscription de la Sarthe est Elise LEBOUCHER (43 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2070813731484004764']}, includes={}, errors=[], meta={})
 2026-06-27 10:17:22,196 - INFO - === Fin ===
+2026-06-27 17:17:23,100 - INFO - === Démarrage Députés ===
+2026-06-27 17:17:23,100 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-27 17:17:23,100 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-27 17:17:23,107 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-27 17:17:23,108 - INFO - Historique chargé: 172 députés déjà tweetés
+2026-06-27 17:17:23,109 - INFO - Nombre de députés uniques: 572
+2026-06-27 17:17:23,109 - INFO - Nombre de députés déjà tweetés: 172
+2026-06-27 17:17:23,110 - INFO - Sélectionné: 1705 - Christophe PLASSARD (nouveau député)
+2026-06-27 17:17:23,111 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de la Charente-Maritime est Christophe PLASSARD (58 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-27 17:17:23,310 - INFO - Sauvegarde effectuée: 1705 - Christophe PLASSARD
+2026-06-27 17:17:23,310 - INFO - Succès: Response(data={'id': '2070919432617300176', 'edit_history_tweet_ids': ['2070919432617300176'], 'text': '🏛 Le #député de la 5e circonscription de la Charente-Maritime est Christophe PLASSARD (58 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-27 17:17:23,311 - INFO - === Fin ===
