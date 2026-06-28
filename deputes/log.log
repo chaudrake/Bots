@@ -1,15 +1,3 @@
-2026-06-25 10:17:25,605 - INFO - === Fin ===
-2026-06-25 17:17:22,426 - INFO - === Démarrage Députés ===
-2026-06-25 17:17:22,427 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-25 17:17:22,427 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-25 17:17:22,433 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-25 17:17:22,434 - INFO - Historique chargé: 166 députés déjà tweetés
-2026-06-25 17:17:22,435 - INFO - Nombre de députés uniques: 572
-2026-06-25 17:17:22,436 - INFO - Nombre de députés déjà tweetés: 166
-2026-06-25 17:17:22,437 - INFO - Sélectionné: 6303 - Nicolas BONNET (nouveau député)
-2026-06-25 17:17:22,437 - INFO - Tweet: 🏛 Le #député de la 3e circonscription du Puy-de-Dôme est Nicolas BONNET (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-25 17:17:22,667 - INFO - Sauvegarde effectuée: 6303 - Nicolas BONNET
-2026-06-25 17:17:22,667 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 3e circonscription du Puy-de-Dôme est Nicolas BONNET (45 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2070194654138847576', 'edit_history_tweet_ids': ['2070194654138847576']}, includes={}, errors=[], meta={})
 2026-06-25 17:17:22,667 - INFO - === Fin ===
 2026-06-26 06:17:23,284 - INFO - === Démarrage Députés ===
 2026-06-26 06:17:23,284 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-28 10:17:20,631 - INFO - Sauvegarde effectuée: 4206 - Jean-Pierre TAITE
 2026-06-28 10:17:20,631 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 6e circonscription de la Loire est Jean-Pierre TAITE (64 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071176112743284741'], 'id': '2071176112743284741'}, includes={}, errors=[], meta={})
 2026-06-28 10:17:20,631 - INFO - === Fin ===
+2026-06-28 17:17:21,843 - INFO - === Démarrage Députés ===
+2026-06-28 17:17:21,843 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-28 17:17:21,844 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-28 17:17:21,851 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-28 17:17:21,851 - INFO - Historique chargé: 175 députés déjà tweetés
+2026-06-28 17:17:21,853 - INFO - Nombre de députés uniques: 572
+2026-06-28 17:17:21,853 - INFO - Nombre de députés déjà tweetés: 175
+2026-06-28 17:17:21,854 - INFO - Sélectionné: 3505 - Christine LE NABOUR (nouveau député)
+2026-06-28 17:17:21,854 - INFO - Tweet: 🏛 La #députée de la 5e circonscription d'Ille-et-Vilaine est Christine LE NABOUR (61 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-28 17:17:22,109 - INFO - Sauvegarde effectuée: 3505 - Christine LE NABOUR
+2026-06-28 17:17:22,110 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2071281815331971275'], 'text': "🏛 La #députée de la 5e circonscription d'Ille-et-Vilaine est Christine LE NABOUR (61 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2071281815331971275'}, includes={}, errors=[], meta={})
+2026-06-28 17:17:22,110 - INFO - === Fin ===
