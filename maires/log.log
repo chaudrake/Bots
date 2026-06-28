@@ -1,14 +1,3 @@
-2026-06-23 10:46:24,287 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-23 10:46:24,372 - INFO - Historique chargé: 1736 maires déjà tweetés
-2026-06-23 10:46:24,394 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-23 10:46:24,395 - INFO - Nombre de maires déjà tweetés: 1736
-2026-06-23 10:46:24,396 - INFO - Sélectionné: 38244 - Thierry MAUCHERAT (nouveau maire)
-2026-06-23 10:46:24,398 - INFO - Tweet: 🏛 Le #maire de Monsteroux-Milieu (Isère) est Thierry MAUCHERAT (62 ans) #MairesdeFrance 🇫🇷
-2026-06-23 10:46:24,633 - INFO - Sauvegarde effectuée: 38244 - Thierry MAUCHERAT
-2026-06-23 10:46:24,633 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2069371488247931223'], 'id': '2069371488247931223', 'text': '🏛 Le #maire de Monsteroux-Milieu (Isère) est Thierry MAUCHERAT (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-23 10:46:24,635 - INFO - === Fin ===
-2026-06-23 16:46:27,300 - INFO - === Démarrage Maires ===
-2026-06-23 16:46:27,300 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-23 16:46:27,300 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-23 16:46:27,383 - INFO - Historique chargé: 1737 maires déjà tweetés
 2026-06-23 16:46:27,408 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-27 16:46:37,897 - INFO - Sauvegarde effectuée: 61082 - Rémy RILLET
 2026-06-27 16:46:37,897 - INFO - Succès: Response(data={'id': '2070911692335435778', 'edit_history_tweet_ids': ['2070911692335435778'], 'text': '🏛 Le #maire de Le Chalange (Orne) est Rémy RILLET (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-27 16:46:37,899 - INFO - === Fin ===
+2026-06-28 10:46:23,035 - INFO - === Démarrage Maires ===
+2026-06-28 10:46:23,035 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-28 10:46:23,035 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-28 10:46:23,119 - INFO - Historique chargé: 1746 maires déjà tweetés
+2026-06-28 10:46:23,140 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-28 10:46:23,140 - INFO - Nombre de maires déjà tweetés: 1746
+2026-06-28 10:46:23,142 - INFO - Sélectionné: 57160 - Salvatore FIORETTO (nouveau maire)
+2026-06-28 10:46:23,143 - INFO - Tweet: 🏛 Le #maire de Creutzwald (Moselle) est Salvatore FIORETTO (66 ans) #MairesdeFrance 🇫🇷
+2026-06-28 10:46:23,447 - INFO - Sauvegarde effectuée: 57160 - Salvatore FIORETTO
+2026-06-28 10:46:23,447 - INFO - Succès: Response(data={'id': '2071183422580572207', 'edit_history_tweet_ids': ['2071183422580572207'], 'text': '🏛 Le #maire de Creutzwald (Moselle) est Salvatore FIORETTO (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-28 10:46:23,449 - INFO - === Fin ===
