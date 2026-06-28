@@ -1,15 +1,3 @@
-2026-06-25 06:17:28,166 - INFO - === Fin ===
-2026-06-25 10:17:25,276 - INFO - === Démarrage Députés ===
-2026-06-25 10:17:25,276 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-25 10:17:25,276 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-25 10:17:25,284 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-25 10:17:25,285 - INFO - Historique chargé: 165 députés déjà tweetés
-2026-06-25 10:17:25,287 - INFO - Nombre de députés uniques: 572
-2026-06-25 10:17:25,287 - INFO - Nombre de députés déjà tweetés: 165
-2026-06-25 10:17:25,287 - INFO - Sélectionné: 8401 - Raphaël ARNAULT (nouveau député)
-2026-06-25 10:17:25,288 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription du Vaucluse est Raphaël ARNAULT (31 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-25 10:17:25,605 - INFO - Sauvegarde effectuée: 8401 - Raphaël ARNAULT
-2026-06-25 10:17:25,605 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 1ère circonscription du Vaucluse est Raphaël ARNAULT (31 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2070088970000634055'], 'id': '2070088970000634055'}, includes={}, errors=[], meta={})
 2026-06-25 10:17:25,605 - INFO - === Fin ===
 2026-06-25 17:17:22,426 - INFO - === Démarrage Députés ===
 2026-06-25 17:17:22,427 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-28 06:17:25,689 - INFO - Sauvegarde effectuée: 3202 - David TAUPIAC
 2026-06-28 06:17:25,689 - INFO - Succès: Response(data={'id': '2071115735963759015', 'text': '🏛 Le #député de la 2e circonscription du Gers est David TAUPIAC (51 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071115735963759015']}, includes={}, errors=[], meta={})
 2026-06-28 06:17:25,689 - INFO - === Fin ===
+2026-06-28 10:17:20,385 - INFO - === Démarrage Députés ===
+2026-06-28 10:17:20,385 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-28 10:17:20,385 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-28 10:17:20,392 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-28 10:17:20,392 - INFO - Historique chargé: 174 députés déjà tweetés
+2026-06-28 10:17:20,394 - INFO - Nombre de députés uniques: 572
+2026-06-28 10:17:20,394 - INFO - Nombre de députés déjà tweetés: 174
+2026-06-28 10:17:20,395 - INFO - Sélectionné: 4206 - Jean-Pierre TAITE (nouveau député)
+2026-06-28 10:17:20,395 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de la Loire est Jean-Pierre TAITE (64 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-28 10:17:20,631 - INFO - Sauvegarde effectuée: 4206 - Jean-Pierre TAITE
+2026-06-28 10:17:20,631 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 6e circonscription de la Loire est Jean-Pierre TAITE (64 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071176112743284741'], 'id': '2071176112743284741'}, includes={}, errors=[], meta={})
+2026-06-28 10:17:20,631 - INFO - === Fin ===
