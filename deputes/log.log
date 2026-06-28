@@ -1,15 +1,3 @@
-2026-06-24 17:17:20,837 - INFO - === Fin ===
-2026-06-25 06:17:27,761 - INFO - === Démarrage Députés ===
-2026-06-25 06:17:27,761 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-25 06:17:27,761 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-25 06:17:27,769 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-25 06:17:27,769 - INFO - Historique chargé: 164 députés déjà tweetés
-2026-06-25 06:17:27,771 - INFO - Nombre de députés uniques: 572
-2026-06-25 06:17:27,771 - INFO - Nombre de députés déjà tweetés: 164
-2026-06-25 06:17:27,772 - INFO - Sélectionné: 7205 - Jean-Carles GRELIER (nouveau député)
-2026-06-25 06:17:27,772 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de la Sarthe est Jean-Carles GRELIER (60 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-25 06:17:28,166 - INFO - Sauvegarde effectuée: 7205 - Jean-Carles GRELIER
-2026-06-25 06:17:28,166 - INFO - Succès: Response(data={'id': '2070028582815252922', 'edit_history_tweet_ids': ['2070028582815252922'], 'text': '🏛 Le #député de la 5e circonscription de la Sarthe est Jean-Carles GRELIER (60 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-25 06:17:28,166 - INFO - === Fin ===
 2026-06-25 10:17:25,276 - INFO - === Démarrage Députés ===
 2026-06-25 10:17:25,276 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-27 17:17:23,310 - INFO - Sauvegarde effectuée: 1705 - Christophe PLASSARD
 2026-06-27 17:17:23,310 - INFO - Succès: Response(data={'id': '2070919432617300176', 'edit_history_tweet_ids': ['2070919432617300176'], 'text': '🏛 Le #député de la 5e circonscription de la Charente-Maritime est Christophe PLASSARD (58 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-27 17:17:23,311 - INFO - === Fin ===
+2026-06-28 06:17:25,350 - INFO - === Démarrage Députés ===
+2026-06-28 06:17:25,350 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-28 06:17:25,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-28 06:17:25,356 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-28 06:17:25,356 - INFO - Historique chargé: 173 députés déjà tweetés
+2026-06-28 06:17:25,357 - INFO - Nombre de députés uniques: 572
+2026-06-28 06:17:25,357 - INFO - Nombre de députés déjà tweetés: 173
+2026-06-28 06:17:25,358 - INFO - Sélectionné: 3202 - David TAUPIAC (nouveau député)
+2026-06-28 06:17:25,358 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Gers est David TAUPIAC (51 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-28 06:17:25,689 - INFO - Sauvegarde effectuée: 3202 - David TAUPIAC
+2026-06-28 06:17:25,689 - INFO - Succès: Response(data={'id': '2071115735963759015', 'text': '🏛 Le #député de la 2e circonscription du Gers est David TAUPIAC (51 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071115735963759015']}, includes={}, errors=[], meta={})
+2026-06-28 06:17:25,689 - INFO - === Fin ===
