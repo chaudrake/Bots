@@ -86,3 +86,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/JustinTimberlake.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/Gorbatchev.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/nadal.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/billclinton.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/stevejobs.jpg
