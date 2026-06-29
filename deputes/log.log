@@ -1,15 +1,3 @@
-2026-06-25 17:17:22,667 - INFO - === Fin ===
-2026-06-26 06:17:23,284 - INFO - === Démarrage Députés ===
-2026-06-26 06:17:23,284 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-26 06:17:23,284 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-26 06:17:23,292 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-26 06:17:23,292 - INFO - Historique chargé: 167 députés déjà tweetés
-2026-06-26 06:17:23,294 - INFO - Nombre de députés uniques: 572
-2026-06-26 06:17:23,294 - INFO - Nombre de députés déjà tweetés: 167
-2026-06-26 06:17:23,294 - INFO - Sélectionné: 0601 - Eric CIOTTI (nouveau député)
-2026-06-26 06:17:23,295 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription des Alpes-Maritimes est Eric CIOTTI (60 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-26 06:17:23,572 - INFO - Sauvegarde effectuée: 0601 - Eric CIOTTI
-2026-06-26 06:17:23,572 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 1ère circonscription des Alpes-Maritimes est Eric CIOTTI (60 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2070390951374197218', 'edit_history_tweet_ids': ['2070390951374197218']}, includes={}, errors=[], meta={})
 2026-06-26 06:17:23,572 - INFO - === Fin ===
 2026-06-26 10:17:23,159 - INFO - === Démarrage Députés ===
 2026-06-26 10:17:23,159 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-28 17:17:22,109 - INFO - Sauvegarde effectuée: 3505 - Christine LE NABOUR
 2026-06-28 17:17:22,110 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2071281815331971275'], 'text': "🏛 La #députée de la 5e circonscription d'Ille-et-Vilaine est Christine LE NABOUR (61 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2071281815331971275'}, includes={}, errors=[], meta={})
 2026-06-28 17:17:22,110 - INFO - === Fin ===
+2026-06-29 06:17:20,141 - INFO - === Démarrage Députés ===
+2026-06-29 06:17:20,141 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-29 06:17:20,142 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-29 06:17:20,148 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-29 06:17:20,149 - INFO - Historique chargé: 176 députés déjà tweetés
+2026-06-29 06:17:20,151 - INFO - Nombre de députés uniques: 572
+2026-06-29 06:17:20,151 - INFO - Nombre de députés déjà tweetés: 176
+2026-06-29 06:17:20,151 - INFO - Sélectionné: 2702 - Katiana LEVAVASSEUR (nouveau député)
+2026-06-29 06:17:20,152 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de l'Eure est Katiana LEVAVASSEUR (55 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-29 06:17:20,393 - INFO - Sauvegarde effectuée: 2702 - Katiana LEVAVASSEUR
+2026-06-29 06:17:20,393 - INFO - Succès: Response(data={'id': '2071478101561991598', 'edit_history_tweet_ids': ['2071478101561991598'], 'text': "🏛 La #députée de la 2e circonscription de l'Eure est Katiana LEVAVASSEUR (55 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-06-29 06:17:20,393 - INFO - === Fin ===
