@@ -1,15 +1,3 @@
-2026-06-26 10:17:23,432 - INFO - === Fin ===
-2026-06-26 17:17:23,759 - INFO - === Démarrage Députés ===
-2026-06-26 17:17:23,759 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-26 17:17:23,759 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-26 17:17:23,766 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-26 17:17:23,766 - INFO - Historique chargé: 169 députés déjà tweetés
-2026-06-26 17:17:23,768 - INFO - Nombre de députés uniques: 572
-2026-06-26 17:17:23,768 - INFO - Nombre de députés déjà tweetés: 169
-2026-06-26 17:17:23,769 - INFO - Sélectionné: 3402 - Nathalie OZIOL (nouveau député)
-2026-06-26 17:17:23,769 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de l'Hérault est Nathalie OZIOL (36 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-26 17:17:24,011 - INFO - Sauvegarde effectuée: 3402 - Nathalie OZIOL
-2026-06-26 17:17:24,011 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2070557047624515634'], 'id': '2070557047624515634', 'text': "🏛 La #députée de la 2e circonscription de l'Hérault est Nathalie OZIOL (36 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-06-26 17:17:24,011 - INFO - === Fin ===
 2026-06-27 06:17:22,252 - INFO - === Démarrage Députés ===
 2026-06-27 06:17:22,253 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-29 10:17:23,200 - INFO - Sauvegarde effectuée: 6902 - Boris TAVERNIER
 2026-06-29 10:17:23,200 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 2e circonscription du Rhône est Boris TAVERNIER (46 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071538511413727367'], 'id': '2071538511413727367'}, includes={}, errors=[], meta={})
 2026-06-29 10:17:23,200 - INFO - === Fin ===
+2026-06-29 17:17:20,000 - INFO - === Démarrage Députés ===
+2026-06-29 17:17:20,001 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-29 17:17:20,001 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-29 17:17:20,008 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-29 17:17:20,008 - INFO - Historique chargé: 178 députés déjà tweetés
+2026-06-29 17:17:20,010 - INFO - Nombre de députés uniques: 572
+2026-06-29 17:17:20,010 - INFO - Nombre de députés déjà tweetés: 178
+2026-06-29 17:17:20,011 - INFO - Sélectionné: 5919 - Sébastien CHENU (nouveau député)
+2026-06-29 17:17:20,011 - INFO - Tweet: 🏛 Le #député de la 19e circonscription du Nord est Sébastien CHENU (53 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-29 17:17:20,315 - INFO - Sauvegarde effectuée: 5919 - Sébastien CHENU
+2026-06-29 17:17:20,315 - INFO - Succès: Response(data={'id': '2071644195719172535', 'edit_history_tweet_ids': ['2071644195719172535'], 'text': '🏛 Le #député de la 19e circonscription du Nord est Sébastien CHENU (53 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-29 17:17:20,315 - INFO - === Fin ===
