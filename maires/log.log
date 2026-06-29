@@ -1,14 +1,3 @@
-2026-06-24 10:46:22,603 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-24 10:46:22,688 - INFO - Historique chargé: 1738 maires déjà tweetés
-2026-06-24 10:46:22,711 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-24 10:46:22,711 - INFO - Nombre de maires déjà tweetés: 1738
-2026-06-24 10:46:22,713 - INFO - Sélectionné: 27228 - Claude GENCE (nouveau maire)
-2026-06-24 10:46:22,714 - INFO - Tweet: 🏛 Le #maire de Eturqueraye (Eure) est Claude GENCE (77 ans) #MairesdeFrance 🇫🇷
-2026-06-24 10:46:22,948 - INFO - Sauvegarde effectuée: 27228 - Claude GENCE
-2026-06-24 10:46:22,948 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Eturqueraye (Eure) est Claude GENCE (77 ans) #MairesdeFrance 🇫🇷', 'id': '2069733869113204973', 'edit_history_tweet_ids': ['2069733869113204973']}, includes={}, errors=[], meta={})
-2026-06-24 10:46:22,950 - INFO - === Fin ===
-2026-06-24 16:46:21,976 - INFO - === Démarrage Maires ===
-2026-06-24 16:46:21,976 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-24 16:46:21,976 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-24 16:46:22,067 - INFO - Historique chargé: 1739 maires déjà tweetés
 2026-06-24 16:46:22,090 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-28 16:46:25,435 - INFO - Sauvegarde effectuée: 09032 - Alain PIBOULEAU
 2026-06-28 16:46:25,436 - INFO - Succès: Response(data={'id': '2071274027960963451', 'text': '🏛 Le #maire de Ax-Les-Thermes (Territoire de Belfort) est Alain PIBOULEAU (57 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2071274027960963451']}, includes={}, errors=[], meta={})
 2026-06-28 16:46:25,438 - INFO - === Fin ===
+2026-06-29 10:46:42,317 - INFO - === Démarrage Maires ===
+2026-06-29 10:46:42,317 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-29 10:46:42,317 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-29 10:46:42,404 - INFO - Historique chargé: 1748 maires déjà tweetés
+2026-06-29 10:46:42,426 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-29 10:46:42,426 - INFO - Nombre de maires déjà tweetés: 1748
+2026-06-29 10:46:42,427 - INFO - Sélectionné: 22194 - Christian JEFFROY (nouveau maire)
+2026-06-29 10:46:42,429 - INFO - Tweet: 🏛 Le #maire de Plestin-Les-Grèves (Côtes-d'Armor) est Christian JEFFROY (55 ans) #MairesdeFrance 🇫🇷
+2026-06-29 10:46:42,658 - INFO - Sauvegarde effectuée: 22194 - Christian JEFFROY
+2026-06-29 10:46:42,658 - INFO - Succès: Response(data={'text': "🏛 Le #maire de Plestin-Les-Grèves (Côtes-d'Armor) est Christian JEFFROY (55 ans) #MairesdeFrance 🇫🇷", 'id': '2071545891094499801', 'edit_history_tweet_ids': ['2071545891094499801']}, includes={}, errors=[], meta={})
+2026-06-29 10:46:42,660 - INFO - === Fin ===
