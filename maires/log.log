@@ -1,14 +1,3 @@
-2026-06-25 16:46:27,030 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-25 16:46:27,120 - INFO - Historique chargé: 1741 maires déjà tweetés
-2026-06-25 16:46:27,147 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-25 16:46:27,147 - INFO - Nombre de maires déjà tweetés: 1741
-2026-06-25 16:46:27,148 - INFO - Sélectionné: 08413 - Mathieu FOURNY (nouveau maire)
-2026-06-25 16:46:27,150 - INFO - Tweet: 🏛 Le #maire de Seraincourt (Vaucluse) est Mathieu FOURNY (37 ans) #MairesdeFrance 🇫🇷
-2026-06-25 16:46:27,511 - INFO - Sauvegarde effectuée: 08413 - Mathieu FOURNY
-2026-06-25 16:46:27,511 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Seraincourt (Vaucluse) est Mathieu FOURNY (37 ans) #MairesdeFrance 🇫🇷', 'id': '2070186873012555784', 'edit_history_tweet_ids': ['2070186873012555784']}, includes={}, errors=[], meta={})
-2026-06-25 16:46:27,513 - INFO - === Fin ===
-2026-06-26 10:46:23,122 - INFO - === Démarrage Maires ===
-2026-06-26 10:46:23,122 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-26 10:46:23,122 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-26 10:46:23,210 - INFO - Historique chargé: 1742 maires déjà tweetés
 2026-06-26 10:46:23,236 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-06-30 10:46:22,105 - INFO - Sauvegarde effectuée: 80705 - Franck CAILLERET
 2026-06-30 10:46:22,105 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2071908192641044596'], 'id': '2071908192641044596', 'text': '🏛 Le #maire de Saint-Léger-Lès-Authie (Somme) est Franck CAILLERET (38 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-30 10:46:22,107 - INFO - === Fin ===
+2026-06-30 16:46:27,401 - INFO - === Démarrage Maires ===
+2026-06-30 16:46:27,401 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-06-30 16:46:27,401 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-06-30 16:46:27,491 - INFO - Historique chargé: 1751 maires déjà tweetés
+2026-06-30 16:46:27,517 - INFO - Nombre de maires actifs uniques: 34637
+2026-06-30 16:46:27,517 - INFO - Nombre de maires déjà tweetés: 1751
+2026-06-30 16:46:27,519 - INFO - Sélectionné: 72016 - Jean-Louis LEMAÎTRE (nouveau maire)
+2026-06-30 16:46:27,521 - INFO - Tweet: 🏛 Le #maire de Auvers-Le-Hamon (Sarthe) est Jean-Louis LEMAÎTRE (67 ans) #MairesdeFrance 🇫🇷
+2026-06-30 16:46:27,753 - INFO - Sauvegarde effectuée: 72016 - Jean-Louis LEMAÎTRE
+2026-06-30 16:46:27,753 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2071998813389091250'], 'id': '2071998813389091250', 'text': '🏛 Le #maire de Auvers-Le-Hamon (Sarthe) est Jean-Louis LEMAÎTRE (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-30 16:46:27,756 - INFO - === Fin ===
