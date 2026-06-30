@@ -1,15 +1,3 @@
-2026-06-27 06:17:22,497 - INFO - === Fin ===
-2026-06-27 10:17:21,973 - INFO - === Démarrage Députés ===
-2026-06-27 10:17:21,973 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-27 10:17:21,973 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-27 10:17:21,980 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-27 10:17:21,980 - INFO - Historique chargé: 171 députés déjà tweetés
-2026-06-27 10:17:21,982 - INFO - Nombre de députés uniques: 572
-2026-06-27 10:17:21,982 - INFO - Nombre de députés déjà tweetés: 171
-2026-06-27 10:17:21,984 - INFO - Sélectionné: 7204 - Elise LEBOUCHER (nouveau député)
-2026-06-27 10:17:21,984 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de la Sarthe est Elise LEBOUCHER (43 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-27 10:17:22,196 - INFO - Sauvegarde effectuée: 7204 - Elise LEBOUCHER
-2026-06-27 10:17:22,196 - INFO - Succès: Response(data={'id': '2070813731484004764', 'text': '🏛 La #députée de la 4e circonscription de la Sarthe est Elise LEBOUCHER (43 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2070813731484004764']}, includes={}, errors=[], meta={})
 2026-06-27 10:17:22,196 - INFO - === Fin ===
 2026-06-27 17:17:23,100 - INFO - === Démarrage Députés ===
 2026-06-27 17:17:23,100 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-30 06:17:22,576 - INFO - Sauvegarde effectuée: 4602 - Christophe PROENÇA
 2026-06-30 06:17:22,576 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 2e circonscription du Lot est Christophe PROENÇA (60 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071840498449330678'], 'id': '2071840498449330678'}, includes={}, errors=[], meta={})
 2026-06-30 06:17:22,576 - INFO - === Fin ===
+2026-06-30 10:17:33,358 - INFO - === Démarrage Députés ===
+2026-06-30 10:17:33,358 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-06-30 10:17:33,358 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-06-30 10:17:33,365 - INFO - ✅ Dates de naissance converties avec succès
+2026-06-30 10:17:33,365 - INFO - Historique chargé: 180 députés déjà tweetés
+2026-06-30 10:17:33,367 - INFO - Nombre de députés uniques: 572
+2026-06-30 10:17:33,367 - INFO - Nombre de députés déjà tweetés: 180
+2026-06-30 10:17:33,368 - INFO - Sélectionné: 8602 - Sacha HOULIÉ (nouveau député)
+2026-06-30 10:17:33,368 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de la Vienne est Sacha HOULIÉ (37 ans) #Députés #AssembléeNationale 🇫🇷
+2026-06-30 10:17:33,640 - INFO - Sauvegarde effectuée: 8602 - Sacha HOULIÉ
+2026-06-30 10:17:33,640 - INFO - Succès: Response(data={'id': '2071900943013310567', 'edit_history_tweet_ids': ['2071900943013310567'], 'text': '🏛 Le #député de la 2e circonscription de la Vienne est Sacha HOULIÉ (37 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-06-30 10:17:33,640 - INFO - === Fin ===
