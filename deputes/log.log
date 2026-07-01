@@ -1,15 +1,3 @@
-2026-06-28 06:17:25,689 - INFO - === Fin ===
-2026-06-28 10:17:20,385 - INFO - === Démarrage Députés ===
-2026-06-28 10:17:20,385 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-28 10:17:20,385 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-28 10:17:20,392 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-28 10:17:20,392 - INFO - Historique chargé: 174 députés déjà tweetés
-2026-06-28 10:17:20,394 - INFO - Nombre de députés uniques: 572
-2026-06-28 10:17:20,394 - INFO - Nombre de députés déjà tweetés: 174
-2026-06-28 10:17:20,395 - INFO - Sélectionné: 4206 - Jean-Pierre TAITE (nouveau député)
-2026-06-28 10:17:20,395 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de la Loire est Jean-Pierre TAITE (64 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-28 10:17:20,631 - INFO - Sauvegarde effectuée: 4206 - Jean-Pierre TAITE
-2026-06-28 10:17:20,631 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 6e circonscription de la Loire est Jean-Pierre TAITE (64 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071176112743284741'], 'id': '2071176112743284741'}, includes={}, errors=[], meta={})
 2026-06-28 10:17:20,631 - INFO - === Fin ===
 2026-06-28 17:17:21,843 - INFO - === Démarrage Députés ===
 2026-06-28 17:17:21,843 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-01 06:17:23,071 - INFO - Sauvegarde effectuée: 4904 - Laëtitia SAINT-PAUL
 2026-07-01 06:17:23,071 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 4e circonscription du Maine-et-Loire est Laëtitia SAINT-PAUL (45 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2072202888609444330'], 'id': '2072202888609444330'}, includes={}, errors=[], meta={})
 2026-07-01 06:17:23,071 - INFO - === Fin ===
+2026-07-01 10:17:23,873 - INFO - === Démarrage Députés ===
+2026-07-01 10:17:23,873 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-01 10:17:23,873 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-01 10:17:23,880 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-01 10:17:23,881 - INFO - Historique chargé: 183 députés déjà tweetés
+2026-07-01 10:17:23,882 - INFO - Nombre de députés uniques: 572
+2026-07-01 10:17:23,882 - INFO - Nombre de députés déjà tweetés: 183
+2026-07-01 10:17:23,883 - INFO - Sélectionné: 4601 - Aurélien PRADIÉ (nouveau député)
+2026-07-01 10:17:23,884 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription du Lot est Aurélien PRADIÉ (40 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-01 10:17:24,104 - INFO - Sauvegarde effectuée: 4601 - Aurélien PRADIÉ
+2026-07-01 10:17:24,104 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072263290848268343'], 'id': '2072263290848268343', 'text': '🏛 Le #député de la 1ère circonscription du Lot est Aurélien PRADIÉ (40 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-01 10:17:24,104 - INFO - === Fin ===
