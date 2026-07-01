@@ -1,15 +1,3 @@
-2026-06-27 17:17:23,311 - INFO - === Fin ===
-2026-06-28 06:17:25,350 - INFO - === Démarrage Députés ===
-2026-06-28 06:17:25,350 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-28 06:17:25,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-28 06:17:25,356 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-28 06:17:25,356 - INFO - Historique chargé: 173 députés déjà tweetés
-2026-06-28 06:17:25,357 - INFO - Nombre de députés uniques: 572
-2026-06-28 06:17:25,357 - INFO - Nombre de députés déjà tweetés: 173
-2026-06-28 06:17:25,358 - INFO - Sélectionné: 3202 - David TAUPIAC (nouveau député)
-2026-06-28 06:17:25,358 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Gers est David TAUPIAC (51 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-28 06:17:25,689 - INFO - Sauvegarde effectuée: 3202 - David TAUPIAC
-2026-06-28 06:17:25,689 - INFO - Succès: Response(data={'id': '2071115735963759015', 'text': '🏛 Le #député de la 2e circonscription du Gers est David TAUPIAC (51 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071115735963759015']}, includes={}, errors=[], meta={})
 2026-06-28 06:17:25,689 - INFO - === Fin ===
 2026-06-28 10:17:20,385 - INFO - === Démarrage Députés ===
 2026-06-28 10:17:20,385 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-06-30 17:17:23,178 - INFO - Sauvegarde effectuée: 6803 - Didier LEMAIRE
 2026-06-30 17:17:23,178 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072006595559539056'], 'id': '2072006595559539056', 'text': '🏛 Le #député de la 3e circonscription du Haut-Rhin est Didier LEMAIRE (50 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-30 17:17:23,178 - INFO - === Fin ===
+2026-07-01 06:17:22,829 - INFO - === Démarrage Députés ===
+2026-07-01 06:17:22,830 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-01 06:17:22,830 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-01 06:17:22,837 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-01 06:17:22,837 - INFO - Historique chargé: 182 députés déjà tweetés
+2026-07-01 06:17:22,839 - INFO - Nombre de députés uniques: 572
+2026-07-01 06:17:22,839 - INFO - Nombre de députés déjà tweetés: 182
+2026-07-01 06:17:22,839 - INFO - Sélectionné: 4904 - Laëtitia SAINT-PAUL (nouveau député)
+2026-07-01 06:17:22,840 - INFO - Tweet: 🏛 La #députée de la 4e circonscription du Maine-et-Loire est Laëtitia SAINT-PAUL (45 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-01 06:17:23,071 - INFO - Sauvegarde effectuée: 4904 - Laëtitia SAINT-PAUL
+2026-07-01 06:17:23,071 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 4e circonscription du Maine-et-Loire est Laëtitia SAINT-PAUL (45 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2072202888609444330'], 'id': '2072202888609444330'}, includes={}, errors=[], meta={})
+2026-07-01 06:17:23,071 - INFO - === Fin ===
