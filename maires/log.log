@@ -1,14 +1,3 @@
-2026-06-27 10:46:20,424 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-27 10:46:20,514 - INFO - Historique chargé: 1744 maires déjà tweetés
-2026-06-27 10:46:20,536 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-27 10:46:20,536 - INFO - Nombre de maires déjà tweetés: 1744
-2026-06-27 10:46:20,538 - INFO - Sélectionné: 50504 - Vanessa GAILLARD (nouveau maire)
-2026-06-27 10:46:20,539 - INFO - Tweet: 🏛 La #maire de Saint-Louet-Sur-Vire (Manche) est Vanessa GAILLARD (48 ans) #MairesdeFrance 🇫🇷
-2026-06-27 10:46:20,787 - INFO - Sauvegarde effectuée: 50504 - Vanessa GAILLARD
-2026-06-27 10:46:20,787 - INFO - Succès: Response(data={'id': '2070821023621038426', 'text': '🏛 La #maire de Saint-Louet-Sur-Vire (Manche) est Vanessa GAILLARD (48 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2070821023621038426']}, includes={}, errors=[], meta={})
-2026-06-27 10:46:20,789 - INFO - === Fin ===
-2026-06-27 16:46:37,482 - INFO - === Démarrage Maires ===
-2026-06-27 16:46:37,482 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-27 16:46:37,482 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-27 16:46:37,570 - INFO - Historique chargé: 1745 maires déjà tweetés
 2026-06-27 16:46:37,596 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-01 16:46:24,108 - INFO - Sauvegarde effectuée: 05102 - Olivier REYNAUD
 2026-07-01 16:46:24,108 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072361186000273517'], 'id': '2072361186000273517', 'text': '🏛 Le #maire de La Piarre (Marne) est Olivier REYNAUD (46 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-01 16:46:24,110 - INFO - === Fin ===
+2026-07-02 10:46:24,800 - INFO - === Démarrage Maires ===
+2026-07-02 10:46:24,800 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-02 10:46:24,800 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-02 10:46:24,885 - INFO - Historique chargé: 1754 maires déjà tweetés
+2026-07-02 10:46:24,905 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-02 10:46:24,905 - INFO - Nombre de maires déjà tweetés: 1754
+2026-07-02 10:46:24,906 - INFO - Sélectionné: 12249 - Eric HOULES (nouveau maire)
+2026-07-02 10:46:24,907 - INFO - Tweet: 🏛 Le #maire de Saint-Sever-Du-Moustier (Aveyron) est Eric HOULES (48 ans) #MairesdeFrance 🇫🇷
+2026-07-02 10:46:25,191 - INFO - Sauvegarde effectuée: 12249 - Eric HOULES
+2026-07-02 10:46:25,191 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072632981416518087'], 'text': '🏛 Le #maire de Saint-Sever-Du-Moustier (Aveyron) est Eric HOULES (48 ans) #MairesdeFrance 🇫🇷', 'id': '2072632981416518087'}, includes={}, errors=[], meta={})
+2026-07-02 10:46:25,193 - INFO - === Fin ===
