@@ -1,15 +1,3 @@
-2026-06-29 06:17:20,393 - INFO - === Fin ===
-2026-06-29 10:17:22,964 - INFO - === Démarrage Députés ===
-2026-06-29 10:17:22,964 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-29 10:17:22,964 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-29 10:17:22,971 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-29 10:17:22,971 - INFO - Historique chargé: 177 députés déjà tweetés
-2026-06-29 10:17:22,973 - INFO - Nombre de députés uniques: 572
-2026-06-29 10:17:22,973 - INFO - Nombre de députés déjà tweetés: 177
-2026-06-29 10:17:22,975 - INFO - Sélectionné: 6902 - Boris TAVERNIER (nouveau député)
-2026-06-29 10:17:22,975 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Rhône est Boris TAVERNIER (46 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-29 10:17:23,200 - INFO - Sauvegarde effectuée: 6902 - Boris TAVERNIER
-2026-06-29 10:17:23,200 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 2e circonscription du Rhône est Boris TAVERNIER (46 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2071538511413727367'], 'id': '2071538511413727367'}, includes={}, errors=[], meta={})
 2026-06-29 10:17:23,200 - INFO - === Fin ===
 2026-06-29 17:17:20,000 - INFO - === Démarrage Députés ===
 2026-06-29 17:17:20,001 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-02 06:17:20,924 - INFO - Sauvegarde effectuée: 9206 - Constance LE GRIP
 2026-07-02 06:17:20,924 - INFO - Succès: Response(data={'id': '2072565267457020175', 'edit_history_tweet_ids': ['2072565267457020175'], 'text': '🏛 La #députée de la 6e circonscription des Hauts-de-Seine est Constance LE GRIP (65 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-02 06:17:20,924 - INFO - === Fin ===
+2026-07-02 10:17:25,741 - INFO - === Démarrage Députés ===
+2026-07-02 10:17:25,742 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-02 10:17:25,742 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-02 10:17:25,749 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-02 10:17:25,749 - INFO - Historique chargé: 186 députés déjà tweetés
+2026-07-02 10:17:25,751 - INFO - Nombre de députés uniques: 572
+2026-07-02 10:17:25,751 - INFO - Nombre de députés déjà tweetés: 186
+2026-07-02 10:17:25,751 - INFO - Sélectionné: 6502 - Denis FÉGNÉ (nouveau député)
+2026-07-02 10:17:25,752 - INFO - Tweet: 🏛 Le #député de la 2e circonscription des Hautes-Pyrénées est Denis FÉGNÉ (65 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-02 10:17:26,022 - INFO - Sauvegarde effectuée: 6502 - Denis FÉGNÉ
+2026-07-02 10:17:26,022 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072625686766870536'], 'text': '🏛 Le #député de la 2e circonscription des Hautes-Pyrénées est Denis FÉGNÉ (65 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2072625686766870536'}, includes={}, errors=[], meta={})
+2026-07-02 10:17:26,022 - INFO - === Fin ===
