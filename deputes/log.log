@@ -1,15 +1,3 @@
-2026-06-30 10:17:33,640 - INFO - === Fin ===
-2026-06-30 17:17:22,829 - INFO - === Démarrage Députés ===
-2026-06-30 17:17:22,829 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-06-30 17:17:22,829 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-06-30 17:17:22,836 - INFO - ✅ Dates de naissance converties avec succès
-2026-06-30 17:17:22,836 - INFO - Historique chargé: 181 députés déjà tweetés
-2026-06-30 17:17:22,838 - INFO - Nombre de députés uniques: 572
-2026-06-30 17:17:22,838 - INFO - Nombre de députés déjà tweetés: 181
-2026-06-30 17:17:22,839 - INFO - Sélectionné: 6803 - Didier LEMAIRE (nouveau député)
-2026-06-30 17:17:22,839 - INFO - Tweet: 🏛 Le #député de la 3e circonscription du Haut-Rhin est Didier LEMAIRE (50 ans) #Députés #AssembléeNationale 🇫🇷
-2026-06-30 17:17:23,178 - INFO - Sauvegarde effectuée: 6803 - Didier LEMAIRE
-2026-06-30 17:17:23,178 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072006595559539056'], 'id': '2072006595559539056', 'text': '🏛 Le #député de la 3e circonscription du Haut-Rhin est Didier LEMAIRE (50 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-06-30 17:17:23,178 - INFO - === Fin ===
 2026-07-01 06:17:22,829 - INFO - === Démarrage Députés ===
 2026-07-01 06:17:22,830 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-03 10:17:21,368 - INFO - Sauvegarde effectuée: 0203 - Eddy CASTERMAN
 2026-07-03 10:17:21,368 - INFO - Succès: Response(data={'id': '2072988055158354263', 'text': "🏛 Le #député de la 3e circonscription de l'Aisne est Eddy CASTERMAN (29 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2072988055158354263']}, includes={}, errors=[], meta={})
 2026-07-03 10:17:21,368 - INFO - === Fin ===
+2026-07-03 17:17:22,056 - INFO - === Démarrage Députés ===
+2026-07-03 17:17:22,056 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-03 17:17:22,056 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-03 17:17:22,063 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-03 17:17:22,064 - INFO - Historique chargé: 190 députés déjà tweetés
+2026-07-03 17:17:22,065 - INFO - Nombre de députés uniques: 572
+2026-07-03 17:17:22,065 - INFO - Nombre de députés déjà tweetés: 190
+2026-07-03 17:17:22,066 - INFO - Sélectionné: 5802 - Julien GUIBERT (nouveau député)
+2026-07-03 17:17:22,067 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de la Nièvre est Julien GUIBERT (42 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-03 17:17:22,287 - INFO - Sauvegarde effectuée: 5802 - Julien GUIBERT
+2026-07-03 17:17:22,287 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2073093755507486863'], 'id': '2073093755507486863', 'text': '🏛 Le #député de la 2e circonscription de la Nièvre est Julien GUIBERT (42 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-03 17:17:22,287 - INFO - === Fin ===
