@@ -1,14 +1,3 @@
-2026-06-28 16:46:25,105 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-28 16:46:25,189 - INFO - Historique chargé: 1747 maires déjà tweetés
-2026-06-28 16:46:25,209 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-28 16:46:25,209 - INFO - Nombre de maires déjà tweetés: 1747
-2026-06-28 16:46:25,211 - INFO - Sélectionné: 09032 - Alain PIBOULEAU (nouveau maire)
-2026-06-28 16:46:25,212 - INFO - Tweet: 🏛 Le #maire de Ax-Les-Thermes (Territoire de Belfort) est Alain PIBOULEAU (57 ans) #MairesdeFrance 🇫🇷
-2026-06-28 16:46:25,435 - INFO - Sauvegarde effectuée: 09032 - Alain PIBOULEAU
-2026-06-28 16:46:25,436 - INFO - Succès: Response(data={'id': '2071274027960963451', 'text': '🏛 Le #maire de Ax-Les-Thermes (Territoire de Belfort) est Alain PIBOULEAU (57 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2071274027960963451']}, includes={}, errors=[], meta={})
-2026-06-28 16:46:25,438 - INFO - === Fin ===
-2026-06-29 10:46:42,317 - INFO - === Démarrage Maires ===
-2026-06-29 10:46:42,317 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-29 10:46:42,317 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-29 10:46:42,404 - INFO - Historique chargé: 1748 maires déjà tweetés
 2026-06-29 10:46:42,426 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-03 10:46:26,326 - INFO - Sauvegarde effectuée: 2B241 - Pierre ORSINI
 2026-07-03 10:46:26,326 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072995374042587401'], 'text': '🏛 Le #maire de Poggio-Marinaccio (Corse) est Pierre ORSINI (71 ans) #MairesdeFrance 🇫🇷', 'id': '2072995374042587401'}, includes={}, errors=[], meta={})
 2026-07-03 10:46:26,329 - INFO - === Fin ===
+2026-07-03 16:46:25,158 - INFO - === Démarrage Maires ===
+2026-07-03 16:46:25,158 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-03 16:46:25,158 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-03 16:46:25,243 - INFO - Historique chargé: 1757 maires déjà tweetés
+2026-07-03 16:46:25,263 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-03 16:46:25,263 - INFO - Nombre de maires déjà tweetés: 1757
+2026-07-03 16:46:25,264 - INFO - Sélectionné: 33036 - Isabelle DEXPERT (nouveau maire)
+2026-07-03 16:46:25,265 - INFO - Tweet: 🏛 La #maire de Bazas (Gironde) est Isabelle DEXPERT (61 ans) #MairesdeFrance 🇫🇷
+2026-07-03 16:46:25,473 - INFO - Sauvegarde effectuée: 33036 - Isabelle DEXPERT
+2026-07-03 16:46:25,473 - INFO - Succès: Response(data={'id': '2073085967469339119', 'text': '🏛 La #maire de Bazas (Gironde) est Isabelle DEXPERT (61 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073085967469339119']}, includes={}, errors=[], meta={})
+2026-07-03 16:46:25,475 - INFO - === Fin ===
