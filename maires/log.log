@@ -1,14 +1,3 @@
-2026-06-29 16:46:24,557 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-29 16:46:24,640 - INFO - Historique chargé: 1749 maires déjà tweetés
-2026-06-29 16:46:24,661 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-29 16:46:24,661 - INFO - Nombre de maires déjà tweetés: 1749
-2026-06-29 16:46:24,662 - INFO - Sélectionné: 10334 - Vincent BARAT (nouveau maire)
-2026-06-29 16:46:24,664 - INFO - Tweet: 🏛 Le #maire de Saint-Aubin (Aube) est Vincent BARAT (48 ans) #MairesdeFrance 🇫🇷
-2026-06-29 16:46:24,912 - INFO - Sauvegarde effectuée: 10334 - Vincent BARAT
-2026-06-29 16:46:24,912 - INFO - Succès: Response(data={'id': '2071636413649678677', 'text': '🏛 Le #maire de Saint-Aubin (Aube) est Vincent BARAT (48 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2071636413649678677']}, includes={}, errors=[], meta={})
-2026-06-29 16:46:24,915 - INFO - === Fin ===
-2026-06-30 10:46:21,764 - INFO - === Démarrage Maires ===
-2026-06-30 10:46:21,765 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-06-30 10:46:21,765 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-06-30 10:46:21,847 - INFO - Historique chargé: 1750 maires déjà tweetés
 2026-06-30 10:46:21,868 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-04 10:46:22,958 - INFO - Sauvegarde effectuée: 13013 - Gilles COLLOMB
 2026-07-04 10:46:22,958 - INFO - Succès: Response(data={'id': '2073357747756630253', 'text': '🏛 Le #maire de Belcodène (Bouches-du-Rhône) est Gilles COLLOMB (62 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073357747756630253']}, includes={}, errors=[], meta={})
 2026-07-04 10:46:22,960 - INFO - === Fin ===
+2026-07-04 16:46:21,994 - INFO - === Démarrage Maires ===
+2026-07-04 16:46:21,994 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-04 16:46:21,994 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-04 16:46:22,087 - INFO - Historique chargé: 1759 maires déjà tweetés
+2026-07-04 16:46:22,114 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-04 16:46:22,114 - INFO - Nombre de maires déjà tweetés: 1759
+2026-07-04 16:46:22,115 - INFO - Sélectionné: 81188 - Pascal COUSTURIER (nouveau maire)
+2026-07-04 16:46:22,117 - INFO - Tweet: 🏛 Le #maire de Moulin-Mage (Tarn) est Pascal COUSTURIER (71 ans) #MairesdeFrance 🇫🇷
+2026-07-04 16:46:22,384 - INFO - Sauvegarde effectuée: 81188 - Pascal COUSTURIER
+2026-07-04 16:46:22,384 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2073448342315524224'], 'text': '🏛 Le #maire de Moulin-Mage (Tarn) est Pascal COUSTURIER (71 ans) #MairesdeFrance 🇫🇷', 'id': '2073448342315524224'}, includes={}, errors=[], meta={})
+2026-07-04 16:46:22,387 - INFO - === Fin ===
