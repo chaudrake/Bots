@@ -1,15 +1,3 @@
-2026-06-30 17:17:23,178 - INFO - === Fin ===
-2026-07-01 06:17:22,829 - INFO - === Démarrage Députés ===
-2026-07-01 06:17:22,830 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-01 06:17:22,830 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-01 06:17:22,837 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-01 06:17:22,837 - INFO - Historique chargé: 182 députés déjà tweetés
-2026-07-01 06:17:22,839 - INFO - Nombre de députés uniques: 572
-2026-07-01 06:17:22,839 - INFO - Nombre de députés déjà tweetés: 182
-2026-07-01 06:17:22,839 - INFO - Sélectionné: 4904 - Laëtitia SAINT-PAUL (nouveau député)
-2026-07-01 06:17:22,840 - INFO - Tweet: 🏛 La #députée de la 4e circonscription du Maine-et-Loire est Laëtitia SAINT-PAUL (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-01 06:17:23,071 - INFO - Sauvegarde effectuée: 4904 - Laëtitia SAINT-PAUL
-2026-07-01 06:17:23,071 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 4e circonscription du Maine-et-Loire est Laëtitia SAINT-PAUL (45 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2072202888609444330'], 'id': '2072202888609444330'}, includes={}, errors=[], meta={})
 2026-07-01 06:17:23,071 - INFO - === Fin ===
 2026-07-01 10:17:23,873 - INFO - === Démarrage Députés ===
 2026-07-01 10:17:23,873 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-03 17:17:22,287 - INFO - Sauvegarde effectuée: 5802 - Julien GUIBERT
 2026-07-03 17:17:22,287 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2073093755507486863'], 'id': '2073093755507486863', 'text': '🏛 Le #député de la 2e circonscription de la Nièvre est Julien GUIBERT (42 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-03 17:17:22,287 - INFO - === Fin ===
+2026-07-04 06:17:21,794 - INFO - === Démarrage Députés ===
+2026-07-04 06:17:21,794 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-04 06:17:21,794 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-04 06:17:21,801 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-04 06:17:21,801 - INFO - Historique chargé: 191 députés déjà tweetés
+2026-07-04 06:17:21,803 - INFO - Nombre de députés uniques: 572
+2026-07-04 06:17:21,803 - INFO - Nombre de députés déjà tweetés: 191
+2026-07-04 06:17:21,803 - INFO - Sélectionné: 7507 - Dorine BREGMAN (nouveau député)
+2026-07-04 06:17:21,804 - INFO - Tweet: 🏛 La #députée de la 7e circonscription de Paris est Dorine BREGMAN (64 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-04 06:17:22,112 - INFO - Sauvegarde effectuée: 7507 - Dorine BREGMAN
+2026-07-04 06:17:22,112 - INFO - Succès: Response(data={'id': '2073290048133578764', 'edit_history_tweet_ids': ['2073290048133578764'], 'text': '🏛 La #députée de la 7e circonscription de Paris est Dorine BREGMAN (64 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-04 06:17:22,112 - INFO - === Fin ===
