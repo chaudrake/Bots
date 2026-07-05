@@ -1,14 +1,3 @@
-2026-06-30 16:46:27,401 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-06-30 16:46:27,491 - INFO - Historique chargé: 1751 maires déjà tweetés
-2026-06-30 16:46:27,517 - INFO - Nombre de maires actifs uniques: 34637
-2026-06-30 16:46:27,517 - INFO - Nombre de maires déjà tweetés: 1751
-2026-06-30 16:46:27,519 - INFO - Sélectionné: 72016 - Jean-Louis LEMAÎTRE (nouveau maire)
-2026-06-30 16:46:27,521 - INFO - Tweet: 🏛 Le #maire de Auvers-Le-Hamon (Sarthe) est Jean-Louis LEMAÎTRE (67 ans) #MairesdeFrance 🇫🇷
-2026-06-30 16:46:27,753 - INFO - Sauvegarde effectuée: 72016 - Jean-Louis LEMAÎTRE
-2026-06-30 16:46:27,753 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2071998813389091250'], 'id': '2071998813389091250', 'text': '🏛 Le #maire de Auvers-Le-Hamon (Sarthe) est Jean-Louis LEMAÎTRE (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-06-30 16:46:27,756 - INFO - === Fin ===
-2026-07-01 10:46:22,886 - INFO - === Démarrage Maires ===
-2026-07-01 10:46:22,886 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-01 10:46:22,886 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-01 10:46:22,970 - INFO - Historique chargé: 1752 maires déjà tweetés
 2026-07-01 10:46:22,991 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-05 10:46:20,938 - INFO - Sauvegarde effectuée: 89068 - Marie-José VAILLANT
 2026-07-05 10:46:20,938 - INFO - Succès: Response(data={'text': '🏛 La #maire de Chablis (Yonne) est Marie-José VAILLANT (64 ans) #MairesdeFrance 🇫🇷', 'id': '2073720127162355988', 'edit_history_tweet_ids': ['2073720127162355988']}, includes={}, errors=[], meta={})
 2026-07-05 10:46:20,940 - INFO - === Fin ===
+2026-07-05 16:46:22,143 - INFO - === Démarrage Maires ===
+2026-07-05 16:46:22,143 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-05 16:46:22,143 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-05 16:46:22,227 - INFO - Historique chargé: 1761 maires déjà tweetés
+2026-07-05 16:46:22,249 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-05 16:46:22,249 - INFO - Nombre de maires déjà tweetés: 1761
+2026-07-05 16:46:22,250 - INFO - Sélectionné: 23071 - Didier TERNAT (nouveau maire)
+2026-07-05 16:46:22,252 - INFO - Tweet: 🏛 Le #maire de Croze (Creuse) est Didier TERNAT (63 ans) #MairesdeFrance 🇫🇷
+2026-07-05 16:46:22,495 - INFO - Sauvegarde effectuée: 23071 - Didier TERNAT
+2026-07-05 16:46:22,496 - INFO - Succès: Response(data={'id': '2073810730676256906', 'text': '🏛 Le #maire de Croze (Creuse) est Didier TERNAT (63 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073810730676256906']}, includes={}, errors=[], meta={})
+2026-07-05 16:46:22,498 - INFO - === Fin ===
