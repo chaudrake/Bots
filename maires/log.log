@@ -1,14 +1,3 @@
-2026-07-01 10:46:22,886 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-01 10:46:22,970 - INFO - Historique chargé: 1752 maires déjà tweetés
-2026-07-01 10:46:22,991 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-01 10:46:22,991 - INFO - Nombre de maires déjà tweetés: 1752
-2026-07-01 10:46:22,992 - INFO - Sélectionné: 87073 - Patrice CHAUVEL (nouveau maire)
-2026-07-01 10:46:22,994 - INFO - Tweet: 🏛 Le #maire de Gorre (Haute-Vienne) est Patrice CHAUVEL (64 ans) #MairesdeFrance 🇫🇷
-2026-07-01 10:46:23,219 - INFO - Sauvegarde effectuée: 87073 - Patrice CHAUVEL
-2026-07-01 10:46:23,219 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Gorre (Haute-Vienne) est Patrice CHAUVEL (64 ans) #MairesdeFrance 🇫🇷', 'id': '2072270585334309140', 'edit_history_tweet_ids': ['2072270585334309140']}, includes={}, errors=[], meta={})
-2026-07-01 10:46:23,221 - INFO - === Fin ===
-2026-07-01 16:46:23,784 - INFO - === Démarrage Maires ===
-2026-07-01 16:46:23,784 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-01 16:46:23,784 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-01 16:46:23,869 - INFO - Historique chargé: 1753 maires déjà tweetés
 2026-07-01 16:46:23,891 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-05 16:46:22,495 - INFO - Sauvegarde effectuée: 23071 - Didier TERNAT
 2026-07-05 16:46:22,496 - INFO - Succès: Response(data={'id': '2073810730676256906', 'text': '🏛 Le #maire de Croze (Creuse) est Didier TERNAT (63 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073810730676256906']}, includes={}, errors=[], meta={})
 2026-07-05 16:46:22,498 - INFO - === Fin ===
+2026-07-06 10:46:23,077 - INFO - === Démarrage Maires ===
+2026-07-06 10:46:23,077 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-06 10:46:23,077 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-06 10:46:23,163 - INFO - Historique chargé: 1762 maires déjà tweetés
+2026-07-06 10:46:23,184 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-06 10:46:23,184 - INFO - Nombre de maires déjà tweetés: 1762
+2026-07-06 10:46:23,186 - INFO - Sélectionné: 19069 - Sylvie BLANCHE (nouveau maire)
+2026-07-06 10:46:23,187 - INFO - Tweet: 🏛 La #maire de Darazac (Corrèze) est Sylvie BLANCHE (65 ans) #MairesdeFrance 🇫🇷
+2026-07-06 10:46:23,522 - INFO - Sauvegarde effectuée: 19069 - Sylvie BLANCHE
+2026-07-06 10:46:23,522 - INFO - Succès: Response(data={'id': '2074082525870203272', 'text': '🏛 La #maire de Darazac (Corrèze) est Sylvie BLANCHE (65 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074082525870203272']}, includes={}, errors=[], meta={})
+2026-07-06 10:46:23,525 - INFO - === Fin ===
