@@ -1,15 +1,3 @@
-2026-07-03 17:17:22,287 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2073093755507486863'], 'id': '2073093755507486863', 'text': '🏛 Le #député de la 2e circonscription de la Nièvre est Julien GUIBERT (42 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-03 17:17:22,287 - INFO - === Fin ===
-2026-07-04 06:17:21,794 - INFO - === Démarrage Députés ===
-2026-07-04 06:17:21,794 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-04 06:17:21,794 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-04 06:17:21,801 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-04 06:17:21,801 - INFO - Historique chargé: 191 députés déjà tweetés
-2026-07-04 06:17:21,803 - INFO - Nombre de députés uniques: 572
-2026-07-04 06:17:21,803 - INFO - Nombre de députés déjà tweetés: 191
-2026-07-04 06:17:21,803 - INFO - Sélectionné: 7507 - Dorine BREGMAN (nouveau député)
-2026-07-04 06:17:21,804 - INFO - Tweet: 🏛 La #députée de la 7e circonscription de Paris est Dorine BREGMAN (64 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-04 06:17:22,112 - INFO - Sauvegarde effectuée: 7507 - Dorine BREGMAN
 2026-07-04 06:17:22,112 - INFO - Succès: Response(data={'id': '2073290048133578764', 'edit_history_tweet_ids': ['2073290048133578764'], 'text': '🏛 La #députée de la 7e circonscription de Paris est Dorine BREGMAN (64 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-04 06:17:22,112 - INFO - === Fin ===
 2026-07-04 10:17:23,842 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-07-06 17:17:24,969 - INFO - Sauvegarde effectuée: 2103 - Pierre PRIBETICH
 2026-07-06 17:17:24,969 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074180930349170853'], 'id': '2074180930349170853', 'text': "🏛 Le #député de la 3e circonscription de la Côte-d'Or est Pierre PRIBETICH (69 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-06 17:17:24,969 - INFO - === Fin ===
+2026-07-07 06:17:21,996 - INFO - === Démarrage Députés ===
+2026-07-07 06:17:21,996 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-07 06:17:21,996 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-07 06:17:22,002 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-07 06:17:22,002 - INFO - Historique chargé: 199 députés déjà tweetés
+2026-07-07 06:17:22,003 - INFO - Nombre de députés uniques: 572
+2026-07-07 06:17:22,003 - INFO - Nombre de députés déjà tweetés: 199
+2026-07-07 06:17:22,004 - INFO - Sélectionné: 7704 - Julien LIMONGI (nouveau député)
+2026-07-07 06:17:22,004 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de Seine-et-Marne est Julien LIMONGI (30 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-07 06:17:22,224 - INFO - Sauvegarde effectuée: 7704 - Julien LIMONGI
+2026-07-07 06:17:22,225 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074377212313448938'], 'text': '🏛 Le #député de la 4e circonscription de Seine-et-Marne est Julien LIMONGI (30 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2074377212313448938'}, includes={}, errors=[], meta={})
+2026-07-07 06:17:22,225 - INFO - === Fin ===
