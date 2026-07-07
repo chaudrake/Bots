@@ -1,15 +1,3 @@
-2026-07-04 06:17:22,112 - INFO - Succès: Response(data={'id': '2073290048133578764', 'edit_history_tweet_ids': ['2073290048133578764'], 'text': '🏛 La #députée de la 7e circonscription de Paris est Dorine BREGMAN (64 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-04 06:17:22,112 - INFO - === Fin ===
-2026-07-04 10:17:23,842 - INFO - === Démarrage Députés ===
-2026-07-04 10:17:23,842 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-04 10:17:23,842 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-04 10:17:23,849 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-04 10:17:23,849 - INFO - Historique chargé: 192 députés déjà tweetés
-2026-07-04 10:17:23,851 - INFO - Nombre de députés uniques: 572
-2026-07-04 10:17:23,851 - INFO - Nombre de députés déjà tweetés: 192
-2026-07-04 10:17:23,852 - INFO - Sélectionné: 6102 - Thierry LIGER (nouveau député)
-2026-07-04 10:17:23,852 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de l'Orne est Thierry LIGER (56 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-04 10:17:24,058 - INFO - Sauvegarde effectuée: 6102 - Thierry LIGER
 2026-07-04 10:17:24,058 - INFO - Succès: Response(data={'text': "🏛 Le #député de la 2e circonscription de l'Orne est Thierry LIGER (56 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2073350454323576900', 'edit_history_tweet_ids': ['2073350454323576900']}, includes={}, errors=[], meta={})
 2026-07-04 10:17:24,058 - INFO - === Fin ===
 2026-07-04 17:17:20,815 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-07-07 06:17:22,224 - INFO - Sauvegarde effectuée: 7704 - Julien LIMONGI
 2026-07-07 06:17:22,225 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074377212313448938'], 'text': '🏛 Le #député de la 4e circonscription de Seine-et-Marne est Julien LIMONGI (30 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2074377212313448938'}, includes={}, errors=[], meta={})
 2026-07-07 06:17:22,225 - INFO - === Fin ===
+2026-07-07 10:17:27,905 - INFO - === Démarrage Députés ===
+2026-07-07 10:17:27,905 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-07 10:17:27,905 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-07 10:17:27,912 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-07 10:17:27,912 - INFO - Historique chargé: 200 députés déjà tweetés
+2026-07-07 10:17:27,914 - INFO - Nombre de députés uniques: 572
+2026-07-07 10:17:27,914 - INFO - Nombre de députés déjà tweetés: 200
+2026-07-07 10:17:27,916 - INFO - Sélectionné: 3704 - Laurent BAUMEL (nouveau député)
+2026-07-07 10:17:27,916 - INFO - Tweet: 🏛 Le #député de la 4e circonscription d'Indre-et-Loire est Laurent BAUMEL (60 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-07 10:17:28,176 - INFO - Sauvegarde effectuée: 3704 - Laurent BAUMEL
+2026-07-07 10:17:28,176 - INFO - Succès: Response(data={'id': '2074437635154522439', 'edit_history_tweet_ids': ['2074437635154522439'], 'text': "🏛 Le #député de la 4e circonscription d'Indre-et-Loire est Laurent BAUMEL (60 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-07 10:17:28,176 - INFO - === Fin ===
