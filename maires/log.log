@@ -1,14 +1,3 @@
-2026-07-02 10:46:24,800 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-02 10:46:24,885 - INFO - Historique chargé: 1754 maires déjà tweetés
-2026-07-02 10:46:24,905 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-02 10:46:24,905 - INFO - Nombre de maires déjà tweetés: 1754
-2026-07-02 10:46:24,906 - INFO - Sélectionné: 12249 - Eric HOULES (nouveau maire)
-2026-07-02 10:46:24,907 - INFO - Tweet: 🏛 Le #maire de Saint-Sever-Du-Moustier (Aveyron) est Eric HOULES (48 ans) #MairesdeFrance 🇫🇷
-2026-07-02 10:46:25,191 - INFO - Sauvegarde effectuée: 12249 - Eric HOULES
-2026-07-02 10:46:25,191 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072632981416518087'], 'text': '🏛 Le #maire de Saint-Sever-Du-Moustier (Aveyron) est Eric HOULES (48 ans) #MairesdeFrance 🇫🇷', 'id': '2072632981416518087'}, includes={}, errors=[], meta={})
-2026-07-02 10:46:25,193 - INFO - === Fin ===
-2026-07-02 16:46:24,562 - INFO - === Démarrage Maires ===
-2026-07-02 16:46:24,562 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-02 16:46:24,562 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-02 16:46:24,646 - INFO - Historique chargé: 1755 maires déjà tweetés
 2026-07-02 16:46:24,669 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-06 16:46:30,391 - INFO - Sauvegarde effectuée: 08462 - Pascal DETREZ
 2026-07-06 16:46:30,391 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074173151634690075'], 'text': '🏛 Le #maire de Vaux-Champagne (Vaucluse) est Pascal DETREZ (66 ans) #MairesdeFrance 🇫🇷', 'id': '2074173151634690075'}, includes={}, errors=[], meta={})
 2026-07-06 16:46:30,393 - INFO - === Fin ===
+2026-07-07 10:46:23,350 - INFO - === Démarrage Maires ===
+2026-07-07 10:46:23,350 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-07 10:46:23,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-07 10:46:23,433 - INFO - Historique chargé: 1764 maires déjà tweetés
+2026-07-07 10:46:23,455 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-07 10:46:23,455 - INFO - Nombre de maires déjà tweetés: 1764
+2026-07-07 10:46:23,457 - INFO - Sélectionné: 03294 - Marcel SOCCOL (nouveau maire)
+2026-07-07 10:46:23,458 - INFO - Tweet: 🏛 Le #maire de Ussel-D'Allier (Gers) est Marcel SOCCOL (78 ans) #MairesdeFrance 🇫🇷
+2026-07-07 10:46:23,673 - INFO - Sauvegarde effectuée: 03294 - Marcel SOCCOL
+2026-07-07 10:46:23,673 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074444914385961070'], 'text': "🏛 Le #maire de Ussel-D'Allier (Gers) est Marcel SOCCOL (78 ans) #MairesdeFrance 🇫🇷", 'id': '2074444914385961070'}, includes={}, errors=[], meta={})
+2026-07-07 10:46:23,675 - INFO - === Fin ===
