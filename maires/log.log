@@ -1,14 +1,3 @@
-2026-07-03 16:46:25,158 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-03 16:46:25,243 - INFO - Historique chargé: 1757 maires déjà tweetés
-2026-07-03 16:46:25,263 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-03 16:46:25,263 - INFO - Nombre de maires déjà tweetés: 1757
-2026-07-03 16:46:25,264 - INFO - Sélectionné: 33036 - Isabelle DEXPERT (nouveau maire)
-2026-07-03 16:46:25,265 - INFO - Tweet: 🏛 La #maire de Bazas (Gironde) est Isabelle DEXPERT (61 ans) #MairesdeFrance 🇫🇷
-2026-07-03 16:46:25,473 - INFO - Sauvegarde effectuée: 33036 - Isabelle DEXPERT
-2026-07-03 16:46:25,473 - INFO - Succès: Response(data={'id': '2073085967469339119', 'text': '🏛 La #maire de Bazas (Gironde) est Isabelle DEXPERT (61 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073085967469339119']}, includes={}, errors=[], meta={})
-2026-07-03 16:46:25,475 - INFO - === Fin ===
-2026-07-04 10:46:22,540 - INFO - === Démarrage Maires ===
-2026-07-04 10:46:22,540 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-04 10:46:22,540 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-04 10:46:22,628 - INFO - Historique chargé: 1758 maires déjà tweetés
 2026-07-04 10:46:22,652 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-08 10:46:24,344 - INFO - Sauvegarde effectuée: 34215 - Véronique MARIE NEIL
 2026-07-08 10:46:24,345 - INFO - Succès: Response(data={'text': '🏛 La #maire de Pouzols (Hérault) est Véronique MARIE NEIL (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074807305095479635'], 'id': '2074807305095479635'}, includes={}, errors=[], meta={})
 2026-07-08 10:46:24,346 - INFO - === Fin ===
+2026-07-08 16:46:24,909 - INFO - === Démarrage Maires ===
+2026-07-08 16:46:24,909 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-08 16:46:24,909 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-08 16:46:24,993 - INFO - Historique chargé: 1767 maires déjà tweetés
+2026-07-08 16:46:25,015 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-08 16:46:25,015 - INFO - Nombre de maires déjà tweetés: 1767
+2026-07-08 16:46:25,017 - INFO - Sélectionné: 86122 - Olivier COURADEAU (nouveau maire)
+2026-07-08 16:46:25,018 - INFO - Tweet: 🏛 Le #maire de Lauthiers (Vienne) est Olivier COURADEAU (46 ans) #MairesdeFrance 🇫🇷
+2026-07-08 16:46:25,279 - INFO - Sauvegarde effectuée: 86122 - Olivier COURADEAU
+2026-07-08 16:46:25,279 - INFO - Succès: Response(data={'id': '2074897906000330999', 'text': '🏛 Le #maire de Lauthiers (Vienne) est Olivier COURADEAU (46 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074897906000330999']}, includes={}, errors=[], meta={})
+2026-07-08 16:46:25,281 - INFO - === Fin ===
