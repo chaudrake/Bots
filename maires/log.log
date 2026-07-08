@@ -1,14 +1,3 @@
-2026-07-03 10:46:25,946 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-03 10:46:26,029 - INFO - Historique chargé: 1756 maires déjà tweetés
-2026-07-03 10:46:26,051 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-03 10:46:26,052 - INFO - Nombre de maires déjà tweetés: 1756
-2026-07-03 10:46:26,053 - INFO - Sélectionné: 2B241 - Pierre ORSINI (nouveau maire)
-2026-07-03 10:46:26,055 - INFO - Tweet: 🏛 Le #maire de Poggio-Marinaccio (Corse) est Pierre ORSINI (71 ans) #MairesdeFrance 🇫🇷
-2026-07-03 10:46:26,326 - INFO - Sauvegarde effectuée: 2B241 - Pierre ORSINI
-2026-07-03 10:46:26,326 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2072995374042587401'], 'text': '🏛 Le #maire de Poggio-Marinaccio (Corse) est Pierre ORSINI (71 ans) #MairesdeFrance 🇫🇷', 'id': '2072995374042587401'}, includes={}, errors=[], meta={})
-2026-07-03 10:46:26,329 - INFO - === Fin ===
-2026-07-03 16:46:25,158 - INFO - === Démarrage Maires ===
-2026-07-03 16:46:25,158 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-03 16:46:25,158 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-03 16:46:25,243 - INFO - Historique chargé: 1757 maires déjà tweetés
 2026-07-03 16:46:25,263 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-07 16:46:23,715 - INFO - Sauvegarde effectuée: 59632 - Salvatore CASTIGLIONE
 2026-07-07 16:46:23,716 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074535511490756822'], 'id': '2074535511490756822', 'text': '🏛 Le #maire de Wallers (Nord) est Salvatore CASTIGLIONE (56 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-07 16:46:23,717 - INFO - === Fin ===
+2026-07-08 10:46:24,001 - INFO - === Démarrage Maires ===
+2026-07-08 10:46:24,001 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-08 10:46:24,001 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-08 10:46:24,090 - INFO - Historique chargé: 1766 maires déjà tweetés
+2026-07-08 10:46:24,111 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-08 10:46:24,111 - INFO - Nombre de maires déjà tweetés: 1766
+2026-07-08 10:46:24,113 - INFO - Sélectionné: 34215 - Véronique MARIE NEIL (nouveau maire)
+2026-07-08 10:46:24,114 - INFO - Tweet: 🏛 La #maire de Pouzols (Hérault) est Véronique MARIE NEIL (68 ans) #MairesdeFrance 🇫🇷
+2026-07-08 10:46:24,344 - INFO - Sauvegarde effectuée: 34215 - Véronique MARIE NEIL
+2026-07-08 10:46:24,345 - INFO - Succès: Response(data={'text': '🏛 La #maire de Pouzols (Hérault) est Véronique MARIE NEIL (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074807305095479635'], 'id': '2074807305095479635'}, includes={}, errors=[], meta={})
+2026-07-08 10:46:24,346 - INFO - === Fin ===
