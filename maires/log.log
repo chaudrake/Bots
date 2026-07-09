@@ -1,14 +1,3 @@
-2026-07-04 10:46:22,540 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-04 10:46:22,628 - INFO - Historique chargé: 1758 maires déjà tweetés
-2026-07-04 10:46:22,652 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-04 10:46:22,652 - INFO - Nombre de maires déjà tweetés: 1758
-2026-07-04 10:46:22,653 - INFO - Sélectionné: 13013 - Gilles COLLOMB (nouveau maire)
-2026-07-04 10:46:22,655 - INFO - Tweet: 🏛 Le #maire de Belcodène (Bouches-du-Rhône) est Gilles COLLOMB (62 ans) #MairesdeFrance 🇫🇷
-2026-07-04 10:46:22,958 - INFO - Sauvegarde effectuée: 13013 - Gilles COLLOMB
-2026-07-04 10:46:22,958 - INFO - Succès: Response(data={'id': '2073357747756630253', 'text': '🏛 Le #maire de Belcodène (Bouches-du-Rhône) est Gilles COLLOMB (62 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073357747756630253']}, includes={}, errors=[], meta={})
-2026-07-04 10:46:22,960 - INFO - === Fin ===
-2026-07-04 16:46:21,994 - INFO - === Démarrage Maires ===
-2026-07-04 16:46:21,994 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-04 16:46:21,994 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-04 16:46:22,087 - INFO - Historique chargé: 1759 maires déjà tweetés
 2026-07-04 16:46:22,114 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-08 16:46:25,279 - INFO - Sauvegarde effectuée: 86122 - Olivier COURADEAU
 2026-07-08 16:46:25,279 - INFO - Succès: Response(data={'id': '2074897906000330999', 'text': '🏛 Le #maire de Lauthiers (Vienne) est Olivier COURADEAU (46 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074897906000330999']}, includes={}, errors=[], meta={})
 2026-07-08 16:46:25,281 - INFO - === Fin ===
+2026-07-09 10:51:27,990 - INFO - === Démarrage Maires ===
+2026-07-09 10:51:27,990 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-09 10:51:27,990 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-09 10:51:28,075 - INFO - Historique chargé: 1768 maires déjà tweetés
+2026-07-09 10:51:28,098 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-09 10:51:28,098 - INFO - Nombre de maires déjà tweetés: 1768
+2026-07-09 10:51:28,099 - INFO - Sélectionné: 06015 - Martine BRUN (nouveau maire)
+2026-07-09 10:51:28,102 - INFO - Tweet: 🏛 La #maire de Berre-Les-Alpes (Oise) est Martine BRUN (71 ans) #MairesdeFrance 🇫🇷
+2026-07-09 10:51:28,390 - INFO - Sauvegarde effectuée: 06015 - Martine BRUN
+2026-07-09 10:51:28,390 - INFO - Succès: Response(data={'text': '🏛 La #maire de Berre-Les-Alpes (Oise) est Martine BRUN (71 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2075170968171950558'], 'id': '2075170968171950558'}, includes={}, errors=[], meta={})
+2026-07-09 10:51:28,392 - INFO - === Fin ===
