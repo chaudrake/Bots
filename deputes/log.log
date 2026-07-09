@@ -1,15 +1,3 @@
-2026-07-06 10:17:24,405 - INFO - === Fin ===
-2026-07-06 17:17:24,733 - INFO - === Démarrage Députés ===
-2026-07-06 17:17:24,733 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-06 17:17:24,733 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-06 17:17:24,740 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-06 17:17:24,740 - INFO - Historique chargé: 198 députés déjà tweetés
-2026-07-06 17:17:24,742 - INFO - Nombre de députés uniques: 572
-2026-07-06 17:17:24,742 - INFO - Nombre de députés déjà tweetés: 198
-2026-07-06 17:17:24,743 - INFO - Sélectionné: 2103 - Pierre PRIBETICH (nouveau député)
-2026-07-06 17:17:24,743 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de la Côte-d'Or est Pierre PRIBETICH (69 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-06 17:17:24,969 - INFO - Sauvegarde effectuée: 2103 - Pierre PRIBETICH
-2026-07-06 17:17:24,969 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074180930349170853'], 'id': '2074180930349170853', 'text': "🏛 Le #député de la 3e circonscription de la Côte-d'Or est Pierre PRIBETICH (69 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-06 17:17:24,969 - INFO - === Fin ===
 2026-07-07 06:17:21,996 - INFO - === Démarrage Députés ===
 2026-07-07 06:17:21,996 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-09 10:17:24,473 - INFO - Sauvegarde effectuée: 1312 - Franck ALLISIO
 2026-07-09 10:17:24,473 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 12e circonscription des Bouches-du-Rhône est Franck ALLISIO (45 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2075162395329077271', 'edit_history_tweet_ids': ['2075162395329077271']}, includes={}, errors=[], meta={})
 2026-07-09 10:17:24,473 - INFO - === Fin ===
+2026-07-09 17:17:26,900 - INFO - === Démarrage Députés ===
+2026-07-09 17:17:26,900 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-09 17:17:26,900 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-09 17:17:26,907 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-09 17:17:26,908 - INFO - Historique chargé: 207 députés déjà tweetés
+2026-07-09 17:17:26,910 - INFO - Nombre de députés uniques: 572
+2026-07-09 17:17:26,910 - INFO - Nombre de députés déjà tweetés: 207
+2026-07-09 17:17:26,910 - INFO - Sélectionné: 6002 - Philippe BALLARD (nouveau député)
+2026-07-09 17:17:26,911 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de l'Oise est Philippe BALLARD (65 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-09 17:17:27,155 - INFO - Sauvegarde effectuée: 6002 - Philippe BALLARD
+2026-07-09 17:17:27,155 - INFO - Succès: Response(data={'id': '2075268103064191013', 'text': "🏛 Le #député de la 2e circonscription de l'Oise est Philippe BALLARD (65 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2075268103064191013']}, includes={}, errors=[], meta={})
+2026-07-09 17:17:27,155 - INFO - === Fin ===
