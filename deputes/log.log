@@ -1,15 +1,3 @@
-2026-07-06 17:17:24,969 - INFO - === Fin ===
-2026-07-07 06:17:21,996 - INFO - === Démarrage Députés ===
-2026-07-07 06:17:21,996 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-07 06:17:21,996 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-07 06:17:22,002 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-07 06:17:22,002 - INFO - Historique chargé: 199 députés déjà tweetés
-2026-07-07 06:17:22,003 - INFO - Nombre de députés uniques: 572
-2026-07-07 06:17:22,003 - INFO - Nombre de députés déjà tweetés: 199
-2026-07-07 06:17:22,004 - INFO - Sélectionné: 7704 - Julien LIMONGI (nouveau député)
-2026-07-07 06:17:22,004 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de Seine-et-Marne est Julien LIMONGI (30 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-07 06:17:22,224 - INFO - Sauvegarde effectuée: 7704 - Julien LIMONGI
-2026-07-07 06:17:22,225 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074377212313448938'], 'text': '🏛 Le #député de la 4e circonscription de Seine-et-Marne est Julien LIMONGI (30 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2074377212313448938'}, includes={}, errors=[], meta={})
 2026-07-07 06:17:22,225 - INFO - === Fin ===
 2026-07-07 10:17:27,905 - INFO - === Démarrage Députés ===
 2026-07-07 10:17:27,905 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-09 17:17:27,155 - INFO - Sauvegarde effectuée: 6002 - Philippe BALLARD
 2026-07-09 17:17:27,155 - INFO - Succès: Response(data={'id': '2075268103064191013', 'text': "🏛 Le #député de la 2e circonscription de l'Oise est Philippe BALLARD (65 ans) #Députés #AssembléeNationale 🇫🇷", 'edit_history_tweet_ids': ['2075268103064191013']}, includes={}, errors=[], meta={})
 2026-07-09 17:17:27,155 - INFO - === Fin ===
+2026-07-10 06:17:22,034 - INFO - === Démarrage Députés ===
+2026-07-10 06:17:22,034 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-10 06:17:22,034 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-10 06:17:22,041 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-10 06:17:22,041 - INFO - Historique chargé: 208 députés déjà tweetés
+2026-07-10 06:17:22,043 - INFO - Nombre de députés uniques: 572
+2026-07-10 06:17:22,043 - INFO - Nombre de députés déjà tweetés: 208
+2026-07-10 06:17:22,043 - INFO - Sélectionné: 2105 - René LIORET (nouveau député)
+2026-07-10 06:17:22,044 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de la Côte-d'Or est René LIORET (74 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-10 06:17:22,444 - INFO - Sauvegarde effectuée: 2105 - René LIORET
+2026-07-10 06:17:22,444 - INFO - Succès: Response(data={'id': '2075464376782344209', 'edit_history_tweet_ids': ['2075464376782344209'], 'text': "🏛 Le #député de la 5e circonscription de la Côte-d'Or est René LIORET (74 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-10 06:17:22,444 - INFO - === Fin ===
