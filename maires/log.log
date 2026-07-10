@@ -1,14 +1,3 @@
-2026-07-05 16:46:22,143 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-05 16:46:22,227 - INFO - Historique chargé: 1761 maires déjà tweetés
-2026-07-05 16:46:22,249 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-05 16:46:22,249 - INFO - Nombre de maires déjà tweetés: 1761
-2026-07-05 16:46:22,250 - INFO - Sélectionné: 23071 - Didier TERNAT (nouveau maire)
-2026-07-05 16:46:22,252 - INFO - Tweet: 🏛 Le #maire de Croze (Creuse) est Didier TERNAT (63 ans) #MairesdeFrance 🇫🇷
-2026-07-05 16:46:22,495 - INFO - Sauvegarde effectuée: 23071 - Didier TERNAT
-2026-07-05 16:46:22,496 - INFO - Succès: Response(data={'id': '2073810730676256906', 'text': '🏛 Le #maire de Croze (Creuse) est Didier TERNAT (63 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2073810730676256906']}, includes={}, errors=[], meta={})
-2026-07-05 16:46:22,498 - INFO - === Fin ===
-2026-07-06 10:46:23,077 - INFO - === Démarrage Maires ===
-2026-07-06 10:46:23,077 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-06 10:46:23,077 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-06 10:46:23,163 - INFO - Historique chargé: 1762 maires déjà tweetés
 2026-07-06 10:46:23,184 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-10 10:46:22,106 - INFO - Sauvegarde effectuée: 79355 - Jean-Claude MASSIAS
 2026-07-10 10:46:22,106 - INFO - Succès: Response(data={'id': '2075532071448035388', 'text': '🏛 Le #maire de Vouillé (Deux-Sèvres) est Jean-Claude MASSIAS (71 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2075532071448035388']}, includes={}, errors=[], meta={})
 2026-07-10 10:46:22,108 - INFO - === Fin ===
+2026-07-10 16:46:21,561 - INFO - === Démarrage Maires ===
+2026-07-10 16:46:21,561 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-10 16:46:21,561 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-10 16:46:21,653 - INFO - Historique chargé: 1771 maires déjà tweetés
+2026-07-10 16:46:21,677 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-10 16:46:21,677 - INFO - Nombre de maires déjà tweetés: 1771
+2026-07-10 16:46:21,679 - INFO - Sélectionné: 65275 - Florence POIZAT (nouveau maire)
+2026-07-10 16:46:21,681 - INFO - Tweet: 🏛 La #maire de Lies (Hautes-Pyrénées) est Florence POIZAT (56 ans) #MairesdeFrance 🇫🇷
+2026-07-10 16:46:21,914 - INFO - Sauvegarde effectuée: 65275 - Florence POIZAT
+2026-07-10 16:46:21,914 - INFO - Succès: Response(data={'id': '2075622667604935052', 'text': '🏛 La #maire de Lies (Hautes-Pyrénées) est Florence POIZAT (56 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2075622667604935052']}, includes={}, errors=[], meta={})
+2026-07-10 16:46:21,916 - INFO - === Fin ===
