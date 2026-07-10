@@ -1,15 +1,3 @@
-2026-07-07 06:17:22,225 - INFO - === Fin ===
-2026-07-07 10:17:27,905 - INFO - === Démarrage Députés ===
-2026-07-07 10:17:27,905 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-07 10:17:27,905 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-07 10:17:27,912 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-07 10:17:27,912 - INFO - Historique chargé: 200 députés déjà tweetés
-2026-07-07 10:17:27,914 - INFO - Nombre de députés uniques: 572
-2026-07-07 10:17:27,914 - INFO - Nombre de députés déjà tweetés: 200
-2026-07-07 10:17:27,916 - INFO - Sélectionné: 3704 - Laurent BAUMEL (nouveau député)
-2026-07-07 10:17:27,916 - INFO - Tweet: 🏛 Le #député de la 4e circonscription d'Indre-et-Loire est Laurent BAUMEL (60 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-07 10:17:28,176 - INFO - Sauvegarde effectuée: 3704 - Laurent BAUMEL
-2026-07-07 10:17:28,176 - INFO - Succès: Response(data={'id': '2074437635154522439', 'edit_history_tweet_ids': ['2074437635154522439'], 'text': "🏛 Le #député de la 4e circonscription d'Indre-et-Loire est Laurent BAUMEL (60 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-07 10:17:28,176 - INFO - === Fin ===
 2026-07-07 17:17:23,082 - INFO - === Démarrage Députés ===
 2026-07-07 17:17:23,082 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-10 06:17:22,444 - INFO - Sauvegarde effectuée: 2105 - René LIORET
 2026-07-10 06:17:22,444 - INFO - Succès: Response(data={'id': '2075464376782344209', 'edit_history_tweet_ids': ['2075464376782344209'], 'text': "🏛 Le #député de la 5e circonscription de la Côte-d'Or est René LIORET (74 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-10 06:17:22,444 - INFO - === Fin ===
+2026-07-10 10:17:26,729 - INFO - === Démarrage Députés ===
+2026-07-10 10:17:26,729 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-10 10:17:26,729 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-10 10:17:26,736 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-10 10:17:26,736 - INFO - Historique chargé: 209 députés déjà tweetés
+2026-07-10 10:17:26,738 - INFO - Nombre de députés uniques: 572
+2026-07-10 10:17:26,738 - INFO - Nombre de députés déjà tweetés: 209
+2026-07-10 10:17:26,739 - INFO - Sélectionné: 9106 - Jérôme GUEDJ (nouveau député)
+2026-07-10 10:17:26,739 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de l'Essonne est Jérôme GUEDJ (54 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-10 10:17:26,946 - INFO - Sauvegarde effectuée: 9106 - Jérôme GUEDJ
+2026-07-10 10:17:26,947 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2075524793630122201'], 'text': "🏛 Le #député de la 6e circonscription de l'Essonne est Jérôme GUEDJ (54 ans) #Députés #AssembléeNationale 🇫🇷", 'id': '2075524793630122201'}, includes={}, errors=[], meta={})
+2026-07-10 10:17:26,947 - INFO - === Fin ===
