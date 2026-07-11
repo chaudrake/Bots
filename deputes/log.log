@@ -1,15 +1,3 @@
-2026-07-07 17:17:23,397 - INFO - === Fin ===
-2026-07-08 06:17:23,606 - INFO - === Démarrage Députés ===
-2026-07-08 06:17:23,606 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-08 06:17:23,606 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-08 06:17:23,613 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-08 06:17:23,613 - INFO - Historique chargé: 202 députés déjà tweetés
-2026-07-08 06:17:23,615 - INFO - Nombre de députés uniques: 572
-2026-07-08 06:17:23,615 - INFO - Nombre de députés déjà tweetés: 202
-2026-07-08 06:17:23,616 - INFO - Sélectionné: 6709 - Vincent THIEBAUT (nouveau député)
-2026-07-08 06:17:23,616 - INFO - Tweet: 🏛 Le #député de la 9e circonscription du Bas-Rhin est Vincent THIEBAUT (54 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-08 06:17:23,931 - INFO - Sauvegarde effectuée: 6709 - Vincent THIEBAUT
-2026-07-08 06:17:23,932 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074739607212634325'], 'id': '2074739607212634325', 'text': '🏛 Le #député de la 9e circonscription du Bas-Rhin est Vincent THIEBAUT (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-08 06:17:23,932 - INFO - === Fin ===
 2026-07-08 10:17:21,253 - INFO - === Démarrage Députés ===
 2026-07-08 10:17:21,253 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-10 17:17:24,072 - INFO - Sauvegarde effectuée: 7903 - Jean-Marie FIÉVET
 2026-07-10 17:17:24,072 - INFO - Succès: Response(data={'id': '2075630477990359272', 'text': '🏛 Le #député de la 3e circonscription des Deux-Sèvres est Jean-Marie FIÉVET (62 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2075630477990359272']}, includes={}, errors=[], meta={})
 2026-07-10 17:17:24,072 - INFO - === Fin ===
+2026-07-11 06:17:19,643 - INFO - === Démarrage Députés ===
+2026-07-11 06:17:19,643 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-11 06:17:19,643 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-11 06:17:19,650 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-11 06:17:19,651 - INFO - Historique chargé: 211 députés déjà tweetés
+2026-07-11 06:17:19,652 - INFO - Nombre de députés uniques: 572
+2026-07-11 06:17:19,653 - INFO - Nombre de députés déjà tweetés: 211
+2026-07-11 06:17:19,653 - INFO - Sélectionné: 97103 - Max MATHIASIN (nouveau député)
+2026-07-11 06:17:19,654 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de Guadeloupe est Max MATHIASIN (70 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-11 06:17:19,924 - INFO - Sauvegarde effectuée: 97103 - Max MATHIASIN
+2026-07-11 06:17:19,924 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 3e circonscription de Guadeloupe est Max MATHIASIN (70 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2075826754078273728', 'edit_history_tweet_ids': ['2075826754078273728']}, includes={}, errors=[], meta={})
+2026-07-11 06:17:19,924 - INFO - === Fin ===
