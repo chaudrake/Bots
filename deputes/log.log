@@ -1,15 +1,3 @@
-2026-07-08 06:17:23,932 - INFO - === Fin ===
-2026-07-08 10:17:21,253 - INFO - === Démarrage Députés ===
-2026-07-08 10:17:21,253 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-08 10:17:21,253 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-08 10:17:21,260 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-08 10:17:21,260 - INFO - Historique chargé: 203 députés déjà tweetés
-2026-07-08 10:17:21,262 - INFO - Nombre de députés uniques: 572
-2026-07-08 10:17:21,262 - INFO - Nombre de députés déjà tweetés: 203
-2026-07-08 10:17:21,263 - INFO - Sélectionné: 5406 - Anthony BOULOGNE (nouveau député)
-2026-07-08 10:17:21,263 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de la Meurthe-et-Moselle est Anthony BOULOGNE (33 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-08 10:17:21,484 - INFO - Sauvegarde effectuée: 5406 - Anthony BOULOGNE
-2026-07-08 10:17:21,484 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074799995002265678'], 'text': '🏛 Le #député de la 6e circonscription de la Meurthe-et-Moselle est Anthony BOULOGNE (33 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2074799995002265678'}, includes={}, errors=[], meta={})
 2026-07-08 10:17:21,484 - INFO - === Fin ===
 2026-07-08 17:17:20,656 - INFO - === Démarrage Députés ===
 2026-07-08 17:17:20,656 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-11 06:17:19,924 - INFO - Sauvegarde effectuée: 97103 - Max MATHIASIN
 2026-07-11 06:17:19,924 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 3e circonscription de Guadeloupe est Max MATHIASIN (70 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2075826754078273728', 'edit_history_tweet_ids': ['2075826754078273728']}, includes={}, errors=[], meta={})
 2026-07-11 06:17:19,924 - INFO - === Fin ===
+2026-07-11 10:17:19,383 - INFO - === Démarrage Députés ===
+2026-07-11 10:17:19,383 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-11 10:17:19,383 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-11 10:17:19,390 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-11 10:17:19,391 - INFO - Historique chargé: 212 députés déjà tweetés
+2026-07-11 10:17:19,392 - INFO - Nombre de députés uniques: 572
+2026-07-11 10:17:19,392 - INFO - Nombre de députés déjà tweetés: 212
+2026-07-11 10:17:19,395 - INFO - Sélectionné: 8502 - Béatrice BELLAMY (nouveau député)
+2026-07-11 10:17:19,395 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de la Vendée est Béatrice BELLAMY (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-11 10:17:19,612 - INFO - Sauvegarde effectuée: 8502 - Béatrice BELLAMY
+2026-07-11 10:17:19,612 - INFO - Succès: Response(data={'text': '🏛 La #députée de la 2e circonscription de la Vendée est Béatrice BELLAMY (59 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2075887150764048452', 'edit_history_tweet_ids': ['2075887150764048452']}, includes={}, errors=[], meta={})
+2026-07-11 10:17:19,612 - INFO - === Fin ===
