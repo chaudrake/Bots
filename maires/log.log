@@ -1,14 +1,3 @@
-2026-07-07 10:46:23,350 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-07 10:46:23,433 - INFO - Historique chargé: 1764 maires déjà tweetés
-2026-07-07 10:46:23,455 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-07 10:46:23,455 - INFO - Nombre de maires déjà tweetés: 1764
-2026-07-07 10:46:23,457 - INFO - Sélectionné: 03294 - Marcel SOCCOL (nouveau maire)
-2026-07-07 10:46:23,458 - INFO - Tweet: 🏛 Le #maire de Ussel-D'Allier (Gers) est Marcel SOCCOL (78 ans) #MairesdeFrance 🇫🇷
-2026-07-07 10:46:23,673 - INFO - Sauvegarde effectuée: 03294 - Marcel SOCCOL
-2026-07-07 10:46:23,673 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074444914385961070'], 'text': "🏛 Le #maire de Ussel-D'Allier (Gers) est Marcel SOCCOL (78 ans) #MairesdeFrance 🇫🇷", 'id': '2074444914385961070'}, includes={}, errors=[], meta={})
-2026-07-07 10:46:23,675 - INFO - === Fin ===
-2026-07-07 16:46:23,332 - INFO - === Démarrage Maires ===
-2026-07-07 16:46:23,332 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-07 16:46:23,332 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-07 16:46:23,419 - INFO - Historique chargé: 1765 maires déjà tweetés
 2026-07-07 16:46:23,441 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-11 16:46:23,008 - INFO - Sauvegarde effectuée: 60389 - Fabrice FOUCHER
 2026-07-11 16:46:23,008 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Maucourt (Oise) est Fabrice FOUCHER (51 ans) #MairesdeFrance 🇫🇷', 'id': '2075985060029677606', 'edit_history_tweet_ids': ['2075985060029677606']}, includes={}, errors=[], meta={})
 2026-07-11 16:46:23,010 - INFO - === Fin ===
+2026-07-12 10:46:22,133 - INFO - === Démarrage Maires ===
+2026-07-12 10:46:22,133 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-12 10:46:22,133 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-12 10:46:22,223 - INFO - Historique chargé: 1774 maires déjà tweetés
+2026-07-12 10:46:22,249 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-12 10:46:22,249 - INFO - Nombre de maires déjà tweetés: 1774
+2026-07-12 10:46:22,251 - INFO - Sélectionné: 27621 - Jean-Michel CAILLEUX (nouveau maire)
+2026-07-12 10:46:22,253 - INFO - Tweet: 🏛 Le #maire de Serez (Eure) est Jean-Michel CAILLEUX (60 ans) #MairesdeFrance 🇫🇷
+2026-07-12 10:46:22,502 - INFO - Sauvegarde effectuée: 27621 - Jean-Michel CAILLEUX
+2026-07-12 10:46:22,502 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076256848794030394'], 'id': '2076256848794030394', 'text': '🏛 Le #maire de Serez (Eure) est Jean-Michel CAILLEUX (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-12 10:46:22,504 - INFO - === Fin ===
