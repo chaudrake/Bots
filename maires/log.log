@@ -1,14 +1,3 @@
-2026-07-07 16:46:23,332 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-07 16:46:23,419 - INFO - Historique chargé: 1765 maires déjà tweetés
-2026-07-07 16:46:23,441 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-07 16:46:23,441 - INFO - Nombre de maires déjà tweetés: 1765
-2026-07-07 16:46:23,442 - INFO - Sélectionné: 59632 - Salvatore CASTIGLIONE (nouveau maire)
-2026-07-07 16:46:23,443 - INFO - Tweet: 🏛 Le #maire de Wallers (Nord) est Salvatore CASTIGLIONE (56 ans) #MairesdeFrance 🇫🇷
-2026-07-07 16:46:23,715 - INFO - Sauvegarde effectuée: 59632 - Salvatore CASTIGLIONE
-2026-07-07 16:46:23,716 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2074535511490756822'], 'id': '2074535511490756822', 'text': '🏛 Le #maire de Wallers (Nord) est Salvatore CASTIGLIONE (56 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-07 16:46:23,717 - INFO - === Fin ===
-2026-07-08 10:46:24,001 - INFO - === Démarrage Maires ===
-2026-07-08 10:46:24,001 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-08 10:46:24,001 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-08 10:46:24,090 - INFO - Historique chargé: 1766 maires déjà tweetés
 2026-07-08 10:46:24,111 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-12 10:46:22,502 - INFO - Sauvegarde effectuée: 27621 - Jean-Michel CAILLEUX
 2026-07-12 10:46:22,502 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076256848794030394'], 'id': '2076256848794030394', 'text': '🏛 Le #maire de Serez (Eure) est Jean-Michel CAILLEUX (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-12 10:46:22,504 - INFO - === Fin ===
+2026-07-12 16:46:24,223 - INFO - === Démarrage Maires ===
+2026-07-12 16:46:24,223 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-12 16:46:24,223 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-12 16:46:24,307 - INFO - Historique chargé: 1775 maires déjà tweetés
+2026-07-12 16:46:24,330 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-12 16:46:24,330 - INFO - Nombre de maires déjà tweetés: 1775
+2026-07-12 16:46:24,331 - INFO - Sélectionné: 58256 - Nicolas VANNIER (nouveau maire)
+2026-07-12 16:46:24,333 - INFO - Tweet: 🏛 Le #maire de Saint-Martin-Sur-Nohain (Nièvre) est Nicolas VANNIER (45 ans) #MairesdeFrance 🇫🇷
+2026-07-12 16:46:24,727 - INFO - Sauvegarde effectuée: 58256 - Nicolas VANNIER
+2026-07-12 16:46:24,727 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Saint-Martin-Sur-Nohain (Nièvre) est Nicolas VANNIER (45 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2076347455088521470'], 'id': '2076347455088521470'}, includes={}, errors=[], meta={})
+2026-07-12 16:46:24,729 - INFO - === Fin ===
