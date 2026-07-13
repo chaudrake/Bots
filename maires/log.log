@@ -1,14 +1,3 @@
-2026-07-08 10:46:24,001 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-08 10:46:24,090 - INFO - Historique chargé: 1766 maires déjà tweetés
-2026-07-08 10:46:24,111 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-08 10:46:24,111 - INFO - Nombre de maires déjà tweetés: 1766
-2026-07-08 10:46:24,113 - INFO - Sélectionné: 34215 - Véronique MARIE NEIL (nouveau maire)
-2026-07-08 10:46:24,114 - INFO - Tweet: 🏛 La #maire de Pouzols (Hérault) est Véronique MARIE NEIL (68 ans) #MairesdeFrance 🇫🇷
-2026-07-08 10:46:24,344 - INFO - Sauvegarde effectuée: 34215 - Véronique MARIE NEIL
-2026-07-08 10:46:24,345 - INFO - Succès: Response(data={'text': '🏛 La #maire de Pouzols (Hérault) est Véronique MARIE NEIL (68 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074807305095479635'], 'id': '2074807305095479635'}, includes={}, errors=[], meta={})
-2026-07-08 10:46:24,346 - INFO - === Fin ===
-2026-07-08 16:46:24,909 - INFO - === Démarrage Maires ===
-2026-07-08 16:46:24,909 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-08 16:46:24,909 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-08 16:46:24,993 - INFO - Historique chargé: 1767 maires déjà tweetés
 2026-07-08 16:46:25,015 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-12 16:46:24,727 - INFO - Sauvegarde effectuée: 58256 - Nicolas VANNIER
 2026-07-12 16:46:24,727 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Saint-Martin-Sur-Nohain (Nièvre) est Nicolas VANNIER (45 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2076347455088521470'], 'id': '2076347455088521470'}, includes={}, errors=[], meta={})
 2026-07-12 16:46:24,729 - INFO - === Fin ===
+2026-07-13 10:46:26,380 - INFO - === Démarrage Maires ===
+2026-07-13 10:46:26,380 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-13 10:46:26,380 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-13 10:46:26,464 - INFO - Historique chargé: 1776 maires déjà tweetés
+2026-07-13 10:46:26,488 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-13 10:46:26,488 - INFO - Nombre de maires déjà tweetés: 1776
+2026-07-13 10:46:26,490 - INFO - Sélectionné: 62435 - Claudine DELORY (nouveau maire)
+2026-07-13 10:46:26,492 - INFO - Tweet: 🏛 La #maire de Herlincourt (Pas-de-Calais) est Claudine DELORY (63 ans) #MairesdeFrance 🇫🇷
+2026-07-13 10:46:26,743 - INFO - Sauvegarde effectuée: 62435 - Claudine DELORY
+2026-07-13 10:46:26,743 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076619254460530939'], 'text': '🏛 La #maire de Herlincourt (Pas-de-Calais) est Claudine DELORY (63 ans) #MairesdeFrance 🇫🇷', 'id': '2076619254460530939'}, includes={}, errors=[], meta={})
+2026-07-13 10:46:26,745 - INFO - === Fin ===
