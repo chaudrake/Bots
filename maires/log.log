@@ -1,14 +1,3 @@
-2026-07-08 16:46:24,909 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-08 16:46:24,993 - INFO - Historique chargé: 1767 maires déjà tweetés
-2026-07-08 16:46:25,015 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-08 16:46:25,015 - INFO - Nombre de maires déjà tweetés: 1767
-2026-07-08 16:46:25,017 - INFO - Sélectionné: 86122 - Olivier COURADEAU (nouveau maire)
-2026-07-08 16:46:25,018 - INFO - Tweet: 🏛 Le #maire de Lauthiers (Vienne) est Olivier COURADEAU (46 ans) #MairesdeFrance 🇫🇷
-2026-07-08 16:46:25,279 - INFO - Sauvegarde effectuée: 86122 - Olivier COURADEAU
-2026-07-08 16:46:25,279 - INFO - Succès: Response(data={'id': '2074897906000330999', 'text': '🏛 Le #maire de Lauthiers (Vienne) est Olivier COURADEAU (46 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2074897906000330999']}, includes={}, errors=[], meta={})
-2026-07-08 16:46:25,281 - INFO - === Fin ===
-2026-07-09 10:51:27,990 - INFO - === Démarrage Maires ===
-2026-07-09 10:51:27,990 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-09 10:51:27,990 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-09 10:51:28,075 - INFO - Historique chargé: 1768 maires déjà tweetés
 2026-07-09 10:51:28,098 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-13 10:46:26,743 - INFO - Sauvegarde effectuée: 62435 - Claudine DELORY
 2026-07-13 10:46:26,743 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076619254460530939'], 'text': '🏛 La #maire de Herlincourt (Pas-de-Calais) est Claudine DELORY (63 ans) #MairesdeFrance 🇫🇷', 'id': '2076619254460530939'}, includes={}, errors=[], meta={})
 2026-07-13 10:46:26,745 - INFO - === Fin ===
+2026-07-13 16:46:28,581 - INFO - === Démarrage Maires ===
+2026-07-13 16:46:28,581 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-13 16:46:28,581 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-13 16:46:28,667 - INFO - Historique chargé: 1777 maires déjà tweetés
+2026-07-13 16:46:28,691 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-13 16:46:28,691 - INFO - Nombre de maires déjà tweetés: 1777
+2026-07-13 16:46:28,693 - INFO - Sélectionné: 30146 - Bernard CAUVIN (nouveau maire)
+2026-07-13 16:46:28,694 - INFO - Tweet: 🏛 Le #maire de Lédignan (Gard) est Bernard CAUVIN (74 ans) #MairesdeFrance 🇫🇷
+2026-07-13 16:46:28,944 - INFO - Sauvegarde effectuée: 30146 - Bernard CAUVIN
+2026-07-13 16:46:28,944 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Lédignan (Gard) est Bernard CAUVIN (74 ans) #MairesdeFrance 🇫🇷', 'id': '2076709860696264843', 'edit_history_tweet_ids': ['2076709860696264843']}, includes={}, errors=[], meta={})
+2026-07-13 16:46:28,947 - INFO - === Fin ===
