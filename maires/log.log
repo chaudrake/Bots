@@ -1,14 +1,3 @@
-2026-07-09 16:46:23,791 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-09 16:46:23,883 - INFO - Historique chargé: 1769 maires déjà tweetés
-2026-07-09 16:46:23,909 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-09 16:46:23,910 - INFO - Nombre de maires déjà tweetés: 1769
-2026-07-09 16:46:23,911 - INFO - Sélectionné: 33216 - Martine FRANCELIN (nouveau maire)
-2026-07-09 16:46:23,913 - INFO - Tweet: 🏛 La #maire de Lados (Gironde) est Martine FRANCELIN (75 ans) #MairesdeFrance 🇫🇷
-2026-07-09 16:46:24,179 - INFO - Sauvegarde effectuée: 33216 - Martine FRANCELIN
-2026-07-09 16:46:24,180 - INFO - Succès: Response(data={'text': '🏛 La #maire de Lados (Gironde) est Martine FRANCELIN (75 ans) #MairesdeFrance 🇫🇷', 'id': '2075260289197719900', 'edit_history_tweet_ids': ['2075260289197719900']}, includes={}, errors=[], meta={})
-2026-07-09 16:46:24,182 - INFO - === Fin ===
-2026-07-10 10:46:21,758 - INFO - === Démarrage Maires ===
-2026-07-10 10:46:21,758 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-10 10:46:21,758 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-10 10:46:21,855 - INFO - Historique chargé: 1770 maires déjà tweetés
 2026-07-10 10:46:21,875 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-14 10:46:26,398 - INFO - Sauvegarde effectuée: 55220 - Cédric BRICHLER
 2026-07-14 10:46:26,398 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076981640883294416'], 'text': '🏛 Le #maire de Grimaucourt-Près-Sampigny (Meuse) est Cédric BRICHLER (36 ans) #MairesdeFrance 🇫🇷', 'id': '2076981640883294416'}, includes={}, errors=[], meta={})
 2026-07-14 10:46:26,400 - INFO - === Fin ===
+2026-07-14 16:46:23,580 - INFO - === Démarrage Maires ===
+2026-07-14 16:46:23,580 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-14 16:46:23,580 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-14 16:46:23,662 - INFO - Historique chargé: 1779 maires déjà tweetés
+2026-07-14 16:46:23,682 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-14 16:46:23,682 - INFO - Nombre de maires déjà tweetés: 1779
+2026-07-14 16:46:23,683 - INFO - Sélectionné: 10252 - Pascal BLOUQUIN (nouveau maire)
+2026-07-14 16:46:23,685 - INFO - Tweet: 🏛 Le #maire de Montmartin-Le-Haut (Aube) est Pascal BLOUQUIN (57 ans) #MairesdeFrance 🇫🇷
+2026-07-14 16:46:23,976 - INFO - Sauvegarde effectuée: 10252 - Pascal BLOUQUIN
+2026-07-14 16:46:23,976 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2077072227657212130'], 'id': '2077072227657212130', 'text': '🏛 Le #maire de Montmartin-Le-Haut (Aube) est Pascal BLOUQUIN (57 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-14 16:46:23,978 - INFO - === Fin ===
