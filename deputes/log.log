@@ -1,15 +1,3 @@
-2026-07-11 10:17:19,612 - INFO - === Fin ===
-2026-07-11 17:17:20,682 - INFO - === Démarrage Députés ===
-2026-07-11 17:17:20,682 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-11 17:17:20,682 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-11 17:17:20,689 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-11 17:17:20,690 - INFO - Historique chargé: 213 députés déjà tweetés
-2026-07-11 17:17:20,691 - INFO - Nombre de députés uniques: 572
-2026-07-11 17:17:20,691 - INFO - Nombre de députés déjà tweetés: 213
-2026-07-11 17:17:20,692 - INFO - Sélectionné: 9210 - Gabriel ATTAL (nouveau député)
-2026-07-11 17:17:20,693 - INFO - Tweet: 🏛 Le #député de la 10e circonscription des Hauts-de-Seine est Gabriel ATTAL (37 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-11 17:17:20,995 - INFO - Sauvegarde effectuée: 9210 - Gabriel ATTAL
-2026-07-11 17:17:20,995 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2075992853029781694'], 'id': '2075992853029781694', 'text': '🏛 Le #député de la 10e circonscription des Hauts-de-Seine est Gabriel ATTAL (37 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-11 17:17:20,995 - INFO - === Fin ===
 2026-07-12 06:17:22,980 - INFO - === Démarrage Députés ===
 2026-07-12 06:17:22,980 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-14 10:17:22,711 - INFO - Sauvegarde effectuée: 3307 - Sébastien SAINT-PASTEUR
 2026-07-14 10:17:22,711 - INFO - Succès: Response(data={'id': '2076974327380017295', 'text': '🏛 Le #député de la 7e circonscription de la Gironde est Sébastien SAINT-PASTEUR (45 ans) #Députés #AssembléeNationale 🇫🇷', 'edit_history_tweet_ids': ['2076974327380017295']}, includes={}, errors=[], meta={})
 2026-07-14 10:17:22,711 - INFO - === Fin ===
+2026-07-14 17:17:30,904 - INFO - === Démarrage Députés ===
+2026-07-14 17:17:30,904 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-14 17:17:30,904 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-14 17:17:30,911 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-14 17:17:30,911 - INFO - Historique chargé: 222 députés déjà tweetés
+2026-07-14 17:17:30,913 - INFO - Nombre de députés uniques: 572
+2026-07-14 17:17:30,913 - INFO - Nombre de députés déjà tweetés: 222
+2026-07-14 17:17:30,914 - INFO - Sélectionné: 8403 - Hervé DE LÉPINAU (nouveau député)
+2026-07-14 17:17:30,914 - INFO - Tweet: 🏛 Le #député de la 3e circonscription du Vaucluse est Hervé DE LÉPINAU (57 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-14 17:17:31,245 - INFO - Sauvegarde effectuée: 8403 - Hervé DE LÉPINAU
+2026-07-14 17:17:31,245 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 3e circonscription du Vaucluse est Hervé DE LÉPINAU (57 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2077080059463270447', 'edit_history_tweet_ids': ['2077080059463270447']}, includes={}, errors=[], meta={})
+2026-07-14 17:17:31,245 - INFO - === Fin ===
