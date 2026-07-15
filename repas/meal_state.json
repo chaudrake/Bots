@@ -92,7 +92,8 @@
     "Asperges sauce mousseline",
     "Pizza quatre fromages maison",
     "Salade niçoise",
-    "Moules frites"
+    "Moules frites",
+    "Pizza maison aux légumes grillés"
   ],
   "used_entrees": [
     "Rouleaux de printemps",
@@ -111,6 +112,7 @@
     "Assiette de tomates et crevettes froides",
     "Bricks au jambon de Bayonne et Roquefort",
     "Bricks à l'oeuf",
-    "Caviar d'aubergine"
+    "Caviar d'aubergine",
+    "Velouté de potiron"
   ]
 }
