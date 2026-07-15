@@ -93,7 +93,8 @@
     "Pizza quatre fromages maison",
     "Salade niçoise",
     "Moules frites",
-    "Pizza maison aux légumes grillés"
+    "Pizza maison aux légumes grillés",
+    "Spaghettis bolognaise"
   ],
   "used_entrees": [
     "Rouleaux de printemps",
@@ -113,6 +114,7 @@
     "Bricks au jambon de Bayonne et Roquefort",
     "Bricks à l'oeuf",
     "Caviar d'aubergine",
-    "Velouté de potiron"
+    "Velouté de potiron",
+    "Brocoli rôti à l’ail"
   ]
 }
