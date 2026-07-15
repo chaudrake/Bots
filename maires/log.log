@@ -1,14 +1,3 @@
-2026-07-10 16:46:21,561 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-10 16:46:21,653 - INFO - Historique chargé: 1771 maires déjà tweetés
-2026-07-10 16:46:21,677 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-10 16:46:21,677 - INFO - Nombre de maires déjà tweetés: 1771
-2026-07-10 16:46:21,679 - INFO - Sélectionné: 65275 - Florence POIZAT (nouveau maire)
-2026-07-10 16:46:21,681 - INFO - Tweet: 🏛 La #maire de Lies (Hautes-Pyrénées) est Florence POIZAT (56 ans) #MairesdeFrance 🇫🇷
-2026-07-10 16:46:21,914 - INFO - Sauvegarde effectuée: 65275 - Florence POIZAT
-2026-07-10 16:46:21,914 - INFO - Succès: Response(data={'id': '2075622667604935052', 'text': '🏛 La #maire de Lies (Hautes-Pyrénées) est Florence POIZAT (56 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2075622667604935052']}, includes={}, errors=[], meta={})
-2026-07-10 16:46:21,916 - INFO - === Fin ===
-2026-07-11 10:46:23,569 - INFO - === Démarrage Maires ===
-2026-07-11 10:46:23,569 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-11 10:46:23,569 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-11 10:46:23,668 - INFO - Historique chargé: 1772 maires déjà tweetés
 2026-07-11 10:46:23,698 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-15 10:46:24,116 - INFO - Sauvegarde effectuée: 57264 - Hervé RUFF
 2026-07-15 10:46:24,116 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077344019072360878', 'text': '🏛 Le #maire de Guebenhouse (Moselle) est Hervé RUFF (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-15 10:46:24,118 - INFO - === Fin ===
+2026-07-15 16:46:24,250 - INFO - === Démarrage Maires ===
+2026-07-15 16:46:24,250 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-15 16:46:24,250 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-15 16:46:24,338 - INFO - Historique chargé: 1781 maires déjà tweetés
+2026-07-15 16:46:24,359 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-15 16:46:24,359 - INFO - Nombre de maires déjà tweetés: 1781
+2026-07-15 16:46:24,361 - INFO - Sélectionné: 51222 - Mathieu GILLOOTS (nouveau maire)
+2026-07-15 16:46:24,362 - INFO - Tweet: 🏛 Le #maire de Eclaires (Marne) est Mathieu GILLOOTS (30 ans) #MairesdeFrance 🇫🇷
+2026-07-15 16:46:24,615 - INFO - Sauvegarde effectuée: 51222 - Mathieu GILLOOTS
+2026-07-15 16:46:24,615 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2077434618240786859'], 'text': '🏛 Le #maire de Eclaires (Marne) est Mathieu GILLOOTS (30 ans) #MairesdeFrance 🇫🇷', 'id': '2077434618240786859'}, includes={}, errors=[], meta={})
+2026-07-15 16:46:24,617 - INFO - === Fin ===
