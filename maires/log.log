@@ -1,14 +1,3 @@
-2026-07-10 10:46:21,758 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-10 10:46:21,855 - INFO - Historique chargé: 1770 maires déjà tweetés
-2026-07-10 10:46:21,875 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-10 10:46:21,875 - INFO - Nombre de maires déjà tweetés: 1770
-2026-07-10 10:46:21,877 - INFO - Sélectionné: 79355 - Jean-Claude MASSIAS (nouveau maire)
-2026-07-10 10:46:21,878 - INFO - Tweet: 🏛 Le #maire de Vouillé (Deux-Sèvres) est Jean-Claude MASSIAS (71 ans) #MairesdeFrance 🇫🇷
-2026-07-10 10:46:22,106 - INFO - Sauvegarde effectuée: 79355 - Jean-Claude MASSIAS
-2026-07-10 10:46:22,106 - INFO - Succès: Response(data={'id': '2075532071448035388', 'text': '🏛 Le #maire de Vouillé (Deux-Sèvres) est Jean-Claude MASSIAS (71 ans) #MairesdeFrance 🇫🇷', 'edit_history_tweet_ids': ['2075532071448035388']}, includes={}, errors=[], meta={})
-2026-07-10 10:46:22,108 - INFO - === Fin ===
-2026-07-10 16:46:21,561 - INFO - === Démarrage Maires ===
-2026-07-10 16:46:21,561 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-10 16:46:21,561 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-10 16:46:21,653 - INFO - Historique chargé: 1771 maires déjà tweetés
 2026-07-10 16:46:21,677 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-14 16:46:23,976 - INFO - Sauvegarde effectuée: 10252 - Pascal BLOUQUIN
 2026-07-14 16:46:23,976 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2077072227657212130'], 'id': '2077072227657212130', 'text': '🏛 Le #maire de Montmartin-Le-Haut (Aube) est Pascal BLOUQUIN (57 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-14 16:46:23,978 - INFO - === Fin ===
+2026-07-15 10:46:23,750 - INFO - === Démarrage Maires ===
+2026-07-15 10:46:23,750 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-15 10:46:23,750 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-15 10:46:23,824 - INFO - Historique chargé: 1780 maires déjà tweetés
+2026-07-15 10:46:23,842 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-15 10:46:23,842 - INFO - Nombre de maires déjà tweetés: 1780
+2026-07-15 10:46:23,844 - INFO - Sélectionné: 57264 - Hervé RUFF (nouveau maire)
+2026-07-15 10:46:23,845 - INFO - Tweet: 🏛 Le #maire de Guebenhouse (Moselle) est Hervé RUFF (51 ans) #MairesdeFrance 🇫🇷
+2026-07-15 10:46:24,116 - INFO - Sauvegarde effectuée: 57264 - Hervé RUFF
+2026-07-15 10:46:24,116 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077344019072360878', 'text': '🏛 Le #maire de Guebenhouse (Moselle) est Hervé RUFF (51 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-15 10:46:24,118 - INFO - === Fin ===
