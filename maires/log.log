@@ -1,14 +1,3 @@
-2026-07-11 16:46:22,638 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-11 16:46:22,724 - INFO - Historique chargé: 1773 maires déjà tweetés
-2026-07-11 16:46:22,745 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-11 16:46:22,745 - INFO - Nombre de maires déjà tweetés: 1773
-2026-07-11 16:46:22,746 - INFO - Sélectionné: 60389 - Fabrice FOUCHER (nouveau maire)
-2026-07-11 16:46:22,747 - INFO - Tweet: 🏛 Le #maire de Maucourt (Oise) est Fabrice FOUCHER (51 ans) #MairesdeFrance 🇫🇷
-2026-07-11 16:46:23,008 - INFO - Sauvegarde effectuée: 60389 - Fabrice FOUCHER
-2026-07-11 16:46:23,008 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Maucourt (Oise) est Fabrice FOUCHER (51 ans) #MairesdeFrance 🇫🇷', 'id': '2075985060029677606', 'edit_history_tweet_ids': ['2075985060029677606']}, includes={}, errors=[], meta={})
-2026-07-11 16:46:23,010 - INFO - === Fin ===
-2026-07-12 10:46:22,133 - INFO - === Démarrage Maires ===
-2026-07-12 10:46:22,133 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-12 10:46:22,133 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-12 10:46:22,223 - INFO - Historique chargé: 1774 maires déjà tweetés
 2026-07-12 10:46:22,249 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-16 10:46:25,176 - INFO - Sauvegarde effectuée: 32336 - Bernard BEYRIA
 2026-07-16 10:46:25,176 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077706411438678428', 'text': '🏛 Le #maire de Puylausic (Gers) est Bernard BEYRIA (73 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-16 10:46:25,178 - INFO - === Fin ===
+2026-07-16 16:46:25,048 - INFO - === Démarrage Maires ===
+2026-07-16 16:46:25,048 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-16 16:46:25,048 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-16 16:46:25,135 - INFO - Historique chargé: 1783 maires déjà tweetés
+2026-07-16 16:46:25,159 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-16 16:46:25,159 - INFO - Nombre de maires déjà tweetés: 1783
+2026-07-16 16:46:25,160 - INFO - Sélectionné: 40040 - Jean Didier BATBY (nouveau maire)
+2026-07-16 16:46:25,162 - INFO - Tweet: 🏛 Le #maire de Beylongue (Landes) est Jean Didier BATBY (63 ans) #MairesdeFrance 🇫🇷
+2026-07-16 16:46:30,193 - INFO - Erreur: 503 Service Unavailable
+Service Unavailable
+2026-07-16 16:46:30,195 - INFO - === Fin ===
