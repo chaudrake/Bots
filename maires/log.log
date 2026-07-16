@@ -1,14 +1,3 @@
-2026-07-11 10:46:23,569 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-11 10:46:23,668 - INFO - Historique chargé: 1772 maires déjà tweetés
-2026-07-11 10:46:23,698 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-11 10:46:23,698 - INFO - Nombre de maires déjà tweetés: 1772
-2026-07-11 10:46:23,700 - INFO - Sélectionné: 44152 - Christophe GATTEPAILLE (nouveau maire)
-2026-07-11 10:46:23,702 - INFO - Tweet: 🏛 Le #maire de Sainte-Anne-Sur-Brivet (Loire-Atlantique) est Christophe GATTEPAILLE (50 ans) #MairesdeFrance 🇫🇷
-2026-07-11 10:46:23,935 - INFO - Sauvegarde effectuée: 44152 - Christophe GATTEPAILLE
-2026-07-11 10:46:23,935 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Sainte-Anne-Sur-Brivet (Loire-Atlantique) est Christophe GATTEPAILLE (50 ans) #MairesdeFrance 🇫🇷', 'id': '2075894466930409650', 'edit_history_tweet_ids': ['2075894466930409650']}, includes={}, errors=[], meta={})
-2026-07-11 10:46:23,938 - INFO - === Fin ===
-2026-07-11 16:46:22,638 - INFO - === Démarrage Maires ===
-2026-07-11 16:46:22,638 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-11 16:46:22,638 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-11 16:46:22,724 - INFO - Historique chargé: 1773 maires déjà tweetés
 2026-07-11 16:46:22,745 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-15 16:46:24,615 - INFO - Sauvegarde effectuée: 51222 - Mathieu GILLOOTS
 2026-07-15 16:46:24,615 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2077434618240786859'], 'text': '🏛 Le #maire de Eclaires (Marne) est Mathieu GILLOOTS (30 ans) #MairesdeFrance 🇫🇷', 'id': '2077434618240786859'}, includes={}, errors=[], meta={})
 2026-07-15 16:46:24,617 - INFO - === Fin ===
+2026-07-16 10:46:24,823 - INFO - === Démarrage Maires ===
+2026-07-16 10:46:24,823 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-16 10:46:24,823 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-16 10:46:24,906 - INFO - Historique chargé: 1782 maires déjà tweetés
+2026-07-16 10:46:24,926 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-16 10:46:24,926 - INFO - Nombre de maires déjà tweetés: 1782
+2026-07-16 10:46:24,927 - INFO - Sélectionné: 32336 - Bernard BEYRIA (nouveau maire)
+2026-07-16 10:46:24,929 - INFO - Tweet: 🏛 Le #maire de Puylausic (Gers) est Bernard BEYRIA (73 ans) #MairesdeFrance 🇫🇷
+2026-07-16 10:46:25,176 - INFO - Sauvegarde effectuée: 32336 - Bernard BEYRIA
+2026-07-16 10:46:25,176 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077706411438678428', 'text': '🏛 Le #maire de Puylausic (Gers) est Bernard BEYRIA (73 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-16 10:46:25,178 - INFO - === Fin ===
