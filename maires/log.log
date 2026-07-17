@@ -1,14 +1,3 @@
-2026-07-12 10:46:22,133 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-12 10:46:22,223 - INFO - Historique chargé: 1774 maires déjà tweetés
-2026-07-12 10:46:22,249 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-12 10:46:22,249 - INFO - Nombre de maires déjà tweetés: 1774
-2026-07-12 10:46:22,251 - INFO - Sélectionné: 27621 - Jean-Michel CAILLEUX (nouveau maire)
-2026-07-12 10:46:22,253 - INFO - Tweet: 🏛 Le #maire de Serez (Eure) est Jean-Michel CAILLEUX (60 ans) #MairesdeFrance 🇫🇷
-2026-07-12 10:46:22,502 - INFO - Sauvegarde effectuée: 27621 - Jean-Michel CAILLEUX
-2026-07-12 10:46:22,502 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076256848794030394'], 'id': '2076256848794030394', 'text': '🏛 Le #maire de Serez (Eure) est Jean-Michel CAILLEUX (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-12 10:46:22,504 - INFO - === Fin ===
-2026-07-12 16:46:24,223 - INFO - === Démarrage Maires ===
-2026-07-12 16:46:24,223 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-12 16:46:24,223 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-12 16:46:24,307 - INFO - Historique chargé: 1775 maires déjà tweetés
 2026-07-12 16:46:24,330 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-16 16:46:30,193 - INFO - Erreur: 503 Service Unavailable
 Service Unavailable
 2026-07-16 16:46:30,195 - INFO - === Fin ===
+2026-07-17 10:46:22,612 - INFO - === Démarrage Maires ===
+2026-07-17 10:46:22,612 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-17 10:46:22,612 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-17 10:46:22,697 - INFO - Historique chargé: 1783 maires déjà tweetés
+2026-07-17 10:46:22,717 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-17 10:46:22,718 - INFO - Nombre de maires déjà tweetés: 1783
+2026-07-17 10:46:22,719 - INFO - Sélectionné: 28026 - Éric VAN BOVEN (nouveau maire)
+2026-07-17 10:46:22,720 - INFO - Tweet: 🏛 Le #maire de Baudreville (Eure-et-Loir) est Éric VAN BOVEN (65 ans) #MairesdeFrance 🇫🇷
+2026-07-17 10:46:22,972 - INFO - Sauvegarde effectuée: 28026 - Éric VAN BOVEN
+2026-07-17 10:46:22,973 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078068790034665626', 'text': '🏛 Le #maire de Baudreville (Eure-et-Loir) est Éric VAN BOVEN (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-17 10:46:22,974 - INFO - === Fin ===
