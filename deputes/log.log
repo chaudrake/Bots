@@ -1,15 +1,3 @@
-2026-07-13 17:17:23,859 - INFO - === Fin ===
-2026-07-14 06:17:22,396 - INFO - === Démarrage Députés ===
-2026-07-14 06:17:22,396 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-14 06:17:22,397 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-14 06:17:22,403 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-14 06:17:22,403 - INFO - Historique chargé: 220 députés déjà tweetés
-2026-07-14 06:17:22,405 - INFO - Nombre de députés uniques: 572
-2026-07-14 06:17:22,405 - INFO - Nombre de députés déjà tweetés: 220
-2026-07-14 06:17:22,406 - INFO - Sélectionné: 7606 - Patrice MARTIN (nouveau député)
-2026-07-14 06:17:22,406 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de Seine-Maritime est Patrice MARTIN (62 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-14 06:17:22,666 - INFO - Sauvegarde effectuée: 7606 - Patrice MARTIN
-2026-07-14 06:17:22,666 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 6e circonscription de Seine-Maritime est Patrice MARTIN (62 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2076913929151029612', 'edit_history_tweet_ids': ['2076913929151029612']}, includes={}, errors=[], meta={})
 2026-07-14 06:17:22,666 - INFO - === Fin ===
 2026-07-14 10:17:22,499 - INFO - === Démarrage Députés ===
 2026-07-14 10:17:22,499 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,14 @@
 2026-07-16 17:17:25,471 - INFO - Sauvegarde effectuée: 7708 - Arnaud BONNET
 2026-07-16 17:17:25,471 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077804810967924941', 'text': '🏛 Le #député de la 8e circonscription de Seine-et-Marne est Arnaud BONNET (49 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-16 17:17:25,472 - INFO - === Fin ===
+2026-07-17 06:17:24,819 - INFO - === Démarrage Députés ===
+2026-07-17 06:17:24,819 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-17 06:17:24,819 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-17 06:17:24,826 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-17 06:17:24,827 - INFO - Historique chargé: 229 députés déjà tweetés
+2026-07-17 06:17:24,829 - INFO - Nombre de députés uniques: 572
+2026-07-17 06:17:24,829 - INFO - Nombre de députés déjà tweetés: 229
+2026-07-17 06:17:24,829 - INFO - Sélectionné: 1704 - Pascal MARKOWSKY (nouveau député)
+2026-07-17 06:17:24,830 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de la Charente-Maritime est Pascal MARKOWSKY (71 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-17 06:17:24,884 - INFO - Erreur: 403 Forbidden
+2026-07-17 06:17:24,885 - INFO - === Fin ===
