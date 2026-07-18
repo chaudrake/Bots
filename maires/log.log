@@ -1,14 +1,3 @@
-2026-07-13 10:46:26,380 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-13 10:46:26,464 - INFO - Historique chargé: 1776 maires déjà tweetés
-2026-07-13 10:46:26,488 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-13 10:46:26,488 - INFO - Nombre de maires déjà tweetés: 1776
-2026-07-13 10:46:26,490 - INFO - Sélectionné: 62435 - Claudine DELORY (nouveau maire)
-2026-07-13 10:46:26,492 - INFO - Tweet: 🏛 La #maire de Herlincourt (Pas-de-Calais) est Claudine DELORY (63 ans) #MairesdeFrance 🇫🇷
-2026-07-13 10:46:26,743 - INFO - Sauvegarde effectuée: 62435 - Claudine DELORY
-2026-07-13 10:46:26,743 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2076619254460530939'], 'text': '🏛 La #maire de Herlincourt (Pas-de-Calais) est Claudine DELORY (63 ans) #MairesdeFrance 🇫🇷', 'id': '2076619254460530939'}, includes={}, errors=[], meta={})
-2026-07-13 10:46:26,745 - INFO - === Fin ===
-2026-07-13 16:46:28,581 - INFO - === Démarrage Maires ===
-2026-07-13 16:46:28,581 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-13 16:46:28,581 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-13 16:46:28,667 - INFO - Historique chargé: 1777 maires déjà tweetés
 2026-07-13 16:46:28,691 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ Service Unavailable
 2026-07-17 16:46:24,377 - INFO - Sauvegarde effectuée: 21339 - Stéphane MERMET
 2026-07-17 16:46:24,377 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078159392793301359', 'text': "🏛 Le #maire de Lantenay (Côte-d'Or) est Stéphane MERMET (47 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-17 16:46:24,379 - INFO - === Fin ===
+2026-07-18 10:46:22,901 - INFO - === Démarrage Maires ===
+2026-07-18 10:46:22,901 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-18 10:46:22,901 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-18 10:46:22,985 - INFO - Historique chargé: 1785 maires déjà tweetés
+2026-07-18 10:46:23,007 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-18 10:46:23,008 - INFO - Nombre de maires déjà tweetés: 1785
+2026-07-18 10:46:23,009 - INFO - Sélectionné: 21706 - Christophe FOUILLAND (nouveau maire)
+2026-07-18 10:46:23,011 - INFO - Tweet: 🏛 Le #maire de Villotte-Sur-Ource (Côte-d'Or) est Christophe FOUILLAND (60 ans) #MairesdeFrance 🇫🇷
+2026-07-18 10:46:23,235 - INFO - Sauvegarde effectuée: 21706 - Christophe FOUILLAND
+2026-07-18 10:46:23,235 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078431179028447641', 'text': "🏛 Le #maire de Villotte-Sur-Ource (Côte-d'Or) est Christophe FOUILLAND (60 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-18 10:46:23,237 - INFO - === Fin ===
