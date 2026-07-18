@@ -1,14 +1,3 @@
-2026-07-13 16:46:28,581 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-13 16:46:28,667 - INFO - Historique chargé: 1777 maires déjà tweetés
-2026-07-13 16:46:28,691 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-13 16:46:28,691 - INFO - Nombre de maires déjà tweetés: 1777
-2026-07-13 16:46:28,693 - INFO - Sélectionné: 30146 - Bernard CAUVIN (nouveau maire)
-2026-07-13 16:46:28,694 - INFO - Tweet: 🏛 Le #maire de Lédignan (Gard) est Bernard CAUVIN (74 ans) #MairesdeFrance 🇫🇷
-2026-07-13 16:46:28,944 - INFO - Sauvegarde effectuée: 30146 - Bernard CAUVIN
-2026-07-13 16:46:28,944 - INFO - Succès: Response(data={'text': '🏛 Le #maire de Lédignan (Gard) est Bernard CAUVIN (74 ans) #MairesdeFrance 🇫🇷', 'id': '2076709860696264843', 'edit_history_tweet_ids': ['2076709860696264843']}, includes={}, errors=[], meta={})
-2026-07-13 16:46:28,947 - INFO - === Fin ===
-2026-07-14 10:46:26,029 - INFO - === Démarrage Maires ===
-2026-07-14 10:46:26,029 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-14 10:46:26,029 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-14 10:46:26,098 - INFO - Historique chargé: 1778 maires déjà tweetés
 2026-07-14 10:46:26,116 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ Service Unavailable
 2026-07-18 10:46:23,235 - INFO - Sauvegarde effectuée: 21706 - Christophe FOUILLAND
 2026-07-18 10:46:23,235 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078431179028447641', 'text': "🏛 Le #maire de Villotte-Sur-Ource (Côte-d'Or) est Christophe FOUILLAND (60 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-18 10:46:23,237 - INFO - === Fin ===
+2026-07-18 16:46:24,400 - INFO - === Démarrage Maires ===
+2026-07-18 16:46:24,400 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-18 16:46:24,400 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-18 16:46:24,483 - INFO - Historique chargé: 1786 maires déjà tweetés
+2026-07-18 16:46:24,505 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-18 16:46:24,505 - INFO - Nombre de maires déjà tweetés: 1786
+2026-07-18 16:46:24,507 - INFO - Sélectionné: 02633 - Marc DOMISSY (nouveau maire)
+2026-07-18 16:46:24,508 - INFO - Tweet: 🏛 Le #maire de Quincy-Sous-Le-Mont (Drôme) est Marc DOMISSY (49 ans) #MairesdeFrance 🇫🇷
+2026-07-18 16:46:24,752 - INFO - Sauvegarde effectuée: 02633 - Marc DOMISSY
+2026-07-18 16:46:24,752 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078521782357930159', 'text': '🏛 Le #maire de Quincy-Sous-Le-Mont (Drôme) est Marc DOMISSY (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-18 16:46:24,754 - INFO - === Fin ===
