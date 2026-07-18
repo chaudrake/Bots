@@ -1,15 +1,3 @@
-2026-07-14 17:17:31,245 - INFO - Succès: Response(data={'text': '🏛 Le #député de la 3e circonscription du Vaucluse est Hervé DE LÉPINAU (57 ans) #Députés #AssembléeNationale 🇫🇷', 'id': '2077080059463270447', 'edit_history_tweet_ids': ['2077080059463270447']}, includes={}, errors=[], meta={})
-2026-07-14 17:17:31,245 - INFO - === Fin ===
-2026-07-15 06:17:22,695 - INFO - === Démarrage Députés ===
-2026-07-15 06:17:22,695 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-15 06:17:22,695 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-15 06:17:22,700 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-15 06:17:22,701 - INFO - Historique chargé: 223 députés déjà tweetés
-2026-07-15 06:17:22,702 - INFO - Nombre de députés uniques: 572
-2026-07-15 06:17:22,702 - INFO - Nombre de députés déjà tweetés: 223
-2026-07-15 06:17:22,703 - INFO - Sélectionné: 2B02 - François-Xavier CECCOLI (nouveau député)
-2026-07-15 06:17:22,703 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de Corse est François-Xavier CECCOLI (57 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-15 06:17:22,947 - INFO - Sauvegarde effectuée: 2B02 - François-Xavier CECCOLI
 2026-07-15 06:17:22,947 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077276318077538689', 'text': '🏛 Le #député de la 2e circonscription de Corse est François-Xavier CECCOLI (57 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-15 06:17:22,947 - INFO - === Fin ===
 2026-07-15 10:17:21,436 - INFO - === Démarrage Députés ===
@@ -107,3 +95,15 @@
 2026-07-17 17:17:22,800 - INFO - Sauvegarde effectuée: 8603 - Pascal LECAMP
 2026-07-17 17:17:22,800 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078167187655713110', 'text': '🏛 Le #député de la 3e circonscription de la Vienne est Pascal LECAMP (68 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-17 17:17:22,800 - INFO - === Fin ===
+2026-07-18 06:17:22,157 - INFO - === Démarrage Députés ===
+2026-07-18 06:17:22,157 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-18 06:17:22,157 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-18 06:17:22,164 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-18 06:17:22,164 - INFO - Historique chargé: 231 députés déjà tweetés
+2026-07-18 06:17:22,166 - INFO - Nombre de députés uniques: 572
+2026-07-18 06:17:22,166 - INFO - Nombre de députés déjà tweetés: 231
+2026-07-18 06:17:22,167 - INFO - Sélectionné: 3407 - Bernard CHAUMEIL (nouveau député)
+2026-07-18 06:17:22,167 - INFO - Tweet: 🏛 Le #député de la 7e circonscription de l'Hérault est Bernard CHAUMEIL (67 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-18 06:17:22,500 - INFO - Sauvegarde effectuée: 3407 - Bernard CHAUMEIL
+2026-07-18 06:17:22,500 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078363479757459565', 'text': "🏛 Le #député de la 7e circonscription de l'Hérault est Bernard CHAUMEIL (67 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-18 06:17:22,500 - INFO - === Fin ===
