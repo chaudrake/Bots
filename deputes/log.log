@@ -1,15 +1,3 @@
-2026-07-17 06:17:24,885 - INFO - === Fin ===
-2026-07-17 10:17:20,872 - INFO - === Démarrage Députés ===
-2026-07-17 10:17:20,872 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-17 10:17:20,872 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-17 10:17:20,879 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-17 10:17:20,880 - INFO - Historique chargé: 229 députés déjà tweetés
-2026-07-17 10:17:20,881 - INFO - Nombre de députés uniques: 572
-2026-07-17 10:17:20,882 - INFO - Nombre de députés déjà tweetés: 229
-2026-07-17 10:17:20,882 - INFO - Sélectionné: 97302 - Davy RIMANE (nouveau député)
-2026-07-17 10:17:20,883 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de Guyane est Davy RIMANE (46 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-17 10:17:21,153 - INFO - Sauvegarde effectuée: 97302 - Davy RIMANE
-2026-07-17 10:17:21,153 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078061484295274535', 'text': '🏛 Le #député de la 2e circonscription de Guyane est Davy RIMANE (46 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-17 10:17:21,153 - INFO - === Fin ===
 2026-07-17 17:17:22,552 - INFO - === Démarrage Députés ===
 2026-07-17 17:17:22,552 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-20 06:17:25,749 - INFO - Sauvegarde effectuée: 3308 - Sophie PANONACLE
 2026-07-20 06:17:25,749 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079088269300748572', 'text': '🏛 La #députée de la 8e circonscription de la Gironde est Sophie PANONACLE (57 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-20 06:17:25,749 - INFO - === Fin ===
+2026-07-20 10:17:24,079 - INFO - === Démarrage Députés ===
+2026-07-20 10:17:24,080 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-20 10:17:24,080 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-20 10:17:24,087 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-20 10:17:24,087 - INFO - Historique chargé: 238 députés déjà tweetés
+2026-07-20 10:17:24,089 - INFO - Nombre de députés uniques: 572
+2026-07-20 10:17:24,089 - INFO - Nombre de députés déjà tweetés: 238
+2026-07-20 10:17:24,090 - INFO - Sélectionné: 0204 - José BEAURAIN (nouveau député)
+2026-07-20 10:17:24,090 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de l'Aisne est José BEAURAIN (54 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-20 10:17:24,319 - INFO - Sauvegarde effectuée: 0204 - José BEAURAIN
+2026-07-20 10:17:24,319 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079148661225959847', 'text': "🏛 Le #député de la 4e circonscription de l'Aisne est José BEAURAIN (54 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-20 10:17:24,319 - INFO - === Fin ===
