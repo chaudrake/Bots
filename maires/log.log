@@ -1,14 +1,3 @@
-2026-07-15 16:46:24,250 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-15 16:46:24,338 - INFO - Historique chargé: 1781 maires déjà tweetés
-2026-07-15 16:46:24,359 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-15 16:46:24,359 - INFO - Nombre de maires déjà tweetés: 1781
-2026-07-15 16:46:24,361 - INFO - Sélectionné: 51222 - Mathieu GILLOOTS (nouveau maire)
-2026-07-15 16:46:24,362 - INFO - Tweet: 🏛 Le #maire de Eclaires (Marne) est Mathieu GILLOOTS (30 ans) #MairesdeFrance 🇫🇷
-2026-07-15 16:46:24,615 - INFO - Sauvegarde effectuée: 51222 - Mathieu GILLOOTS
-2026-07-15 16:46:24,615 - INFO - Succès: Response(data={'edit_history_tweet_ids': ['2077434618240786859'], 'text': '🏛 Le #maire de Eclaires (Marne) est Mathieu GILLOOTS (30 ans) #MairesdeFrance 🇫🇷', 'id': '2077434618240786859'}, includes={}, errors=[], meta={})
-2026-07-15 16:46:24,617 - INFO - === Fin ===
-2026-07-16 10:46:24,823 - INFO - === Démarrage Maires ===
-2026-07-16 10:46:24,823 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-16 10:46:24,823 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-16 10:46:24,906 - INFO - Historique chargé: 1782 maires déjà tweetés
 2026-07-16 10:46:24,926 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ Service Unavailable
 2026-07-20 10:46:25,418 - INFO - Sauvegarde effectuée: 19287 - Karine LACROIX
 2026-07-20 10:46:25,418 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079155963815244234', 'text': '🏛 La #maire de Vitrac-Sur-Montane (Corrèze) est Karine LACROIX (46 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-20 10:46:25,420 - INFO - === Fin ===
+2026-07-20 16:46:30,931 - INFO - === Démarrage Maires ===
+2026-07-20 16:46:30,932 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-20 16:46:30,932 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-20 16:46:30,999 - INFO - Historique chargé: 1790 maires déjà tweetés
+2026-07-20 16:46:31,016 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-20 16:46:31,016 - INFO - Nombre de maires déjà tweetés: 1790
+2026-07-20 16:46:31,017 - INFO - Sélectionné: 52264 - Eric CHAUVIN (nouveau maire)
+2026-07-20 16:46:31,018 - INFO - Tweet: 🏛 Le #maire de Laneuvelle (Haute-Marne) est Eric CHAUVIN (61 ans) #MairesdeFrance 🇫🇷
+2026-07-20 16:46:31,336 - INFO - Sauvegarde effectuée: 52264 - Eric CHAUVIN
+2026-07-20 16:46:31,336 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079246585490542835', 'text': '🏛 Le #maire de Laneuvelle (Haute-Marne) est Eric CHAUVIN (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-20 16:46:31,338 - INFO - === Fin ===
