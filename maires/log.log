@@ -1,14 +1,3 @@
-2026-07-16 10:46:24,823 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-16 10:46:24,906 - INFO - Historique chargé: 1782 maires déjà tweetés
-2026-07-16 10:46:24,926 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-16 10:46:24,926 - INFO - Nombre de maires déjà tweetés: 1782
-2026-07-16 10:46:24,927 - INFO - Sélectionné: 32336 - Bernard BEYRIA (nouveau maire)
-2026-07-16 10:46:24,929 - INFO - Tweet: 🏛 Le #maire de Puylausic (Gers) est Bernard BEYRIA (73 ans) #MairesdeFrance 🇫🇷
-2026-07-16 10:46:25,176 - INFO - Sauvegarde effectuée: 32336 - Bernard BEYRIA
-2026-07-16 10:46:25,176 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2077706411438678428', 'text': '🏛 Le #maire de Puylausic (Gers) est Bernard BEYRIA (73 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-16 10:46:25,178 - INFO - === Fin ===
-2026-07-16 16:46:25,048 - INFO - === Démarrage Maires ===
-2026-07-16 16:46:25,048 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-16 16:46:25,048 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-16 16:46:25,135 - INFO - Historique chargé: 1783 maires déjà tweetés
 2026-07-16 16:46:25,159 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ Service Unavailable
 2026-07-20 16:46:31,336 - INFO - Sauvegarde effectuée: 52264 - Eric CHAUVIN
 2026-07-20 16:46:31,336 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079246585490542835', 'text': '🏛 Le #maire de Laneuvelle (Haute-Marne) est Eric CHAUVIN (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-20 16:46:31,338 - INFO - === Fin ===
+2026-07-21 10:46:24,705 - INFO - === Démarrage Maires ===
+2026-07-21 10:46:24,706 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-21 10:46:24,706 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-21 10:46:24,792 - INFO - Historique chargé: 1791 maires déjà tweetés
+2026-07-21 10:46:24,815 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-21 10:46:24,815 - INFO - Nombre de maires déjà tweetés: 1791
+2026-07-21 10:46:24,817 - INFO - Sélectionné: 58151 - Daniel BARBIER (nouveau maire)
+2026-07-21 10:46:24,819 - INFO - Tweet: 🏛 Le #maire de La Machine (Nièvre) est Daniel BARBIER (62 ans) #MairesdeFrance 🇫🇷
+2026-07-21 10:46:25,053 - INFO - Sauvegarde effectuée: 58151 - Daniel BARBIER
+2026-07-21 10:46:25,053 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079518350221201645', 'text': '🏛 Le #maire de La Machine (Nièvre) est Daniel BARBIER (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-21 10:46:25,055 - INFO - === Fin ===
