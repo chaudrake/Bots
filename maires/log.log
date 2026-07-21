@@ -1,14 +1,3 @@
-2026-07-16 16:46:25,048 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-16 16:46:25,135 - INFO - Historique chargé: 1783 maires déjà tweetés
-2026-07-16 16:46:25,159 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-16 16:46:25,159 - INFO - Nombre de maires déjà tweetés: 1783
-2026-07-16 16:46:25,160 - INFO - Sélectionné: 40040 - Jean Didier BATBY (nouveau maire)
-2026-07-16 16:46:25,162 - INFO - Tweet: 🏛 Le #maire de Beylongue (Landes) est Jean Didier BATBY (63 ans) #MairesdeFrance 🇫🇷
-2026-07-16 16:46:30,193 - INFO - Erreur: 503 Service Unavailable
-Service Unavailable
-2026-07-16 16:46:30,195 - INFO - === Fin ===
-2026-07-17 10:46:22,612 - INFO - === Démarrage Maires ===
-2026-07-17 10:46:22,612 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-17 10:46:22,612 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-17 10:46:22,697 - INFO - Historique chargé: 1783 maires déjà tweetés
 2026-07-17 10:46:22,717 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ Service Unavailable
 2026-07-21 10:46:25,053 - INFO - Sauvegarde effectuée: 58151 - Daniel BARBIER
 2026-07-21 10:46:25,053 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079518350221201645', 'text': '🏛 Le #maire de La Machine (Nièvre) est Daniel BARBIER (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-21 10:46:25,055 - INFO - === Fin ===
+2026-07-21 16:46:25,723 - INFO - === Démarrage Maires ===
+2026-07-21 16:46:25,723 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-21 16:46:25,723 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-21 16:46:25,792 - INFO - Historique chargé: 1792 maires déjà tweetés
+2026-07-21 16:46:25,808 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-21 16:46:25,808 - INFO - Nombre de maires déjà tweetés: 1792
+2026-07-21 16:46:25,810 - INFO - Sélectionné: 63186 - Fabrice SALVADOR (nouveau maire)
+2026-07-21 16:46:25,811 - INFO - Tweet: 🏛 Le #maire de Landogne (Puy-de-Dôme) est Fabrice SALVADOR (48 ans) #MairesdeFrance 🇫🇷
+2026-07-21 16:46:26,114 - INFO - Sauvegarde effectuée: 63186 - Fabrice SALVADOR
+2026-07-21 16:46:26,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079608951566660016', 'text': '🏛 Le #maire de Landogne (Puy-de-Dôme) est Fabrice SALVADOR (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-21 16:46:26,116 - INFO - === Fin ===
