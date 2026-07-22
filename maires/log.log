@@ -1,14 +1,3 @@
-2026-07-17 16:46:23,909 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-17 16:46:23,999 - INFO - Historique chargé: 1784 maires déjà tweetés
-2026-07-17 16:46:24,021 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-17 16:46:24,022 - INFO - Nombre de maires déjà tweetés: 1784
-2026-07-17 16:46:24,023 - INFO - Sélectionné: 21339 - Stéphane MERMET (nouveau maire)
-2026-07-17 16:46:24,024 - INFO - Tweet: 🏛 Le #maire de Lantenay (Côte-d'Or) est Stéphane MERMET (47 ans) #MairesdeFrance 🇫🇷
-2026-07-17 16:46:24,377 - INFO - Sauvegarde effectuée: 21339 - Stéphane MERMET
-2026-07-17 16:46:24,377 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078159392793301359', 'text': "🏛 Le #maire de Lantenay (Côte-d'Or) est Stéphane MERMET (47 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-07-17 16:46:24,379 - INFO - === Fin ===
-2026-07-18 10:46:22,901 - INFO - === Démarrage Maires ===
-2026-07-18 10:46:22,901 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-18 10:46:22,901 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-18 10:46:22,985 - INFO - Historique chargé: 1785 maires déjà tweetés
 2026-07-18 10:46:23,007 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-22 10:46:21,139 - INFO - Sauvegarde effectuée: 46085 - Evelyne MOURGUES
 2026-07-22 10:46:21,139 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079880721573761131', 'text': '🏛 La #maire de Cuzac (Lot) est Evelyne MOURGUES (64 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-22 10:46:21,141 - INFO - === Fin ===
+2026-07-22 16:46:25,104 - INFO - === Démarrage Maires ===
+2026-07-22 16:46:25,105 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-22 16:46:25,105 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-22 16:46:25,186 - INFO - Historique chargé: 1794 maires déjà tweetés
+2026-07-22 16:46:25,206 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-22 16:46:25,206 - INFO - Nombre de maires déjà tweetés: 1794
+2026-07-22 16:46:25,207 - INFO - Changement détecté: 58002 (Philippe BOURGEOIS → Françoise ROUSSEL)
+2026-07-22 16:46:25,209 - INFO - Tweet: 🏛 La #maire de Alligny-Cosne (Nièvre) est Françoise ROUSSEL (65 ans) #MairesdeFrance 🇫🇷
+2026-07-22 16:46:25,525 - INFO - Sauvegarde effectuée: 58002 - Françoise ROUSSEL
+2026-07-22 16:46:25,525 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079971336919634358', 'text': '🏛 La #maire de Alligny-Cosne (Nièvre) est Françoise ROUSSEL (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-22 16:46:25,528 - INFO - === Fin ===
