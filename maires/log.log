@@ -1,14 +1,3 @@
-2026-07-17 10:46:22,612 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-17 10:46:22,697 - INFO - Historique chargé: 1783 maires déjà tweetés
-2026-07-17 10:46:22,717 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-17 10:46:22,718 - INFO - Nombre de maires déjà tweetés: 1783
-2026-07-17 10:46:22,719 - INFO - Sélectionné: 28026 - Éric VAN BOVEN (nouveau maire)
-2026-07-17 10:46:22,720 - INFO - Tweet: 🏛 Le #maire de Baudreville (Eure-et-Loir) est Éric VAN BOVEN (65 ans) #MairesdeFrance 🇫🇷
-2026-07-17 10:46:22,972 - INFO - Sauvegarde effectuée: 28026 - Éric VAN BOVEN
-2026-07-17 10:46:22,973 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078068790034665626', 'text': '🏛 Le #maire de Baudreville (Eure-et-Loir) est Éric VAN BOVEN (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-17 10:46:22,974 - INFO - === Fin ===
-2026-07-17 16:46:23,909 - INFO - === Démarrage Maires ===
-2026-07-17 16:46:23,909 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-17 16:46:23,909 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-17 16:46:23,999 - INFO - Historique chargé: 1784 maires déjà tweetés
 2026-07-17 16:46:24,021 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-21 16:46:26,114 - INFO - Sauvegarde effectuée: 63186 - Fabrice SALVADOR
 2026-07-21 16:46:26,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079608951566660016', 'text': '🏛 Le #maire de Landogne (Puy-de-Dôme) est Fabrice SALVADOR (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-21 16:46:26,116 - INFO - === Fin ===
+2026-07-22 10:46:20,736 - INFO - === Démarrage Maires ===
+2026-07-22 10:46:20,736 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-22 10:46:20,736 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-22 10:46:20,827 - INFO - Historique chargé: 1793 maires déjà tweetés
+2026-07-22 10:46:20,847 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-22 10:46:20,847 - INFO - Nombre de maires déjà tweetés: 1793
+2026-07-22 10:46:20,848 - INFO - Sélectionné: 46085 - Evelyne MOURGUES (nouveau maire)
+2026-07-22 10:46:20,849 - INFO - Tweet: 🏛 La #maire de Cuzac (Lot) est Evelyne MOURGUES (64 ans) #MairesdeFrance 🇫🇷
+2026-07-22 10:46:21,139 - INFO - Sauvegarde effectuée: 46085 - Evelyne MOURGUES
+2026-07-22 10:46:21,139 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079880721573761131', 'text': '🏛 La #maire de Cuzac (Lot) est Evelyne MOURGUES (64 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-22 10:46:21,141 - INFO - === Fin ===
