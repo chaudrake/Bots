@@ -20,3 +20,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/nadal.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/trump.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/macron.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/Londonbridge.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/nicolekidman.jpg
