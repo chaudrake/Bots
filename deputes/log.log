@@ -1,15 +1,3 @@
-2026-07-19 06:17:22,580 - INFO - === Fin ===
-2026-07-19 10:17:23,354 - INFO - === Démarrage Députés ===
-2026-07-19 10:17:23,354 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-19 10:17:23,354 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-19 10:17:23,361 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-19 10:17:23,362 - INFO - Historique chargé: 235 députés déjà tweetés
-2026-07-19 10:17:23,364 - INFO - Nombre de députés uniques: 572
-2026-07-19 10:17:23,364 - INFO - Nombre de députés déjà tweetés: 235
-2026-07-19 10:17:23,366 - INFO - Sélectionné: 3304 - Alain DAVID (nouveau député)
-2026-07-19 10:17:23,367 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de la Gironde est Alain DAVID (77 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-19 10:17:23,703 - INFO - Sauvegarde effectuée: 3304 - Alain DAVID
-2026-07-19 10:17:23,703 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078786270709403874', 'text': '🏛 Le #député de la 4e circonscription de la Gironde est Alain DAVID (77 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-19 10:17:23,703 - INFO - === Fin ===
 2026-07-19 17:17:23,917 - INFO - === Démarrage Députés ===
 2026-07-19 17:17:23,917 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-22 06:17:24,449 - INFO - Sauvegarde effectuée: 9102 - Nathalie DA CONCEICAO CARVALHO
 2026-07-22 06:17:24,450 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079813039537488286', 'text': "🏛 La #députée de la 2e circonscription de l'Essonne est Nathalie DA CONCEICAO CARVALHO (60 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-22 06:17:24,450 - INFO - === Fin ===
+2026-07-22 10:17:20,598 - INFO - === Démarrage Députés ===
+2026-07-22 10:17:20,598 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-22 10:17:20,598 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-22 10:17:20,671 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-22 10:17:20,671 - INFO - Historique chargé: 244 députés déjà tweetés
+2026-07-22 10:17:20,673 - INFO - Nombre de députés uniques: 572
+2026-07-22 10:17:20,673 - INFO - Nombre de députés déjà tweetés: 244
+2026-07-22 10:17:20,674 - INFO - Sélectionné: 3309 - Sophie METTE (nouveau député)
+2026-07-22 10:17:20,674 - INFO - Tweet: 🏛 La #députée de la 9e circonscription de la Gironde est Sophie METTE (66 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-22 10:17:20,936 - INFO - Sauvegarde effectuée: 3309 - Sophie METTE
+2026-07-22 10:17:20,936 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079873422763475361', 'text': '🏛 La #députée de la 9e circonscription de la Gironde est Sophie METTE (66 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-22 10:17:20,936 - INFO - === Fin ===
