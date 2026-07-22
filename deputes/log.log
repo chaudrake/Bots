@@ -1,15 +1,3 @@
-2026-07-19 10:17:23,703 - INFO - === Fin ===
-2026-07-19 17:17:23,917 - INFO - === Démarrage Députés ===
-2026-07-19 17:17:23,917 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-19 17:17:23,917 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-19 17:17:23,924 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-19 17:17:23,924 - INFO - Historique chargé: 236 députés déjà tweetés
-2026-07-19 17:17:23,926 - INFO - Nombre de députés uniques: 572
-2026-07-19 17:17:23,926 - INFO - Nombre de députés déjà tweetés: 236
-2026-07-19 17:17:23,927 - INFO - Sélectionné: 8101 - Philippe BONNECARRERE (nouveau député)
-2026-07-19 17:17:23,927 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription du Tarn est Philippe BONNECARRERE (71 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-19 17:17:24,152 - INFO - Sauvegarde effectuée: 8101 - Philippe BONNECARRERE
-2026-07-19 17:17:24,152 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078891969107915215', 'text': '🏛 Le #député de la 1ère circonscription du Tarn est Philippe BONNECARRERE (71 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-19 17:17:24,152 - INFO - === Fin ===
 2026-07-20 06:17:25,504 - INFO - === Démarrage Députés ===
 2026-07-20 06:17:25,504 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-22 10:17:20,936 - INFO - Sauvegarde effectuée: 3309 - Sophie METTE
 2026-07-22 10:17:20,936 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079873422763475361', 'text': '🏛 La #députée de la 9e circonscription de la Gironde est Sophie METTE (66 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-22 10:17:20,936 - INFO - === Fin ===
+2026-07-22 17:17:26,392 - INFO - === Démarrage Députés ===
+2026-07-22 17:17:26,392 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-22 17:17:26,392 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-22 17:17:26,399 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-22 17:17:26,399 - INFO - Historique chargé: 245 députés déjà tweetés
+2026-07-22 17:17:26,401 - INFO - Nombre de députés uniques: 572
+2026-07-22 17:17:26,401 - INFO - Nombre de députés déjà tweetés: 245
+2026-07-22 17:17:26,402 - INFO - Sélectionné: 9109 - Julie OZENNE (nouveau député)
+2026-07-22 17:17:26,402 - INFO - Tweet: 🏛 La #députée de la 9e circonscription de l'Essonne est Julie OZENNE (47 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-22 17:17:26,673 - INFO - Sauvegarde effectuée: 9109 - Julie OZENNE
+2026-07-22 17:17:26,673 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079979143186300983', 'text': "🏛 La #députée de la 9e circonscription de l'Essonne est Julie OZENNE (47 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-22 17:17:26,673 - INFO - === Fin ===
