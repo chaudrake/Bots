@@ -1,14 +1,3 @@
-2026-07-18 10:46:22,901 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-18 10:46:22,985 - INFO - Historique chargé: 1785 maires déjà tweetés
-2026-07-18 10:46:23,007 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-18 10:46:23,008 - INFO - Nombre de maires déjà tweetés: 1785
-2026-07-18 10:46:23,009 - INFO - Sélectionné: 21706 - Christophe FOUILLAND (nouveau maire)
-2026-07-18 10:46:23,011 - INFO - Tweet: 🏛 Le #maire de Villotte-Sur-Ource (Côte-d'Or) est Christophe FOUILLAND (60 ans) #MairesdeFrance 🇫🇷
-2026-07-18 10:46:23,235 - INFO - Sauvegarde effectuée: 21706 - Christophe FOUILLAND
-2026-07-18 10:46:23,235 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078431179028447641', 'text': "🏛 Le #maire de Villotte-Sur-Ource (Côte-d'Or) est Christophe FOUILLAND (60 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-07-18 10:46:23,237 - INFO - === Fin ===
-2026-07-18 16:46:24,400 - INFO - === Démarrage Maires ===
-2026-07-18 16:46:24,400 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-18 16:46:24,400 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-18 16:46:24,483 - INFO - Historique chargé: 1786 maires déjà tweetés
 2026-07-18 16:46:24,505 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-22 16:46:25,525 - INFO - Sauvegarde effectuée: 58002 - Françoise ROUSSEL
 2026-07-22 16:46:25,525 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079971336919634358', 'text': '🏛 La #maire de Alligny-Cosne (Nièvre) est Françoise ROUSSEL (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-22 16:46:25,528 - INFO - === Fin ===
+2026-07-23 10:46:26,876 - INFO - === Démarrage Maires ===
+2026-07-23 10:46:26,876 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-23 10:46:26,876 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-23 10:46:26,965 - INFO - Historique chargé: 1794 maires déjà tweetés
+2026-07-23 10:46:26,989 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-23 10:46:26,989 - INFO - Nombre de maires déjà tweetés: 1794
+2026-07-23 10:46:26,990 - INFO - Sélectionné: 55456 - Rémi POTIER (nouveau maire)
+2026-07-23 10:46:26,992 - INFO - Tweet: 🏛 Le #maire de Saint-Germain-Sur-Meuse (Meuse) est Rémi POTIER (43 ans) #MairesdeFrance 🇫🇷
+2026-07-23 10:46:27,233 - INFO - Sauvegarde effectuée: 55456 - Rémi POTIER
+2026-07-23 10:46:27,233 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080243135095959975', 'text': '🏛 Le #maire de Saint-Germain-Sur-Meuse (Meuse) est Rémi POTIER (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-23 10:46:27,235 - INFO - === Fin ===
