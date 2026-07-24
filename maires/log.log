@@ -1,14 +1,3 @@
-2026-07-19 10:46:23,982 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-19 10:46:24,067 - INFO - Historique chargé: 1787 maires déjà tweetés
-2026-07-19 10:46:24,090 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-19 10:46:24,090 - INFO - Nombre de maires déjà tweetés: 1787
-2026-07-19 10:46:24,091 - INFO - Sélectionné: 05029 - Elsie NICOLAS (nouveau maire)
-2026-07-19 10:46:24,093 - INFO - Tweet: 🏛 La #maire de Chabottes (Manche) est Elsie NICOLAS (42 ans) #MairesdeFrance 🇫🇷
-2026-07-19 10:46:24,367 - INFO - Sauvegarde effectuée: 05029 - Elsie NICOLAS
-2026-07-19 10:46:24,367 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2078793571625504817', 'text': '🏛 La #maire de Chabottes (Manche) est Elsie NICOLAS (42 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-19 10:46:24,369 - INFO - === Fin ===
-2026-07-19 16:46:25,039 - INFO - === Démarrage Maires ===
-2026-07-19 16:46:25,039 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-19 16:46:25,039 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-19 16:46:25,127 - INFO - Historique chargé: 1788 maires déjà tweetés
 2026-07-19 16:46:25,151 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-23 16:46:26,200 - INFO - Sauvegarde effectuée: 25546 - Nicos MARRINER
 2026-07-23 16:46:26,200 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080333727700271538', 'text': '🏛 Le #maire de Silley-Bléfond (Doubs) est Nicos MARRINER (46 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-23 16:46:26,203 - INFO - === Fin ===
+2026-07-24 10:46:24,019 - INFO - === Démarrage Maires ===
+2026-07-24 10:46:24,019 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-24 10:46:24,019 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-24 10:46:24,095 - INFO - Historique chargé: 1795 maires déjà tweetés
+2026-07-24 10:46:24,113 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-24 10:46:24,113 - INFO - Nombre de maires déjà tweetés: 1795
+2026-07-24 10:46:24,114 - INFO - Sélectionné: 24544 - Marc PONS (nouveau maire)
+2026-07-24 10:46:24,116 - INFO - Tweet: 🏛 Le #maire de Tamniès (Dordogne) est Marc PONS (68 ans) #MairesdeFrance 🇫🇷
+2026-07-24 10:46:24,538 - INFO - Sauvegarde effectuée: 24544 - Marc PONS
+2026-07-24 10:46:24,538 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080605511599464749', 'text': '🏛 Le #maire de Tamniès (Dordogne) est Marc PONS (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-24 10:46:24,540 - INFO - === Fin ===
