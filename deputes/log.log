@@ -1,15 +1,3 @@
-2026-07-21 17:17:26,286 - INFO - === Fin ===
-2026-07-22 06:17:24,226 - INFO - === Démarrage Députés ===
-2026-07-22 06:17:24,226 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-22 06:17:24,227 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-22 06:17:24,233 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-22 06:17:24,234 - INFO - Historique chargé: 243 députés déjà tweetés
-2026-07-22 06:17:24,235 - INFO - Nombre de députés uniques: 572
-2026-07-22 06:17:24,235 - INFO - Nombre de députés déjà tweetés: 243
-2026-07-22 06:17:24,237 - INFO - Sélectionné: 9102 - Nathalie DA CONCEICAO CARVALHO (nouveau député)
-2026-07-22 06:17:24,237 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de l'Essonne est Nathalie DA CONCEICAO CARVALHO (60 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-22 06:17:24,449 - INFO - Sauvegarde effectuée: 9102 - Nathalie DA CONCEICAO CARVALHO
-2026-07-22 06:17:24,450 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079813039537488286', 'text': "🏛 La #députée de la 2e circonscription de l'Essonne est Nathalie DA CONCEICAO CARVALHO (60 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-22 06:17:24,450 - INFO - === Fin ===
 2026-07-22 10:17:20,598 - INFO - === Démarrage Députés ===
 2026-07-22 10:17:20,598 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-24 17:17:23,113 - INFO - Sauvegarde effectuée: 5904 - Brigitte LISO
 2026-07-24 17:17:23,113 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080703904040227237', 'text': '🏛 La #députée de la 4e circonscription du Nord est Brigitte LISO (66 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-24 17:17:23,114 - INFO - === Fin ===
+2026-07-25 06:17:25,322 - INFO - === Démarrage Députés ===
+2026-07-25 06:17:25,322 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-25 06:17:25,322 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-25 06:17:25,329 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-25 06:17:25,329 - INFO - Historique chargé: 252 députés déjà tweetés
+2026-07-25 06:17:25,331 - INFO - Nombre de députés uniques: 572
+2026-07-25 06:17:25,331 - INFO - Nombre de députés déjà tweetés: 252
+2026-07-25 06:17:25,332 - INFO - Sélectionné: 0205 - Jocelyn DESSIGNY (nouveau député)
+2026-07-25 06:17:25,332 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de l'Aisne est Jocelyn DESSIGNY (45 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-25 06:17:25,672 - INFO - Sauvegarde effectuée: 0205 - Jocelyn DESSIGNY
+2026-07-25 06:17:25,672 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080900208188092703', 'text': "🏛 Le #député de la 5e circonscription de l'Aisne est Jocelyn DESSIGNY (45 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-25 06:17:25,673 - INFO - === Fin ===
