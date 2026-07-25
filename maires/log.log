@@ -1,14 +1,3 @@
-2026-07-20 16:46:30,932 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-20 16:46:30,999 - INFO - Historique chargé: 1790 maires déjà tweetés
-2026-07-20 16:46:31,016 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-20 16:46:31,016 - INFO - Nombre de maires déjà tweetés: 1790
-2026-07-20 16:46:31,017 - INFO - Sélectionné: 52264 - Eric CHAUVIN (nouveau maire)
-2026-07-20 16:46:31,018 - INFO - Tweet: 🏛 Le #maire de Laneuvelle (Haute-Marne) est Eric CHAUVIN (61 ans) #MairesdeFrance 🇫🇷
-2026-07-20 16:46:31,336 - INFO - Sauvegarde effectuée: 52264 - Eric CHAUVIN
-2026-07-20 16:46:31,336 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079246585490542835', 'text': '🏛 Le #maire de Laneuvelle (Haute-Marne) est Eric CHAUVIN (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-20 16:46:31,338 - INFO - === Fin ===
-2026-07-21 10:46:24,705 - INFO - === Démarrage Maires ===
-2026-07-21 10:46:24,706 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-21 10:46:24,706 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-21 10:46:24,792 - INFO - Historique chargé: 1791 maires déjà tweetés
 2026-07-21 10:46:24,815 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-25 10:46:26,937 - INFO - Sauvegarde effectuée: 52348 - Eric OUDOT
 2026-07-25 10:46:26,937 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080967909556335085', 'text': "🏛 Le #maire de Neuilly-L'Evêque (Haute-Marne) est Eric OUDOT (57 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-25 10:46:26,939 - INFO - === Fin ===
+2026-07-25 16:46:23,508 - INFO - === Démarrage Maires ===
+2026-07-25 16:46:23,508 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-25 16:46:23,508 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-25 16:46:23,600 - INFO - Historique chargé: 1798 maires déjà tweetés
+2026-07-25 16:46:23,623 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-25 16:46:23,623 - INFO - Nombre de maires déjà tweetés: 1798
+2026-07-25 16:46:23,624 - INFO - Sélectionné: 35069 - Anne-Marie ECHELARD (nouveau maire)
+2026-07-25 16:46:23,626 - INFO - Tweet: 🏛 La #maire de Châteaugiron (Ille-et-Vilaine) est Anne-Marie ECHELARD (61 ans) #MairesdeFrance 🇫🇷
+2026-07-25 16:46:23,871 - INFO - Sauvegarde effectuée: 35069 - Anne-Marie ECHELARD
+2026-07-25 16:46:23,872 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081058493679694100', 'text': '🏛 La #maire de Châteaugiron (Ille-et-Vilaine) est Anne-Marie ECHELARD (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-25 16:46:23,874 - INFO - === Fin ===
