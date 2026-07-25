@@ -123,7 +123,8 @@
     "Burger maison et légumes",
     "Saucisson brioché et salade verte",
     "Pot-au-feu de volaille",
-    "Tartare de daurade"
+    "Tartare de daurade",
+    "Tarte provençale à la tomate"
   ],
   "used_entrees": [
     "Rouleaux de printemps",
@@ -163,6 +164,7 @@
     "Salade de chèvre chaud",
     "Carottes râpées",
     "Salade de mesclun",
-    "Salade de riz au thon"
+    "Salade de riz au thon",
+    "Tomates mozzarella et basilic"
   ]
 }
