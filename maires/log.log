@@ -1,14 +1,3 @@
-2026-07-21 10:46:24,706 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-21 10:46:24,792 - INFO - Historique chargé: 1791 maires déjà tweetés
-2026-07-21 10:46:24,815 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-21 10:46:24,815 - INFO - Nombre de maires déjà tweetés: 1791
-2026-07-21 10:46:24,817 - INFO - Sélectionné: 58151 - Daniel BARBIER (nouveau maire)
-2026-07-21 10:46:24,819 - INFO - Tweet: 🏛 Le #maire de La Machine (Nièvre) est Daniel BARBIER (62 ans) #MairesdeFrance 🇫🇷
-2026-07-21 10:46:25,053 - INFO - Sauvegarde effectuée: 58151 - Daniel BARBIER
-2026-07-21 10:46:25,053 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079518350221201645', 'text': '🏛 Le #maire de La Machine (Nièvre) est Daniel BARBIER (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-21 10:46:25,055 - INFO - === Fin ===
-2026-07-21 16:46:25,723 - INFO - === Démarrage Maires ===
-2026-07-21 16:46:25,723 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-21 16:46:25,723 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-21 16:46:25,792 - INFO - Historique chargé: 1792 maires déjà tweetés
 2026-07-21 16:46:25,808 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-25 16:46:23,871 - INFO - Sauvegarde effectuée: 35069 - Anne-Marie ECHELARD
 2026-07-25 16:46:23,872 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081058493679694100', 'text': '🏛 La #maire de Châteaugiron (Ille-et-Vilaine) est Anne-Marie ECHELARD (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-25 16:46:23,874 - INFO - === Fin ===
+2026-07-26 10:46:21,883 - INFO - === Démarrage Maires ===
+2026-07-26 10:46:21,883 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-26 10:46:21,883 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-26 10:46:21,970 - INFO - Historique chargé: 1799 maires déjà tweetés
+2026-07-26 10:46:21,991 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-26 10:46:21,991 - INFO - Nombre de maires déjà tweetés: 1799
+2026-07-26 10:46:21,992 - INFO - Sélectionné: 70207 - Serge VIEILLE (nouveau maire)
+2026-07-26 10:46:21,994 - INFO - Tweet: 🏛 Le #maire de Echenoz-La-Méline (Haute-Saône) est Serge VIEILLE (75 ans) #MairesdeFrance 🇫🇷
+2026-07-26 10:46:22,330 - INFO - Sauvegarde effectuée: 70207 - Serge VIEILLE
+2026-07-26 10:46:22,330 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081330277880619260', 'text': '🏛 Le #maire de Echenoz-La-Méline (Haute-Saône) est Serge VIEILLE (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-26 10:46:22,332 - INFO - === Fin ===
