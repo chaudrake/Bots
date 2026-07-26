@@ -1,15 +1,3 @@
-2026-07-23 10:17:23,069 - INFO - === Fin ===
-2026-07-23 17:17:39,094 - INFO - === Démarrage Députés ===
-2026-07-23 17:17:39,094 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-23 17:17:39,094 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-23 17:17:39,103 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-23 17:17:39,104 - INFO - Historique chargé: 248 députés déjà tweetés
-2026-07-23 17:17:39,105 - INFO - Nombre de députés uniques: 572
-2026-07-23 17:17:39,105 - INFO - Nombre de députés déjà tweetés: 248
-2026-07-23 17:17:39,106 - INFO - Sélectionné: 2905 - Graziella MELCHIOR (nouveau député)
-2026-07-23 17:17:39,106 - INFO - Tweet: 🏛 La #députée de la 5e circonscription du Finistère est Graziella MELCHIOR (66 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-23 17:17:39,430 - INFO - Sauvegarde effectuée: 2905 - Graziella MELCHIOR
-2026-07-23 17:17:39,430 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080341584462115057', 'text': '🏛 La #députée de la 5e circonscription du Finistère est Graziella MELCHIOR (66 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-23 17:17:39,430 - INFO - === Fin ===
 2026-07-24 06:17:21,714 - INFO - === Démarrage Députés ===
 2026-07-24 06:17:21,714 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-26 10:17:26,466 - INFO - Sauvegarde effectuée: 8901 - Daniel GRENON
 2026-07-26 10:17:26,466 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081322997449965766', 'text': "🏛 Le #député de la 1ère circonscription de l'Yonne est Daniel GRENON (77 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-26 10:17:26,466 - INFO - === Fin ===
+2026-07-26 17:17:25,463 - INFO - === Démarrage Députés ===
+2026-07-26 17:17:25,463 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-26 17:17:25,463 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-26 17:17:25,479 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-26 17:17:25,479 - INFO - Historique chargé: 257 députés déjà tweetés
+2026-07-26 17:17:25,481 - INFO - Nombre de députés uniques: 572
+2026-07-26 17:17:25,481 - INFO - Nombre de députés déjà tweetés: 257
+2026-07-26 17:17:25,483 - INFO - Sélectionné: 7803 - Béatrice PIRON (nouveau député)
+2026-07-26 17:17:25,483 - INFO - Tweet: 🏛 La #députée de la 3e circonscription des Yvelines est Béatrice PIRON (60 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-26 17:17:25,794 - INFO - Sauvegarde effectuée: 7803 - Béatrice PIRON
+2026-07-26 17:17:25,795 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081428690970530149', 'text': '🏛 La #députée de la 3e circonscription des Yvelines est Béatrice PIRON (60 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-26 17:17:25,795 - INFO - === Fin ===
