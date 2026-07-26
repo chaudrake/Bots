@@ -1,14 +1,3 @@
-2026-07-21 16:46:25,723 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-21 16:46:25,792 - INFO - Historique chargé: 1792 maires déjà tweetés
-2026-07-21 16:46:25,808 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-21 16:46:25,808 - INFO - Nombre de maires déjà tweetés: 1792
-2026-07-21 16:46:25,810 - INFO - Sélectionné: 63186 - Fabrice SALVADOR (nouveau maire)
-2026-07-21 16:46:25,811 - INFO - Tweet: 🏛 Le #maire de Landogne (Puy-de-Dôme) est Fabrice SALVADOR (48 ans) #MairesdeFrance 🇫🇷
-2026-07-21 16:46:26,114 - INFO - Sauvegarde effectuée: 63186 - Fabrice SALVADOR
-2026-07-21 16:46:26,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079608951566660016', 'text': '🏛 Le #maire de Landogne (Puy-de-Dôme) est Fabrice SALVADOR (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-21 16:46:26,116 - INFO - === Fin ===
-2026-07-22 10:46:20,736 - INFO - === Démarrage Maires ===
-2026-07-22 10:46:20,736 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-22 10:46:20,736 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-22 10:46:20,827 - INFO - Historique chargé: 1793 maires déjà tweetés
 2026-07-22 10:46:20,847 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-26 10:46:22,330 - INFO - Sauvegarde effectuée: 70207 - Serge VIEILLE
 2026-07-26 10:46:22,330 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081330277880619260', 'text': '🏛 Le #maire de Echenoz-La-Méline (Haute-Saône) est Serge VIEILLE (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-26 10:46:22,332 - INFO - === Fin ===
+2026-07-26 16:46:25,548 - INFO - === Démarrage Maires ===
+2026-07-26 16:46:25,548 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-26 16:46:25,548 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-26 16:46:25,634 - INFO - Historique chargé: 1800 maires déjà tweetés
+2026-07-26 16:46:25,655 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-26 16:46:25,655 - INFO - Nombre de maires déjà tweetés: 1800
+2026-07-26 16:46:25,657 - INFO - Sélectionné: 50099 - Rosine LESIEUR (nouveau maire)
+2026-07-26 16:46:25,658 - INFO - Tweet: 🏛 La #maire de Carentan-Les-Marais (Manche) est Rosine LESIEUR (58 ans) #MairesdeFrance 🇫🇷
+2026-07-26 16:46:26,003 - INFO - Sauvegarde effectuée: 50099 - Rosine LESIEUR
+2026-07-26 16:46:26,003 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081420890483601552', 'text': '🏛 La #maire de Carentan-Les-Marais (Manche) est Rosine LESIEUR (58 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-26 16:46:26,005 - INFO - === Fin ===
