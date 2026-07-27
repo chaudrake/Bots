@@ -1,14 +1,3 @@
-2026-07-22 16:46:25,105 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-22 16:46:25,186 - INFO - Historique chargé: 1794 maires déjà tweetés
-2026-07-22 16:46:25,206 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-22 16:46:25,206 - INFO - Nombre de maires déjà tweetés: 1794
-2026-07-22 16:46:25,207 - INFO - Changement détecté: 58002 (Philippe BOURGEOIS → Françoise ROUSSEL)
-2026-07-22 16:46:25,209 - INFO - Tweet: 🏛 La #maire de Alligny-Cosne (Nièvre) est Françoise ROUSSEL (65 ans) #MairesdeFrance 🇫🇷
-2026-07-22 16:46:25,525 - INFO - Sauvegarde effectuée: 58002 - Françoise ROUSSEL
-2026-07-22 16:46:25,525 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2079971336919634358', 'text': '🏛 La #maire de Alligny-Cosne (Nièvre) est Françoise ROUSSEL (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-22 16:46:25,528 - INFO - === Fin ===
-2026-07-23 10:46:26,876 - INFO - === Démarrage Maires ===
-2026-07-23 10:46:26,876 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-23 10:46:26,876 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-23 10:46:26,965 - INFO - Historique chargé: 1794 maires déjà tweetés
 2026-07-23 10:46:26,989 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-27 10:46:25,361 - INFO - Sauvegarde effectuée: 70130 - Michel RENEVIER
 2026-07-27 10:46:25,361 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081692678635557242', 'text': '🏛 Le #maire de Charcenne (Haute-Saône) est Michel RENEVIER (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-27 10:46:25,362 - INFO - === Fin ===
+2026-07-27 16:46:30,502 - INFO - === Démarrage Maires ===
+2026-07-27 16:46:30,502 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-27 16:46:30,502 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-27 16:46:30,574 - INFO - Historique chargé: 1802 maires déjà tweetés
+2026-07-27 16:46:30,595 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-27 16:46:30,595 - INFO - Nombre de maires déjà tweetés: 1802
+2026-07-27 16:46:30,596 - INFO - Sélectionné: 16178 - Alain TESTAUD (nouveau maire)
+2026-07-27 16:46:30,598 - INFO - Tweet: 🏛 Le #maire de Lagarde-Sur-Le-Né (Charente) est Alain TESTAUD (75 ans) #MairesdeFrance 🇫🇷
+2026-07-27 16:46:30,859 - INFO - Sauvegarde effectuée: 16178 - Alain TESTAUD
+2026-07-27 16:46:30,859 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081783298595164559', 'text': '🏛 Le #maire de Lagarde-Sur-Le-Né (Charente) est Alain TESTAUD (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-27 16:46:30,861 - INFO - === Fin ===
