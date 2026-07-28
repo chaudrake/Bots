@@ -1,15 +1,3 @@
-2026-07-25 10:17:26,618 - INFO - === Fin ===
-2026-07-25 17:17:21,968 - INFO - === Démarrage Députés ===
-2026-07-25 17:17:21,968 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-25 17:17:21,968 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-25 17:17:21,975 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-25 17:17:21,976 - INFO - Historique chargé: 254 députés déjà tweetés
-2026-07-25 17:17:21,978 - INFO - Nombre de députés uniques: 572
-2026-07-25 17:17:21,978 - INFO - Nombre de députés déjà tweetés: 254
-2026-07-25 17:17:21,979 - INFO - Sélectionné: 7804 - Marie LEBEC (nouveau député)
-2026-07-25 17:17:21,979 - INFO - Tweet: 🏛 La #députée de la 4e circonscription des Yvelines est Marie LEBEC (35 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-25 17:17:22,219 - INFO - Sauvegarde effectuée: 7804 - Marie LEBEC
-2026-07-25 17:17:22,219 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081066288143589829', 'text': '🏛 La #députée de la 4e circonscription des Yvelines est Marie LEBEC (35 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-25 17:17:22,219 - INFO - === Fin ===
 2026-07-26 06:17:25,186 - INFO - === Démarrage Députés ===
 2026-07-26 06:17:25,186 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-28 10:17:27,115 - INFO - Sauvegarde effectuée: 3508 - Mickaël BOULOUX
 2026-07-28 10:17:27,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082047775789703355', 'text': "🏛 Le #député de la 8e circonscription d'Ille-et-Vilaine est Mickaël BOULOUX (53 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-28 10:17:27,115 - INFO - === Fin ===
+2026-07-28 17:17:35,512 - INFO - === Démarrage Députés ===
+2026-07-28 17:17:35,512 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-28 17:17:35,512 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-28 17:17:35,519 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-28 17:17:35,519 - INFO - Historique chargé: 263 députés déjà tweetés
+2026-07-28 17:17:35,521 - INFO - Nombre de députés uniques: 572
+2026-07-28 17:17:35,521 - INFO - Nombre de députés déjà tweetés: 263
+2026-07-28 17:17:35,524 - INFO - Sélectionné: 9504 - Benoît BLANCHARD (nouveau député)
+2026-07-28 17:17:35,524 - INFO - Tweet: 🏛 Le #député de la 4e circonscription du Val-d'Oise est Benoît BLANCHARD (65 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-28 17:17:35,786 - INFO - Sauvegarde effectuée: 9504 - Benoît BLANCHARD
+2026-07-28 17:17:35,786 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082153508610978181', 'text': "🏛 Le #député de la 4e circonscription du Val-d'Oise est Benoît BLANCHARD (65 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-28 17:17:35,786 - INFO - === Fin ===
