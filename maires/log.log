@@ -1,14 +1,3 @@
-2026-07-23 10:46:26,876 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-23 10:46:26,965 - INFO - Historique chargé: 1794 maires déjà tweetés
-2026-07-23 10:46:26,989 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-23 10:46:26,989 - INFO - Nombre de maires déjà tweetés: 1794
-2026-07-23 10:46:26,990 - INFO - Sélectionné: 55456 - Rémi POTIER (nouveau maire)
-2026-07-23 10:46:26,992 - INFO - Tweet: 🏛 Le #maire de Saint-Germain-Sur-Meuse (Meuse) est Rémi POTIER (43 ans) #MairesdeFrance 🇫🇷
-2026-07-23 10:46:27,233 - INFO - Sauvegarde effectuée: 55456 - Rémi POTIER
-2026-07-23 10:46:27,233 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080243135095959975', 'text': '🏛 Le #maire de Saint-Germain-Sur-Meuse (Meuse) est Rémi POTIER (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-23 10:46:27,235 - INFO - === Fin ===
-2026-07-23 16:46:25,819 - INFO - === Démarrage Maires ===
-2026-07-23 16:46:25,820 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-23 16:46:25,820 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-23 16:46:25,913 - INFO - Historique chargé: 1795 maires déjà tweetés
 2026-07-23 16:46:25,938 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-27 16:46:30,859 - INFO - Sauvegarde effectuée: 16178 - Alain TESTAUD
 2026-07-27 16:46:30,859 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081783298595164559', 'text': '🏛 Le #maire de Lagarde-Sur-Le-Né (Charente) est Alain TESTAUD (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-27 16:46:30,861 - INFO - === Fin ===
+2026-07-28 10:46:28,536 - INFO - === Démarrage Maires ===
+2026-07-28 10:46:28,536 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-28 10:46:28,536 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-28 10:46:28,623 - INFO - Historique chargé: 1803 maires déjà tweetés
+2026-07-28 10:46:28,644 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-28 10:46:28,645 - INFO - Nombre de maires déjà tweetés: 1803
+2026-07-28 10:46:28,646 - INFO - Sélectionné: 31121 - Thierry POUZOL (nouveau maire)
+2026-07-28 10:46:28,647 - INFO - Tweet: 🏛 Le #maire de Castéra-Vignoles (Haute-Garonne) est Thierry POUZOL (68 ans) #MairesdeFrance 🇫🇷
+2026-07-28 10:46:28,955 - INFO - Sauvegarde effectuée: 31121 - Thierry POUZOL
+2026-07-28 10:46:28,955 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082055081432609014', 'text': '🏛 Le #maire de Castéra-Vignoles (Haute-Garonne) est Thierry POUZOL (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-28 10:46:28,957 - INFO - === Fin ===
