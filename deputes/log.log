@@ -1,15 +1,3 @@
-2026-07-24 17:17:23,114 - INFO - === Fin ===
-2026-07-25 06:17:25,322 - INFO - === Démarrage Députés ===
-2026-07-25 06:17:25,322 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-25 06:17:25,322 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-25 06:17:25,329 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-25 06:17:25,329 - INFO - Historique chargé: 252 députés déjà tweetés
-2026-07-25 06:17:25,331 - INFO - Nombre de députés uniques: 572
-2026-07-25 06:17:25,331 - INFO - Nombre de députés déjà tweetés: 252
-2026-07-25 06:17:25,332 - INFO - Sélectionné: 0205 - Jocelyn DESSIGNY (nouveau député)
-2026-07-25 06:17:25,332 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de l'Aisne est Jocelyn DESSIGNY (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-25 06:17:25,672 - INFO - Sauvegarde effectuée: 0205 - Jocelyn DESSIGNY
-2026-07-25 06:17:25,672 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080900208188092703', 'text': "🏛 Le #député de la 5e circonscription de l'Aisne est Jocelyn DESSIGNY (45 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-25 06:17:25,673 - INFO - === Fin ===
 2026-07-25 10:17:26,283 - INFO - === Démarrage Députés ===
 2026-07-25 10:17:26,283 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-27 17:17:29,663 - INFO - Sauvegarde effectuée: 4408 - Matthias TAVEL
 2026-07-27 17:17:29,663 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081791095105552427', 'text': '🏛 Le #député de la 8e circonscription de la Loire-Atlantique est Matthias TAVEL (39 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-27 17:17:29,664 - INFO - === Fin ===
+2026-07-28 06:17:22,031 - INFO - === Démarrage Députés ===
+2026-07-28 06:17:22,031 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-28 06:17:22,031 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-28 06:17:22,039 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-28 06:17:22,039 - INFO - Historique chargé: 261 députés déjà tweetés
+2026-07-28 06:17:22,041 - INFO - Nombre de députés uniques: 572
+2026-07-28 06:17:22,041 - INFO - Nombre de députés déjà tweetés: 261
+2026-07-28 06:17:22,042 - INFO - Sélectionné: 7518 - Aymeric CARON (nouveau député)
+2026-07-28 06:17:22,042 - INFO - Tweet: 🏛 Le #député de la 18e circonscription de Paris est Aymeric CARON (54 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-28 06:17:22,286 - INFO - Sauvegarde effectuée: 7518 - Aymeric CARON
+2026-07-28 06:17:22,286 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081987357629165907', 'text': '🏛 Le #député de la 18e circonscription de Paris est Aymeric CARON (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-28 06:17:22,286 - INFO - === Fin ===
