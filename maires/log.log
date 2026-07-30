@@ -1,14 +1,3 @@
-2026-07-25 10:46:26,556 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-25 10:46:26,638 - INFO - Historique chargé: 1797 maires déjà tweetés
-2026-07-25 10:46:26,661 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-25 10:46:26,661 - INFO - Nombre de maires déjà tweetés: 1797
-2026-07-25 10:46:26,662 - INFO - Sélectionné: 52348 - Eric OUDOT (nouveau maire)
-2026-07-25 10:46:26,664 - INFO - Tweet: 🏛 Le #maire de Neuilly-L'Evêque (Haute-Marne) est Eric OUDOT (57 ans) #MairesdeFrance 🇫🇷
-2026-07-25 10:46:26,937 - INFO - Sauvegarde effectuée: 52348 - Eric OUDOT
-2026-07-25 10:46:26,937 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2080967909556335085', 'text': "🏛 Le #maire de Neuilly-L'Evêque (Haute-Marne) est Eric OUDOT (57 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-07-25 10:46:26,939 - INFO - === Fin ===
-2026-07-25 16:46:23,508 - INFO - === Démarrage Maires ===
-2026-07-25 16:46:23,508 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-25 16:46:23,508 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-25 16:46:23,600 - INFO - Historique chargé: 1798 maires déjà tweetés
 2026-07-25 16:46:23,623 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-29 16:46:24,449 - INFO - Sauvegarde effectuée: 57675 - Laurent FRICHE
 2026-07-29 16:46:24,449 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082508047600230645', 'text': '🏛 Le #maire de Torcheville (Moselle) est Laurent FRICHE (64 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-29 16:46:24,451 - INFO - === Fin ===
+2026-07-30 10:46:23,332 - INFO - === Démarrage Maires ===
+2026-07-30 10:46:23,332 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-30 10:46:23,332 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-30 10:46:23,421 - INFO - Historique chargé: 1807 maires déjà tweetés
+2026-07-30 10:46:23,444 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-30 10:46:23,444 - INFO - Nombre de maires déjà tweetés: 1807
+2026-07-30 10:46:23,446 - INFO - Sélectionné: 02523 - Grégory BESONHE (nouveau maire)
+2026-07-30 10:46:23,448 - INFO - Tweet: 🏛 Le #maire de Mont-Saint-Martin (Doubs) est Grégory BESONHE (49 ans) #MairesdeFrance 🇫🇷
+2026-07-30 10:46:23,709 - INFO - Sauvegarde effectuée: 02523 - Grégory BESONHE
+2026-07-30 10:46:23,709 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082779835307295088', 'text': '🏛 Le #maire de Mont-Saint-Martin (Doubs) est Grégory BESONHE (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-30 10:46:23,711 - INFO - === Fin ===
