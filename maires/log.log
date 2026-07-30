@@ -1,14 +1,3 @@
-2026-07-25 16:46:23,508 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-25 16:46:23,600 - INFO - Historique chargé: 1798 maires déjà tweetés
-2026-07-25 16:46:23,623 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-25 16:46:23,623 - INFO - Nombre de maires déjà tweetés: 1798
-2026-07-25 16:46:23,624 - INFO - Sélectionné: 35069 - Anne-Marie ECHELARD (nouveau maire)
-2026-07-25 16:46:23,626 - INFO - Tweet: 🏛 La #maire de Châteaugiron (Ille-et-Vilaine) est Anne-Marie ECHELARD (61 ans) #MairesdeFrance 🇫🇷
-2026-07-25 16:46:23,871 - INFO - Sauvegarde effectuée: 35069 - Anne-Marie ECHELARD
-2026-07-25 16:46:23,872 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081058493679694100', 'text': '🏛 La #maire de Châteaugiron (Ille-et-Vilaine) est Anne-Marie ECHELARD (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-25 16:46:23,874 - INFO - === Fin ===
-2026-07-26 10:46:21,883 - INFO - === Démarrage Maires ===
-2026-07-26 10:46:21,883 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-26 10:46:21,883 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-26 10:46:21,970 - INFO - Historique chargé: 1799 maires déjà tweetés
 2026-07-26 10:46:21,991 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-30 10:46:23,709 - INFO - Sauvegarde effectuée: 02523 - Grégory BESONHE
 2026-07-30 10:46:23,709 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082779835307295088', 'text': '🏛 Le #maire de Mont-Saint-Martin (Doubs) est Grégory BESONHE (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-30 10:46:23,711 - INFO - === Fin ===
+2026-07-30 16:46:26,854 - INFO - === Démarrage Maires ===
+2026-07-30 16:46:26,854 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-30 16:46:26,854 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-30 16:46:26,941 - INFO - Historique chargé: 1808 maires déjà tweetés
+2026-07-30 16:46:26,962 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-30 16:46:26,962 - INFO - Nombre de maires déjà tweetés: 1808
+2026-07-30 16:46:26,963 - INFO - Sélectionné: 27324 - Philippe BAUDOUX (nouveau maire)
+2026-07-30 16:46:26,965 - INFO - Tweet: 🏛 Le #maire de Hébécourt (Eure) est Philippe BAUDOUX (71 ans) #MairesdeFrance 🇫🇷
+2026-07-30 16:46:27,712 - INFO - Sauvegarde effectuée: 27324 - Philippe BAUDOUX
+2026-07-30 16:46:27,712 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082870448350495223', 'text': '🏛 Le #maire de Hébécourt (Eure) est Philippe BAUDOUX (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-30 16:46:27,714 - INFO - === Fin ===
