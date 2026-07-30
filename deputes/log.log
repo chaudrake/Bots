@@ -1,15 +1,3 @@
-2026-07-27 06:17:22,998 - INFO - === Fin ===
-2026-07-27 10:17:24,438 - INFO - === Démarrage Députés ===
-2026-07-27 10:17:24,438 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-27 10:17:24,438 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-27 10:17:24,445 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-27 10:17:24,445 - INFO - Historique chargé: 259 députés déjà tweetés
-2026-07-27 10:17:24,447 - INFO - Nombre de députés uniques: 572
-2026-07-27 10:17:24,447 - INFO - Nombre de députés déjà tweetés: 259
-2026-07-27 10:17:24,449 - INFO - Sélectionné: ZZ08 - Caroline YADAN (nouveau député)
-2026-07-27 10:17:24,449 - INFO - Tweet: 🏛 La #députée de la 8e circonscription des Français établis hors de France est Caroline YADAN (57 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-27 10:17:24,800 - INFO - Sauvegarde effectuée: ZZ08 - Caroline YADAN
-2026-07-27 10:17:24,800 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081685378160042242', 'text': '🏛 La #députée de la 8e circonscription des Français établis hors de France est Caroline YADAN (57 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-27 10:17:24,800 - INFO - === Fin ===
 2026-07-27 17:17:29,384 - INFO - === Démarrage Députés ===
 2026-07-27 17:17:29,384 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-30 06:17:21,526 - INFO - Sauvegarde effectuée: 7304 - Jean-François COULOMME
 2026-07-30 06:17:21,526 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082712130122322364', 'text': '🏛 Le #député de la 4e circonscription de la Savoie est Jean-François COULOMME (60 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-30 06:17:21,526 - INFO - === Fin ===
+2026-07-30 10:17:23,939 - INFO - === Démarrage Députés ===
+2026-07-30 10:17:23,939 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-30 10:17:23,939 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-30 10:17:23,944 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-30 10:17:23,944 - INFO - Historique chargé: 268 députés déjà tweetés
+2026-07-30 10:17:23,945 - INFO - Nombre de députés uniques: 572
+2026-07-30 10:17:23,945 - INFO - Nombre de députés déjà tweetés: 268
+2026-07-30 10:17:23,946 - INFO - Sélectionné: 9105 - Paul MIDY (nouveau député)
+2026-07-30 10:17:23,946 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de l'Essonne est Paul MIDY (43 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-30 10:17:26,190 - INFO - Sauvegarde effectuée: 9105 - Paul MIDY
+2026-07-30 10:17:26,190 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082772547620462944', 'text': "🏛 Le #député de la 5e circonscription de l'Essonne est Paul MIDY (43 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-07-30 10:17:26,190 - INFO - === Fin ===
