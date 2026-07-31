@@ -1,15 +1,3 @@
-2026-07-28 10:17:27,115 - INFO - === Fin ===
-2026-07-28 17:17:35,512 - INFO - === Démarrage Députés ===
-2026-07-28 17:17:35,512 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-28 17:17:35,512 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-28 17:17:35,519 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-28 17:17:35,519 - INFO - Historique chargé: 263 députés déjà tweetés
-2026-07-28 17:17:35,521 - INFO - Nombre de députés uniques: 572
-2026-07-28 17:17:35,521 - INFO - Nombre de députés déjà tweetés: 263
-2026-07-28 17:17:35,524 - INFO - Sélectionné: 9504 - Benoît BLANCHARD (nouveau député)
-2026-07-28 17:17:35,524 - INFO - Tweet: 🏛 Le #député de la 4e circonscription du Val-d'Oise est Benoît BLANCHARD (65 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-28 17:17:35,786 - INFO - Sauvegarde effectuée: 9504 - Benoît BLANCHARD
-2026-07-28 17:17:35,786 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082153508610978181', 'text': "🏛 Le #député de la 4e circonscription du Val-d'Oise est Benoît BLANCHARD (65 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-28 17:17:35,786 - INFO - === Fin ===
 2026-07-29 06:17:27,127 - INFO - === Démarrage Députés ===
 2026-07-29 06:17:27,127 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-31 10:17:24,775 - INFO - Sauvegarde effectuée: 1302 - Laurent LHARDIT
 2026-07-31 10:17:24,775 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083134929668595977', 'text': '🏛 Le #député de la 2e circonscription des Bouches-du-Rhône est Laurent LHARDIT (63 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-31 10:17:24,775 - INFO - === Fin ===
+2026-07-31 17:17:24,609 - INFO - === Démarrage Députés ===
+2026-07-31 17:17:24,609 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-31 17:17:24,609 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-31 17:17:24,615 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-31 17:17:24,615 - INFO - Historique chargé: 272 députés déjà tweetés
+2026-07-31 17:17:24,617 - INFO - Nombre de députés uniques: 572
+2026-07-31 17:17:24,617 - INFO - Nombre de députés déjà tweetés: 272
+2026-07-31 17:17:24,618 - INFO - Sélectionné: 97403 - Joseph RIVIERE (nouveau député)
+2026-07-31 17:17:24,618 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de la Réunion est Joseph RIVIERE (54 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-31 17:17:24,892 - INFO - Sauvegarde effectuée: 97403 - Joseph RIVIERE
+2026-07-31 17:17:24,892 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083240626531737661', 'text': '🏛 Le #député de la 3e circonscription de la Réunion est Joseph RIVIERE (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-31 17:17:24,892 - INFO - === Fin ===
