@@ -1,14 +1,3 @@
-2026-07-26 16:46:25,548 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-26 16:46:25,634 - INFO - Historique chargé: 1800 maires déjà tweetés
-2026-07-26 16:46:25,655 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-26 16:46:25,655 - INFO - Nombre de maires déjà tweetés: 1800
-2026-07-26 16:46:25,657 - INFO - Sélectionné: 50099 - Rosine LESIEUR (nouveau maire)
-2026-07-26 16:46:25,658 - INFO - Tweet: 🏛 La #maire de Carentan-Les-Marais (Manche) est Rosine LESIEUR (58 ans) #MairesdeFrance 🇫🇷
-2026-07-26 16:46:26,003 - INFO - Sauvegarde effectuée: 50099 - Rosine LESIEUR
-2026-07-26 16:46:26,003 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081420890483601552', 'text': '🏛 La #maire de Carentan-Les-Marais (Manche) est Rosine LESIEUR (58 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-26 16:46:26,005 - INFO - === Fin ===
-2026-07-27 10:46:24,989 - INFO - === Démarrage Maires ===
-2026-07-27 10:46:24,989 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-27 10:46:24,989 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-27 10:46:25,061 - INFO - Historique chargé: 1801 maires déjà tweetés
 2026-07-27 10:46:25,078 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-31 10:46:36,241 - INFO - Sauvegarde effectuée: 60414 - Jean-Pierre BOSINO
 2026-07-31 10:46:36,242 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083142275769503922', 'text': '🏛 Le #maire de Montataire (Oise) est Jean-Pierre BOSINO (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-31 10:46:36,244 - INFO - === Fin ===
+2026-07-31 16:46:24,393 - INFO - === Démarrage Maires ===
+2026-07-31 16:46:24,393 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-31 16:46:24,393 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-31 16:46:24,478 - INFO - Historique chargé: 1810 maires déjà tweetés
+2026-07-31 16:46:24,501 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-31 16:46:24,501 - INFO - Nombre de maires déjà tweetés: 1810
+2026-07-31 16:46:24,502 - INFO - Sélectionné: 84115 - Sandrine RAYMOND LUCARINI (nouveau maire)
+2026-07-31 16:46:24,504 - INFO - Tweet: 🏛 La #maire de Saint-Pierre-De-Vassols (Vaucluse) est Sandrine RAYMOND LUCARINI (48 ans) #MairesdeFrance 🇫🇷
+2026-07-31 16:46:24,740 - INFO - Sauvegarde effectuée: 84115 - Sandrine RAYMOND LUCARINI
+2026-07-31 16:46:24,740 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083232824497176802', 'text': '🏛 La #maire de Saint-Pierre-De-Vassols (Vaucluse) est Sandrine RAYMOND LUCARINI (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-31 16:46:24,742 - INFO - === Fin ===
