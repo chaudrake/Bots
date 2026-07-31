@@ -1,14 +1,3 @@
-2026-07-26 10:46:21,883 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-26 10:46:21,970 - INFO - Historique chargé: 1799 maires déjà tweetés
-2026-07-26 10:46:21,991 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-26 10:46:21,991 - INFO - Nombre de maires déjà tweetés: 1799
-2026-07-26 10:46:21,992 - INFO - Sélectionné: 70207 - Serge VIEILLE (nouveau maire)
-2026-07-26 10:46:21,994 - INFO - Tweet: 🏛 Le #maire de Echenoz-La-Méline (Haute-Saône) est Serge VIEILLE (75 ans) #MairesdeFrance 🇫🇷
-2026-07-26 10:46:22,330 - INFO - Sauvegarde effectuée: 70207 - Serge VIEILLE
-2026-07-26 10:46:22,330 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081330277880619260', 'text': '🏛 Le #maire de Echenoz-La-Méline (Haute-Saône) est Serge VIEILLE (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-26 10:46:22,332 - INFO - === Fin ===
-2026-07-26 16:46:25,548 - INFO - === Démarrage Maires ===
-2026-07-26 16:46:25,548 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-26 16:46:25,548 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-26 16:46:25,634 - INFO - Historique chargé: 1800 maires déjà tweetés
 2026-07-26 16:46:25,655 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-30 16:46:27,712 - INFO - Sauvegarde effectuée: 27324 - Philippe BAUDOUX
 2026-07-30 16:46:27,712 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082870448350495223', 'text': '🏛 Le #maire de Hébécourt (Eure) est Philippe BAUDOUX (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-30 16:46:27,714 - INFO - === Fin ===
+2026-07-31 10:46:35,849 - INFO - === Démarrage Maires ===
+2026-07-31 10:46:35,849 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-07-31 10:46:35,849 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-07-31 10:46:35,918 - INFO - Historique chargé: 1809 maires déjà tweetés
+2026-07-31 10:46:35,935 - INFO - Nombre de maires actifs uniques: 34637
+2026-07-31 10:46:35,935 - INFO - Nombre de maires déjà tweetés: 1809
+2026-07-31 10:46:35,936 - INFO - Sélectionné: 60414 - Jean-Pierre BOSINO (nouveau maire)
+2026-07-31 10:46:35,938 - INFO - Tweet: 🏛 Le #maire de Montataire (Oise) est Jean-Pierre BOSINO (67 ans) #MairesdeFrance 🇫🇷
+2026-07-31 10:46:36,241 - INFO - Sauvegarde effectuée: 60414 - Jean-Pierre BOSINO
+2026-07-31 10:46:36,242 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083142275769503922', 'text': '🏛 Le #maire de Montataire (Oise) est Jean-Pierre BOSINO (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-31 10:46:36,244 - INFO - === Fin ===
