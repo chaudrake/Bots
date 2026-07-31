@@ -1,15 +1,3 @@
-2026-07-28 06:17:22,286 - INFO - === Fin ===
-2026-07-28 10:17:26,830 - INFO - === Démarrage Députés ===
-2026-07-28 10:17:26,830 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-28 10:17:26,830 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-28 10:17:26,835 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-28 10:17:26,835 - INFO - Historique chargé: 262 députés déjà tweetés
-2026-07-28 10:17:26,837 - INFO - Nombre de députés uniques: 572
-2026-07-28 10:17:26,837 - INFO - Nombre de députés déjà tweetés: 262
-2026-07-28 10:17:26,838 - INFO - Sélectionné: 3508 - Mickaël BOULOUX (nouveau député)
-2026-07-28 10:17:26,838 - INFO - Tweet: 🏛 Le #député de la 8e circonscription d'Ille-et-Vilaine est Mickaël BOULOUX (53 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-28 10:17:27,115 - INFO - Sauvegarde effectuée: 3508 - Mickaël BOULOUX
-2026-07-28 10:17:27,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082047775789703355', 'text': "🏛 Le #député de la 8e circonscription d'Ille-et-Vilaine est Mickaël BOULOUX (53 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-28 10:17:27,115 - INFO - === Fin ===
 2026-07-28 17:17:35,512 - INFO - === Démarrage Députés ===
 2026-07-28 17:17:35,512 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-31 06:17:23,124 - INFO - Sauvegarde effectuée: 7402 - Danièle CARTERON
 2026-07-31 06:17:23,124 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083074524770373909', 'text': '🏛 La #députée de la 2e circonscription de Haute-Savoie est Danièle CARTERON (41 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-31 06:17:23,124 - INFO - === Fin ===
+2026-07-31 10:17:24,539 - INFO - === Démarrage Députés ===
+2026-07-31 10:17:24,539 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-07-31 10:17:24,539 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-07-31 10:17:24,546 - INFO - ✅ Dates de naissance converties avec succès
+2026-07-31 10:17:24,547 - INFO - Historique chargé: 271 députés déjà tweetés
+2026-07-31 10:17:24,548 - INFO - Nombre de députés uniques: 572
+2026-07-31 10:17:24,548 - INFO - Nombre de députés déjà tweetés: 271
+2026-07-31 10:17:24,549 - INFO - Sélectionné: 1302 - Laurent LHARDIT (nouveau député)
+2026-07-31 10:17:24,550 - INFO - Tweet: 🏛 Le #député de la 2e circonscription des Bouches-du-Rhône est Laurent LHARDIT (63 ans) #Députés #AssembléeNationale 🇫🇷
+2026-07-31 10:17:24,775 - INFO - Sauvegarde effectuée: 1302 - Laurent LHARDIT
+2026-07-31 10:17:24,775 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083134929668595977', 'text': '🏛 Le #député de la 2e circonscription des Bouches-du-Rhône est Laurent LHARDIT (63 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-07-31 10:17:24,775 - INFO - === Fin ===
