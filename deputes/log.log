@@ -1,15 +1,3 @@
-2026-07-28 17:17:35,786 - INFO - === Fin ===
-2026-07-29 06:17:27,127 - INFO - === Démarrage Députés ===
-2026-07-29 06:17:27,127 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-29 06:17:27,127 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-29 06:17:27,134 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-29 06:17:27,134 - INFO - Historique chargé: 264 députés déjà tweetés
-2026-07-29 06:17:27,136 - INFO - Nombre de députés uniques: 572
-2026-07-29 06:17:27,136 - INFO - Nombre de députés déjà tweetés: 264
-2026-07-29 06:17:27,137 - INFO - Sélectionné: 2505 - Lionel DUPARAY (nouveau député)
-2026-07-29 06:17:27,137 - INFO - Tweet: 🏛 Le #député de la 5e circonscription du Doubs est Lionel DUPARAY (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-29 06:17:27,354 - INFO - Sauvegarde effectuée: 2505 - Lionel DUPARAY
-2026-07-29 06:17:27,355 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082349766776946711', 'text': '🏛 Le #député de la 5e circonscription du Doubs est Lionel DUPARAY (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-29 06:17:27,355 - INFO - === Fin ===
 2026-07-29 10:17:22,658 - INFO - === Démarrage Députés ===
 2026-07-29 10:17:22,658 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-07-31 17:17:24,892 - INFO - Sauvegarde effectuée: 97403 - Joseph RIVIERE
 2026-07-31 17:17:24,892 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083240626531737661', 'text': '🏛 Le #député de la 3e circonscription de la Réunion est Joseph RIVIERE (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-31 17:17:24,892 - INFO - === Fin ===
+2026-08-01 06:17:22,056 - INFO - === Démarrage Députés ===
+2026-08-01 06:17:22,056 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-01 06:17:22,056 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-01 06:17:22,063 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-01 06:17:22,063 - INFO - Historique chargé: 273 députés déjà tweetés
+2026-08-01 06:17:22,065 - INFO - Nombre de députés uniques: 572
+2026-08-01 06:17:22,065 - INFO - Nombre de députés déjà tweetés: 273
+2026-08-01 06:17:22,066 - INFO - Sélectionné: 4505 - Anthony BROSSE (nouveau député)
+2026-08-01 06:17:22,066 - INFO - Tweet: 🏛 Le #député de la 5e circonscription du Loiret est Anthony BROSSE (45 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-01 06:17:22,293 - INFO - Sauvegarde effectuée: 4505 - Anthony BROSSE
+2026-08-01 06:17:22,293 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083436909125099572', 'text': '🏛 Le #député de la 5e circonscription du Loiret est Anthony BROSSE (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-01 06:17:22,293 - INFO - === Fin ===
