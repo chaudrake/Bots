@@ -1,14 +1,3 @@
-2026-07-27 10:46:24,989 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-27 10:46:25,061 - INFO - Historique chargé: 1801 maires déjà tweetés
-2026-07-27 10:46:25,078 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-27 10:46:25,078 - INFO - Nombre de maires déjà tweetés: 1801
-2026-07-27 10:46:25,079 - INFO - Sélectionné: 70130 - Michel RENEVIER (nouveau maire)
-2026-07-27 10:46:25,080 - INFO - Tweet: 🏛 Le #maire de Charcenne (Haute-Saône) est Michel RENEVIER (68 ans) #MairesdeFrance 🇫🇷
-2026-07-27 10:46:25,361 - INFO - Sauvegarde effectuée: 70130 - Michel RENEVIER
-2026-07-27 10:46:25,361 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2081692678635557242', 'text': '🏛 Le #maire de Charcenne (Haute-Saône) est Michel RENEVIER (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-27 10:46:25,362 - INFO - === Fin ===
-2026-07-27 16:46:30,502 - INFO - === Démarrage Maires ===
-2026-07-27 16:46:30,502 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-27 16:46:30,502 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-27 16:46:30,574 - INFO - Historique chargé: 1802 maires déjà tweetés
 2026-07-27 16:46:30,595 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-07-31 16:46:24,740 - INFO - Sauvegarde effectuée: 84115 - Sandrine RAYMOND LUCARINI
 2026-07-31 16:46:24,740 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083232824497176802', 'text': '🏛 La #maire de Saint-Pierre-De-Vassols (Vaucluse) est Sandrine RAYMOND LUCARINI (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-07-31 16:46:24,742 - INFO - === Fin ===
+2026-08-01 10:46:27,187 - INFO - === Démarrage Maires ===
+2026-08-01 10:46:27,187 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-01 10:46:27,187 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-01 10:46:27,274 - INFO - Historique chargé: 1811 maires déjà tweetés
+2026-08-01 10:46:27,296 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-01 10:46:27,296 - INFO - Nombre de maires déjà tweetés: 1811
+2026-08-01 10:46:27,297 - INFO - Sélectionné: 10285 - Jean-François BERTIN (nouveau maire)
+2026-08-01 10:46:27,299 - INFO - Tweet: 🏛 Le #maire de Perthes-Lès-Brienne (Aube) est Jean-François BERTIN (62 ans) #MairesdeFrance 🇫🇷
+2026-08-01 10:46:27,539 - INFO - Sauvegarde effectuée: 10285 - Jean-François BERTIN
+2026-08-01 10:46:27,539 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083504627140428262', 'text': '🏛 Le #maire de Perthes-Lès-Brienne (Aube) est Jean-François BERTIN (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-01 10:46:27,541 - INFO - === Fin ===
