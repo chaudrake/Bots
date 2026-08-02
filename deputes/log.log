@@ -1,15 +1,3 @@
-2026-07-30 06:17:21,526 - INFO - === Fin ===
-2026-07-30 10:17:23,939 - INFO - === Démarrage Députés ===
-2026-07-30 10:17:23,939 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-07-30 10:17:23,939 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-07-30 10:17:23,944 - INFO - ✅ Dates de naissance converties avec succès
-2026-07-30 10:17:23,944 - INFO - Historique chargé: 268 députés déjà tweetés
-2026-07-30 10:17:23,945 - INFO - Nombre de députés uniques: 572
-2026-07-30 10:17:23,945 - INFO - Nombre de députés déjà tweetés: 268
-2026-07-30 10:17:23,946 - INFO - Sélectionné: 9105 - Paul MIDY (nouveau député)
-2026-07-30 10:17:23,946 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de l'Essonne est Paul MIDY (43 ans) #Députés #AssembléeNationale 🇫🇷
-2026-07-30 10:17:26,190 - INFO - Sauvegarde effectuée: 9105 - Paul MIDY
-2026-07-30 10:17:26,190 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082772547620462944', 'text': "🏛 Le #député de la 5e circonscription de l'Essonne est Paul MIDY (43 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-07-30 10:17:26,190 - INFO - === Fin ===
 2026-07-30 17:17:32,144 - INFO - === Démarrage Députés ===
 2026-07-30 17:17:32,144 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-02 06:17:23,757 - INFO - Sauvegarde effectuée: 7504 - Astrid PANOSYAN-BOUVET
 2026-08-02 06:17:23,757 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083799303143997785', 'text': '🏛 La #députée de la 4e circonscription de Paris est Astrid PANOSYAN-BOUVET (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-02 06:17:23,758 - INFO - === Fin ===
+2026-08-02 10:17:22,012 - INFO - === Démarrage Députés ===
+2026-08-02 10:17:22,013 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-02 10:17:22,013 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-02 10:17:22,020 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-02 10:17:22,020 - INFO - Historique chargé: 277 députés déjà tweetés
+2026-08-02 10:17:22,022 - INFO - Nombre de députés uniques: 572
+2026-08-02 10:17:22,022 - INFO - Nombre de députés déjà tweetés: 277
+2026-08-02 10:17:22,023 - INFO - Sélectionné: 0102 - Romain DAUBIÉ (nouveau député)
+2026-08-02 10:17:22,023 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de l'Ain est Romain DAUBIÉ (46 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-02 10:17:22,335 - INFO - Sauvegarde effectuée: 0102 - Romain DAUBIÉ
+2026-08-02 10:17:22,336 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083859695089967224', 'text': "🏛 Le #député de la 2e circonscription de l'Ain est Romain DAUBIÉ (46 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-08-02 10:17:22,336 - INFO - === Fin ===
