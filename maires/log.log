@@ -1,14 +1,3 @@
-2026-07-28 10:46:28,536 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-28 10:46:28,623 - INFO - Historique chargé: 1803 maires déjà tweetés
-2026-07-28 10:46:28,644 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-28 10:46:28,645 - INFO - Nombre de maires déjà tweetés: 1803
-2026-07-28 10:46:28,646 - INFO - Sélectionné: 31121 - Thierry POUZOL (nouveau maire)
-2026-07-28 10:46:28,647 - INFO - Tweet: 🏛 Le #maire de Castéra-Vignoles (Haute-Garonne) est Thierry POUZOL (68 ans) #MairesdeFrance 🇫🇷
-2026-07-28 10:46:28,955 - INFO - Sauvegarde effectuée: 31121 - Thierry POUZOL
-2026-07-28 10:46:28,955 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2082055081432609014', 'text': '🏛 Le #maire de Castéra-Vignoles (Haute-Garonne) est Thierry POUZOL (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-28 10:46:28,957 - INFO - === Fin ===
-2026-07-28 16:46:25,698 - INFO - === Démarrage Maires ===
-2026-07-28 16:46:25,698 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-28 16:46:25,698 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-28 16:46:25,788 - INFO - Historique chargé: 1804 maires déjà tweetés
 2026-07-28 16:46:25,813 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-01 16:46:33,183 - INFO - Sauvegarde effectuée: 78380 - Olivier LEPRETRE
 2026-08-01 16:46:33,183 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083595247763001707', 'text': '🏛 Le #maire de Maule (Yvelines) est Olivier LEPRETRE (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-01 16:46:33,186 - INFO - === Fin ===
+2026-08-02 10:46:27,373 - INFO - === Démarrage Maires ===
+2026-08-02 10:46:27,373 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-02 10:46:27,373 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-02 10:46:27,441 - INFO - Historique chargé: 1813 maires déjà tweetés
+2026-08-02 10:46:27,457 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-02 10:46:27,457 - INFO - Nombre de maires déjà tweetés: 1813
+2026-08-02 10:46:27,458 - INFO - Sélectionné: 97616 - Houssamoudine ABDALLAH (nouveau maire)
+2026-08-02 10:46:27,459 - INFO - Tweet: 🏛 Le #maire de Sada (Mayotte) est Houssamoudine ABDALLAH (44 ans) #MairesdeFrance 🇫🇷
+2026-08-02 10:46:27,674 - INFO - Sauvegarde effectuée: 97616 - Houssamoudine ABDALLAH
+2026-08-02 10:46:27,674 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083867015668961623', 'text': '🏛 Le #maire de Sada (Mayotte) est Houssamoudine ABDALLAH (44 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-02 10:46:27,676 - INFO - === Fin ===
