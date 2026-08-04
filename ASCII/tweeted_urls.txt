@@ -32,3 +32,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/GeorgiaMeloni.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/zlatan.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/neymar.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/ClintEastwood.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/zelinsky.jpg
