@@ -1,15 +1,3 @@
-2026-07-31 17:17:24,892 - INFO - === Fin ===
-2026-08-01 06:17:22,056 - INFO - === Démarrage Députés ===
-2026-08-01 06:17:22,056 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-01 06:17:22,056 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-01 06:17:22,063 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-01 06:17:22,063 - INFO - Historique chargé: 273 députés déjà tweetés
-2026-08-01 06:17:22,065 - INFO - Nombre de députés uniques: 572
-2026-08-01 06:17:22,065 - INFO - Nombre de députés déjà tweetés: 273
-2026-08-01 06:17:22,066 - INFO - Sélectionné: 4505 - Anthony BROSSE (nouveau député)
-2026-08-01 06:17:22,066 - INFO - Tweet: 🏛 Le #député de la 5e circonscription du Loiret est Anthony BROSSE (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-01 06:17:22,293 - INFO - Sauvegarde effectuée: 4505 - Anthony BROSSE
-2026-08-01 06:17:22,293 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083436909125099572', 'text': '🏛 Le #député de la 5e circonscription du Loiret est Anthony BROSSE (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-01 06:17:22,293 - INFO - === Fin ===
 2026-08-01 10:17:26,988 - INFO - === Démarrage Députés ===
 2026-08-01 10:17:26,988 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-03 17:17:30,679 - INFO - Sauvegarde effectuée: 4407 - Sandrine JOSSO
 2026-08-03 17:17:30,679 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084327814459711559', 'text': '🏛 La #députée de la 7e circonscription de la Loire-Atlantique est Sandrine JOSSO (50 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-03 17:17:30,679 - INFO - === Fin ===
+2026-08-04 06:17:20,680 - INFO - === Démarrage Députés ===
+2026-08-04 06:17:20,680 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-04 06:17:20,680 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-04 06:17:20,687 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-04 06:17:20,687 - INFO - Historique chargé: 282 députés déjà tweetés
+2026-08-04 06:17:20,689 - INFO - Nombre de députés uniques: 572
+2026-08-04 06:17:20,689 - INFO - Nombre de députés déjà tweetés: 282
+2026-08-04 06:17:20,691 - INFO - Sélectionné: 4409 - Jean-Michel BRARD (nouveau député)
+2026-08-04 06:17:20,691 - INFO - Tweet: 🏛 Le #député de la 9e circonscription de la Loire-Atlantique est Jean-Michel BRARD (58 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-04 06:17:20,918 - INFO - Sauvegarde effectuée: 4409 - Jean-Michel BRARD
+2026-08-04 06:17:20,918 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084524066942210418', 'text': '🏛 Le #député de la 9e circonscription de la Loire-Atlantique est Jean-Michel BRARD (58 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-04 06:17:20,918 - INFO - === Fin ===
