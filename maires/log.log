@@ -1,14 +1,3 @@
-2026-07-31 16:46:24,393 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-31 16:46:24,478 - INFO - Historique chargé: 1810 maires déjà tweetés
-2026-07-31 16:46:24,501 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-31 16:46:24,501 - INFO - Nombre de maires déjà tweetés: 1810
-2026-07-31 16:46:24,502 - INFO - Sélectionné: 84115 - Sandrine RAYMOND LUCARINI (nouveau maire)
-2026-07-31 16:46:24,504 - INFO - Tweet: 🏛 La #maire de Saint-Pierre-De-Vassols (Vaucluse) est Sandrine RAYMOND LUCARINI (48 ans) #MairesdeFrance 🇫🇷
-2026-07-31 16:46:24,740 - INFO - Sauvegarde effectuée: 84115 - Sandrine RAYMOND LUCARINI
-2026-07-31 16:46:24,740 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083232824497176802', 'text': '🏛 La #maire de Saint-Pierre-De-Vassols (Vaucluse) est Sandrine RAYMOND LUCARINI (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-31 16:46:24,742 - INFO - === Fin ===
-2026-08-01 10:46:27,187 - INFO - === Démarrage Maires ===
-2026-08-01 10:46:27,187 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-01 10:46:27,187 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-01 10:46:27,274 - INFO - Historique chargé: 1811 maires déjà tweetés
 2026-08-01 10:46:27,296 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-05 10:46:26,740 - INFO - Sauvegarde effectuée: 17259 - Jean REYNAL
 2026-08-05 10:46:26,740 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084954175335776663', 'text': '🏛 Le #maire de Neulles (Charente-Maritime) est Jean REYNAL (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-05 10:46:26,742 - INFO - === Fin ===
+2026-08-05 16:46:23,772 - INFO - === Démarrage Maires ===
+2026-08-05 16:46:23,772 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-05 16:46:23,772 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-05 16:46:23,857 - INFO - Historique chargé: 1820 maires déjà tweetés
+2026-08-05 16:46:23,879 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-05 16:46:23,879 - INFO - Nombre de maires déjà tweetés: 1820
+2026-08-05 16:46:23,880 - INFO - Sélectionné: 19122 - Jean-Pierre BORT (nouveau maire)
+2026-08-05 16:46:23,882 - INFO - Tweet: 🏛 Le #maire de Madranges (Corrèze) est Jean-Pierre BORT (73 ans) #MairesdeFrance 🇫🇷
+2026-08-05 16:46:24,115 - INFO - Sauvegarde effectuée: 19122 - Jean-Pierre BORT
+2026-08-05 16:46:24,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085044761220485267', 'text': '🏛 Le #maire de Madranges (Corrèze) est Jean-Pierre BORT (73 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-05 16:46:24,117 - INFO - === Fin ===
