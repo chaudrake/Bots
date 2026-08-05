@@ -1,14 +1,3 @@
-2026-07-31 10:46:35,849 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-07-31 10:46:35,918 - INFO - Historique chargé: 1809 maires déjà tweetés
-2026-07-31 10:46:35,935 - INFO - Nombre de maires actifs uniques: 34637
-2026-07-31 10:46:35,935 - INFO - Nombre de maires déjà tweetés: 1809
-2026-07-31 10:46:35,936 - INFO - Sélectionné: 60414 - Jean-Pierre BOSINO (nouveau maire)
-2026-07-31 10:46:35,938 - INFO - Tweet: 🏛 Le #maire de Montataire (Oise) est Jean-Pierre BOSINO (67 ans) #MairesdeFrance 🇫🇷
-2026-07-31 10:46:36,241 - INFO - Sauvegarde effectuée: 60414 - Jean-Pierre BOSINO
-2026-07-31 10:46:36,242 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083142275769503922', 'text': '🏛 Le #maire de Montataire (Oise) est Jean-Pierre BOSINO (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-07-31 10:46:36,244 - INFO - === Fin ===
-2026-07-31 16:46:24,393 - INFO - === Démarrage Maires ===
-2026-07-31 16:46:24,393 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-07-31 16:46:24,393 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-07-31 16:46:24,478 - INFO - Historique chargé: 1810 maires déjà tweetés
 2026-07-31 16:46:24,501 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-04 16:46:25,768 - INFO - Sauvegarde effectuée: 2B051 - Nicolas SALICETI
 2026-08-04 16:46:25,768 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084682380275577107', 'text': '🏛 Le #maire de Cambia (Corse) est Nicolas SALICETI (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-04 16:46:25,771 - INFO - === Fin ===
+2026-08-05 10:46:26,417 - INFO - === Démarrage Maires ===
+2026-08-05 10:46:26,417 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-05 10:46:26,417 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-05 10:46:26,502 - INFO - Historique chargé: 1819 maires déjà tweetés
+2026-08-05 10:46:26,525 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-05 10:46:26,526 - INFO - Nombre de maires déjà tweetés: 1819
+2026-08-05 10:46:26,527 - INFO - Sélectionné: 17259 - Jean REYNAL (nouveau maire)
+2026-08-05 10:46:26,529 - INFO - Tweet: 🏛 Le #maire de Neulles (Charente-Maritime) est Jean REYNAL (43 ans) #MairesdeFrance 🇫🇷
+2026-08-05 10:46:26,740 - INFO - Sauvegarde effectuée: 17259 - Jean REYNAL
+2026-08-05 10:46:26,740 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084954175335776663', 'text': '🏛 Le #maire de Neulles (Charente-Maritime) est Jean REYNAL (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-05 10:46:26,742 - INFO - === Fin ===
