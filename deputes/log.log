@@ -1,15 +1,3 @@
-2026-08-02 06:17:23,758 - INFO - === Fin ===
-2026-08-02 10:17:22,012 - INFO - === Démarrage Députés ===
-2026-08-02 10:17:22,013 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-02 10:17:22,013 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-02 10:17:22,020 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-02 10:17:22,020 - INFO - Historique chargé: 277 députés déjà tweetés
-2026-08-02 10:17:22,022 - INFO - Nombre de députés uniques: 572
-2026-08-02 10:17:22,022 - INFO - Nombre de députés déjà tweetés: 277
-2026-08-02 10:17:22,023 - INFO - Sélectionné: 0102 - Romain DAUBIÉ (nouveau député)
-2026-08-02 10:17:22,023 - INFO - Tweet: 🏛 Le #député de la 2e circonscription de l'Ain est Romain DAUBIÉ (46 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-02 10:17:22,335 - INFO - Sauvegarde effectuée: 0102 - Romain DAUBIÉ
-2026-08-02 10:17:22,336 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083859695089967224', 'text': "🏛 Le #député de la 2e circonscription de l'Ain est Romain DAUBIÉ (46 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-02 10:17:22,336 - INFO - === Fin ===
 2026-08-02 17:17:26,482 - INFO - === Démarrage Députés ===
 2026-08-02 17:17:26,482 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-05 06:17:23,220 - INFO - Sauvegarde effectuée: 7403 - Antoine VALENTIN
 2026-08-05 06:17:23,220 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084886464437911928', 'text': '🏛 Le #député de la 3e circonscription de Haute-Savoie est Antoine VALENTIN (33 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-05 06:17:23,220 - INFO - === Fin ===
+2026-08-05 10:17:22,868 - INFO - === Démarrage Députés ===
+2026-08-05 10:17:22,869 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-05 10:17:22,869 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-05 10:17:22,879 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-05 10:17:22,879 - INFO - Historique chargé: 286 députés déjà tweetés
+2026-08-05 10:17:22,881 - INFO - Nombre de députés uniques: 572
+2026-08-05 10:17:22,881 - INFO - Nombre de députés déjà tweetés: 286
+2026-08-05 10:17:22,883 - INFO - Sélectionné: 9502 - Ayda HADIZADEH (nouveau député)
+2026-08-05 10:17:22,883 - INFO - Tweet: 🏛 La #députée de la 2e circonscription du Val-d'Oise est Ayda HADIZADEH (44 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-05 10:17:23,102 - INFO - Sauvegarde effectuée: 9502 - Ayda HADIZADEH
+2026-08-05 10:17:23,102 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084946861971128427', 'text': "🏛 La #députée de la 2e circonscription du Val-d'Oise est Ayda HADIZADEH (44 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-08-05 10:17:23,102 - INFO - === Fin ===
