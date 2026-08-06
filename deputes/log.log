@@ -1,15 +1,3 @@
-2026-08-02 17:17:26,698 - INFO - === Fin ===
-2026-08-03 06:17:28,778 - INFO - === Démarrage Députés ===
-2026-08-03 06:17:28,778 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-03 06:17:28,778 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-03 06:17:28,786 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-03 06:17:28,786 - INFO - Historique chargé: 279 députés déjà tweetés
-2026-08-03 06:17:28,788 - INFO - Nombre de députés uniques: 572
-2026-08-03 06:17:28,788 - INFO - Nombre de députés déjà tweetés: 279
-2026-08-03 06:17:28,789 - INFO - Sélectionné: 9110 - Antoine LÉAUMENT (nouveau député)
-2026-08-03 06:17:28,789 - INFO - Tweet: 🏛 Le #député de la 10e circonscription de l'Essonne est Antoine LÉAUMENT (36 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-03 06:17:29,024 - INFO - Sauvegarde effectuée: 9110 - Antoine LÉAUMENT
-2026-08-03 06:17:29,024 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084161713058758877', 'text': "🏛 Le #député de la 10e circonscription de l'Essonne est Antoine LÉAUMENT (36 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-03 06:17:29,024 - INFO - === Fin ===
 2026-08-03 10:17:27,187 - INFO - === Démarrage Députés ===
 2026-08-03 10:17:27,187 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-05 17:17:35,354 - INFO - Sauvegarde effectuée: 7709 - Céline THIEBAULT-MARTINEZ
 2026-08-05 17:17:35,354 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085052609748979978', 'text': '🏛 La #députée de la 9e circonscription de Seine-et-Marne est Céline THIEBAULT-MARTINEZ (52 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-05 17:17:35,354 - INFO - === Fin ===
+2026-08-06 06:17:35,507 - INFO - === Démarrage Députés ===
+2026-08-06 06:17:35,507 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-06 06:17:35,507 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-06 06:17:35,515 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-06 06:17:35,515 - INFO - Historique chargé: 288 députés déjà tweetés
+2026-08-06 06:17:35,517 - INFO - Nombre de députés uniques: 572
+2026-08-06 06:17:35,517 - INFO - Nombre de députés déjà tweetés: 288
+2026-08-06 06:17:35,518 - INFO - Sélectionné: 9306 - Bastien LACHAUD (nouveau député)
+2026-08-06 06:17:35,518 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de Seine-Saint-Denis est Bastien LACHAUD (46 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-06 06:17:35,780 - INFO - Sauvegarde effectuée: 9306 - Bastien LACHAUD
+2026-08-06 06:17:35,780 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085248905063931943', 'text': '🏛 Le #député de la 6e circonscription de Seine-Saint-Denis est Bastien LACHAUD (46 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-06 06:17:35,780 - INFO - === Fin ===
