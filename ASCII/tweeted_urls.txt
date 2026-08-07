@@ -34,3 +34,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/neymar.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/ClintEastwood.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/zelinsky.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/NicolasCage.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/JohnnyHallyday.jpg
