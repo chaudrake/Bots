@@ -1,14 +1,3 @@
-2026-08-01 16:46:32,817 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-01 16:46:32,904 - INFO - Historique chargé: 1812 maires déjà tweetés
-2026-08-01 16:46:32,928 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-01 16:46:32,929 - INFO - Nombre de maires déjà tweetés: 1812
-2026-08-01 16:46:32,930 - INFO - Sélectionné: 78380 - Olivier LEPRETRE (nouveau maire)
-2026-08-01 16:46:32,932 - INFO - Tweet: 🏛 Le #maire de Maule (Yvelines) est Olivier LEPRETRE (69 ans) #MairesdeFrance 🇫🇷
-2026-08-01 16:46:33,183 - INFO - Sauvegarde effectuée: 78380 - Olivier LEPRETRE
-2026-08-01 16:46:33,183 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083595247763001707', 'text': '🏛 Le #maire de Maule (Yvelines) est Olivier LEPRETRE (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-01 16:46:33,186 - INFO - === Fin ===
-2026-08-02 10:46:27,373 - INFO - === Démarrage Maires ===
-2026-08-02 10:46:27,373 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-02 10:46:27,373 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-02 10:46:27,441 - INFO - Historique chargé: 1813 maires déjà tweetés
 2026-08-02 10:46:27,457 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-06 10:46:26,442 - INFO - Sauvegarde effectuée: 46308 - Joël SENPAU ROCA
 2026-08-06 10:46:26,442 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085316561926258977', 'text': '🏛 Le #maire de Soucirac (Lot) est Joël SENPAU ROCA (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-06 10:46:26,444 - INFO - === Fin ===
+2026-08-07 10:46:24,775 - INFO - === Démarrage Maires ===
+2026-08-07 10:46:24,775 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-07 10:46:24,775 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-07 10:46:24,861 - INFO - Historique chargé: 1822 maires déjà tweetés
+2026-08-07 10:46:24,884 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-07 10:46:24,884 - INFO - Nombre de maires déjà tweetés: 1822
+2026-08-07 10:46:24,885 - INFO - Sélectionné: 57307 - André KEIL (nouveau maire)
+2026-08-07 10:46:24,887 - INFO - Tweet: 🏛 Le #maire de Hayes (Moselle) est André KEIL (84 ans) #MairesdeFrance 🇫🇷
+2026-08-07 10:46:25,122 - INFO - Sauvegarde effectuée: 57307 - André KEIL
+2026-08-07 10:46:25,122 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085678944246993041', 'text': '🏛 Le #maire de Hayes (Moselle) est André KEIL (84 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-07 10:46:25,124 - INFO - === Fin ===
