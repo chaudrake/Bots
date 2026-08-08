@@ -1,15 +1,3 @@
-2026-08-04 10:17:23,273 - INFO - === Fin ===
-2026-08-04 17:17:30,155 - INFO - === Démarrage Députés ===
-2026-08-04 17:17:30,155 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-04 17:17:30,155 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-04 17:17:30,162 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-04 17:17:30,162 - INFO - Historique chargé: 284 députés déjà tweetés
-2026-08-04 17:17:30,164 - INFO - Nombre de députés uniques: 572
-2026-08-04 17:17:30,164 - INFO - Nombre de députés déjà tweetés: 284
-2026-08-04 17:17:30,165 - INFO - Sélectionné: 6005 - Frédéric VOS (nouveau député)
-2026-08-04 17:17:30,166 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de l'Oise est Frédéric VOS (63 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-04 17:17:30,404 - INFO - Sauvegarde effectuée: 6005 - Frédéric VOS
-2026-08-04 17:17:30,404 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2084690201150959866', 'text': "🏛 Le #député de la 5e circonscription de l'Oise est Frédéric VOS (63 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-04 17:17:30,404 - INFO - === Fin ===
 2026-08-05 06:17:22,974 - INFO - === Démarrage Députés ===
 2026-08-05 06:17:22,974 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-07 17:17:29,959 - INFO - Sauvegarde effectuée: 7201 - Julie DELPECH
 2026-08-07 17:17:29,959 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085777362801602921', 'text': '🏛 La #députée de la 1ère circonscription de la Sarthe est Julie DELPECH (36 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-07 17:17:29,959 - INFO - === Fin ===
+2026-08-08 06:17:19,905 - INFO - === Démarrage Députés ===
+2026-08-08 06:17:19,905 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-08 06:17:19,905 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-08 06:17:19,912 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-08 06:17:19,913 - INFO - Historique chargé: 293 députés déjà tweetés
+2026-08-08 06:17:19,914 - INFO - Nombre de députés uniques: 572
+2026-08-08 06:17:19,914 - INFO - Nombre de députés déjà tweetés: 293
+2026-08-08 06:17:19,915 - INFO - Sélectionné: 7701 - Arnaud SAINT-MARTIN (nouveau député)
+2026-08-08 06:17:19,916 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de Seine-et-Marne est Arnaud SAINT-MARTIN (47 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-08 06:17:20,156 - INFO - Sauvegarde effectuée: 7701 - Arnaud SAINT-MARTIN
+2026-08-08 06:17:20,156 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085973615216914883', 'text': '🏛 Le #député de la 1ère circonscription de Seine-et-Marne est Arnaud SAINT-MARTIN (47 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-08 06:17:20,156 - INFO - === Fin ===
