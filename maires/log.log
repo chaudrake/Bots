@@ -1,14 +1,3 @@
-2026-08-02 16:46:24,527 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-02 16:46:24,612 - INFO - Historique chargé: 1814 maires déjà tweetés
-2026-08-02 16:46:24,633 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-02 16:46:24,633 - INFO - Nombre de maires déjà tweetés: 1814
-2026-08-02 16:46:24,634 - INFO - Sélectionné: 53229 - Olivier BARRÉ (nouveau maire)
-2026-08-02 16:46:24,636 - INFO - Tweet: 🏛 Le #maire de Saint-Jean-Sur-Mayenne (Mayenne) est Olivier BARRÉ (58 ans) #MairesdeFrance 🇫🇷
-2026-08-02 16:46:24,901 - INFO - Sauvegarde effectuée: 53229 - Olivier BARRÉ
-2026-08-02 16:46:24,901 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2083957600882766238', 'text': '🏛 Le #maire de Saint-Jean-Sur-Mayenne (Mayenne) est Olivier BARRÉ (58 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-02 16:46:24,903 - INFO - === Fin ===
-2026-08-03 10:46:27,540 - INFO - === Démarrage Maires ===
-2026-08-03 10:46:27,540 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-03 10:46:27,540 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-03 10:46:27,622 - INFO - Historique chargé: 1815 maires déjà tweetés
 2026-08-03 10:46:27,643 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-07 16:46:31,901 - INFO - Sauvegarde effectuée: 34333 - Magali FERRIER
 2026-08-07 16:46:31,901 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2085769569562439989', 'text': '🏛 La #maire de Vic-La-Gardiole (Hérault) est Magali FERRIER (55 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-07 16:46:31,903 - INFO - === Fin ===
+2026-08-08 10:46:24,338 - INFO - === Démarrage Maires ===
+2026-08-08 10:46:24,338 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-08 10:46:24,338 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-08 10:46:24,404 - INFO - Historique chargé: 1824 maires déjà tweetés
+2026-08-08 10:46:24,420 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-08 10:46:24,420 - INFO - Nombre de maires déjà tweetés: 1824
+2026-08-08 10:46:24,421 - INFO - Sélectionné: 26050 - José FERNANDES (nouveau maire)
+2026-08-08 10:46:24,422 - INFO - Tweet: 🏛 Le #maire de Bésignan (Drôme) est José FERNANDES (71 ans) #MairesdeFrance 🇫🇷
+2026-08-08 10:46:24,745 - INFO - Sauvegarde effectuée: 26050 - José FERNANDES
+2026-08-08 10:46:24,745 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2086041330329817410', 'text': '🏛 Le #maire de Bésignan (Drôme) est José FERNANDES (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-08 10:46:24,747 - INFO - === Fin ===
