@@ -1,15 +1,3 @@
-2026-08-09 10:17:23,627 - INFO - === Fin ===
-2026-08-09 17:17:23,927 - INFO - === Démarrage Députés ===
-2026-08-09 17:17:23,927 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-09 17:17:23,927 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-09 17:17:23,934 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-09 17:17:23,934 - INFO - Historique chargé: 298 députés déjà tweetés
-2026-08-09 17:17:23,936 - INFO - Nombre de députés uniques: 572
-2026-08-09 17:17:23,936 - INFO - Nombre de députés déjà tweetés: 298
-2026-08-09 17:17:23,938 - INFO - Sélectionné: 7604 - Alma DUFOUR (nouveau député)
-2026-08-09 17:17:23,938 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de Seine-Maritime est Alma DUFOUR (36 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-09 17:17:24,200 - INFO - Sauvegarde effectuée: 7604 - Alma DUFOUR
-2026-08-09 17:17:24,200 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2086502114508014066', 'text': '🏛 La #députée de la 4e circonscription de Seine-Maritime est Alma DUFOUR (36 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-09 17:17:24,200 - INFO - === Fin ===
 2026-08-10 06:17:26,859 - INFO - === Démarrage Députés ===
 2026-08-10 06:17:26,859 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-12 10:17:22,070 - INFO - Sauvegarde effectuée: 5104 - Lise MAGNIER
 2026-08-12 10:17:22,070 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087483572743541198', 'text': '🏛 La #députée de la 4e circonscription de la Marne est Lise MAGNIER (41 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-12 10:17:22,070 - INFO - === Fin ===
+2026-08-12 17:17:29,870 - INFO - === Démarrage Députés ===
+2026-08-12 17:17:29,870 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-12 17:17:29,870 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-12 17:17:29,877 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-12 17:17:29,878 - INFO - Historique chargé: 307 députés déjà tweetés
+2026-08-12 17:17:29,879 - INFO - Nombre de députés uniques: 572
+2026-08-12 17:17:29,879 - INFO - Nombre de députés déjà tweetés: 307
+2026-08-12 17:17:29,881 - INFO - Sélectionné: 1502 - Jean Yves BONY (nouveau député)
+2026-08-12 17:17:29,881 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Cantal est Jean Yves BONY (71 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-12 17:17:30,120 - INFO - Sauvegarde effectuée: 1502 - Jean Yves BONY
+2026-08-12 17:17:30,121 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087589302872264838', 'text': '🏛 Le #député de la 2e circonscription du Cantal est Jean Yves BONY (71 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-12 17:17:30,121 - INFO - === Fin ===
