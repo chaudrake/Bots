@@ -1,14 +1,3 @@
-2026-08-08 16:46:34,877 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-08 16:46:34,963 - INFO - Historique chargé: 1825 maires déjà tweetés
-2026-08-08 16:46:34,987 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-08 16:46:34,987 - INFO - Nombre de maires déjà tweetés: 1825
-2026-08-08 16:46:34,988 - INFO - Sélectionné: 23088 - Clement DAUBY (nouveau maire)
-2026-08-08 16:46:34,990 - INFO - Tweet: 🏛 Le #maire de Gartempe (Creuse) est Clement DAUBY (24 ans) #MairesdeFrance 🇫🇷
-2026-08-08 16:46:35,232 - INFO - Sauvegarde effectuée: 23088 - Clement DAUBY
-2026-08-08 16:46:35,232 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2086131971453858022', 'text': '🏛 Le #maire de Gartempe (Creuse) est Clement DAUBY (24 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-08 16:46:35,235 - INFO - === Fin ===
-2026-08-09 10:46:25,801 - INFO - === Démarrage Maires ===
-2026-08-09 10:46:25,801 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-09 10:46:25,801 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-09 10:46:25,898 - INFO - Historique chargé: 1826 maires déjà tweetés
 2026-08-09 10:46:25,923 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-13 10:46:26,602 - INFO - Sauvegarde effectuée: 47295 - Jean Marc LUCAS
 2026-08-13 10:46:26,602 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087853277614325951', 'text': '🏛 Le #maire de Savignac-Sur-Leyze (Lot-et-Garonne) est Jean Marc LUCAS (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-13 10:46:26,604 - INFO - === Fin ===
+2026-08-13 16:46:23,734 - INFO - === Démarrage Maires ===
+2026-08-13 16:46:23,735 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-13 16:46:23,735 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-13 16:46:23,821 - INFO - Historique chargé: 1835 maires déjà tweetés
+2026-08-13 16:46:23,847 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-13 16:46:23,848 - INFO - Nombre de maires déjà tweetés: 1835
+2026-08-13 16:46:23,849 - INFO - Sélectionné: 01211 - Yves CRISTIN (nouveau maire)
+2026-08-13 16:46:23,851 - INFO - Tweet: 🏛 Le #maire de Lent (Aveyron) est Yves CRISTIN (67 ans) #MairesdeFrance 🇫🇷
+2026-08-13 16:46:24,181 - INFO - Sauvegarde effectuée: 01211 - Yves CRISTIN
+2026-08-13 16:46:24,181 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087943864363401325', 'text': '🏛 Le #maire de Lent (Aveyron) est Yves CRISTIN (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-13 16:46:24,183 - INFO - === Fin ===
