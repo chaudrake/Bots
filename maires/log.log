@@ -1,14 +1,3 @@
-2026-08-08 10:46:24,338 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-08 10:46:24,404 - INFO - Historique chargé: 1824 maires déjà tweetés
-2026-08-08 10:46:24,420 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-08 10:46:24,420 - INFO - Nombre de maires déjà tweetés: 1824
-2026-08-08 10:46:24,421 - INFO - Sélectionné: 26050 - José FERNANDES (nouveau maire)
-2026-08-08 10:46:24,422 - INFO - Tweet: 🏛 Le #maire de Bésignan (Drôme) est José FERNANDES (71 ans) #MairesdeFrance 🇫🇷
-2026-08-08 10:46:24,745 - INFO - Sauvegarde effectuée: 26050 - José FERNANDES
-2026-08-08 10:46:24,745 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2086041330329817410', 'text': '🏛 Le #maire de Bésignan (Drôme) est José FERNANDES (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-08 10:46:24,747 - INFO - === Fin ===
-2026-08-08 16:46:34,877 - INFO - === Démarrage Maires ===
-2026-08-08 16:46:34,877 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-08 16:46:34,877 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-08 16:46:34,963 - INFO - Historique chargé: 1825 maires déjà tweetés
 2026-08-08 16:46:34,987 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-12 16:46:25,986 - INFO - Sauvegarde effectuée: 01249 - Sylvie VIRICEL
 2026-08-12 16:46:25,986 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087581484144341007', 'text': '🏛 La #maire de Miribel (Aveyron) est Sylvie VIRICEL (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-12 16:46:25,988 - INFO - === Fin ===
+2026-08-13 10:46:26,173 - INFO - === Démarrage Maires ===
+2026-08-13 10:46:26,173 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-13 10:46:26,173 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-13 10:46:26,261 - INFO - Historique chargé: 1834 maires déjà tweetés
+2026-08-13 10:46:26,283 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-13 10:46:26,283 - INFO - Nombre de maires déjà tweetés: 1834
+2026-08-13 10:46:26,285 - INFO - Sélectionné: 47295 - Jean Marc LUCAS (nouveau maire)
+2026-08-13 10:46:26,286 - INFO - Tweet: 🏛 Le #maire de Savignac-Sur-Leyze (Lot-et-Garonne) est Jean Marc LUCAS (67 ans) #MairesdeFrance 🇫🇷
+2026-08-13 10:46:26,602 - INFO - Sauvegarde effectuée: 47295 - Jean Marc LUCAS
+2026-08-13 10:46:26,602 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087853277614325951', 'text': '🏛 Le #maire de Savignac-Sur-Leyze (Lot-et-Garonne) est Jean Marc LUCAS (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-13 10:46:26,604 - INFO - === Fin ===
