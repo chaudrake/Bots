@@ -1,15 +1,3 @@
-2026-08-11 06:17:28,176 - INFO - === Fin ===
-2026-08-11 10:17:22,389 - INFO - === Démarrage Députés ===
-2026-08-11 10:17:22,389 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-11 10:17:22,389 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-11 10:17:22,395 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-11 10:17:22,396 - INFO - Historique chargé: 303 députés déjà tweetés
-2026-08-11 10:17:22,397 - INFO - Nombre de députés uniques: 572
-2026-08-11 10:17:22,397 - INFO - Nombre de députés déjà tweetés: 303
-2026-08-11 10:17:22,397 - INFO - Sélectionné: 9509 - Arnaud LE GALL (nouveau député)
-2026-08-11 10:17:22,398 - INFO - Tweet: 🏛 Le #député de la 9e circonscription du Val-d'Oise est Arnaud LE GALL (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-11 10:17:22,661 - INFO - Sauvegarde effectuée: 9509 - Arnaud LE GALL
-2026-08-11 10:17:22,661 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087121187281510847', 'text': "🏛 Le #député de la 9e circonscription du Val-d'Oise est Arnaud LE GALL (45 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-11 10:17:22,661 - INFO - === Fin ===
 2026-08-11 17:17:22,922 - INFO - === Démarrage Députés ===
 2026-08-11 17:17:22,922 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-14 06:17:23,650 - INFO - Sauvegarde effectuée: 5604 - Paul MOLAC
 2026-08-14 06:17:23,650 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088147957023428708', 'text': '🏛 Le #député de la 4e circonscription du Morbihan est Paul MOLAC (64 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-14 06:17:23,651 - INFO - === Fin ===
+2026-08-14 10:17:26,455 - INFO - === Démarrage Députés ===
+2026-08-14 10:17:26,455 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-14 10:17:26,455 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-14 10:17:26,462 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-14 10:17:26,463 - INFO - Historique chargé: 312 députés déjà tweetés
+2026-08-14 10:17:26,464 - INFO - Nombre de députés uniques: 572
+2026-08-14 10:17:26,464 - INFO - Nombre de députés déjà tweetés: 312
+2026-08-14 10:17:26,466 - INFO - Sélectionné: 0802 - Pierre CORDIER (nouveau député)
+2026-08-14 10:17:26,466 - INFO - Tweet: 🏛 Le #député de la 2e circonscription des Ardennes est Pierre CORDIER (54 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-14 10:17:26,871 - INFO - Sauvegarde effectuée: 0802 - Pierre CORDIER
+2026-08-14 10:17:26,871 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088208368347304410', 'text': '🏛 Le #député de la 2e circonscription des Ardennes est Pierre CORDIER (54 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-14 10:17:26,871 - INFO - === Fin ===
