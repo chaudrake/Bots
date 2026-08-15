@@ -1,14 +1,3 @@
-2026-08-10 10:46:31,407 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-10 10:46:31,498 - INFO - Historique chargé: 1828 maires déjà tweetés
-2026-08-10 10:46:31,522 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-10 10:46:31,522 - INFO - Nombre de maires déjà tweetés: 1828
-2026-08-10 10:46:31,524 - INFO - Sélectionné: 52459 - Franck TROMPETTE (nouveau maire)
-2026-08-10 10:46:31,526 - INFO - Tweet: 🏛 Le #maire de Sarcey (Haute-Marne) est Franck TROMPETTE (61 ans) #MairesdeFrance 🇫🇷
-2026-08-10 10:46:31,798 - INFO - Sauvegarde effectuée: 52459 - Franck TROMPETTE
-2026-08-10 10:46:31,798 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2086766135714660654', 'text': '🏛 Le #maire de Sarcey (Haute-Marne) est Franck TROMPETTE (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-10 10:46:31,800 - INFO - === Fin ===
-2026-08-10 16:46:25,450 - INFO - === Démarrage Maires ===
-2026-08-10 16:46:25,450 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-10 16:46:25,450 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-10 16:46:25,535 - INFO - Historique chargé: 1829 maires déjà tweetés
 2026-08-10 16:46:25,557 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-14 16:46:22,246 - INFO - Sauvegarde effectuée: 19225 - Marion GUICHON
 2026-08-14 16:46:22,246 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088306244121403728', 'text': '🏛 La #maire de Saint-Merd-De-Lapleau (Corrèze) est Marion GUICHON (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-14 16:46:22,248 - INFO - === Fin ===
+2026-08-15 10:46:24,776 - INFO - === Démarrage Maires ===
+2026-08-15 10:46:24,776 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-15 10:46:24,776 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-15 10:46:24,861 - INFO - Historique chargé: 1838 maires déjà tweetés
+2026-08-15 10:46:24,883 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-15 10:46:24,883 - INFO - Nombre de maires déjà tweetés: 1838
+2026-08-15 10:46:24,885 - INFO - Sélectionné: 2B136 - Attilius CECCALDI (nouveau maire)
+2026-08-15 10:46:24,886 - INFO - Tweet: 🏛 Le #maire de Lama (Corse) est Attilius CECCALDI (65 ans) #MairesdeFrance 🇫🇷
+2026-08-15 10:46:25,139 - INFO - Sauvegarde effectuée: 2B136 - Attilius CECCALDI
+2026-08-15 10:46:25,139 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088578047234507023', 'text': '🏛 Le #maire de Lama (Corse) est Attilius CECCALDI (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-15 10:46:25,141 - INFO - === Fin ===
