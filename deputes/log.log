@@ -1,15 +1,3 @@
-2026-08-13 10:17:25,768 - INFO - === Fin ===
-2026-08-13 17:17:39,265 - INFO - === Démarrage Députés ===
-2026-08-13 17:17:39,266 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-13 17:17:39,266 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-13 17:17:39,271 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-13 17:17:39,271 - INFO - Historique chargé: 310 députés déjà tweetés
-2026-08-13 17:17:39,272 - INFO - Nombre de députés uniques: 572
-2026-08-13 17:17:39,272 - INFO - Nombre de députés déjà tweetés: 310
-2026-08-13 17:17:39,273 - INFO - Sélectionné: 6908 - Jonathan GERY (nouveau député)
-2026-08-13 17:17:39,273 - INFO - Tweet: 🏛 Le #député de la 8e circonscription du Rhône est Jonathan GERY (39 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-13 17:17:39,638 - INFO - Sauvegarde effectuée: 6908 - Jonathan GERY
-2026-08-13 17:17:39,638 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087951730570842537', 'text': '🏛 Le #député de la 8e circonscription du Rhône est Jonathan GERY (39 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-13 17:17:39,638 - INFO - === Fin ===
 2026-08-14 06:17:23,399 - INFO - === Démarrage Députés ===
 2026-08-14 06:17:23,399 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-16 10:17:26,397 - INFO - Sauvegarde effectuée: 5001 - Philippe GOSSELIN
 2026-08-16 10:17:26,397 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088933142266806614', 'text': '🏛 Le #député de la 1ère circonscription de la Manche est Philippe GOSSELIN (59 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-16 10:17:26,398 - INFO - === Fin ===
+2026-08-16 17:17:25,485 - INFO - === Démarrage Députés ===
+2026-08-16 17:17:25,485 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-16 17:17:25,485 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-16 17:17:25,492 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-16 17:17:25,492 - INFO - Historique chargé: 319 députés déjà tweetés
+2026-08-16 17:17:25,494 - INFO - Nombre de députés uniques: 572
+2026-08-16 17:17:25,494 - INFO - Nombre de députés déjà tweetés: 319
+2026-08-16 17:17:25,495 - INFO - Sélectionné: 0604 - Gabriel TOMATIS (nouveau député)
+2026-08-16 17:17:25,495 - INFO - Tweet: 🏛 Le #député de la 4e circonscription des Alpes-Maritimes est Gabriel TOMATIS (26 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-16 17:17:25,752 - INFO - Sauvegarde effectuée: 0604 - Gabriel TOMATIS
+2026-08-16 17:17:25,752 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089038836072677439', 'text': '🏛 Le #député de la 4e circonscription des Alpes-Maritimes est Gabriel TOMATIS (26 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-16 17:17:25,752 - INFO - === Fin ===
