@@ -1,15 +1,3 @@
-2026-08-13 06:17:24,752 - INFO - === Fin ===
-2026-08-13 10:17:25,490 - INFO - === Démarrage Députés ===
-2026-08-13 10:17:25,491 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-13 10:17:25,491 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-13 10:17:25,539 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-13 10:17:25,539 - INFO - Historique chargé: 309 députés déjà tweetés
-2026-08-13 10:17:25,541 - INFO - Nombre de députés uniques: 572
-2026-08-13 10:17:25,541 - INFO - Nombre de députés déjà tweetés: 309
-2026-08-13 10:17:25,543 - INFO - Sélectionné: 3106 - Arnaud SIMION (nouveau député)
-2026-08-13 10:17:25,543 - INFO - Tweet: 🏛 Le #député de la 6e circonscription de la Haute-Garonne est Arnaud SIMION (58 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-13 10:17:25,768 - INFO - Sauvegarde effectuée: 3106 - Arnaud SIMION
-2026-08-13 10:17:25,768 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2087845976094703807', 'text': '🏛 Le #député de la 6e circonscription de la Haute-Garonne est Arnaud SIMION (58 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-13 10:17:25,768 - INFO - === Fin ===
 2026-08-13 17:17:39,265 - INFO - === Démarrage Députés ===
 2026-08-13 17:17:39,266 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-16 06:17:21,630 - INFO - Sauvegarde effectuée: 97104 - Elie CALIFER
 2026-08-16 06:17:21,630 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088872724320182742', 'text': '🏛 Le #député de la 4e circonscription de Guadeloupe est Elie CALIFER (72 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-16 06:17:21,630 - INFO - === Fin ===
+2026-08-16 10:17:26,129 - INFO - === Démarrage Députés ===
+2026-08-16 10:17:26,129 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-16 10:17:26,129 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-16 10:17:26,136 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-16 10:17:26,136 - INFO - Historique chargé: 318 députés déjà tweetés
+2026-08-16 10:17:26,138 - INFO - Nombre de députés uniques: 572
+2026-08-16 10:17:26,138 - INFO - Nombre de députés déjà tweetés: 318
+2026-08-16 10:17:26,139 - INFO - Sélectionné: 5001 - Philippe GOSSELIN (nouveau député)
+2026-08-16 10:17:26,140 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Manche est Philippe GOSSELIN (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-16 10:17:26,397 - INFO - Sauvegarde effectuée: 5001 - Philippe GOSSELIN
+2026-08-16 10:17:26,397 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088933142266806614', 'text': '🏛 Le #député de la 1ère circonscription de la Manche est Philippe GOSSELIN (59 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-16 10:17:26,398 - INFO - === Fin ===
