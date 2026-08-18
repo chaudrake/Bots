@@ -1,15 +1,3 @@
-2026-08-14 10:17:26,871 - INFO - === Fin ===
-2026-08-14 17:17:23,097 - INFO - === Démarrage Députés ===
-2026-08-14 17:17:23,097 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-14 17:17:23,097 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-14 17:17:23,104 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-14 17:17:23,105 - INFO - Historique chargé: 313 députés déjà tweetés
-2026-08-14 17:17:23,107 - INFO - Nombre de députés uniques: 572
-2026-08-14 17:17:23,107 - INFO - Nombre de députés déjà tweetés: 313
-2026-08-14 17:17:23,108 - INFO - Sélectionné: 2A01 - Laurent MARCANGELI (nouveau député)
-2026-08-14 17:17:23,108 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de Corse est Laurent MARCANGELI (45 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-14 17:17:23,367 - INFO - Sauvegarde effectuée: 2A01 - Laurent MARCANGELI
-2026-08-14 17:17:23,367 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088314050338042159', 'text': '🏛 Le #député de la 1ère circonscription de Corse est Laurent MARCANGELI (45 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-14 17:17:23,367 - INFO - === Fin ===
 2026-08-15 06:17:22,424 - INFO - === Démarrage Députés ===
 2026-08-15 06:17:22,424 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-17 10:17:21,697 - INFO - Sauvegarde effectuée: 9506 - Gabrielle CATHALA
 2026-08-17 10:17:21,697 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089295510322508244', 'text': "🏛 La #députée de la 6e circonscription du Val-d'Oise est Gabrielle CATHALA (34 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-17 10:17:21,697 - INFO - === Fin ===
+2026-08-18 06:17:23,009 - INFO - === Démarrage Députés ===
+2026-08-18 06:17:23,009 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-18 06:17:23,010 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-18 06:17:23,017 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-18 06:17:23,017 - INFO - Historique chargé: 322 députés déjà tweetés
+2026-08-18 06:17:23,019 - INFO - Nombre de députés uniques: 572
+2026-08-18 06:17:23,019 - INFO - Nombre de députés déjà tweetés: 322
+2026-08-18 06:17:23,020 - INFO - Sélectionné: 5705 - Pascal JENFT (nouveau député)
+2026-08-18 06:17:23,021 - INFO - Tweet: 🏛 Le #député de la 5e circonscription de la Moselle est Pascal JENFT (59 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-18 06:17:23,268 - INFO - Sauvegarde effectuée: 5705 - Pascal JENFT
+2026-08-18 06:17:23,268 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089597506896146449', 'text': '🏛 Le #député de la 5e circonscription de la Moselle est Pascal JENFT (59 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-18 06:17:23,268 - INFO - === Fin ===
