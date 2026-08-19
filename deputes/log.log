@@ -1,15 +1,3 @@
-2026-08-15 17:17:23,133 - INFO - === Fin ===
-2026-08-16 06:17:21,398 - INFO - === Démarrage Députés ===
-2026-08-16 06:17:21,398 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-16 06:17:21,398 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-16 06:17:21,404 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-16 06:17:21,404 - INFO - Historique chargé: 317 députés déjà tweetés
-2026-08-16 06:17:21,405 - INFO - Nombre de députés uniques: 572
-2026-08-16 06:17:21,406 - INFO - Nombre de députés déjà tweetés: 317
-2026-08-16 06:17:21,406 - INFO - Sélectionné: 97104 - Elie CALIFER (nouveau député)
-2026-08-16 06:17:21,406 - INFO - Tweet: 🏛 Le #député de la 4e circonscription de Guadeloupe est Elie CALIFER (72 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-16 06:17:21,630 - INFO - Sauvegarde effectuée: 97104 - Elie CALIFER
-2026-08-16 06:17:21,630 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088872724320182742', 'text': '🏛 Le #député de la 4e circonscription de Guadeloupe est Elie CALIFER (72 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-16 06:17:21,630 - INFO - === Fin ===
 2026-08-16 10:17:26,129 - INFO - === Démarrage Députés ===
 2026-08-16 10:17:26,129 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-19 06:17:24,014 - INFO - Sauvegarde effectuée: 4302 - Peter VIGIER
 2026-08-19 06:17:24,014 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089959897928732884', 'text': '🏛 Le #député de la 2e circonscription de Haute-Loire est Peter VIGIER (56 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-19 06:17:24,014 - INFO - === Fin ===
+2026-08-19 10:17:24,753 - INFO - === Démarrage Députés ===
+2026-08-19 10:17:24,753 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-19 10:17:24,753 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-19 10:17:24,761 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-19 10:17:24,761 - INFO - Historique chargé: 325 députés déjà tweetés
+2026-08-19 10:17:24,763 - INFO - Nombre de députés uniques: 572
+2026-08-19 10:17:24,763 - INFO - Nombre de députés déjà tweetés: 325
+2026-08-19 10:17:24,764 - INFO - Sélectionné: 5401 - Estelle MERCIER (nouveau député)
+2026-08-19 10:17:24,765 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription de la Meurthe-et-Moselle est Estelle MERCIER (53 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-19 10:17:25,039 - INFO - Sauvegarde effectuée: 5401 - Estelle MERCIER
+2026-08-19 10:17:25,039 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090020300071031218', 'text': '🏛 La #députée de la 1ère circonscription de la Meurthe-et-Moselle est Estelle MERCIER (53 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-19 10:17:25,039 - INFO - === Fin ===
