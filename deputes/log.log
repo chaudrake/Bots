@@ -1,15 +1,3 @@
-2026-08-17 06:17:27,172 - INFO - === Fin ===
-2026-08-17 10:17:21,353 - INFO - === Démarrage Députés ===
-2026-08-17 10:17:21,354 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-17 10:17:21,354 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-17 10:17:21,361 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-17 10:17:21,361 - INFO - Historique chargé: 321 députés déjà tweetés
-2026-08-17 10:17:21,363 - INFO - Nombre de députés uniques: 572
-2026-08-17 10:17:21,363 - INFO - Nombre de députés déjà tweetés: 321
-2026-08-17 10:17:21,364 - INFO - Sélectionné: 9506 - Gabrielle CATHALA (nouveau député)
-2026-08-17 10:17:21,365 - INFO - Tweet: 🏛 La #députée de la 6e circonscription du Val-d'Oise est Gabrielle CATHALA (34 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-17 10:17:21,697 - INFO - Sauvegarde effectuée: 9506 - Gabrielle CATHALA
-2026-08-17 10:17:21,697 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089295510322508244', 'text': "🏛 La #députée de la 6e circonscription du Val-d'Oise est Gabrielle CATHALA (34 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-17 10:17:21,697 - INFO - === Fin ===
 2026-08-18 06:17:23,009 - INFO - === Démarrage Députés ===
 2026-08-18 06:17:23,009 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-20 10:17:23,258 - INFO - Sauvegarde effectuée: 97401 - Philippe NAILLET
 2026-08-20 10:17:23,258 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090382680605278517', 'text': '🏛 Le #député de la 1ère circonscription de la Réunion est Philippe NAILLET (66 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-20 10:17:23,259 - INFO - === Fin ===
+2026-08-20 17:17:24,473 - INFO - === Démarrage Députés ===
+2026-08-20 17:17:24,473 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-20 17:17:24,473 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-20 17:17:24,480 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-20 17:17:24,481 - INFO - Historique chargé: 329 députés déjà tweetés
+2026-08-20 17:17:24,483 - INFO - Nombre de députés uniques: 572
+2026-08-20 17:17:24,483 - INFO - Nombre de députés déjà tweetés: 329
+2026-08-20 17:17:24,484 - INFO - Sélectionné: 3702 - Daniel LABARONNE (nouveau député)
+2026-08-20 17:17:24,485 - INFO - Tweet: 🏛 Le #député de la 2e circonscription d'Indre-et-Loire est Daniel LABARONNE (71 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-20 17:17:24,697 - INFO - Sauvegarde effectuée: 3702 - Daniel LABARONNE
+2026-08-20 17:17:24,697 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090488383122673898', 'text': "🏛 Le #député de la 2e circonscription d'Indre-et-Loire est Daniel LABARONNE (71 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-08-20 17:17:24,698 - INFO - === Fin ===
