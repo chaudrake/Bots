@@ -1,15 +1,3 @@
-2026-08-16 17:17:25,752 - INFO - === Fin ===
-2026-08-17 06:17:26,796 - INFO - === Démarrage Députés ===
-2026-08-17 06:17:26,797 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-17 06:17:26,797 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-17 06:17:26,804 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-17 06:17:26,804 - INFO - Historique chargé: 320 députés déjà tweetés
-2026-08-17 06:17:26,806 - INFO - Nombre de députés uniques: 572
-2026-08-17 06:17:26,806 - INFO - Nombre de députés déjà tweetés: 320
-2026-08-17 06:17:26,808 - INFO - Sélectionné: 3201 - Jean-René CAZENEUVE (nouveau député)
-2026-08-17 06:17:26,808 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription du Gers est Jean-René CAZENEUVE (68 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-17 06:17:27,172 - INFO - Sauvegarde effectuée: 3201 - Jean-René CAZENEUVE
-2026-08-17 06:17:27,172 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089235135388434923', 'text': '🏛 Le #député de la 1ère circonscription du Gers est Jean-René CAZENEUVE (68 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-17 06:17:27,172 - INFO - === Fin ===
 2026-08-17 10:17:21,353 - INFO - === Démarrage Députés ===
 2026-08-17 10:17:21,354 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-20 06:17:24,953 - INFO - Sauvegarde effectuée: 9213 - Christophe MONGARDIEN
 2026-08-20 06:17:24,953 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090322289728659915', 'text': '🏛 Le #député de la 13e circonscription des Hauts-de-Seine est Christophe MONGARDIEN (63 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-20 06:17:24,953 - INFO - === Fin ===
+2026-08-20 10:17:22,963 - INFO - === Démarrage Députés ===
+2026-08-20 10:17:22,963 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-20 10:17:22,963 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-20 10:17:22,970 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-20 10:17:22,970 - INFO - Historique chargé: 328 députés déjà tweetés
+2026-08-20 10:17:22,972 - INFO - Nombre de députés uniques: 572
+2026-08-20 10:17:22,972 - INFO - Nombre de députés déjà tweetés: 328
+2026-08-20 10:17:22,972 - INFO - Sélectionné: 97401 - Philippe NAILLET (nouveau député)
+2026-08-20 10:17:22,973 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Réunion est Philippe NAILLET (66 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-20 10:17:23,258 - INFO - Sauvegarde effectuée: 97401 - Philippe NAILLET
+2026-08-20 10:17:23,258 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090382680605278517', 'text': '🏛 Le #député de la 1ère circonscription de la Réunion est Philippe NAILLET (66 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-20 10:17:23,259 - INFO - === Fin ===
