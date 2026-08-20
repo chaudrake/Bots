@@ -1,14 +1,3 @@
-2026-08-15 16:46:24,963 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-15 16:46:25,052 - INFO - Historique chargé: 1839 maires déjà tweetés
-2026-08-15 16:46:25,077 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-15 16:46:25,077 - INFO - Nombre de maires déjà tweetés: 1839
-2026-08-15 16:46:25,079 - INFO - Sélectionné: 04115 - Viviane PONS BERTAINA (nouveau maire)
-2026-08-15 16:46:25,081 - INFO - Tweet: 🏛 La #maire de Méailles (Loir-et-Cher) est Viviane PONS BERTAINA (80 ans) #MairesdeFrance 🇫🇷
-2026-08-15 16:46:25,349 - INFO - Sauvegarde effectuée: 04115 - Viviane PONS BERTAINA
-2026-08-15 16:46:25,349 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088668645128102317', 'text': '🏛 La #maire de Méailles (Loir-et-Cher) est Viviane PONS BERTAINA (80 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-15 16:46:25,351 - INFO - === Fin ===
-2026-08-16 10:46:23,635 - INFO - === Démarrage Maires ===
-2026-08-16 10:46:23,635 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-16 10:46:23,635 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-16 10:46:23,717 - INFO - Historique chargé: 1840 maires déjà tweetés
 2026-08-16 10:46:23,736 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-20 10:46:25,794 - INFO - Sauvegarde effectuée: 29187 - Laurent LE BORGNE
 2026-08-20 10:46:25,794 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090389989314150527', 'text': '🏛 Le #maire de Plougar (Finistère) est Laurent LE BORGNE (70 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-20 10:46:25,796 - INFO - === Fin ===
+2026-08-20 16:46:26,538 - INFO - === Démarrage Maires ===
+2026-08-20 16:46:26,538 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-20 16:46:26,539 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-20 16:46:26,653 - INFO - Historique chargé: 1849 maires déjà tweetés
+2026-08-20 16:46:26,686 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-20 16:46:26,686 - INFO - Nombre de maires déjà tweetés: 1849
+2026-08-20 16:46:26,688 - INFO - Sélectionné: 33128 - Béatrice SAVIN (nouveau maire)
+2026-08-20 16:46:26,690 - INFO - Tweet: 🏛 La #maire de Civrac-En-Médoc (Gironde) est Béatrice SAVIN (57 ans) #MairesdeFrance 🇫🇷
+2026-08-20 16:46:27,104 - INFO - Sauvegarde effectuée: 33128 - Béatrice SAVIN
+2026-08-20 16:46:27,104 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090480591632273728', 'text': '🏛 La #maire de Civrac-En-Médoc (Gironde) est Béatrice SAVIN (57 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-20 16:46:27,106 - INFO - === Fin ===
