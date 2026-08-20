@@ -1,14 +1,3 @@
-2026-08-15 10:46:24,776 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-15 10:46:24,861 - INFO - Historique chargé: 1838 maires déjà tweetés
-2026-08-15 10:46:24,883 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-15 10:46:24,883 - INFO - Nombre de maires déjà tweetés: 1838
-2026-08-15 10:46:24,885 - INFO - Sélectionné: 2B136 - Attilius CECCALDI (nouveau maire)
-2026-08-15 10:46:24,886 - INFO - Tweet: 🏛 Le #maire de Lama (Corse) est Attilius CECCALDI (65 ans) #MairesdeFrance 🇫🇷
-2026-08-15 10:46:25,139 - INFO - Sauvegarde effectuée: 2B136 - Attilius CECCALDI
-2026-08-15 10:46:25,139 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2088578047234507023', 'text': '🏛 Le #maire de Lama (Corse) est Attilius CECCALDI (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-15 10:46:25,141 - INFO - === Fin ===
-2026-08-15 16:46:24,963 - INFO - === Démarrage Maires ===
-2026-08-15 16:46:24,963 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-15 16:46:24,963 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-15 16:46:25,052 - INFO - Historique chargé: 1839 maires déjà tweetés
 2026-08-15 16:46:25,077 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-19 16:46:26,973 - INFO - Sauvegarde effectuée: 17450 - Suzette MOREAU
 2026-08-19 16:46:26,973 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090118203150123232', 'text': '🏛 La #maire de Torxé (Charente-Maritime) est Suzette MOREAU (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-19 16:46:26,975 - INFO - === Fin ===
+2026-08-20 10:46:25,452 - INFO - === Démarrage Maires ===
+2026-08-20 10:46:25,452 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-20 10:46:25,452 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-20 10:46:25,540 - INFO - Historique chargé: 1848 maires déjà tweetés
+2026-08-20 10:46:25,569 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-20 10:46:25,569 - INFO - Nombre de maires déjà tweetés: 1848
+2026-08-20 10:46:25,571 - INFO - Sélectionné: 29187 - Laurent LE BORGNE (nouveau maire)
+2026-08-20 10:46:25,572 - INFO - Tweet: 🏛 Le #maire de Plougar (Finistère) est Laurent LE BORGNE (70 ans) #MairesdeFrance 🇫🇷
+2026-08-20 10:46:25,794 - INFO - Sauvegarde effectuée: 29187 - Laurent LE BORGNE
+2026-08-20 10:46:25,794 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090389989314150527', 'text': '🏛 Le #maire de Plougar (Finistère) est Laurent LE BORGNE (70 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-20 10:46:25,796 - INFO - === Fin ===
