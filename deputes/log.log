@@ -1,15 +1,3 @@
-2026-08-18 06:17:23,268 - INFO - === Fin ===
-2026-08-18 10:17:21,491 - INFO - === Démarrage Députés ===
-2026-08-18 10:17:21,491 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-18 10:17:21,491 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-18 10:17:21,496 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-18 10:17:21,496 - INFO - Historique chargé: 323 députés déjà tweetés
-2026-08-18 10:17:21,497 - INFO - Nombre de députés uniques: 572
-2026-08-18 10:17:21,497 - INFO - Nombre de députés déjà tweetés: 323
-2026-08-18 10:17:21,498 - INFO - Sélectionné: 5706 - Charlotte PARMENTIER-LECOCQ (nouveau député)
-2026-08-18 10:17:21,498 - INFO - Tweet: 🏛 La #députée de la 6e circonscription de la Moselle est Charlotte PARMENTIER-LECOCQ (49 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-18 10:17:21,745 - INFO - Sauvegarde effectuée: 5706 - Charlotte PARMENTIER-LECOCQ
-2026-08-18 10:17:21,745 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089657898582540524', 'text': '🏛 La #députée de la 6e circonscription de la Moselle est Charlotte PARMENTIER-LECOCQ (49 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-18 10:17:21,745 - INFO - === Fin ===
 2026-08-18 17:17:23,838 - INFO - === Démarrage Députés ===
 2026-08-18 17:17:23,838 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-21 06:17:24,139 - INFO - Sauvegarde effectuée: 7405 - Anne-Cécile VIOLLAND
 2026-08-21 06:17:24,139 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090684674032939372', 'text': '🏛 La #députée de la 5e circonscription de Haute-Savoie est Anne-Cécile VIOLLAND (53 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-21 06:17:24,139 - INFO - === Fin ===
+2026-08-21 10:17:21,752 - INFO - === Démarrage Députés ===
+2026-08-21 10:17:21,752 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-21 10:17:21,752 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-21 10:17:21,759 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-21 10:17:21,760 - INFO - Historique chargé: 331 députés déjà tweetés
+2026-08-21 10:17:21,762 - INFO - Nombre de députés uniques: 572
+2026-08-21 10:17:21,762 - INFO - Nombre de députés déjà tweetés: 331
+2026-08-21 10:17:21,765 - INFO - Sélectionné: 2501 - Laurent CROIZIER (nouveau député)
+2026-08-21 10:17:21,765 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription du Doubs est Laurent CROIZIER (51 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-21 10:17:21,997 - INFO - Sauvegarde effectuée: 2501 - Laurent CROIZIER
+2026-08-21 10:17:21,997 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090745063194476649', 'text': '🏛 Le #député de la 1ère circonscription du Doubs est Laurent CROIZIER (51 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-21 10:17:21,997 - INFO - === Fin ===
