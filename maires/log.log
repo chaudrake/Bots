@@ -1,14 +1,3 @@
-2026-08-16 16:46:23,975 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-16 16:46:24,058 - INFO - Historique chargé: 1841 maires déjà tweetés
-2026-08-16 16:46:24,079 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-16 16:46:24,079 - INFO - Nombre de maires déjà tweetés: 1841
-2026-08-16 16:46:24,080 - INFO - Sélectionné: 11133 - Jean-Louis AGUILHON (nouveau maire)
-2026-08-16 16:46:24,082 - INFO - Tweet: 🏛 Le #maire de Fajac-En-Val (Aude) est Jean-Louis AGUILHON (69 ans) #MairesdeFrance 🇫🇷
-2026-08-16 16:46:24,469 - INFO - Sauvegarde effectuée: 11133 - Jean-Louis AGUILHON
-2026-08-16 16:46:24,469 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089031029184991232', 'text': '🏛 Le #maire de Fajac-En-Val (Aude) est Jean-Louis AGUILHON (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-16 16:46:24,471 - INFO - === Fin ===
-2026-08-17 10:46:25,644 - INFO - === Démarrage Maires ===
-2026-08-17 10:46:25,644 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-17 10:46:25,644 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-17 10:46:25,736 - INFO - Historique chargé: 1842 maires déjà tweetés
 2026-08-17 10:46:25,759 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-21 10:46:22,882 - INFO - Sauvegarde effectuée: 46090 - Henri GRATIAS
 2026-08-21 10:46:22,882 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090752364919533796', 'text': '🏛 Le #maire de Durbans (Lot) est Henri GRATIAS (79 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-21 10:46:22,884 - INFO - === Fin ===
+2026-08-21 16:46:21,783 - INFO - === Démarrage Maires ===
+2026-08-21 16:46:21,783 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-21 16:46:21,783 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-21 16:46:21,871 - INFO - Historique chargé: 1851 maires déjà tweetés
+2026-08-21 16:46:21,895 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-21 16:46:21,895 - INFO - Nombre de maires déjà tweetés: 1851
+2026-08-21 16:46:21,897 - INFO - Sélectionné: 81064 - Paul SALVADOR (nouveau maire)
+2026-08-21 16:46:21,899 - INFO - Tweet: 🏛 Le #maire de Castelnau-De-Montmiral (Tarn) est Paul SALVADOR (75 ans) #MairesdeFrance 🇫🇷
+2026-08-21 16:46:22,158 - INFO - Sauvegarde effectuée: 81064 - Paul SALVADOR
+2026-08-21 16:46:22,159 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090842958807359949', 'text': '🏛 Le #maire de Castelnau-De-Montmiral (Tarn) est Paul SALVADOR (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-21 16:46:22,160 - INFO - === Fin ===
