@@ -47,3 +47,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/tomhanks.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/JustinTimberlake.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/CatherineDeneuve.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/madonna.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/KateMiddleton.jpg
