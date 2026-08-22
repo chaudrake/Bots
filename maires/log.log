@@ -1,14 +1,3 @@
-2026-08-17 16:46:21,459 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-17 16:46:21,540 - INFO - Historique chargé: 1843 maires déjà tweetés
-2026-08-17 16:46:21,560 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-17 16:46:21,560 - INFO - Nombre de maires déjà tweetés: 1843
-2026-08-17 16:46:21,561 - INFO - Sélectionné: 82120 - Anthony COSTES (nouveau maire)
-2026-08-17 16:46:21,563 - INFO - Tweet: 🏛 Le #maire de Montastruc (Tarn-et-Garonne) est Anthony COSTES (45 ans) #MairesdeFrance 🇫🇷
-2026-08-17 16:46:21,806 - INFO - Sauvegarde effectuée: 82120 - Anthony COSTES
-2026-08-17 16:46:21,806 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089393405885358375', 'text': '🏛 Le #maire de Montastruc (Tarn-et-Garonne) est Anthony COSTES (45 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-17 16:46:21,808 - INFO - === Fin ===
-2026-08-18 10:46:24,090 - INFO - === Démarrage Maires ===
-2026-08-18 10:46:24,090 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-18 10:46:24,090 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-18 10:46:24,173 - INFO - Historique chargé: 1844 maires déjà tweetés
 2026-08-18 10:46:24,196 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-22 10:46:23,535 - INFO - Sauvegarde effectuée: 26069 - Michael VARTANIAN
 2026-08-22 10:46:23,535 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091114755616624771', 'text': '🏛 Le #maire de Chamaloc (Drôme) est Michael VARTANIAN (81 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-22 10:46:23,537 - INFO - === Fin ===
+2026-08-22 16:46:26,121 - INFO - === Démarrage Maires ===
+2026-08-22 16:46:26,121 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-22 16:46:26,121 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-22 16:46:26,205 - INFO - Historique chargé: 1853 maires déjà tweetés
+2026-08-22 16:46:26,227 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-22 16:46:26,227 - INFO - Nombre de maires déjà tweetés: 1853
+2026-08-22 16:46:26,228 - INFO - Sélectionné: 2B045 - Pierre TADDEI (nouveau maire)
+2026-08-22 16:46:26,230 - INFO - Tweet: 🏛 Le #maire de Bustanico (Corse) est Pierre TADDEI (60 ans) #MairesdeFrance 🇫🇷
+2026-08-22 16:46:26,560 - INFO - Sauvegarde effectuée: 2B045 - Pierre TADDEI
+2026-08-22 16:46:26,560 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091205365127893050', 'text': '🏛 Le #maire de Bustanico (Corse) est Pierre TADDEI (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-22 16:46:26,562 - INFO - === Fin ===
