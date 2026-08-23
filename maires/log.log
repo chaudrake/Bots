@@ -1,14 +1,3 @@
-2026-08-18 16:46:28,177 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-18 16:46:28,264 - INFO - Historique chargé: 1845 maires déjà tweetés
-2026-08-18 16:46:28,289 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-18 16:46:28,289 - INFO - Nombre de maires déjà tweetés: 1845
-2026-08-18 16:46:28,291 - INFO - Sélectionné: 39479 - Matthieu LEGUIL (nouveau maire)
-2026-08-18 16:46:28,293 - INFO - Tweet: 🏛 Le #maire de Saint-Cyr-Montmalin (Jura) est Matthieu LEGUIL (49 ans) #MairesdeFrance 🇫🇷
-2026-08-18 16:46:28,536 - INFO - Sauvegarde effectuée: 39479 - Matthieu LEGUIL
-2026-08-18 16:46:28,536 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2089755822037316091', 'text': '🏛 Le #maire de Saint-Cyr-Montmalin (Jura) est Matthieu LEGUIL (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-18 16:46:28,538 - INFO - === Fin ===
-2026-08-19 10:46:28,846 - INFO - === Démarrage Maires ===
-2026-08-19 10:46:28,846 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-19 10:46:28,846 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-19 10:46:28,930 - INFO - Historique chargé: 1846 maires déjà tweetés
 2026-08-19 10:46:28,955 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-23 10:46:30,007 - INFO - Sauvegarde effectuée: 41134 - Georges GLEDEL
 2026-08-23 10:46:30,007 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091477170493284626', 'text': '🏛 Le #maire de Menars (Loir-et-Cher) est Georges GLEDEL (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-23 10:46:30,009 - INFO - === Fin ===
+2026-08-23 16:46:24,883 - INFO - === Démarrage Maires ===
+2026-08-23 16:46:24,883 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-23 16:46:24,883 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-23 16:46:24,973 - INFO - Historique chargé: 1855 maires déjà tweetés
+2026-08-23 16:46:24,999 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-23 16:46:24,999 - INFO - Nombre de maires déjà tweetés: 1855
+2026-08-23 16:46:25,000 - INFO - Sélectionné: 45338 - Fanny GANNAT (nouveau maire)
+2026-08-23 16:46:25,002 - INFO - Tweet: 🏛 La #maire de Villemandeur (Loiret) est Fanny GANNAT (49 ans) #MairesdeFrance 🇫🇷
+2026-08-23 16:46:25,232 - INFO - Sauvegarde effectuée: 45338 - Fanny GANNAT
+2026-08-23 16:46:25,232 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091567747490869472', 'text': '🏛 La #maire de Villemandeur (Loiret) est Fanny GANNAT (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-23 16:46:25,235 - INFO - === Fin ===
