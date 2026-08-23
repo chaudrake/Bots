@@ -1,15 +1,3 @@
-2026-08-19 17:17:24,653 - INFO - === Fin ===
-2026-08-20 06:17:24,690 - INFO - === Démarrage Députés ===
-2026-08-20 06:17:24,690 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-20 06:17:24,690 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-20 06:17:24,697 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-20 06:17:24,697 - INFO - Historique chargé: 327 députés déjà tweetés
-2026-08-20 06:17:24,699 - INFO - Nombre de députés uniques: 572
-2026-08-20 06:17:24,699 - INFO - Nombre de députés déjà tweetés: 327
-2026-08-20 06:17:24,701 - INFO - Sélectionné: 9213 - Christophe MONGARDIEN (nouveau député)
-2026-08-20 06:17:24,701 - INFO - Tweet: 🏛 Le #député de la 13e circonscription des Hauts-de-Seine est Christophe MONGARDIEN (63 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-20 06:17:24,953 - INFO - Sauvegarde effectuée: 9213 - Christophe MONGARDIEN
-2026-08-20 06:17:24,953 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090322289728659915', 'text': '🏛 Le #député de la 13e circonscription des Hauts-de-Seine est Christophe MONGARDIEN (63 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-20 06:17:24,953 - INFO - === Fin ===
 2026-08-20 10:17:22,963 - INFO - === Démarrage Députés ===
 2026-08-20 10:17:22,963 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-22 17:17:24,160 - INFO - Sauvegarde effectuée: 8501 - Philippe LATOMBE
 2026-08-22 17:17:24,160 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091213156492186065', 'text': '🏛 Le #député de la 1ère circonscription de la Vendée est Philippe LATOMBE (51 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-22 17:17:24,160 - INFO - === Fin ===
+2026-08-23 06:17:26,502 - INFO - === Démarrage Députés ===
+2026-08-23 06:17:26,502 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-23 06:17:26,502 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-23 06:17:26,509 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-23 06:17:26,510 - INFO - Historique chargé: 336 députés déjà tweetés
+2026-08-23 06:17:26,512 - INFO - Nombre de députés uniques: 572
+2026-08-23 06:17:26,512 - INFO - Nombre de députés déjà tweetés: 336
+2026-08-23 06:17:26,514 - INFO - Sélectionné: 5004 - Anna PIC (nouveau député)
+2026-08-23 06:17:26,514 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de la Manche est Anna PIC (48 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-23 06:17:26,738 - INFO - Sauvegarde effectuée: 5004 - Anna PIC
+2026-08-23 06:17:26,738 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091409460782891305', 'text': '🏛 La #députée de la 4e circonscription de la Manche est Anna PIC (48 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-23 06:17:26,738 - INFO - === Fin ===
