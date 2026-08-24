@@ -1,14 +1,3 @@
-2026-08-19 10:46:28,846 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-19 10:46:28,930 - INFO - Historique chargé: 1846 maires déjà tweetés
-2026-08-19 10:46:28,955 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-19 10:46:28,955 - INFO - Nombre de maires déjà tweetés: 1846
-2026-08-19 10:46:28,957 - INFO - Sélectionné: 36236 - Pascal COUTURIER (nouveau maire)
-2026-08-19 10:46:28,959 - INFO - Tweet: 🏛 Le #maire de Vicq-Exemplet (Indre) est Pascal COUTURIER (49 ans) #MairesdeFrance 🇫🇷
-2026-08-19 10:46:29,222 - INFO - Sauvegarde effectuée: 36236 - Pascal COUTURIER
-2026-08-19 10:46:29,222 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090027615725777320', 'text': '🏛 Le #maire de Vicq-Exemplet (Indre) est Pascal COUTURIER (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-19 10:46:29,225 - INFO - === Fin ===
-2026-08-19 16:46:26,560 - INFO - === Démarrage Maires ===
-2026-08-19 16:46:26,560 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-19 16:46:26,560 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-19 16:46:26,645 - INFO - Historique chargé: 1847 maires déjà tweetés
 2026-08-19 16:46:26,665 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-23 16:46:25,232 - INFO - Sauvegarde effectuée: 45338 - Fanny GANNAT
 2026-08-23 16:46:25,232 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091567747490869472', 'text': '🏛 La #maire de Villemandeur (Loiret) est Fanny GANNAT (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-23 16:46:25,235 - INFO - === Fin ===
+2026-08-24 10:46:24,896 - INFO - === Démarrage Maires ===
+2026-08-24 10:46:24,896 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-24 10:46:24,896 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-24 10:46:24,965 - INFO - Historique chargé: 1856 maires déjà tweetés
+2026-08-24 10:46:24,981 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-24 10:46:24,982 - INFO - Nombre de maires déjà tweetés: 1856
+2026-08-24 10:46:24,983 - INFO - Sélectionné: 62249 - Pierre SZCZYPINSKI (nouveau maire)
+2026-08-24 10:46:24,984 - INFO - Tweet: 🏛 Le #maire de Courcelles-Lès-Lens (Pas-de-Calais) est Pierre SZCZYPINSKI (42 ans) #MairesdeFrance 🇫🇷
+2026-08-24 10:46:25,323 - INFO - Sauvegarde effectuée: 62249 - Pierre SZCZYPINSKI
+2026-08-24 10:46:25,323 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091839538612335085', 'text': '🏛 Le #maire de Courcelles-Lès-Lens (Pas-de-Calais) est Pierre SZCZYPINSKI (42 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-24 10:46:25,324 - INFO - === Fin ===
