@@ -1,15 +1,3 @@
-2026-08-22 10:17:20,608 - INFO - === Fin ===
-2026-08-22 17:17:23,853 - INFO - === Démarrage Députés ===
-2026-08-22 17:17:23,854 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-22 17:17:23,854 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-22 17:17:23,861 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-22 17:17:23,861 - INFO - Historique chargé: 335 députés déjà tweetés
-2026-08-22 17:17:23,863 - INFO - Nombre de députés uniques: 572
-2026-08-22 17:17:23,863 - INFO - Nombre de députés déjà tweetés: 335
-2026-08-22 17:17:23,864 - INFO - Sélectionné: 8501 - Philippe LATOMBE (nouveau député)
-2026-08-22 17:17:23,864 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Vendée est Philippe LATOMBE (51 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-22 17:17:24,160 - INFO - Sauvegarde effectuée: 8501 - Philippe LATOMBE
-2026-08-22 17:17:24,160 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091213156492186065', 'text': '🏛 Le #député de la 1ère circonscription de la Vendée est Philippe LATOMBE (51 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-22 17:17:24,160 - INFO - === Fin ===
 2026-08-23 06:17:26,502 - INFO - === Démarrage Députés ===
 2026-08-23 06:17:26,502 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-25 10:17:25,428 - INFO - Sauvegarde effectuée: 9301 - Éric COQUEREL
 2026-08-25 10:17:25,428 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092194628946538511', 'text': '🏛 Le #député de la 1ère circonscription de Seine-Saint-Denis est Éric COQUEREL (67 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-25 10:17:25,429 - INFO - === Fin ===
+2026-08-25 17:17:23,294 - INFO - === Démarrage Députés ===
+2026-08-25 17:17:23,294 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-25 17:17:23,294 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-25 17:17:23,301 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-25 17:17:23,301 - INFO - Historique chargé: 344 députés déjà tweetés
+2026-08-25 17:17:23,303 - INFO - Nombre de députés uniques: 572
+2026-08-25 17:17:23,303 - INFO - Nombre de députés déjà tweetés: 344
+2026-08-25 17:17:23,304 - INFO - Sélectionné: 3102 - Anne STAMBACH-TERRENOIR (nouveau député)
+2026-08-25 17:17:23,304 - INFO - Tweet: 🏛 La #députée de la 2e circonscription de la Haute-Garonne est Anne STAMBACH-TERRENOIR (46 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-25 17:17:23,570 - INFO - Sauvegarde effectuée: 3102 - Anne STAMBACH-TERRENOIR
+2026-08-25 17:17:23,570 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092300317647945994', 'text': '🏛 La #députée de la 2e circonscription de la Haute-Garonne est Anne STAMBACH-TERRENOIR (46 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-25 17:17:23,570 - INFO - === Fin ===
