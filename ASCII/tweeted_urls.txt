@@ -52,3 +52,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/arianagrande.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/Jeffbezos.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/TajMahal.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/DiCaprio.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/dalailama.jpg
