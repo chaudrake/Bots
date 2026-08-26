@@ -1,14 +1,3 @@
-2026-08-21 16:46:21,783 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-21 16:46:21,871 - INFO - Historique chargé: 1851 maires déjà tweetés
-2026-08-21 16:46:21,895 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-21 16:46:21,895 - INFO - Nombre de maires déjà tweetés: 1851
-2026-08-21 16:46:21,897 - INFO - Sélectionné: 81064 - Paul SALVADOR (nouveau maire)
-2026-08-21 16:46:21,899 - INFO - Tweet: 🏛 Le #maire de Castelnau-De-Montmiral (Tarn) est Paul SALVADOR (75 ans) #MairesdeFrance 🇫🇷
-2026-08-21 16:46:22,158 - INFO - Sauvegarde effectuée: 81064 - Paul SALVADOR
-2026-08-21 16:46:22,159 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090842958807359949', 'text': '🏛 Le #maire de Castelnau-De-Montmiral (Tarn) est Paul SALVADOR (75 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-21 16:46:22,160 - INFO - === Fin ===
-2026-08-22 10:46:23,219 - INFO - === Démarrage Maires ===
-2026-08-22 10:46:23,220 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-22 10:46:23,220 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-22 10:46:23,292 - INFO - Historique chargé: 1852 maires déjà tweetés
 2026-08-22 10:46:23,312 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-26 10:46:24,123 - INFO - Sauvegarde effectuée: 80822 - Christophe DUMONT
 2026-08-26 10:46:24,123 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092564309465285026', 'text': '🏛 Le #maire de Warsy (Somme) est Christophe DUMONT (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-26 10:46:24,125 - INFO - === Fin ===
+2026-08-26 16:46:24,033 - INFO - === Démarrage Maires ===
+2026-08-26 16:46:24,033 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-26 16:46:24,033 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-26 16:46:24,123 - INFO - Historique chargé: 1861 maires déjà tweetés
+2026-08-26 16:46:24,145 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-26 16:46:24,145 - INFO - Nombre de maires déjà tweetés: 1861
+2026-08-26 16:46:24,147 - INFO - Sélectionné: 52266 - Joël JEANSON (nouveau maire)
+2026-08-26 16:46:24,148 - INFO - Tweet: 🏛 Le #maire de Laneuville-À-Rémy (Haute-Marne) est Joël JEANSON (58 ans) #MairesdeFrance 🇫🇷
+2026-08-26 16:46:24,371 - INFO - Sauvegarde effectuée: 52266 - Joël JEANSON
+2026-08-26 16:46:24,371 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092654907467669647', 'text': '🏛 Le #maire de Laneuville-À-Rémy (Haute-Marne) est Joël JEANSON (58 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-26 16:46:24,373 - INFO - === Fin ===
