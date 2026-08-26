@@ -1,14 +1,3 @@
-2026-08-21 10:46:22,526 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-21 10:46:22,614 - INFO - Historique chargé: 1850 maires déjà tweetés
-2026-08-21 10:46:22,636 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-21 10:46:22,636 - INFO - Nombre de maires déjà tweetés: 1850
-2026-08-21 10:46:22,637 - INFO - Sélectionné: 46090 - Henri GRATIAS (nouveau maire)
-2026-08-21 10:46:22,639 - INFO - Tweet: 🏛 Le #maire de Durbans (Lot) est Henri GRATIAS (79 ans) #MairesdeFrance 🇫🇷
-2026-08-21 10:46:22,882 - INFO - Sauvegarde effectuée: 46090 - Henri GRATIAS
-2026-08-21 10:46:22,882 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2090752364919533796', 'text': '🏛 Le #maire de Durbans (Lot) est Henri GRATIAS (79 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-21 10:46:22,884 - INFO - === Fin ===
-2026-08-21 16:46:21,783 - INFO - === Démarrage Maires ===
-2026-08-21 16:46:21,783 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-21 16:46:21,783 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-21 16:46:21,871 - INFO - Historique chargé: 1851 maires déjà tweetés
 2026-08-21 16:46:21,895 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-25 16:46:26,433 - INFO - Sauvegarde effectuée: 76412 - François ARLAY
 2026-08-25 16:46:26,433 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092292528250765489', 'text': '🏛 Le #maire de Martainville-Epreville (Seine-Maritime) est François ARLAY (46 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-25 16:46:26,435 - INFO - === Fin ===
+2026-08-26 10:46:23,767 - INFO - === Démarrage Maires ===
+2026-08-26 10:46:23,767 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-26 10:46:23,767 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-26 10:46:23,855 - INFO - Historique chargé: 1860 maires déjà tweetés
+2026-08-26 10:46:23,879 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-26 10:46:23,880 - INFO - Nombre de maires déjà tweetés: 1860
+2026-08-26 10:46:23,881 - INFO - Sélectionné: 80822 - Christophe DUMONT (nouveau maire)
+2026-08-26 10:46:23,882 - INFO - Tweet: 🏛 Le #maire de Warsy (Somme) est Christophe DUMONT (60 ans) #MairesdeFrance 🇫🇷
+2026-08-26 10:46:24,123 - INFO - Sauvegarde effectuée: 80822 - Christophe DUMONT
+2026-08-26 10:46:24,123 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092564309465285026', 'text': '🏛 Le #maire de Warsy (Somme) est Christophe DUMONT (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-26 10:46:24,125 - INFO - === Fin ===
