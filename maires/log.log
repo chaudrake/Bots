@@ -1,14 +1,3 @@
-2026-08-22 10:46:23,220 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-22 10:46:23,292 - INFO - Historique chargé: 1852 maires déjà tweetés
-2026-08-22 10:46:23,312 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-22 10:46:23,312 - INFO - Nombre de maires déjà tweetés: 1852
-2026-08-22 10:46:23,313 - INFO - Sélectionné: 26069 - Michael VARTANIAN (nouveau maire)
-2026-08-22 10:46:23,315 - INFO - Tweet: 🏛 Le #maire de Chamaloc (Drôme) est Michael VARTANIAN (81 ans) #MairesdeFrance 🇫🇷
-2026-08-22 10:46:23,535 - INFO - Sauvegarde effectuée: 26069 - Michael VARTANIAN
-2026-08-22 10:46:23,535 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091114755616624771', 'text': '🏛 Le #maire de Chamaloc (Drôme) est Michael VARTANIAN (81 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-22 10:46:23,537 - INFO - === Fin ===
-2026-08-22 16:46:26,121 - INFO - === Démarrage Maires ===
-2026-08-22 16:46:26,121 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-22 16:46:26,121 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-22 16:46:26,205 - INFO - Historique chargé: 1853 maires déjà tweetés
 2026-08-22 16:46:26,227 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-26 16:46:24,371 - INFO - Sauvegarde effectuée: 52266 - Joël JEANSON
 2026-08-26 16:46:24,371 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092654907467669647', 'text': '🏛 Le #maire de Laneuville-À-Rémy (Haute-Marne) est Joël JEANSON (58 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-26 16:46:24,373 - INFO - === Fin ===
+2026-08-27 10:46:27,470 - INFO - === Démarrage Maires ===
+2026-08-27 10:46:27,470 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-27 10:46:27,470 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-27 10:46:27,559 - INFO - Historique chargé: 1862 maires déjà tweetés
+2026-08-27 10:46:27,583 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-27 10:46:27,584 - INFO - Nombre de maires déjà tweetés: 1862
+2026-08-27 10:46:27,585 - INFO - Sélectionné: 62184 - Dominique BLARY (nouveau maire)
+2026-08-27 10:46:27,587 - INFO - Tweet: 🏛 Le #maire de Buissy (Pas-de-Calais) est Dominique BLARY (52 ans) #MairesdeFrance 🇫🇷
+2026-08-27 10:46:27,865 - INFO - Sauvegarde effectuée: 62184 - Dominique BLARY
+2026-08-27 10:46:27,865 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092926712879493376', 'text': '🏛 Le #maire de Buissy (Pas-de-Calais) est Dominique BLARY (52 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-27 10:46:27,867 - INFO - === Fin ===
