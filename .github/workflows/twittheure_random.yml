@@ -2,9 +2,9 @@ name: TwittHeure - Heures Aléatoires
 
 on:
   workflow_dispatch:
-  schedule:
+#  schedule:
     #  past the hour, every 3 hours, between 04:00 and 20:59
-    - cron: "39 4-20/3 * * *"
+ #   - cron: "39 4-20/3 * * *"
 
 jobs:
   run-bot:
