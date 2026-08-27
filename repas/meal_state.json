@@ -70,7 +70,8 @@
     "Boeuf bourguignon",
     "Poke bowl saumon et avocat",
     "Pizza maison aux légumes grillés",
-    "Tagliatelles au pesto"
+    "Tagliatelles au pesto",
+    "Pâtes sautées à l'ail"
   ],
   "used_entrees": [
     "Rouleaux de printemps",
@@ -175,6 +176,7 @@
     "Salade d'endives",
     "Velouté de carottes au cumin",
     "Endives au jambon",
-    "Cake aux courgettes"
+    "Cake aux courgettes",
+    "Tzatziki"
   ]
 }
