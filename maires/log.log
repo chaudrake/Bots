@@ -1,14 +1,3 @@
-2026-08-23 10:46:29,629 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-23 10:46:29,695 - INFO - Historique chargé: 1854 maires déjà tweetés
-2026-08-23 10:46:29,711 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-23 10:46:29,711 - INFO - Nombre de maires déjà tweetés: 1854
-2026-08-23 10:46:29,712 - INFO - Sélectionné: 41134 - Georges GLEDEL (nouveau maire)
-2026-08-23 10:46:29,714 - INFO - Tweet: 🏛 Le #maire de Menars (Loir-et-Cher) est Georges GLEDEL (62 ans) #MairesdeFrance 🇫🇷
-2026-08-23 10:46:30,007 - INFO - Sauvegarde effectuée: 41134 - Georges GLEDEL
-2026-08-23 10:46:30,007 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091477170493284626', 'text': '🏛 Le #maire de Menars (Loir-et-Cher) est Georges GLEDEL (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-23 10:46:30,009 - INFO - === Fin ===
-2026-08-23 16:46:24,883 - INFO - === Démarrage Maires ===
-2026-08-23 16:46:24,883 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-23 16:46:24,883 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-23 16:46:24,973 - INFO - Historique chargé: 1855 maires déjà tweetés
 2026-08-23 16:46:24,999 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-27 16:46:27,978 - INFO - Sauvegarde effectuée: 08449 - Thomas CONROUX
 2026-08-27 16:46:27,978 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093017310487572566', 'text': '🏛 Le #maire de Thin-Le-Moutier (Vaucluse) est Thomas CONROUX (32 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-27 16:46:27,980 - INFO - === Fin ===
+2026-08-28 10:46:22,408 - INFO - === Démarrage Maires ===
+2026-08-28 10:46:22,408 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-28 10:46:22,408 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-28 10:46:22,497 - INFO - Historique chargé: 1864 maires déjà tweetés
+2026-08-28 10:46:22,520 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-28 10:46:22,520 - INFO - Nombre de maires déjà tweetés: 1864
+2026-08-28 10:46:22,521 - INFO - Sélectionné: 62556 - Joël DAVESNE (nouveau maire)
+2026-08-28 10:46:22,523 - INFO - Tweet: 🏛 Le #maire de Marles-Sur-Canche (Pas-de-Calais) est Joël DAVESNE (66 ans) #MairesdeFrance 🇫🇷
+2026-08-28 10:46:22,854 - INFO - Sauvegarde effectuée: 62556 - Joël DAVESNE
+2026-08-28 10:46:22,854 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093289079890719120', 'text': '🏛 Le #maire de Marles-Sur-Canche (Pas-de-Calais) est Joël DAVESNE (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-28 10:46:22,856 - INFO - === Fin ===
