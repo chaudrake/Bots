@@ -1,15 +1,3 @@
-2026-08-25 06:17:21,275 - INFO - === Fin ===
-2026-08-25 10:17:25,146 - INFO - === Démarrage Députés ===
-2026-08-25 10:17:25,146 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-25 10:17:25,146 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-25 10:17:25,154 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-25 10:17:25,154 - INFO - Historique chargé: 343 députés déjà tweetés
-2026-08-25 10:17:25,156 - INFO - Nombre de députés uniques: 572
-2026-08-25 10:17:25,156 - INFO - Nombre de députés déjà tweetés: 343
-2026-08-25 10:17:25,157 - INFO - Sélectionné: 9301 - Éric COQUEREL (nouveau député)
-2026-08-25 10:17:25,157 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de Seine-Saint-Denis est Éric COQUEREL (67 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-25 10:17:25,428 - INFO - Sauvegarde effectuée: 9301 - Éric COQUEREL
-2026-08-25 10:17:25,428 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092194628946538511', 'text': '🏛 Le #député de la 1ère circonscription de Seine-Saint-Denis est Éric COQUEREL (67 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-25 10:17:25,429 - INFO - === Fin ===
 2026-08-25 17:17:23,294 - INFO - === Démarrage Députés ===
 2026-08-25 17:17:23,294 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-28 06:17:23,077 - INFO - Sauvegarde effectuée: 8404 - Marie-France LORHO
 2026-08-28 06:17:23,077 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093221384679796874', 'text': '🏛 La #députée de la 4e circonscription du Vaucluse est Marie-France LORHO (61 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-28 06:17:23,078 - INFO - === Fin ===
+2026-08-28 10:17:23,484 - INFO - === Démarrage Députés ===
+2026-08-28 10:17:23,484 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-28 10:17:23,484 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-28 10:17:23,491 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-28 10:17:23,492 - INFO - Historique chargé: 352 députés déjà tweetés
+2026-08-28 10:17:23,494 - INFO - Nombre de députés uniques: 572
+2026-08-28 10:17:23,494 - INFO - Nombre de députés déjà tweetés: 352
+2026-08-28 10:17:23,495 - INFO - Sélectionné: 7503 - Léa BALAGE EL MARIKY (nouveau député)
+2026-08-28 10:17:23,495 - INFO - Tweet: 🏛 La #députée de la 3e circonscription de Paris est Léa BALAGE EL MARIKY (36 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-28 10:17:23,738 - INFO - Sauvegarde effectuée: 7503 - Léa BALAGE EL MARIKY
+2026-08-28 10:17:23,738 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093281785488838866', 'text': '🏛 La #députée de la 3e circonscription de Paris est Léa BALAGE EL MARIKY (36 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-28 10:17:23,738 - INFO - === Fin ===
