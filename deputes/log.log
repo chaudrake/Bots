@@ -1,15 +1,3 @@
-2026-08-25 17:17:23,570 - INFO - === Fin ===
-2026-08-26 06:17:22,650 - INFO - === Démarrage Députés ===
-2026-08-26 06:17:22,650 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-26 06:17:22,650 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-26 06:17:22,655 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-26 06:17:22,656 - INFO - Historique chargé: 345 députés déjà tweetés
-2026-08-26 06:17:22,657 - INFO - Nombre de députés uniques: 572
-2026-08-26 06:17:22,657 - INFO - Nombre de députés déjà tweetés: 345
-2026-08-26 06:17:22,658 - INFO - Sélectionné: 1003 - Angélique RANC (nouveau député)
-2026-08-26 06:17:22,658 - INFO - Tweet: 🏛 La #députée de la 3e circonscription de l'Aube est Angélique RANC (38 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-26 06:17:22,982 - INFO - Sauvegarde effectuée: 1003 - Angélique RANC
-2026-08-26 06:17:22,982 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092496608587899379', 'text': "🏛 La #députée de la 3e circonscription de l'Aube est Angélique RANC (38 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
 2026-08-26 06:17:22,982 - INFO - === Fin ===
 2026-08-26 10:17:20,445 - INFO - === Démarrage Députés ===
 2026-08-26 10:17:20,445 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@
 2026-08-28 17:17:27,414 - INFO - Sauvegarde effectuée: 2903 - Didier LE GAC
 2026-08-28 17:17:27,414 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093387497393070354', 'text': '🏛 Le #député de la 3e circonscription du Finistère est Didier LE GAC (61 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-28 17:17:27,415 - INFO - === Fin ===
+2026-08-29 06:17:20,102 - INFO - === Démarrage Députés ===
+2026-08-29 06:17:20,102 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-08-29 06:17:20,102 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-08-29 06:17:20,109 - INFO - ✅ Dates de naissance converties avec succès
+2026-08-29 06:17:20,110 - INFO - Historique chargé: 354 députés déjà tweetés
+2026-08-29 06:17:20,112 - INFO - Nombre de députés uniques: 572
+2026-08-29 06:17:20,112 - INFO - Nombre de députés déjà tweetés: 354
+2026-08-29 06:17:20,113 - INFO - Sélectionné: 1203 - Jean-François ROUSSET (nouveau député)
+2026-08-29 06:17:20,113 - INFO - Tweet: 🏛 Le #député de la 3e circonscription de l'Aveyron est Jean-François ROUSSET (73 ans) #Députés #AssembléeNationale 🇫🇷
+2026-08-29 06:17:20,333 - INFO - Sauvegarde effectuée: 1203 - Jean-François ROUSSET
+2026-08-29 06:17:20,333 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093583761145475375', 'text': "🏛 Le #député de la 3e circonscription de l'Aveyron est Jean-François ROUSSET (73 ans) #Députés #AssembléeNationale 🇫🇷"}, includes={}, errors=[], meta={})
+2026-08-29 06:17:20,334 - INFO - === Fin ===
