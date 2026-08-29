@@ -1,14 +1,3 @@
-2026-08-24 10:46:24,896 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-24 10:46:24,965 - INFO - Historique chargé: 1856 maires déjà tweetés
-2026-08-24 10:46:24,981 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-24 10:46:24,982 - INFO - Nombre de maires déjà tweetés: 1856
-2026-08-24 10:46:24,983 - INFO - Sélectionné: 62249 - Pierre SZCZYPINSKI (nouveau maire)
-2026-08-24 10:46:24,984 - INFO - Tweet: 🏛 Le #maire de Courcelles-Lès-Lens (Pas-de-Calais) est Pierre SZCZYPINSKI (42 ans) #MairesdeFrance 🇫🇷
-2026-08-24 10:46:25,323 - INFO - Sauvegarde effectuée: 62249 - Pierre SZCZYPINSKI
-2026-08-24 10:46:25,323 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2091839538612335085', 'text': '🏛 Le #maire de Courcelles-Lès-Lens (Pas-de-Calais) est Pierre SZCZYPINSKI (42 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-24 10:46:25,324 - INFO - === Fin ===
-2026-08-24 16:46:22,485 - INFO - === Démarrage Maires ===
-2026-08-24 16:46:22,485 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-24 16:46:22,485 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-24 16:46:22,574 - INFO - Historique chargé: 1857 maires déjà tweetés
 2026-08-24 16:46:22,598 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-28 16:46:25,277 - INFO - Sauvegarde effectuée: 66010 - Bernard AUXACH
 2026-08-28 16:46:25,277 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093379686965588021', 'text': '🏛 Le #maire de Ayguatébia-Talau (Pyrénées-Orientales) est Bernard AUXACH (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-28 16:46:25,280 - INFO - === Fin ===
+2026-08-29 10:46:24,215 - INFO - === Démarrage Maires ===
+2026-08-29 10:46:24,215 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-29 10:46:24,215 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-29 10:46:24,283 - INFO - Historique chargé: 1866 maires déjà tweetés
+2026-08-29 10:46:24,301 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-29 10:46:24,301 - INFO - Nombre de maires déjà tweetés: 1866
+2026-08-29 10:46:24,302 - INFO - Sélectionné: 36198 - Thierry LOGIE (nouveau maire)
+2026-08-29 10:46:24,303 - INFO - Tweet: 🏛 Le #maire de Saint-Lactencin (Indre) est Thierry LOGIE (58 ans) #MairesdeFrance 🇫🇷
+2026-08-29 10:46:24,537 - INFO - Sauvegarde effectuée: 36198 - Thierry LOGIE
+2026-08-29 10:46:24,537 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093651474823999920', 'text': '🏛 Le #maire de Saint-Lactencin (Indre) est Thierry LOGIE (58 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-29 10:46:24,539 - INFO - === Fin ===
