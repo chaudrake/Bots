@@ -1,14 +1,3 @@
-2026-08-25 16:46:26,050 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-25 16:46:26,141 - INFO - Historique chargé: 1859 maires déjà tweetés
-2026-08-25 16:46:26,164 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-25 16:46:26,164 - INFO - Nombre de maires déjà tweetés: 1859
-2026-08-25 16:46:26,166 - INFO - Sélectionné: 76412 - François ARLAY (nouveau maire)
-2026-08-25 16:46:26,168 - INFO - Tweet: 🏛 Le #maire de Martainville-Epreville (Seine-Maritime) est François ARLAY (46 ans) #MairesdeFrance 🇫🇷
-2026-08-25 16:46:26,433 - INFO - Sauvegarde effectuée: 76412 - François ARLAY
-2026-08-25 16:46:26,433 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092292528250765489', 'text': '🏛 Le #maire de Martainville-Epreville (Seine-Maritime) est François ARLAY (46 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-25 16:46:26,435 - INFO - === Fin ===
-2026-08-26 10:46:23,767 - INFO - === Démarrage Maires ===
-2026-08-26 10:46:23,767 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-26 10:46:23,767 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-26 10:46:23,855 - INFO - Historique chargé: 1860 maires déjà tweetés
 2026-08-26 10:46:23,879 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-30 10:46:23,902 - INFO - Sauvegarde effectuée: 27239 - Jean-Luc DAVID
 2026-08-30 10:46:23,902 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094013859996848530', 'text': '🏛 Le #maire de Ferrières-Saint-Hilaire (Eure) est Jean-Luc DAVID (76 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-30 10:46:23,904 - INFO - === Fin ===
+2026-08-30 16:46:23,431 - INFO - === Démarrage Maires ===
+2026-08-30 16:46:23,431 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-30 16:46:23,431 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-30 16:46:23,500 - INFO - Historique chargé: 1869 maires déjà tweetés
+2026-08-30 16:46:23,517 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-30 16:46:23,517 - INFO - Nombre de maires déjà tweetés: 1869
+2026-08-30 16:46:23,518 - INFO - Sélectionné: 65059 - Nicole DARRIEUTORT (nouveau maire)
+2026-08-30 16:46:23,519 - INFO - Tweet: 🏛 La #maire de Bagnères-De-Bigorre (Hautes-Pyrénées) est Nicole DARRIEUTORT (65 ans) #MairesdeFrance 🇫🇷
+2026-08-30 16:46:23,837 - INFO - Sauvegarde effectuée: 65059 - Nicole DARRIEUTORT
+2026-08-30 16:46:23,837 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094104456636113097', 'text': '🏛 La #maire de Bagnères-De-Bigorre (Hautes-Pyrénées) est Nicole DARRIEUTORT (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-30 16:46:23,839 - INFO - === Fin ===
