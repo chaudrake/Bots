@@ -1,14 +1,3 @@
-2026-08-25 10:46:23,206 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-25 10:46:23,275 - INFO - Historique chargé: 1858 maires déjà tweetés
-2026-08-25 10:46:23,291 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-25 10:46:23,291 - INFO - Nombre de maires déjà tweetés: 1858
-2026-08-25 10:46:23,292 - INFO - Sélectionné: 33276 - Nicole VIGNE (nouveau maire)
-2026-08-25 10:46:23,293 - INFO - Tweet: 🏛 La #maire de Masseilles (Gironde) est Nicole VIGNE (70 ans) #MairesdeFrance 🇫🇷
-2026-08-25 10:46:23,535 - INFO - Sauvegarde effectuée: 33276 - Nicole VIGNE
-2026-08-25 10:46:23,535 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092201919154438431', 'text': '🏛 La #maire de Masseilles (Gironde) est Nicole VIGNE (70 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-25 10:46:23,537 - INFO - === Fin ===
-2026-08-25 16:46:26,050 - INFO - === Démarrage Maires ===
-2026-08-25 16:46:26,050 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-25 16:46:26,050 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-25 16:46:26,141 - INFO - Historique chargé: 1859 maires déjà tweetés
 2026-08-25 16:46:26,164 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-29 16:46:22,469 - INFO - Sauvegarde effectuée: 68095 - Mathieu WOLGENSINGER
 2026-08-29 16:46:22,470 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093742063091143163', 'text': '🏛 Le #maire de Fortschwihr (Haut-Rhin) est Mathieu WOLGENSINGER (49 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-29 16:46:22,472 - INFO - === Fin ===
+2026-08-30 10:46:23,506 - INFO - === Démarrage Maires ===
+2026-08-30 10:46:23,506 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-08-30 10:46:23,506 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-08-30 10:46:23,592 - INFO - Historique chargé: 1868 maires déjà tweetés
+2026-08-30 10:46:23,613 - INFO - Nombre de maires actifs uniques: 34637
+2026-08-30 10:46:23,613 - INFO - Nombre de maires déjà tweetés: 1868
+2026-08-30 10:46:23,615 - INFO - Sélectionné: 27239 - Jean-Luc DAVID (nouveau maire)
+2026-08-30 10:46:23,616 - INFO - Tweet: 🏛 Le #maire de Ferrières-Saint-Hilaire (Eure) est Jean-Luc DAVID (76 ans) #MairesdeFrance 🇫🇷
+2026-08-30 10:46:23,902 - INFO - Sauvegarde effectuée: 27239 - Jean-Luc DAVID
+2026-08-30 10:46:23,902 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094013859996848530', 'text': '🏛 Le #maire de Ferrières-Saint-Hilaire (Eure) est Jean-Luc DAVID (76 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-08-30 10:46:23,904 - INFO - === Fin ===
