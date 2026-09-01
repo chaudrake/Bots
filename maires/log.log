@@ -1,14 +1,3 @@
-2026-08-27 10:46:27,470 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-27 10:46:27,559 - INFO - Historique chargé: 1862 maires déjà tweetés
-2026-08-27 10:46:27,583 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-27 10:46:27,584 - INFO - Nombre de maires déjà tweetés: 1862
-2026-08-27 10:46:27,585 - INFO - Sélectionné: 62184 - Dominique BLARY (nouveau maire)
-2026-08-27 10:46:27,587 - INFO - Tweet: 🏛 Le #maire de Buissy (Pas-de-Calais) est Dominique BLARY (52 ans) #MairesdeFrance 🇫🇷
-2026-08-27 10:46:27,865 - INFO - Sauvegarde effectuée: 62184 - Dominique BLARY
-2026-08-27 10:46:27,865 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2092926712879493376', 'text': '🏛 Le #maire de Buissy (Pas-de-Calais) est Dominique BLARY (52 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-27 10:46:27,867 - INFO - === Fin ===
-2026-08-27 16:46:27,574 - INFO - === Démarrage Maires ===
-2026-08-27 16:46:27,574 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-27 16:46:27,574 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-27 16:46:27,658 - INFO - Historique chargé: 1863 maires déjà tweetés
 2026-08-27 16:46:27,678 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-08-31 16:46:26,677 - INFO - Sauvegarde effectuée: 71532 - Noé MEIRELES
 2026-08-31 16:46:26,677 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094466856430039426', 'text': '🏛 Le #maire de Taizé (Saône-et-Loire) est Noé MEIRELES (44 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-31 16:46:26,679 - INFO - === Fin ===
+2026-09-01 10:46:25,565 - INFO - === Démarrage Maires ===
+2026-09-01 10:46:25,565 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-01 10:46:25,565 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-01 10:46:25,655 - INFO - Historique chargé: 1872 maires déjà tweetés
+2026-09-01 10:46:25,678 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-01 10:46:25,678 - INFO - Nombre de maires déjà tweetés: 1872
+2026-09-01 10:46:25,680 - INFO - Sélectionné: 79149 - Jean PILLOT (nouveau maire)
+2026-09-01 10:46:25,681 - INFO - Tweet: 🏛 Le #maire de Lhoumois (Deux-Sèvres) est Jean PILLOT (72 ans) #MairesdeFrance 🇫🇷
+2026-09-01 10:46:25,987 - INFO - Sauvegarde effectuée: 79149 - Jean PILLOT
+2026-09-01 10:46:25,988 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094738644418392244', 'text': '🏛 Le #maire de Lhoumois (Deux-Sèvres) est Jean PILLOT (72 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-09-01 10:46:25,990 - INFO - === Fin ===
