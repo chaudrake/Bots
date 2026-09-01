@@ -58,3 +58,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/Joconde.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/Gorbatchev.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/barrackobama.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/PyramideGiseh.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/montrushmore.jpg
