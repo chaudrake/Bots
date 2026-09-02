@@ -1,15 +1,3 @@
-2026-08-30 06:17:24,059 - INFO - === Fin ===
-2026-08-30 10:17:24,730 - INFO - === Démarrage Députés ===
-2026-08-30 10:17:24,730 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-30 10:17:24,730 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-30 10:17:24,738 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-30 10:17:24,738 - INFO - Historique chargé: 358 députés déjà tweetés
-2026-08-30 10:17:24,740 - INFO - Nombre de députés uniques: 572
-2026-08-30 10:17:24,740 - INFO - Nombre de députés déjà tweetés: 358
-2026-08-30 10:17:24,742 - INFO - Sélectionné: 3002 - Nicolas MEIZONNET (nouveau député)
-2026-08-30 10:17:24,743 - INFO - Tweet: 🏛 Le #député de la 2e circonscription du Gard est Nicolas MEIZONNET (42 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-30 10:17:25,073 - INFO - Sauvegarde effectuée: 3002 - Nicolas MEIZONNET
-2026-08-30 10:17:25,073 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094006566504509567', 'text': '🏛 Le #député de la 2e circonscription du Gard est Nicolas MEIZONNET (42 ans) #Députés #AssembléeNationale 🇫🇷'}, includes={}, errors=[], meta={})
 2026-08-30 10:17:25,073 - INFO - === Fin ===
 2026-08-30 17:17:23,564 - INFO - === Démarrage Députés ===
 2026-08-30 17:17:23,564 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@ credits depleted
 2026-09-02 06:17:22,287 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-02 06:17:22,288 - INFO - === Fin ===
+2026-09-02 10:17:23,922 - INFO - === Démarrage Députés ===
+2026-09-02 10:17:23,922 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-09-02 10:17:23,923 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-09-02 10:17:23,929 - INFO - ✅ Dates de naissance converties avec succès
+2026-09-02 10:17:23,930 - INFO - Historique chargé: 361 députés déjà tweetés
+2026-09-02 10:17:23,932 - INFO - Nombre de députés uniques: 572
+2026-09-02 10:17:23,932 - INFO - Nombre de députés déjà tweetés: 361
+2026-09-02 10:17:23,932 - INFO - Sélectionné: 6701 - Sandra REGOL (nouveau député)
+2026-09-02 10:17:23,933 - INFO - Tweet: 🏛 La #députée de la 1ère circonscription du Bas-Rhin est Sandra REGOL (48 ans) #Députés #AssembléeNationale 🇫🇷
+2026-09-02 10:17:24,146 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-02 10:17:24,146 - INFO - === Fin ===
