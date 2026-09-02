@@ -1,14 +1,3 @@
-2026-08-28 16:46:24,886 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-28 16:46:24,967 - INFO - Historique chargé: 1865 maires déjà tweetés
-2026-08-28 16:46:24,989 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-28 16:46:24,989 - INFO - Nombre de maires déjà tweetés: 1865
-2026-08-28 16:46:24,990 - INFO - Sélectionné: 66010 - Bernard AUXACH (nouveau maire)
-2026-08-28 16:46:24,992 - INFO - Tweet: 🏛 Le #maire de Ayguatébia-Talau (Pyrénées-Orientales) est Bernard AUXACH (60 ans) #MairesdeFrance 🇫🇷
-2026-08-28 16:46:25,277 - INFO - Sauvegarde effectuée: 66010 - Bernard AUXACH
-2026-08-28 16:46:25,277 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2093379686965588021', 'text': '🏛 Le #maire de Ayguatébia-Talau (Pyrénées-Orientales) est Bernard AUXACH (60 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-28 16:46:25,280 - INFO - === Fin ===
-2026-08-29 10:46:24,215 - INFO - === Démarrage Maires ===
-2026-08-29 10:46:24,215 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-29 10:46:24,215 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-29 10:46:24,283 - INFO - Historique chargé: 1866 maires déjà tweetés
 2026-08-29 10:46:24,301 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-09-02 10:46:30,608 - INFO - Sauvegarde effectuée: 88359 - Francis HAAS
 2026-09-02 10:46:30,608 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2095101051502223419', 'text': '🏛 Le #maire de Prey (Vosges) est Francis HAAS (73 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-09-02 10:46:30,611 - INFO - === Fin ===
+2026-09-02 16:46:29,532 - INFO - === Démarrage Maires ===
+2026-09-02 16:46:29,532 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-02 16:46:29,532 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-02 16:46:29,606 - INFO - Historique chargé: 1875 maires déjà tweetés
+2026-09-02 16:46:29,624 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-02 16:46:29,624 - INFO - Nombre de maires déjà tweetés: 1875
+2026-09-02 16:46:29,625 - INFO - Sélectionné: 82065 - Guy MERIEL (nouveau maire)
+2026-09-02 16:46:29,626 - INFO - Tweet: 🏛 Le #maire de Gasques (Tarn-et-Garonne) est Guy MERIEL (71 ans) #MairesdeFrance 🇫🇷
+2026-09-02 16:46:30,003 - INFO - Sauvegarde effectuée: 82065 - Guy MERIEL
+2026-09-02 16:46:30,003 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2095191645910147351', 'text': '🏛 Le #maire de Gasques (Tarn-et-Garonne) est Guy MERIEL (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-09-02 16:46:30,005 - INFO - === Fin ===
