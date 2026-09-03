@@ -1,15 +1,3 @@
-2026-08-31 06:17:22,893 - INFO - === Fin ===
-2026-08-31 10:17:24,991 - INFO - === Démarrage Députés ===
-2026-08-31 10:17:24,991 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-08-31 10:17:24,991 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-08-31 10:17:24,999 - INFO - ✅ Dates de naissance converties avec succès
-2026-08-31 10:17:24,999 - INFO - Historique chargé: 361 députés déjà tweetés
-2026-08-31 10:17:25,001 - INFO - Nombre de députés uniques: 572
-2026-08-31 10:17:25,001 - INFO - Nombre de députés déjà tweetés: 361
-2026-08-31 10:17:25,003 - INFO - Sélectionné: 7608 - Jean-Paul LECOQ (nouveau député)
-2026-08-31 10:17:25,004 - INFO - Tweet: 🏛 Le #député de la 8e circonscription de Seine-Maritime est Jean-Paul LECOQ (67 ans) #Députés #AssembléeNationale 🇫🇷
-2026-08-31 10:17:25,135 - INFO - Erreur: 402 Payment Required
-credits depleted
 2026-08-31 10:17:25,135 - INFO - === Fin ===
 2026-08-31 17:17:24,294 - INFO - === Démarrage Députés ===
 2026-08-31 17:17:24,294 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@ credits depleted
 2026-09-03 06:17:21,864 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-03 06:17:21,865 - INFO - === Fin ===
+2026-09-03 10:17:18,835 - INFO - === Démarrage Députés ===
+2026-09-03 10:17:18,835 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-09-03 10:17:18,835 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-09-03 10:17:18,839 - INFO - ✅ Dates de naissance converties avec succès
+2026-09-03 10:17:18,839 - INFO - Historique chargé: 361 députés déjà tweetés
+2026-09-03 10:17:18,841 - INFO - Nombre de députés uniques: 572
+2026-09-03 10:17:18,841 - INFO - Nombre de députés déjà tweetés: 361
+2026-09-03 10:17:18,841 - INFO - Sélectionné: 3404 - Manon BOUQUIN (nouveau député)
+2026-09-03 10:17:18,841 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de l'Hérault est Manon BOUQUIN (34 ans) #Députés #AssembléeNationale 🇫🇷
+2026-09-03 10:17:18,982 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-03 10:17:18,982 - INFO - === Fin ===
