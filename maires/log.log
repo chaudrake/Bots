@@ -1,14 +1,3 @@
-2026-08-31 10:46:23,951 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-31 10:46:24,042 - INFO - Historique chargé: 1870 maires déjà tweetés
-2026-08-31 10:46:24,069 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-31 10:46:24,069 - INFO - Nombre de maires déjà tweetés: 1870
-2026-08-31 10:46:24,070 - INFO - Sélectionné: 16183 - Armand AGOSTINELLI (nouveau maire)
-2026-08-31 10:46:24,072 - INFO - Tweet: 🏛 Le #maire de Lésignac-Durand (Charente) est Armand AGOSTINELLI (69 ans) #MairesdeFrance 🇫🇷
-2026-08-31 10:46:24,301 - INFO - Sauvegarde effectuée: 16183 - Armand AGOSTINELLI
-2026-08-31 10:46:24,301 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094376249527341068', 'text': '🏛 Le #maire de Lésignac-Durand (Charente) est Armand AGOSTINELLI (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-31 10:46:24,304 - INFO - === Fin ===
-2026-08-31 16:46:26,306 - INFO - === Démarrage Maires ===
-2026-08-31 16:46:26,306 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-08-31 16:46:26,306 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-08-31 16:46:26,393 - INFO - Historique chargé: 1871 maires déjà tweetés
 2026-08-31 16:46:26,415 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-09-04 16:46:24,240 - INFO - Sauvegarde effectuée: 07255 - Julien FOUGEIROL
 2026-09-04 16:46:24,240 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2095916397708595292', 'text': '🏛 Le #maire de Saint-Julien-En-Saint-Alban (Sarthe) est Julien FOUGEIROL (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-09-04 16:46:24,242 - INFO - === Fin ===
+2026-09-05 10:46:21,086 - INFO - === Démarrage Maires ===
+2026-09-05 10:46:21,086 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-05 10:46:21,086 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-05 10:46:21,170 - INFO - Historique chargé: 1880 maires déjà tweetés
+2026-09-05 10:46:21,191 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-05 10:46:21,191 - INFO - Nombre de maires déjà tweetés: 1880
+2026-09-05 10:46:21,193 - INFO - Sélectionné: 46286 - Michel LANDES (nouveau maire)
+2026-09-05 10:46:21,194 - INFO - Tweet: 🏛 Le #maire de Saint-Paul-De-Vern (Lot) est Michel LANDES (62 ans) #MairesdeFrance 🇫🇷
+2026-09-05 10:46:21,441 - INFO - Sauvegarde effectuée: 46286 - Michel LANDES
+2026-09-05 10:46:21,441 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2096188176888971543', 'text': '🏛 Le #maire de Saint-Paul-De-Vern (Lot) est Michel LANDES (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-09-05 10:46:21,443 - INFO - === Fin ===
