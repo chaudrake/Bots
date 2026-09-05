@@ -62,3 +62,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/montrushmore.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/stallone.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/beyonce.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/princewilliam.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/adele.jpg
