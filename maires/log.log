@@ -1,14 +1,3 @@
-2026-08-31 16:46:26,306 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-08-31 16:46:26,393 - INFO - Historique chargé: 1871 maires déjà tweetés
-2026-08-31 16:46:26,415 - INFO - Nombre de maires actifs uniques: 34637
-2026-08-31 16:46:26,415 - INFO - Nombre de maires déjà tweetés: 1871
-2026-08-31 16:46:26,417 - INFO - Sélectionné: 71532 - Noé MEIRELES (nouveau maire)
-2026-08-31 16:46:26,418 - INFO - Tweet: 🏛 Le #maire de Taizé (Saône-et-Loire) est Noé MEIRELES (44 ans) #MairesdeFrance 🇫🇷
-2026-08-31 16:46:26,677 - INFO - Sauvegarde effectuée: 71532 - Noé MEIRELES
-2026-08-31 16:46:26,677 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2094466856430039426', 'text': '🏛 Le #maire de Taizé (Saône-et-Loire) est Noé MEIRELES (44 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-08-31 16:46:26,679 - INFO - === Fin ===
-2026-09-01 10:46:25,565 - INFO - === Démarrage Maires ===
-2026-09-01 10:46:25,565 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-01 10:46:25,565 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-01 10:46:25,655 - INFO - Historique chargé: 1872 maires déjà tweetés
 2026-09-01 10:46:25,678 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-09-05 10:46:21,441 - INFO - Sauvegarde effectuée: 46286 - Michel LANDES
 2026-09-05 10:46:21,441 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2096188176888971543', 'text': '🏛 Le #maire de Saint-Paul-De-Vern (Lot) est Michel LANDES (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-09-05 10:46:21,443 - INFO - === Fin ===
+2026-09-05 16:46:21,622 - INFO - === Démarrage Maires ===
+2026-09-05 16:46:21,622 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-05 16:46:21,622 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-05 16:46:21,708 - INFO - Historique chargé: 1881 maires déjà tweetés
+2026-09-05 16:46:21,729 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-05 16:46:21,729 - INFO - Nombre de maires déjà tweetés: 1881
+2026-09-05 16:46:21,731 - INFO - Sélectionné: 40300 - Marie-Claude BARADAT-RISTOR (nouveau maire)
+2026-09-05 16:46:21,732 - INFO - Tweet: 🏛 La #maire de Seyresse (Landes) est Marie-Claude BARADAT-RISTOR (72 ans) #MairesdeFrance 🇫🇷
+2026-09-05 16:46:21,982 - INFO - Sauvegarde effectuée: 40300 - Marie-Claude BARADAT-RISTOR
+2026-09-05 16:46:21,983 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2096278776107684299', 'text': '🏛 La #maire de Seyresse (Landes) est Marie-Claude BARADAT-RISTOR (72 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-09-05 16:46:21,985 - INFO - === Fin ===
