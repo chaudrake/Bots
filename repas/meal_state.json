@@ -95,7 +95,8 @@
     "Pizza garnie des restes de la veille",
     "Galette au sarrasin garnie de chèvre et miel par exemple",
     "Courgettes à la crème",
-    "Filet de saumon au four et asperges"
+    "Filet de saumon au four et asperges",
+    "Soufflé au fromage"
   ],
   "used_entrees": [
     "Rouleaux de printemps",
@@ -216,6 +217,7 @@
     "Salade d'épinards",
     "Poëlée de gésiers et salade",
     "Tartare de saumon",
-    "Flan d'asperges"
+    "Flan d'asperges",
+    "Œuf poché sur lit d'épinards à la crème"
   ]
 }
