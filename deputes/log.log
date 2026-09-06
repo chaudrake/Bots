@@ -1,15 +1,3 @@
-2026-09-03 06:17:21,865 - INFO - === Fin ===
-2026-09-03 10:17:18,835 - INFO - === Démarrage Députés ===
-2026-09-03 10:17:18,835 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-09-03 10:17:18,835 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-09-03 10:17:18,839 - INFO - ✅ Dates de naissance converties avec succès
-2026-09-03 10:17:18,839 - INFO - Historique chargé: 361 députés déjà tweetés
-2026-09-03 10:17:18,841 - INFO - Nombre de députés uniques: 572
-2026-09-03 10:17:18,841 - INFO - Nombre de députés déjà tweetés: 361
-2026-09-03 10:17:18,841 - INFO - Sélectionné: 3404 - Manon BOUQUIN (nouveau député)
-2026-09-03 10:17:18,841 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de l'Hérault est Manon BOUQUIN (34 ans) #Députés #AssembléeNationale 🇫🇷
-2026-09-03 10:17:18,982 - INFO - Erreur: 402 Payment Required
-credits depleted
 2026-09-03 10:17:18,982 - INFO - === Fin ===
 2026-09-03 17:17:29,582 - INFO - === Démarrage Députés ===
 2026-09-03 17:17:29,582 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@ credits depleted
 2026-09-06 06:17:30,737 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-06 06:17:30,738 - INFO - === Fin ===
+2026-09-06 10:17:21,294 - INFO - === Démarrage Députés ===
+2026-09-06 10:17:21,294 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-09-06 10:17:21,294 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-09-06 10:17:21,301 - INFO - ✅ Dates de naissance converties avec succès
+2026-09-06 10:17:21,301 - INFO - Historique chargé: 361 députés déjà tweetés
+2026-09-06 10:17:21,303 - INFO - Nombre de députés uniques: 572
+2026-09-06 10:17:21,303 - INFO - Nombre de députés déjà tweetés: 361
+2026-09-06 10:17:21,304 - INFO - Sélectionné: 9207 - Pierre CAZENEUVE (nouveau député)
+2026-09-06 10:17:21,304 - INFO - Tweet: 🏛 Le #député de la 7e circonscription des Hauts-de-Seine est Pierre CAZENEUVE (31 ans) #Députés #AssembléeNationale 🇫🇷
+2026-09-06 10:17:21,428 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-06 10:17:21,428 - INFO - === Fin ===
