@@ -1,14 +1,3 @@
-2026-09-02 16:46:29,532 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-02 16:46:29,606 - INFO - Historique chargé: 1875 maires déjà tweetés
-2026-09-02 16:46:29,624 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-02 16:46:29,624 - INFO - Nombre de maires déjà tweetés: 1875
-2026-09-02 16:46:29,625 - INFO - Sélectionné: 82065 - Guy MERIEL (nouveau maire)
-2026-09-02 16:46:29,626 - INFO - Tweet: 🏛 Le #maire de Gasques (Tarn-et-Garonne) est Guy MERIEL (71 ans) #MairesdeFrance 🇫🇷
-2026-09-02 16:46:30,003 - INFO - Sauvegarde effectuée: 82065 - Guy MERIEL
-2026-09-02 16:46:30,003 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2095191645910147351', 'text': '🏛 Le #maire de Gasques (Tarn-et-Garonne) est Guy MERIEL (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-09-02 16:46:30,005 - INFO - === Fin ===
-2026-09-03 10:46:24,224 - INFO - === Démarrage Maires ===
-2026-09-03 10:46:24,224 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-03 10:46:24,224 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-03 10:46:24,313 - INFO - Historique chargé: 1876 maires déjà tweetés
 2026-09-03 10:46:24,339 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-09-07 10:46:26,916 - INFO - Sauvegarde effectuée: 81008 - Jean-Marc SENGES
 2026-09-07 10:46:26,916 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2096912975601041766', 'text': '🏛 Le #maire de Almayrac (Tarn) est Jean-Marc SENGES (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-09-07 10:46:26,918 - INFO - === Fin ===
+2026-09-07 16:46:22,747 - INFO - === Démarrage Maires ===
+2026-09-07 16:46:22,748 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-07 16:46:22,748 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-07 16:46:22,839 - INFO - Historique chargé: 1885 maires déjà tweetés
+2026-09-07 16:46:22,866 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-07 16:46:22,866 - INFO - Nombre de maires déjà tweetés: 1885
+2026-09-07 16:46:22,868 - INFO - Sélectionné: 30201 - Michel HEIM (nouveau maire)
+2026-09-07 16:46:22,870 - INFO - Tweet: 🏛 Le #maire de Ponteils-Et-Brésis (Gard) est Michel HEIM (62 ans) #MairesdeFrance 🇫🇷
+2026-09-07 16:46:23,115 - INFO - Sauvegarde effectuée: 30201 - Michel HEIM
+2026-09-07 16:46:23,115 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2097003556561690736', 'text': '🏛 Le #maire de Ponteils-Et-Brésis (Gard) est Michel HEIM (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-09-07 16:46:23,117 - INFO - === Fin ===
