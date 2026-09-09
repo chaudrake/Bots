@@ -1,14 +1,3 @@
-2026-09-04 10:46:25,657 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-04 10:46:25,741 - INFO - Historique chargé: 1878 maires déjà tweetés
-2026-09-04 10:46:25,762 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-04 10:46:25,762 - INFO - Nombre de maires déjà tweetés: 1878
-2026-09-04 10:46:25,764 - INFO - Sélectionné: 60537 - Jean-Guy LÉTOFFÉ (nouveau maire)
-2026-09-04 10:46:25,765 - INFO - Tweet: 🏛 Le #maire de Ribécourt-Dreslincourt (Oise) est Jean-Guy LÉTOFFÉ (72 ans) #MairesdeFrance 🇫🇷
-2026-09-04 10:46:26,032 - INFO - Sauvegarde effectuée: 60537 - Jean-Guy LÉTOFFÉ
-2026-09-04 10:46:26,032 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2095825808237662368', 'text': '🏛 Le #maire de Ribécourt-Dreslincourt (Oise) est Jean-Guy LÉTOFFÉ (72 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-09-04 10:46:26,034 - INFO - === Fin ===
-2026-09-04 16:46:23,863 - INFO - === Démarrage Maires ===
-2026-09-04 16:46:23,863 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-04 16:46:23,863 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-04 16:46:23,952 - INFO - Historique chargé: 1879 maires déjà tweetés
 2026-09-04 16:46:23,974 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-09-08 16:46:24,574 - INFO - Sauvegarde effectuée: 42269 - Rambert PALIARD
 2026-09-08 16:46:24,574 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2097365950505132364', 'text': "🏛 Le #maire de Saint-Paul-D'Uzore (Loire) est Rambert PALIARD (74 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-09-08 16:46:24,577 - INFO - === Fin ===
+2026-09-09 10:46:22,678 - INFO - === Démarrage Maires ===
+2026-09-09 10:46:22,678 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-09 10:46:22,678 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-09 10:46:22,765 - INFO - Historique chargé: 1888 maires déjà tweetés
+2026-09-09 10:46:22,788 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-09 10:46:22,788 - INFO - Nombre de maires déjà tweetés: 1888
+2026-09-09 10:46:22,790 - INFO - Sélectionné: 02642 - Alain CHARLIER (nouveau maire)
+2026-09-09 10:46:22,791 - INFO - Tweet: 🏛 Le #maire de Résigny (Drôme) est Alain CHARLIER (65 ans) #MairesdeFrance 🇫🇷
+2026-09-09 10:46:23,194 - INFO - Sauvegarde effectuée: 02642 - Alain CHARLIER
+2026-09-09 10:46:23,194 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2097637735557107982', 'text': '🏛 Le #maire de Résigny (Drôme) est Alain CHARLIER (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-09-09 10:46:23,196 - INFO - === Fin ===
