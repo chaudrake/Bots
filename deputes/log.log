@@ -1,15 +1,3 @@
-2026-09-07 06:17:20,137 - INFO - === Fin ===
-2026-09-07 10:17:24,365 - INFO - === Démarrage Députés ===
-2026-09-07 10:17:24,365 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-09-07 10:17:24,365 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-09-07 10:17:24,372 - INFO - ✅ Dates de naissance converties avec succès
-2026-09-07 10:17:24,372 - INFO - Historique chargé: 361 députés déjà tweetés
-2026-09-07 10:17:24,374 - INFO - Nombre de députés uniques: 572
-2026-09-07 10:17:24,374 - INFO - Nombre de députés déjà tweetés: 361
-2026-09-07 10:17:24,376 - INFO - Sélectionné: 2804 - Philippe VIGIER (nouveau député)
-2026-09-07 10:17:24,376 - INFO - Tweet: 🏛 Le #député de la 4e circonscription d'Eure-et-Loir est Philippe VIGIER (68 ans) #Députés #AssembléeNationale 🇫🇷
-2026-09-07 10:17:24,480 - INFO - Erreur: 402 Payment Required
-credits depleted
 2026-09-07 10:17:24,480 - INFO - === Fin ===
 2026-09-07 17:17:21,697 - INFO - === Démarrage Députés ===
 2026-09-07 17:17:21,697 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@ credits depleted
 2026-09-10 06:17:55,894 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-10 06:17:55,894 - INFO - === Fin ===
+2026-09-10 10:17:29,640 - INFO - === Démarrage Députés ===
+2026-09-10 10:17:29,640 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-09-10 10:17:29,640 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-09-10 10:17:29,646 - INFO - ✅ Dates de naissance converties avec succès
+2026-09-10 10:17:29,646 - INFO - Historique chargé: 361 députés déjà tweetés
+2026-09-10 10:17:29,648 - INFO - Nombre de députés uniques: 572
+2026-09-10 10:17:29,648 - INFO - Nombre de députés déjà tweetés: 361
+2026-09-10 10:17:29,649 - INFO - Sélectionné: 7301 - Didier PADEY (nouveau député)
+2026-09-10 10:17:29,649 - INFO - Tweet: 🏛 Le #député de la 1ère circonscription de la Savoie est Didier PADEY (60 ans) #Députés #AssembléeNationale 🇫🇷
+2026-09-10 10:17:29,757 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-10 10:17:29,757 - INFO - === Fin ===
