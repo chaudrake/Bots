@@ -1,14 +1,3 @@
-2026-09-06 10:46:23,785 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-06 10:46:23,870 - INFO - Historique chargé: 1882 maires déjà tweetés
-2026-09-06 10:46:23,891 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-06 10:46:23,891 - INFO - Nombre de maires déjà tweetés: 1882
-2026-09-06 10:46:23,892 - INFO - Sélectionné: 66077 - Patrick HUILLET (nouveau maire)
-2026-09-06 10:46:23,894 - INFO - Tweet: 🏛 Le #maire de Fenouillet (Pyrénées-Orientales) est Patrick HUILLET (63 ans) #MairesdeFrance 🇫🇷
-2026-09-06 10:46:24,290 - INFO - Sauvegarde effectuée: 66077 - Patrick HUILLET
-2026-09-06 10:46:24,290 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2096550576515354887', 'text': '🏛 Le #maire de Fenouillet (Pyrénées-Orientales) est Patrick HUILLET (63 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-09-06 10:46:24,292 - INFO - === Fin ===
-2026-09-06 16:46:24,848 - INFO - === Démarrage Maires ===
-2026-09-06 16:46:24,848 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-06 16:46:24,849 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-06 16:46:24,934 - INFO - Historique chargé: 1883 maires déjà tweetés
 2026-09-06 16:46:24,954 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-09-10 16:46:25,223 - INFO - Sauvegarde effectuée: 52341 - Nicolas PREVOT
 2026-09-10 16:46:25,223 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2098090729012904315', 'text': '🏛 Le #maire de Morancourt (Haute-Marne) est Nicolas PREVOT (55 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-09-10 16:46:25,225 - INFO - === Fin ===
+2026-09-11 10:46:26,031 - INFO - === Démarrage Maires ===
+2026-09-11 10:46:26,031 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-11 10:46:26,031 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-11 10:46:26,117 - INFO - Historique chargé: 1892 maires déjà tweetés
+2026-09-11 10:46:26,137 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-11 10:46:26,137 - INFO - Nombre de maires déjà tweetés: 1892
+2026-09-11 10:46:26,138 - INFO - Sélectionné: 62866 - Sylvain SUEUR (nouveau maire)
+2026-09-11 10:46:26,139 - INFO - Tweet: 🏛 Le #maire de Waben (Pas-de-Calais) est Sylvain SUEUR (57 ans) #MairesdeFrance 🇫🇷
+2026-09-11 10:46:26,264 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-11 10:46:26,266 - INFO - === Fin ===
