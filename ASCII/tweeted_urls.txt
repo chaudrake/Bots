@@ -69,3 +69,4 @@ https://raw.githubusercontent.com/chaudrake/ASCII/main/JuliaRoberts.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/tourEiffel.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/brucewillis.jpg
 https://raw.githubusercontent.com/chaudrake/ASCII/main/messi.jpg
+https://raw.githubusercontent.com/chaudrake/ASCII/main/rihanna.jpg
