@@ -1,14 +1,3 @@
-2026-09-07 10:46:26,565 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-07 10:46:26,623 - INFO - Historique chargé: 1884 maires déjà tweetés
-2026-09-07 10:46:26,644 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-07 10:46:26,644 - INFO - Nombre de maires déjà tweetés: 1884
-2026-09-07 10:46:26,645 - INFO - Sélectionné: 81008 - Jean-Marc SENGES (nouveau maire)
-2026-09-07 10:46:26,647 - INFO - Tweet: 🏛 Le #maire de Almayrac (Tarn) est Jean-Marc SENGES (68 ans) #MairesdeFrance 🇫🇷
-2026-09-07 10:46:26,916 - INFO - Sauvegarde effectuée: 81008 - Jean-Marc SENGES
-2026-09-07 10:46:26,916 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2096912975601041766', 'text': '🏛 Le #maire de Almayrac (Tarn) est Jean-Marc SENGES (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-09-07 10:46:26,918 - INFO - === Fin ===
-2026-09-07 16:46:22,747 - INFO - === Démarrage Maires ===
-2026-09-07 16:46:22,748 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-07 16:46:22,748 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-07 16:46:22,839 - INFO - Historique chargé: 1885 maires déjà tweetés
 2026-09-07 16:46:22,866 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-09-11 16:46:25,584 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-11 16:46:25,586 - INFO - === Fin ===
+2026-09-12 10:46:30,464 - INFO - === Démarrage Maires ===
+2026-09-12 10:46:30,464 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-12 10:46:30,465 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-12 10:46:30,550 - INFO - Historique chargé: 1892 maires déjà tweetés
+2026-09-12 10:46:30,571 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-12 10:46:30,571 - INFO - Nombre de maires déjà tweetés: 1892
+2026-09-12 10:46:30,573 - INFO - Sélectionné: 52439 - Corine DARDART (nouveau maire)
+2026-09-12 10:46:30,575 - INFO - Tweet: 🏛 La #maire de Rouvres-Sur-Aube (Haute-Marne) est Corine DARDART (56 ans) #MairesdeFrance 🇫🇷
+2026-09-12 10:46:30,781 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-12 10:46:30,783 - INFO - === Fin ===
