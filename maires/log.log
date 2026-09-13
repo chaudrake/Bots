@@ -1,14 +1,3 @@
-2026-09-08 10:46:33,010 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-08 10:46:33,076 - INFO - Historique chargé: 1886 maires déjà tweetés
-2026-09-08 10:46:33,091 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-08 10:46:33,091 - INFO - Nombre de maires déjà tweetés: 1886
-2026-09-08 10:46:33,092 - INFO - Sélectionné: 21619 - Marcel MARCEAU (nouveau maire)
-2026-09-08 10:46:33,093 - INFO - Tweet: 🏛 Le #maire de Tanay (Côte-d'Or) est Marcel MARCEAU (68 ans) #MairesdeFrance 🇫🇷
-2026-09-08 10:46:33,409 - INFO - Sauvegarde effectuée: 21619 - Marcel MARCEAU
-2026-09-08 10:46:33,409 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2097275390582542723', 'text': "🏛 Le #maire de Tanay (Côte-d'Or) est Marcel MARCEAU (68 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-09-08 10:46:33,411 - INFO - === Fin ===
-2026-09-08 16:46:24,166 - INFO - === Démarrage Maires ===
-2026-09-08 16:46:24,166 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-08 16:46:24,166 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-08 16:46:24,250 - INFO - Historique chargé: 1887 maires déjà tweetés
 2026-09-08 16:46:24,272 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-09-12 16:46:22,939 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-12 16:46:22,941 - INFO - === Fin ===
+2026-09-13 10:46:24,094 - INFO - === Démarrage Maires ===
+2026-09-13 10:46:24,094 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-09-13 10:46:24,094 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-09-13 10:46:24,185 - INFO - Historique chargé: 1892 maires déjà tweetés
+2026-09-13 10:46:24,210 - INFO - Nombre de maires actifs uniques: 34637
+2026-09-13 10:46:24,210 - INFO - Nombre de maires déjà tweetés: 1892
+2026-09-13 10:46:24,212 - INFO - Sélectionné: 35324 - Denis CHOPIN (nouveau maire)
+2026-09-13 10:46:24,214 - INFO - Tweet: 🏛 Le #maire de La Selle-En-Luitré (Ille-et-Vilaine) est Denis CHOPIN (56 ans) #MairesdeFrance 🇫🇷
+2026-09-13 10:46:24,403 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-13 10:46:24,405 - INFO - === Fin ===
