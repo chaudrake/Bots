@@ -1,15 +1,3 @@
-2026-09-10 17:17:29,541 - INFO - === Fin ===
-2026-09-11 06:17:22,900 - INFO - === Démarrage Députés ===
-2026-09-11 06:17:22,900 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
-2026-09-11 06:17:22,900 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
-2026-09-11 06:17:22,907 - INFO - ✅ Dates de naissance converties avec succès
-2026-09-11 06:17:22,907 - INFO - Historique chargé: 361 députés déjà tweetés
-2026-09-11 06:17:22,909 - INFO - Nombre de députés uniques: 572
-2026-09-11 06:17:22,909 - INFO - Nombre de députés déjà tweetés: 361
-2026-09-11 06:17:22,910 - INFO - Sélectionné: 9304 - Soumya BOUROUAHA (nouveau député)
-2026-09-11 06:17:22,910 - INFO - Tweet: 🏛 La #députée de la 4e circonscription de Seine-Saint-Denis est Soumya BOUROUAHA (62 ans) #Députés #AssembléeNationale 🇫🇷
-2026-09-11 06:17:23,015 - INFO - Erreur: 402 Payment Required
-credits depleted
 2026-09-11 06:17:23,015 - INFO - === Fin ===
 2026-09-11 10:17:24,178 - INFO - === Démarrage Députés ===
 2026-09-11 10:17:24,178 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
@@ -107,3 +95,15 @@ credits depleted
 2026-09-13 17:17:27,378 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-13 17:17:27,378 - INFO - === Fin ===
+2026-09-14 06:17:23,164 - INFO - === Démarrage Députés ===
+2026-09-14 06:17:23,164 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/deputes
+2026-09-14 06:17:23,164 - INFO - Fichier historique: /home/runner/work/Bots/Bots/deputes/tweeted_deputes.txt
+2026-09-14 06:17:23,171 - INFO - ✅ Dates de naissance converties avec succès
+2026-09-14 06:17:23,171 - INFO - Historique chargé: 361 députés déjà tweetés
+2026-09-14 06:17:23,173 - INFO - Nombre de députés uniques: 572
+2026-09-14 06:17:23,173 - INFO - Nombre de députés déjà tweetés: 361
+2026-09-14 06:17:23,174 - INFO - Sélectionné: 9212 - Carole GUILLERM (nouveau député)
+2026-09-14 06:17:23,175 - INFO - Tweet: 🏛 La #députée de la 12e circonscription des Hauts-de-Seine est Carole GUILLERM (39 ans) #Députés #AssembléeNationale 🇫🇷
+2026-09-14 06:17:23,367 - INFO - Erreur: 402 Payment Required
+credits depleted
+2026-09-14 06:17:23,367 - INFO - === Fin ===
