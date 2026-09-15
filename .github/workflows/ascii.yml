@@ -2,7 +2,7 @@ name: ASCII Bot
 
 on:
   workflow_dispatch:
-  schedule:
+ # schedule:
     # 15h00 UTC = 17h00 heure française (été/hiver)
   #  - cron: "0 15 * * *"
 
