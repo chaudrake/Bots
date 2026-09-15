@@ -1,9 +1,9 @@
 name: Histoire Bot
 
 on:
-  schedule:
+ # schedule:
     # À 15h54
-    - cron: '54 15 * * *'
+#    - cron: '54 15 * * *'
   workflow_dispatch:
 
 jobs:
