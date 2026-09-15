@@ -2,9 +2,9 @@ name: Coiffure Imagina Tiff
 
 on:
   workflow_dispatch:
-  schedule:
+#  schedule:
     # 15h UTC = 17h FR (été) / 16h FR (hiver)
-    - cron: "59 14 * * *"
+ #   - cron: "59 14 * * *"
 
 jobs:
   run-bot:
