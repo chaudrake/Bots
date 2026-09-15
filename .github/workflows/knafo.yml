@@ -1,9 +1,9 @@
 name: KnafoBot
 
 on:
-  schedule:
+#  schedule:
     # Lancement à 08:30 et 15:30 UTC (environ 9h30 et 16h30 en France)
-    - cron: '30 8 * * *'
+#    - cron: '30 8 * * *'
   workflow_dispatch: 
 
 jobs:
