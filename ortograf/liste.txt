@@ -550,7 +550,7 @@ Occurrence : 2 C et 2 R, en l'occurrence.
 Je suis allé ou j'ai été ?
 S'il y a une notion de mouvement, il vaut mieux dire  "je suis allé au cinéma" que  "j'ai été au cinéma " et "ils sont allés visiter cette maison" que "ils ont été visiter cette maison.”
 
-Il ne faut pas que vous oubliiez de me payer. Les verbes qui, au présent de l'indicatif, se terminent déjà par un « i » à la 1re et à la 2e personne du pluriel prennent toujours un « i » supplémentaire à l'imparfait de l'indicatif et au présent du subjonctif.
+Il ne faut pas que vous oubliiez de payer. Les verbes qui, au présent de l'indicatif, se terminent déjà par un « i » à la 1re et à la 2e personne du pluriel prennent toujours un « i » supplémentaire à l'imparfait de l'indicatif et au présent du subjonctif.
 
 Lorsqu'Hélène est arrivée ou lorsque Hélène est arrivée ?
 "Lorsque" s’élide (c’est-à-dire qu’il perd son "E" final contre une apostrophe) uniquement devant "il(s)", "elle(s)", "on", "un(e)", et "en"
