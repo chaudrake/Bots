@@ -4,7 +4,7 @@ name: Art Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * *"   # tous les jours à 15h UTC (17h en France été)
+    - cron: "0 17 * * *"   # tous les jours à 17h UTC (19h en France été)
 
 jobs:
   run-bot:
