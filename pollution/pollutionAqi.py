@@ -32,15 +32,21 @@ def fetch_all_aqi_openmeteo(cities):
     """Récupère l'AQI de toutes les villes par lots de 100 en une seule requête par lot"""
     results = []
     batch_size = 100
+    base_url = "https://" + "://open-meteo.com" + "/v1/air-quality"
     
     for i in range(0, len(cities), batch_size):
         batch = cities[i:i + batch_size]
         lats = ",".join(str(c["lat"]) for c in batch)
         lons = ",".join(str(c["lon"]) for c in batch)
         
-        url = f"https://open-meteo.com{lats}&longitude={lons}&current=us_aqi"
+        params = {
+            "latitude": lats,
+            "longitude": lons,
+            "current": "us_aqi"
+        }
+        
         try:
-            response = requests.get(url, timeout=15)
+            response = requests.get(base_url, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()
             
