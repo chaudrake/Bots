@@ -34,7 +34,6 @@ def fetch_all_aqi_openmeteo(cities):
     batch_size = 100
     host = ".".join(["air-quality-api", "open-meteo", "com"])
     base_url = f"https://{host}/v1/air-quality"
-
     
     for i in range(0, len(cities), batch_size):
         batch = cities[i:i + batch_size]
@@ -52,7 +51,6 @@ def fetch_all_aqi_openmeteo(cities):
             response.raise_for_status()
             data = response.json()
             
-            # Si une seule ville dans le lot, Open-Meteo renvoie un dict, sinon une liste de dicts
             if isinstance(data, dict):
                 data = [data]
                 
@@ -101,7 +99,6 @@ def execute_pollution_check():
     cities = load_cities()
     print(f"📋 {len(cities)} villes chargées")
 
-    # Récupération groupée (3 requêtes au lieu de 287)
     aqi_data = fetch_all_aqi_openmeteo(cities)
 
     print(f"📊 Données récupérées pour {len(aqi_data)}/{len(cities)} villes")
@@ -110,11 +107,9 @@ def execute_pollution_check():
         print("⚠️ Pas assez de données AQI récupérées pour faire un classement.")
         return
 
-    # Tri des villes de la plus polluée à la moins polluée
     top_aqi = sorted(aqi_data, key=lambda x: x['aqi'], reverse=True)[:5]
     print(f"🏆 Top 5 : {top_aqi}")
     
-    # Génération et publication du tweet unique
     aqi_tweet = generate_aqi_tweet(top_aqi)
     if aqi_tweet:
         post_tweet(aqi_tweet)
