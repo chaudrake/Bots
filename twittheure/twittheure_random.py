@@ -64,7 +64,7 @@ def main():
     if 6 <= hour <= 22:
         # Probabilité : 1 fois sur 3
         
-        if random.random() < 0.33:
+        if random.random() < 0.5:
             tweet_text = generate_random_hour_tweet()
             if tweet_text:
                 try:
