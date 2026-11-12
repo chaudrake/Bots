@@ -28,20 +28,6 @@ print("🚀 Lancement du bot TwittHeure (heures aléatoires)")
 
 france_tz = pytz.timezone('Europe/Paris')
 
-def is_winter_time():
-    """Détecte l'heure d'hiver (UTC+1)"""
-    now = datetime.now(france_tz)
-    return now.dst().total_seconds() == 0
-
-def wait_for_winter_adjustment():
-    """En hiver, attend 1 heure pour caler l'heure française"""
-    if is_winter_time():
-        print("❄️ Heure d'hiver - attente de 1 heure")
-        time.sleep(3600)
-        print("✅ Reprise après attente")
-    else:
-        print("☀️ Heure d'été - exécution immédiate")
-
 def generate_random_hour_tweet():
     try:
         with open("bot.json", 'r', encoding="utf-8") as f:
@@ -54,17 +40,19 @@ def generate_random_hour_tweet():
         return None
 
 def main():
-    wait_for_winter_adjustment()
-    
     now = datetime.now(france_tz)
     hour = now.hour
     print(f"🕐 Heure française: {now.strftime('%H:%M:%S')}")
 
     # Plage 6h-22h (Heure Française)
     if 6 <= hour <= 22:
-        # Probabilité : 1 fois sur 3
-        
         if random.random() < 0.5:
+            # Attente aléatoire entre 5 minutes (300s) et 2 heures (7200s)
+            wait_seconds = random.randint(300, 7200)
+            wait_minutes = round(wait_seconds / 60, 1)
+            print(f"⏳ Tirage validé ! Attente aléatoire de {wait_minutes} minutes ({wait_seconds}s) avant publication...")
+            time.sleep(wait_seconds)
+
             tweet_text = generate_random_hour_tweet()
             if tweet_text:
                 try:
