@@ -35,7 +35,7 @@ jobs:
       - name: Run bot
         run: |
           cd ortograf
-          python ortograf.py
+          python -u ortograf.py
         env:
           ORTOGRAF_CONSUMER_KEY: ${{ secrets.ORTOGRAF_CONSUMER_KEY }}
           ORTOGRAF_CONSUMER_SECRET: ${{ secrets.ORTOGRAF_CONSUMER_SECRET }}
