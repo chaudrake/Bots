@@ -1,12 +1,10 @@
-# PollutionAqi.py - Tweet l'indice AQI uniquement
-# Adapté pour GitHub Actions et cron-job.org
+# PollutionAqi.py - Tweet l'indice AQI uniquement (Requêtes groupées Open-Meteo)
 import json
 import requests
 import tweepy
 import os
 import sys
 import pytz
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 # Récupérer les variables d'environnement (GitHub Secrets)
@@ -14,14 +12,13 @@ CONSUMER_KEY = os.getenv('POLLUTION_CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('POLLUTION_CONSUMER_SECRET')
 ACCESS_KEY = os.getenv('POLLUTION_ACCESS_KEY')
 ACCESS_SECRET = os.getenv('POLLUTION_ACCESS_SECRET')
-AIRVISUAL_API_KEY = os.getenv('POLLUTION_AIRVISUAL_API_KEY')
 
 # Vérification des credentials Twitter
 if not all([CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET]):
     print("❌ Missing Twitter API credentials")
     sys.exit(1)
 
-print("✅ Démarrage du script Pollution (Mode AQI unique)")
+print("✅ Démarrage du script Pollution (Mode AQI groupé)")
 
 france_tz = pytz.timezone('Europe/Paris')
 
@@ -31,42 +28,37 @@ def load_cities():
         cities_data = json.load(f)
         return [{"name": name, "lat": data["lat"], "lon": data["lon"]} for name, data in cities_data.items()]
 
-def fetch_aqi_airvisual(city):
-    if not AIRVISUAL_API_KEY:
-        return None
-    try:
-        url = f"http://airvisual.com{city['lat']}&lon={city['lon']}&key={AIRVISUAL_API_KEY}"
-        response = requests.get(url, timeout=5)
-        response.raise_for_status()
-        data = response.json()
-        if data.get('status') == 'success':
-            return {
-                "city": city["name"],
-                "aqi": data['data']['current']['pollution']['aqius'],
-                "source": "AirVisual"
-            }
-    except Exception:
-        pass
-    return None
-
-def fetch_aqi_safe(city):
-    try:
-        url = f"https://open-meteo.com{city['lat']}&longitude={city['lon']}&current=us_aqi"
-        response = requests.get(url, timeout=5)
-        data = response.json()
-        if 'current' in data and 'us_aqi' in data['current']:
-            return {
-                "city": city["name"],
-                "aqi": data['current']['us_aqi'],
-                "source": "Open-Meteo"
-            }
-    except Exception:
-        pass
-    return None
-
-def get_city_aqi(city):
-    """Tente AirVisual, sinon bascule sur Open-Meteo"""
-    return fetch_aqi_airvisual(city) or fetch_aqi_safe(city)
+def fetch_all_aqi_openmeteo(cities):
+    """Récupère l'AQI de toutes les villes par lots de 100 en une seule requête par lot"""
+    results = []
+    batch_size = 100
+    
+    for i in range(0, len(cities), batch_size):
+        batch = cities[i:i + batch_size]
+        lats = ",".join(str(c["lat"]) for c in batch)
+        lons = ",".join(str(c["lon"]) for c in batch)
+        
+        url = f"https://open-meteo.com{lats}&longitude={lons}&current=us_aqi"
+        try:
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            
+            # Si une seule ville dans le lot, Open-Meteo renvoie un dict, sinon une liste de dicts
+            if isinstance(data, dict):
+                data = [data]
+                
+            for city, item in zip(batch, data):
+                if 'current' in item and item['current'].get('us_aqi') is not None:
+                    results.append({
+                        "city": city["name"],
+                        "aqi": item['current']['us_aqi'],
+                        "source": "Open-Meteo"
+                    })
+        except Exception as e:
+            print(f"❌ Erreur lors de la requête Open-Meteo (lot {i // batch_size + 1}) : {e}")
+            
+    return results
 
 def generate_aqi_tweet(polluted_cities):
     current_time = datetime.now(france_tz).strftime("%Hh%M")
@@ -74,7 +66,6 @@ def generate_aqi_tweet(polluted_cities):
     first_city = next(iter(polluted_cities))
     tweet_footer = f"\nSource : {first_city['source']}"
     
-    # Essaie d'afficher 5 villes, sinon 3, sinon 1 pour ne pas dépasser la limite de Twitter
     for num_cities in (5, 3, 1):
         city_lines = [f"• {city['city']} : AQI {city['aqi']}" for city in polluted_cities[:num_cities]]
         tweet = "\n".join([tweet_header] + city_lines + [tweet_footer])
@@ -102,9 +93,8 @@ def execute_pollution_check():
     cities = load_cities()
     print(f"📋 {len(cities)} villes chargées")
 
-    # Récupération de l'AQI parallélisée
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        aqi_data = [data for data in executor.map(get_city_aqi, cities) if data]
+    # Récupération groupée (3 requêtes au lieu de 287)
+    aqi_data = fetch_all_aqi_openmeteo(cities)
 
     print(f"📊 Données récupérées pour {len(aqi_data)}/{len(cities)} villes")
 
@@ -114,6 +104,7 @@ def execute_pollution_check():
 
     # Tri des villes de la plus polluée à la moins polluée
     top_aqi = sorted(aqi_data, key=lambda x: x['aqi'], reverse=True)[:5]
+    print(f"🏆 Top 5 : {top_aqi}")
     
     # Génération et publication du tweet unique
     aqi_tweet = generate_aqi_tweet(top_aqi)
