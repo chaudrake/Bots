@@ -1,11 +1,10 @@
 # PollutionAqi.py - Tweet l'indice AQI uniquement
-# Adapté pour GitHub Actions
+# Adapté pour GitHub Actions et cron-job.org
 import json
 import requests
 import tweepy
 import os
 import sys
-import time
 import pytz
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -26,20 +25,6 @@ print("✅ Démarrage du script Pollution (Mode AQI unique)")
 
 france_tz = pytz.timezone('Europe/Paris')
 
-def is_summer_time():
-    """Détecte si l'heure d'été est active à Paris"""
-    now = datetime.now(france_tz)
-    return now.dst().total_seconds() != 0
-
-def wait_for_winter_adjustment():
-    """Si on est en hiver, attend 1 heure pour caler l'heure française sur la cible"""
-    if not is_summer_time():
-        print("❄️ Heure d'hiver détectée (UTC+1) - attente de 1 heure")
-        time.sleep(3600)
-        print("✅ Reprise après attente")
-    else:
-        print("☀️ Heure d'été détectée (UTC+2) - exécution immédiate")
-
 def load_cities():
     """Charge la liste des villes depuis le fichier JSON"""
     with open('cities.json', 'r', encoding='utf-8') as f:
@@ -50,7 +35,7 @@ def fetch_aqi_airvisual(city):
     if not AIRVISUAL_API_KEY:
         return None
     try:
-        url = f"http://api.airvisual.com/v2/nearest_city?lat={city['lat']}&lon={city['lon']}&key={AIRVISUAL_API_KEY}"
+        url = f"http://airvisual.com{city['lat']}&lon={city['lon']}&key={AIRVISUAL_API_KEY}"
         response = requests.get(url, timeout=5)
         response.raise_for_status()
         data = response.json()
@@ -66,7 +51,7 @@ def fetch_aqi_airvisual(city):
 
 def fetch_aqi_safe(city):
     try:
-        url = f"https://air-quality-api.open-meteo.com/v1/air-quality?latitude={city['lat']}&longitude={city['lon']}&current=us_aqi"
+        url = f"https://open-meteo.com{city['lat']}&longitude={city['lon']}&current=us_aqi"
         response = requests.get(url, timeout=5)
         data = response.json()
         if 'current' in data and 'us_aqi' in data['current']:
@@ -86,10 +71,10 @@ def get_city_aqi(city):
 def generate_aqi_tweet(polluted_cities):
     current_time = datetime.now(france_tz).strftime("%Hh%M")
     tweet_header = f"🌍 #Pollution à {current_time}. Indice Air Quality Index (AQI).\n\n🔴 Villes les plus polluées : 🔴\n"
-    tweet_footer = f"\nSource : {polluted_cities[0]['source']}"
+    tweet_footer = f"\nSource : {polluted_cities['source']}"
     
     # Essaie d'afficher 5 villes, sinon 3, sinon 1 pour ne pas dépasser la limite de Twitter
-    for num_cities in [5, 3, 1]:
+    for num_cities in:
         city_lines = [f"• {city['city']} : AQI {city['aqi']}" for city in polluted_cities[:num_cities]]
         tweet = "\n".join([tweet_header] + city_lines + [tweet_footer])
         if len(tweet) <= 270:
@@ -105,7 +90,7 @@ def post_tweet(tweet_text):
             access_token_secret=ACCESS_SECRET
         )
         client.create_tweet(text=tweet_text[:280])
-        print(f"✅ Tweet AQI publié avec succès")
+        print("✅ Tweet AQI publié avec succès")
         return True
     except Exception as e:
         print(f"❌ Erreur publication : {e}")
@@ -116,9 +101,11 @@ def execute_pollution_check():
     cities = load_cities()
     print(f"📋 {len(cities)} villes chargées")
 
-    # On ne récupère plus que l'AQI, parallélisé pour aller vite
+    # Récupération de l'AQI parallélisée
     with ThreadPoolExecutor(max_workers=10) as executor:
         aqi_data = [data for data in executor.map(get_city_aqi, cities) if data]
+
+    print(f"📊 Données récupérées pour {len(aqi_data)}/{len(cities)} villes")
 
     if len(aqi_data) < 3:
         print("⚠️ Pas assez de données AQI récupérées pour faire un classement.")
@@ -135,7 +122,6 @@ def execute_pollution_check():
         print("❌ Impossible de générer un tweet valide.")
 
 def main():
-    wait_for_winter_adjustment()
     now_fr = datetime.now(france_tz)
     print(f"🕐 Heure française d'exécution : {now_fr.strftime('%H:%M:%S')}")
     execute_pollution_check()
