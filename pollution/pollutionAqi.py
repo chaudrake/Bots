@@ -71,10 +71,11 @@ def get_city_aqi(city):
 def generate_aqi_tweet(polluted_cities):
     current_time = datetime.now(france_tz).strftime("%Hh%M")
     tweet_header = f"🌍 #Pollution à {current_time}. Indice Air Quality Index (AQI).\n\n🔴 Villes les plus polluées : 🔴\n"
-    tweet_footer = f"\nSource : {polluted_cities['source']}"
+    first_city = next(iter(polluted_cities))
+    tweet_footer = f"\nSource : {first_city['source']}"
     
     # Essaie d'afficher 5 villes, sinon 3, sinon 1 pour ne pas dépasser la limite de Twitter
-    for num_cities in:
+    for num_cities in (5, 3, 1):
         city_lines = [f"• {city['city']} : AQI {city['aqi']}" for city in polluted_cities[:num_cities]]
         tweet = "\n".join([tweet_header] + city_lines + [tweet_footer])
         if len(tweet) <= 270:
