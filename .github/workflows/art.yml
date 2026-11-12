@@ -1,10 +1,13 @@
-# le bot ne marche plus car il n'y a plus de crédits
 name: Art Bot
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 17 * * *"   # tous les jours à 17h UTC (19h en France été)
+    - cron: "0 17 * * *"
+
+# Autoriser le workflow à modifier les fichiers du dépôt
+permissions:
+  contents: write
 
 jobs:
   run-bot:
@@ -12,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # v4 est recommandé
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -24,15 +27,6 @@ jobs:
           cd art
           pip install tweepy requests Pillow
 
-      - name: Debug files
-        run: |
-          echo "=== art directory content ==="
-          ls -la art/
-          echo "=== Check oeuvres.txt ==="
-          head -5 art/oeuvres.txt
-          echo "=== Check index.txt ==="
-          cat art/index.txt 2>/dev/null || echo "index.txt n'existe pas encore"
-
       - name: Run bot
         run: |
           cd art
@@ -42,3 +36,11 @@ jobs:
           2LART_CONSUMER_SECRET: ${{ secrets.ART_CONSUMER_SECRET }}
           2LART_ACCESS_KEY: ${{ secrets.ART_ACCESS_KEY }}
           2LART_ACCESS_SECRET: ${{ secrets.ART_ACCESS_SECRET }}
+
+      # Nouvelle étape pour sauvegarder le nouvel index sur GitHub
+      - name: Sauvegarder l'index
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add art/index.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour de l'index" && git push)
