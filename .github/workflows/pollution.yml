@@ -22,9 +22,10 @@ jobs:
           pip install tweepy requests pytz
 
       - name: Run bot
+        timeout-minutes: 5
         run: |
           cd pollution
-          python pollutionAqi.py
+          python -u pollutionAqi.py
         env:
           POLLUTION_CONSUMER_KEY: ${{ secrets.POLLUTION_CONSUMER_KEY }}
           POLLUTION_CONSUMER_SECRET: ${{ secrets.POLLUTION_CONSUMER_SECRET }}
