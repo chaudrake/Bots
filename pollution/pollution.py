@@ -1,11 +1,10 @@
 # Pollution.py - Tweet AQI, PM2.5 et Ozone
-# Adapté pour GitHub Actions
+# Adapté pour GitHub Actions et déclenchement externe (cron-job.org)
 import json
 import requests
 import tweepy
 import os
 import sys
-import time
 import pytz
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -26,21 +25,6 @@ print("✅ Démarrage du script Pollution")
 
 france_tz = pytz.timezone('Europe/Paris')
 
-def is_summer_time():
-    """Détecte si l'heure d'été est active à Paris"""
-    now = datetime.now(france_tz)
-    # dst() renvoie un timedelta. S'il n'est pas nul (différent de 0), on est en heure d'été.
-    return now.dst().total_seconds() != 0
-
-def wait_for_winter_adjustment():
-    """Si on est en hiver, attend 1 heure pour caler l'heure française sur la cible (8h, 12h, 18h)"""
-    if not is_summer_time():
-        print("❄️ Heure d'hiver détectée (UTC+1) - attente de 1 heure")
-        time.sleep(3600)
-        print("✅ Reprise après attente")
-    else:
-        print("☀️ Heure d'été détectée (UTC+2) - exécution immédiate")
-
 def load_cities():
     """Charge la liste des villes depuis le fichier JSON"""
     with open('cities.json', 'r', encoding='utf-8') as f:
@@ -49,7 +33,7 @@ def load_cities():
 
 def fetch_pm25(city):
     try:
-        url = f"https://air-quality-api.open-meteo.com/v1/air-quality?latitude={city['lat']}&longitude={city['lon']}&current=pm2_5"
+        url = f"https://open-meteo.com{city['lat']}&longitude={city['lon']}&current=pm2_5"
         response = requests.get(url, timeout=3)
         data = response.json()
         return {"city": city["name"], "pm25": round(data['current']['pm2_5'], 1)}
@@ -58,7 +42,7 @@ def fetch_pm25(city):
 
 def fetch_ozone(city):
     try:
-        url = f"https://air-quality-api.open-meteo.com/v1/air-quality?latitude={city['lat']}&longitude={city['lon']}&current=ozone"
+        url = f"https://open-meteo.com{city['lat']}&longitude={city['lon']}&current=ozone"
         response = requests.get(url, timeout=3)
         data = response.json()
         return {"city": city["name"], "ozone": round(data['current']['ozone'], 1)}
@@ -69,7 +53,7 @@ def fetch_aqi_airvisual(city):
     if not AIRVISUAL_API_KEY:
         return None
     try:
-        url = f"http://api.airvisual.com/v2/nearest_city?lat={city['lat']}&lon={city['lon']}&key={AIRVISUAL_API_KEY}"
+        url = f"http://airvisual.com{city['lat']}&lon={city['lon']}&key={AIRVISUAL_API_KEY}"
         response = requests.get(url, timeout=5)
         response.raise_for_status()
         data = response.json()
@@ -86,7 +70,7 @@ def fetch_aqi_airvisual(city):
 
 def fetch_aqi_safe(city):
     try:
-        url = f"https://air-quality-api.open-meteo.com/v1/air-quality?latitude={city['lat']}&longitude={city['lon']}&current=us_aqi,pm2_5"
+        url = f"https://open-meteo.com{city['lat']}&longitude={city['lon']}&current=us_aqi,pm2_5"
         response = requests.get(url, timeout=5)
         data = response.json()
         if 'current' in data and 'us_aqi' in data['current']:
@@ -108,7 +92,7 @@ def generate_pm25_tweet(polluted):
     current_time = datetime.now(france_tz).strftime("%Hh%M")
     base = [f"🌍 #Pollution aux #ParticulesFines (PM2.5) à {current_time}.", "\n🔴 Villes les plus polluées : 🔴\n"]
     footer = "\nSource : Open-Meteo"
-    for n in [5, 3, 1]:
+    for n in:
         cities_lines = [f"• {c['city']} : {c['pm25']} µg/m³" for c in polluted[:n]]
         tweet = "\n".join(base + cities_lines + [footer])
         if len(tweet) <= 270:
@@ -119,7 +103,7 @@ def generate_ozone_tweet(polluted):
     current_time = datetime.now(france_tz).strftime("%Hh%M")
     base = [f"🌍 #Pollution à l'#Ozone (O₃) à {current_time}.", "\n🔴 Villes les plus polluées : 🔴\n"]
     footer = "\nSource : Open-Meteo"
-    for n in [5, 3, 1]:
+    for n in:
         cities_lines = [f"• {c['city']} : {c['ozone']} µg/m³" for c in polluted[:n]]
         tweet = "\n".join(base + cities_lines + [footer])
         if len(tweet) <= 270:
@@ -130,7 +114,7 @@ def generate_aqi_tweet(polluted_cities):
     current_time = datetime.now(france_tz).strftime("%Hh%M")
     tweet_header = f"🌍 #Pollution à {current_time}. Indice Air Quality Index (AQI).\n\n🔴 Villes les plus polluées : 🔴\n"
     tweet_footer = f"\nSource : {polluted_cities[0]['source']}"
-    for num_cities in [5, 3, 1]:
+    for num_cities in:
         city_lines = [f"• {city['city']} : AQI {city['aqi']}" for city in polluted_cities[:num_cities]]
         tweet = "\n".join([tweet_header] + city_lines + [tweet_footer])
         if len(tweet) <= 270:
@@ -188,10 +172,6 @@ def execute_pollution_check():
     print(f"📊 Résumé: {tweets_postes}/3 tweets postés")
 
 def main():
-    # Ajustement pour l'heure d'hiver (attend 1h si nécessaire)
-    wait_for_winter_adjustment()
-    
-    # Vérifier l'heure française actuelle après l'éventuelle attente
     now_fr = datetime.now(france_tz)
     print(f"🕐 Heure française d'exécution : {now_fr.strftime('%H:%M:%S')}")
     
@@ -203,4 +183,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Erreur inattendue: {e}")
         sys.exit(1)
-        
