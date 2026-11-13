@@ -1,14 +1,3 @@
-2026-09-10 10:46:22,062 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-10 10:46:22,148 - INFO - Historique chargé: 1890 maires déjà tweetés
-2026-09-10 10:46:22,171 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-10 10:46:22,171 - INFO - Nombre de maires déjà tweetés: 1890
-2026-09-10 10:46:22,172 - INFO - Sélectionné: 70238 - Anne LEONARD (nouveau maire)
-2026-09-10 10:46:22,174 - INFO - Tweet: 🏛 La #maire de Fleurey-Lès-Saint-Loup (Haute-Saône) est Anne LEONARD (62 ans) #MairesdeFrance 🇫🇷
-2026-09-10 10:46:22,411 - INFO - Sauvegarde effectuée: 70238 - Anne LEONARD
-2026-09-10 10:46:22,411 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2098000120285659273', 'text': '🏛 La #maire de Fleurey-Lès-Saint-Loup (Haute-Saône) est Anne LEONARD (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-09-10 10:46:22,413 - INFO - === Fin ===
-2026-09-10 16:46:24,748 - INFO - === Démarrage Maires ===
-2026-09-10 16:46:24,748 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-10 16:46:24,749 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-10 16:46:24,833 - INFO - Historique chargé: 1891 maires déjà tweetés
 2026-09-10 16:46:24,852 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-09-14 16:46:25,540 - INFO - Erreur: 402 Payment Required
 credits depleted
 2026-09-14 16:46:25,542 - INFO - === Fin ===
+2026-11-13 14:02:42,489 - INFO - === Démarrage Maires ===
+2026-11-13 14:02:42,489 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-13 14:02:42,489 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-13 14:02:42,564 - INFO - Historique chargé: 1892 maires déjà tweetés
+2026-11-13 14:02:42,595 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-13 14:02:42,595 - INFO - Nombre de maires déjà tweetés: 1892
+2026-11-13 14:02:42,598 - INFO - Sélectionné: 16061 - Michel BUISSON (nouveau maire)
+2026-11-13 14:02:42,606 - INFO - Tweet: 🏛 Le #maire de Brie (Charente) est Michel BUISSON (65 ans) #MairesdeFrance 🇫🇷
+2026-11-13 14:02:42,934 - INFO - Sauvegarde effectuée: 16061 - Michel BUISSON
+2026-11-13 14:02:42,934 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121242354472431652', 'text': '🏛 Le #maire de Brie (Charente) est Michel BUISSON (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-13 14:02:42,936 - INFO - === Fin ===
