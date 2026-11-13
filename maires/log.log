@@ -1,14 +1,3 @@
-2026-09-10 16:46:24,749 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-10 16:46:24,833 - INFO - Historique chargé: 1891 maires déjà tweetés
-2026-09-10 16:46:24,852 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-10 16:46:24,852 - INFO - Nombre de maires déjà tweetés: 1891
-2026-09-10 16:46:24,854 - INFO - Sélectionné: 52341 - Nicolas PREVOT (nouveau maire)
-2026-09-10 16:46:24,855 - INFO - Tweet: 🏛 Le #maire de Morancourt (Haute-Marne) est Nicolas PREVOT (55 ans) #MairesdeFrance 🇫🇷
-2026-09-10 16:46:25,223 - INFO - Sauvegarde effectuée: 52341 - Nicolas PREVOT
-2026-09-10 16:46:25,223 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2098090729012904315', 'text': '🏛 Le #maire de Morancourt (Haute-Marne) est Nicolas PREVOT (55 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-09-10 16:46:25,225 - INFO - === Fin ===
-2026-09-11 10:46:26,031 - INFO - === Démarrage Maires ===
-2026-09-11 10:46:26,031 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-11 10:46:26,031 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-11 10:46:26,117 - INFO - Historique chargé: 1892 maires déjà tweetés
 2026-09-11 10:46:26,137 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-11-13 14:02:42,934 - INFO - Sauvegarde effectuée: 16061 - Michel BUISSON
 2026-11-13 14:02:42,934 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121242354472431652', 'text': '🏛 Le #maire de Brie (Charente) est Michel BUISSON (65 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-13 14:02:42,936 - INFO - === Fin ===
+2026-11-13 17:46:23,236 - INFO - === Démarrage Maires ===
+2026-11-13 17:46:23,236 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-13 17:46:23,236 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-13 17:46:23,289 - INFO - Historique chargé: 1893 maires déjà tweetés
+2026-11-13 17:46:23,301 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-13 17:46:23,301 - INFO - Nombre de maires déjà tweetés: 1893
+2026-11-13 17:46:23,302 - INFO - Sélectionné: 30031 - Laurent PARIS (nouveau maire)
+2026-11-13 17:46:23,303 - INFO - Tweet: 🏛 Le #maire de La Bastide-D'Engras (Gard) est Laurent PARIS (62 ans) #MairesdeFrance 🇫🇷
+2026-11-13 17:46:23,586 - INFO - Sauvegarde effectuée: 30031 - Laurent PARIS
+2026-11-13 17:46:23,586 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121298645014213050', 'text': "🏛 Le #maire de La Bastide-D'Engras (Gard) est Laurent PARIS (62 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-11-13 17:46:23,588 - INFO - === Fin ===
