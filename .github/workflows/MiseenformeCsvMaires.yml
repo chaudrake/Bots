@@ -6,12 +6,12 @@ on:
       fichier_entree:
         description: 'Nom du fichier CSV source'
         required: false
-        default: 'elus-maires-mai.csv'
+        default: 'elus-maire-mai.csv'
         type: string
       fichier_sortie:
         description: 'Nom du fichier CSV de sortie'
         required: false
-        default: 'elus-maires-mai-corrige.csv'
+        default: 'elus-maire-mai-corrige.csv'
         type: string
 
 jobs:
