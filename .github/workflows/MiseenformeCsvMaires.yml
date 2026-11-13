@@ -11,7 +11,7 @@ on:
       fichier_sortie:
         description: 'Nom du fichier CSV de sortie'
         required: false
-        default: 'elus-maire-mai-corrige.csv'
+        default: 'elus-maires-mai-corrige.csv'
         type: string
 
 jobs:
