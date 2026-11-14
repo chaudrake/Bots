@@ -1,14 +1,3 @@
-2026-09-11 10:46:26,031 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-11 10:46:26,117 - INFO - Historique chargé: 1892 maires déjà tweetés
-2026-09-11 10:46:26,137 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-11 10:46:26,137 - INFO - Nombre de maires déjà tweetés: 1892
-2026-09-11 10:46:26,138 - INFO - Sélectionné: 62866 - Sylvain SUEUR (nouveau maire)
-2026-09-11 10:46:26,139 - INFO - Tweet: 🏛 Le #maire de Waben (Pas-de-Calais) est Sylvain SUEUR (57 ans) #MairesdeFrance 🇫🇷
-2026-09-11 10:46:26,264 - INFO - Erreur: 402 Payment Required
-credits depleted
-2026-09-11 10:46:26,266 - INFO - === Fin ===
-2026-09-11 16:46:25,326 - INFO - === Démarrage Maires ===
-2026-09-11 16:46:25,326 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-11 16:46:25,326 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-11 16:46:25,419 - INFO - Historique chargé: 1892 maires déjà tweetés
 2026-09-11 16:46:25,448 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-11-13 17:46:23,586 - INFO - Sauvegarde effectuée: 30031 - Laurent PARIS
 2026-11-13 17:46:23,586 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121298645014213050', 'text': "🏛 Le #maire de La Bastide-D'Engras (Gard) est Laurent PARIS (62 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-11-13 17:46:23,588 - INFO - === Fin ===
+2026-11-14 11:46:26,506 - INFO - === Démarrage Maires ===
+2026-11-14 11:46:26,506 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-14 11:46:26,506 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-14 11:46:26,576 - INFO - Historique chargé: 1894 maires déjà tweetés
+2026-11-14 11:46:26,593 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-14 11:46:26,593 - INFO - Nombre de maires déjà tweetés: 1894
+2026-11-14 11:46:26,594 - INFO - Sélectionné: 63089 - Patrice GAUTHIER (nouveau maire)
+2026-11-14 11:46:26,595 - INFO - Tweet: 🏛 Le #maire de Chappes (Puy-de-Dôme) est Patrice GAUTHIER (66 ans) #MairesdeFrance 🇫🇷
+2026-11-14 11:46:26,892 - INFO - Sauvegarde effectuée: 63089 - Patrice GAUTHIER
+2026-11-14 11:46:26,892 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121570449821782292', 'text': '🏛 Le #maire de Chappes (Puy-de-Dôme) est Patrice GAUTHIER (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-14 11:46:26,894 - INFO - === Fin ===
