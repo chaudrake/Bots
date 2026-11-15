@@ -1,14 +1,3 @@
-2026-09-12 16:46:22,685 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-12 16:46:22,770 - INFO - Historique chargé: 1892 maires déjà tweetés
-2026-09-12 16:46:22,792 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-12 16:46:22,793 - INFO - Nombre de maires déjà tweetés: 1892
-2026-09-12 16:46:22,794 - INFO - Sélectionné: 19162 - Jérôme SAGNE (nouveau maire)
-2026-09-12 16:46:22,796 - INFO - Tweet: 🏛 Le #maire de Perpezac-Le-Noir (Corrèze) est Jérôme SAGNE (51 ans) #MairesdeFrance 🇫🇷
-2026-09-12 16:46:22,939 - INFO - Erreur: 402 Payment Required
-credits depleted
-2026-09-12 16:46:22,941 - INFO - === Fin ===
-2026-09-13 10:46:24,094 - INFO - === Démarrage Maires ===
-2026-09-13 10:46:24,094 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-13 10:46:24,094 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-13 10:46:24,185 - INFO - Historique chargé: 1892 maires déjà tweetés
 2026-09-13 10:46:24,210 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-11-15 11:46:27,397 - INFO - Sauvegarde effectuée: 50467 - Joël GUILBERT
 2026-11-15 11:46:27,397 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121932839809585633', 'text': '🏛 Le #maire de Saint-Floxel (Manche) est Joël GUILBERT (62 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-15 11:46:27,399 - INFO - === Fin ===
+2026-11-15 17:46:24,026 - INFO - === Démarrage Maires ===
+2026-11-15 17:46:24,026 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-15 17:46:24,026 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-15 17:46:24,097 - INFO - Historique chargé: 1897 maires déjà tweetés
+2026-11-15 17:46:24,113 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-15 17:46:24,114 - INFO - Nombre de maires déjà tweetés: 1897
+2026-11-15 17:46:24,115 - INFO - Sélectionné: 48182 - Franck BACHELARD (nouveau maire)
+2026-11-15 17:46:24,116 - INFO - Tweet: 🏛 Le #maire de Saint-Sauveur-De-Ginestoux (Lozère) est Franck BACHELARD (36 ans) #MairesdeFrance 🇫🇷
+2026-11-15 17:46:24,469 - INFO - Sauvegarde effectuée: 48182 - Franck BACHELARD
+2026-11-15 17:46:24,469 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122023424335691820', 'text': '🏛 Le #maire de Saint-Sauveur-De-Ginestoux (Lozère) est Franck BACHELARD (36 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-15 17:46:24,471 - INFO - === Fin ===
