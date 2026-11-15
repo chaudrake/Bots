@@ -46,7 +46,7 @@ def main():
 
     # Plage 6h-22h (Heure Française)
     if 6 <= hour <= 22:
-        if random.random() < 0.5:
+        if random.random() < 0.4:
             # Attente aléatoire entre 5 minutes (300s) et 2 heures (7200s)
             wait_seconds = random.randint(300, 7200)
             wait_minutes = round(wait_seconds / 60, 1)
