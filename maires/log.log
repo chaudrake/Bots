@@ -1,14 +1,3 @@
-2026-09-13 10:46:24,094 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-13 10:46:24,185 - INFO - Historique chargé: 1892 maires déjà tweetés
-2026-09-13 10:46:24,210 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-13 10:46:24,210 - INFO - Nombre de maires déjà tweetés: 1892
-2026-09-13 10:46:24,212 - INFO - Sélectionné: 35324 - Denis CHOPIN (nouveau maire)
-2026-09-13 10:46:24,214 - INFO - Tweet: 🏛 Le #maire de La Selle-En-Luitré (Ille-et-Vilaine) est Denis CHOPIN (56 ans) #MairesdeFrance 🇫🇷
-2026-09-13 10:46:24,403 - INFO - Erreur: 402 Payment Required
-credits depleted
-2026-09-13 10:46:24,405 - INFO - === Fin ===
-2026-09-13 16:46:23,189 - INFO - === Démarrage Maires ===
-2026-09-13 16:46:23,189 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-13 16:46:23,189 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-13 16:46:23,273 - INFO - Historique chargé: 1892 maires déjà tweetés
 2026-09-13 16:46:23,295 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-11-15 17:46:24,469 - INFO - Sauvegarde effectuée: 48182 - Franck BACHELARD
 2026-11-15 17:46:24,469 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122023424335691820', 'text': '🏛 Le #maire de Saint-Sauveur-De-Ginestoux (Lozère) est Franck BACHELARD (36 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-15 17:46:24,471 - INFO - === Fin ===
+2026-11-16 11:46:27,805 - INFO - === Démarrage Maires ===
+2026-11-16 11:46:27,805 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-16 11:46:27,806 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-16 11:46:27,896 - INFO - Historique chargé: 1898 maires déjà tweetés
+2026-11-16 11:46:27,920 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-16 11:46:27,921 - INFO - Nombre de maires déjà tweetés: 1898
+2026-11-16 11:46:27,922 - INFO - Sélectionné: 57383 - Jean-Marc WAGENHEIM (nouveau maire)
+2026-11-16 11:46:27,924 - INFO - Tweet: 🏛 Le #maire de Languimberg (Moselle) est Jean-Marc WAGENHEIM (66 ans) #MairesdeFrance 🇫🇷
+2026-11-16 11:46:28,167 - INFO - Sauvegarde effectuée: 57383 - Jean-Marc WAGENHEIM
+2026-11-16 11:46:28,168 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122295230972256311', 'text': '🏛 Le #maire de Languimberg (Moselle) est Jean-Marc WAGENHEIM (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-16 11:46:28,170 - INFO - === Fin ===
