@@ -1,14 +1,3 @@
-2026-09-13 16:46:23,189 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-09-13 16:46:23,273 - INFO - Historique chargé: 1892 maires déjà tweetés
-2026-09-13 16:46:23,295 - INFO - Nombre de maires actifs uniques: 34637
-2026-09-13 16:46:23,295 - INFO - Nombre de maires déjà tweetés: 1892
-2026-09-13 16:46:23,297 - INFO - Sélectionné: 21607 - Alain BECQUET (nouveau maire)
-2026-09-13 16:46:23,298 - INFO - Tweet: 🏛 Le #maire de Seurre (Côte-d'Or) est Alain BECQUET (50 ans) #MairesdeFrance 🇫🇷
-2026-09-13 16:46:23,525 - INFO - Erreur: 402 Payment Required
-credits depleted
-2026-09-13 16:46:23,527 - INFO - === Fin ===
-2026-09-14 10:46:23,205 - INFO - === Démarrage Maires ===
-2026-09-14 10:46:23,205 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-09-14 10:46:23,205 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-09-14 10:46:23,290 - INFO - Historique chargé: 1892 maires déjà tweetés
 2026-09-14 10:46:23,315 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@ credits depleted
 2026-11-16 11:46:28,167 - INFO - Sauvegarde effectuée: 57383 - Jean-Marc WAGENHEIM
 2026-11-16 11:46:28,168 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122295230972256311', 'text': '🏛 Le #maire de Languimberg (Moselle) est Jean-Marc WAGENHEIM (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-16 11:46:28,170 - INFO - === Fin ===
+2026-11-16 17:46:26,343 - INFO - === Démarrage Maires ===
+2026-11-16 17:46:26,343 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-16 17:46:26,343 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-16 17:46:26,430 - INFO - Historique chargé: 1899 maires déjà tweetés
+2026-11-16 17:46:26,455 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-16 17:46:26,455 - INFO - Nombre de maires déjà tweetés: 1899
+2026-11-16 17:46:26,456 - INFO - Sélectionné: 35175 - Florence RIGAUD (nouveau maire)
+2026-11-16 17:46:26,458 - INFO - Tweet: 🏛 La #maire de Mernel (Ille-et-Vilaine) est Florence RIGAUD (48 ans) #MairesdeFrance 🇫🇷
+2026-11-16 17:46:26,742 - INFO - Sauvegarde effectuée: 35175 - Florence RIGAUD
+2026-11-16 17:46:26,742 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122385821919776910', 'text': '🏛 La #maire de Mernel (Ille-et-Vilaine) est Florence RIGAUD (48 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-16 17:46:26,744 - INFO - === Fin ===
