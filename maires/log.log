@@ -1,13 +1,3 @@
-2026-11-13 17:46:23,236 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-13 17:46:23,289 - INFO - Historique chargé: 1893 maires déjà tweetés
-2026-11-13 17:46:23,301 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-13 17:46:23,301 - INFO - Nombre de maires déjà tweetés: 1893
-2026-11-13 17:46:23,302 - INFO - Sélectionné: 30031 - Laurent PARIS (nouveau maire)
-2026-11-13 17:46:23,303 - INFO - Tweet: 🏛 Le #maire de La Bastide-D'Engras (Gard) est Laurent PARIS (62 ans) #MairesdeFrance 🇫🇷
-2026-11-13 17:46:23,586 - INFO - Sauvegarde effectuée: 30031 - Laurent PARIS
-2026-11-13 17:46:23,586 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121298645014213050', 'text': "🏛 Le #maire de La Bastide-D'Engras (Gard) est Laurent PARIS (62 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-11-13 17:46:23,588 - INFO - === Fin ===
-2026-11-14 11:46:26,506 - INFO - === Démarrage Maires ===
 2026-11-14 11:46:26,506 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-14 11:46:26,506 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-14 11:46:26,576 - INFO - Historique chargé: 1894 maires déjà tweetés
@@ -105,3 +95,14 @@
 2026-11-18 11:46:29,262 - INFO - Tweet: 🏛 Le #maire de Montbrison (Loire) est Christophe BAZILE (55 ans) #MairesdeFrance 🇫🇷
 2026-11-18 11:46:29,282 - INFO - Erreur: 403 Forbidden
 2026-11-18 11:46:29,284 - INFO - === Fin ===
+2026-11-18 17:46:27,910 - INFO - === Démarrage Maires ===
+2026-11-18 17:46:27,910 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-18 17:46:27,910 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-18 17:46:28,002 - INFO - Historique chargé: 1902 maires déjà tweetés
+2026-11-18 17:46:28,024 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-18 17:46:28,024 - INFO - Nombre de maires déjà tweetés: 1902
+2026-11-18 17:46:28,025 - INFO - Sélectionné: 17227 - Jemmy HERVÉ (nouveau maire)
+2026-11-18 17:46:28,027 - INFO - Tweet: 🏛 Le #maire de Mazerolles (Charente-Maritime) est Jemmy HERVÉ (54 ans) #MairesdeFrance 🇫🇷
+2026-11-18 17:46:28,260 - INFO - Sauvegarde effectuée: 17227 - Jemmy HERVÉ
+2026-11-18 17:46:28,260 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123110604038623381', 'text': '🏛 Le #maire de Mazerolles (Charente-Maritime) est Jemmy HERVÉ (54 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-18 17:46:28,262 - INFO - === Fin ===
