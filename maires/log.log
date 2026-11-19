@@ -1,14 +1,3 @@
-2026-11-14 11:46:26,506 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-11-14 11:46:26,506 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-14 11:46:26,576 - INFO - Historique chargé: 1894 maires déjà tweetés
-2026-11-14 11:46:26,593 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-14 11:46:26,593 - INFO - Nombre de maires déjà tweetés: 1894
-2026-11-14 11:46:26,594 - INFO - Sélectionné: 63089 - Patrice GAUTHIER (nouveau maire)
-2026-11-14 11:46:26,595 - INFO - Tweet: 🏛 Le #maire de Chappes (Puy-de-Dôme) est Patrice GAUTHIER (66 ans) #MairesdeFrance 🇫🇷
-2026-11-14 11:46:26,892 - INFO - Sauvegarde effectuée: 63089 - Patrice GAUTHIER
-2026-11-14 11:46:26,892 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121570449821782292', 'text': '🏛 Le #maire de Chappes (Puy-de-Dôme) est Patrice GAUTHIER (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-14 11:46:26,894 - INFO - === Fin ===
-2026-11-14 17:46:24,345 - INFO - === Démarrage Maires ===
 2026-11-14 17:46:24,345 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-14 17:46:24,345 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-14 17:46:24,425 - INFO - Historique chargé: 1895 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-11-18 17:46:28,260 - INFO - Sauvegarde effectuée: 17227 - Jemmy HERVÉ
 2026-11-18 17:46:28,260 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123110604038623381', 'text': '🏛 Le #maire de Mazerolles (Charente-Maritime) est Jemmy HERVÉ (54 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-18 17:46:28,262 - INFO - === Fin ===
+2026-11-19 11:46:24,140 - INFO - === Démarrage Maires ===
+2026-11-19 11:46:24,140 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-19 11:46:24,140 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-19 11:46:24,214 - INFO - Historique chargé: 1903 maires déjà tweetés
+2026-11-19 11:46:24,232 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-19 11:46:24,232 - INFO - Nombre de maires déjà tweetés: 1903
+2026-11-19 11:46:24,234 - INFO - Sélectionné: 38413 - Jean-Luc GARNIER (nouveau maire)
+2026-11-19 11:46:24,236 - INFO - Tweet: 🏛 Le #maire de Saint-Laurent-En-Beaumont (Isère) est Jean-Luc GARNIER (61 ans) #MairesdeFrance 🇫🇷
+2026-11-19 11:46:24,482 - INFO - Sauvegarde effectuée: 38413 - Jean-Luc GARNIER
+2026-11-19 11:46:24,483 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123382379020525737', 'text': '🏛 Le #maire de Saint-Laurent-En-Beaumont (Isère) est Jean-Luc GARNIER (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-19 11:46:24,484 - INFO - === Fin ===
