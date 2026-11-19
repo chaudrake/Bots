@@ -1,14 +1,3 @@
-2026-11-14 17:46:24,345 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-11-14 17:46:24,345 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-14 17:46:24,425 - INFO - Historique chargé: 1895 maires déjà tweetés
-2026-11-14 17:46:24,442 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-14 17:46:24,442 - INFO - Nombre de maires déjà tweetés: 1895
-2026-11-14 17:46:24,443 - INFO - Sélectionné: 23072 - Daniel BEUZE (nouveau maire)
-2026-11-14 17:46:24,445 - INFO - Tweet: 🏛 Le #maire de Domeyrot (Creuse) est Daniel BEUZE (69 ans) #MairesdeFrance 🇫🇷
-2026-11-14 17:46:24,706 - INFO - Sauvegarde effectuée: 23072 - Daniel BEUZE
-2026-11-14 17:46:24,706 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2121661037623624050', 'text': '🏛 Le #maire de Domeyrot (Creuse) est Daniel BEUZE (69 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-14 17:46:24,708 - INFO - === Fin ===
-2026-11-15 11:46:27,056 - INFO - === Démarrage Maires ===
 2026-11-15 11:46:27,057 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-15 11:46:27,057 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-15 11:46:27,146 - INFO - Historique chargé: 1896 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-11-19 11:46:24,482 - INFO - Sauvegarde effectuée: 38413 - Jean-Luc GARNIER
 2026-11-19 11:46:24,483 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123382379020525737', 'text': '🏛 Le #maire de Saint-Laurent-En-Beaumont (Isère) est Jean-Luc GARNIER (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-19 11:46:24,484 - INFO - === Fin ===
+2026-11-19 17:46:28,068 - INFO - === Démarrage Maires ===
+2026-11-19 17:46:28,068 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-19 17:46:28,068 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-19 17:46:28,142 - INFO - Historique chargé: 1904 maires déjà tweetés
+2026-11-19 17:46:28,160 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-19 17:46:28,161 - INFO - Nombre de maires déjà tweetés: 1904
+2026-11-19 17:46:28,162 - INFO - Sélectionné: 11203 - Gérard FORCADA (nouveau maire)
+2026-11-19 17:46:28,164 - INFO - Tweet: 🏛 Le #maire de Lézignan-Corbières (Aude) est Gérard FORCADA (73 ans) #MairesdeFrance 🇫🇷
+2026-11-19 17:46:28,454 - INFO - Sauvegarde effectuée: 11203 - Gérard FORCADA
+2026-11-19 17:46:28,454 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123472992604930457', 'text': '🏛 Le #maire de Lézignan-Corbières (Aude) est Gérard FORCADA (73 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-19 17:46:28,456 - INFO - === Fin ===
