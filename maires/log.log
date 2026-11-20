@@ -1,14 +1,3 @@
-2026-11-15 17:46:24,026 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-11-15 17:46:24,026 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-15 17:46:24,097 - INFO - Historique chargé: 1897 maires déjà tweetés
-2026-11-15 17:46:24,113 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-15 17:46:24,114 - INFO - Nombre de maires déjà tweetés: 1897
-2026-11-15 17:46:24,115 - INFO - Sélectionné: 48182 - Franck BACHELARD (nouveau maire)
-2026-11-15 17:46:24,116 - INFO - Tweet: 🏛 Le #maire de Saint-Sauveur-De-Ginestoux (Lozère) est Franck BACHELARD (36 ans) #MairesdeFrance 🇫🇷
-2026-11-15 17:46:24,469 - INFO - Sauvegarde effectuée: 48182 - Franck BACHELARD
-2026-11-15 17:46:24,469 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122023424335691820', 'text': '🏛 Le #maire de Saint-Sauveur-De-Ginestoux (Lozère) est Franck BACHELARD (36 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-15 17:46:24,471 - INFO - === Fin ===
-2026-11-16 11:46:27,805 - INFO - === Démarrage Maires ===
 2026-11-16 11:46:27,805 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-16 11:46:27,806 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-16 11:46:27,896 - INFO - Historique chargé: 1898 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-11-20 11:46:31,685 - INFO - Sauvegarde effectuée: 24142 - Jacques MIGNIOT
 2026-11-20 11:46:31,685 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123744797110284670', 'text': '🏛 Le #maire de Coux Et Bigaroque-Mouzens (Dordogne) est Jacques MIGNIOT (71 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-20 11:46:31,688 - INFO - === Fin ===
+2026-11-20 17:46:34,174 - INFO - === Démarrage Maires ===
+2026-11-20 17:46:34,174 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-20 17:46:34,174 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-20 17:46:34,240 - INFO - Historique chargé: 1906 maires déjà tweetés
+2026-11-20 17:46:34,255 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-20 17:46:34,256 - INFO - Nombre de maires déjà tweetés: 1906
+2026-11-20 17:46:34,256 - INFO - Sélectionné: 27251 - André VAN DEN DRIESSCHE (nouveau maire)
+2026-11-20 17:46:34,258 - INFO - Tweet: 🏛 Le #maire de Fontaine-L'Abbé (Eure) est André VAN DEN DRIESSCHE (72 ans) #MairesdeFrance 🇫🇷
+2026-11-20 17:46:34,458 - INFO - Sauvegarde effectuée: 27251 - André VAN DEN DRIESSCHE
+2026-11-20 17:46:34,458 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123835405795774773', 'text': "🏛 Le #maire de Fontaine-L'Abbé (Eure) est André VAN DEN DRIESSCHE (72 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
+2026-11-20 17:46:34,460 - INFO - === Fin ===
