@@ -1,14 +1,3 @@
-2026-11-16 11:46:27,805 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-11-16 11:46:27,806 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-16 11:46:27,896 - INFO - Historique chargé: 1898 maires déjà tweetés
-2026-11-16 11:46:27,920 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-16 11:46:27,921 - INFO - Nombre de maires déjà tweetés: 1898
-2026-11-16 11:46:27,922 - INFO - Sélectionné: 57383 - Jean-Marc WAGENHEIM (nouveau maire)
-2026-11-16 11:46:27,924 - INFO - Tweet: 🏛 Le #maire de Languimberg (Moselle) est Jean-Marc WAGENHEIM (66 ans) #MairesdeFrance 🇫🇷
-2026-11-16 11:46:28,167 - INFO - Sauvegarde effectuée: 57383 - Jean-Marc WAGENHEIM
-2026-11-16 11:46:28,168 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2122295230972256311', 'text': '🏛 Le #maire de Languimberg (Moselle) est Jean-Marc WAGENHEIM (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-16 11:46:28,170 - INFO - === Fin ===
-2026-11-16 17:46:26,343 - INFO - === Démarrage Maires ===
 2026-11-16 17:46:26,343 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-16 17:46:26,343 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-16 17:46:26,430 - INFO - Historique chargé: 1899 maires déjà tweetés
@@ -106,3 +95,14 @@
 2026-11-20 17:46:34,458 - INFO - Sauvegarde effectuée: 27251 - André VAN DEN DRIESSCHE
 2026-11-20 17:46:34,458 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123835405795774773', 'text': "🏛 Le #maire de Fontaine-L'Abbé (Eure) est André VAN DEN DRIESSCHE (72 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
 2026-11-20 17:46:34,460 - INFO - === Fin ===
+2026-11-21 11:46:31,983 - INFO - === Démarrage Maires ===
+2026-11-21 11:46:31,983 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-21 11:46:31,983 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-21 11:46:32,076 - INFO - Historique chargé: 1907 maires déjà tweetés
+2026-11-21 11:46:32,099 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-21 11:46:32,099 - INFO - Nombre de maires déjà tweetés: 1907
+2026-11-21 11:46:32,100 - INFO - Sélectionné: 37251 - Chrystophe AUBERT (nouveau maire)
+2026-11-21 11:46:32,102 - INFO - Tweet: 🏛 Le #maire de Souvigné (Indre-et-Loire) est Chrystophe AUBERT (57 ans) #MairesdeFrance 🇫🇷
+2026-11-21 11:46:32,394 - INFO - Sauvegarde effectuée: 37251 - Chrystophe AUBERT
+2026-11-21 11:46:32,394 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124107187706298388', 'text': '🏛 Le #maire de Souvigné (Indre-et-Loire) est Chrystophe AUBERT (57 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-21 11:46:32,396 - INFO - === Fin ===
