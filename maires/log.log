@@ -1,14 +1,3 @@
-2026-11-18 17:46:27,910 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-18 17:46:28,002 - INFO - Historique chargé: 1902 maires déjà tweetés
-2026-11-18 17:46:28,024 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-18 17:46:28,024 - INFO - Nombre de maires déjà tweetés: 1902
-2026-11-18 17:46:28,025 - INFO - Sélectionné: 17227 - Jemmy HERVÉ (nouveau maire)
-2026-11-18 17:46:28,027 - INFO - Tweet: 🏛 Le #maire de Mazerolles (Charente-Maritime) est Jemmy HERVÉ (54 ans) #MairesdeFrance 🇫🇷
-2026-11-18 17:46:28,260 - INFO - Sauvegarde effectuée: 17227 - Jemmy HERVÉ
-2026-11-18 17:46:28,260 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123110604038623381', 'text': '🏛 Le #maire de Mazerolles (Charente-Maritime) est Jemmy HERVÉ (54 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-18 17:46:28,262 - INFO - === Fin ===
-2026-11-19 11:46:24,140 - INFO - === Démarrage Maires ===
-2026-11-19 11:46:24,140 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-19 11:46:24,140 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-19 11:46:24,214 - INFO - Historique chargé: 1903 maires déjà tweetés
 2026-11-19 11:46:24,232 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-11-23 11:46:29,514 - INFO - Sauvegarde effectuée: 60098 - Fabrice LONCKE
 2026-11-23 11:46:29,514 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124831951697633297', 'text': '🏛 Le #maire de Bouvresse (Oise) est Fabrice LONCKE (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-23 11:46:29,516 - INFO - === Fin ===
+2026-11-23 17:46:32,487 - INFO - === Démarrage Maires ===
+2026-11-23 17:46:32,487 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-23 17:46:32,487 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-23 17:46:32,574 - INFO - Historique chargé: 1912 maires déjà tweetés
+2026-11-23 17:46:32,597 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-23 17:46:32,597 - INFO - Nombre de maires déjà tweetés: 1912
+2026-11-23 17:46:32,599 - INFO - Sélectionné: 64420 - Sébastien LAPEYRE (nouveau maire)
+2026-11-23 17:46:32,601 - INFO - Tweet: 🏛 Le #maire de Ogenne-Camptort (Pyrénées-Atlantiques) est Sébastien LAPEYRE (43 ans) #MairesdeFrance 🇫🇷
+2026-11-23 17:46:32,883 - INFO - Sauvegarde effectuée: 64420 - Sébastien LAPEYRE
+2026-11-23 17:46:32,883 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124922562744643735', 'text': '🏛 Le #maire de Ogenne-Camptort (Pyrénées-Atlantiques) est Sébastien LAPEYRE (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-23 17:46:32,885 - INFO - === Fin ===
