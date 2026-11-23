@@ -1,14 +1,3 @@
-2026-11-18 11:46:29,181 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
-2026-11-18 11:46:29,181 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-18 11:46:29,244 - INFO - Historique chargé: 1902 maires déjà tweetés
-2026-11-18 11:46:29,259 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-18 11:46:29,259 - INFO - Nombre de maires déjà tweetés: 1902
-2026-11-18 11:46:29,261 - INFO - Sélectionné: 42147 - Christophe BAZILE (nouveau maire)
-2026-11-18 11:46:29,262 - INFO - Tweet: 🏛 Le #maire de Montbrison (Loire) est Christophe BAZILE (55 ans) #MairesdeFrance 🇫🇷
-2026-11-18 11:46:29,282 - INFO - Erreur: 403 Forbidden
-2026-11-18 11:46:29,284 - INFO - === Fin ===
-2026-11-18 17:46:27,910 - INFO - === Démarrage Maires ===
-2026-11-18 17:46:27,910 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-18 17:46:27,910 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-18 17:46:28,002 - INFO - Historique chargé: 1902 maires déjà tweetés
 2026-11-18 17:46:28,024 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-11-22 17:46:32,942 - INFO - Sauvegarde effectuée: 18035 - Aurélien LAUNAY
 2026-11-22 17:46:32,942 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124560175168369024', 'text': '🏛 Le #maire de Brécy (Cher) est Aurélien LAUNAY (50 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-22 17:46:32,944 - INFO - === Fin ===
+2026-11-23 11:46:29,125 - INFO - === Démarrage Maires ===
+2026-11-23 11:46:29,125 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-23 11:46:29,126 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-23 11:46:29,203 - INFO - Historique chargé: 1911 maires déjà tweetés
+2026-11-23 11:46:29,223 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-23 11:46:29,223 - INFO - Nombre de maires déjà tweetés: 1911
+2026-11-23 11:46:29,224 - INFO - Sélectionné: 60098 - Fabrice LONCKE (nouveau maire)
+2026-11-23 11:46:29,226 - INFO - Tweet: 🏛 Le #maire de Bouvresse (Oise) est Fabrice LONCKE (68 ans) #MairesdeFrance 🇫🇷
+2026-11-23 11:46:29,514 - INFO - Sauvegarde effectuée: 60098 - Fabrice LONCKE
+2026-11-23 11:46:29,514 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124831951697633297', 'text': '🏛 Le #maire de Bouvresse (Oise) est Fabrice LONCKE (68 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-23 11:46:29,516 - INFO - === Fin ===
