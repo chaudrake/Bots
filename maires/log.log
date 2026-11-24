@@ -1,14 +1,3 @@
-2026-11-19 11:46:24,140 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-19 11:46:24,214 - INFO - Historique chargé: 1903 maires déjà tweetés
-2026-11-19 11:46:24,232 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-19 11:46:24,232 - INFO - Nombre de maires déjà tweetés: 1903
-2026-11-19 11:46:24,234 - INFO - Sélectionné: 38413 - Jean-Luc GARNIER (nouveau maire)
-2026-11-19 11:46:24,236 - INFO - Tweet: 🏛 Le #maire de Saint-Laurent-En-Beaumont (Isère) est Jean-Luc GARNIER (61 ans) #MairesdeFrance 🇫🇷
-2026-11-19 11:46:24,482 - INFO - Sauvegarde effectuée: 38413 - Jean-Luc GARNIER
-2026-11-19 11:46:24,483 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123382379020525737', 'text': '🏛 Le #maire de Saint-Laurent-En-Beaumont (Isère) est Jean-Luc GARNIER (61 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-19 11:46:24,484 - INFO - === Fin ===
-2026-11-19 17:46:28,068 - INFO - === Démarrage Maires ===
-2026-11-19 17:46:28,068 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-19 17:46:28,068 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-19 17:46:28,142 - INFO - Historique chargé: 1904 maires déjà tweetés
 2026-11-19 17:46:28,160 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-11-23 17:46:32,883 - INFO - Sauvegarde effectuée: 64420 - Sébastien LAPEYRE
 2026-11-23 17:46:32,883 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124922562744643735', 'text': '🏛 Le #maire de Ogenne-Camptort (Pyrénées-Atlantiques) est Sébastien LAPEYRE (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-23 17:46:32,885 - INFO - === Fin ===
+2026-11-24 11:46:34,095 - INFO - === Démarrage Maires ===
+2026-11-24 11:46:34,095 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-24 11:46:34,095 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-24 11:46:34,182 - INFO - Historique chargé: 1913 maires déjà tweetés
+2026-11-24 11:46:34,203 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-24 11:46:34,203 - INFO - Nombre de maires déjà tweetés: 1913
+2026-11-24 11:46:34,204 - INFO - Sélectionné: 68205 - Françoise BOOG (nouveau maire)
+2026-11-24 11:46:34,206 - INFO - Tweet: 🏛 La #maire de Meyenheim (Haut-Rhin) est Françoise BOOG (66 ans) #MairesdeFrance 🇫🇷
+2026-11-24 11:46:34,434 - INFO - Sauvegarde effectuée: 68205 - Françoise BOOG
+2026-11-24 11:46:34,434 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2125194360153387181', 'text': '🏛 La #maire de Meyenheim (Haut-Rhin) est Françoise BOOG (66 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-24 11:46:34,436 - INFO - === Fin ===
