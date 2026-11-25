@@ -1,14 +1,3 @@
-2026-11-20 17:46:34,174 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-20 17:46:34,240 - INFO - Historique chargé: 1906 maires déjà tweetés
-2026-11-20 17:46:34,255 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-20 17:46:34,256 - INFO - Nombre de maires déjà tweetés: 1906
-2026-11-20 17:46:34,256 - INFO - Sélectionné: 27251 - André VAN DEN DRIESSCHE (nouveau maire)
-2026-11-20 17:46:34,258 - INFO - Tweet: 🏛 Le #maire de Fontaine-L'Abbé (Eure) est André VAN DEN DRIESSCHE (72 ans) #MairesdeFrance 🇫🇷
-2026-11-20 17:46:34,458 - INFO - Sauvegarde effectuée: 27251 - André VAN DEN DRIESSCHE
-2026-11-20 17:46:34,458 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2123835405795774773', 'text': "🏛 Le #maire de Fontaine-L'Abbé (Eure) est André VAN DEN DRIESSCHE (72 ans) #MairesdeFrance 🇫🇷"}, includes={}, errors=[], meta={})
-2026-11-20 17:46:34,460 - INFO - === Fin ===
-2026-11-21 11:46:31,983 - INFO - === Démarrage Maires ===
-2026-11-21 11:46:31,983 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-21 11:46:31,983 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-21 11:46:32,076 - INFO - Historique chargé: 1907 maires déjà tweetés
 2026-11-21 11:46:32,099 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-11-25 11:46:33,304 - INFO - Sauvegarde effectuée: 54179 - Michaël GODEFROY
 2026-11-25 11:46:33,304 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2125556742901624992', 'text': '🏛 Le #maire de Eply (Meurthe-et-Moselle) est Michaël GODEFROY (52 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-25 11:46:33,306 - INFO - === Fin ===
+2026-11-25 17:46:27,980 - INFO - === Démarrage Maires ===
+2026-11-25 17:46:27,980 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-25 17:46:27,980 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-25 17:46:28,041 - INFO - Historique chargé: 1916 maires déjà tweetés
+2026-11-25 17:46:28,057 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-25 17:46:28,057 - INFO - Nombre de maires déjà tweetés: 1916
+2026-11-25 17:46:28,058 - INFO - Sélectionné: 40242 - Nicolas LAFON (nouveau maire)
+2026-11-25 17:46:28,060 - INFO - Tweet: 🏛 Le #maire de Rimbez-Et-Baudiets (Landes) est Nicolas LAFON (63 ans) #MairesdeFrance 🇫🇷
+2026-11-25 17:46:28,335 - INFO - Sauvegarde effectuée: 40242 - Nicolas LAFON
+2026-11-25 17:46:28,335 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2125647319399858462', 'text': '🏛 Le #maire de Rimbez-Et-Baudiets (Landes) est Nicolas LAFON (63 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-25 17:46:28,337 - INFO - === Fin ===
