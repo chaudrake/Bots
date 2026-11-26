@@ -1,14 +1,3 @@
-2026-11-21 17:46:29,701 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-21 17:46:29,798 - INFO - Historique chargé: 1908 maires déjà tweetés
-2026-11-21 17:46:29,821 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-21 17:46:29,822 - INFO - Nombre de maires déjà tweetés: 1908
-2026-11-21 17:46:29,823 - INFO - Sélectionné: 27099 - Alexandra BOURIENNE (nouveau maire)
-2026-11-21 17:46:29,825 - INFO - Tweet: 🏛 La #maire de Le Boulay-Morin (Eure) est Alexandra BOURIENNE (43 ans) #MairesdeFrance 🇫🇷
-2026-11-21 17:46:30,038 - INFO - Sauvegarde effectuée: 27099 - Alexandra BOURIENNE
-2026-11-21 17:46:30,039 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124197775084511569', 'text': '🏛 La #maire de Le Boulay-Morin (Eure) est Alexandra BOURIENNE (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-21 17:46:30,041 - INFO - === Fin ===
-2026-11-22 11:46:30,487 - INFO - === Démarrage Maires ===
-2026-11-22 11:46:30,487 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-22 11:46:30,487 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-22 11:46:30,576 - INFO - Historique chargé: 1909 maires déjà tweetés
 2026-11-22 11:46:30,597 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-11-26 11:46:35,310 - INFO - Sauvegarde effectuée: 85031 - Anne BIZON
 2026-11-26 11:46:35,310 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2125919139298672928', 'text': '🏛 La #maire de Le Boupère (Vendée) est Anne BIZON (56 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-26 11:46:35,312 - INFO - === Fin ===
+2026-11-26 17:46:28,360 - INFO - === Démarrage Maires ===
+2026-11-26 17:46:28,360 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-26 17:46:28,360 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-26 17:46:28,449 - INFO - Historique chargé: 1918 maires déjà tweetés
+2026-11-26 17:46:28,471 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-26 17:46:28,471 - INFO - Nombre de maires déjà tweetés: 1918
+2026-11-26 17:46:28,472 - INFO - Sélectionné: 43121 - Julien ROCHE (nouveau maire)
+2026-11-26 17:46:28,474 - INFO - Tweet: 🏛 Le #maire de Léotoing (Haute-Loire) est Julien ROCHE (43 ans) #MairesdeFrance 🇫🇷
+2026-11-26 17:46:28,799 - INFO - Sauvegarde effectuée: 43121 - Julien ROCHE
+2026-11-26 17:46:28,800 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2126009709182271727', 'text': '🏛 Le #maire de Léotoing (Haute-Loire) est Julien ROCHE (43 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-26 17:46:28,802 - INFO - === Fin ===
