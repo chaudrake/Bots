@@ -1,14 +1,3 @@
-2026-11-22 17:46:32,653 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
-2026-11-22 17:46:32,725 - INFO - Historique chargé: 1910 maires déjà tweetés
-2026-11-22 17:46:32,745 - INFO - Nombre de maires actifs uniques: 34637
-2026-11-22 17:46:32,745 - INFO - Nombre de maires déjà tweetés: 1910
-2026-11-22 17:46:32,746 - INFO - Sélectionné: 18035 - Aurélien LAUNAY (nouveau maire)
-2026-11-22 17:46:32,749 - INFO - Tweet: 🏛 Le #maire de Brécy (Cher) est Aurélien LAUNAY (50 ans) #MairesdeFrance 🇫🇷
-2026-11-22 17:46:32,942 - INFO - Sauvegarde effectuée: 18035 - Aurélien LAUNAY
-2026-11-22 17:46:32,942 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2124560175168369024', 'text': '🏛 Le #maire de Brécy (Cher) est Aurélien LAUNAY (50 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
-2026-11-22 17:46:32,944 - INFO - === Fin ===
-2026-11-23 11:46:29,125 - INFO - === Démarrage Maires ===
-2026-11-23 11:46:29,125 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
 2026-11-23 11:46:29,126 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
 2026-11-23 11:46:29,203 - INFO - Historique chargé: 1911 maires déjà tweetés
 2026-11-23 11:46:29,223 - INFO - Nombre de maires actifs uniques: 34637
@@ -106,3 +95,14 @@
 2026-11-27 11:46:30,489 - INFO - Sauvegarde effectuée: 89308 - Valérie PICON
 2026-11-27 11:46:30,489 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2126281507157454852', 'text': '🏛 La #maire de Pont-Sur-Vanne (Yonne) est Valérie PICON (56 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
 2026-11-27 11:46:30,491 - INFO - === Fin ===
+2026-11-27 17:46:30,519 - INFO - === Démarrage Maires ===
+2026-11-27 17:46:30,519 - INFO - WORKING_DIR: /home/runner/work/Bots/Bots/maires
+2026-11-27 17:46:30,519 - INFO - Fichier historique: /home/runner/work/Bots/Bots/maires/tweeted_maires.txt
+2026-11-27 17:46:30,591 - INFO - Historique chargé: 1920 maires déjà tweetés
+2026-11-27 17:46:30,607 - INFO - Nombre de maires actifs uniques: 34637
+2026-11-27 17:46:30,607 - INFO - Nombre de maires déjà tweetés: 1920
+2026-11-27 17:46:30,608 - INFO - Sélectionné: 27410 - Hervé GILLES (nouveau maire)
+2026-11-27 17:46:30,610 - INFO - Tweet: 🏛 Le #maire de Miserey (Eure) est Hervé GILLES (67 ans) #MairesdeFrance 🇫🇷
+2026-11-27 17:46:30,918 - INFO - Sauvegarde effectuée: 27410 - Hervé GILLES
+2026-11-27 17:46:30,918 - INFO - Succès: Response(data={'edit_history_tweet_ids': [''], 'id': '2126372105956577586', 'text': '🏛 Le #maire de Miserey (Eure) est Hervé GILLES (67 ans) #MairesdeFrance 🇫🇷'}, includes={}, errors=[], meta={})
+2026-11-27 17:46:30,920 - INFO - === Fin ===
