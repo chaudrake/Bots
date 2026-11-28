@@ -668,3 +668,7 @@ Dans cette expression la demeure est le fait de demeurer, de tarder.
 Un réveil.
 Un réveille-matin.
 Des réveille-matin.
+
+Fleuve ou rivière ?
+Un fleuve se jette dans la mer, l'océan ou une mer intérieure.
+Une rivière est un affluent d'un fleuve.
